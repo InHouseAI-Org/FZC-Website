@@ -1,5 +1,6 @@
 import { motion } from 'motion/react';
-import { ArrowRight, Mail, Phone } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import { ChevronRight, Mail, Phone, Play } from 'lucide-react';
 
 export function CTASection() {
   return (
@@ -70,13 +71,14 @@ export function CTASection() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="mb-12"
+            className="mb-12 flex justify-center"
           >
-            <button className="group inline-flex items-center space-x-3 px-10 py-5 bg-[#e31e24] text-white text-lg tracking-wide hover:bg-[#c41a20] transition-all duration-300 hover:scale-105">
+            <Link to="/contact" className="group px-8 py-4 bg-[#e31e24] text-white tracking-wide hover:bg-[#c41a20] transition-all duration-300 flex items-center space-x-2">
               <span>Talk to an Engineer</span>
-              <ArrowRight className="w-5 h-5 group-hover:translate-x-2 transition-transform" />
-            </button>
+              <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+            </Link>
           </motion.div>
+
 
           {/* Contact Options */}
           <motion.div

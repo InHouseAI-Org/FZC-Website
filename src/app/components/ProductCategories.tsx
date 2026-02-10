@@ -1,4 +1,5 @@
 import { motion } from 'motion/react';
+import { Link } from 'react-router-dom';
 import { Package, Layers, Settings, Flame, Circle, Maximize2 } from 'lucide-react';
 
 // 3D CSS Diagrams for each product
@@ -196,24 +197,38 @@ export function ProductCategories() {
   const products = [
     {
       icon: Package,
-      title: 'Compression Packing',
+      title: 'Compression Packings',
       description: 'High-performance braided and compression packings for rotating and reciprocating equipment.',
-      specs: ['PTFE', 'Graphite', 'Aramid', 'API 622 Certified'],
+      specs: ['Fugitive Emission','Carbon / Grpahite','PTFE','Polymide','Hybrid'],
+      diagram: CompressionPackingDiagram,
+    },
+    {
+      icon: Package,
+      title: 'Graphite Moulded Products',
+      description: 'High-performance moulded graphite products for static and dynamic sealing applications.',
+      specs: ['Carbon / Grpahite','PTFE','Polymide','Hybrid'],
+      diagram: CompressionPackingDiagram,
+    },
+    {
+      icon: Package,
+      title: 'Flange Joint Gaskets',
+      description: 'High-performance braided and compression packings for rotating and reciprocating equipment.',
+      specs: ['Carbon / Grpahite','PTFE','Polymide','Hybrid'],
       diagram: CompressionPackingDiagram,
     },
     {
       icon: Settings,
-      title: 'Valve Sealing',
-      description: 'Specialized sealing solutions for gate, globe, ball, and butterfly valves in critical applications.',
-      specs: ['API 607', 'Fire-safe', 'Low emission', 'Custom profiles'],
-      diagram: ValveSealingDiagram,
+      title: 'Flange Isolation Gaskets',
+      description: 'High-performance braided and compression packings for rotating and reciprocating equipment.',
+      specs: ['Carbon / Grpahite','PTFE','Polymide','Hybrid'],
+      diagram: CompressionPackingDiagram,
     },
     {
       icon: Layers,
-      title: 'Industrial Gaskets',
-      description: 'Engineered gasket solutions for flange sealing across critical industrial applications.',
-      specs: ['Metal', 'Non-asbestos', 'Spiral wound', 'EN 16752'],
-      diagram: IndustrialGasketDiagram,
+      title: 'Metallic Gaskets',
+      description: 'High-performance braided and compression packings for rotating and reciprocating equipment.',
+      specs: ['Carbon / Grpahite','PTFE','Polymide','Hybrid'],
+      diagram: CompressionPackingDiagram,
     },
     {
       icon: Flame,
@@ -221,21 +236,7 @@ export function ProductCategories() {
       description: 'High-temperature insulation materials for heat management and energy conservation.',
       specs: ['Up to 1200°C', 'Ceramic fiber', 'Microporous', 'Fire resistant'],
       diagram: ThermalInsulationDiagram,
-    },
-    {
-      icon: Circle,
-      title: 'Elastomeric Sealing',
-      description: 'Flexible rubber and polymer sealing solutions for dynamic and static applications.',
-      specs: ['O-rings', 'Rubber sheets', 'Custom molding', 'FDA compliant'],
-      diagram: ElastomericSealingDiagram,
-    },
-    {
-      icon: Maximize2,
-      title: 'Expansion Joints',
-      description: 'Flexible connectors designed to absorb thermal expansion, vibration, and movement.',
-      specs: ['Metal', 'Fabric', 'PTFE lined', 'Custom design'],
-      diagram: ExpansionJointDiagram,
-    },
+    }
   ];
 
   return (
@@ -282,14 +283,17 @@ export function ProductCategories() {
             const Icon = product.icon;
             const Diagram = product.diagram;
             return (
-              <motion.div
+              <Link
                 key={index}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-                className="group relative bg-[#1a1918] border-l-4 border-transparent hover:border-[#e31e24] p-8 transition-all duration-500 hover:bg-[#252423] overflow-visible"
+                to="/products"
               >
+                <motion.div
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.6, delay: index * 0.1 }}
+                  className="group relative bg-[#1a1918] border-l-4 border-transparent hover:border-[#e31e24] p-8 transition-all duration-500 hover:bg-[#252423] overflow-visible cursor-pointer"
+                >
                 {/* Icon */}
                 <div className="flex items-start justify-between mb-6">
                   <div className="p-3 bg-[#2b2a29] group-hover:bg-[#e31e24] transition-colors duration-300">
@@ -348,6 +352,7 @@ export function ProductCategories() {
                   </div>
                 </div>
               </motion.div>
+              </Link>
             );
           })}
         </div>

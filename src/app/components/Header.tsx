@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Play } from 'lucide-react';
-import inmarcoLogo from '@/assets/inmarco-logo.png';
+import inmarcoLogo from '@/assets/inmarco-tagline-logo.png';
 
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -36,12 +37,14 @@ export function Header() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, [isInSustainability]);
 
+  const location = useLocation();
+
   const navItems = [
-    { label: 'Home', href: '#home' },
-    { label: 'About Us', href: '#about' },
-    { label: 'Industries', href: '#industries' },
-    { label: 'Products', href: '#products' },
-    { label: 'Contact', href: '#contact' },
+    { label: 'Home', href: '/' },
+    { label: 'About Us', href: '/about-us' },
+    { label: 'Industries', href: '/industries' },
+    { label: 'Products', href: '/products' },
+    { label: 'Contact', href: '/contact' },
   ];
 
   // Define accent colors based on section
@@ -63,43 +66,65 @@ export function Header() {
       <div className="relative z-10 max-w-[1400px] mx-auto px-6 lg:px-12">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <a href="#home" className="relative flex items-center space-x-4">
+          <Link to="/" className="relative flex items-center space-x-4">
             <div className="relative overflow-hidden" style={{ width: '180px', height: '64px' }}>
               <img
                 src={inmarcoLogo}
                 alt="INMARCO"
                 className="absolute"
                 style={{
-                  height: '75px',
+                  height: '77px',
                   top: '0px',
                   left: '0',
-                  borderRadius: '33px'
+                  borderRadius: '0px'
                 }}
               />
-              <span className="absolute text-white" style={{ fontSize: '18px', top: '-2px', right: '60px' }}>®</span>
+              {/*<span className="absolute text-white" style={{ fontSize: '18px', top: '-2px', right: '60px' }}>®</span>*/}
             </div>
-          </a>
+          </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center space-x-8">
-            {navItems.map((item) => (
-              <a
-                key={item.label}
-                href={item.href}
-                className="text-sm tracking-wide text-white hover: transition-colors duration-200 relative group"
-              >
-                {item.label}
-                <span
-                  className={`absolute bottom-0 left-0 h-[2px] ${accentColor} transition-all duration-500 ${
-                    showTransitionAnimation ? 'w-full' : 'w-0 group-hover:w-full'
-                  }`}
-                ></span>
-              </a>
-            ))}
+            {navItems.map((item) => {
+              const isActive = item.href.startsWith('#') ? false : location.pathname === item.href;
+              const isHashLink = item.href.startsWith('#') || item.href.includes('#');
+
+              if (isHashLink) {
+                return (
+                  <a
+                    key={item.label}
+                    href={item.href}
+                    className="text-sm tracking-wide text-white hover: transition-colors duration-200 relative group"
+                  >
+                    {item.label}
+                    <span
+                      className={`absolute bottom-0 left-0 h-[2px] ${accentColor} transition-all duration-500 ${
+                        showTransitionAnimation ? 'w-full' : 'w-0 group-hover:w-full'
+                      }`}
+                    ></span>
+                  </a>
+                );
+              }
+
+              return (
+                <Link
+                  key={item.label}
+                  to={item.href}
+                  className="text-sm tracking-wide text-white hover: transition-colors duration-200 relative group"
+                >
+                  {item.label}
+                  <span
+                    className={`absolute bottom-0 left-0 h-[2px] ${accentColor} transition-all duration-500 ${
+                      isActive || showTransitionAnimation ? 'w-full' : 'w-0 group-hover:w-full'
+                    }`}
+                  ></span>
+                </Link>
+              );
+            })}
           </nav>
 
-          <a
-            href="#about"
+          <Link
+            to="/fluid-sealing-simplified"
             className={`hidden md:flex items-center space-x-2 text-sm tracking-wide border-l border-white/70 pl-4 transition-all duration-500 group ${
               showTransitionAnimation
                 ? 'text-green-400'
@@ -108,12 +133,12 @@ export function Header() {
           >
             <Play className={`w-4 h-4 transition-all duration-500 ${showTransitionAnimation ? 'scale-110' : 'group-hover:scale-110'}`} />
             <span>Fluid Sealing Simplified</span>
-          </a>
+          </Link>
 
           {/* CTA Button */}
-          <button className={`hidden lg:block px-6 py-3 ${buttonBgColor} text-white text-sm tracking-wide ${accentHoverColor} transition-all duration-500`}>
+          <Link to="/contact" className={`hidden lg:block px-6 py-3 ${buttonBgColor} text-white text-sm tracking-wide ${accentHoverColor} transition-all duration-500`}>
             Get in Touch
-          </button>
+          </Link>
 
           {/* Mobile Menu Button */}
           <button
@@ -133,21 +158,40 @@ export function Header() {
         } ${isMobileMenuOpen ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0 overflow-hidden'}`}
       >
         <nav className="px-6 py-6 space-y-4">
-          {navItems.map((item) => (
-            <a
-              key={item.label}
-              href={item.href}
-              onClick={() => setIsMobileMenuOpen(false)}
-              className={`block text-gray-300 hover:text-white transition-colors duration-200 py-2 border-l-2 pl-4 ${
-                isInSustainability ? 'border-green-500' : 'border-transparent hover:border-[#e31e24]'
-              }`}
-            >
-              {item.label}
-            </a>
-          ))}
-          <button className={`w-full px-6 py-3 ${buttonBgColor} text-white text-sm tracking-wide ${accentHoverColor} transition-all duration-500 mt-4`}>
+          {navItems.map((item) => {
+            const isHashLink = item.href.startsWith('#') || item.href.includes('#');
+
+            if (isHashLink) {
+              return (
+                <a
+                  key={item.label}
+                  href={item.href}
+                  onClick={() => setIsMobileMenuOpen(false)}
+                  className={`block text-gray-300 hover:text-white transition-colors duration-200 py-2 border-l-2 pl-4 ${
+                    isInSustainability ? 'border-green-500' : 'border-transparent hover:border-[#e31e24]'
+                  }`}
+                >
+                  {item.label}
+                </a>
+              );
+            }
+
+            return (
+              <Link
+                key={item.label}
+                to={item.href}
+                onClick={() => setIsMobileMenuOpen(false)}
+                className={`block text-gray-300 hover:text-white transition-colors duration-200 py-2 border-l-2 pl-4 ${
+                  isInSustainability ? 'border-green-500' : 'border-transparent hover:border-[#e31e24]'
+                }`}
+              >
+                {item.label}
+              </Link>
+            );
+          })}
+          <Link to="/contact" className={`block w-full px-6 py-3 ${buttonBgColor} text-white text-sm tracking-wide ${accentHoverColor} transition-all duration-500 mt-4 text-center`}>
             Get in Touch
-          </button>
+          </Link>
         </nav>
       </div>
     </header>

@@ -3,32 +3,26 @@ import { Link } from 'react-router-dom';
 import { ImageWithFallback } from '@/app/components/figma/ImageWithFallback';
 import { ChevronRight, Play } from 'lucide-react';
 
-export function Hero() {
+export function Hero1() {
   return (
     <section id="home" className="relative min-h-screen flex items-center bg-[#2b2a29] overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0">
         <ImageWithFallback
-          src="https://images.unsplash.com/photo-1759148414485-5f624fe9d1ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxpbmR1c3RyaWFsJTIwdmFsdmUlMjBtYWNoaW5lcnl8ZW58MXx8fHwxNzY5NjI2ODU1fDA&ixlib=rb-4.1.0&q=80&w=1080"
+          /*src="https://images.unsplash.com/photo-1759148414485-5f624fe9d1ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxpbmR1c3RyaWFsJTIwdmFsdmUlMjBtYWNoaW5lcnl8ZW58MXx8fHwxNzY5NjI2ODU1fDA&ixlib=rb-4.1.0&q=80&w=1080"*/
+          // src="/ChatGPT Image Feb 10, 2026 at 07_26_05 PM.png"
+          // src="/ChatGPT Image Feb 10, 2026 at 07_41_47 PM.png"
+          // src="/ChatGPT Image Feb 10, 2026 at 07_46_41 PM.png"
+          // src="/Gemini_Generated_Image_3icc3n3icc3n3icc.png"
+          src="/Gemini_Generated_Image_sip94asip94asip9.png"
+          // src="/Gemini_Generated_Image_qg02laqg02laqg02.png"
           alt="Industrial valve and machinery"
           className="w-full h-full object-cover"
           style={{width: '200%'}}
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#2b2a29]/95 via-[#2b2a29]/85 to-[#2b2a29]/70"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-[#2b2a29]/95 via-[#2b2a29]/45 to-[#2b2a29]/2"></div>
       </div>
 
-       {/* Nature-inspired Flowing Gradient */}
-        <motion.div
-          className="absolute inset-0 opacity-20"
-          animate={{
-            background: [
-              'radial-gradient(circle at 20% 50%, rgba(34, 139, 34, 0.3) 0%, transparent 50%)',
-              'radial-gradient(circle at 80% 50%, rgba(34, 139, 34, 0.3) 0%, transparent 50%)',
-              'radial-gradient(circle at 20% 50%, rgba(34, 139, 34, 0.3) 0%, transparent 50%)',
-            ],
-          }}
-          transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
-        />
 
       {/* Animated Red Accent Line */}
       <motion.div
@@ -143,7 +137,7 @@ export function Hero() {
       </motion.div>
 
       {/* Bottom Gradient for Smooth Transition */}
-      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#2b2a29] to-transparent z-10"></div>
+      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#2b2a29]/3 to-transparent z-10"></div>
     </section>
   );
 }

@@ -71,7 +71,7 @@
 To engineer sealing solutions that deliver long-term reliability, ensure process safety, and align with evolving environmental and emission standards worldwide.
 
 **Our Vision:**
-To become a globally recognized industrial sealing brand from the Middle East — integrating technology, materials science, and digital intelligence to redefine reliability.
+To become a globally recognized industrial sealing brand from the Middle East - integrating technology, materials science, and digital intelligence to redefine reliability.
 
 ### 2.7 Contact Us
 - Sales Enquiry
@@ -85,11 +85,11 @@ To become a globally recognized industrial sealing brand from the Middle East �
 
 **Headline:** Engineering Reliability for a Fluid World
 
-Inmarco FZC is an engineering-led manufacturer and solution provider specializing in industrial fluid sealing systems — from compression packings and gaskets to custom-engineered sealing materials for pumps, valves, and other critical process equipment.
+Inmarco FZC is an engineering-led manufacturer and solution provider specializing in industrial fluid sealing systems - from compression packings and gaskets to custom-engineered sealing materials for pumps, valves, and other critical process equipment.
 
 Headquartered in the UAE, we serve a broad spectrum of industries including Oil & Gas, Power Generation, Petrochemical, and Mining, providing performance-driven sealing solutions designed to meet the challenges of heat, pressure, chemical compatibility, and emission control.
 
-**Every Inmarco product reflects our belief that reliability is engineered — not assumed.**
+**Every Inmarco product reflects our belief that reliability is engineered - not assumed.**
 
 ### 3.2 Our Story
 
@@ -99,7 +99,7 @@ Founded with the vision to bridge the gap between international technology stand
 
 Through years of field experience and collaboration with OEMs, maintenance teams, and process engineers, we have developed a portfolio of tested, certified, and high-performance sealing products built for operational endurance and environmental responsibility.
 
-From our strategic base in Sharjah Free Zone, we support customers across the Middle East, Africa, Central Asia, and beyond — combining agility with deep engineering competence.
+From our strategic base in Sharjah Free Zone, we support customers across the Middle East, Africa, Central Asia, and beyond - combining agility with deep engineering competence.
 
 ### 3.3 Our Mission & Vision
 
@@ -107,7 +107,7 @@ From our strategic base in Sharjah Free Zone, we support customers across the Mi
 To engineer sealing solutions that deliver long-term reliability, ensure process safety, and align with evolving environmental and emission standards worldwide.
 
 **Vision:**
-To become a globally recognized industrial sealing brand from the Middle East — integrating technology, materials science, and digital intelligence to redefine reliability.
+To become a globally recognized industrial sealing brand from the Middle East - integrating technology, materials science, and digital intelligence to redefine reliability.
 
 ### 3.4 Our Difference
 
@@ -115,7 +115,7 @@ To become a globally recognized industrial sealing brand from the Middle East �
 |---|---|
 | **Low Emission Technology** | Our API 622–compliant graphite packings and PTFE hybrids set the regional standard for emission control. |
 | **Certified Quality** | Products tested to international standards such as EN 16752, API 607, and fire-safe performance benchmarks. |
-| **Application Expertise** | Decades of experience across pumps, valves, agitators, and static seals — supported by on-site engineering advice. |
+| **Application Expertise** | Decades of experience across pumps, valves, agitators, and static seals - supported by on-site engineering advice. |
 | **Local Presence, Global Standards** | Manufactured and distributed from the UAE, ensuring fast access and world-class reliability. |
 
 ### 3.5 Core Values
@@ -145,11 +145,11 @@ To become a globally recognized industrial sealing brand from the Middle East �
 
 With an expanding network across Kazakhstan, Algeria, India, and the GCC, Inmarco FZC delivers regional support backed by centralized technical excellence.
 
-We are actively building partnerships with distributors, maintenance contractors, and valve service houses to bring sealing technology closer to end users — with local stock, engineering support, and training.
+We are actively building partnerships with distributors, maintenance contractors, and valve service houses to bring sealing technology closer to end users - with local stock, engineering support, and training.
 
 ### 3.7 Sustainability & Future
 
-Leakage control is not just about efficiency — it's about responsibility.
+Leakage control is not just about efficiency - it's about responsibility.
 
 Inmarco FZC is committed to reducing emissions, conserving energy, and supporting global sustainability goals through engineered sealing solutions that perform reliably under pressure.
 
@@ -159,7 +159,7 @@ Looking ahead, we are investing in digital transformation and AI integration, de
 
 Behind every product and service is a team driven by precision, care, and curiosity.
 
-From our engineers and production experts to our field specialists and partners, we share one belief — that every seal we design protects something critical: people, processes, and the planet.
+From our engineers and production experts to our field specialists and partners, we share one belief - that every seal we design protects something critical: people, processes, and the planet.
 
 ### 3.9 Leadership / Team
 *Content TBD*

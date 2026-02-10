@@ -1,0 +1,435 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Compression Packing",
+      "slug": "compression-packing",
+      "description": "High-performance compression packing for rotary, centrifugal, and reciprocating pumps, mixers, agitators, and valves",
+      "image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+    },
+    {
+      "id": 2,
+      "name": "Valve Sealing",
+      "slug": "valve-sealing",
+      "description": "API 622, API 589, and API 607 certified valve sealing systems with expandable cartridge seals",
+      "image": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+    },
+    {
+      "id": 3,
+      "name": "Industrial Gaskets",
+      "slug": "industrial-gaskets",
+      "description": "Metallic, semi-metallic, and non-metallic gaskets for critical sealing applications",
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+    },
+    {
+      "id": 4,
+      "name": "Thermal Insulation",
+      "slug": "thermal-insulation",
+      "description": "Glass, ceramic, and silica-based thermal insulation in fabrics, blankets, ropes, and tapes",
+      "image": "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+    },
+    {
+      "id": 5,
+      "name": "Elastomeric Sealing",
+      "slug": "elastomeric-sealing",
+      "description": "High-performance O-rings and molded elastomeric seals for diverse applications",
+      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+    },
+    {
+      "id": 6,
+      "name": "Expansion Joints",
+      "slug": "expansion-joints",
+      "description": "Rubber, metal, and fabric expansion joints for piping systems and equipment",
+      "image": "https://images.unsplash.com/photo-1768779611359-c4bb38ba3c1e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+    }
+  ],
+  "subcategories": [
+    {
+      "id": 1,
+      "categoryId": 1,
+      "name": "Centrifugal Pumps",
+      "slug": "centrifugal-pumps",
+      "description": "Compression packing for centrifugal pump applications"
+    },
+    {
+      "id": 2,
+      "categoryId": 1,
+      "name": "Reciprocating Pumps",
+      "slug": "reciprocating-pumps",
+      "description": "Packing for reciprocating and plunger pumps"
+    },
+    {
+      "id": 3,
+      "categoryId": 1,
+      "name": "Mixers & Agitators",
+      "slug": "mixers-agitators",
+      "description": "Sealing solutions for mixing and agitation equipment"
+    },
+    {
+      "id": 4,
+      "categoryId": 1,
+      "name": "Reactors & Dryers",
+      "slug": "reactors-dryers",
+      "description": "Packing for reactors and drying equipment"
+    },
+    {
+      "id": 5,
+      "categoryId": 2,
+      "name": "Control Valve Seals",
+      "slug": "control-valve-seals",
+      "description": "Specialized sealing for control valves"
+    },
+    {
+      "id": 6,
+      "categoryId": 2,
+      "name": "Valve Bonnet Seals",
+      "slug": "valve-bonnet-seals",
+      "description": "Bonnet gaskets and sealing systems"
+    },
+    {
+      "id": 7,
+      "categoryId": 2,
+      "name": "Expandable Cartridge Seals",
+      "slug": "expandable-cartridge-seals",
+      "description": "API certified expandable valve seals"
+    },
+    {
+      "id": 8,
+      "categoryId": 3,
+      "name": "Metallic Gaskets",
+      "slug": "metallic-gaskets",
+      "description": "RTJ and corrugated metal gaskets"
+    },
+    {
+      "id": 9,
+      "categoryId": 3,
+      "name": "Semi-Metallic Gaskets",
+      "slug": "semi-metallic-gaskets",
+      "description": "Spiral wound and heat exchanger gaskets"
+    },
+    {
+      "id": 10,
+      "categoryId": 3,
+      "name": "Non-Metallic Gaskets",
+      "slug": "non-metallic-gaskets",
+      "description": "Compressed fiber, PTFE, and graphite gaskets"
+    },
+    {
+      "id": 11,
+      "categoryId": 4,
+      "name": "Insulation Fabrics & Blankets",
+      "slug": "insulation-fabrics-blankets",
+      "description": "Thermal insulation fabrics and blanket materials"
+    },
+    {
+      "id": 12,
+      "categoryId": 4,
+      "name": "Insulation Ropes & Sleeves",
+      "slug": "insulation-ropes-sleeves",
+      "description": "High-temperature ropes and protective sleeves"
+    },
+    {
+      "id": 13,
+      "categoryId": 5,
+      "name": "High Performance O-Rings",
+      "slug": "high-performance-o-rings",
+      "description": "O-rings for demanding applications"
+    },
+    {
+      "id": 14,
+      "categoryId": 5,
+      "name": "Molded Elastomeric Seals",
+      "slug": "molded-elastomeric-seals",
+      "description": "Custom molded sealing components"
+    },
+    {
+      "id": 15,
+      "categoryId": 6,
+      "name": "Rubber Expansion Joints",
+      "slug": "rubber-expansion-joints",
+      "description": "Flexible rubber expansion joints"
+    },
+    {
+      "id": 16,
+      "categoryId": 6,
+      "name": "Metal Expansion Joints",
+      "slug": "metal-expansion-joints",
+      "description": "Metallic bellows expansion joints"
+    },
+    {
+      "id": 17,
+      "categoryId": 6,
+      "name": "Fabric Expansion Joints",
+      "slug": "fabric-expansion-joints",
+      "description": "High-temperature fabric expansion joints"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "subcategoryId": 1,
+      "name": "IM-2000 Graphite Packing",
+      "slug": "im-2000-graphite-packing",
+      "shortDescription": "API 622 compliant pure graphite compression packing for centrifugal pumps",
+      "description": "IM-2000 is a high-performance pure graphite compression packing designed for centrifugal pump applications. Manufactured from flexible graphite yarns, it provides excellent thermal conductivity and chemical resistance. API 622 certified for low emission performance.",
+      "image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "specifications": {
+        "material": "Pure Expanded Graphite",
+        "construction": "Braided with aramid corners",
+        "temperature": "-200°C to +650°C",
+        "pressure": "Up to 200 bar",
+        "speed": "Up to 20 m/s",
+        "pH": "0-14",
+        "standards": "API 622, EN 13555"
+      },
+      "features": [
+        "API 622 compliant - low emission certified",
+        "Excellent thermal conductivity prevents overheating",
+        "Superior chemical resistance to acids, alkalis, and solvents",
+        "Self-lubricating - reduces shaft wear",
+        "Easy installation and maintenance",
+        "Long service life reduces downtime"
+      ],
+      "applications": [
+        "Centrifugal pumps in refineries",
+        "Chemical processing pumps",
+        "Power generation equipment",
+        "Water treatment facilities",
+        "Marine applications"
+      ],
+      "advantages": [
+        "Reduces fugitive emissions",
+        "Extends pump seal life",
+        "Compatible with most fluids",
+        "Cost-effective solution"
+      ],
+      "technicalData": {
+        "density": "1.8 g/cm³",
+        "compressibility": "25% at 50 MPa",
+        "recovery": "15% minimum",
+        "tensileStrength": "45 MPa"
+      }
+    },
+    {
+      "id": 2,
+      "subcategoryId": 1,
+      "name": "IM-2100 PTFE Graphite Hybrid",
+      "slug": "im-2100-ptfe-graphite-hybrid",
+      "shortDescription": "PTFE and graphite blend for high-speed centrifugal pump applications",
+      "description": "IM-2100 combines the best properties of PTFE and graphite, offering superior performance in high-speed centrifugal pumps. The hybrid construction provides excellent sealing with minimal friction and heat generation.",
+      "image": "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "specifications": {
+        "material": "PTFE/Graphite Composite",
+        "construction": "Interlock braid",
+        "temperature": "-100°C to +280°C",
+        "pressure": "Up to 150 bar",
+        "speed": "Up to 25 m/s",
+        "pH": "2-12",
+        "standards": "EN 13555"
+      },
+      "features": [
+        "Low friction coefficient reduces wear",
+        "Excellent chemical resistance",
+        "High-speed capability",
+        "Reduced heat generation",
+        "Self-lubricating properties",
+        "Wide pH range compatibility"
+      ],
+      "applications": [
+        "High-speed centrifugal pumps",
+        "Boiler feed pumps",
+        "Condensate pumps",
+        "Hot water circulation",
+        "Chemical transfer pumps"
+      ],
+      "advantages": [
+        "Extended seal life",
+        "Lower maintenance costs",
+        "Reduced shaft wear",
+        "Improved reliability"
+      ],
+      "technicalData": {
+        "density": "1.6 g/cm³",
+        "compressibility": "20% at 50 MPa",
+        "recovery": "18% minimum",
+        "tensileStrength": "55 MPa"
+      }
+    },
+    {
+      "id": 3,
+      "subcategoryId": 2,
+      "name": "IM-3000 Aramid PTFE Packing",
+      "slug": "im-3000-aramid-ptfe-packing",
+      "shortDescription": "High-strength aramid fiber with PTFE for rotary pumps",
+      "description": "IM-3000 is engineered specifically for positive displacement rotary pumps. The aramid fiber core provides exceptional strength while PTFE ensures excellent sealing and lubrication properties.",
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "specifications": {
+        "material": "Aramid Fiber with PTFE",
+        "construction": "Square braid",
+        "temperature": "-50°C to +260°C",
+        "pressure": "Up to 300 bar",
+        "speed": "Up to 5 m/s",
+        "pH": "3-11",
+        "standards": "FDA approved"
+      },
+      "features": [
+        "Exceptional mechanical strength",
+        "FDA compliant for food applications",
+        "Low coefficient of friction",
+        "Excellent dimensional stability",
+        "Resistant to extrusion",
+        "Long service life"
+      ],
+      "applications": [
+        "Gear pumps",
+        "Screw pumps",
+        "Lobe pumps",
+        "Food processing equipment",
+        "Pharmaceutical pumps"
+      ],
+      "advantages": [
+        "High pressure capability",
+        "Food grade certified",
+        "Minimal shaft damage",
+        "Easy to install"
+      ],
+      "technicalData": {
+        "density": "1.4 g/cm³",
+        "compressibility": "15% at 50 MPa",
+        "recovery": "20% minimum",
+        "tensileStrength": "80 MPa"
+      }
+    },
+    {
+      "id": 4,
+      "subcategoryId": 3,
+      "name": "IM-4000 Valve Stem Packing",
+      "slug": "im-4000-valve-stem-packing",
+      "shortDescription": "Low emission valve packing for critical service",
+      "description": "IM-4000 is specifically designed for valve applications requiring stringent emission control. Combines graphite flexibility with mechanical reinforcement for extended service life.",
+      "image": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "specifications": {
+        "material": "Flexible Graphite",
+        "construction": "Lattice braid with Inconel wire",
+        "temperature": "-200°C to +650°C",
+        "pressure": "Up to 400 bar",
+        "speed": "Static to 0.5 m/s",
+        "pH": "0-14",
+        "standards": "API 622, API 624, ISO 15848"
+      },
+      "features": [
+        "API 622 and 624 certified",
+        "Ultra-low emission performance",
+        "Fire-safe rated",
+        "Excellent thermal cycling resistance",
+        "Minimal maintenance required",
+        "Universal chemical compatibility"
+      ],
+      "applications": [
+        "Gate valves",
+        "Globe valves",
+        "Ball valves",
+        "Butterfly valves",
+        "Control valves"
+      ],
+      "advantages": [
+        "Meets emission regulations",
+        "Extended packing life",
+        "Reduced valve maintenance",
+        "Fire-safe certification"
+      ],
+      "technicalData": {
+        "density": "1.9 g/cm³",
+        "compressibility": "30% at 50 MPa",
+        "recovery": "12% minimum",
+        "tensileStrength": "50 MPa"
+      }
+    },
+    {
+      "id": 5,
+      "subcategoryId": 5,
+      "name": "IM-SWG-316 Spiral Wound Gasket",
+      "slug": "im-swg-316-spiral-wound-gasket",
+      "shortDescription": "316 stainless steel spiral wound gasket with graphite filler",
+      "description": "Premium spiral wound gasket featuring 316 stainless steel winding and flexible graphite filler. Designed for high-pressure and high-temperature flange applications.",
+      "image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "specifications": {
+        "material": "316SS with Flexible Graphite",
+        "construction": "Spiral wound with inner/outer ring",
+        "temperature": "-200°C to +550°C",
+        "pressure": "Up to 250 bar",
+        "standards": "ASME B16.20, EN 1514-2"
+      },
+      "features": [
+        "High resilience and recovery",
+        "Excellent sealing under thermal cycling",
+        "Blow-out resistant design",
+        "Multiple flange compatibility",
+        "Fire-safe construction",
+        "Corrosion resistant"
+      ],
+      "applications": [
+        "Pressure vessels",
+        "Heat exchangers",
+        "Piping systems",
+        "Oil & gas flanges",
+        "Chemical reactors"
+      ],
+      "advantages": [
+        "Superior sealing performance",
+        "Long service life",
+        "Reduced leakage",
+        "Cost-effective"
+      ],
+      "technicalData": {
+        "gasketFactor": "3.0",
+        "minimumSeatingStress": "69 MPa",
+        "maximumOperatingStress": "250 MPa",
+        "compressionStrain": "35%"
+      }
+    },
+    {
+      "id": 6,
+      "subcategoryId": 6,
+      "name": "IM-NAF-1500 Compressed Fiber Sheet",
+      "slug": "im-naf-1500-compressed-fiber-sheet",
+      "shortDescription": "Non-asbestos compressed fiber gasket material",
+      "description": "IM-NAF-1500 is a high-quality non-asbestos compressed fiber sheet suitable for general industrial applications. Offers excellent sealing properties and chemical resistance.",
+      "image": "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "specifications": {
+        "material": "Non-asbestos fiber composite",
+        "thickness": "0.5mm to 6.0mm",
+        "temperature": "-50°C to +450°C",
+        "pressure": "Up to 100 bar",
+        "standards": "ASME B16.21"
+      },
+      "features": [
+        "Asbestos-free formulation",
+        "Good compressibility",
+        "Resistant to oils and fuels",
+        "Easy to cut and install",
+        "Cost-effective solution",
+        "Wide availability"
+      ],
+      "applications": [
+        "General industrial flanges",
+        "Water systems",
+        "Oil and fuel lines",
+        "Compressors",
+        "Pumps and valves"
+      ],
+      "advantages": [
+        "Environmentally friendly",
+        "Versatile application",
+        "Easy handling",
+        "Economical"
+      ],
+      "technicalData": {
+        "density": "1.85 g/cm³",
+        "compressibility": "15-25%",
+        "recovery": "30% minimum",
+        "tensileStrength": "20 MPa"
+      }
+    }
+  ]
+}

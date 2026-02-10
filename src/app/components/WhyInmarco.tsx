@@ -1,4 +1,5 @@
 import { motion } from 'motion/react';
+import { Link } from 'react-router-dom';
 import { Award, Target, Users, Zap } from 'lucide-react';
 
 export function WhyInmarco() {
@@ -105,7 +106,7 @@ export function WhyInmarco() {
             className="text-white mb-4"
             style={{ fontSize: 'clamp(2rem, 4vw, 3.5rem)', lineHeight: '1.2', letterSpacing: '-0.01em' }}
           >
-            The Inmarco Difference
+            The <span className="text-red-500 uppercase" style={{fontFamily: 'Switzerlandcondblack'}}>Inmarco</span> Difference
           </motion.h2>
           
           <motion.p
@@ -260,29 +261,31 @@ export function WhyInmarco() {
               </motion.p>
             </div>
 
-            <motion.button
-              initial={{ opacity: 0, x: 20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: 1 }}
-              whileHover={{ scale: 1.05, boxShadow: "0 0 30px rgba(227, 30, 36, 0.5)" }}
-              whileTap={{ scale: 0.95 }}
-              className="relative px-10 py-4 bg-[#e31e24] text-white tracking-wide overflow-hidden whitespace-nowrap group"
-            >
-              {/* Button shine effect */}
-              <motion.div
-                className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent"
-                animate={{
-                  x: ["-100%", "200%"],
-                }}
-                transition={{
-                  duration: 2,
-                  repeat: Infinity,
-                  repeatDelay: 1,
-                }}
-              />
-              <span className="relative z-10">Contact Our Engineers</span>
-            </motion.button>
+            <Link to="/contact">
+              <motion.button
+                initial={{ opacity: 0, x: 20 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.1, delay: 0 }}
+                whileHover={{ scale: 1.05, boxShadow: "0 0 30px rgba(227, 30, 36, 0.5)" }}
+                whileTap={{ scale: 0.95 }}
+                className="relative px-10 py-4 bg-[#e31e24] text-white tracking-wide overflow-hidden whitespace-nowrap group"
+              >
+                {/* Button shine effect */}
+                <motion.div
+                  className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent"
+                  animate={{
+                    x: ["-100%", "200%"],
+                  }}
+                  transition={{
+                    duration: 0.5,
+                    repeat: Infinity,
+                    repeatDelay: 1,
+                  }}
+                />
+                <span className="relative z-10">Contact Our Engineers</span>
+              </motion.button>
+            </Link>
           </div>
         </motion.div>
       </div>

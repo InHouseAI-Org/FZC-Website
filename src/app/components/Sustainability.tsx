@@ -6,8 +6,8 @@ export function Sustainability() {
     {
       icon: Droplets,
       title: 'API 622 Low-Emission Certification',
-      description: 'Graphite packings achieving <100 ppm fugitive emissions—setting regional standards for environmental compliance',
-      metric: '<100 ppm',
+      description: 'Graphite packings achieving <20 ppm fugitive emissions-setting regional standards for environmental compliance',
+      metric: '<20 ppm',
       color: 'from-green-500 to-emerald-600',
     },
     {
@@ -115,7 +115,7 @@ export function Sustainability() {
             </span>
           </h2>
           <p className="text-gray-300 text-lg max-w-3xl mx-auto leading-relaxed">
-            Reducing emissions, conserving energy, and supporting global sustainability goals through engineered sealing solutions that perform reliably under pressure — because every seal protects people, processes, and the planet.
+            Reducing emissions, conserving energy, and supporting global sustainability goals through engineered sealing solutions that perform reliably under pressure - because every seal protects people, processes, and the planet.
           </p>
         </motion.div>
 
@@ -174,7 +174,6 @@ export function Sustainability() {
                   {/* Icon with gradient background */}
                   <motion.div
                     className={`w-16 h-16 rounded-lg bg-gradient-to-br ${feature.color} p-0.5 mb-6`}
-                    whileHover={{ rotate: 360, scale: 1.1 }}
                     transition={{ duration: 0.6 }}
                   >
                     <div className="w-full h-full bg-[#1a1918] rounded-lg flex items-center justify-center">

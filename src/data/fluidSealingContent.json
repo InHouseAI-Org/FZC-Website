@@ -1,0 +1,52 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Understanding Graphite Packing for High-Temperature Applications",
+      "description": "Explore the science behind graphite packing materials and why they're essential for extreme temperature sealing in power generation and petrochemical industries. Learn about material composition, performance characteristics, and real-world applications.",
+      "linkedInPostLink": "https://www.linkedin.com/company/inmarco/posts/?feedView=all",
+      "youtubeLink": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "date": "2024-12-15"
+    },
+    {
+      "id": 2,
+      "title": "API 622 Compliance: Low Emission Packing Standards Explained",
+      "description": "A comprehensive guide to API 622 standards for fugitive emissions control. Discover how certified low-emission packing solutions help industries meet environmental regulations while maintaining operational efficiency.",
+      "linkedInPostLink": "https://www.linkedin.com/company/inmarco/posts/?feedView=all",
+      "youtubeLink": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "date": "2024-12-01"
+    },
+    {
+      "id": 3,
+      "title": "Gasket Selection Guide: Choosing the Right Material",
+      "description": "Not all gaskets are created equal. This guide walks you through material selection criteria including temperature ranges, chemical compatibility, pressure ratings, and application-specific requirements for industrial sealing.",
+      "linkedInPostLink": "https://www.linkedin.com/company/inmarco/posts/?feedView=all",
+      "youtubeLink": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "date": "2024-11-20"
+    },
+    {
+      "id": 4,
+      "title": "Valve Packing Installation Best Practices",
+      "description": "Proper installation is critical for sealing performance. Learn the step-by-step process for installing compression packing, common mistakes to avoid, and maintenance tips for extended service life.",
+      "linkedInPostLink": "https://www.linkedin.com/company/inmarco/posts/?feedView=all",
+      "youtubeLink": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "date": "2024-11-05"
+    },
+    {
+      "id": 5,
+      "title": "The Future of Industrial Sealing: Smart Materials & IoT",
+      "description": "Discover how digital transformation and advanced materials science are revolutionizing industrial sealing. From predictive maintenance to AI-driven product selection, explore the innovations shaping the future of fluid sealing.",
+      "linkedInPostLink": "https://www.linkedin.com/company/inmarco/posts/?feedView=all",
+      "youtubeLink": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "date": "2024-10-25"
+    },
+    {
+      "id": 6,
+      "title": "Troubleshooting Common Pump Packing Issues",
+      "description": "Is your pump leaking or overheating? Learn to identify and resolve common packing problems including improper compression, shaft damage, excessive heat, and premature wear. Expert tips for optimal pump performance.",
+      "linkedInPostLink": "https://www.linkedin.com/company/inmarco/posts/?feedView=all",
+      "youtubeLink": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "date": "2024-10-10"
+    }
+  ]
+}

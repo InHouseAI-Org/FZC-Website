@@ -5,7 +5,15 @@ export function CompanyOverview() {
   const expertise = [
     {
       area: "Low Emission Technology",
-      detail: "API 622 compliant graphite packings achieving <100 ppm fugitive emissions"
+      detail: "API 622 compliant graphite packings achieving <20 ppm fugitive emissions"
+    },
+    {
+      area: "Application Engineering",
+      detail: "Technical support for pump, valve, agitator, and static seal selection"
+    },
+    {
+      area: "Emerging Sectors",
+      detail: "Support for renewable energy, hydrogen, and advanced manufacturing applications"
     },
     {
       area: "Extreme Conditions",
@@ -14,10 +22,6 @@ export function CompanyOverview() {
     {
       area: "Certified Manufacturing",
       detail: "EN 16752, API 607 fire-safe, ISO standards with full traceability"
-    },
-    {
-      area: "Application Engineering",
-      detail: "Technical support for pump, valve, agitator, and static seal selection"
     }
   ];
 
@@ -25,33 +29,33 @@ export function CompanyOverview() {
     {
       icon: Shield,
       metric: "API Certified",
-      value: "622, 624, 607",
+      value: "622, 624, 641, 607",
       description: "Low emission & fire-safe qualifications"
     },
     {
       icon: Gauge,
       metric: "Performance Range",
-      value: "650°C / 350 Bar",
+      value: "-196°C to 538°C / 425 Bar",
       description: "Extreme temperature & pressure rated"
     },
     {
       icon: FileCheck,
       metric: "Compliance",
-      value: "EN 16752 / TA-Luft",
+      value: "ISO 15848 / EN 16752 / TA-Luft",
       description: "European emission standards certified"
     },
     {
       icon: Award,
-      metric: "Quality System",
-      value: "ISO Certified",
-      description: "Documented manufacturing processes"
+      metric: "Management System",
+      value: "ISO 9001 Certified",
+      description: "Defined quality management system"
     }
   ];
 
   return (
     <section id="about" className="relative py-32 overflow-hidden">
       {/* Smooth Transition Gradient from Hero */}
-      <div className="absolute top-0 left-0 right-0 h-32 bg-gradient-to-b from-[#2b2a29] to-transparent z-20"></div>
+      <div className="absolute top-0 left-0 right-0 h-32 bg-gradient-to-b from-[#2b2a29]/50 to-transparent z-20"></div>
 
       {/* Background Video with Gradient Overlay */}
       <div className="absolute inset-0">
@@ -119,7 +123,7 @@ export function CompanyOverview() {
           </h2>
           <p className="text-gray-400 text-lg max-w-3xl mx-auto leading-relaxed">
             Specialized manufacturer of compression packings, gaskets, and sealing systems for critical industrial applications.
-            From API-certified low emission solutions to fire-safe rated products—engineered for heat, pressure, and chemical compatibility.
+            From API-certified low emission solutions to fire-safe rated products-engineered for heat, pressure, and chemical compatibility.
           </p>
         </motion.div>
 
@@ -165,7 +169,7 @@ export function CompanyOverview() {
               </motion.div>
 
 
-              <motion.div
+              {/*<motion.div
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
@@ -174,7 +178,7 @@ export function CompanyOverview() {
               >
                 <div className="text-2xl text-white mb-1 font-light">GCC + Asia</div>
                 <div className="text-xs text-[#e31e24] uppercase tracking-wider">Regional Reach</div>
-              </motion.div>
+              </motion.div>*/}
             </div>
           </motion.div>
 
