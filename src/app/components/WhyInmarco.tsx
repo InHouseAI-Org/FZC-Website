@@ -106,7 +106,7 @@ export function WhyInmarco() {
             className="text-white mb-4"
             style={{ fontSize: 'clamp(2rem, 4vw, 3.5rem)', lineHeight: '1.2', letterSpacing: '-0.01em' }}
           >
-            The <span className="text-red-500 uppercase" style={{fontFamily: 'Switzerlandcondblack'}}>Inmarco</span> Difference
+            The <span className="text-red-500 uppercase" style={{fontFamily: 'SwitzerlandCondBlack, Switzerland, sans-serif', fontWeight: 800}}>Inmarco</span> Difference
           </motion.h2>
           
           <motion.p

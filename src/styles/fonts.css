@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'SwitzerlandCondBlack';
+  src: local('SwitzerlandCondBlack'),
+       local('Switzerland Cond Black'),
+       url('/fonts/SwitzerlandCondBlack.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Alias for easier use */
+@font-face {
+  font-family: 'Switzerland';
+  src: local('SwitzerlandCondBlack'),
+       local('Switzerland Cond Black'),
+       url('/fonts/SwitzerlandCondBlack.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
