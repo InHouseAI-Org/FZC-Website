@@ -34,10 +34,13 @@ export function Hero2() {
         {/* Bottom Image (base layer) - Image #1 */}
         <div className="absolute inset-0 pointer-events-none">
           <ImageWithFallback
-            src="Gemini_Generated_Image_5h4dsy5h4dsy5h4d.png"
+            // src="Gemini_Generated_Image_5h4dsy5h4dsy5h4d.png"
+            // src="Screenshot 2026-02-18 at 1.33.53 PM.png"
+            // src="ChatGPT Image Feb 18, 2026 at 01_54_04 PM.png"
+            src="ChatGPT Image Feb 18, 2026 at 01_58_58 PM.png"
             alt="Industrial valve and machinery"
             className="w-full h-full object-cover"
-            style={{width: '200%'}}
+            style={{width: '100%', height:'100%'}}
           />
         </div>
 
