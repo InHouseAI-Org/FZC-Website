@@ -37,7 +37,10 @@ export function Hero2() {
             // src="Gemini_Generated_Image_5h4dsy5h4dsy5h4d.png"
             // src="Screenshot 2026-02-18 at 1.33.53 PM.png"
             // src="ChatGPT Image Feb 18, 2026 at 01_54_04 PM.png"
-            src="ChatGPT Image Feb 18, 2026 at 01_58_58 PM.png"
+            // src="ChatGPT Image Feb 18, 2026 at 01_58_58 PM.png"
+            // src = "public/ChatGPT Image Feb 20, 2026 at 11_36_13 AM.png"
+            // src="public/ChatGPT Image Feb 20, 2026 at 03_28_49 PM.png"
+            src="public/ChatGPT Image Feb 20, 2026 at 03_36_20 PM.png"
             alt="Industrial valve and machinery"
             className="w-full h-full object-cover"
             style={{width: '100%', height:'100%'}}
@@ -103,7 +106,8 @@ export function Hero2() {
               letterSpacing: '-0.02em'
             }}
           >
-            Engineering Reliability for a{' '}
+            Innovation in Industrial{' '}
+            <br/>
             <motion.span
               className="inline-block text-[#e31e24]"
               initial={{ opacity: 0, scale: 0.8 }}
@@ -113,7 +117,7 @@ export function Hero2() {
                 textShadow: "0 0 20px rgba(227, 30, 36, 0.5)"
               }}
             >
-              Fluid World
+              Fluid Sealing
             </motion.span>
           </motion.h1>
 
@@ -122,8 +126,8 @@ export function Hero2() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="text-gray-300 mb-10 max-w-2xl"
-            style={{ fontSize: 'clamp(1.1rem, 2vw, 1.3rem)', lineHeight: '1.6' }}
+            className="text-gray-300 mb-10"
+            style={{ fontSize: 'clamp(1.1rem, 2vw, 1.3rem)', lineHeight: '1.6', width: '60%' }}
           >
             Advanced fluid sealing solutions designed for extreme pressure, temperature, and performance.
           </motion.p>

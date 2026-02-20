@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { Leaf, Droplets, Shield, Zap, Sparkles } from 'lucide-react';
+import { Leaf, Droplets, Shield, Zap, Sparkles, Wind, Battery, TrendingUp, Award } from 'lucide-react';
 
 export function Sustainability() {
   const sustainabilityFeatures = [
@@ -27,18 +27,52 @@ export function Sustainability() {
   ];
 
   const impactStats = [
-    { value: '85%', label: 'Emission Reduction', color: 'text-green-400' },
-    { value: '60%', label: 'Energy Conservation', color: 'text-emerald-400' },
-    { value: 'API 622', label: 'Certified Standards', color: 'text-teal-400' },
+    {
+      label: 'Emission Reduction',
+      icon: Wind,
+      color: 'text-emerald-200',
+      iconColor: 'text-emerald-400',
+      bgGradient: 'from-emerald-500/20 via-green-500/10 to-transparent',
+      borderColor: 'border-emerald-400/40',
+      glowColor: 'shadow-emerald-500/50'
+    },
+    {
+      label: 'Energy Conservation',
+      icon: Battery,
+      color: 'text-green-200',
+      iconColor: 'text-green-400',
+      bgGradient: 'from-green-500/20 via-lime-500/10 to-transparent',
+      borderColor: 'border-green-400/40',
+      glowColor: 'shadow-green-500/50'
+    },
+    {
+      label: 'Operational Efficiency',
+      icon: TrendingUp,
+      color: 'text-teal-200',
+      iconColor: 'text-teal-400',
+      bgGradient: 'from-teal-500/20 via-cyan-500/10 to-transparent',
+      borderColor: 'border-teal-400/40',
+      glowColor: 'shadow-teal-500/50'
+    },
+    {
+      label: 'Certified Standards',
+      subLabel: 'API & ISO',
+      icon: Award,
+      color: 'text-lime-200',
+      iconColor: 'text-lime-400',
+      bgGradient: 'from-lime-500/20 via-yellow-500/10 to-transparent',
+      borderColor: 'border-lime-400/40',
+      glowColor: 'shadow-lime-500/50'
+    },
   ];
 
   return (
     <section id="sustainability" className="relative py-32 overflow-hidden bg-[#2b2a29]">
       {/* Background Video/Image with Green Gradient Overlay */}
       <div className="absolute inset-0">
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1920')] bg-cover bg-center"></div>
-        <div className="absolute inset-0 bg-gradient-to-br from-[#2b2a29]/95 via-green-900/20 to-[#2b2a29]/90"></div>
-        <div className="absolute inset-0 bg-gradient-to-t from-[#2b2a29] via-transparent to-[#2b2a29]/50"></div>
+        <div className="absolute inset-0 bg-[url('/public/iStock-1344923072.jpg')] bg-cover bg-center"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-[#2b2a29]/70 via-green-900/10 to-[#2b2a29]/50"></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-[#2b2a29]/80 via-transparent to-[#2b2a29]/60"></div>
       </div>
 
       {/* Animated Green Floating Elements */}
@@ -111,51 +145,232 @@ export function Sustainability() {
           >
             Leakage Control is<br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-emerald-400 to-teal-400">
-              Environmental Responsibility
+              Our {' '}
             </span>
+            Responsibility
           </h2>
-          <p className="text-gray-300 text-lg max-w-3xl mx-auto leading-relaxed">
+          <p className="text-gray-200 text-lg max-w-3xl mx-auto leading-relaxed">
             Reducing emissions, conserving energy, and supporting global sustainability goals through engineered sealing solutions that perform reliably under pressure - because every seal protects people, processes, and the planet.
           </p>
         </motion.div>
 
-        {/* Impact Stats */}
+        {/* Impact Stats - Side Layout */}
+        <div className="flex flex-col md:flex-row justify-between items-center gap-8 mb-20">
+          {/* Left Column */}
+          <div className="flex flex-col gap-8 w-full md:w-96">
+            {impactStats.slice(0, 2).map((stat, index) => {
+              const Icon = stat.icon;
+              return (
+                <motion.div
+                  key={index}
+                  initial={{ opacity: 0, x: -80, rotateY: -15 }}
+                  whileInView={{ opacity: 1, x: 0, rotateY: 0 }}
+                  viewport={{ once: true }}
+                  transition={{
+                    duration: 0.8,
+                    delay: 0.2 + index * 0.2,
+                    type: "spring",
+                    stiffness: 100
+                  }}
+                  whileHover={{ scale: 1.05, x: 12 }}
+                  className="relative group"
+                >
+                  {/* Animated glow effect */}
+                  <motion.div
+                    className={`absolute -inset-1 bg-gradient-to-r ${stat.bgGradient} rounded-xl blur-lg opacity-0 group-hover:opacity-100 transition-all duration-500`}
+                    animate={{
+                      scale: [1, 1.1, 1],
+                    }}
+                    transition={{
+                      duration: 3,
+                      repeat: Infinity,
+                      ease: "easeInOut"
+                    }}
+                  />
+
+                  <div className={`relative bg-gradient-to-br from-[#1a1918]/90 to-[#252423]/80 backdrop-blur-xl border-2 ${stat.borderColor} group-hover:border-opacity-100 rounded-xl overflow-hidden transition-all duration-300 shadow-lg`}>
+                    {/* Animated background gradient */}
+                    <motion.div
+                      className={`absolute inset-0 bg-gradient-to-br ${stat.bgGradient} opacity-20`}
+                      animate={{
+                        opacity: [0.2, 0.4, 0.2],
+                      }}
+                      transition={{
+                        duration: 4,
+                        repeat: Infinity,
+                        ease: "easeInOut"
+                      }}
+                    />
+
+                    <div className="relative p-6 flex items-center gap-5">
+                      {/* Animated Icon */}
+                      <motion.div
+                        className={`p-3.5 bg-gradient-to-br ${stat.bgGradient} rounded-xl border ${stat.borderColor}`}
+                        animate={{
+                          rotate: [0, 5, 0, -5, 0],
+                          y: [0, -4, 0, 4, 0],
+                        }}
+                        transition={{
+                          duration: 5,
+                          repeat: Infinity,
+                          ease: "easeInOut"
+                        }}
+                        whileHover={{
+                          scale: 1.2,
+                          rotate: 360,
+                          transition: { duration: 0.6 }
+                        }}
+                      >
+                        <Icon className={`w-7 h-7 ${stat.iconColor}`} strokeWidth={2.5} />
+                      </motion.div>
+
+                      {/* Text */}
+                      <div className="flex-1">
+                        <motion.h3
+                          className={`text-lg font-bold ${stat.color} leading-tight`}
+                          initial={{ opacity: 0, y: 10 }}
+                          whileInView={{ opacity: 1, y: 0 }}
+                          viewport={{ once: true }}
+                          transition={{ duration: 0.6, delay: 0.5 + index * 0.1 }}
+                        >
+                          {stat.label}
+                        </motion.h3>
+                        {stat.subLabel && (
+                          <span className="text-xs text-gray-400 mt-0.5 block">{stat.subLabel}</span>
+                        )}
+                      </div>
+                    </div>
+
+                    {/* Decorative corner accents */}
+                    <div className={`absolute top-0 right-0 w-16 h-16 bg-gradient-to-bl ${stat.bgGradient} opacity-30 blur-xl`}></div>
+                    <div className={`absolute bottom-0 left-0 w-12 h-12 bg-gradient-to-tr ${stat.bgGradient} opacity-20 blur-lg`}></div>
+                  </div>
+                </motion.div>
+              );
+            })}
+          </div>
+
+          {/* Center Space - Left empty to showcase background */}
+          <div className="flex-1 min-h-[300px] hidden md:block"></div>
+
+          {/* Right Column */}
+          <div className="flex flex-col gap-8 w-full md:w-96">
+            {impactStats.slice(2, 4).map((stat, index) => {
+              const Icon = stat.icon;
+              return (
+                <motion.div
+                  key={index + 2}
+                  initial={{ opacity: 0, x: 80, rotateY: 15 }}
+                  whileInView={{ opacity: 1, x: 0, rotateY: 0 }}
+                  viewport={{ once: true }}
+                  transition={{
+                    duration: 0.8,
+                    delay: 0.2 + index * 0.2,
+                    type: "spring",
+                    stiffness: 100
+                  }}
+                  whileHover={{ scale: 1.05, x: -12 }}
+                  className="relative group"
+                >
+                  {/* Animated glow effect */}
+                  <motion.div
+                    className={`absolute -inset-1 bg-gradient-to-r ${stat.bgGradient} rounded-xl blur-lg opacity-0 group-hover:opacity-100 transition-all duration-500`}
+                    animate={{
+                      scale: [1, 1.1, 1],
+                    }}
+                    transition={{
+                      duration: 3,
+                      repeat: Infinity,
+                      ease: "easeInOut"
+                    }}
+                  />
+
+                  <div className={`relative bg-gradient-to-br from-[#1a1918]/90 to-[#252423]/80 backdrop-blur-xl border-2 ${stat.borderColor} group-hover:border-opacity-100 rounded-xl overflow-hidden transition-all duration-300 shadow-lg`}>
+                    {/* Animated background gradient */}
+                    <motion.div
+                      className={`absolute inset-0 bg-gradient-to-br ${stat.bgGradient} opacity-20`}
+                      animate={{
+                        opacity: [0.2, 0.4, 0.2],
+                      }}
+                      transition={{
+                        duration: 4,
+                        repeat: Infinity,
+                        ease: "easeInOut"
+                      }}
+                    />
+
+                    <div className="relative p-6 flex items-center gap-5">
+                      {/* Animated Icon */}
+                      <motion.div
+                        className={`p-3.5 bg-gradient-to-br ${stat.bgGradient} rounded-xl border ${stat.borderColor}`}
+                        animate={{
+                          rotate: [0, 5, 0, -5, 0],
+                          y: [0, -4, 0, 4, 0],
+                        }}
+                        transition={{
+                          duration: 5,
+                          repeat: Infinity,
+                          ease: "easeInOut"
+                        }}
+                        whileHover={{
+                          scale: 1.2,
+                          rotate: 360,
+                          transition: { duration: 0.6 }
+                        }}
+                      >
+                        <Icon className={`w-7 h-7 ${stat.iconColor}`} strokeWidth={2.5} />
+                      </motion.div>
+
+                      {/* Text */}
+                      <div className="flex-1">
+                        <motion.h3
+                          className={`text-lg font-bold ${stat.color} leading-tight`}
+                          initial={{ opacity: 0, y: 10 }}
+                          whileInView={{ opacity: 1, y: 0 }}
+                          viewport={{ once: true }}
+                          transition={{ duration: 0.6, delay: 0.5 + index * 0.1 }}
+                        >
+                          {stat.label}
+                        </motion.h3>
+                        {stat.subLabel && (
+                          <span className="text-xs text-gray-400 mt-0.5 block">{stat.subLabel}</span>
+                        )}
+                      </div>
+                    </div>
+
+                    {/* Decorative corner accents */}
+                    <div className={`absolute top-0 right-0 w-16 h-16 bg-gradient-to-bl ${stat.bgGradient} opacity-30 blur-xl`}></div>
+                    <div className={`absolute bottom-0 left-0 w-12 h-12 bg-gradient-to-tr ${stat.bgGradient} opacity-20 blur-lg`}></div>
+                  </div>
+                </motion.div>
+              );
+            })}
+          </div>
+        </div>
+
+        {/* Bottom CTA Section */}
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.8, delay: 0.2 }}
-          className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-20"
+          transition={{ duration: 0.8, delay: 0.6 }}
+          className="mt-50 text-center"
         >
-          {impactStats.map((stat, index) => (
+          <div className="inline-block bg-gradient-to-r from-green-500/10 via-emerald-500/10 to-teal-500/10 backdrop-blur-sm border border-green-500/20 rounded-lg p-8">
+            <Leaf className="w-12 h-12 text-green-400 mx-auto mb-4" />
+            <p className="text-gray-300 text-lg mb-4 max-w-2xl">
+              Investing in <span className="text-green-400 font-medium">digital transformation</span> and <span className="text-green-400 font-medium">AI integration</span> to enhance reliability forecasting and support sustainable industrial operations worldwide.
+            </p>
             <motion.div
-              key={index}
-              initial={{ opacity: 0, scale: 0.9 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: 0.3 + index * 0.1 }}
-              whileHover={{ scale: 1.05 }}
-              className="relative group"
-            >
-              <div className="absolute inset-0 bg-gradient-to-br from-green-500/20 to-emerald-500/10 opacity-0 group-hover:opacity-100 blur-xl transition-opacity"></div>
-              <div className="relative bg-[#1a1918]/60 backdrop-blur-sm border border-green-500/20 group-hover:border-green-500/50 rounded-lg p-8 text-center transition-all">
-                <motion.div
-                  className={`text-5xl font-light mb-2 ${stat.color}`}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.8, delay: 0.5 + index * 0.1 }}
-                >
-                  {stat.value}
-                </motion.div>
-                <div className="text-sm text-gray-400 uppercase tracking-wider">{stat.label}</div>
-              </div>
-            </motion.div>
-          ))}
+              className="h-[2px] w-32 mx-auto bg-gradient-to-r from-transparent via-green-500 to-transparent"
+              animate={{ opacity: [0.3, 1, 0.3] }}
+              transition={{ duration: 2, repeat: Infinity }}
+            ></motion.div>
+          </div>
         </motion.div>
 
         {/* Sustainability Features */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-100">
           {sustainabilityFeatures.map((feature, index) => {
             const Icon = feature.icon;
             return (
@@ -207,27 +422,6 @@ export function Sustainability() {
             );
           })}
         </div>
-
-        {/* Bottom CTA Section */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.8, delay: 0.6 }}
-          className="mt-16 text-center"
-        >
-          <div className="inline-block bg-gradient-to-r from-green-500/10 via-emerald-500/10 to-teal-500/10 backdrop-blur-sm border border-green-500/20 rounded-lg p-8">
-            <Leaf className="w-12 h-12 text-green-400 mx-auto mb-4" />
-            <p className="text-gray-300 text-lg mb-4 max-w-2xl">
-              Investing in <span className="text-green-400 font-medium">digital transformation</span> and <span className="text-green-400 font-medium">AI integration</span> to enhance reliability forecasting and support sustainable industrial operations worldwide.
-            </p>
-            <motion.div
-              className="h-[2px] w-32 mx-auto bg-gradient-to-r from-transparent via-green-500 to-transparent"
-              animate={{ opacity: [0.3, 1, 0.3] }}
-              transition={{ duration: 2, repeat: Infinity }}
-            ></motion.div>
-          </div>
-        </motion.div>
       </div>
 
       {/* Bottom gradient for smooth transition to next section */}

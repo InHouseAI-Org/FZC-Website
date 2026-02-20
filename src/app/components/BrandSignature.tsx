@@ -90,7 +90,7 @@ export function BrandSignature() {
             className="flex items-center justify-center space-x-2 text-sm text-gray-500"
           >
             <span>Powered by</span>
-            <span className="text-[#e31e24] font-semibold tracking-wider" style={{ letterSpacing: '0.1em' , textShadow: '0 0 10px rgba(227, 30, 36, 0.5)'}}>INMARCO</span>
+            <span className="text-[#e31e24] font-semibold" style={{ fontFamily: 'SwitzerlandCondBlack, Switzerland, sans-serif', fontSize:'15px', marginTop:'3px'}}>INMARCO</span>
           </motion.div>
         </div>
 
@@ -176,7 +176,7 @@ export function BrandSignature() {
               {/* Left: Stats */}
               <div className="grid grid-cols-3 gap-6">
                 {[
-                  { icon: Video, value: '50+', label: 'Videos', color: 'from-red-500 to-red-600' },
+                  { icon: Video, value: '6', label: 'Videos', color: 'from-red-500 to-red-600' },
                   { icon: Users, value: '10K+', label: 'Learners', color: 'from-blue-500 to-blue-600' },
                   { icon: BookOpen, value: 'Free', label: 'Always', color: 'from-purple-500 to-purple-600' },
                 ].map((stat, index) => (

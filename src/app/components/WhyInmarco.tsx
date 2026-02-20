@@ -94,11 +94,7 @@ export function WhyInmarco() {
             className="flex items-center justify-center space-x-3 mb-4"
           >
             <div className="h-[2px] w-12 bg-[#e31e24]"></div>
-            <span className="text-sm tracking-widest text-gray-400 uppercase">Why Inmarco</span>
-            <div className="h-[2px] w-12 bg-[#e31e24]"></div>
-          </motion.div>
-          
-          <motion.h2
+            <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -108,6 +104,8 @@ export function WhyInmarco() {
           >
             The <span className="text-red-500 uppercase" style={{fontFamily: 'SwitzerlandCondBlack, Switzerland, sans-serif', fontWeight: 800}}>Inmarco</span> Difference
           </motion.h2>
+            <div className="h-[2px] w-12 bg-[#e31e24]"></div>
+          </motion.div>
           
           <motion.p
             initial={{ opacity: 0, y: 20 }}

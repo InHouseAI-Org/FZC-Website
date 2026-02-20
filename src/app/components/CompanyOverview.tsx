@@ -9,19 +9,19 @@ export function CompanyOverview() {
     },
     {
       area: "Application Engineering",
-      detail: "Technical support for pump, valve, agitator, and static seal selection"
+      detail: "Technical support for valve, pump,agitator and other dynamic & static seal selection"
     },
     {
       area: "Emerging Sectors",
-      detail: "Support for renewable energy, hydrogen, and advanced manufacturing applications"
+      detail: "Support for renewable energy, hydrogen, carbon capture and other advanced manufacturing applications"
     },
     {
       area: "Extreme Conditions",
-      detail: "Sealing solutions rated for temperatures up to 650°C and pressures to 350 bar"
+      detail: "Sealing solutions rated for temperatures up to 650°C and pressures to 350 bar. Static sealing upto 1360°C temperature"
     },
     {
       area: "Certified Manufacturing",
-      detail: "EN 16752, API 607 fire-safe, ISO standards with full traceability"
+      detail: "API 622, API 607, EN 16752 and ISO standards with full traceability"
     }
   ];
 
@@ -54,8 +54,7 @@ export function CompanyOverview() {
 
   return (
     <section id="about" className="relative py-32 overflow-hidden">
-      {/* Smooth Transition Gradient from Hero */}
-      <div className="absolute top-0 left-0 right-0 h-32 bg-gradient-to-b from-[#2b2a29]/50 to-transparent z-20"></div>
+      
 
       {/* Background Video with Gradient Overlay */}
       <div className="absolute inset-0">
@@ -70,8 +69,8 @@ export function CompanyOverview() {
           <source src="/facility-bg-video.webm" type="video/webm" />
           <source src="/12865485_3840_2160_60fps.webm" type="video/webm" />
         </video>
-        <div className="absolute inset-0 bg-gradient-to-r from-[#2b2a29]/85 via-[#2b2a29]/75 to-[#2b2a29]/70"></div>
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#2b2a29]/30 to-[#2b2a29]/60"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-[#2b2a29]/65 via-[#2b2a29]/75 to-[#2b2a29]/70"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#2b2a29]/10 to-[#2b2a29]/2"></div>
       </div>
 
       {/* Animated Floating Elements */}
@@ -112,7 +111,7 @@ export function CompanyOverview() {
         >
           <div className="flex items-center justify-center space-x-3 mb-6">
             <div className="h-[2px] w-12 bg-[#e31e24]"></div>
-            <span className="text-sm tracking-widest text-gray-400 uppercase">INMARCO</span>
+            <span className="text-sm tracking-widest text-gray-300 uppercase" style={{ fontFamily: 'SwitzerlandCondBlack, Switzerland, sans-serif', fontSize:'15px' }}>INMARCO</span>
             <div className="h-[2px] w-12 bg-[#e31e24]"></div>
           </div>
           <h2
@@ -121,7 +120,7 @@ export function CompanyOverview() {
           >
             Where Reliability is Engineered,<br />Not Assumed
           </h2>
-          <p className="text-gray-400 text-lg max-w-3xl mx-auto leading-relaxed">
+          <p className="text-gray-300 text-lg max-w-3xl mx-auto leading-relaxed">
             Specialized manufacturer of compression packings, gaskets, and sealing systems for critical industrial applications.
             From API-certified low emission solutions to fire-safe rated products-engineered for heat, pressure, and chemical compatibility.
           </p>
@@ -150,7 +149,7 @@ export function CompanyOverview() {
                 >
                   <div className="absolute -left-[5px] top-2 w-2 h-2 bg-[#e31e24] rounded-full group-hover:scale-150 transition-transform" />
                   <h4 className="text-white text-base mb-2 font-medium">{item.area}</h4>
-                  <p className="text-gray-400 text-sm leading-relaxed">{item.detail}</p>
+                  <p className="text-gray-300 text-sm leading-relaxed">{item.detail}</p>
                 </motion.div>
               ))}
             </div>

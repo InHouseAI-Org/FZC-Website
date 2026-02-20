@@ -1,4 +1,4 @@
-import { Linkedin } from 'lucide-react';
+import { Linkedin, Youtube } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import inmarcoLogo from '@/assets/inmarco-tagline-logo.png';
 
@@ -11,12 +11,13 @@ export function Footer() {
       { label: 'Contact', href: '/contact' },
     ],
     products: [
-      { label: 'Compression Packing', href: '/products/compression-packing' },
-      { label: 'Valve Sealing', href: '/products/valve-sealing' },
-      { label: 'Industrial Gaskets', href: '/products/industrial-gaskets' },
+      { label: 'Compression Packings', href: '/products/compression-packings' },
+      { label: 'Graphite Moulded Products', href: '/products/graphite-moulded-products' },
+      { label: 'Flange Joint Gaskets', href: '/products/flange-joint-gaskets' },
+      { label: 'Flange Isolation Gaskets', href: '/products/flange-isolation-gaskets' },
+      { label: 'Metallic Gaskets', href: '/products/metallic-gaskets' },
       { label: 'Thermal Insulation', href: '/products/thermal-insulation' },
-      { label: 'Elastomeric Sealing', href: '/products/elastomeric-sealing' },
-      { label: 'Expansion Joints', href: '/products/expansion-joints' },
+      { label: 'Wiping Pad', href: '/products/wiping-pad' },
     ],
     industries: [
       { label: 'Oil & Gas', href: '/industries/oil-gas' },
@@ -70,6 +71,15 @@ export function Footer() {
                 aria-label="LinkedIn"
               >
                 <Linkedin className="w-5 h-5" />
+              </a>
+              <a
+                href="https://www.youtube.com/@inmarco"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-3 bg-[#1a1918] text-gray-400 hover:bg-[#e31e24] hover:text-white transition-colors duration-300"
+                aria-label="YouTube"
+              >
+                <Youtube className="w-5 h-5" />
               </a>
             </div>
           </div>
