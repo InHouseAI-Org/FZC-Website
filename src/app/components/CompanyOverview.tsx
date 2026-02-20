@@ -66,7 +66,6 @@ export function CompanyOverview() {
           poster="/360_F_861863741_uAHpeQn29yvDLuMGuTlxF6zAd4ZITTxf.jpg"
           className="w-full h-full object-cover"
         >
-          <source src="/facility-bg-video.webm" type="video/webm" />
           <source src="/12865485_3840_2160_60fps.webm" type="video/webm" />
         </video>
         <div className="absolute inset-0 bg-gradient-to-r from-[#2b2a29]/65 via-[#2b2a29]/75 to-[#2b2a29]/70"></div>
