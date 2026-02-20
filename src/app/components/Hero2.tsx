@@ -40,7 +40,7 @@ export function Hero2() {
             // src="ChatGPT Image Feb 18, 2026 at 01_58_58 PM.png"
             // src = "public/ChatGPT Image Feb 20, 2026 at 11_36_13 AM.png"
             // src="public/ChatGPT Image Feb 20, 2026 at 03_28_49 PM.png"
-            src="public/ChatGPT Image Feb 20, 2026 at 03_36_20 PM.png"
+            src="ChatGPT Image Feb 20, 2026 at 03_36_20 PM.png"
             alt="Industrial valve and machinery"
             className="w-full h-full object-cover"
             style={{width: '100%', height:'100%'}}
