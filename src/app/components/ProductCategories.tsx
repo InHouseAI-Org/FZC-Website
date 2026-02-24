@@ -240,8 +240,8 @@ export function ProductCategories() {
     {
       icon: Flame,
       title: 'Wiping Pad',
-      description: 'High-temperature wiping pads for cleaning and maintenance applications.',
-      specs: ['Ceramic', 'Silica','Welding Blanket'],
+      description: 'Exceptionally strong and durable wiping pads for Wire Drawing Industry',
+      specs: ['Aramid based wiping pad', 'High temperature wiping pad'],
       diagram: ThermalInsulationDiagram,
     }
   ];

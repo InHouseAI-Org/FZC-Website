@@ -27,7 +27,7 @@ export default function AboutUs() {
     {
       icon: Shield,
       title: 'Integrity',
-      description: 'We uphold transparency, trust, and ethical practices in all our relationships and operations.',
+      description: 'We uphold transparency, trust, and ethical practices in all our dealings.',
     },
     {
       icon: TrendingUp,
@@ -44,15 +44,15 @@ export default function AboutUs() {
   const differentiators = [
     {
       title: 'Low Emission Technology',
-      description: 'Our API 622–compliant graphite packings and PTFE hybrids set the regional standard for emission control.',
+      description: 'Our API/ISO compliant graphite and PTFE packings uplift the regional standard for emission control.',
     },
     {
       title: 'Certified Quality',
-      description: 'Products tested to international standards such as EN 16752, API 607, and fire-safe performance benchmarks.',
+      description: 'Products tested to international standards such as EN 16752, API 622, 624, 641, 607, emission & fire-safe performance benchmarks.',
     },
     {
       title: 'Application Expertise',
-      description: 'Decades of experience across pumps, valves, agitators, and static seals - supported by on-site engineering advice.',
+      description: 'Decades of experience across pumps, valves, mixers, and other static & dynamic seals - supported by on-site engineering advice.',
     },
     {
       title: 'Local Presence, Global Standards',
@@ -80,7 +80,7 @@ export default function AboutUs() {
             >
               <div className="h-[2px] w-12 bg-[#e31e24] mb-6"></div>
               <h1 className="text-white mb-6" style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)', lineHeight: '1.1', letterSpacing: '-0.02em', maxWidth: '800px' }}>
-                Engineering Reliability for a Fluid World
+                Engineering Reliability. <span className="text-[#e31e24]">Delivering Precision.</span>
               </h1>
               <p className="text-gray-300 text-xl max-w-2xl">
                 Every Inmarco product reflects our belief that reliability is engineered - not assumed.
@@ -107,14 +107,14 @@ export default function AboutUs() {
                 Inmarco FZC is an engineering-led manufacturer and solution provider specializing in industrial fluid sealing systems - from compression packings and gaskets to custom-engineered sealing materials for pumps, valves, and other critical process equipment.
               </p>
               <p className="text-gray-300 text-lg mb-6 leading-relaxed">
-                Headquartered in the UAE, we serve a broad spectrum of industries including Oil & Gas, Power Generation, Petrochemical, and Mining, providing performance-driven sealing solutions designed to meet the challenges of heat, pressure, chemical compatibility, and emission control.
+                Headquartered in the UAE, we serve a broad spectrum of industries including Oil & Gas, Petrochemical, Power Generation, Chemical Porcessing, Fertilizer, Mining and other process industries and utilities, providing performance-driven sealing solutions designed to meet the challenges of heat, pressure, chemical compatibility, and emission control.
               </p>
               <div className="space-y-3">
                 {[
                   '30+ years of industrial sealing expertise',
                   'Mission-critical solutions for extreme conditions',
                   'ISO certified manufacturing and quality standards',
-                  'Rigorous testing and proven application knowledge',
+                  'Rigorous testing and proven application field performance',
                 ].map((point, index) => (
                   <motion.div
                     key={index}
@@ -170,13 +170,13 @@ export default function AboutUs() {
 
               <div className="space-y-6 text-gray-300 text-lg leading-relaxed">
                 <p>
-                  Founded with the vision to bridge the gap between international technology standards and regional industrial needs, Inmarco FZC has grown from a family-led enterprise into a globally trusted partner for advanced sealing applications.
+                  Founded with the vision to bridge the gap between international standards and regional industrial needs, Inmarco FZC has grown from a family-led enterprise into a globally trusted partner for advanced sealing applications.
                 </p>
                 <p>
                   Through years of field experience and collaboration with OEMs, maintenance teams, and process engineers, we have developed a portfolio of tested, certified, and high-performance sealing products built for operational endurance and environmental responsibility.
                 </p>
                 <p>
-                  From our strategic base in Sharjah Free Zone, we support customers across the Middle East, Africa, Central Asia, and beyond - combining agility with deep engineering competence.
+                  From our strategic base in Sharjah Free Zone, we support customers across the Middle East, Africa, Central Asia, and beyond - combining geographical advantage with deep engineering competence.
                 </p>
               </div>
             </motion.div>
@@ -317,7 +317,7 @@ export default function AboutUs() {
               </h2>
 
               <p className="text-gray-300 text-lg mb-6 leading-relaxed">
-                With an expanding network across Kazakhstan, Algeria, India, and the GCC, Inmarco FZC delivers regional support backed by centralized technical excellence.
+                With an expanding network across <span className="text-[#e31e24]">Central Asia, Africa and the GCC</span>, Inmarco FZC delivers regional support backed by centralized technical excellence.
               </p>
 
               <p className="text-gray-300 text-lg leading-relaxed">
@@ -368,7 +368,7 @@ export default function AboutUs() {
                   Inmarco FZC is committed to reducing emissions, conserving energy, and supporting global sustainability goals through engineered sealing solutions that perform reliably under pressure.
                 </p>
                 <p>
-                  Looking ahead, we are investing in digital transformation and AI integration, developing tools that simplify product selection, improve reliability forecasting, and enhance our customers' decision-making.
+                  Looking ahead, we are pioneering the integration of artificial intelligence and digital technologies into industrial sealing. Through AI-powered product selection tools, predictive analytics for reliability forecasting, and intelligent recommendation systems, we're transforming how engineers specify, select, and maintain critical sealing components.
                 </p>
               </div>
             </motion.div>

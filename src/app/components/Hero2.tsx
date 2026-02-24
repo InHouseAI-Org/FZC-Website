@@ -6,6 +6,7 @@ import { useState, useEffect, useRef } from 'react';
 
 export function Hero2() {
   const [mousePosition, setMousePosition] = useState({ x: -9999, y: -9999 });
+  const [heroImage, setHeroImage] = useState('ChatGPT Image Feb 20, 2026 at 03_36_20 PM.png');
   const containerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -27,6 +28,26 @@ export function Hero2() {
     }
   }, []);
 
+  useEffect(() => {
+    const updateImage = () => {
+      const width = window.innerWidth;
+      if (width < 768) {
+        // Mobile
+        setHeroImage('Hero_mob.png');
+      } else if (width < 1024) {
+        // Tablet
+        setHeroImage('Hero_tab.png');
+      } else {
+        // Desktop
+        setHeroImage('ChatGPT Image Feb 20, 2026 at 03_36_20 PM.png');
+      }
+    };
+
+    updateImage();
+    window.addEventListener('resize', updateImage);
+    return () => window.removeEventListener('resize', updateImage);
+  }, []);
+
   return (
     <section ref={containerRef} id="home" className="relative min-h-screen flex items-center bg-[#2b2a29] overflow-hidden">
       {/* Background Images with X-Ray Effect */}
@@ -40,7 +61,7 @@ export function Hero2() {
             // src="ChatGPT Image Feb 18, 2026 at 01_58_58 PM.png"
             // src = "public/ChatGPT Image Feb 20, 2026 at 11_36_13 AM.png"
             // src="public/ChatGPT Image Feb 20, 2026 at 03_28_49 PM.png"
-            src="ChatGPT Image Feb 20, 2026 at 03_36_20 PM.png"
+            src={heroImage}
             alt="Industrial valve and machinery"
             className="w-full h-full object-cover"
             style={{width: '100%', height:'100%'}}
