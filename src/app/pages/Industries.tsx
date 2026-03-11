@@ -24,9 +24,9 @@ export default function IndustriesPage() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
             >
-              <div className="h-[2px] w-12 bg-[#e31e24] mb-6"></div>
-              <h1 className="text-white mb-6" style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)', lineHeight: '1.1', letterSpacing: '-0.02em', maxWidth: '900px' }}>
-                Engineering Excellence Across Critical Sectors
+              <div className="h-[2px] mt-4 w-12 bg-[#e31e24] mb-6"></div>
+              <h1 className="text-white mb-6" style={{ fontSize: '4rem', lineHeight: '1.1', letterSpacing: '-0.02em', maxWidth: '900px' }}>
+                Providing Engineering Precision Across Critical Sectors
               </h1>
               <p className="text-gray-300 text-xl max-w-2xl">
                 Trusted by industry leaders worldwide for mission-critical sealing applications in the most demanding environments.
@@ -46,13 +46,16 @@ export default function IndustriesPage() {
             transition={{ duration: 0.6 }}
             className="mb-16"
           >
-            <div className="flex items-center space-x-3 mb-4">
+            <div className="flex items-center space-x-5 mb-4">
               <div className="h-[2px] w-12 bg-[#e31e24]"></div>
-              <span className="text-sm tracking-widest text-gray-400 uppercase">Industries We Serve</span>
-            </div>
-            <h2 className="text-white text-4xl lg:text-5xl tracking-tight max-w-3xl">
-              Delivering reliability across diverse industrial applications
+              {/* <span className="text-sm tracking-widest text-gray-400 uppercase" style={{ fontSize: '1.25rem', textTransform: 'uppercase' }}>Industries We Serve</span> */}
+              <h2 className="text-white text-4xl lg:text-5xl tracking-tight max-w-3xl">
+              Industries We Serve
             </h2>
+            </div>
+            {/* <h2 className="text-white text-4xl lg:text-5xl tracking-tight max-w-3xl">
+              Delivering reliability across diverse industrial applications
+            </h2> */}
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -69,11 +72,14 @@ export default function IndustriesPage() {
                 <ImageWithFallback
                   src={industry.image}
                   alt={industry.title}
-                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-102"
                 />
 
                 {/* Gradient Overlay */}
                 <div className="absolute inset-0 bg-gradient-to-t from-[#2b2a29] via-[#2b2a29]/60 to-transparent opacity-80 group-hover:opacity-90 transition-opacity duration-300"></div>
+
+                {/* Top-Left Corner Gradient for Title Contrast */}
+                <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-[#2b2a29]/70 via-[#2b2a29]/40 to-transparent opacity-90"></div>
 
                 {/* Red Accent Line */}
                 <motion.div
@@ -85,13 +91,13 @@ export default function IndustriesPage() {
                 />
 
                 {/* Content */}
-                <div className="absolute inset-0 flex flex-col justify-end p-8">
-                  <div className="transform transition-transform duration-300 group-hover:translate-y-[-10px]">
-                    <h3 className="text-2xl text-white mb-2 tracking-tight">{industry.title}</h3>
+                <div className="absolute inset-0 flex flex-col px-8 py-4">
+                  <div className="flex flex-col justify-content transition-transform duration-300 group-hover:translate-y-[-3px]" style={{justifyContent: 'space-between', height: '90%'}}>
+                    <h3 className="text-2xl text-white mb-2 tracking-tight" style={{ fontSize: '2rem', width: '85%' }}>{industry.title}</h3>
                     {industry.subtitle && (
                       <p className="text-[#e31e24] text-sm mb-3 tracking-wide">{industry.subtitle}</p>
                     )}
-                    <p className="text-gray-300 leading-relaxed opacity-90">{industry.description}</p>
+                    <p className="text-gray-300 leading-relaxed opacity-90" style={{textAlign: 'center'}}>{industry.description}</p>
                   </div>
 
                   {/* Number Indicator */}

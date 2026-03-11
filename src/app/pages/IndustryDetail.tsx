@@ -37,7 +37,7 @@ export default function IndustryDetail() {
           alt={industry.title}
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#2b2a29]/95 via-[#2b2a29]/80 to-[#2b2a29]/60"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-[#2b2a29]/95 via-[#2b2a29]/80 to-transparent"></div>
 
         {/* Back Button */}
         <motion.button

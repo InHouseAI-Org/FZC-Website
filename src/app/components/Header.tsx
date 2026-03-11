@@ -8,6 +8,7 @@ export function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isInSustainability, setIsInSustainability] = useState(false);
   const [showTransitionAnimation, setShowTransitionAnimation] = useState(false);
+  const [isFooterVisible, setIsFooterVisible] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -27,6 +28,14 @@ export function Header() {
         }
 
         setIsInSustainability(inSection);
+      }
+
+      // Check if footer is in view
+      const footer = document.querySelector('footer');
+      if (footer) {
+        const rect = footer.getBoundingClientRect();
+        const footerInView = rect.top < window.innerHeight;
+        setIsFooterVisible(footerInView);
       }
     };
 
@@ -58,6 +67,10 @@ export function Header() {
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
         isScrolled ? 'bg-gradient-to-b from-[#2b2a29] to-[#2b2a29]/80 shadow-lg' : 'bg-gradient-to-b from-[#2b2a29] to-transparent'
       } ${isInSustainability ? 'shadow-[0_4px_20px_rgba(16,185,129,0.3)]' : ''}`}
+      style={{
+        transform: isFooterVisible ? 'translateY(-100%)' : 'translateY(0)',
+        transition: 'transform 0.5s ease-in-out'
+      }}
     >
       {/* Green glow effect overlay when in Sustainability section */}
       {isInSustainability && (

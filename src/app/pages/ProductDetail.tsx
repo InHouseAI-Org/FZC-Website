@@ -36,7 +36,7 @@ export default function ProductDetail() {
           >
             <Link
               to={`/products/${categorySlug}/${subcategorySlug}`}
-              className="inline-flex items-center space-x-2 text-gray-400 hover:text-[#e31e24] transition-colors mb-8"
+              className="inline-flex items-center space-x-2 text-gray-400 hover:text-[#e31e24] transition-colors mt-12 mb-8"
             >
               <ArrowLeft className="w-5 h-5" />
               <span>Back to {subcategory.name}</span>

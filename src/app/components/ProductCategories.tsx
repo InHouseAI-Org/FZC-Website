@@ -316,7 +316,7 @@ export function ProductCategories() {
                 <p className="text-gray-400 mb-6 leading-relaxed">{product.description}</p>
 
                 {/* 3D Diagram Section - Expands on Hover */}
-                <div className="h-0 group-hover:h-64 transition-all duration-500 ease-in-out overflow-hidden flex items-center justify-center mb-0 group-hover:mb-6">
+                {/* <div className="h-0 group-hover:h-64 transition-all duration-500 ease-in-out overflow-hidden flex items-center justify-center mb-0 group-hover:mb-6">
                   <motion.div
                     className="w-70 h-70 text-[#e31e24] opacity-0 group-hover:opacity-100 transition-opacity duration-500"
                     animate={{
@@ -335,6 +335,15 @@ export function ProductCategories() {
                   >
                     <Diagram />
                   </motion.div>
+                </div> */}
+
+                {/* Image Section - Expands on Hover */}
+                <div className="h-0 group-hover:h-64 transition-all duration-500 ease-in-out overflow-hidden flex items-center justify-center mb-0 group-hover:mb-6">
+                  <img
+                    src="/images copy.jpeg"
+                    alt={product.title}
+                    className="w-full h-full object-contain opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                  />
                 </div>
 
                 {/* Specs */}

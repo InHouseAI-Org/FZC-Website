@@ -216,9 +216,8 @@ export function Sustainability() {
                           ease: "easeInOut"
                         }}
                         whileHover={{
-                          scale: 1.2,
-                          rotate: 360,
-                          transition: { duration: 0.6 }
+                          scale: 1.1,
+                          transition: { duration: 0.1 }
                         }}
                       >
                         <Icon className={`w-7 h-7 ${stat.iconColor}`} strokeWidth={2.5} />
