@@ -1,6 +1,7 @@
 import { motion } from 'motion/react';
 import { Link } from 'react-router-dom';
-import { Package, Layers, Settings, Flame, Circle, Maximize2 } from 'lucide-react';
+import { Package, Layers, Settings, Flame, Circle, Maximize2, LucideIcon } from 'lucide-react';
+import productsData from '@/data/productsData.json';
 
 // 3D CSS Diagrams for each product
 const CompressionPackingDiagram = () => (
@@ -194,57 +195,41 @@ const ExpansionJointDiagram = () => (
 );
 
 export function ProductCategories() {
-  const products = [
-    {
-      icon: Package,
-      title: 'Compression Packings',
-      description: 'High-performance compression packings for rotating and reciprocating equipment.',
-      specs: ['Fugitive Emission','Carbon / Grpahite','PTFE','Polymide','Hybrid'],
-      diagram: CompressionPackingDiagram,
-    },
-    {
-      icon: Package,
-      title: 'Graphite Moulded Products',
-      description: 'Precision-engineered moulded graphite components delivering exceptional thermal stability and chemical resistance for critical static and dynamic sealing applications.',
-      specs: ['Grafoil Moulded Ring', 'Pressure Seal Gasket', 'Laminated Graphite'],
-      diagram: CompressionPackingDiagram,
-    },
-    {
-      icon: Package,
-      title: 'Flange Joint Gaskets',
-      description: 'Different Material sheet gaskets, providing reliable sealing solutions for flanged connections.',
-      specs: ['CNAF', 'Graphite', 'PTFE', 'Expanded PTFE'],
-      diagram: CompressionPackingDiagram,
-    },
-    {
-      icon: Settings,
-      title: 'Flange Isolation Gaskets',
-      description: 'Precision-engineered, corrosion resistant, fire safe gaskets for flange isolation and cathodic protection applications.',
-      specs: ['API 6FB Fire Safe', 'ASTM B117 Salt Spray Corrossion','Methane Emission Compliance', 'Helium Nitrogen Leak Compliance'],
-      diagram: CompressionPackingDiagram,
-    },
-    {
-      icon: Layers,
-      title: 'Metallic Gaskets',
-      description: 'High-performance metallic gaskets for extreme temperature and pressure applications.',
-      specs: ['Laminar Gasket', 'Kammprofile Gasket', 'Shim Joint', 'Double Jacketted Gasket', 'Ring Type Joint Gasket', 'Corrugated Gasket', 'Soft Iron Ring'],
-      diagram: CompressionPackingDiagram,
-    },
-    {
-      icon: Flame,
-      title: 'Thermal Insulation',
-      description: 'High-temperature insulation materials for heat management and energy conservation.',
-      specs: ['EGlass', 'Ceramic', 'Silica','Welding Blanket'],
-      diagram: ThermalInsulationDiagram,
-    },
-    {
-      icon: Flame,
-      title: 'Wiping Pad',
-      description: 'Exceptionally strong and durable wiping pads for Wire Drawing Industry',
-      specs: ['Aramid based wiping pad', 'High temperature wiping pad'],
-      diagram: ThermalInsulationDiagram,
-    }
-  ];
+  // Map icon names to actual icon components
+  const iconMap: Record<string, LucideIcon> = {
+    Package,
+    Layers,
+    Settings,
+    Flame,
+    Circle,
+    Maximize2,
+  };
+
+  // Map diagram names to actual diagram components
+  const diagramMap: Record<string, React.ComponentType> = {
+    CompressionPackingDiagram,
+    ValveSealingDiagram,
+    IndustrialGasketDiagram,
+    ThermalInsulationDiagram,
+    ElastomericSealingDiagram,
+    ExpansionJointDiagram,
+  };
+
+  interface Category {
+    icon: string;
+    name: string;
+    description: string;
+    specs: string[];
+    diagram: string;
+  }
+
+  const products = productsData.categories.map((category: Category) => ({
+    icon: iconMap[category.icon] || Package,
+    title: category.name,
+    description: category.description,
+    specs: category.specs,
+    diagram: diagramMap[category.diagram] || CompressionPackingDiagram,
+  }));
 
   return (
     <section id="products" className="bg-[#2b2a29] py-24">
@@ -286,9 +271,8 @@ export function ProductCategories() {
 
         {/* Product Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
-          {products.map((product, index) => {
+          {products.map((product: any, index: number) => {
             const Icon = product.icon;
-            const Diagram = product.diagram;
             return (
               <Link
                 key={index}
@@ -340,7 +324,7 @@ export function ProductCategories() {
                 {/* Image Section - Expands on Hover */}
                 <div className="h-0 group-hover:h-64 transition-all duration-500 ease-in-out overflow-hidden flex items-center justify-center mb-0 group-hover:mb-6">
                   <img
-                    src="/images copy.jpeg"
+                    src="https://www.vikingpump.com/sites/default/files/2023-02/guard_small.gif"
                     alt={product.title}
                     className="w-full h-full object-contain opacity-0 group-hover:opacity-100 transition-opacity duration-500"
                   />
@@ -348,7 +332,7 @@ export function ProductCategories() {
 
                 {/* Specs */}
                 <div className="flex flex-wrap gap-2">
-                  {product.specs.map((spec, i) => (
+                  {product.specs.map((spec: string, i: number) => (
                     <span
                       key={i}
                       className="text-xs px-3 py-1 bg-[#2b2a29] text-gray-400 tracking-wide uppercase border border-gray-700"

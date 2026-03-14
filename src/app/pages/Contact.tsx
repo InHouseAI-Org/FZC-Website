@@ -347,17 +347,6 @@ export default function Contact() {
           </div>
         </div>
       </section>
-
-      {/* Map Section (Placeholder) */}
-      <section className="h-[400px] bg-[#2b2a29]">
-        <div className="w-full h-full bg-[#1a1918] flex items-center justify-center">
-          <div className="text-center">
-            <MapPin className="w-16 h-16 text-[#e31e24] mx-auto mb-4" />
-            <p className="text-gray-400 text-lg">Map integration coming soon</p>
-            <p className="text-gray-500 text-sm mt-2">SAIF-Zone, Sharjah, UAE</p>
-          </div>
-        </div>
-      </section>
     </main>
   );
 }

@@ -1,6 +1,7 @@
 import { motion } from 'motion/react';
 import { ImageWithFallback } from '@/app/components/figma/ImageWithFallback';
 import { CheckCircle2, Target, Eye, Lightbulb, Users, Recycle, TrendingUp, Shield, Award } from 'lucide-react';
+import inmarcoLogo from '@/assets/inmarco-tagline-logo.png';
 
 export default function AboutUs() {
   const coreValues = [
@@ -138,12 +139,110 @@ export default function AboutUs() {
               transition={{ duration: 0.8 }}
               className="relative"
             >
-              <ImageWithFallback
-                src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
-                alt="Industrial Manufacturing"
-                className="w-full h-[500px] object-cover"
-              />
-              <div className="absolute top-0 left-0 w-full h-1 bg-[#e31e24]"></div>
+              <div className="relative w-full h-[500px] bg-[#1a1918] overflow-hidden flex items-center justify-center">
+                {/* Subtle background pattern */}
+                <div className="absolute inset-0 opacity-5">
+                  <div className="absolute inset-0" style={{
+                    backgroundImage: 'radial-gradient(circle at 2px 2px, #e31e24 1px, transparent 0)',
+                    backgroundSize: '40px 40px'
+                  }}></div>
+                </div>
+
+                {/* Animated Logo */}
+                <div className="relative z-10">
+                  {/* Animated particles/fragments */}
+                  {[...Array(12)].map((_, i) => (
+                    <motion.div
+                      key={i}
+                      initial={{
+                        opacity: 0,
+                        x: (i % 4 - 1.5) * 100,
+                        y: (Math.floor(i / 4) - 1.5) * 100,
+                        scale: 0
+                      }}
+                      whileInView={{
+                        opacity: [0, 0.6, 0],
+                        x: 0,
+                        y: 0,
+                        scale: [0, 1, 0]
+                      }}
+                      viewport={{ once: true, amount: 1, margin: "-200px 0px -200px 0px" }}
+                      transition={{
+                        duration: 2,
+                        delay: i * 0.05,
+                        ease: [0.16, 1, 0.3, 1]
+                      }}
+                      className="absolute left-1/2 top-1/2 w-1 h-1 bg-[#e31e24] rounded-full"
+                      style={{ transformOrigin: 'center' }}
+                    />
+                  ))}
+
+                  {/* Logo with sophisticated reveal */}
+                  <motion.div
+                    initial={{
+                      opacity: 0,
+                      scale: 0.92,
+                      filter: 'blur(40px) brightness(0.3)',
+                    }}
+                    whileInView={{
+                      opacity: 1,
+                      scale: 1,
+                      filter: 'blur(0px) brightness(1)',
+                    }}
+                    viewport={{ once: true, amount: 1, margin: "-200px 0px -200px 0px" }}
+                    transition={{
+                      duration: 2.5,
+                      delay: 0.4,
+                      ease: [0.16, 1, 0.3, 1]
+                    }}
+                    className="relative"
+                  >
+                    <motion.div
+                      initial={{ clipPath: 'polygon(0 50%, 100% 50%, 100% 50%, 0 50%)' }}
+                      whileInView={{ clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0 100%)' }}
+                      viewport={{ once: true, amount: 1, margin: "-200px 0px -200px 0px" }}
+                      transition={{
+                        duration: 2,
+                        delay: 0.6,
+                        ease: [0.16, 1, 0.3, 1]
+                      }}
+                    >
+                      <img
+                        src={inmarcoLogo}
+                        alt="Inmarco FZC"
+                        className="h-80 md:h-80 w-auto object-contain"
+                      />
+                    </motion.div>
+
+                    {/* Subtle light sweep */}
+                    <motion.div
+                      initial={{ x: '-100%', opacity: 0 }}
+                      whileInView={{ x: '200%', opacity: [0, 0.3, 0] }}
+                      viewport={{ once: true, amount: 1, margin: "-200px 0px -200px 0px" }}
+                      transition={{
+                        duration: 1.5,
+                        delay: 2,
+                        ease: "easeInOut"
+                      }}
+                      className="absolute inset-0 bg-gradient-to-r from-transparent via-white to-transparent"
+                      style={{ mixBlendMode: 'overlay' }}
+                    />
+                  </motion.div>
+
+                </div>
+
+                {/* Subtle glow effect */}
+                <motion.div
+                  initial={{ opacity: 0 }}
+                  whileInView={{ opacity: 0.1 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 2.5, delay: 0.5 }}
+                  className="absolute inset-0 bg-gradient-radial from-[#e31e24]/20 via-transparent to-transparent"
+                  style={{
+                    background: 'radial-gradient(circle at center, rgba(227, 30, 36, 0.15) 0%, transparent 70%)'
+                  }}
+                />
+              </div>
             </motion.div>
           </div>
         </div>
@@ -152,34 +251,119 @@ export default function AboutUs() {
       {/* Our Story */}
       <section className="py-24 bg-[#2b2a29]">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
-          <div className="max-w-4xl">
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6 }}
-            >
-              <div className="flex items-center space-x-3 mb-6">
-                <div className="h-[2px] w-12 bg-[#e31e24]"></div>
-                <span className="text-sm tracking-widest text-gray-400 uppercase">Our Story</span>
-              </div>
+          <div className="grid lg:grid-cols-2 gap-16 items-start">
+            {/* Left side - Timeline */}
+            <div>
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6 }}
+              >
+                <div className="flex items-center space-x-3 mb-6">
+                  <div className="h-[2px] w-12 bg-[#e31e24]"></div>
+                  <span className="text-sm tracking-widest text-gray-400 uppercase">Our Story</span>
+                </div>
 
-              <h2 className="text-white text-4xl lg:text-5xl mb-8 tracking-tight">
-                Since 1982
-              </h2>
+                <h2 className="text-white text-4xl lg:text-5xl mb-12 tracking-tight">
+                  Since 1982
+                </h2>
+              </motion.div>
 
-              <div className="space-y-6 text-gray-300 text-lg leading-relaxed">
-                <p>
-                  Founded with the vision to bridge the gap between international standards and regional industrial needs, Inmarco FZC has grown from a family-led enterprise into a globally trusted partner for advanced sealing applications.
-                </p>
-                <p>
-                  Through years of field experience and collaboration with OEMs, maintenance teams, and process engineers, we have developed a portfolio of tested, certified, and high-performance sealing products built for operational endurance and environmental responsibility.
-                </p>
-                <p>
-                  From our strategic base in Sharjah Free Zone, we support customers across the Middle East, Africa, Central Asia, and beyond - combining geographical advantage with deep engineering competence.
-                </p>
+              {/* Timeline */}
+              <div className="relative pl-8 space-y-6">
+                {/* Vertical line */}
+                <motion.div
+                  initial={{ height: 0 }}
+                  whileInView={{ height: '100%' }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 1.2, delay: 0.3 }}
+                  className="absolute left-0 top-0 w-[2px] bg-gradient-to-b from-[#e31e24] to-transparent"
+                />
+
+                {/* Milestones */}
+                {[
+                  { year: '1982', text: 'Founded as a family-led enterprise' },
+                  { year: '1990s', text: 'Expanded into Middle East markets' },
+                  { year: '2000s', text: 'Achieved API certifications' },
+                  { year: 'Today', text: 'Global partner serving 50+ countries' },
+                ].map((milestone, index) => (
+                  <motion.div
+                    key={index}
+                    initial={{ opacity: 0, x: -20 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.5, delay: 0.4 + index * 0.15 }}
+                    className="relative group"
+                  >
+                    {/* Dot */}
+                    <motion.div
+                      initial={{ scale: 0 }}
+                      whileInView={{ scale: 1 }}
+                      viewport={{ once: true }}
+                      transition={{ duration: 0.3, delay: 0.5 + index * 0.15 }}
+                      className="absolute -left-[33px] top-1 w-3 h-3 bg-[#e31e24] rounded-full border-4 border-[#2b2a29] group-hover:scale-125 transition-transform"
+                    />
+
+                    <div className="bg-[#1a1918] p-4 border-l-2 border-transparent group-hover:border-[#e31e24] transition-all duration-300">
+                      <div className="text-[#e31e24] font-bold text-sm mb-1">{milestone.year}</div>
+                      <div className="text-gray-300 text-sm">{milestone.text}</div>
+                    </div>
+                  </motion.div>
+                ))}
               </div>
-            </motion.div>
+            </div>
+
+            {/* Right side - Story paragraphs */}
+            <div className="space-y-6">
+              {[
+                'Founded with the vision to bridge the gap between international standards and regional industrial needs, Inmarco FZC has grown from a family-led enterprise into a globally trusted partner for advanced sealing applications.',
+                'Through years of field experience and collaboration with OEMs, maintenance teams, and process engineers, we have developed a portfolio of tested, certified, and high-performance sealing products built for operational endurance and environmental responsibility.',
+                'From our strategic base in Sharjah Free Zone, we support customers across the Middle East, Africa, Central Asia, and beyond - combining geographical advantage with deep engineering competence.',
+              ].map((text, index) => (
+                <motion.div
+                  key={index}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5, delay: index * 0.15 }}
+                >
+                  <p className="text-gray-300 text-lg leading-relaxed">
+                    {text}
+                  </p>
+                </motion.div>
+              ))}
+
+              {/* Stats */}
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6, delay: 0.6 }}
+                className="grid grid-cols-3 gap-6 mt-12 pt-8 border-t border-gray-800"
+              >
+                {[
+                  { number: '30+', label: 'Years Experience' },
+                  { number: '12+', label: 'Industries Served' },
+                ].map((stat, index) => (
+                  <motion.div
+                    key={index}
+                    initial={{ scale: 0.8, opacity: 0 }}
+                    whileInView={{ scale: 1, opacity: 1 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.4, delay: 0.7 + index * 0.1 }}
+                    className="text-center group"
+                  >
+                    <div className="text-3xl font-bold text-[#e31e24] mb-2 group-hover:scale-110 transition-transform">
+                      {stat.number}
+                    </div>
+                    <div className="text-xs text-gray-400 uppercase tracking-wider">
+                      {stat.label}
+                    </div>
+                  </motion.div>
+                ))}
+              </motion.div>
+            </div>
           </div>
         </div>
       </section>
@@ -331,11 +515,53 @@ export default function AboutUs() {
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
             >
-              <ImageWithFallback
-                src="https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
-                alt="Global Network"
-                className="w-full h-[400px] object-cover"
-              />
+              {/* World Map */}
+              <div className="w-full h-[400px] rounded-lg overflow-hidden relative">
+                <img
+                  src="/worldwide-global-map-outline-black-background/sl_070722_51460_20.jpg"
+                  alt="World Map"
+                  className="w-full h-full object-contain"
+                  style={{
+                    filter: 'brightness(0.7) contrast(1.1) sepia(0.3) hue-rotate(-10deg) saturate(1.2)',
+                  }}
+                />
+
+
+
+                {/* Headquarters Marker */}
+                <motion.div
+                  initial={{ opacity: 0, scale: 0 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  transition={{ duration: 0.8, delay: 0.5 }}
+                  className="absolute top-1/2 left-[63%] transform -translate-x-1/2 -translate-y-1/2"
+                >
+                  <motion.div
+                    animate={{
+                      scale: [1, 1.5, 1],
+                      opacity: [0.7, 0.3, 0.7],
+                    }}
+                    transition={{
+                      duration: 2,
+                      repeat: Infinity,
+                      ease: "easeInOut",
+                    }}
+                    className="absolute w-16 h-16 bg-[#e31e24] rounded-full -translate-x-1/2 -translate-y-1/2"
+                  />
+                  <div className="relative w-8 h-8 bg-[#e31e24] rounded-full border-4 border-white shadow-lg flex items-center justify-center -translate-x-1/2 -translate-y-1/2">
+                    <div className="w-2 h-2 bg-white rounded-full"></div>
+                  </div>
+                </motion.div>
+
+                {/* Overlay text */}
+
+                {/* Legend */}
+                <div className="absolute bottom-15 left-1 bg-transparent rounded-lg p-4">
+                  <div className="flex items-center gap-3 mb-2">
+                    <div className="w-4 h-4 bg-[#e31e24] rounded-full"></div>
+                    <span className="text-white text-[12px] font-semibold">Headquarters - UAE</span>
+                  </div>
+                </div>
+              </div>
             </motion.div>
           </div>
         </div>

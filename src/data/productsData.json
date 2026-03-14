@@ -2,434 +2,2525 @@
   "categories": [
     {
       "id": 1,
-      "name": "Compression Packing",
-      "slug": "compression-packing",
-      "description": "High-performance compression packing for rotary, centrifugal, and reciprocating pumps, mixers, agitators, and valves",
+      "icon": "Package",
+      "name": "Compression Packings",
+      "slug": "compression-packings",
+      "description": "High-performance compression packings for rotating and reciprocating equipment.",
+      "specs": ["Fugitive Emission", "Carbon / Graphite", "PTFE", "Polyimide", "Hybrid"],
+      "diagram": "CompressionPackingDiagram",
       "image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
     },
     {
       "id": 2,
-      "name": "Valve Sealing",
-      "slug": "valve-sealing",
-      "description": "API 622, API 589, and API 607 certified valve sealing systems with expandable cartridge seals",
+      "icon": "Package",
+      "name": "Graphite Moulded Products",
+      "slug": "graphite-moulded-products",
+      "description": "Precision-engineered moulded graphite components delivering exceptional thermal stability and chemical resistance for critical static and dynamic sealing applications.",
+      "specs": ["Grafoil Moulded Ring", "Pressure Seal Gasket", "Laminated Graphite"],
+      "diagram": "CompressionPackingDiagram",
       "image": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
     },
     {
       "id": 3,
-      "name": "Industrial Gaskets",
-      "slug": "industrial-gaskets",
-      "description": "Metallic, semi-metallic, and non-metallic gaskets for critical sealing applications",
+      "icon": "Package",
+      "name": "Flange Joint Gaskets",
+      "slug": "flange-joint-gaskets",
+      "description": "Different Material sheet gaskets, providing reliable sealing solutions for flanged connections.",
+      "specs": ["CNAF", "Graphite", "PTFE", "Expanded PTFE"],
+      "diagram": "CompressionPackingDiagram",
       "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
     },
     {
       "id": 4,
-      "name": "Thermal Insulation",
-      "slug": "thermal-insulation",
-      "description": "Glass, ceramic, and silica-based thermal insulation in fabrics, blankets, ropes, and tapes",
+      "icon": "Settings",
+      "name": "Flange Isolation Gaskets",
+      "slug": "flange-isolation-gaskets",
+      "description": "Precision-engineered, corrosion resistant, fire safe gaskets for flange isolation and cathodic protection applications.",
+      "specs": ["API 6FB Fire Safe", "ASTM B117 Salt Spray Corrosion", "Methane Emission Compliance", "Helium Nitrogen Leak Compliance"],
+      "diagram": "CompressionPackingDiagram",
       "image": "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
     },
     {
       "id": 5,
-      "name": "Elastomeric Sealing",
-      "slug": "elastomeric-sealing",
-      "description": "High-performance O-rings and molded elastomeric seals for diverse applications",
+      "icon": "Layers",
+      "name": "Metallic Gaskets",
+      "slug": "metallic-gaskets",
+      "description": "High-performance metallic gaskets for extreme temperature and pressure applications.",
+      "specs": ["Laminar Gasket", "Kammprofile Gasket", "Shim Joint", "Double Jacketed Gasket", "Ring Type Joint Gasket", "Corrugated Gasket", "Soft Iron Ring"],
+      "diagram": "CompressionPackingDiagram",
       "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
     },
     {
       "id": 6,
-      "name": "Expansion Joints",
-      "slug": "expansion-joints",
-      "description": "Rubber, metal, and fabric expansion joints for piping systems and equipment",
+      "icon": "Flame",
+      "name": "Thermal Insulation",
+      "slug": "thermal-insulation",
+      "description": "High-temperature insulation materials for heat management and energy conservation.",
+      "specs": ["E-Glass", "Ceramic", "Silica", "Welding Blanket"],
+      "diagram": "ThermalInsulationDiagram",
       "image": "https://images.unsplash.com/photo-1768779611359-c4bb38ba3c1e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+    },
+    {
+      "id": 7,
+      "icon": "Flame",
+      "name": "Wiping Pad",
+      "slug": "wiping-pad",
+      "description": "Exceptionally strong and durable wiping pads for Wire Drawing Industry",
+      "specs": ["Aramid based wiping pad", "High temperature wiping pad"],
+      "diagram": "ThermalInsulationDiagram",
+      "image": "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
     }
   ],
   "subcategories": [
     {
       "id": 1,
       "categoryId": 1,
-      "name": "Centrifugal Pumps",
-      "slug": "centrifugal-pumps",
-      "description": "Compression packing for centrifugal pump applications"
+      "name": "Fugitive Emission",
+      "slug": "fugitive-emission",
+      "description": "Low emission certified compression packing for environmental compliance"
     },
     {
       "id": 2,
       "categoryId": 1,
-      "name": "Reciprocating Pumps",
-      "slug": "reciprocating-pumps",
-      "description": "Packing for reciprocating and plunger pumps"
+      "name": "Carbon / Graphite",
+      "slug": "carbon-graphite",
+      "description": "High-temperature graphite-based compression packing"
     },
     {
       "id": 3,
       "categoryId": 1,
-      "name": "Mixers & Agitators",
-      "slug": "mixers-agitators",
-      "description": "Sealing solutions for mixing and agitation equipment"
+      "name": "PTFE",
+      "slug": "ptfe",
+      "description": "PTFE compression packing for chemical resistance"
     },
     {
       "id": 4,
       "categoryId": 1,
-      "name": "Reactors & Dryers",
-      "slug": "reactors-dryers",
-      "description": "Packing for reactors and drying equipment"
+      "name": "Polyimide",
+      "slug": "polyimide",
+      "description": "High-strength polyimide compression packing"
     },
     {
       "id": 5,
-      "categoryId": 2,
-      "name": "Control Valve Seals",
-      "slug": "control-valve-seals",
-      "description": "Specialized sealing for control valves"
+      "categoryId": 1,
+      "name": "Hybrid",
+      "slug": "hybrid",
+      "description": "Hybrid material compression packing for versatile applications"
     },
     {
       "id": 6,
       "categoryId": 2,
-      "name": "Valve Bonnet Seals",
-      "slug": "valve-bonnet-seals",
-      "description": "Bonnet gaskets and sealing systems"
+      "name": "Grafoil Moulded Ring",
+      "slug": "grafoil-moulded-ring",
+      "description": "Precision moulded graphite rings for static sealing"
     },
     {
       "id": 7,
       "categoryId": 2,
-      "name": "Expandable Cartridge Seals",
-      "slug": "expandable-cartridge-seals",
-      "description": "API certified expandable valve seals"
+      "name": "Pressure Seal Gasket",
+      "slug": "pressure-seal-gasket",
+      "description": "High-pressure graphite seal gaskets"
     },
     {
       "id": 8,
-      "categoryId": 3,
-      "name": "Metallic Gaskets",
-      "slug": "metallic-gaskets",
-      "description": "RTJ and corrugated metal gaskets"
+      "categoryId": 2,
+      "name": "Laminated Graphite",
+      "slug": "laminated-graphite",
+      "description": "Laminated graphite sheets for critical sealing"
     },
     {
       "id": 9,
       "categoryId": 3,
-      "name": "Semi-Metallic Gaskets",
-      "slug": "semi-metallic-gaskets",
-      "description": "Spiral wound and heat exchanger gaskets"
+      "name": "CNAF",
+      "slug": "cnaf",
+      "description": "Compressed non-asbestos fiber sheet gaskets"
     },
     {
       "id": 10,
       "categoryId": 3,
-      "name": "Non-Metallic Gaskets",
-      "slug": "non-metallic-gaskets",
-      "description": "Compressed fiber, PTFE, and graphite gaskets"
+      "name": "Graphite",
+      "slug": "graphite",
+      "description": "Flexible graphite sheet gaskets"
     },
     {
       "id": 11,
-      "categoryId": 4,
-      "name": "Insulation Fabrics & Blankets",
-      "slug": "insulation-fabrics-blankets",
-      "description": "Thermal insulation fabrics and blanket materials"
+      "categoryId": 3,
+      "name": "PTFE",
+      "slug": "ptfe-gasket",
+      "description": "PTFE sheet gaskets for chemical resistance"
     },
     {
       "id": 12,
-      "categoryId": 4,
-      "name": "Insulation Ropes & Sleeves",
-      "slug": "insulation-ropes-sleeves",
-      "description": "High-temperature ropes and protective sleeves"
+      "categoryId": 3,
+      "name": "Expanded PTFE",
+      "slug": "expanded-ptfe",
+      "description": "Expanded PTFE gasket material"
     },
     {
       "id": 13,
-      "categoryId": 5,
-      "name": "High Performance O-Rings",
-      "slug": "high-performance-o-rings",
-      "description": "O-rings for demanding applications"
+      "categoryId": 4,
+      "name": "API 6FB Fire Safe",
+      "slug": "api-6fb-fire-safe",
+      "description": "API 6FB fire safe certified isolation gaskets"
     },
     {
       "id": 14,
-      "categoryId": 5,
-      "name": "Molded Elastomeric Seals",
-      "slug": "molded-elastomeric-seals",
-      "description": "Custom molded sealing components"
+      "categoryId": 4,
+      "name": "ASTM B117 Salt Spray Corrosion",
+      "slug": "astm-b117-salt-spray-corrosion",
+      "description": "ASTM B117 corrosion resistant isolation gaskets"
     },
     {
       "id": 15,
-      "categoryId": 6,
-      "name": "Rubber Expansion Joints",
-      "slug": "rubber-expansion-joints",
-      "description": "Flexible rubber expansion joints"
+      "categoryId": 4,
+      "name": "Methane Emission Compliance",
+      "slug": "methane-emission-compliance",
+      "description": "Methane emission compliant isolation gaskets"
     },
     {
       "id": 16,
-      "categoryId": 6,
-      "name": "Metal Expansion Joints",
-      "slug": "metal-expansion-joints",
-      "description": "Metallic bellows expansion joints"
+      "categoryId": 4,
+      "name": "Helium Nitrogen Leak Compliance",
+      "slug": "helium-nitrogen-leak-compliance",
+      "description": "Helium and nitrogen leak tested isolation gaskets"
     },
     {
       "id": 17,
+      "categoryId": 5,
+      "name": "Laminar Gasket",
+      "slug": "laminar-gasket",
+      "description": "Multi-layer laminar metallic gaskets"
+    },
+    {
+      "id": 18,
+      "categoryId": 5,
+      "name": "Kammprofile Gasket",
+      "slug": "kammprofile-gasket",
+      "description": "Serrated metal core gaskets"
+    },
+    {
+      "id": 19,
+      "categoryId": 5,
+      "name": "Shim Joint",
+      "slug": "shim-joint",
+      "description": "Precision metal shim gaskets"
+    },
+    {
+      "id": 20,
+      "categoryId": 5,
+      "name": "Double Jacketed Gasket",
+      "slug": "double-jacketed-gasket",
+      "description": "Double jacketed metallic gaskets"
+    },
+    {
+      "id": 21,
+      "categoryId": 5,
+      "name": "Ring Type Joint Gasket",
+      "slug": "ring-type-joint-gasket",
+      "description": "RTJ ring gaskets for high-pressure applications"
+    },
+    {
+      "id": 22,
+      "categoryId": 5,
+      "name": "Corrugated Gasket",
+      "slug": "corrugated-gasket",
+      "description": "Corrugated metal gaskets"
+    },
+    {
+      "id": 23,
+      "categoryId": 5,
+      "name": "Soft Iron Ring",
+      "slug": "soft-iron-ring",
+      "description": "Soft iron ring gaskets"
+    },
+    {
+      "id": 24,
       "categoryId": 6,
-      "name": "Fabric Expansion Joints",
-      "slug": "fabric-expansion-joints",
-      "description": "High-temperature fabric expansion joints"
+      "name": "E-Glass",
+      "slug": "e-glass",
+      "description": "E-Glass fiber thermal insulation materials"
+    },
+    {
+      "id": 25,
+      "categoryId": 6,
+      "name": "Ceramic",
+      "slug": "ceramic",
+      "description": "Ceramic fiber insulation for extreme temperatures"
+    },
+    {
+      "id": 26,
+      "categoryId": 6,
+      "name": "Silica",
+      "slug": "silica",
+      "description": "Silica-based thermal insulation products"
+    },
+    {
+      "id": 27,
+      "categoryId": 6,
+      "name": "Welding Blanket",
+      "slug": "welding-blanket",
+      "description": "Heat-resistant welding blankets"
+    },
+    {
+      "id": 28,
+      "categoryId": 7,
+      "name": "Aramid based wiping pad",
+      "slug": "aramid-based-wiping-pad",
+      "description": "Aramid fiber wiping pads for wire drawing"
+    },
+    {
+      "id": 29,
+      "categoryId": 7,
+      "name": "High temperature wiping pad",
+      "slug": "high-temperature-wiping-pad",
+      "description": "High-temperature resistant wiping pads"
     }
   ],
-  "products": [
-    {
-      "id": 1,
-      "subcategoryId": 1,
-      "name": "IM-2000 Graphite Packing",
-      "slug": "im-2000-graphite-packing",
-      "shortDescription": "API 622 compliant pure graphite compression packing for centrifugal pumps",
-      "description": "IM-2000 is a high-performance pure graphite compression packing designed for centrifugal pump applications. Manufactured from flexible graphite yarns, it provides excellent thermal conductivity and chemical resistance. API 622 certified for low emission performance.",
-      "image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
-      "specifications": {
-        "material": "Pure Expanded Graphite",
-        "construction": "Braided with aramid corners",
-        "temperature": "-200°C to +650°C",
-        "pressure": "Up to 200 bar",
-        "speed": "Up to 20 m/s",
-        "pH": "0-14",
-        "standards": "API 622, EN 13555"
-      },
-      "features": [
-        "API 622 compliant - low emission certified",
-        "Excellent thermal conductivity prevents overheating",
-        "Superior chemical resistance to acids, alkalis, and solvents",
-        "Self-lubricating - reduces shaft wear",
-        "Easy installation and maintenance",
-        "Long service life reduces downtime"
-      ],
-      "applications": [
-        "Centrifugal pumps in refineries",
-        "Chemical processing pumps",
-        "Power generation equipment",
-        "Water treatment facilities",
-        "Marine applications"
-      ],
-      "advantages": [
-        "Reduces fugitive emissions",
-        "Extends pump seal life",
-        "Compatible with most fluids",
-        "Cost-effective solution"
-      ],
-      "technicalData": {
-        "density": "1.8 g/cm³",
-        "compressibility": "25% at 50 MPa",
-        "recovery": "15% minimum",
-        "tensileStrength": "45 MPa"
-      }
+  "products": 
+[
+  {
+    "id": 1,
+    "subcategoryId": 3,
+    "name": "PE 505",
+    "slug": "pe-505",
+    "material": "PTFE",
+    "apiCertified": true,
+    "shortDescription": "PTFE compression packing for pumps and valves",
+    "description": "PE 505 is a high-performance PTFE packing suitable for various industrial applications including pumps, valves, and rotating equipment.",
+    "image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-200°C to +260°C",
+      "Pressure Rating": "Up to 200 bar",
+      "pH Range": "0-14",
+      "Speed Limit": "20 m/s",
+      "Density": "1.8-2.0 g/cm³"
     },
-    {
-      "id": 2,
-      "subcategoryId": 1,
-      "name": "IM-2100 PTFE Graphite Hybrid",
-      "slug": "im-2100-ptfe-graphite-hybrid",
-      "shortDescription": "PTFE and graphite blend for high-speed centrifugal pump applications",
-      "description": "IM-2100 combines the best properties of PTFE and graphite, offering superior performance in high-speed centrifugal pumps. The hybrid construction provides excellent sealing with minimal friction and heat generation.",
-      "image": "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
-      "specifications": {
-        "material": "PTFE/Graphite Composite",
-        "construction": "Interlock braid",
-        "temperature": "-100°C to +280°C",
-        "pressure": "Up to 150 bar",
-        "speed": "Up to 25 m/s",
-        "pH": "2-12",
-        "standards": "EN 13555"
-      },
-      "features": [
-        "Low friction coefficient reduces wear",
-        "Excellent chemical resistance",
-        "High-speed capability",
-        "Reduced heat generation",
-        "Self-lubricating properties",
-        "Wide pH range compatibility"
-      ],
-      "applications": [
-        "High-speed centrifugal pumps",
-        "Boiler feed pumps",
-        "Condensate pumps",
-        "Hot water circulation",
-        "Chemical transfer pumps"
-      ],
-      "advantages": [
-        "Extended seal life",
-        "Lower maintenance costs",
-        "Reduced shaft wear",
-        "Improved reliability"
-      ],
-      "technicalData": {
-        "density": "1.6 g/cm³",
-        "compressibility": "20% at 50 MPa",
-        "recovery": "18% minimum",
-        "tensileStrength": "55 MPa"
-      }
+    "technicalData": {
+      "Construction": "Pure PTFE filament yarn with PTFE impregnation",
+      "Certification": "API 622 Type Test Qualified",
+      "Size Range": "3mm to 50mm cross-section",
+      "Standard": "ISO 15848-1"
     },
-    {
-      "id": 3,
-      "subcategoryId": 2,
-      "name": "IM-3000 Aramid PTFE Packing",
-      "slug": "im-3000-aramid-ptfe-packing",
-      "shortDescription": "High-strength aramid fiber with PTFE for rotary pumps",
-      "description": "IM-3000 is engineered specifically for positive displacement rotary pumps. The aramid fiber core provides exceptional strength while PTFE ensures excellent sealing and lubrication properties.",
-      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
-      "specifications": {
-        "material": "Aramid Fiber with PTFE",
-        "construction": "Square braid",
-        "temperature": "-50°C to +260°C",
-        "pressure": "Up to 300 bar",
-        "speed": "Up to 5 m/s",
-        "pH": "3-11",
-        "standards": "FDA approved"
-      },
-      "features": [
-        "Exceptional mechanical strength",
-        "FDA compliant for food applications",
-        "Low coefficient of friction",
-        "Excellent dimensional stability",
-        "Resistant to extrusion",
-        "Long service life"
-      ],
-      "applications": [
-        "Gear pumps",
-        "Screw pumps",
-        "Lobe pumps",
-        "Food processing equipment",
-        "Pharmaceutical pumps"
-      ],
-      "advantages": [
-        "High pressure capability",
-        "Food grade certified",
-        "Minimal shaft damage",
-        "Easy to install"
-      ],
-      "technicalData": {
-        "density": "1.4 g/cm³",
-        "compressibility": "15% at 50 MPa",
-        "recovery": "20% minimum",
-        "tensileStrength": "80 MPa"
-      }
+    "features": [
+      "Excellent chemical resistance across full pH range",
+      "Low friction coefficient for reduced wear",
+      "Self-lubricating properties",
+      "API 622 fugitive emission certified",
+      "Suitable for food and pharmaceutical applications"
+    ],
+    "applications": [
+      "Centrifugal pumps in chemical processing",
+      "Control valves in water treatment",
+      "Rotating equipment in pharmaceutical industry",
+      "Food grade pump sealing",
+      "Aggressive chemical service valves"
+    ]
+  },
+  {
+    "id": 2,
+    "subcategoryId": 3,
+    "name": "PE 504",
+    "slug": "pe-504",
+    "material": "PTFE",
+    "apiCertified": false,
+    "shortDescription": "Standard PTFE compression packing",
+    "description": "PE 504 offers reliable PTFE sealing for general purpose applications with excellent chemical resistance and wide temperature range.",
+    "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-200°C to +260°C",
+      "Pressure Rating": "Up to 150 bar",
+      "pH Range": "0-14",
+      "Speed Limit": "18 m/s",
+      "Density": "1.7-1.9 g/cm³"
     },
-    {
-      "id": 4,
-      "subcategoryId": 3,
-      "name": "IM-4000 Valve Stem Packing",
-      "slug": "im-4000-valve-stem-packing",
-      "shortDescription": "Low emission valve packing for critical service",
-      "description": "IM-4000 is specifically designed for valve applications requiring stringent emission control. Combines graphite flexibility with mechanical reinforcement for extended service life.",
-      "image": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
-      "specifications": {
-        "material": "Flexible Graphite",
-        "construction": "Lattice braid with Inconel wire",
-        "temperature": "-200°C to +650°C",
-        "pressure": "Up to 400 bar",
-        "speed": "Static to 0.5 m/s",
-        "pH": "0-14",
-        "standards": "API 622, API 624, ISO 15848"
-      },
-      "features": [
-        "API 622 and 624 certified",
-        "Ultra-low emission performance",
-        "Fire-safe rated",
-        "Excellent thermal cycling resistance",
-        "Minimal maintenance required",
-        "Universal chemical compatibility"
-      ],
-      "applications": [
-        "Gate valves",
-        "Globe valves",
-        "Ball valves",
-        "Butterfly valves",
-        "Control valves"
-      ],
-      "advantages": [
-        "Meets emission regulations",
-        "Extended packing life",
-        "Reduced valve maintenance",
-        "Fire-safe certification"
-      ],
-      "technicalData": {
-        "density": "1.9 g/cm³",
-        "compressibility": "30% at 50 MPa",
-        "recovery": "12% minimum",
-        "tensileStrength": "50 MPa"
-      }
+    "technicalData": {
+      "Construction": "PTFE filament yarn with lubricant impregnation",
+      "Size Range": "4mm to 45mm cross-section",
+      "Standard": "ISO 15848-1"
     },
-    {
-      "id": 5,
-      "subcategoryId": 5,
-      "name": "IM-SWG-316 Spiral Wound Gasket",
-      "slug": "im-swg-316-spiral-wound-gasket",
-      "shortDescription": "316 stainless steel spiral wound gasket with graphite filler",
-      "description": "Premium spiral wound gasket featuring 316 stainless steel winding and flexible graphite filler. Designed for high-pressure and high-temperature flange applications.",
-      "image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
-      "specifications": {
-        "material": "316SS with Flexible Graphite",
-        "construction": "Spiral wound with inner/outer ring",
-        "temperature": "-200°C to +550°C",
-        "pressure": "Up to 250 bar",
-        "standards": "ASME B16.20, EN 1514-2"
-      },
-      "features": [
-        "High resilience and recovery",
-        "Excellent sealing under thermal cycling",
-        "Blow-out resistant design",
-        "Multiple flange compatibility",
-        "Fire-safe construction",
-        "Corrosion resistant"
-      ],
-      "applications": [
-        "Pressure vessels",
-        "Heat exchangers",
-        "Piping systems",
-        "Oil & gas flanges",
-        "Chemical reactors"
-      ],
-      "advantages": [
-        "Superior sealing performance",
-        "Long service life",
-        "Reduced leakage",
-        "Cost-effective"
-      ],
-      "technicalData": {
-        "gasketFactor": "3.0",
-        "minimumSeatingStress": "69 MPa",
-        "maximumOperatingStress": "250 MPa",
-        "compressionStrain": "35%"
-      }
+    "features": [
+      "Universal chemical resistance across full pH spectrum",
+      "Low coefficient of friction for extended service life",
+      "Self-lubricating design reduces maintenance",
+      "Cost-effective solution for general applications",
+      "Easy installation and break-in period"
+    ],
+    "applications": [
+      "General purpose pumps and valves",
+      "Water treatment facilities",
+      "Chemical processing equipment",
+      "Industrial cooling systems",
+      "Municipal water distribution"
+    ]
+  },
+  {
+    "id": 3,
+    "subcategoryId": 5,
+    "name": "HY 504",
+    "slug": "hy-504",
+    "material": "HYBRID",
+    "apiCertified": false,
+    "shortDescription": "Hybrid compression packing for versatile applications",
+    "description": "HY 504 combines multiple materials for enhanced performance across various services, delivering superior sealing in demanding industrial environments.",
+    "image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-100°C to +300°C",
+      "Pressure Rating": "Up to 250 bar",
+      "pH Range": "2-12",
+      "Speed Limit": "22 m/s",
+      "Density": "1.6-1.8 g/cm³"
     },
-    {
-      "id": 6,
-      "subcategoryId": 6,
-      "name": "IM-NAF-1500 Compressed Fiber Sheet",
-      "slug": "im-naf-1500-compressed-fiber-sheet",
-      "shortDescription": "Non-asbestos compressed fiber gasket material",
-      "description": "IM-NAF-1500 is a high-quality non-asbestos compressed fiber sheet suitable for general industrial applications. Offers excellent sealing properties and chemical resistance.",
-      "image": "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
-      "specifications": {
-        "material": "Non-asbestos fiber composite",
-        "thickness": "0.5mm to 6.0mm",
-        "temperature": "-50°C to +450°C",
-        "pressure": "Up to 100 bar",
-        "standards": "ASME B16.21"
-      },
-      "features": [
-        "Asbestos-free formulation",
-        "Good compressibility",
-        "Resistant to oils and fuels",
-        "Easy to cut and install",
-        "Cost-effective solution",
-        "Wide availability"
-      ],
-      "applications": [
-        "General industrial flanges",
-        "Water systems",
-        "Oil and fuel lines",
-        "Compressors",
-        "Pumps and valves"
-      ],
-      "advantages": [
-        "Environmentally friendly",
-        "Versatile application",
-        "Easy handling",
-        "Economical"
-      ],
-      "technicalData": {
-        "density": "1.85 g/cm³",
-        "compressibility": "15-25%",
-        "recovery": "30% minimum",
-        "tensileStrength": "20 MPa"
-      }
-    }
-  ]
+    "technicalData": {
+      "Construction": "Hybrid fiber blend with PTFE and graphite lubrication",
+      "Size Range": "3mm to 50mm cross-section",
+      "Standard": "ISO 15848-1"
+    },
+    "features": [
+      "Combines benefits of multiple material technologies",
+      "Extended temperature range for versatile applications",
+      "Excellent wear resistance and durability",
+      "Good chemical compatibility in most services",
+      "Reduced break-in time and easy installation"
+    ],
+    "applications": [
+      "Multi-stage centrifugal pumps",
+      "High-speed rotating equipment",
+      "Chemical industry valve applications",
+      "Mining and mineral processing",
+      "Pulp and paper industry equipment"
+    ]
+  },
+  {
+    "id": 4,
+    "subcategoryId": 3,
+    "name": "PE 508",
+    "slug": "pe-508",
+    "material": "PTFE",
+    "apiCertified": true,
+    "shortDescription": "API certified PTFE packing",
+    "description": "PE 508 is API certified PTFE packing for critical service applications with superior sealing performance and fugitive emission control.",
+    "image": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-200°C to +260°C",
+      "Pressure Rating": "Up to 220 bar",
+      "pH Range": "0-14",
+      "Speed Limit": "20 m/s",
+      "Density": "1.9-2.1 g/cm³"
+    },
+    "technicalData": {
+      "Construction": "Pure PTFE yarn with special lubricant package",
+      "Certification": "API 622 Type Test Qualified",
+      "Size Range": "3mm to 50mm cross-section",
+      "Standard": "ISO 15848-1, TA-Luft"
+    },
+    "features": [
+      "API 622 fugitive emission certified for environmental compliance",
+      "Exceptional chemical resistance in aggressive media",
+      "Ultra-low friction for extended packing life",
+      "Suitable for high-purity and critical applications",
+      "TA-Luft compliant for emission control"
+    ],
+    "applications": [
+      "Refinery process pumps",
+      "Petrochemical valve applications",
+      "Critical pharmaceutical equipment",
+      "High-purity chemical processing",
+      "Environmentally sensitive installations"
+    ]
+  },
+  {
+    "id": 5,
+    "subcategoryId": 3,
+    "name": "PE 509",
+    "slug": "pe-509",
+    "material": "PTFE",
+    "apiCertified": true,
+    "shortDescription": "High-performance PTFE packing",
+    "description": "PE 509 delivers superior sealing in demanding conditions with PTFE technology and advanced lubricant system for extreme service.",
+    "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-200°C to +260°C",
+      "Pressure Rating": "Up to 250 bar",
+      "pH Range": "0-14",
+      "Speed Limit": "25 m/s",
+      "Density": "2.0-2.2 g/cm³"
+    },
+    "technicalData": {
+      "Construction": "Premium PTFE filament with advanced lubricant system",
+      "Certification": "API 622 Type Test Qualified",
+      "Size Range": "3mm to 50mm cross-section",
+      "Standard": "ISO 15848-1, TA-Luft, MESC SPE 77/312"
+    },
+    "features": [
+      "Superior performance in high-speed applications",
+      "Enhanced lubricant package for extreme conditions",
+      "API 622 certified for fugitive emission control",
+      "Excellent wear resistance and longer service life",
+      "Minimal break-in period and easy installation"
+    ],
+    "applications": [
+      "High-speed centrifugal pumps",
+      "Critical refinery applications",
+      "Offshore platform equipment",
+      "LNG and cryogenic services",
+      "Aggressive chemical handling systems"
+    ]
+  },
+  {
+    "id": 6,
+    "subcategoryId": 5,
+    "name": "HY 105",
+    "slug": "hy-105",
+    "material": "HYBRID",
+    "apiCertified": true,
+    "shortDescription": "API certified hybrid packing",
+    "description": "HY 105 is an API 622 certified hybrid packing for pump and valve applications delivering exceptional sealing performance.",
+    "image": "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-100°C to +280°C",
+      "Pressure Rating": "Up to 200 bar",
+      "pH Range": "2-12",
+      "Speed Limit": "20 m/s",
+      "Density": "1.7-1.9 g/cm³"
+    },
+    "technicalData": {
+      "Construction": "Aramid and PTFE hybrid with graphite dispersion",
+      "Certification": "API 622 Type Test Qualified",
+      "Size Range": "4mm to 50mm cross-section",
+      "Standard": "ISO 15848-1, TA-Luft"
+    },
+    "features": [
+      "API 622 certified for low emission performance",
+      "Combines strength of aramid with lubricity of PTFE",
+      "Excellent thermal and mechanical stability",
+      "Reduced break-in time for faster commissioning",
+      "Superior resilience and recovery properties"
+    ],
+    "applications": [
+      "Process industry pumps and valves",
+      "Chemical processing equipment",
+      "Oil and gas production facilities",
+      "Power generation equipment",
+      "Mining and mineral processing pumps"
+    ]
+  },
+  {
+    "id": 7,
+    "subcategoryId": 5,
+    "name": "HY 105T",
+    "slug": "hy-105t",
+    "material": "HYBRID",
+    "apiCertified": true,
+    "shortDescription": "Hybrid packing with enhanced temperature resistance",
+    "description": "HY 105T offers improved thermal performance in hybrid packing applications for high-temperature services.",
+    "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-100°C to +300°C",
+      "Pressure Rating": "Up to 220 bar",
+      "pH Range": "2-12",
+      "Speed Limit": "20 m/s",
+      "Density": "1.8-2.0 g/cm³"
+    },
+    "technicalData": {
+      "Construction": "High-temperature hybrid blend with enhanced lubricants",
+      "Certification": "API 622 Type Test Qualified",
+      "Size Range": "4mm to 50mm cross-section",
+      "Standard": "ISO 15848-1"
+    },
+    "features": [
+      "Extended temperature capability for demanding applications",
+      "API 622 certified low emission performance",
+      "Enhanced thermal stability and oxidation resistance",
+      "Maintains sealing integrity at temperature extremes",
+      "Excellent chemical compatibility"
+    ],
+    "applications": [
+      "High-temperature pump applications",
+      "Steam service valves and equipment",
+      "Thermal fluid systems",
+      "Hot oil circulation pumps",
+      "Heat transfer equipment"
+    ]
+  },
+  {
+    "id": 8,
+    "subcategoryId": 5,
+    "name": "HY 107",
+    "slug": "hy-107",
+    "material": "HYBRID",
+    "apiCertified": true,
+    "shortDescription": "Premium hybrid compression packing",
+    "description": "HY 107 provides excellent sealing with hybrid material construction for the most demanding applications.",
+    "image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-100°C to +290°C",
+      "Pressure Rating": "Up to 250 bar",
+      "pH Range": "1-13",
+      "Speed Limit": "22 m/s",
+      "Density": "1.8-2.0 g/cm³"
+    },
+    "technicalData": {
+      "Construction": "Premium hybrid fiber blend with PTFE and graphite",
+      "Certification": "API 622 Type Test Qualified",
+      "Size Range": "3mm to 50mm cross-section",
+      "Standard": "ISO 15848-1, TA-Luft, MESC SPE 77/312"
+    },
+    "features": [
+      "Premium performance in severe service conditions",
+      "API 622 certified ultra-low emission design",
+      "Exceptional wear resistance and service life",
+      "Superior chemical and thermal resistance",
+      "Excellent resilience under high pressure"
+    ],
+    "applications": [
+      "Severe duty refinery pumps",
+      "High-pressure chemical process valves",
+      "Critical petrochemical applications",
+      "Offshore oil and gas equipment",
+      "Power plant rotating equipment"
+    ]
+  },
+  {
+    "id": 9,
+    "subcategoryId": 5,
+    "name": "HY 107E",
+    "slug": "hy-107e",
+    "material": "HYBRID",
+    "apiCertified": false,
+    "shortDescription": "Economic hybrid packing solution",
+    "description": "HY 107E offers cost-effective hybrid packing performance for standard industrial applications.",
+    "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-80°C to +260°C",
+      "Pressure Rating": "Up to 150 bar",
+      "pH Range": "3-11",
+      "Speed Limit": "18 m/s",
+      "Density": "1.6-1.8 g/cm³"
+    },
+    "technicalData": {
+      "Construction": "Economic hybrid fiber with standard lubrication",
+      "Size Range": "4mm to 45mm cross-section",
+      "Standard": "ISO 15848-1"
+    },
+    "features": [
+      "Cost-effective solution for general applications",
+      "Good chemical and thermal resistance",
+      "Easy installation and maintenance",
+      "Reliable sealing in standard conditions",
+      "Wide range of compatibility"
+    ],
+    "applications": [
+      "General industrial pumps",
+      "Water and wastewater equipment",
+      "HVAC systems",
+      "Standard valve applications",
+      "Municipal infrastructure"
+    ]
+  },
+  {
+    "id": 10,
+    "subcategoryId": 5,
+    "name": "HY 107 EPT",
+    "slug": "hy-107-ept",
+    "material": "HYBRID",
+    "apiCertified": false,
+    "shortDescription": "EPDM reinforced hybrid packing",
+    "description": "HY 107 EPT features EPDM reinforcement for enhanced chemical resistance and sealing performance.",
+    "image": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-50°C to +150°C",
+      "Pressure Rating": "Up to 120 bar",
+      "pH Range": "4-12",
+      "Speed Limit": "15 m/s",
+      "Density": "1.5-1.7 g/cm³"
+    },
+    "technicalData": {
+      "Construction": "Hybrid fibers with EPDM rubber reinforcement",
+      "Size Range": "5mm to 40mm cross-section",
+      "Standard": "ISO 15848-1"
+    },
+    "features": [
+      "EPDM reinforcement for enhanced resilience",
+      "Excellent water and steam resistance",
+      "Good chemical compatibility with acids and alkalis",
+      "Superior compression recovery properties",
+      "Economical solution for water services"
+    ],
+    "applications": [
+      "Water treatment plants",
+      "Steam condensate systems",
+      "Cooling water pumps",
+      "Municipal water distribution",
+      "Industrial wastewater handling"
+    ]
+  },
+  {
+    "id": 11,
+    "subcategoryId": 5,
+    "name": "HY 175",
+    "slug": "hy-175",
+    "material": "HYBRID",
+    "apiCertified": false,
+    "shortDescription": "General purpose hybrid packing",
+    "description": "HY 175 is designed for standard industrial sealing applications with balanced performance and cost-effectiveness.",
+    "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-60°C to +240°C",
+      "Pressure Rating": "Up to 100 bar",
+      "pH Range": "4-10",
+      "Speed Limit": "15 m/s",
+      "Density": "1.5-1.7 g/cm³"
+    },
+    "technicalData": {
+      "Construction": "Balanced hybrid fiber blend with standard lubricants",
+      "Size Range": "5mm to 40mm cross-section",
+      "Standard": "ISO 15848-1"
+    },
+    "features": [
+      "Economical solution for general sealing needs",
+      "Good all-around performance characteristics",
+      "Easy to install and maintain",
+      "Suitable for wide range of media",
+      "Reliable service in standard conditions"
+    ],
+    "applications": [
+      "General industrial equipment",
+      "Building services pumps",
+      "Standard process valves",
+      "Commercial HVAC systems",
+      "Light industrial applications"
+    ]
+  },
+  {
+    "id": 12,
+    "subcategoryId": 4,
+    "name": "PA 106",
+    "slug": "pa-106",
+    "material": "POLYIMIDE",
+    "apiCertified": true,
+    "shortDescription": "API certified polyimide packing",
+    "description": "PA 106 offers high-strength polyimide fibers for demanding applications with exceptional mechanical properties.",
+    "image": "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-100°C to +320°C",
+      "Pressure Rating": "Up to 300 bar",
+      "pH Range": "1-13",
+      "Speed Limit": "25 m/s",
+      "Density": "1.4-1.6 g/cm³"
+    },
+    "technicalData": {
+      "Construction": "High-performance polyimide fiber with PTFE coating",
+      "Certification": "API 622 Type Test Qualified",
+      "Size Range": "3mm to 50mm cross-section",
+      "Standard": "ISO 15848-1, TA-Luft"
+    },
+    "features": [
+      "Exceptional mechanical strength and durability",
+      "Superior temperature resistance up to 320°C",
+      "API 622 certified for fugitive emission control",
+      "Excellent chemical resistance across pH range",
+      "Outstanding dimensional stability under load"
+    ],
+    "applications": [
+      "High-temperature refinery services",
+      "High-pressure chemical pumps",
+      "Steam turbine applications",
+      "Severe duty valve applications",
+      "Aerospace and defense equipment"
+    ]
+  },
+  {
+    "id": 13,
+    "subcategoryId": 5,
+    "name": "OR 125F",
+    "slug": "or-125f",
+    "material": "ORGANIC",
+    "apiCertified": true,
+    "shortDescription": "FDA approved organic fiber packing",
+    "description": "OR 125F is certified for food and pharmaceutical applications with FDA compliance for sanitary services.",
+    "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-40°C to +150°C",
+      "Pressure Rating": "Up to 100 bar",
+      "pH Range": "4-10",
+      "Speed Limit": "12 m/s",
+      "Density": "1.3-1.5 g/cm³"
+    },
+    "technicalData": {
+      "Construction": "FDA compliant organic fiber with food-grade lubricant",
+      "Certification": "FDA 21 CFR 177.2600, API 622",
+      "Size Range": "5mm to 40mm cross-section",
+      "Standard": "ISO 15848-1, FDA regulations"
+    },
+    "features": [
+      "FDA approved for food contact applications",
+      "Safe for pharmaceutical and beverage industries",
+      "Non-toxic and non-contaminating",
+      "API 622 certified low emission performance",
+      "Easy to clean and sanitize"
+    ],
+    "applications": [
+      "Food processing equipment",
+      "Pharmaceutical manufacturing pumps",
+      "Beverage production systems",
+      "Dairy industry equipment",
+      "Cosmetics and personal care manufacturing"
+    ]
+  },
+  {
+    "id": 14,
+    "subcategoryId": 5,
+    "name": "OR 125G",
+    "slug": "or-125g",
+    "material": "ORGANIC",
+    "apiCertified": false,
+    "shortDescription": "Graphite reinforced organic packing",
+    "description": "OR 125G combines organic fibers with graphite for enhanced performance and thermal conductivity.",
+    "image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-30°C to +180°C",
+      "Pressure Rating": "Up to 120 bar",
+      "pH Range": "3-11",
+      "Speed Limit": "14 m/s",
+      "Density": "1.4-1.6 g/cm³"
+    },
+    "technicalData": {
+      "Construction": "Organic fiber reinforced with graphite particles",
+      "Size Range": "5mm to 45mm cross-section",
+      "Standard": "ISO 15848-1"
+    },
+    "features": [
+      "Enhanced thermal conductivity from graphite",
+      "Improved temperature resistance over standard organic",
+      "Good lubrication and wear characteristics",
+      "Economical solution for moderate conditions",
+      "Reduced friction and heat generation"
+    ],
+    "applications": [
+      "Paper and pulp industry pumps",
+      "Hot water circulation systems",
+      "Food processing with elevated temperatures",
+      "General industrial equipment",
+      "Mining dewatering pumps"
+    ]
+  },
+  {
+    "id": 15,
+    "subcategoryId": 2,
+    "name": "CG 101",
+    "slug": "cg-101",
+    "material": "CARBON/GRAPHITE",
+    "apiCertified": true,
+    "shortDescription": "API certified carbon graphite packing",
+    "description": "CG 101 is a premium carbon graphite packing for high-temperature service with exceptional thermal properties.",
+    "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-200°C to +650°C",
+      "Pressure Rating": "Up to 300 bar",
+      "pH Range": "0-14",
+      "Speed Limit": "20 m/s",
+      "Density": "1.1-1.3 g/cm³"
+    },
+    "technicalData": {
+      "Construction": "High-purity flexible graphite with reinforcement",
+      "Certification": "API 622 Type Test Qualified",
+      "Size Range": "3mm to 50mm cross-section",
+      "Standard": "ISO 15848-1, TA-Luft"
+    },
+    "features": [
+      "Exceptional high-temperature performance to 650°C",
+      "Outstanding thermal and electrical conductivity",
+      "API 622 certified ultra-low emissions",
+      "Universal chemical resistance including acids and alkalis",
+      "Self-lubricating with minimal friction"
+    ],
+    "applications": [
+      "High-temperature steam turbines",
+      "Refinery furnace pumps",
+      "Petrochemical high-temperature services",
+      "Power generation equipment",
+      "Thermal oil systems"
+    ]
+  },
+  {
+    "id": 16,
+    "subcategoryId": 4,
+    "name": "PE 102",
+    "slug": "pe-102",
+    "material": "POLYIMIDE",
+    "apiCertified": true,
+    "shortDescription": "High-performance polyimide compression packing",
+    "description": "PE 102 delivers exceptional strength and chemical resistance for the most demanding industrial applications.",
+    "image": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-100°C to +320°C",
+      "Pressure Rating": "Up to 280 bar",
+      "pH Range": "0-14",
+      "Speed Limit": "23 m/s",
+      "Density": "1.4-1.6 g/cm³"
+    },
+    "technicalData": {
+      "Construction": "Polyimide fiber with graphite and PTFE dispersion",
+      "Certification": "API 622 Type Test Qualified",
+      "Size Range": "3mm to 50mm cross-section",
+      "Standard": "ISO 15848-1, TA-Luft"
+    },
+    "features": [
+      "Outstanding mechanical strength and toughness",
+      "Excellent resistance to thermal cycling",
+      "API 622 certified fugitive emission performance",
+      "Superior chemical compatibility in extreme pH",
+      "Long service life in severe conditions"
+    ],
+    "applications": [
+      "Chemical reactor agitators",
+      "High-pressure process pumps",
+      "Extreme temperature valve applications",
+      "Nuclear power plant equipment",
+      "Aerospace fluid handling systems"
+    ]
+  },
+  {
+    "id": 17,
+    "subcategoryId": 2,
+    "name": "CG 101E",
+    "slug": "cg-101e",
+    "material": "CARBON/GRAPHITE",
+    "apiCertified": false,
+    "shortDescription": "Economic carbon graphite packing",
+    "description": "CG 101E provides cost-effective graphite sealing solutions for moderate temperature applications.",
+    "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-150°C to +500°C",
+      "Pressure Rating": "Up to 200 bar",
+      "pH Range": "0-14",
+      "Speed Limit": "15 m/s",
+      "Density": "1.0-1.2 g/cm³"
+    },
+    "technicalData": {
+      "Construction": "Flexible graphite ribbon with standard yarn reinforcement",
+      "Size Range": "5mm to 45mm cross-section",
+      "Standard": "ISO 15848-1"
+    },
+    "features": [
+      "Economical graphite solution for budget-conscious applications",
+      "Good thermal conductivity and self-lubrication",
+      "Universal chemical resistance",
+      "Easy installation and forming",
+      "Suitable for moderate temperature services"
+    ],
+    "applications": [
+      "Steam service up to 500°C",
+      "General industrial pumps",
+      "Utility plant equipment",
+      "Municipal heating systems",
+      "Standard valve applications"
+    ]
+  },
+  {
+    "id": 18,
+    "subcategoryId": 2,
+    "name": "CG 100",
+    "slug": "cg-100",
+    "material": "CARBON/GRAPHITE",
+    "apiCertified": false,
+    "shortDescription": "Standard carbon graphite packing",
+    "description": "CG 100 is designed for general purpose graphite sealing in standard industrial environments.",
+    "image": "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-100°C to +550°C",
+      "Pressure Rating": "Up to 250 bar",
+      "pH Range": "0-14",
+      "Speed Limit": "18 m/s",
+      "Density": "1.1-1.3 g/cm³"
+    },
+    "technicalData": {
+      "Construction": "Flexible graphite with carbon fiber reinforcement",
+      "Size Range": "4mm to 50mm cross-section",
+      "Standard": "ISO 15848-1"
+    },
+    "features": [
+      "Balanced performance and cost for standard applications",
+      "Good thermal stability and chemical inertness",
+      "Self-lubricating properties reduce friction",
+      "Minimal shaft wear characteristics",
+      "Wide temperature operating range"
+    ],
+    "applications": [
+      "Industrial boiler feed pumps",
+      "Hot water and steam systems",
+      "Chemical transfer pumps",
+      "Power plant auxiliary equipment",
+      "Refinery utility services"
+    ]
+  },
+  {
+    "id": 19,
+    "subcategoryId": 2,
+    "name": "CG 102",
+    "slug": "cg-102",
+    "material": "CARBON/GRAPHITE",
+    "apiCertified": true,
+    "shortDescription": "Premium carbon graphite packing",
+    "description": "CG 102 offers superior thermal conductivity and sealing performance with API certification for critical services.",
+    "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-200°C to +650°C",
+      "Pressure Rating": "Up to 350 bar",
+      "pH Range": "0-14",
+      "Speed Limit": "22 m/s",
+      "Density": "1.2-1.4 g/cm³"
+    },
+    "technicalData": {
+      "Construction": "Premium flexible graphite with inconel wire reinforcement",
+      "Certification": "API 622 Type Test Qualified",
+      "Size Range": "3mm to 50mm cross-section",
+      "Standard": "ISO 15848-1, TA-Luft, MESC SPE 77/312"
+    },
+    "features": [
+      "Premium performance for most demanding applications",
+      "API 622 certified ultra-low emission control",
+      "Exceptional thermal shock resistance",
+      "Inconel reinforcement for extreme conditions",
+      "Outstanding dimensional stability at high temperatures"
+    ],
+    "applications": [
+      "Superheated steam turbines",
+      "High-temperature refinery services",
+      "Critical petrochemical equipment",
+      "Power generation main steam valves",
+      "Thermal cracking units"
+    ]
+  },
+  {
+    "id": 20,
+    "subcategoryId": 24,
+    "name": "IN 123",
+    "slug": "in-123",
+    "material": "INSULATION",
+    "apiCertified": true,
+    "shortDescription": "E-Glass insulation material",
+    "description": "IN 123 provides reliable thermal insulation for high-temperature applications with E-Glass fiber technology.",
+    "image": "https://images.unsplash.com/photo-1768779611359-c4bb38ba3c1e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-100°C to +550°C",
+      "Density": "0.8-1.0 g/cm³",
+      "Thermal Conductivity": "0.04-0.06 W/mK"
+    },
+    "technicalData": {
+      "Construction": "E-Glass continuous filament with heat-resistant binder",
+      "Certification": "ASTM C612, ISO 9001",
+      "Size Range": "Blankets, tapes, sleeves - custom sizes",
+      "Standard": "ASTM E84, UL certification"
+    },
+    "features": [
+      "Excellent thermal insulation up to 550°C",
+      "Non-combustible and fire-resistant",
+      "Good chemical resistance to most media",
+      "Lightweight and easy to install",
+      "Long service life with minimal degradation"
+    ],
+    "applications": [
+      "Industrial furnace insulation",
+      "High-temperature pipe wrapping",
+      "Thermal blanket applications",
+      "Expansion joint insulation",
+      "Removable insulation covers"
+    ]
+  },
+  {
+    "id": 21,
+    "subcategoryId": 24,
+    "name": "IN 123I",
+    "slug": "in-123i",
+    "material": "INSULATION",
+    "apiCertified": false,
+    "shortDescription": "Standard E-Glass insulation",
+    "description": "IN 123I offers cost-effective thermal insulation solutions for standard industrial temperature applications.",
+    "image": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-50°C to +450°C",
+      "Density": "0.7-0.9 g/cm³",
+      "Thermal Conductivity": "0.05-0.07 W/mK"
+    },
+    "technicalData": {
+      "Construction": "Standard E-Glass fiber with organic binder",
+      "Size Range": "Blankets and tapes in standard dimensions",
+      "Standard": "ASTM E84"
+    },
+    "features": [
+      "Economical insulation for moderate temperatures",
+      "Good thermal efficiency and energy savings",
+      "Non-flammable construction",
+      "Easy to handle and install",
+      "Suitable for most industrial environments"
+    ],
+    "applications": [
+      "HVAC duct insulation",
+      "Industrial equipment wrapping",
+      "Pipe and tank insulation",
+      "Boiler insulation systems",
+      "Commercial building applications"
+    ]
+  },
+  {
+    "id": 22,
+    "subcategoryId": 5,
+    "name": "OR 120",
+    "slug": "or-120",
+    "material": "ORGANIC",
+    "apiCertified": false,
+    "shortDescription": "Organic fiber compression packing",
+    "description": "OR 120 provides reliable sealing with organic fiber construction for general industrial applications.",
+    "image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-20°C to +120°C",
+      "Pressure Rating": "Up to 80 bar",
+      "pH Range": "5-9",
+      "Speed Limit": "10 m/s",
+      "Density": "1.2-1.4 g/cm³"
+    },
+    "technicalData": {
+      "Construction": "Organic fiber blend with mineral oil lubricant",
+      "Size Range": "6mm to 40mm cross-section",
+      "Standard": "ISO 15848-1"
+    },
+    "features": [
+      "Economical solution for low-pressure applications",
+      "Good water absorption and sealing properties",
+      "Easy installation and conformability",
+      "Minimal shaft wear in water services",
+      "Cost-effective for standard conditions"
+    ],
+    "applications": [
+      "Water supply pumps",
+      "Cooling tower equipment",
+      "Agricultural irrigation systems",
+      "Municipal water utilities",
+      "Low-pressure general service"
+    ]
+  },
+  {
+    "id": 23,
+    "subcategoryId": 5,
+    "name": "HY 120AR",
+    "slug": "hy-120ar",
+    "material": "HYBRID",
+    "apiCertified": false,
+    "shortDescription": "Aramid reinforced hybrid packing",
+    "description": "HY 120AR features aramid reinforcement for superior strength and abrasion resistance in demanding services.",
+    "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-80°C to +280°C",
+      "Pressure Rating": "Up to 180 bar",
+      "pH Range": "3-11",
+      "Speed Limit": "20 m/s",
+      "Density": "1.6-1.8 g/cm³"
+    },
+    "technicalData": {
+      "Construction": "Aramid fiber core with PTFE and graphite coating",
+      "Size Range": "4mm to 50mm cross-section",
+      "Standard": "ISO 15848-1"
+    },
+    "features": [
+      "Exceptional mechanical strength from aramid fibers",
+      "Superior abrasion and wear resistance",
+      "Good thermal and chemical stability",
+      "Enhanced load-bearing capacity",
+      "Excellent dimensional stability under pressure"
+    ],
+    "applications": [
+      "Abrasive slurry pumps",
+      "Mining and dredging equipment",
+      "High-pressure industrial pumps",
+      "Paper stock pumps",
+      "Severe duty rotating equipment"
+    ]
+  },
+  {
+    "id": 24,
+    "subcategoryId": 5,
+    "name": "OR 120F",
+    "slug": "or-120f",
+    "material": "ORGANIC",
+    "apiCertified": false,
+    "shortDescription": "FDA grade organic packing",
+    "description": "OR 120F is suitable for food processing applications with FDA compliant materials for sanitary services.",
+    "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-20°C to +120°C",
+      "Pressure Rating": "Up to 80 bar",
+      "pH Range": "4-9",
+      "Speed Limit": "10 m/s",
+      "Density": "1.2-1.4 g/cm³"
+    },
+    "technicalData": {
+      "Construction": "FDA compliant organic fibers with food-grade lubricant",
+      "Certification": "FDA 21 CFR 177.2600",
+      "Size Range": "6mm to 40mm cross-section",
+      "Standard": "FDA regulations, 3-A Sanitary Standards"
+    },
+    "features": [
+      "FDA approved for direct food contact",
+      "Non-toxic and tasteless construction",
+      "Easy to clean and sanitize",
+      "Good sealing in water-based media",
+      "Economical for food industry applications"
+    ],
+    "applications": [
+      "Beverage processing equipment",
+      "Dairy product handling",
+      "Food grade water systems",
+      "Brewery and winery pumps",
+      "Confectionery manufacturing"
+    ]
+  },
+  {
+    "id": 25,
+    "subcategoryId": 25,
+    "name": "IN 140",
+    "slug": "in-140",
+    "material": "INSULATION",
+    "apiCertified": false,
+    "shortDescription": "Ceramic fiber insulation",
+    "description": "IN 140 offers high-temperature ceramic fiber insulation for extreme thermal protection applications.",
+    "image": "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-50°C to +1200°C",
+      "Density": "0.1-0.3 g/cm³",
+      "Thermal Conductivity": "0.03-0.05 W/mK"
+    },
+    "technicalData": {
+      "Construction": "Alumina-silica ceramic fiber blanket",
+      "Size Range": "Blankets, boards, papers - various thicknesses",
+      "Standard": "ASTM C1728, ISO 9001"
+    },
+    "features": [
+      "Extreme temperature resistance up to 1200°C",
+      "Exceptional thermal insulation efficiency",
+      "Low thermal mass for rapid heating/cooling",
+      "Chemical stability in most environments",
+      "Lightweight and flexible installation"
+    ],
+    "applications": [
+      "Furnace and kiln lining",
+      "High-temperature gasket applications",
+      "Expansion joint filling",
+      "Fire protection barriers",
+      "Refractory backup insulation"
+    ]
+  },
+  {
+    "id": 26,
+    "subcategoryId": 2,
+    "name": "CG 900",
+    "slug": "cg-900",
+    "material": "CARBON/GRAPHITE",
+    "apiCertified": true,
+    "shortDescription": "Premium flexible graphite packing",
+    "description": "CG 900 delivers exceptional performance in extreme conditions with advanced flexible graphite technology.",
+    "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-240°C to +650°C",
+      "Pressure Rating": "Up to 400 bar",
+      "pH Range": "0-14",
+      "Speed Limit": "25 m/s",
+      "Density": "1.3-1.5 g/cm³"
+    },
+    "technicalData": {
+      "Construction": "Ultra-pure flexible graphite with specialty alloy reinforcement",
+      "Certification": "API 622 Type Test Qualified, API 624",
+      "Size Range": "3mm to 50mm cross-section",
+      "Standard": "ISO 15848-1, TA-Luft, MESC SPE 77/312"
+    },
+    "features": [
+      "Premium grade for most severe service conditions",
+      "Dual API 622 and 624 certification for valves and pumps",
+      "Cryogenic to extreme high-temperature capability",
+      "Ultra-low emission performance",
+      "Exceptional chemical inertness and thermal shock resistance"
+    ],
+    "applications": [
+      "LNG cryogenic services",
+      "Critical nuclear power applications",
+      "Extreme temperature petrochemical processes",
+      "High-pressure hydrogen service",
+      "Severe duty valve and pump applications"
+    ]
+  },
+  {
+    "id": 27,
+    "subcategoryId": 5,
+    "name": "HY 501",
+    "slug": "hy-501",
+    "material": "HYBRID",
+    "apiCertified": true,
+    "shortDescription": "Hybrid packing for pump applications",
+    "description": "HY 501 is optimized for centrifugal and rotary pump sealing with superior performance characteristics.",
+    "image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-100°C to +280°C",
+      "Pressure Rating": "Up to 200 bar",
+      "pH Range": "2-12",
+      "Speed Limit": "20 m/s",
+      "Density": "1.7-1.9 g/cm³"
+    },
+    "technicalData": {
+      "Construction": "Aramid and PTFE hybrid with graphite dispersion",
+      "Certification": "API 622 Type Test Qualified",
+      "Size Range": "4mm to 50mm cross-section",
+      "Standard": "ISO 15848-1, TA-Luft"
+    },
+    "features": [
+      "Optimized specifically for pump applications",
+      "API 622 certified low emission design",
+      "Excellent resilience and recovery properties",
+      "Superior wear resistance in abrasive services",
+      "Easy installation with minimal break-in"
+    ],
+    "applications": [
+      "Centrifugal process pumps",
+      "Rotary vane and gear pumps",
+      "Cooling water circulation pumps",
+      "Chemical transfer pumps",
+      "Boiler feed water pumps"
+    ]
+  },
+  {
+    "id": 28,
+    "subcategoryId": 2,
+    "name": "CG 503",
+    "slug": "cg-503",
+    "material": "CARBON/GRAPHITE",
+    "apiCertified": true,
+    "shortDescription": "High-purity carbon graphite packing",
+    "description": "CG 503 provides clean, low-friction graphite sealing for applications requiring minimal contamination.",
+    "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-200°C to +600°C",
+      "Pressure Rating": "Up to 280 bar",
+      "pH Range": "0-14",
+      "Speed Limit": "20 m/s",
+      "Density": "1.2-1.4 g/cm³"
+    },
+    "technicalData": {
+      "Construction": "High-purity expanded graphite with corrosion-resistant wire",
+      "Certification": "API 622 Type Test Qualified",
+      "Size Range": "3mm to 50mm cross-section",
+      "Standard": "ISO 15848-1, TA-Luft"
+    },
+    "features": [
+      "High-purity grade for clean service applications",
+      "Minimal contamination and product degradation",
+      "API 622 certified fugitive emission control",
+      "Ultra-low friction coefficient",
+      "Excellent thermal conductivity"
+    ],
+    "applications": [
+      "Pharmaceutical manufacturing equipment",
+      "High-purity chemical processing",
+      "Food and beverage high-temperature services",
+      "Clean steam applications",
+      "Semiconductor manufacturing systems"
+    ]
+  },
+  {
+    "id": 29,
+    "subcategoryId": 3,
+    "name": "PE 104",
+    "slug": "pe-104",
+    "material": "PTFE",
+    "apiCertified": true,
+    "shortDescription": "Universal PTFE compression packing",
+    "description": "PE 104 is suitable for pumps, valves, and rotating equipment offering versatile PTFE sealing performance.",
+    "image": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-200°C to +260°C",
+      "Pressure Rating": "Up to 200 bar",
+      "pH Range": "0-14",
+      "Speed Limit": "20 m/s",
+      "Density": "1.8-2.0 g/cm³"
+    },
+    "technicalData": {
+      "Construction": "PTFE fiber with enhanced lubricant package",
+      "Certification": "API 622 Type Test Qualified",
+      "Size Range": "3mm to 50mm cross-section",
+      "Standard": "ISO 15848-1, TA-Luft"
+    },
+    "features": [
+      "Universal application across pumps and valves",
+      "API 622 certified environmental compliance",
+      "Outstanding chemical resistance across pH spectrum",
+      "Low friction for extended equipment life",
+      "Easy installation and adjustment"
+    ],
+    "applications": [
+      "General purpose chemical pumps",
+      "Control and isolation valves",
+      "Water treatment equipment",
+      "Pharmaceutical process equipment",
+      "Pulp and paper industry"
+    ]
+  },
+  {
+    "id": 30,
+    "subcategoryId": 5,
+    "name": "OR 151",
+    "slug": "or-151",
+    "material": "ORGANIC",
+    "apiCertified": false,
+    "shortDescription": "Economical organic fiber packing",
+    "description": "OR 151 provides basic sealing for general applications with cost-effective organic fiber construction.",
+    "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-10°C to +100°C",
+      "Pressure Rating": "Up to 60 bar",
+      "pH Range": "5-9",
+      "Speed Limit": "8 m/s",
+      "Density": "1.1-1.3 g/cm³"
+    },
+    "technicalData": {
+      "Construction": "Standard organic fiber with basic lubrication",
+      "Size Range": "6mm to 40mm cross-section",
+      "Standard": "ISO 15848-1"
+    },
+    "features": [
+      "Most economical packing solution",
+      "Suitable for low-pressure water applications",
+      "Easy to install and replace",
+      "Good conformability to stuffing boxes",
+      "Minimal equipment investment required"
+    ],
+    "applications": [
+      "Residential water pumps",
+      "Agricultural equipment",
+      "Light industrial services",
+      "Building maintenance applications",
+      "Low-duty cooling systems"
+    ]
+  },
+  {
+    "id": 31,
+    "subcategoryId": 5,
+    "name": "OR 156",
+    "slug": "or-156",
+    "material": "ORGANIC",
+    "apiCertified": false,
+    "shortDescription": "Enhanced organic fiber packing",
+    "description": "OR 156 offers improved performance over standard organic packings with enhanced fiber treatment.",
+    "image": "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-20°C to +130°C",
+      "Pressure Rating": "Up to 90 bar",
+      "pH Range": "4-10",
+      "Speed Limit": "12 m/s",
+      "Density": "1.3-1.5 g/cm³"
+    },
+    "technicalData": {
+      "Construction": "Enhanced organic fiber with improved lubricant system",
+      "Size Range": "5mm to 45mm cross-section",
+      "Standard": "ISO 15848-1"
+    },
+    "features": [
+      "Enhanced performance over standard organic packings",
+      "Improved temperature and pressure capability",
+      "Better chemical compatibility range",
+      "Good value for mid-range applications",
+      "Longer service life than economy grades"
+    ],
+    "applications": [
+      "Industrial water pumps",
+      "Condensate return systems",
+      "Light chemical services",
+      "Commercial HVAC equipment",
+      "Food processing water systems"
+    ]
+  },
+  {
+    "id": 32,
+    "subcategoryId": 5,
+    "name": "HY 606",
+    "slug": "hy-606",
+    "material": "HYBRID",
+    "apiCertified": true,
+    "shortDescription": "Heavy-duty hybrid packing",
+    "description": "HY 606 is engineered for severe service conditions with enhanced mechanical strength and durability.",
+    "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-100°C to +300°C",
+      "Pressure Rating": "Up to 300 bar",
+      "pH Range": "1-13",
+      "Speed Limit": "22 m/s",
+      "Density": "1.8-2.0 g/cm³"
+    },
+    "technicalData": {
+      "Construction": "Heavy-duty aramid and PTFE with enhanced graphite",
+      "Certification": "API 622 Type Test Qualified",
+      "Size Range": "3mm to 50mm cross-section",
+      "Standard": "ISO 15848-1, TA-Luft"
+    },
+    "features": [
+      "Heavy-duty construction for severe applications",
+      "API 622 certified for demanding emission requirements",
+      "Exceptional abrasion and wear resistance",
+      "Superior load-bearing capacity",
+      "Extended service life in harsh conditions"
+    ],
+    "applications": [
+      "Abrasive slurry services",
+      "High-pressure mining pumps",
+      "Severe duty refinery equipment",
+      "Heavy industrial valve applications",
+      "Extreme service petrochemical pumps"
+    ]
+  },
+  {
+    "id": 33,
+    "subcategoryId": 2,
+    "name": "CG 501C",
+    "slug": "cg-501c",
+    "material": "CARBON/GRAPHITE",
+    "apiCertified": false,
+    "shortDescription": "Clean service carbon graphite packing",
+    "description": "CG 501C is designed for minimal contamination applications requiring clean graphite sealing.",
+    "image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-150°C to +550°C",
+      "Pressure Rating": "Up to 220 bar",
+      "pH Range": "0-14",
+      "Speed Limit": "18 m/s",
+      "Density": "1.1-1.3 g/cm³"
+    },
+    "technicalData": {
+      "Construction": "Clean-service flexible graphite with minimal binder",
+      "Size Range": "4mm to 50mm cross-section",
+      "Standard": "ISO 15848-1"
+    },
+    "features": [
+      "Minimal product contamination characteristics",
+      "Clean service suitable for sensitive processes",
+      "Good thermal conductivity and lubrication",
+      "Universal chemical resistance",
+      "Low particulate generation"
+    ],
+    "applications": [
+      "Clean steam generation",
+      "Pharmaceutical steam systems",
+      "Food processing high-temperature services",
+      "Clean chemical manufacturing",
+      "Biotechnology equipment"
+    ]
+  },
+  {
+    "id": 34,
+    "subcategoryId": 5,
+    "name": "HY 801",
+    "slug": "hy-801",
+    "material": "HYBRID",
+    "apiCertified": true,
+    "shortDescription": "Premium hybrid valve packing",
+    "description": "HY 801 delivers superior valve stem sealing performance for critical control and isolation applications.",
+    "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-100°C to +290°C",
+      "Pressure Rating": "Up to 400 bar",
+      "pH Range": "1-13",
+      "Speed Limit": "15 m/s (reciprocating)",
+      "Density": "1.8-2.0 g/cm³"
+    },
+    "technicalData": {
+      "Construction": "Premium hybrid blend optimized for valve applications",
+      "Certification": "API 622 Type Test Qualified, API 624",
+      "Size Range": "3mm to 50mm cross-section",
+      "Standard": "ISO 15848-1, ISO 15848-2, TA-Luft"
+    },
+    "features": [
+      "Specifically engineered for valve stem sealing",
+      "Dual API 622 and 624 certification",
+      "Ultra-low emission for environmental compliance",
+      "Excellent resilience under thermal cycling",
+      "Superior torque characteristics for valve operation"
+    ],
+    "applications": [
+      "Critical control valves",
+      "High-pressure isolation valves",
+      "Refinery safety shut-off valves",
+      "Severe service gate and globe valves",
+      "Petrochemical emergency isolation systems"
+    ]
+  },
+  {
+    "id": 35,
+    "subcategoryId": 4,
+    "name": "PA 499",
+    "slug": "pa-499",
+    "material": "POLYIMIDE",
+    "apiCertified": true,
+    "shortDescription": "Advanced polyimide packing",
+    "description": "PA 499 offers exceptional mechanical properties and chemical resistance for the most demanding applications.",
+    "image": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-150°C to +320°C",
+      "Pressure Rating": "Up to 350 bar",
+      "pH Range": "0-14",
+      "Speed Limit": "25 m/s",
+      "Density": "1.5-1.7 g/cm³"
+    },
+    "technicalData": {
+      "Construction": "Advanced polyimide with specialty lubricant system",
+      "Certification": "API 622 Type Test Qualified",
+      "Size Range": "3mm to 50mm cross-section",
+      "Standard": "ISO 15848-1, TA-Luft, MESC SPE 77/312"
+    },
+    "features": [
+      "Advanced polyimide technology for extreme conditions",
+      "Outstanding mechanical strength and toughness",
+      "API 622 certified ultra-low emission performance",
+      "Exceptional resistance to thermal degradation",
+      "Superior dimensional stability under load"
+    ],
+    "applications": [
+      "Aerospace hydraulic systems",
+      "Nuclear power critical applications",
+      "High-temperature chemical reactors",
+      "Extreme pressure pump applications",
+      "Defense and military equipment"
+    ]
+  },
+  {
+    "id": 36,
+    "subcategoryId": 25,
+    "name": "IN 125G",
+    "slug": "in-125g",
+    "material": "INSULATION",
+    "apiCertified": false,
+    "shortDescription": "Graphite enhanced ceramic insulation",
+    "description": "IN 125G provides enhanced thermal protection with graphite additives for improved heat resistance.",
+    "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-50°C to +1260°C",
+      "Density": "0.2-0.4 g/cm³",
+      "Thermal Conductivity": "0.02-0.04 W/mK"
+    },
+    "technicalData": {
+      "Construction": "Ceramic fiber with graphite enhancement",
+      "Size Range": "Blankets, boards, modules - custom sizes",
+      "Standard": "ASTM C1728, ISO 9001"
+    },
+    "features": [
+      "Enhanced temperature capability with graphite",
+      "Superior thermal shock resistance",
+      "Improved chemical stability",
+      "Low thermal conductivity for energy efficiency",
+      "Flexible and easy to install"
+    ],
+    "applications": [
+      "High-temperature furnace lining",
+      "Petrochemical reformer insulation",
+      "Metal heat treating equipment",
+      "Glass manufacturing furnaces",
+      "Industrial kiln construction"
+    ]
+  },
+  {
+    "id": 37,
+    "subcategoryId": 5,
+    "name": "HY 510",
+    "slug": "hy-510",
+    "material": "HYBRID",
+    "apiCertified": false,
+    "shortDescription": "Standard hybrid compression packing",
+    "description": "HY 510 offers reliable sealing for general industrial use with balanced hybrid performance.",
+    "image": "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-70°C to +250°C",
+      "Pressure Rating": "Up to 140 bar",
+      "pH Range": "3-11",
+      "Speed Limit": "16 m/s",
+      "Density": "1.6-1.8 g/cm³"
+    },
+    "technicalData": {
+      "Construction": "Standard hybrid fiber with PTFE and graphite coating",
+      "Size Range": "4mm to 50mm cross-section",
+      "Standard": "ISO 15848-1"
+    },
+    "features": [
+      "Good all-around performance for standard applications",
+      "Cost-effective hybrid solution",
+      "Reliable sealing across common industrial media",
+      "Easy installation and commissioning",
+      "Wide range of compatibility"
+    ],
+    "applications": [
+      "General industrial pumps",
+      "Standard process equipment",
+      "Water and utility systems",
+      "Manufacturing equipment",
+      "Building services applications"
+    ]
+  },
+  {
+    "id": 38,
+    "subcategoryId": 3,
+    "name": "PE 104C",
+    "slug": "pe-104c",
+    "material": "PTFE",
+    "apiCertified": true,
+    "shortDescription": "Clean service PTFE packing",
+    "description": "PE 104C is designed for applications requiring minimal contamination with clean PTFE construction.",
+    "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-200°C to +260°C",
+      "Pressure Rating": "Up to 200 bar",
+      "pH Range": "0-14",
+      "Speed Limit": "20 m/s",
+      "Density": "1.8-2.0 g/cm³"
+    },
+    "technicalData": {
+      "Construction": "Clean-service PTFE with minimal binder content",
+      "Certification": "API 622 Type Test Qualified, FDA compliant",
+      "Size Range": "3mm to 50mm cross-section",
+      "Standard": "ISO 15848-1, FDA 21 CFR 177.2600"
+    },
+    "features": [
+      "Clean service design for minimal product contamination",
+      "API 622 certified fugitive emission performance",
+      "FDA compliant for food and pharmaceutical use",
+      "Ultra-low particulate generation",
+      "Excellent chemical resistance"
+    ],
+    "applications": [
+      "Pharmaceutical manufacturing pumps",
+      "Food processing equipment",
+      "High-purity chemical production",
+      "Clean steam services",
+      "Biotechnology applications"
+    ]
+  },
+  {
+    "id": 39,
+    "subcategoryId": 5,
+    "name": "HY 105PT",
+    "slug": "hy-105pt",
+    "material": "HYBRID",
+    "apiCertified": false,
+    "shortDescription": "PTFE enhanced hybrid packing",
+    "description": "HY 105PT combines hybrid construction with PTFE for improved lubricity and chemical resistance.",
+    "image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-90°C to +270°C",
+      "Pressure Rating": "Up to 180 bar",
+      "pH Range": "1-13",
+      "Speed Limit": "18 m/s",
+      "Density": "1.7-1.9 g/cm³"
+    },
+    "technicalData": {
+      "Construction": "Hybrid core with enhanced PTFE coating",
+      "Size Range": "4mm to 50mm cross-section",
+      "Standard": "ISO 15848-1"
+    },
+    "features": [
+      "Enhanced PTFE content for superior lubricity",
+      "Improved chemical compatibility",
+      "Low friction and reduced wear",
+      "Good resilience and recovery",
+      "Extended service life"
+    ],
+    "applications": [
+      "Chemical processing pumps",
+      "Corrosive media handling",
+      "Pharmaceutical equipment",
+      "Specialty chemical production",
+      "Water treatment systems"
+    ]
+  },
+  {
+    "id": 40,
+    "subcategoryId": 3,
+    "name": "PE 504C",
+    "slug": "pe-504c",
+    "material": "PTFE",
+    "apiCertified": false,
+    "shortDescription": "Clean service PTFE packing",
+    "description": "PE 504C provides contamination-free sealing solutions for clean service applications.",
+    "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-200°C to +260°C",
+      "Pressure Rating": "Up to 150 bar",
+      "pH Range": "0-14",
+      "Speed Limit": "18 m/s",
+      "Density": "1.7-1.9 g/cm³"
+    },
+    "technicalData": {
+      "Construction": "Clean PTFE filament with food-grade lubricant",
+      "Certification": "FDA 21 CFR 177.2600",
+      "Size Range": "4mm to 45mm cross-section",
+      "Standard": "FDA regulations, ISO 15848-1"
+    },
+    "features": [
+      "Clean service construction minimizes contamination",
+      "FDA approved for food contact",
+      "Low particulate shedding",
+      "Excellent chemical resistance",
+      "Cost-effective clean service solution"
+    ],
+    "applications": [
+      "Food and beverage processing",
+      "Pharmaceutical water systems",
+      "Clean chemical manufacturing",
+      "Cosmetics production equipment",
+      "Sanitary process pumps"
+    ]
+  },
+  {
+    "id": 41,
+    "subcategoryId": 4,
+    "name": "PA 106G",
+    "slug": "pa-106g",
+    "material": "POLYIMIDE",
+    "apiCertified": false,
+    "shortDescription": "Graphite enhanced polyimide packing",
+    "description": "PA 106G combines polyimide strength with graphite lubrication for enhanced thermal performance.",
+    "image": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-100°C to +320°C",
+      "Pressure Rating": "Up to 280 bar",
+      "pH Range": "1-13",
+      "Speed Limit": "23 m/s",
+      "Density": "1.5-1.7 g/cm³"
+    },
+    "technicalData": {
+      "Construction": "Polyimide fiber with graphite dispersion and PTFE coating",
+      "Size Range": "3mm to 50mm cross-section",
+      "Standard": "ISO 15848-1"
+    },
+    "features": [
+      "Combines polyimide strength with graphite lubrication",
+      "Enhanced thermal conductivity for heat dissipation",
+      "Superior wear resistance and low friction",
+      "Excellent chemical and thermal stability",
+      "Extended service life in high-temperature applications"
+    ],
+    "applications": [
+      "High-temperature chemical pumps",
+      "Steam turbine gland sealing",
+      "Thermal oil circulation systems",
+      "High-pressure valve applications",
+      "Power plant equipment"
+    ]
+  },
+  {
+    "id": 42,
+    "subcategoryId": 4,
+    "name": "PA 106E",
+    "slug": "pa-106e",
+    "material": "POLYIMIDE",
+    "apiCertified": true,
+    "shortDescription": "Enhanced polyimide compression packing",
+    "description": "PA 106E offers superior performance for demanding applications with API certification.",
+    "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-100°C to +320°C",
+      "Pressure Rating": "Up to 300 bar",
+      "pH Range": "0-14",
+      "Speed Limit": "25 m/s",
+      "Density": "1.4-1.6 g/cm³"
+    },
+    "technicalData": {
+      "Construction": "Enhanced polyimide with advanced lubricant system",
+      "Certification": "API 622 Type Test Qualified",
+      "Size Range": "3mm to 50mm cross-section",
+      "Standard": "ISO 15848-1, TA-Luft"
+    },
+    "features": [
+      "API 622 certified for fugitive emission control",
+      "Enhanced formulation for superior performance",
+      "Outstanding mechanical strength at elevated temperatures",
+      "Excellent chemical resistance in extreme pH",
+      "Low coefficient of friction"
+    ],
+    "applications": [
+      "Critical refinery pumps and valves",
+      "High-temperature chemical processing",
+      "Severe duty petrochemical equipment",
+      "Power generation critical services",
+      "Aerospace fluid handling"
+    ]
+  },
+  {
+    "id": 43,
+    "subcategoryId": 4,
+    "name": "PA 104A",
+    "slug": "pa-104a",
+    "material": "POLYIMIDE",
+    "apiCertified": true,
+    "shortDescription": "Advanced polyimide packing",
+    "description": "PA 104A delivers exceptional strength and thermal resistance for extreme applications.",
+    "image": "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-120°C to +320°C",
+      "Pressure Rating": "Up to 320 bar",
+      "pH Range": "0-14",
+      "Speed Limit": "25 m/s",
+      "Density": "1.5-1.7 g/cm³"
+    },
+    "technicalData": {
+      "Construction": "Advanced polyimide with multi-layer construction",
+      "Certification": "API 622 Type Test Qualified",
+      "Size Range": "3mm to 50mm cross-section",
+      "Standard": "ISO 15848-1, TA-Luft, MESC SPE 77/312"
+    },
+    "features": [
+      "Advanced construction for extreme conditions",
+      "API 622 certified ultra-low emission performance",
+      "Exceptional resistance to thermal cycling",
+      "Superior mechanical properties under load",
+      "Outstanding dimensional stability"
+    ],
+    "applications": [
+      "Nuclear power plant critical equipment",
+      "Aerospace and defense applications",
+      "Extreme high-pressure services",
+      "High-temperature chemical reactors",
+      "Critical safety systems"
+    ]
+  },
+  {
+    "id": 44,
+    "subcategoryId": 3,
+    "name": "PE 504P",
+    "slug": "pe-504p",
+    "material": "PTFE",
+    "apiCertified": true,
+    "shortDescription": "Premium PTFE compression packing",
+    "description": "PE 504P offers enhanced sealing performance with pure PTFE construction and API certification.",
+    "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-200°C to +260°C",
+      "Pressure Rating": "Up to 180 bar",
+      "pH Range": "0-14",
+      "Speed Limit": "20 m/s",
+      "Density": "1.9-2.1 g/cm³"
+    },
+    "technicalData": {
+      "Construction": "Premium pure PTFE with advanced lubricant package",
+      "Certification": "API 622 Type Test Qualified",
+      "Size Range": "3mm to 50mm cross-section",
+      "Standard": "ISO 15848-1, TA-Luft"
+    },
+    "features": [
+      "Premium grade pure PTFE construction",
+      "API 622 certified fugitive emission performance",
+      "Superior chemical resistance across all pH levels",
+      "Ultra-low friction for extended service life",
+      "Excellent resilience and recovery properties"
+    ],
+    "applications": [
+      "Premium chemical processing equipment",
+      "Pharmaceutical critical applications",
+      "High-purity manufacturing systems",
+      "Aggressive chemical services",
+      "Environmental compliance installations"
+    ]
+  },
+  {
+    "id": 45,
+    "subcategoryId": 1,
+    "name": "ULTRA FE 1002",
+    "slug": "ultra-fe-1002",
+    "material": "FUGITIVE EMISSION",
+    "apiCertified": true,
+    "shortDescription": "Ultra-low emission packing",
+    "description": "ULTRA FE 1002 exceeds API 622 requirements for fugitive emission control with exceptional performance.",
+    "image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-100°C to +280°C",
+      "Pressure Rating": "Up to 250 bar",
+      "pH Range": "0-14",
+      "Speed Limit": "20 m/s",
+      "Density": "1.8-2.0 g/cm³",
+      "Emission Level": "<500 ppm (exceeds API 622)"
+    },
+    "technicalData": {
+      "Construction": "Multi-layer fugitive emission control design",
+      "Certification": "API 622 Type Test Qualified, TA-Luft",
+      "Size Range": "3mm to 50mm cross-section",
+      "Standard": "ISO 15848-1, EPA regulations"
+    },
+    "features": [
+      "Ultra-low emission exceeding API 622 requirements",
+      "TA-Luft compliant for strict environmental regulations",
+      "Multi-layer construction for superior sealing",
+      "Excellent chemical and thermal resistance",
+      "Extended service life reduces maintenance"
+    ],
+    "applications": [
+      "Environmentally sensitive installations",
+      "Refinery emission control systems",
+      "Petrochemical VOC reduction",
+      "Offshore platform equipment",
+      "Regulatory compliance applications"
+    ]
+  },
+  {
+    "id": 46,
+    "subcategoryId": 1,
+    "name": "ULTRA NLE 1003",
+    "slug": "ultra-nle-1003",
+    "material": "FUGITIVE EMISSION",
+    "apiCertified": true,
+    "shortDescription": "Near-zero emission packing",
+    "description": "ULTRA NLE 1003 provides superior fugitive emission control approaching zero emissions.",
+    "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-100°C to +290°C",
+      "Pressure Rating": "Up to 280 bar",
+      "pH Range": "0-14",
+      "Speed Limit": "22 m/s",
+      "Density": "1.9-2.1 g/cm³",
+      "Emission Level": "<100 ppm (near-zero emissions)"
+    },
+    "technicalData": {
+      "Construction": "Advanced near-zero emission technology",
+      "Certification": "API 622 Type Test Qualified, TA-Luft, MESC",
+      "Size Range": "3mm to 50mm cross-section",
+      "Standard": "ISO 15848-1, EPA Method 21"
+    },
+    "features": [
+      "Near-zero emission performance <100 ppm",
+      "Most stringent environmental compliance",
+      "Advanced multi-barrier sealing technology",
+      "Superior resistance to thermal cycling",
+      "Extended service intervals"
+    ],
+    "applications": [
+      "Critical environmental compliance installations",
+      "Zero-emission facility requirements",
+      "LNG and natural gas processing",
+      "Refineries with strict emission limits",
+      "European TA-Luft compliant facilities"
+    ]
+  },
+  {
+    "id": 47,
+    "subcategoryId": 1,
+    "name": "ULTRA LT 1004",
+    "slug": "ultra-lt-1004",
+    "material": "FUGITIVE EMISSION",
+    "apiCertified": true,
+    "shortDescription": "Low temperature fugitive emission packing",
+    "description": "ULTRA LT 1004 maintains sealing integrity in cryogenic services with ultra-low emissions.",
+    "image": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-270°C to +260°C",
+      "Pressure Rating": "Up to 200 bar",
+      "pH Range": "0-14",
+      "Speed Limit": "18 m/s",
+      "Density": "1.7-1.9 g/cm³",
+      "Emission Level": "<500 ppm"
+    },
+    "technicalData": {
+      "Construction": "Cryogenic-grade fugitive emission control design",
+      "Certification": "API 622 Type Test Qualified, cryogenic service",
+      "Size Range": "3mm to 50mm cross-section",
+      "Standard": "ISO 15848-1, cryogenic standards"
+    },
+    "features": [
+      "Cryogenic temperature capability to -270°C",
+      "API 622 certified low emission performance",
+      "Maintains flexibility at extreme low temperatures",
+      "Excellent thermal shock resistance",
+      "Suitable for LNG and cryogenic applications"
+    ],
+    "applications": [
+      "LNG processing and storage",
+      "Cryogenic pumps and valves",
+      "Liquid nitrogen and oxygen systems",
+      "Air separation plants",
+      "Cryogenic transport equipment"
+    ]
+  },
+  {
+    "id": 48,
+    "subcategoryId": 1,
+    "name": "ULTRA NE 1005",
+    "slug": "ultra-ne-1005",
+    "material": "FUGITIVE EMISSION",
+    "apiCertified": true,
+    "shortDescription": "Nuclear grade fugitive emission packing",
+    "description": "ULTRA NE 1005 meets stringent nuclear industry requirements with ultra-low emission performance.",
+    "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-100°C to +300°C",
+      "Pressure Rating": "Up to 300 bar",
+      "pH Range": "0-14",
+      "Speed Limit": "20 m/s",
+      "Density": "1.8-2.0 g/cm³",
+      "Emission Level": "<250 ppm",
+      "Radiation Resistance": "High"
+    },
+    "technicalData": {
+      "Construction": "Nuclear-grade materials with radiation resistance",
+      "Certification": "API 622, Nuclear QA1, ASME Section III",
+      "Size Range": "3mm to 50mm cross-section",
+      "Standard": "ISO 15848-1, nuclear industry standards"
+    },
+    "features": [
+      "Nuclear grade materials and certifications",
+      "Radiation resistant construction",
+      "Ultra-low emission for contamination control",
+      "Meets ASME Section III requirements",
+      "Extensive quality assurance and traceability"
+    ],
+    "applications": [
+      "Nuclear power plant primary systems",
+      "Reactor coolant pumps",
+      "Safety-critical nuclear applications",
+      "Radioactive fluid handling",
+      "Nuclear research facilities"
+    ]
+  },
+  {
+    "id": 49,
+    "subcategoryId": 28,
+    "name": "WIPING PAD",
+    "slug": "wiping-pad",
+    "material": "ARAMID WIPING",
+    "apiCertified": true,
+    "shortDescription": "Aramid based wiping pad for wire drawing",
+    "description": "Specially designed wiping pad for the wire drawing industry, providing exceptional strength and durability for high-speed operations.",
+    "image": "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-40°C to +280°C",
+      "Pressure Rating": "Up to 50 bar (wiping pressure)",
+      "Speed Limit": "50 m/s wire speed",
+      "Density": "0.8-1.2 g/cm³"
+    },
+    "technicalData": {
+      "Construction": "High-strength aramid fiber with specialized binder",
+      "Certification": "ISO 9001, industry specific approvals",
+      "Size Range": "Custom sizes for wire drawing dies",
+      "Standard": "Wire drawing industry standards"
+    },
+    "features": [
+      "Exceptional mechanical strength and abrasion resistance",
+      "High-temperature capability for wire drawing operations",
+      "Superior wire cleaning and die protection",
+      "Long service life reduces downtime",
+      "Minimal wire surface contamination"
+    ],
+    "applications": [
+      "Wire drawing die wiping",
+      "Steel wire production",
+      "Copper and aluminum wire manufacturing",
+      "Fine wire drawing operations",
+      "High-speed wire processing"
+    ]
+  },
+  {
+    "id": 50,
+    "subcategoryId": 5,
+    "name": "HY 105 HD",
+    "slug": "hy-105-hd",
+    "material": "HYBRID",
+    "apiCertified": true,
+    "shortDescription": "Heavy-duty hybrid packing",
+    "description": "HY 105 HD is engineered for extreme service conditions with enhanced durability and API certification.",
+    "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-100°C to +290°C",
+      "Pressure Rating": "Up to 280 bar",
+      "pH Range": "1-13",
+      "Speed Limit": "22 m/s",
+      "Density": "1.9-2.1 g/cm³"
+    },
+    "technicalData": {
+      "Construction": "Heavy-duty aramid and PTFE with reinforced graphite",
+      "Certification": "API 622 Type Test Qualified",
+      "Size Range": "3mm to 50mm cross-section",
+      "Standard": "ISO 15848-1, TA-Luft"
+    },
+    "features": [
+      "Heavy-duty construction for severe applications",
+      "API 622 certified fugitive emission control",
+      "Enhanced abrasion and wear resistance",
+      "Superior load-bearing capability",
+      "Extended service life in harsh environments"
+    ],
+    "applications": [
+      "Severe duty mining pumps",
+      "Abrasive chemical services",
+      "High-pressure refinery equipment",
+      "Slurry and particulate handling",
+      "Heavy industrial process equipment"
+    ]
+  },
+  {
+    "id": 51,
+    "subcategoryId": 5,
+    "name": "HY 107 HD",
+    "slug": "hy-107-hd",
+    "material": "HYBRID",
+    "apiCertified": true,
+    "shortDescription": "Heavy-duty premium hybrid packing",
+    "description": "HY 107 HD delivers maximum performance in severe applications with premium heavy-duty construction.",
+    "image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-100°C to +300°C",
+      "Pressure Rating": "Up to 320 bar",
+      "pH Range": "1-13",
+      "Speed Limit": "23 m/s",
+      "Density": "1.9-2.1 g/cm³"
+    },
+    "technicalData": {
+      "Construction": "Premium heavy-duty hybrid with reinforced construction",
+      "Certification": "API 622 Type Test Qualified",
+      "Size Range": "3mm to 50mm cross-section",
+      "Standard": "ISO 15848-1, TA-Luft, MESC SPE 77/312"
+    },
+    "features": [
+      "Maximum performance for most severe conditions",
+      "API 622 certified with enhanced emission control",
+      "Superior abrasion resistance and toughness",
+      "Exceptional load-bearing and pressure capability",
+      "Longest service life in harsh environments"
+    ],
+    "applications": [
+      "Extreme duty mining and mineral processing",
+      "Heavy abrasive slurry applications",
+      "Critical refinery severe service",
+      "High-pressure petrochemical equipment",
+      "Offshore platform critical pumps"
+    ]
+  },
+  {
+    "id": 52,
+    "subcategoryId": 5,
+    "name": "OR 125SR",
+    "slug": "or-125sr",
+    "material": "ORGANIC",
+    "apiCertified": true,
+    "shortDescription": "Steam resistant organic packing",
+    "description": "OR 125SR is designed for high-temperature steam service with API certification.",
+    "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-30°C to +200°C",
+      "Pressure Rating": "Up to 150 bar",
+      "pH Range": "4-10",
+      "Speed Limit": "14 m/s",
+      "Density": "1.4-1.6 g/cm³"
+    },
+    "technicalData": {
+      "Construction": "Steam-resistant organic fiber with high-temp lubricant",
+      "Certification": "API 622 Type Test Qualified",
+      "Size Range": "5mm to 45mm cross-section",
+      "Standard": "ISO 15848-1"
+    },
+    "features": [
+      "Specially formulated for steam service",
+      "API 622 certified low emission performance",
+      "Enhanced temperature resistance for organic class",
+      "Good resilience in steam applications",
+      "Economical solution for steam systems"
+    ],
+    "applications": [
+      "Steam turbine gland sealing",
+      "Boiler feed water pumps",
+      "Steam condensate systems",
+      "Industrial steam distribution",
+      "Power plant steam services"
+    ]
+  },
+  {
+    "id": 53,
+    "subcategoryId": 26,
+    "name": "IN 124S",
+    "slug": "in-124s",
+    "material": "INSULATION",
+    "apiCertified": true,
+    "shortDescription": "Silica fiber insulation",
+    "description": "IN 124S provides excellent thermal protection with silica fibers for high-temperature applications.",
+    "image": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-100°C to +1000°C",
+      "Density": "0.15-0.35 g/cm³",
+      "Thermal Conductivity": "0.03-0.05 W/mK"
+    },
+    "technicalData": {
+      "Construction": "Amorphous silica fiber blanket and board",
+      "Certification": "ASTM C1728, ISO 9001",
+      "Size Range": "Blankets, boards, papers - various sizes",
+      "Standard": "ASTM E84, UL certification"
+    },
+    "features": [
+      "Excellent high-temperature performance to 1000°C",
+      "Superior thermal insulation efficiency",
+      "Low thermal conductivity and heat storage",
+      "Good chemical stability and resistance",
+      "Lightweight and flexible for easy installation"
+    ],
+    "applications": [
+      "High-temperature furnace insulation",
+      "Petrochemical process equipment",
+      "Industrial kiln and oven lining",
+      "Fire protection systems",
+      "Expansion joint insulation"
+    ]
+  },
+  {
+    "id": 54,
+    "subcategoryId": 26,
+    "name": "IN 126S",
+    "slug": "in-126s",
+    "material": "INSULATION",
+    "apiCertified": true,
+    "shortDescription": "Premium silica insulation",
+    "description": "IN 126S offers superior thermal insulation for demanding applications with premium silica technology.",
+    "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-100°C to +1050°C",
+      "Density": "0.1-0.3 g/cm³",
+      "Thermal Conductivity": "0.02-0.04 W/mK"
+    },
+    "technicalData": {
+      "Construction": "Premium grade silica fiber with enhanced binder",
+      "Certification": "ASTM C1728, ISO 9001, UL listed",
+      "Size Range": "Custom sizes and forms available",
+      "Standard": "ASTM E84, international fire codes"
+    },
+    "features": [
+      "Premium performance for most demanding applications",
+      "Ultra-low thermal conductivity for energy efficiency",
+      "Exceptional temperature stability to 1050°C",
+      "Superior chemical resistance",
+      "Long service life with minimal degradation"
+    ],
+    "applications": [
+      "Premium furnace and kiln insulation",
+      "High-performance industrial equipment",
+      "Specialty fire protection applications",
+      "High-temperature gasket materials",
+      "Aerospace and defense thermal protection"
+    ]
+  },
+  {
+    "id": 55,
+    "subcategoryId": 6,
+    "name": "GM 300Z",
+    "slug": "gm-300z",
+    "material": "GRAPHITE MOULDED",
+    "apiCertified": true,
+    "shortDescription": "Grafoil moulded ring",
+    "description": "GM 300Z is a precision-moulded graphite ring for static sealing applications with exceptional performance.",
+    "image": "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-240°C to +650°C",
+      "Pressure Rating": "Up to 500 bar",
+      "pH Range": "0-14",
+      "Density": "1.0-1.2 g/cm³"
+    },
+    "technicalData": {
+      "Construction": "Precision-moulded flexible graphite with binder",
+      "Certification": "API 6FB, ASME B16.20",
+      "Size Range": "Custom sizes and configurations",
+      "Standard": "ASME, DIN, BS standards"
+    },
+    "features": [
+      "Precision moulded for tight tolerances",
+      "Exceptional high-temperature performance",
+      "Universal chemical resistance",
+      "Self-energizing design under pressure",
+      "Minimal relaxation and creep"
+    ],
+    "applications": [
+      "Heat exchanger tube sheet sealing",
+      "Valve bonnet and cover gaskets",
+      "Manway and handhole seals",
+      "Pump and compressor static seals",
+      "High-pressure flange applications"
+    ]
+  },
+  {
+    "id": 56,
+    "subcategoryId": 6,
+    "name": "GM 310C",
+    "slug": "gm-310c",
+    "material": "GRAPHITE MOULDED",
+    "apiCertified": true,
+    "shortDescription": "Clean service grafoil moulded ring",
+    "description": "GM 310C provides contamination-free graphite sealing for clean service applications.",
+    "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-200°C to +600°C",
+      "Pressure Rating": "Up to 450 bar",
+      "pH Range": "0-14",
+      "Density": "1.0-1.2 g/cm³"
+    },
+    "technicalData": {
+      "Construction": "Clean-service moulded graphite with minimal binder",
+      "Certification": "API 6FB, FDA compliant",
+      "Size Range": "Custom manufactured to specification",
+      "Standard": "ASME B16.20, industry standards"
+    },
+    "features": [
+      "Clean service design for minimal contamination",
+      "FDA compliant for food and pharmaceutical use",
+      "Low particulate generation",
+      "Excellent thermal and chemical resistance",
+      "Precision dimensions for reliable sealing"
+    ],
+    "applications": [
+      "Pharmaceutical equipment sealing",
+      "Food processing machinery",
+      "Clean steam systems",
+      "High-purity chemical production",
+      "Biotechnology process equipment"
+    ]
+  },
+  {
+    "id": 57,
+    "subcategoryId": 12,
+    "name": "INMATEX EPTFE SHEET/GASKET",
+    "slug": "inmatex-eptfe-sheet-gasket",
+    "material": "EXPANDED PTFE",
+    "apiCertified": true,
+    "shortDescription": "Expanded PTFE gasket sheet",
+    "description": "INMATEX provides superior chemical resistance and sealing performance with expanded PTFE technology for critical applications.",
+    "image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-240°C to +260°C",
+      "Pressure Rating": "Up to 200 bar",
+      "pH Range": "0-14",
+      "Density": "0.7-0.9 g/cm³"
+    },
+    "technicalData": {
+      "Construction": "100% expanded PTFE multi-directional fibrils",
+      "Certification": "API 6FB, TA-Luft, FDA 21 CFR 177.1550",
+      "Size Range": "Sheets: 1500x1500mm, thickness 0.5-6mm",
+      "Standard": "ASTM F3369, DIN 28091"
+    },
+    "features": [
+      "Universal chemical resistance across full pH range",
+      "Excellent conformability to irregular surfaces",
+      "Low creep relaxation for maintained bolt load",
+      "FDA approved for food and pharmaceutical use",
+      "Superior cold flow resistance"
+    ],
+    "applications": [
+      "Aggressive chemical flange sealing",
+      "Pharmaceutical and food processing",
+      "Glass-lined equipment gaskets",
+      "Severe chemical pump seals",
+      "High-purity process systems"
+    ]
+  },
+  {
+    "id": 58,
+    "subcategoryId": 13,
+    "name": "INSULATION GASKET KIT 1800 FS",
+    "slug": "insulation-gasket-kit-1800-fs",
+    "material": "FLANGE ISOLATION",
+    "apiCertified": true,
+    "shortDescription": "API 6FB fire safe isolation gasket kit",
+    "description": "Complete flange isolation kit meeting API 6FB fire safe standards for cathodic protection and electrical isolation.",
+    "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-40°C to +150°C",
+      "Pressure Rating": "ANSI Class 150-600",
+      "Voltage Isolation": "Up to 10,000V AC",
+      "Dielectric Strength": ">5000V"
+    },
+    "technicalData": {
+      "Construction": "Complete kit with gasket, sleeves, washers",
+      "Certification": "API 6FB Fire Safe, ASTM B117 salt spray",
+      "Size Range": "1/2\" to 48\" all ANSI classes",
+      "Standard": "API 6FB, ASME B16.5, ISO 14692"
+    },
+    "features": [
+      "API 6FB fire safe certified design",
+      "Complete cathodic protection isolation",
+      "ASTM B117 salt spray corrosion resistant",
+      "Methane and helium leak tested",
+      "Long service life in harsh environments"
+    ],
+    "applications": [
+      "Pipeline cathodic protection systems",
+      "Oil and gas transmission pipelines",
+      "Marine and offshore installations",
+      "Tank farm and terminal connections",
+      "Corrosive and coastal environments"
+    ]
+  },
+  {
+    "id": 59,
+    "subcategoryId": 27,
+    "name": "750SS WELDING BLANKET",
+    "slug": "750ss-welding-blanket",
+    "material": "THERMAL PROTECTION",
+    "apiCertified": true,
+    "shortDescription": "Heavy-duty welding blanket",
+    "description": "750SS provides reliable thermal protection for welding and high-temperature applications with heavy-duty construction.",
+    "image": "https://images.unsplash.com/photo-1768779611359-c4bb38ba3c1e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "Up to +750°C continuous",
+      "Density": "0.5-0.8 g/cm³",
+      "Thermal Conductivity": "0.05-0.08 W/mK"
+    },
+    "technicalData": {
+      "Construction": "E-Glass or silica fabric with vermiculite coating",
+      "Certification": "ASTM E84, UL listed, ISO 9001",
+      "Size Range": "Standard and custom sizes available",
+      "Standard": "OSHA welding safety standards"
+    },
+    "features": [
+      "Heavy-duty protection up to 750°C",
+      "Spark and spatter resistant",
+      "Flexible and conformable to equipment",
+      "Reusable and durable construction",
+      "Easy to install and remove"
+    ],
+    "applications": [
+      "Welding operations protection",
+      "Equipment and machinery shielding",
+      "Hot work safety barriers",
+      "Temporary insulation applications",
+      "Fire prevention and safety"
+    ]
+  },
+  {
+    "id": 60,
+    "subcategoryId": 17,
+    "name": "METALLIC GASKET",
+    "slug": "metallic-gasket",
+    "material": "LAMINAR METAL",
+    "apiCertified": false,
+    "shortDescription": "Multi-layer laminar metallic gasket",
+    "description": "High-performance metallic gasket for extreme temperature and pressure applications with multi-layer construction.",
+    "image": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-200°C to +800°C",
+      "Pressure Rating": "Up to 600 bar",
+      "Material Options": "SS304, SS316, Inconel, Monel"
+    },
+    "technicalData": {
+      "Construction": "Multi-layer laminated metal with soft core",
+      "Size Range": "1/2\" to 96\" all ANSI/DIN classes",
+      "Standard": "ASME B16.20, DIN 2696, BS standards"
+    },
+    "features": [
+      "Multi-layer construction for superior sealing",
+      "Extreme temperature and pressure capability",
+      "Excellent resilience and recovery",
+      "Available in various metallurgies",
+      "Suitable for thermal cycling applications"
+    ],
+    "applications": [
+      "High-pressure steam systems",
+      "Petrochemical heat exchangers",
+      "Power plant critical flanges",
+      "Refinery high-temperature services",
+      "Extreme pressure and temperature applications"
+    ]
+  }
+]
 }

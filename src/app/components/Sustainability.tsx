@@ -312,8 +312,7 @@ export function Sustainability() {
                           ease: "easeInOut"
                         }}
                         whileHover={{
-                          scale: 1.2,
-                          rotate: 360,
+                          scale: 1.1,
                           transition: { duration: 0.6 }
                         }}
                       >

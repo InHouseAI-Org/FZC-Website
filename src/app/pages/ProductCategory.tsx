@@ -10,9 +10,12 @@ interface Product {
   name: string;
   slug: string;
   shortDescription: string;
-  image: string;
-  specifications: Record<string, string>;
-  features: string[];
+  image?: string;
+  specifications?: Record<string, string>;
+  features?: string[];
+  material?: string;
+  apiCertified?: boolean;
+  description?: string;
 }
 
 export default function ProductCategory() {
@@ -95,14 +98,16 @@ export default function ProductCategory() {
                     className="block bg-[#1a1918] rounded-lg overflow-hidden border border-gray-800 hover:border-[#e31e24] transition-all duration-300 group h-full flex flex-col"
                   >
                     {/* Image */}
-                    <div className="relative h-64 overflow-hidden">
-                      <ImageWithFallback
-                        src={product.image}
-                        alt={product.name}
-                        className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                      />
-                      <div className="absolute inset-0 bg-gradient-to-t from-[#1a1918] to-transparent opacity-60"></div>
-                    </div>
+                    {product.image && (
+                      <div className="relative h-64 overflow-hidden">
+                        <ImageWithFallback
+                          src={product.image}
+                          alt={product.name}
+                          className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-[#1a1918] to-transparent opacity-60"></div>
+                      </div>
+                    )}
 
                     {/* Content */}
                     <div className="p-6 flex-1 flex flex-col">
@@ -115,14 +120,16 @@ export default function ProductCategory() {
                       </p>
 
                       {/* Key Features */}
-                      <div className="space-y-2 mb-4">
-                        {product.features.slice(0, 3).map((feature, idx) => (
-                          <div key={idx} className="flex items-start space-x-2 text-xs text-gray-500">
-                            <CheckCircle2 className="w-4 h-4 text-[#e31e24] flex-shrink-0 mt-0.5" />
-                            <span>{feature}</span>
-                          </div>
-                        ))}
-                      </div>
+                      {product.features && product.features.length > 0 && (
+                        <div className="space-y-2 mb-4">
+                          {product.features.slice(0, 3).map((feature, idx) => (
+                            <div key={idx} className="flex items-start space-x-2 text-xs text-gray-500">
+                              <CheckCircle2 className="w-4 h-4 text-[#e31e24] flex-shrink-0 mt-0.5" />
+                              <span>{feature}</span>
+                            </div>
+                          ))}
+                        </div>
+                      )}
 
                       <div className="pt-4 border-t border-gray-800">
                         <span className="text-[#e31e24] text-sm font-medium group-hover:underline">

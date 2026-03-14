@@ -1,14 +1,23 @@
 import { motion } from 'motion/react';
 import { Link, useParams, useNavigate } from 'react-router-dom';
 import { ImageWithFallback } from '@/app/components/figma/ImageWithFallback';
-import { ArrowLeft, CheckCircle2, ChevronRight } from 'lucide-react';
+import { ArrowLeft, CheckCircle2, ChevronRight, Hexagon } from 'lucide-react';
 import industriesData from '@/data/industries.json';
+import { useRef } from 'react';
 
 export default function IndustryDetail() {
   const { slug } = useParams<{ slug: string }>();
   const navigate = useNavigate();
+  const ctaSectionRef = useRef<HTMLElement>(null);
 
   const industry = industriesData.industries.find((ind) => ind.slug === slug);
+
+  const scrollToCTA = () => {
+    ctaSectionRef.current?.scrollIntoView({
+      behavior: 'smooth',
+      block: 'center'
+    });
+  };
 
   if (!industry) {
     return (
@@ -23,9 +32,10 @@ export default function IndustryDetail() {
     );
   }
 
-  // Get related industries (exclude current one)
+  // Get related industries (exclude current one) - randomly selected
   const relatedIndustries = industriesData.industries
     .filter((ind) => ind.id !== industry.id)
+    .sort(() => Math.random() - 0.5)
     .slice(0, 3);
 
   return (
@@ -130,10 +140,10 @@ export default function IndustryDetail() {
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.4, delay: index * 0.1 }}
-                    className="flex items-start space-x-3 text-gray-300"
+                    className="flex items-start space-x-3"
                   >
-                    <div className="w-2 h-2 bg-[#e31e24] rounded-full mt-2 flex-shrink-0"></div>
-                    <span className="leading-relaxed">{challenge}</span>
+                    <Hexagon className="w-4 h-4 text-[#e31e24] fill-[#e31e24]/20 flex-shrink-0 mt-0.5" />
+                    <span className="text-gray-300 leading-relaxed">{challenge}</span>
                   </motion.li>
                 ))}
               </ul>
@@ -202,7 +212,8 @@ export default function IndustryDetail() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
-                className="group relative bg-[#2b2a29] border border-gray-800 hover:border-[#e31e24]/50 p-6 transition-all duration-300"
+                onClick={scrollToCTA}
+                className="group relative bg-[#2b2a29] border border-gray-800 hover:border-[#e31e24]/50 p-6 transition-all duration-300 cursor-pointer"
               >
                 <div className="absolute top-0 left-0 w-full h-1 bg-[#e31e24] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
                 <div className="flex items-center space-x-3">
@@ -222,7 +233,7 @@ export default function IndustryDetail() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-24 bg-[#2b2a29]">
+      <section ref={ctaSectionRef} className="py-24 bg-[#2b2a29]">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -272,30 +283,60 @@ export default function IndustryDetail() {
             </h2>
           </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {relatedIndustries.map((relatedIndustry, index) => (
               <Link key={relatedIndustry.id} to={`/industries/${relatedIndustry.slug}`}>
                 <motion.div
                   initial={{ opacity: 0, y: 30 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
-                  transition={{ duration: 0.5, delay: index * 0.1 }}
-                  className="group relative h-[300px] overflow-hidden cursor-pointer"
+                  transition={{ duration: 0.6, delay: index * 0.05 }}
+                  className="group relative h-[400px] overflow-hidden cursor-pointer"
                 >
+                  {/* Image */}
                   <ImageWithFallback
                     src={relatedIndustry.image}
                     alt={relatedIndustry.title}
-                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-102"
                   />
+
+                  {/* Gradient Overlay */}
                   <div className="absolute inset-0 bg-gradient-to-t from-[#2b2a29] via-[#2b2a29]/60 to-transparent opacity-80 group-hover:opacity-90 transition-opacity duration-300"></div>
 
-                  <div className="absolute inset-0 flex flex-col justify-end p-6">
-                    <h3 className="text-xl text-white mb-2 tracking-tight group-hover:text-[#e31e24] transition-colors">
-                      {relatedIndustry.title}
-                    </h3>
-                    <p className="text-gray-300 text-sm leading-relaxed">
-                      {relatedIndustry.description}
-                    </p>
+                  {/* Top-Left Corner Gradient for Title Contrast */}
+                  <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-[#2b2a29]/70 via-[#2b2a29]/40 to-transparent opacity-90"></div>
+
+                  {/* Red Accent Line */}
+                  <motion.div
+                    className="absolute top-0 left-0 w-full h-1 bg-[#e31e24] origin-left"
+                    initial={{ scaleX: 0 }}
+                    whileInView={{ scaleX: 1 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.8, delay: index * 0.05 + 0.3 }}
+                  />
+
+                  {/* Content */}
+                  <div className="absolute inset-0 flex flex-col px-8 py-4">
+                    <div className="flex flex-col justify-content transition-transform duration-300 group-hover:translate-y-[-3px]" style={{justifyContent: 'space-between', height: '90%'}}>
+                      <h3 className="text-2xl text-white mb-2 tracking-tight" style={{ fontSize: '2rem', width: '85%' }}>{relatedIndustry.title}</h3>
+                      {relatedIndustry.subtitle && (
+                        <p className="text-[#e31e24] text-sm mb-3 tracking-wide">{relatedIndustry.subtitle}</p>
+                      )}
+                      <p className="text-gray-300 leading-relaxed opacity-90" style={{textAlign: 'center'}}>{relatedIndustry.description}</p>
+                    </div>
+
+                    {/* Number Indicator */}
+                    <div className="absolute top-8 right-8 text-6xl text-white/10 group-hover:text-[#e31e24]/20 transition-colors duration-300">
+                      {String(index + 1).padStart(2, '0')}
+                    </div>
+
+                    {/* Hover Indicator */}
+                    <div className="mt-4 flex items-center space-x-2 text-[#e31e24] opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                      <span className="text-sm tracking-wide">Explore Applications</span>
+                      <svg className="w-4 h-4 transform group-hover:translate-x-2 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                      </svg>
+                    </div>
                   </div>
                 </motion.div>
               </Link>

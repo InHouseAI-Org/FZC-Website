@@ -2,7 +2,7 @@ import { motion, AnimatePresence } from 'motion/react';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import { ImageWithFallback } from '@/app/components/figma/ImageWithFallback';
-import { ChevronRight } from 'lucide-react';
+import { ChevronDown, ChevronUp } from 'lucide-react';
 import productsData from '@/data/productsData.json';
 
 interface Category {
@@ -114,7 +114,11 @@ export default function Products() {
 
                       <div className="flex items-center justify-between text-[#e31e24] text-sm font-medium">
                         <span>{categorySubcategories.length} Subcategories</span>
-                        <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                        {hoveredCategory === category.id ? (
+                          <ChevronUp className="w-5 h-5 transition-transform" />
+                        ) : (
+                          <ChevronDown className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                        )}
                       </div>
                     </div>
                   </div>

@@ -106,17 +106,19 @@ export default function ProductDetail() {
                 </p>
 
                 {/* Quick Specs */}
-                <div className="bg-[#1a1918] p-6 rounded-lg border border-gray-800 mb-8">
-                  <h3 className="text-white text-lg mb-4 tracking-tight">Quick Specifications</h3>
-                  <div className="grid grid-cols-2 gap-4">
-                    {Object.entries(product.specifications).slice(0, 4).map(([key, value]) => (
-                      <div key={key}>
-                        <div className="text-gray-500 text-xs uppercase mb-1">{key}</div>
-                        <div className="text-white text-sm">{value as string}</div>
-                      </div>
-                    ))}
+                {product.specifications && Object.keys(product.specifications).length > 0 && (
+                  <div className="bg-[#1a1918] p-6 rounded-lg border border-gray-800 mb-8">
+                    <h3 className="text-white text-lg mb-4 tracking-tight">Quick Specifications</h3>
+                    <div className="grid grid-cols-2 gap-4">
+                      {Object.entries(product.specifications).slice(0, 4).map(([key, value]) => (
+                        <div key={key}>
+                          <div className="text-gray-500 text-xs uppercase mb-1">{key}</div>
+                          <div className="text-white text-sm">{value as string}</div>
+                        </div>
+                      ))}
+                    </div>
                   </div>
-                </div>
+                )}
               </div>
 
               {/* Action Buttons */}
@@ -144,41 +146,47 @@ export default function ProductDetail() {
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
           <div className="grid lg:grid-cols-2 gap-12">
             {/* Technical Specifications */}
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6 }}
-            >
-              <div className="flex items-center space-x-3 mb-6">
-                <div className="h-[2px] w-12 bg-[#e31e24]"></div>
-                <span className="text-sm tracking-widest text-gray-400 uppercase">Technical Data</span>
-              </div>
-              <h2 className="text-white text-3xl mb-6 tracking-tight">Specifications</h2>
+            {(product.specifications || product.technicalData) && (
+              <motion.div
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6 }}
+              >
+                {product.specifications && Object.keys(product.specifications).length > 0 && (
+                  <>
+                    <div className="flex items-center space-x-3 mb-6">
+                      <div className="h-[2px] w-12 bg-[#e31e24]"></div>
+                      <span className="text-sm tracking-widest text-gray-400 uppercase">Technical Data</span>
+                    </div>
+                    <h2 className="text-white text-3xl mb-6 tracking-tight">Specifications</h2>
 
-              <div className="space-y-4">
-                {Object.entries(product.specifications).map(([key, value]) => (
-                  <div key={key} className="flex justify-between py-3 border-b border-gray-800">
-                    <span className="text-gray-400">{key}</span>
-                    <span className="text-white font-medium">{value as string}</span>
-                  </div>
-                ))}
-              </div>
+                    <div className="space-y-4">
+                      {Object.entries(product.specifications).map(([key, value]) => (
+                        <div key={key} className="flex justify-between py-3 border-b border-gray-800">
+                          <span className="text-gray-400">{key}</span>
+                          <span className="text-white font-medium">{value as string}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </>
+                )}
 
-              {product.technicalData && (
-                <div className="mt-8 bg-[#2b2a29] p-6 rounded-lg">
-                  <h3 className="text-white text-lg mb-4 tracking-tight">Additional Technical Data</h3>
-                  <div className="space-y-3">
-                    {Object.entries(product.technicalData).map(([key, value]) => (
-                      <div key={key} className="flex justify-between">
-                        <span className="text-gray-400 text-sm">{key}</span>
-                        <span className="text-white text-sm font-medium">{value as string}</span>
-                      </div>
-                    ))}
+                {product.technicalData && Object.keys(product.technicalData).length > 0 && (
+                  <div className="mt-8 bg-[#2b2a29] p-6 rounded-lg">
+                    <h3 className="text-white text-lg mb-4 tracking-tight">Additional Technical Data</h3>
+                    <div className="space-y-3">
+                      {Object.entries(product.technicalData).map(([key, value]) => (
+                        <div key={key} className="flex justify-between">
+                          <span className="text-gray-400 text-sm">{key}</span>
+                          <span className="text-white text-sm font-medium">{value as string}</span>
+                        </div>
+                      ))}
+                    </div>
                   </div>
-                </div>
-              )}
-            </motion.div>
+                )}
+              </motion.div>
+            )}
 
             {/* Features & Applications */}
             <motion.div
@@ -188,40 +196,44 @@ export default function ProductDetail() {
               transition={{ duration: 0.6, delay: 0.2 }}
             >
               {/* Key Features */}
-              <div className="mb-12">
-                <div className="flex items-center space-x-3 mb-6">
-                  <div className="h-[2px] w-12 bg-[#e31e24]"></div>
-                  <span className="text-sm tracking-widest text-gray-400 uppercase">Benefits</span>
-                </div>
-                <h2 className="text-white text-3xl mb-6 tracking-tight">Key Features</h2>
+              {product.features && product.features.length > 0 && (
+                <div className="mb-12">
+                  <div className="flex items-center space-x-3 mb-6">
+                    <div className="h-[2px] w-12 bg-[#e31e24]"></div>
+                    <span className="text-sm tracking-widest text-gray-400 uppercase">Benefits</span>
+                  </div>
+                  <h2 className="text-white text-3xl mb-6 tracking-tight">Key Features</h2>
 
-                <div className="space-y-3">
-                  {product.features.map((feature, idx) => (
-                    <div key={idx} className="flex items-start space-x-3">
-                      <CheckCircle2 className="w-5 h-5 text-[#e31e24] flex-shrink-0 mt-0.5" />
-                      <span className="text-gray-300">{feature}</span>
-                    </div>
-                  ))}
+                  <div className="space-y-3">
+                    {product.features.map((feature, idx) => (
+                      <div key={idx} className="flex items-start space-x-3">
+                        <CheckCircle2 className="w-5 h-5 text-[#e31e24] flex-shrink-0 mt-0.5" />
+                        <span className="text-gray-300">{feature}</span>
+                      </div>
+                    ))}
+                  </div>
                 </div>
-              </div>
+              )}
 
               {/* Applications */}
-              <div>
-                <div className="flex items-center space-x-3 mb-6">
-                  <div className="h-[2px] w-12 bg-[#e31e24]"></div>
-                  <span className="text-sm tracking-widest text-gray-400 uppercase">Use Cases</span>
-                </div>
-                <h2 className="text-white text-3xl mb-6 tracking-tight">Applications</h2>
+              {product.applications && product.applications.length > 0 && (
+                <div>
+                  <div className="flex items-center space-x-3 mb-6">
+                    <div className="h-[2px] w-12 bg-[#e31e24]"></div>
+                    <span className="text-sm tracking-widest text-gray-400 uppercase">Use Cases</span>
+                  </div>
+                  <h2 className="text-white text-3xl mb-6 tracking-tight">Applications</h2>
 
-                <div className="space-y-3">
-                  {product.applications.map((application, idx) => (
-                    <div key={idx} className="flex items-start space-x-3">
-                      <CheckCircle2 className="w-5 h-5 text-[#e31e24] flex-shrink-0 mt-0.5" />
-                      <span className="text-gray-300">{application}</span>
-                    </div>
-                  ))}
+                  <div className="space-y-3">
+                    {product.applications.map((application, idx) => (
+                      <div key={idx} className="flex items-start space-x-3">
+                        <CheckCircle2 className="w-5 h-5 text-[#e31e24] flex-shrink-0 mt-0.5" />
+                        <span className="text-gray-300">{application}</span>
+                      </div>
+                    ))}
+                  </div>
                 </div>
-              </div>
+              )}
             </motion.div>
           </div>
         </div>

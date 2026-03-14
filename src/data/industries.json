@@ -5,28 +5,42 @@
       "title": "Oil & Gas",
       "slug": "oil-gas",
       "description": "Engineered sealing solutions for lethal, high-pressure, high-temperature applications handling toxic hydrocarbons across midstream and downstream operations",
-      "image": "public/Screenshot 2026-03-11 at 4.12.10 PM.png",
-      "fullDescription": "The oil and gas industry demands sealing solutions that can withstand extreme pressures, temperatures, and corrosive environments. Inmarco provides comprehensive sealing products for upstream exploration and production, midstream transportation and storage, and downstream refining operations.",
+      "image": "public/oil and gas.jpg",
+      "fullDescription": "The oil and gas industry demands sealing solutions that can withstand extreme pressures, temperatures, and corrosive environments. Inmarco provides comprehensive sealing products for midstream transportation and storage, and downstream refining operations.",
       "challenges": [
-        "High pressure and temperature extremes",
-        "Exposure to corrosive hydrocarbons and chemicals",
-        "Strict environmental regulations for fugitive emissions",
-        "Remote offshore locations requiring reliable performance",
-        "24/7 operations with minimal downtime tolerance"
+        "Extreme Operating Conditions",
+        "Aggressive Chemical Environment",
+        "Fugitive Emissions Control",
+        "Safety-Critical Operations",
+        "Unit-Specific Challenges",
+        "Reliability & Maintenance",
+        "Regulatory Compliance"
       ],
       "solutions": [
-        "API 622 certified low emission packing",
+        "API / ISO certified low emission packing",
         "High-temperature graphite packing for process valves",
-        "PTFE compression packing for pump applications",
-        "Spiral wound gaskets for flange connections",
-        "Custom-engineered sealing for specialized equipment"
+        "PTFE low-emission packing set packing for aggressive chemicals",
+        "Specially formulated compression packing for highly congelling media",
+        "Metal gaskets for flange connections",
+        "Fire Safe flange isolation gaskets",
+        "Custom-engineered sealing for specialised equipment"
       ],
       "applications": [
-        "Wellhead valves and Christmas trees",
-        "Pipeline pumps and compressors",
-        "Refinery process equipment",
-        "Storage tank sealing",
-        "Offshore platform equipment"
+        "Crude Distillation (CDU)",
+        "Vacuum Distillation (VDU)",
+        "Hydrotreating (HDT)",
+        "Hydrocracking (HCU)",
+        "FCC Unit",
+        "Catalytic Reforming",
+        "Isomerization Unit",
+        "Alkylation Unit",
+        "Delayed Coker",
+        "Visbreaker",
+        "Solvent Deasphalting",
+        "Amine Treating Unit",
+        "Sulfur Recovery Unit",
+        "Sweetening (Merox)",
+        "NGL Recovery"
       ]
     },
     {
@@ -34,29 +48,44 @@
       "title": "Power Generation",
       "slug": "power-generation",
       "subtitle": "",
-      "description": "Mission-critical sealing solutions ensuring uninterrupted power delivery under extreme thermal and mechanical stress",
-      "image": "public/Screenshot 2026-03-11 at 4.12.27 PM.png",
+      "description": "Low-downtime sealing solutions for steam turbines, boiler feed systems, and critical power generation equipment operating under extreme thermal cycling",
+      "image": "public/power.jpg",
       "fullDescription": "Power generation facilities require sealing solutions that deliver uninterrupted performance under extreme thermal and mechanical stress. From coal-fired plants to combined-cycle gas turbines and nuclear facilities, Inmarco offers proven sealing technologies for critical rotating and static equipment.",
       "challenges": [
-        "Extreme temperature fluctuations",
-        "High-speed rotating equipment",
-        "Steam and condensate handling",
-        "Long-term reliability requirements",
-        "Compliance with environmental standards"
+        "Extreme thermal cycling (ambient to 600°C) during startups and shutdowns",
+        "High-speed rotating equipment (3600 RPM turbines)",
+        "Extrme pressure surge",
+        "Superheated steam and corrosive condensate chemistry",
+        "Extended run cycles requiring 3-5 year seal life",
+        "Fugitive emissions compliance for SOx, NOx, and particulates",
+        "Erosion from fly ash and combustion byproducts",
+        "Water chemistry variations in cooling and condensate systems"
       ],
       "solutions": [
-        "Flexible graphite packing for steam valves",
-        "High-temperature gaskets for turbine flanges",
-        "Low-emission valve stem packing",
+        "Oxidation inhibited graphite packings for steam valves",
+        "Graphite pressure seal valve with metallic end cap combining sealing and anti-extrusion properties",
+        "Low-emission valve stem packings",
+        "High-pressure High-temperature metallic gaskets for turbine flanges",
         "Boiler feed pump sealing systems",
-        "Thermal insulation gaskets"
+        "Specially engineered soot blower packing sets",
+        "Thermal insulations"
       ],
       "applications": [
-        "Steam turbine valves",
-        "Boiler feed water pumps",
-        "Condensate extraction pumps",
-        "Heat exchanger sealing",
-        "Control and isolation valves"
+        "High-pressure steam turbine isolation, control, and interceptor valves",
+        "Combined-cycle gas turbine (CCGT) systems",
+        "Supercritical and ultra-supercritical boiler feed pumps",
+        "Heat recovery steam generator (HRSG) valves and expansion joints",
+        "Main steam isolation valves (MSIV) for nuclear applications",
+        "Condensate polishing and extraction pumps",
+        "Boiler circulation pumps and economizer systems",
+        "Generator hydrogen cooling seal systems",
+        "Flue gas desulfurization (FGD) recirculation pumps",
+        "Selective catalytic reduction (SCR) ammonia injection valves",
+        "Carbon capture and storage (CCS) compression systems",
+        "High-temperature soot blower retractable systems",
+        "Turbine bypass and drain valves",
+        "Deaerator storage tank level control valves",
+        "Steam attemperation and pressure reducing stations"
       ]
     },
     {
@@ -64,8 +93,8 @@
       "title": "Chemical",
       "slug": "chemical",
       "subtitle": "",
-      "description": "Comprehensive range of chemically-resistant packing and gaskets engineered for aggressive acids, caustics, and corrosive process environments",
-      "image": "public/Screenshot 2026-03-11 at 4.14.12 PM.png",
+      "description": "Chemical-inert sealing solutions engineered for extreme pH environments, handling concentrated sulfuric acid, caustic soda, chlorine, and volatile organic compounds with zero compatibility failure",
+      "image": "public/chemical.jpg",
       "fullDescription": "Chemical processing facilities require sealing materials with exceptional chemical resistance and reliability. Inmarco delivers comprehensive sealing solutions for handling acids, bases, solvents, and aggressive chemicals across batch and continuous process operations.",
       "challenges": [
         "Wide range of chemical compatibility requirements",
@@ -75,18 +104,28 @@
         "Product purity requirements"
       ],
       "solutions": [
-        "PTFE and expanded PTFE packing",
-        "Chemically resistant gaskets",
-        "Perfluoroelastomer seals",
-        "Graphite with chemical inhibitors",
-        "Multi-layer composite sealing"
+        "PTFE and expanded PTFE packings",
+        "Chemically resistant flange joint gaskets",
+        "Low-emission valve packing for toxic and volatile chemicals",
+        "Specially engineered metallic gaskets for aggressive chemicals like hydrofluoric acid",
+        "Specially engineered gasketing solution with low seating stress requirement for flange joint integrity"
       ],
       "applications": [
-        "Chemical reactor vessels",
-        "Process pumps and mixers",
-        "Distillation columns",
-        "Heat exchangers",
-        "Transfer and metering pumps"
+        "Hastelloy and titanium-clad pressure vessels",
+        "Chlor-alkali electrolysis cell systems",
+        "Sulfuric acid concentration and oleum production units",
+        "Nitric acid and mixed acid reactor systems",
+        "Ethylene oxide and propylene oxide reactors",
+        "Polymerization reactor vessels (batch and continuous)",
+        "Distillation columns for chlorinated solvents",
+        "Caustic soda and sodium hypochlorite transfer systems",
+        "Hydrochloric acid absorption towers",
+        "Glass-lined reactor vessels and agitators",
+        "Glass-lined heat exchangers and condensers",
+        "Phenol and acetone production units",
+        "Ammonia synthesis loop equipment",
+        "Corrosive media metering and dosing pumps",
+        "Emergency shutdown and depressurization valves"
       ]
     },
     {
@@ -95,7 +134,7 @@
       "slug": "water-wastewater-treatment",
       "subtitle": "",
       "description": "Reliable sealing solutions for water treatment and wastewater management systems",
-      "image": "public/Screenshot 2026-03-11 at 4.14.36 PM.png",
+      "image": "public/water.jpg",
       "fullDescription": "Water and wastewater treatment facilities require sealing solutions that resist chemical exposure, maintain hygiene standards, and deliver long-term reliability. Inmarco provides comprehensive sealing products for pumps, valves, filtration systems, and treatment equipment.",
       "challenges": [
         "Chemical resistance to treatment agents",
@@ -106,17 +145,23 @@
       ],
       "solutions": [
         "Chemically resistant PTFE packing",
-        "Corrosion-proof gasket materials",
+        "Corrosion-proof packings and gaskets",
         "Sanitary-grade compression sealing",
         "Low-maintenance valve packing",
-        "Water-resistant elastomeric seals"
+        "Metallic gaskets"
       ],
       "applications": [
         "Treatment plant pumps and valves",
         "Filtration and membrane systems",
         "Aeration equipment",
         "Sludge handling systems",
-        "Chemical dosing equipment"
+        "Chemical dosing equipment",
+        "Submersible lift station pumps",
+        "Mixer and agitator pumps",
+        "Clarifiers and screens",
+        "Grit chambers and weirs",
+        "Secondary containment systems",
+        "Desalination equipment"
       ]
     },
     {
@@ -125,28 +170,38 @@
       "slug": "marine",
       "subtitle": "",
       "description": "High-performance sealing solutions for stern tubes, rudder posts, and critical seawater applications in marine vessels",
-      "image": "public/Screenshot 2026-03-11 at 4.13.05 PM.png",
+      "image": "public/marine.jpg",
       "fullDescription": "Marine environments present unique sealing challenges with constant exposure to saltwater, humidity, and demanding operational conditions. Inmarco provides corrosion-resistant sealing solutions for naval vessels, commercial ships, offshore platforms, and marine infrastructure.",
       "challenges": [
         "Saltwater corrosion",
         "Humidity and moisture exposure",
         "Vibration and shock loads",
         "Limited maintenance access",
-        "Extended service life requirements"
+        "Extended service life requirements",
+        "Strict regulatory compliance"
       ],
       "solutions": [
-        "Corrosion-resistant PTFE packing",
-        "Marine-grade rubber gaskets",
-        "Stainless steel reinforced sealing",
-        "Waterproof compression packing",
+        "Specially engineered corrosion-resistant, abrasion-resistant, and mechanically resilient packings",
+        "High performance tank lid packings",
+        "Corrosion resistant flange joint gasket",
         "Fire-safe marine gaskets"
       ],
       "applications": [
-        "Shipboard pumps and valves",
-        "Propulsion system sealing",
-        "Ballast and bilge systems",
-        "Deck equipment",
-        "Marine engine components"
+        "Main propulsion engine stern tube and shaft sealing systems",
+        "Controllable pitch propeller (CPP) hub sealing",
+        "Rudder stock and rudder carrier sealing",
+        "Cargo pump and ballast pump sealing (tankers and bulk carriers)",
+        "Marine diesel engine fuel injection and cooling systems",
+        "Low-sulfur fuel oil (LSFO) and marine gas oil (MGO) transfer pumps",
+        "Seawater cooling pumps and heat exchanger sealing",
+        "Bilge and fire-fighting system pumps",
+        "Hydraulic deck machinery (winches, cranes, capstans)",
+        "Naval vessel propulsion and auxiliary systems",
+        "Submarine seawater service pumps and hull penetrations",
+        "LNG carrier cryogenic pump sealing systems",
+        "Chemical tanker cargo handling and tank cleaning equipment",
+        "Offshore supply vessel (OSV) deck machinery",
+        "Dredger cutter head and suction pump systems"
       ]
     },
     {
@@ -155,28 +210,37 @@
       "slug": "cement",
       "subtitle": "",
       "description": "Heavy-duty, abrasion-resistant sealing solutions engineered for extreme kiln temperatures and harsh cement manufacturing environments",
-      "image": "public/Screenshot 2026-03-11 at 4.13.51 PM.png",
+      "image": "public/cement.jpg",
       "fullDescription": "Cement manufacturing involves extreme temperatures, abrasive materials, and dusty environments that challenge sealing performance. Inmarco offers robust sealing solutions designed for kiln operations, grinding mills, conveyor systems, and processing equipment in cement plants.",
       "challenges": [
-        "High kiln temperatures up to 1450°C",
+        "High kiln temperatures",
         "Abrasive cement dust and particles",
         "Continuous heavy-duty operation",
         "Harsh alkaline environment",
         "Equipment vibration and movement"
       ],
       "solutions": [
-        "High-temperature graphite sealing",
-        "Abrasion-resistant packing materials",
-        "Dust-proof compression sealing",
-        "Flexible joint gaskets",
-        "Heavy-duty pump packing"
+        "High-Temperature Carbon Graphite Seals",
+        "Wear-Resistant Composite Packing",
+        "Dust-proof Compression Gaskets",
+        "Heavy-Duty Fluid Sealing Solutions"
       ],
       "applications": [
-        "Rotary kiln sealing",
-        "Grinding mill equipment",
-        "Clinker cooler systems",
-        "Pneumatic conveying",
-        "Process fans and blowers"
+        "Cement kiln rotary seals and expansion joints",
+        "Preheater tower cyclone sealing",
+        "Clinker cooler grate sealing and air locks",
+        "Raw mill and cement mill grinding equipment",
+        "Slurry pumps for raw material processing",
+        "High-temperature process pumps (kiln feed, coal injection)",
+        "Water cooling system pumps and heat exchangers",
+        "Valves handling cement kiln dust and hot gases",
+        "Fuel handling valves (coal, petcoke, alternative fuels)",
+        "Proportioning and batching equipment sealing",
+        "Pneumatic conveying system rotary valves",
+        "Dust collection and baghouse filter system valves",
+        "Gypsum dosing and mixing equipment",
+        "Cement silo discharge and transfer pumps",
+        "Quarry dewatering and process water pumps"
       ]
     },
     {
@@ -185,7 +249,7 @@
       "slug": "fertilizers",
       "subtitle": "",
       "description": "Specialized sealing solutions for high-pressure ammonia synthesis reactors, corrosive acid handling, and aggressive urea production environments",
-      "image": "public/Screenshot 2026-03-11 at 4.14.50 PM.png",
+      "image": "public/fertilizer.jpg",
       "fullDescription": "Fertilizer production involves handling ammonia, acids, and other aggressive chemicals at high temperatures and pressures. Inmarco provides specialized sealing solutions for ammonia plants, phosphate processing, and NPK fertilizer production facilities.",
       "challenges": [
         "Ammonia and acid resistance required",
@@ -206,7 +270,12 @@
         "Acid reaction vessels",
         "Granulation equipment",
         "Process pumps and compressors",
-        "Storage and handling systems"
+        "Storage and handling systems",
+        "Bitumen carbonate ammonia pumps",
+        "Plunger pumps",
+        "Acid handling pumps",
+        "Phosphate dosing systems",
+        "Urea production equipment"
       ]
     },
     {
@@ -215,7 +284,7 @@
       "slug": "metallurgy",
       "subtitle": "",
       "description": "Durable sealing and thermal insulation solutions for blast furnaces, molten metal handling, and extreme high-temperature steel production environments",
-      "image": "public/Screenshot 2026-03-11 at 4.12.45 PM.png",
+      "image": "public/metallurgy.jpg",
       "fullDescription": "Metallurgical operations expose sealing materials to some of the harshest conditions in industrial processing. Inmarco specializes in sealing solutions engineered to withstand molten metals, extreme temperatures, abrasive materials, and corrosive atmospheres in steel mills, foundries, and metal processing facilities.",
       "challenges": [
         "Temperatures exceeding 1000°C",
@@ -236,7 +305,14 @@
         "Continuous casting machines",
         "Rolling mill hydraulics",
         "Heat treatment furnaces",
-        "Metal forming presses"
+        "Metal forming presses",
+        "Blast furnace hot blast valves",
+        "Coke oven doors and pitch pumps",
+        "Ash handling pumps",
+        "Cooling tower pumps",
+        "Tuyere stock operations",
+        "Steam valve systems",
+        "Chemical pumps for processing"
       ]
     },
     {
@@ -245,7 +321,7 @@
       "slug": "pulp-paper",
       "subtitle": "",
       "description": "High-performance sealing solutions for abrasive chemical slurries, corrosive bleach applications, and harsh pulp production environments",
-      "image": "public/Screenshot 2026-03-11 at 4.15.09 PM.png",
+      "image": "public/paper.jpg",
       "fullDescription": "Pulp and paper mills require sealing solutions that resist aggressive chemicals, handle high temperatures, and perform reliably in wet, humid conditions. Inmarco delivers sealing products for digesters, bleaching systems, papermaking machines, and auxiliary equipment.",
       "challenges": [
         "Exposure to caustic chemicals and bleaches",
@@ -266,7 +342,16 @@
         "Stock pumps and mixers",
         "Papermaking machine rolls",
         "Bleaching towers",
-        "Boiler and recovery systems"
+        "Boiler and recovery systems",
+        "Continuous digesters",
+        "Hydro pulpers and refiners",
+        "Pressure screeners",
+        "Blow tank pumps",
+        "Thick stock pumps",
+        "Evaporators and dryer drums",
+        "Recovery furnace doors",
+        "Chlorine pumps",
+        "Filter presses"
       ]
     },
     {
@@ -275,7 +360,7 @@
       "slug": "food-pharmaceutical",
       "subtitle": "",
       "description": "FDA-compliant, sealing solutions ensuring zero product contamination - for sterile pharmaceutical and food-grade processing applications",
-      "image": "public/Screenshot 2026-03-11 at 4.15.24 PM.png",
+      "image": "public/food and pahrma.jpg",
       "fullDescription": "Food processing and pharmaceutical manufacturing demand the highest standards of hygiene, product purity, and regulatory compliance. Inmarco delivers FDA and EU compliant sealing solutions for processing, mixing, filling, and packaging equipment in both industries.",
       "challenges": [
         "Strict regulatory compliance (FDA, EU, GMP)",
@@ -296,7 +381,16 @@
         "Sterile filling equipment",
         "Pharmaceutical reactors",
         "Food grade pumps and valves",
-        "Packaging and bottling lines"
+        "Packaging and bottling lines",
+        "Bottle and can washer pumps",
+        "Hexane extraction pumps",
+        "Ammonia compressors",
+        "Caustic wash pumps",
+        "Potato steam peelers",
+        "Chocolate mixers and combi mixers",
+        "CIP washdown systems",
+        "Rotary driers",
+        "Conveyor systems"
       ]
     },
     {
@@ -305,7 +399,7 @@
       "slug": "sugar",
       "subtitle": "",
       "description": "High-performance, abrasion-resistant, non-contaminating food-grade sealing solutions for demanding sugar crushing, extraction, and refining operations",
-      "image": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "image": "public/sugar.jpg",
       "fullDescription": "Sugar processing and refining require food-safe sealing materials that maintain product purity while handling high temperatures, steam, and sugar solutions. Inmarco provides FDA-compliant sealing solutions for crushing, extraction, clarification, evaporation, and crystallization processes.",
       "challenges": [
         "Food safety and FDA compliance",
@@ -326,7 +420,13 @@
         "Juice extraction pumps",
         "Evaporator vessels",
         "Crystallizers and centrifuges",
-        "Refining and drying equipment"
+        "Refining and drying equipment",
+        "Vacuum pumps",
+        "Boiler feed water systems",
+        "Juice processing equipment",
+        "Raw juice and syrup handling",
+        "Steam service valves",
+        "Acid and alkali handling systems"
       ]
     },
     {
