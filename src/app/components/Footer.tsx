@@ -1,6 +1,8 @@
 import { Linkedin, Youtube } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import inmarcoLogo from '@/assets/inmarco-tagline-logo.png';
+import industriesData from '@/data/industries.json';
+import productsData from '@/data/productsData.json';
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -10,28 +12,14 @@ export function Footer() {
       { label: 'About Us', href: '/about-us' },
       { label: 'Contact', href: '/contact' },
     ],
-    products: [
-      { label: 'Compression Packings', href: '/products/compression-packings' },
-      { label: 'Graphite Moulded Products', href: '/products/graphite-moulded-products' },
-      { label: 'Flange Joint Gaskets', href: '/products/flange-joint-gaskets' },
-      { label: 'Flange Isolation Gaskets', href: '/products/flange-isolation-gaskets' },
-      { label: 'Metallic Gaskets', href: '/products/metallic-gaskets' },
-      { label: 'Thermal Insulation', href: '/products/thermal-insulation' },
-      { label: 'Wiping Pad', href: '/products/wiping-pad' },
-    ],
-    industries: [
-      { label: 'Oil & Gas', href: '/industries/oil-gas' },
-      { label: 'Power Generation', href: '/industries/power-generation' },
-      { label: 'Metallurgy', href: '/industries/metallurgy' },
-      { label: 'Chemical', href: '/industries/chemical' },
-      { label: 'Marine', href: '/industries/marine' },
-      { label: 'Cement', href: '/industries/cement' },
-      { label: 'Fertilizers', href: '/industries/fertilizers' },
-      { label: 'Pulp & Paper', href: '/industries/pulp-paper' },
-      { label: 'Sugar', href: '/industries/sugar' },
-      { label: 'Food & Pharmaceutical', href: '/industries/food-pharmaceutical' },
-      { label: 'OEM', href: '/industries/oem' },
-    ]
+    products: productsData.categories.map((product: { name: string; href: string }) => ({
+      label: product.name,
+      href: product.href
+    })),
+    industries: industriesData.industries.map((industry: { title: string; href: string }) => ({
+      label: industry.title,
+      href: industry.href
+    }))
   };
 
   return (
