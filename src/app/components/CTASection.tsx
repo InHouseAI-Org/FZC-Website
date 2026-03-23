@@ -106,7 +106,7 @@ export function CTASection() {
               </div>
               <div className="text-left">
                 <div className="text-xs text-gray-500 uppercase tracking-wide">Email Us</div>
-                <div className="text-white">info@inmarco.ae</div>
+                <div className="text-white">sales@inmarco.ae</div>
               </div>
             </div>
           </motion.div>

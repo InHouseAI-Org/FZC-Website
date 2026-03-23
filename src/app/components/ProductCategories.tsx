@@ -219,7 +219,7 @@ export function ProductCategories() {
     icon: string;
     name: string;
     description: string;
-    specs: string[];
+    specs?: string[];
     diagram: string;
   }
 
@@ -227,7 +227,7 @@ export function ProductCategories() {
     icon: iconMap[category.icon] || Package,
     title: category.name,
     description: category.description,
-    specs: category.specs,
+    specs: category.specs || [],
     diagram: diagramMap[category.diagram] || CompressionPackingDiagram,
   }));
 
@@ -331,16 +331,18 @@ export function ProductCategories() {
                 </div>
 
                 {/* Specs */}
-                <div className="flex flex-wrap gap-2">
-                  {product.specs.map((spec: string, i: number) => (
-                    <span
-                      key={i}
-                      className="text-xs px-3 py-1 bg-[#2b2a29] text-gray-400 tracking-wide uppercase border border-gray-700"
-                    >
-                      {spec}
-                    </span>
-                  ))}
-                </div>
+                {product.specs.length > 0 && (
+                  <div className="flex flex-wrap gap-2">
+                    {product.specs.map((spec: string, i: number) => (
+                      <span
+                        key={i}
+                        className="text-xs px-3 py-1 bg-[#2b2a29] text-gray-400 tracking-wide uppercase border border-gray-700"
+                      >
+                        {spec}
+                      </span>
+                    ))}
+                  </div>
+                )}
 
                 {/* Hover Indicator */}
                 <div className="absolute bottom-8 right-8 opacity-0 group-hover:opacity-100 transition-opacity duration-300">

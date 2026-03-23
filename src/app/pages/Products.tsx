@@ -112,14 +112,16 @@ export default function Products() {
                         {category.description}
                       </p>
 
-                      <div className="flex items-center justify-between text-[#e31e24] text-sm font-medium">
-                        <span>{categorySubcategories.length} Subcategories</span>
-                        {hoveredCategory === category.id ? (
-                          <ChevronUp className="w-5 h-5 transition-transform" />
-                        ) : (
-                          <ChevronDown className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-                        )}
-                      </div>
+                      {categorySubcategories.length > 0 && (
+                        <div className="flex items-center justify-between text-[#e31e24] text-sm font-medium">
+                          <span>{categorySubcategories.length} Subcategories</span>
+                          {hoveredCategory === category.id ? (
+                            <ChevronUp className="w-5 h-5 transition-transform" />
+                          ) : (
+                            <ChevronDown className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                          )}
+                        </div>
+                      )}
                     </div>
                   </div>
                   </Link>

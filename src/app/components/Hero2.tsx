@@ -105,15 +105,7 @@ export function Hero2() {
       <div className="relative z-10 max-w-[1400px] mx-auto px-6 lg:px-12 py-20 w-full">
         <div className="max-w-4xl">
           {/* Label */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="flex items-center space-x-3 mb-6"
-          >
-            <div className="h-[2px] w-12 bg-[#e31e24]"></div>
-            <span className="text-sm tracking-widest text-gray-400 uppercase">Innovation in Industrial Fluid Sealing</span>
-          </motion.div>
+
 
           {/* Headline */}
           <motion.h1
@@ -127,7 +119,7 @@ export function Hero2() {
               letterSpacing: '-0.02em'
             }}
           >
-            Innovation in Industrial{' '}
+            Innovations in Industrial{' '}
             <br/>
             <motion.span
               className="inline-block text-[#e31e24]"

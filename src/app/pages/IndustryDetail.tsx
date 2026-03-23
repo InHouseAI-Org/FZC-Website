@@ -5,6 +5,76 @@ import { ArrowLeft, CheckCircle2, ChevronRight, Hexagon } from 'lucide-react';
 import industriesData from '@/data/industries.json';
 import { useRef } from 'react';
 
+// OEM Applications Component with categories and sub-items
+function OEMApplications({ scrollToCTA }: { scrollToCTA: () => void }) {
+  const categorySubItems: Record<string, string[]> = {
+    'Control Valves': (industriesData as any)._comments?.oem_control_valves || [],
+    'Isolation Valves': (industriesData as any)._comments?.oem_isolation_valves || [],
+    'Centrifugal Pumps': (industriesData as any)._comments?.oem_centrifugal_pumps || [],
+    'Reciprocating Pumps': (industriesData as any)._comments?.oem_reciprocating_pumps || [],
+  };
+
+  const categories = ['Control Valves', 'Isolation Valves', 'Centrifugal Pumps', 'Reciprocating Pumps'];
+
+  return (
+    <div className="space-y-6">
+      {categories.map((category, index) => {
+        const subItems = categorySubItems[category] || [];
+        const hasSubItems = subItems.length > 0;
+
+        return (
+          <motion.div
+            key={category}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: index * 0.1 }}
+            onClick={!hasSubItems ? scrollToCTA : undefined}
+            className={`bg-[#2b2a29] border border-gray-800 ${!hasSubItems ? 'cursor-pointer hover:border-[#e31e24]/50 transition-all duration-300' : ''}`}
+          >
+            {/* Category Header */}
+            <div className={`group relative p-6 ${hasSubItems ? 'border-b border-gray-800' : ''}`}>
+              <div className="absolute top-0 left-0 w-full h-1 bg-[#e31e24]"></div>
+              <div className="flex items-center space-x-3">
+                <div className="w-10 h-10 bg-[#e31e24]/10 rounded flex items-center justify-center flex-shrink-0">
+                  <span className="text-[#e31e24] text-sm font-bold">
+                    {String(index + 1).padStart(2, '0')}
+                  </span>
+                </div>
+                <h3 className="text-white text-xl font-medium">{category}</h3>
+              </div>
+            </div>
+
+            {/* Sub-items - only show if there are sub-items */}
+            {hasSubItems && (
+              <div className="px-6 py-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  {subItems.map((subItem, subIndex) => (
+                    <motion.div
+                      key={subIndex}
+                      initial={{ opacity: 0, x: -10 }}
+                      whileInView={{ opacity: 1, x: 0 }}
+                      viewport={{ once: true }}
+                      transition={{ duration: 0.3, delay: subIndex * 0.05 }}
+                      onClick={scrollToCTA}
+                      className="flex items-start space-x-2 text-gray-400 hover:text-white transition-colors cursor-pointer group/item"
+                    >
+                      <span className="text-[#e31e24] mt-1">•</span>
+                      <span className="text-sm leading-relaxed group-hover/item:translate-x-1 transition-transform">
+                        {subItem}
+                      </span>
+                    </motion.div>
+                  ))}
+                </div>
+              </div>
+            )}
+          </motion.div>
+        );
+      })}
+    </div>
+  );
+}
+
 export default function IndustryDetail() {
   const { slug } = useParams<{ slug: string }>();
   const navigate = useNavigate();
@@ -204,31 +274,35 @@ export default function IndustryDetail() {
             </h2>
           </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {industry.applications.map((application, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-                onClick={scrollToCTA}
-                className="group relative bg-[#2b2a29] border border-gray-800 hover:border-[#e31e24]/50 p-6 transition-all duration-300 cursor-pointer"
-              >
-                <div className="absolute top-0 left-0 w-full h-1 bg-[#e31e24] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
-                <div className="flex items-center space-x-3">
-                  <div className="w-8 h-8 bg-[#e31e24]/10 rounded flex items-center justify-center flex-shrink-0">
-                    <span className="text-[#e31e24] text-sm font-bold">
-                      {String(index + 1).padStart(2, '0')}
-                    </span>
+          {industry.slug === 'oem' ? (
+            <OEMApplications scrollToCTA={scrollToCTA} />
+          ) : (
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {industry.applications.map((application, index) => (
+                <motion.div
+                  key={index}
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5, delay: index * 0.1 }}
+                  onClick={scrollToCTA}
+                  className="group relative bg-[#2b2a29] border border-gray-800 hover:border-[#e31e24]/50 p-6 transition-all duration-300 cursor-pointer"
+                >
+                  <div className="absolute top-0 left-0 w-full h-1 bg-[#e31e24] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
+                  <div className="flex items-center space-x-3">
+                    <div className="w-8 h-8 bg-[#e31e24]/10 rounded flex items-center justify-center flex-shrink-0">
+                      <span className="text-[#e31e24] text-sm font-bold">
+                        {String(index + 1).padStart(2, '0')}
+                      </span>
+                    </div>
+                    <p className="text-gray-300 group-hover:text-white transition-colors">
+                      {application}
+                    </p>
                   </div>
-                  <p className="text-gray-300 group-hover:text-white transition-colors">
-                    {application}
-                  </p>
-                </div>
-              </motion.div>
-            ))}
-          </div>
+                </motion.div>
+              ))}
+            </div>
+          )}
         </div>
       </section>
 

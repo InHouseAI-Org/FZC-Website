@@ -18,13 +18,16 @@
         "Regulatory Compliance"
       ],
       "solutions": [
-        "API / ISO certified low emission packing",
-        "High-temperature graphite packing for process valves",
-        "PTFE low-emission packing set packing for aggressive chemicals",
-        "Specially formulated compression packing for highly congelling media",
-        "Metal gaskets for flange connections",
-        "Fire Safe flange isolation gaskets",
-        "Custom-engineered sealing for specialised equipment"
+        "API/ISO certified low-emission packing systems",
+        "High-temperature graphite packing for critical process valves",
+        "PTFE low-emission packing sets for aggressive chemical service",
+        "Specially formulated compression packing for highly congealing media",
+        "High-performance metal gaskets for critical flange connections",
+        "Fire-safe flange isolation gaskets",
+        "CNAF gasketing solution",
+        "PTFE/ePTFE gasketing solution",
+        "Elastomeric gasketing solution",
+        "Custom-engineered sealing solutions for specialized specific application requirements"
       ],
       "applications": [
         "Crude Distillation (CDU)",
@@ -56,7 +59,7 @@
       "challenges": [
         "Extreme thermal cycling (ambient to 600°C) during startups and shutdowns",
         "High-speed rotating equipment (3600 RPM turbines)",
-        "Extrme pressure surge",
+        "Extreme pressure surges and steam hammer effects",
         "Superheated steam and corrosive condensate chemistry",
         "Extended run cycles requiring 3-5 year seal life",
         "Fugitive emissions compliance for SOx, NOx, and particulates",
@@ -64,13 +67,18 @@
         "Water chemistry variations in cooling and condensate systems"
       ],
       "solutions": [
-        "Oxidation inhibited graphite packings for steam valves",
-        "Graphite pressure seal valve with metallic end cap combining sealing and anti-extrusion properties",
-        "Low-emission valve stem packings",
-        "High-pressure High-temperature metallic gaskets for turbine flanges",
-        "Boiler feed pump sealing systems",
-        "Specially engineered soot blower packing sets",
-        "Thermal insulations"
+        "Oxidation-inhibited graphite packing for high-temperature steam valves",
+        "Graphite pressure seal valve packing with metallic end caps for anti-extrusion",
+        "Low-emission valve stem packing systems",
+        "High-pressure, high-temperature metallic gaskets for turbine flanges",
+        "Advanced sealing systems for boiler feed pumps",
+        "Specially engineered packing sets for soot blower applications",
+        "High-temperature thermal insulation materials",
+        "CNAF gasketing solution",
+        "PTFE/ePTFE gasketing solution",
+        "Elastomeric gasketing solution",
+        "High-performance Metal gasketing solution for flange joint",
+        "Custom-engineered sealing solutions for specialized specific application requirements"
       ],
       "applications": [
         "High-pressure steam turbine isolation, control, and interceptor valves",
@@ -108,10 +116,12 @@
       ],
       "solutions": [
         "PTFE and expanded PTFE packings",
-        "Chemically resistant flange joint gaskets",
+        "Chemically resistant PTFE/ePTFE flange joint gaskets",
         "Low-emission valve packing for toxic and volatile chemicals",
         "Specially engineered metallic gaskets for aggressive chemicals like hydrofluoric acid",
-        "Specially engineered gasketing solution with low seating stress requirement for flange joint integrity"
+        "Specially engineered gasketing solution with low seating stress requirement for flange joint integrity - CNAF, Elastomeric",
+        "Metal gasketing solution",
+        "Custom-engineered sealing solutions for specialized specific application requirements"
       ],
       "applications": [
         "Hastelloy and titanium-clad pressure vessels",
@@ -152,7 +162,11 @@
         "Corrosion-proof packings and gaskets",
         "Sanitary-grade compression sealing",
         "Low-maintenance valve packing",
-        "Metallic gaskets"
+        "CNAF gasketing solution",
+        "PTFE/ePTFE gasketing solution",
+        "Elastomeric gasketing solution",
+        "Metal gasketing solution",
+        "Custom-engineered sealing solutions for specialized specific application requirements"
       ],
       "applications": [
         "Treatment plant pumps and valves",
@@ -186,10 +200,15 @@
         "Strict regulatory compliance"
       ],
       "solutions": [
-        "Specially engineered corrosion-resistant, abrasion-resistant, and mechanically resilient packings",
-        "High performance tank lid packings",
-        "Corrosion resistant flange joint gasket",
-        "Fire-safe marine gaskets"
+        "Specially engineered corrosion-resistant, abrasion-resistant, and mechanically resilient packing systems",
+        "High-performance tank lid packing for marine applications",
+        "Corrosion-resistant flange joint gaskets",
+        "Fire-safe marine gaskets for critical applications",
+        "CNAF gasketing solution",
+        "PTFE/ePTFE gasketing solution",
+        "Elastomeric gasketing solution",
+        "Metal gasketing solution",
+        "Custom-engineered sealing solutions for specialized specific application requirements"
       ],
       "applications": [
         "Main propulsion engine stern tube and shaft sealing systems",
@@ -226,10 +245,15 @@
         "Equipment vibration and movement"
       ],
       "solutions": [
-        "High-Temperature Carbon Graphite Seals",
-        "Wear-Resistant Composite Packing",
-        "Dust-proof Compression Gaskets",
-        "Heavy-Duty Fluid Sealing Solutions"
+        "High-temperature carbon graphite seals for kiln operations",
+        "Wear-resistant composite packing for abrasive environments",
+        "Dust-proof compression gaskets for cement applications",
+        "Heavy-duty fluid sealing solutions for continuous operation",
+        "CNAF gasketing solution",
+        "PTFE/ePTFE gasketing solution",
+        "Elastomeric gasketing solution",
+        "Metal gasketing solution",
+        "Custom-engineered sealing solutions for specialized specific application requirements"
       ],
       "applications": [
         "Cement kiln rotary seals and expansion joints",
@@ -257,32 +281,38 @@
       "subtitle": "",
       "description": "Specialized sealing solutions for high-pressure ammonia synthesis reactors, corrosive acid handling, and aggressive urea production environments",
       "image": "public/fertilizer.jpg",
-      "fullDescription": "Fertilizer production involves handling ammonia, acids, and other aggressive chemicals at high temperatures and pressures. Inmarco provides specialized sealing solutions for ammonia plants, phosphate processing, and NPK fertilizer production facilities.",
+      "fullDescription": "Fertilizer production involves handling ammonia synthesis, urea synthesis, nitric acid, phosphoric acid, sulfuric acid and NPK fertilizer production facilities.",
       "challenges": [
-        "Ammonia and acid resistance required",
-        "High-pressure synthesis operations",
-        "Corrosive chemical exposure",
-        "Temperature extremes in reactors",
-        "Environmental emission controls"
+        "Extreme pressure, temperature, and thermal cycling conditions",
+        "Highly corrosive acids and aggressive chemical media",
+        "Abrasive slurries causing severe wear and erosion",
+        "Crystallization, fouling, and material embrittlement",
+        "Toxic and hazardous substance containment",
+        "Oxidizing atmospheres and gas permeation challenges"
       ],
       "solutions": [
-        "Ammonia-resistant PTFE packing",
-        "Chemically inert gasket materials",
-        "Low-emission valve packing",
-        "Acid-resistant compression sealing",
-        "High-pressure reactor gaskets"
+        "Ammonia-resistant hybrid packing for synthesis loops",
+        "Advanced hybrid packing systems for carbamate pump applications",
+        "Low-emission valve stem packing with fugitive emission control",
+        "Fluoropolymer-based packing engineered to resist crystallization and embrittlement",
+        "Corrosion-resistant compression packing for concentrated acid service",
+        "High-pressure reactor gaskets rated for extreme conditions",
+        "CNAF gasketing solution",
+        "PTFE/ePTFE gasketing solution",
+        "Elastomeric gasketing solution",
+        "Metal gasketing solution",
+        "Custom-engineered sealing solutions for specialized specific application requirements"
       ],
       "applications": [
-        "Ammonia synthesis converters",
-        "Acid reaction vessels",
-        "Granulation equipment",
-        "Process pumps and compressors",
-        "Storage and handling systems",
-        "Bitumen carbonate ammonia pumps",
-        "Plunger pumps",
-        "Acid handling pumps",
-        "Phosphate dosing systems",
-        "Urea production equipment"
+        "Ammonia synthesis reactors and converters",
+        "Urea synthesis and granulation equipment",
+        "Acid production and storage systems (nitric, sulfuric, phosphoric)",
+        "High-pressure carbamate and ammonia pumps",
+        "Phosphoric acid reactors and filtration systems",
+        "NPK mixing and granulation units",
+        "Compressors and process gas handling systems",
+        "Prilling towers and crystallization equipment",
+        "Chemical dosing and metering pumps"
       ]
     },
     {
@@ -295,32 +325,34 @@
       "image": "public/metallurgy.jpg",
       "fullDescription": "Metallurgical operations expose sealing materials to some of the harshest conditions in industrial processing. Inmarco specializes in sealing solutions engineered to withstand molten metals, extreme temperatures, abrasive materials, and corrosive atmospheres in steel mills, foundries, and metal processing facilities.",
       "challenges": [
-        "Temperatures exceeding 1000°C",
-        "Exposure to molten metals and slag",
-        "Abrasive particle contamination",
-        "Thermal cycling and shock",
-        "Aggressive chemical environments"
+        "Temperatures exceeding 1000°C in furnaces and casting",
+        "Molten metal and corrosive slag handling",
+        "Severe abrasive wear from ore and scale particles",
+        "Extreme thermal shock and cycling stress",
+        "Corrosive gas exposure (SO₂, CO, HF, H₂S)",
+        "Oxidizing atmospheres and chemical attack"
       ],
       "solutions": [
-        "Reinforced graphite packing for high temperature",
-        "Metal-jacketed gaskets for flanges",
-        "Carbon fiber compression packing",
-        "High-temp ceramic fiber sealing",
-        "Custom metallic sealing solutions"
+        "Reinforced graphite packing for extreme temperature applications",
+        "Specially engineered hybrid packing for chemical and corrosive media",
+        "High-temperature furnace insulation rope",
+        "Custom-engineered seals for molten metal ladles and pots",
+        "Metal gaskets for extreme temperature and pressure conditions",
+        "CNAF gasketing solution",
+        "PTFE/ePTFE gasketing solution",
+        "Elastomeric gasketing solution",
+        "Custom-engineered sealing solutions for specialized specific application requirements"
       ],
       "applications": [
-        "Blast furnace equipment",
-        "Continuous casting machines",
-        "Rolling mill hydraulics",
-        "Heat treatment furnaces",
-        "Metal forming presses",
-        "Blast furnace hot blast valves",
-        "Coke oven doors and pitch pumps",
-        "Ash handling pumps",
-        "Cooling tower pumps",
-        "Tuyere stock operations",
-        "Steam valve systems",
-        "Chemical pumps for processing"
+        "Blast furnace systems and blast valves",
+        "Continuous casting",
+        "High-pressure rolling mills",
+        "Ladle transfer systems",
+        "Coke oven batteries and gas recovery units",
+        "Descaling and cooling water systems",
+        "Slag handling and treatment equipment",
+        "BOF/EAF converter operations",
+        "Heat treatment and annealing furnaces"
       ]
     },
     {
@@ -333,34 +365,49 @@
       "image": "public/paper.jpg",
       "fullDescription": "Pulp and paper mills require sealing solutions that resist aggressive chemicals, handle high temperatures, and perform reliably in wet, humid conditions. Inmarco delivers sealing products for digesters, bleaching systems, papermaking machines, and auxiliary equipment.",
       "challenges": [
-        "Exposure to caustic chemicals and bleaches",
-        "Hot, humid operating environment",
-        "Continuous high-speed operation",
-        "Abrasive pulp and fiber exposure",
-        "Wide temperature range"
+        "Aggressive chemical exposure (chlorine dioxide, caustic soda, sulfuric acid)",
+        "Hot, humid, and corrosive operating environments",
+        "High-speed continuous operation with minimal downtime tolerance",
+        "Abrasive fiber slurries and pulp stock causing accelerated wear",
+        "Extreme temperature variations (ambient to 200°C in digesters)",
+        "Black liquor handling with high solids content and alkalinity",
+        "Steam condensate corrosion and thermal cycling stress"
       ],
       "solutions": [
-        "Chemical-resistant packing for pumps",
-        "Steam-resistant valve packing",
-        "Wet-environment gaskets",
-        "Fiber-resistant compression sealing",
-        "Hot water and steam packing"
+        "Specially engineered chemical and abrasion-resistant packing systems",
+        "High-performance packing for continuous digester applications",
+        "Graphite-based packing for high-temperature steam valve service",
+        "Custom-engineered abrasion-resistant packing for soft sleeve pumps",
+        "Specially formulated packing for black liquor pump applications",
+        "Corrosion-resistant metallic gaskets for aggressive chemical service",
+        "PTFE-based packing for bleach plant and chemical handling",
+        "CNAF gasketing solution",
+        "PTFE/ePTFE gasketing solution",
+        "Elastomeric gasketing solution",
+        "Metal gasketing solution",
+        "Custom-engineered sealing solutions for specialized specific application requirements"
       ],
       "applications": [
-        "Digester and chemical vessels",
-        "Stock pumps and mixers",
-        "Papermaking machine rolls",
-        "Bleaching towers",
-        "Boiler and recovery systems",
-        "Continuous digesters",
-        "Hydro pulpers and refiners",
-        "Pressure screeners",
-        "Blow tank pumps",
-        "Thick stock pumps",
-        "Evaporators and dryer drums",
-        "Recovery furnace doors",
-        "Chlorine pumps",
-        "Filter presses"
+        "Continuous and batch digesters",
+        "Black liquor pumps and circulation systems",
+        "Blow tank and blow-through systems",
+        "White liquor and green liquor pumps",
+        "Caustic soda and chlorine dioxide handling systems",
+        "Bleach plant pumps (chlorine, peroxide, oxygen stages)",
+        "Stock preparation pumps and consistency control valves",
+        "High-density and low-density stock pumps",
+        "Hydropulpers and drum pulpers",
+        "Pressure screens and centrifugal cleaners",
+        "Refiner dilution and approach flow systems",
+        "Recovery boiler feed pumps and steam systems",
+        "Evaporator circulation pumps (multiple effect systems)",
+        "Tall oil and turpentine recovery equipment",
+        "Chemical mixing and dosing systems",
+        "Paper machine headbox and approach flow systems",
+        "Press section hydraulic systems and vacuum pumps",
+        "Dryer section steam and condensate systems",
+        "Size press and coating application systems",
+        "Broke handling and white water recovery pumps"
       ]
     },
     {
@@ -373,18 +420,20 @@
       "image": "public/food and pahrma.jpg",
       "fullDescription": "Food processing and pharmaceutical manufacturing demand the highest standards of hygiene, product purity, and regulatory compliance. Inmarco delivers FDA and EU compliant sealing solutions for processing, mixing, filling, and packaging equipment in both industries.",
       "challenges": [
-        "Strict regulatory compliance (FDA, EU, GMP)",
-        "Product contamination prevention",
-        "Clean-in-place (CIP) compatibility",
-        "Sterile processing requirements",
-        "Temperature and pressure variations"
+        "Zero-tolerance product contamination and cross-contamination prevention",
+        "Clean-in-place (CIP) and steam-in-place (SIP) compatibility",
+        "Aseptic and sterile processing requirements for injectable pharmaceuticals",
+        "Frequent thermal cycling and sanitization stress (caustic and acid cleaning)",
+        "Chemical compatibility with cleaning agents (NaOH, HNO₃, H₂O₂)",
+        "Stringent regulatory compliance"
       ],
       "solutions": [
+        "Non contaminable inert base material",
         "FDA CFR 21 compliant sealing materials",
-        "USP Class VI certified elastomers",
-        "Sterile-grade compression packing",
-        "Sanitary gasket designs",
-        "Pharmaceutical-grade PTFE sealing"
+        "Thermal cycling-resistant packing engineered for repeated CIP/SIP operations",
+        "Metallic gasket for flange joint",
+        "PTFE/ePTFE gasketing solution",
+        "Custom-engineered sealing solutions for specialized specific application requirements"
       ],
       "applications": [
         "Processing and mixing vessels",
@@ -413,18 +462,26 @@
       "image": "public/sugar.jpg",
       "fullDescription": "Sugar processing and refining require food-safe sealing materials that maintain product purity while handling high temperatures, steam, and sugar solutions. Inmarco provides FDA-compliant sealing solutions for crushing, extraction, clarification, evaporation, and crystallization processes.",
       "challenges": [
-        "Food safety and FDA compliance",
-        "High-temperature steam operations",
-        "Sugar syrup crystallization",
-        "Sticky residue and buildup",
-        "Frequent cleaning and sanitation"
+        "Food-grade material compliance and zero contamination requirements",
+        "Sugar syrup crystallization and hardening in seal chambers",
+        "Viscous, sticky residue causing seal congealing and reduced performance",
+        "Frequent high-pressure washdown and sanitization cycles",
+        "Abrasive bagasse fibers in juice extraction processes",
+        "Corrosive acid and lime treatment chemicals in clarification",
+        "Thermal cycling stress between processing and cleaning operations",
+        "High-temperature steam operations (up to 140°C in evaporators)"
       ],
       "solutions": [
-        "FDA-compliant PTFE packing",
-        "Food-grade rubber gaskets",
-        "Steam-resistant valve packing",
-        "Sanitary compression sealing",
-        "Clean-in-place compatible materials"
+        "FDA-compliant fluropolymer and polymide packing",
+        "Specially engineered polymide based packing for viscous, abrasive, sticky and congealing media",
+        "Hybrid packing for abrasive and corrosive media",
+        "Self lubricated packing for steam service",
+        "CNAF gasketing solution",
+        "PTFE/ePTFE gasketing solution",
+        "Elastomeric gasketing solution",
+        "Metal gasketing solution",
+        "Clean-in-place compatible materials",
+        "Custom-engineered sealing solutions for specialized specific application requirements"
       ],
       "applications": [
         "Cane and beet crushers",
@@ -450,26 +507,59 @@
       "image": "public/img_1501_779fc600.jpg_20250401160721_1920x0.jpeg",
       "fullDescription": "Original Equipment Manufacturers require reliable sealing partners who understand design integration, performance specifications, and supply chain demands. Inmarco collaborates with OEMs to develop custom sealing solutions that enhance equipment performance and reliability.",
       "challenges": [
-        "Application-specific design requirements",
-        "Performance specification compliance",
-        "Supply chain reliability and scalability",
-        "Quality consistency across production",
-        "Technical support and documentation"
+        "Evolving industry standards requiring continuous compliance updates",
+        "Extensive resources required for supplier qualification, product testing, and documentation",
+        "Tight project timelines for bidding and execution",
+        "Complex application-specific design and performance requirements",
+        "Demand for manufacturing consistency, repeatability, and long-term reliability",
+        "Supply chain credibility, scalability, and on-time delivery assurance",
+        "Comprehensive technical support and detailed engineering documentation needs"
       ],
       "solutions": [
-        "Custom-engineered sealing designs",
+        "API/ISO certified low-emission packing",
         "Application-optimized material selection",
+        "Graphite and PTFE based low-emission packing for control valves",
         "Performance testing and validation",
         "Quality assurance and traceability",
-        "Technical collaboration and support"
+        "Metal gasketing solution",
+        "Custom-engineered sealing solutions for specialized specific application requirements"
       ],
       "applications": [
-        "Pump and valve manufacturers",
-        "Compressor and turbine OEMs",
-        "Industrial equipment builders",
-        "Process system integrators",
-        "Specialized machinery manufacturers"
+        "Control Valves",
+        "Isolation Valves",
+        "Centrifugal Pumps",
+        "Reciprocating Pumps"
       ]
     }
-  ]
+  ],
+  "_comments": {
+    "oem_control_valves": [
+      "Globe control valves (single-seat, double-seat, cage-guided)",
+      "Angle control valves",
+      "Butterfly control valves (high-performance, resilient-seated)",
+      "Ball control valves (V-port, segmented ball, characterized ball)",
+      "Rotary control valves (eccentric plug, ball segment)",
+      "High-pressure control valves",
+      "Severe service control valves (anti-cavitation, noise reduction)",
+      "Cryogenic control valves"
+    ],
+    "oem_isolation_valves": [
+      "Gate valves (wedge, parallel slide, knife gate)",
+      "Globe isolation valves",
+      "Ball valves (floating ball, trunnion-mounted, split-body, reduced-bore)",
+      "Plug valves (lubricated, non-lubricated)",
+      "Butterfly valves (concentric, eccentric)",
+      "Check valves (swing, lift, tilting disc)",
+      "Safety relief valves and pressure relief valves"
+    ],
+    "oem_centrifugal_pumps": [
+    ],
+    "oem_reciprocating_pumps": [
+      "Piston pumps",
+      "Plunger pumps",
+      "Diaphragm pumps",
+      "Metering and dosing pumps (precision chemical injection)",
+      "High-pressure reciprocating pumps"
+    ]
+  }
 }

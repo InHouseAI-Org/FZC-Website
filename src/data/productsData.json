@@ -51,7 +51,6 @@
       "slug": "metallic-gaskets",
       "href": "/products/metallic-gaskets",
       "description": "High-performance metallic gaskets for extreme temperature and pressure applications.",
-      "specs": ["Laminar Gasket", "Kammprofile Gasket", "Shim Joint", "Double Jacketed Gasket", "Ring Type Joint Gasket", "Corrugated Gasket", "Soft Iron Ring"],
       "diagram": "CompressionPackingDiagram",
       "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
     },
@@ -190,55 +189,6 @@
       "name": "Helium Nitrogen Leak Compliance",
       "slug": "helium-nitrogen-leak-compliance",
       "description": "Helium and nitrogen leak tested isolation gaskets"
-    },
-    {
-      "id": 17,
-      "categoryId": 5,
-      "name": "Laminar Gasket",
-      "slug": "laminar-gasket",
-      "description": "Multi-layer laminar metallic gaskets"
-    },
-    {
-      "id": 18,
-      "categoryId": 5,
-      "name": "Kammprofile Gasket",
-      "slug": "kammprofile-gasket",
-      "description": "Serrated metal core gaskets"
-    },
-    {
-      "id": 19,
-      "categoryId": 5,
-      "name": "Shim Joint",
-      "slug": "shim-joint",
-      "description": "Precision metal shim gaskets"
-    },
-    {
-      "id": 20,
-      "categoryId": 5,
-      "name": "Double Jacketed Gasket",
-      "slug": "double-jacketed-gasket",
-      "description": "Double jacketed metallic gaskets"
-    },
-    {
-      "id": 21,
-      "categoryId": 5,
-      "name": "Ring Type Joint Gasket",
-      "slug": "ring-type-joint-gasket",
-      "description": "RTJ ring gaskets for high-pressure applications"
-    },
-    {
-      "id": 22,
-      "categoryId": 5,
-      "name": "Corrugated Gasket",
-      "slug": "corrugated-gasket",
-      "description": "Corrugated metal gaskets"
-    },
-    {
-      "id": 23,
-      "categoryId": 5,
-      "name": "Soft Iron Ring",
-      "slug": "soft-iron-ring",
-      "description": "Soft iron ring gaskets"
     },
     {
       "id": 24,
@@ -2496,9 +2446,9 @@
   },
   {
     "id": 60,
-    "subcategoryId": 17,
-    "name": "METALLIC GASKET",
-    "slug": "metallic-gasket",
+    "categoryId": 5,
+    "name": "Laminar Gasket",
+    "slug": "laminar-gasket",
     "material": "LAMINAR METAL",
     "apiCertified": false,
     "shortDescription": "Multi-layer laminar metallic gasket",
@@ -2527,6 +2477,216 @@
       "Power plant critical flanges",
       "Refinery high-temperature services",
       "Extreme pressure and temperature applications"
+    ]
+  },
+  {
+    "id": 61,
+    "categoryId": 5,
+    "name": "Kammprofile Gasket",
+    "slug": "kammprofile-gasket",
+    "material": "SERRATED METAL",
+    "apiCertified": false,
+    "shortDescription": "Serrated metal core gaskets with flexible facing",
+    "description": "High-performance serrated metal gasket combining the resilience of soft materials with the strength of metal for demanding applications.",
+    "image": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-200°C to +700°C",
+      "Pressure Rating": "Up to 400 bar",
+      "Material Options": "SS304, SS316, Graphite facing, PTFE facing"
+    },
+    "technicalData": {
+      "Construction": "Serrated metal core with soft facing layers",
+      "Size Range": "1/2\" to 120\" all ANSI/DIN classes",
+      "Standard": "ASME B16.20, DIN 2697"
+    },
+    "features": [
+      "Serrated core for excellent sealing",
+      "Low bolt load requirements",
+      "Excellent for heat exchanger applications",
+      "High blowout resistance",
+      "Reusable in many applications"
+    ],
+    "applications": [
+      "Heat exchangers",
+      "Pressure vessels",
+      "Pipeline flanges",
+      "Chemical processing equipment",
+      "Oil and gas applications"
+    ]
+  },
+  {
+    "id": 62,
+    "categoryId": 5,
+    "name": "Shim Joint",
+    "slug": "shim-joint",
+    "material": "PRECISION METAL SHIM",
+    "apiCertified": false,
+    "shortDescription": "Precision metal shim gaskets for tight tolerances",
+    "description": "Ultra-thin precision metal gaskets designed for applications requiring tight sealing with minimal compression.",
+    "image": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-200°C to +600°C",
+      "Pressure Rating": "Up to 300 bar",
+      "Material Options": "SS304, SS316, Copper, Brass"
+    },
+    "technicalData": {
+      "Construction": "Single or multi-layer precision shim",
+      "Thickness Range": "0.1mm to 3mm",
+      "Standard": "Custom to application"
+    },
+    "features": [
+      "Precise thickness control",
+      "Low compression set",
+      "Excellent for machined surfaces",
+      "Cost-effective solution",
+      "Available in various metals"
+    ],
+    "applications": [
+      "Precision machinery",
+      "Instrumentation flanges",
+      "Small bore piping",
+      "Hydraulic systems",
+      "Aerospace applications"
+    ]
+  },
+  {
+    "id": 63,
+    "categoryId": 5,
+    "name": "Double Jacketed Gasket",
+    "slug": "double-jacketed-gasket",
+    "material": "JACKETED METAL",
+    "apiCertified": false,
+    "shortDescription": "Metal jacketed gaskets with soft filler core",
+    "description": "Robust double-jacketed metal gaskets combining chemical resistance of metal with conformability of soft filler material.",
+    "image": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-200°C to +800°C",
+      "Pressure Rating": "Up to 500 bar",
+      "Material Options": "SS304, SS316, Inconel jacket with ceramic/graphite filler"
+    },
+    "technicalData": {
+      "Construction": "Metal jacket with compressed filler material",
+      "Size Range": "1/2\" to 96\" all ANSI/DIN classes",
+      "Standard": "ASME B16.20"
+    },
+    "features": [
+      "Superior chemical resistance",
+      "High temperature capability",
+      "Excellent conformability",
+      "Protects filler from chemical attack",
+      "Suitable for damaged flanges"
+    ],
+    "applications": [
+      "Chemical processing",
+      "Refineries",
+      "High-temperature services",
+      "Corrosive media applications",
+      "Damaged or irregular flanges"
+    ]
+  },
+  {
+    "id": 64,
+    "categoryId": 5,
+    "name": "Ring Type Joint Gasket",
+    "slug": "ring-type-joint-gasket",
+    "material": "SOLID METAL RING",
+    "apiCertified": true,
+    "shortDescription": "RTJ ring gaskets for high-pressure applications",
+    "description": "Solid metal ring gaskets designed for extreme pressure applications in oil and gas, meeting API specifications.",
+    "image": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-200°C to +800°C",
+      "Pressure Rating": "Up to 1500 bar",
+      "Material Options": "Soft iron, SS304, SS316, Inconel, Monel"
+    },
+    "technicalData": {
+      "Construction": "Solid metal ring with octagonal or oval cross-section",
+      "Size Range": "1/2\" to 24\" API 6A rated",
+      "Standard": "API 6A, ASME B16.20"
+    },
+    "features": [
+      "Extreme pressure capability",
+      "Metal-to-metal sealing",
+      "Self-energizing design",
+      "API 6A certified",
+      "Suitable for wellhead applications"
+    ],
+    "applications": [
+      "Wellhead equipment",
+      "High-pressure pipelines",
+      "Subsea connections",
+      "Pressure vessels",
+      "Critical oil and gas flanges"
+    ]
+  },
+  {
+    "id": 65,
+    "categoryId": 5,
+    "name": "Corrugated Gasket",
+    "slug": "corrugated-gasket",
+    "material": "CORRUGATED METAL",
+    "apiCertified": false,
+    "shortDescription": "Corrugated metal gaskets for flexible sealing",
+    "description": "Flexible corrugated metal gaskets providing excellent resilience and adaptability to flange irregularities.",
+    "image": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-200°C to +700°C",
+      "Pressure Rating": "Up to 250 bar",
+      "Material Options": "SS304, SS316 with graphite/PTFE filling"
+    },
+    "technicalData": {
+      "Construction": "Corrugated metal core with soft filler",
+      "Size Range": "1/2\" to 60\" all ANSI/DIN classes",
+      "Standard": "ASME B16.20, DIN standards"
+    },
+    "features": [
+      "High flexibility and resilience",
+      "Accommodates flange movement",
+      "Low bolt load requirements",
+      "Excellent recovery properties",
+      "Suitable for thermal cycling"
+    ],
+    "applications": [
+      "Heat exchangers",
+      "Expansion joints",
+      "Exhaust systems",
+      "High vibration equipment",
+      "Thermal cycling applications"
+    ]
+  },
+  {
+    "id": 66,
+    "categoryId": 5,
+    "name": "Soft Iron Ring",
+    "slug": "soft-iron-ring",
+    "material": "SOFT IRON",
+    "apiCertified": false,
+    "shortDescription": "Soft iron ring gaskets for extreme pressure",
+    "description": "Premium soft iron ring gaskets designed for extreme pressure and temperature applications with excellent conformability.",
+    "image": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "specifications": {
+      "Temperature Range": "-50°C to +400°C",
+      "Pressure Rating": "Up to 1000 bar",
+      "Material Options": "Soft iron (low carbon steel)"
+    },
+    "technicalData": {
+      "Construction": "Solid soft iron ring",
+      "Size Range": "1/2\" to 24\" API rated",
+      "Standard": "API 6A"
+    },
+    "features": [
+      "Excellent conformability",
+      "High pressure sealing",
+      "Cost-effective for iron flanges",
+      "Good machinability",
+      "Reliable performance"
+    ],
+    "applications": [
+      "High-pressure steam",
+      "Oil and gas equipment",
+      "Heavy industrial applications",
+      "Iron and steel flanges",
+      "Extreme pressure services"
     ]
   }
 ]

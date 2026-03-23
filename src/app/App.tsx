@@ -37,7 +37,7 @@ export default function App() {
               <Route path="/industries/:slug" element={<IndustryDetail />} />
               <Route path="/products" element={<Products />} />
               <Route path="/products/:categorySlug/:subcategorySlug/:productSlug" element={<ProductDetail />} />
-              <Route path="/products/:categorySlug/:subcategorySlug" element={<ProductCategory />} />
+              <Route path="/products/:categorySlug/:secondParam" element={<ProductCategory />} />
               <Route path="/products/:categorySlug" element={<ProductCategoryLanding />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/fluid-sealing-simplified" element={<FluidSealingSimplified />} />

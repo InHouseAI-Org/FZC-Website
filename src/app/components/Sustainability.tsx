@@ -354,16 +354,54 @@ export function Sustainability() {
           transition={{ duration: 0.8, delay: 0.6 }}
           className="mt-50 text-center"
         >
-          <div className="inline-block bg-gradient-to-r from-green-500/10 via-emerald-500/10 to-teal-500/10 backdrop-blur-sm border border-green-500/20 rounded-lg p-8">
-            <Leaf className="w-12 h-12 text-green-400 mx-auto mb-4" />
-            <p className="text-gray-300 text-lg mb-4 max-w-2xl">
-              Investing in <span className="text-green-400 font-medium">digital transformation</span> and <span className="text-green-400 font-medium">AI integration</span> to enhance reliability forecasting and support sustainable industrial operations worldwide.
-            </p>
+          <div className="relative inline-block group">
+            {/* Animated glow effect */}
             <motion.div
-              className="h-[2px] w-32 mx-auto bg-gradient-to-r from-transparent via-green-500 to-transparent"
-              animate={{ opacity: [0.3, 1, 0.3] }}
-              transition={{ duration: 2, repeat: Infinity }}
-            ></motion.div>
+              className="absolute -inset-2 bg-gradient-to-r from-green-500/30 via-emerald-500/30 to-teal-500/30 rounded-xl blur-xl opacity-60 group-hover:opacity-100 transition-opacity duration-500"
+              animate={{
+                scale: [1, 1.05, 1],
+              }}
+              transition={{
+                duration: 3,
+                repeat: Infinity,
+                ease: "easeInOut"
+              }}
+            />
+
+            <div className="relative bg-gradient-to-br from-[#1a1918]/95 to-[#252423]/95 backdrop-blur-xl border-2 border-green-500/40 group-hover:border-green-400/60 rounded-xl p-10 shadow-2xl transition-all duration-300">
+              {/* Top corner accent */}
+              <div className="absolute top-0 right-0 w-24 h-24 bg-gradient-to-bl from-green-500/20 via-emerald-500/10 to-transparent opacity-50 blur-2xl"></div>
+
+              <motion.div
+                animate={{
+                  rotate: [0, 5, -5, 0],
+                  y: [0, -5, 5, 0],
+                }}
+                transition={{
+                  duration: 6,
+                  repeat: Infinity,
+                  ease: "easeInOut"
+                }}
+              >
+                <Leaf className="w-14 h-14 text-green-400 mx-auto mb-6 drop-shadow-[0_0_15px_rgba(74,222,128,0.5)]" />
+              </motion.div>
+
+              <p className="text-white text-xl mb-6 max-w-2xl leading-relaxed font-light">
+                Investing in <span className="text-green-400 font-semibold px-2 py-1 rounded">digital transformation</span> and <span className="text-emerald-400 font-semibold px-2 py-1 rounded">AI integration</span> to enhance reliability forecasting and support sustainable industrial operations worldwide.
+              </p>
+
+              <motion.div
+                className="h-[3px] w-40 mx-auto bg-gradient-to-r from-transparent via-green-400 to-transparent rounded-full"
+                animate={{
+                  opacity: [0.4, 1, 0.4],
+                  scaleX: [0.8, 1, 0.8]
+                }}
+                transition={{ duration: 2, repeat: Infinity }}
+              ></motion.div>
+
+              {/* Bottom corner accent */}
+              <div className="absolute bottom-0 left-0 w-20 h-20 bg-gradient-to-tr from-teal-500/20 via-green-500/10 to-transparent opacity-50 blur-xl"></div>
+            </div>
           </div>
         </motion.div>
 

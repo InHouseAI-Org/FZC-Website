@@ -5,13 +5,28 @@ import { ImageWithFallback } from '@/app/components/figma/ImageWithFallback';
 import productsData from '@/data/productsData.json';
 
 export default function ProductDetail() {
-  const { categorySlug, subcategorySlug, productSlug } = useParams();
+  const params = useParams();
+  const categorySlug = params.categorySlug;
+  const subcategorySlug = params.subcategorySlug || params.secondParam;
+  const productSlug = params.productSlug;
 
   const category = productsData.categories.find(c => c.slug === categorySlug);
-  const subcategory = productsData.subcategories.find(s => s.slug === subcategorySlug);
-  const product = productsData.products.find(p => p.slug === productSlug);
 
-  if (!category || !subcategory || !product) {
+  // Handle both URL patterns: with and without subcategory
+  let subcategory = null;
+  let product = null;
+
+  if (subcategorySlug && productSlug) {
+    // Pattern: /products/:categorySlug/:subcategorySlug/:productSlug
+    subcategory = productsData.subcategories.find(s => s.slug === subcategorySlug);
+    product = productsData.products.find(p => p.slug === productSlug);
+  } else if (subcategorySlug && !productSlug) {
+    // Pattern: /products/:categorySlug/:productSlug (no subcategory)
+    // In this case, subcategorySlug is actually the productSlug
+    product = productsData.products.find(p => p.slug === subcategorySlug && p.categoryId === category?.id);
+  }
+
+  if (!category || !product) {
     return (
       <main className="bg-[#2b2a29] min-h-screen flex items-center justify-center">
         <div className="text-center">
@@ -35,11 +50,11 @@ export default function ProductDetail() {
             transition={{ duration: 0.8 }}
           >
             <Link
-              to={`/products/${categorySlug}/${subcategorySlug}`}
+              to={subcategory ? `/products/${categorySlug}/${subcategorySlug}` : `/products/${categorySlug}`}
               className="inline-flex items-center space-x-2 text-gray-400 hover:text-[#e31e24] transition-colors mt-12 mb-8"
             >
               <ArrowLeft className="w-5 h-5" />
-              <span>Back to {subcategory.name}</span>
+              <span>Back to {subcategory ? subcategory.name : category.name}</span>
             </Link>
 
             <div className="flex items-center space-x-3 text-sm text-gray-400 mb-6">
@@ -50,13 +65,17 @@ export default function ProductDetail() {
               <Link to={`/products/${categorySlug}`} className="hover:text-[#e31e24] transition-colors">
                 {category.name}
               </Link>
-              <span>/</span>
-              <Link
-                to={`/products/${categorySlug}/${subcategorySlug}`}
-                className="hover:text-[#e31e24] transition-colors"
-              >
-                {subcategory.name}
-              </Link>
+              {subcategory && (
+                <>
+                  <span>/</span>
+                  <Link
+                    to={`/products/${categorySlug}/${subcategorySlug}`}
+                    className="hover:text-[#e31e24] transition-colors"
+                  >
+                    {subcategory.name}
+                  </Link>
+                </>
+              )}
               <span>/</span>
               <span className="text-[#e31e24]">{product.name}</span>
             </div>

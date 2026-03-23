@@ -1,8 +1,9 @@
 import { motion } from 'motion/react';
-import { Link, useParams } from 'react-router-dom';
+import { Link, useParams, Navigate } from 'react-router-dom';
 import { ArrowLeft, CheckCircle2 } from 'lucide-react';
 import { ImageWithFallback } from '@/app/components/figma/ImageWithFallback';
 import productsData from '@/data/productsData.json';
+import ProductDetail from './ProductDetail';
 
 interface Product {
   id: number;
@@ -19,10 +20,21 @@ interface Product {
 }
 
 export default function ProductCategory() {
-  const { categorySlug, subcategorySlug } = useParams();
+  const { categorySlug, secondParam } = useParams();
 
   const category = productsData.categories.find(c => c.slug === categorySlug);
-  const subcategory = productsData.subcategories.find(s => s.slug === subcategorySlug);
+
+  // Check if secondParam is a subcategory or a product
+  const subcategory = productsData.subcategories.find(s => s.slug === secondParam);
+  const directProduct = productsData.products.find(p =>
+    p.slug === secondParam && p.categoryId === category?.id
+  );
+
+  // If it's a direct product (no subcategory), render ProductDetail
+  if (directProduct && !subcategory) {
+    return <ProductDetail />;
+  }
+
   const products: Product[] = subcategory
     ? productsData.products.filter(p => p.subcategoryId === subcategory.id)
     : [];

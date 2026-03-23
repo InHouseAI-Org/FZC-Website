@@ -1,6 +1,6 @@
 import { Linkedin, Youtube } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import inmarcoLogo from '@/assets/inmarco-tagline-logo.png';
+import inmarcoLogo from '@/assets/inmarco-tagline-logo1.png';
 import industriesData from '@/data/industries.json';
 import productsData from '@/data/productsData.json';
 
@@ -29,8 +29,15 @@ export function Footer() {
         <div className="py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12">
           {/* Brand Column */}
           <div className="lg:col-span-2">
-            <Link to="/" className="relative flex items-center mb-6">
-              <div className="relative overflow-hidden" style={{ width: '180px', height: '125px' }}>
+            <Link
+              to="/"
+              className="relative flex items-center mb-6"
+              onClick={(e) => {
+                e.preventDefault();
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+              }}
+            >
+              <div className="relative overflow-hidden" style={{ width: '230px', height: '180px' }}>
                 <img
                   src={inmarcoLogo}
                   alt="INMARCO"
