@@ -1,0 +1,817 @@
+{
+  "products": {
+    "1": {
+      "name": "PE 505",
+      "description": "PE 505 is a high-performance PTFE compression packing engineered for demanding industrial applications. Suitable for pumps, valves, and rotating equipment across diverse industries requiring reliable sealing solutions.",
+      "features": [
+        "Crafted from a unique blend of expanded PTFE, graphite, and MoS₂ for superior performance",
+        "Exceptional resiliency combined with outstanding chemical resistance",
+        "Superior heat dissipation properties ensure extended service life",
+        "Anti-friction design protects shafts and sleeves from premature wear",
+        "Dimensionally stable construction requires minimal gland loading",
+        "Reliable performance at high speeds with minimal leakage",
+        "Smooth operation reduces equipment wear and maintenance costs",
+        "Compatible with a wide range of industrial media and applications"
+      ]
+    },
+    "2": {
+      "name": "PE 504",
+      "description": "PE 504 offers dependable PTFE sealing for general-purpose industrial applications. Features excellent chemical resistance and operates effectively across a wide temperature range, making it an ideal choice for standard pump and valve applications.",
+      "features": [
+        "Universal chemical resistance across the full pH spectrum (0-14)",
+        "Low coefficient of friction extends packing and equipment service life",
+        "Self-lubricating design minimizes maintenance requirements",
+        "Cost-effective sealing solution for general industrial applications",
+        "Easy installation with minimal break-in period required"
+      ]
+    },
+    "3": {
+      "name": "HY 504",
+      "description": "HY 504 combines multiple high-performance materials in a hybrid construction to deliver superior sealing across various service conditions. Its unique structural design provides exceptional reliability in demanding industrial environments.",
+      "features": [
+        "Combines benefits of multiple material technologies for enhanced performance",
+        "Extended temperature range provides versatility across diverse applications",
+        "Excellent wear resistance ensures long-term durability",
+        "Broad chemical compatibility suitable for most industrial services",
+        "Reduced break-in time simplifies installation and commissioning"
+      ]
+    },
+    "4": {
+      "name": "PE 508",
+      "description": "PE 508 is a premium PTFE compression packing engineered for critical service applications requiring superior sealing performance. Ideal for high-purity processes where contamination must be eliminated.",
+      "features": [
+        "Exceptional performance in high-speed rotating applications",
+        "Ultra-low friction characteristics extend packing service life",
+        "Suitable for high-purity and critical process applications",
+        "Outstanding chemical resistance with non-reactive properties in process media"
+      ]
+    },
+    "5": {
+      "name": "PE 509",
+      "description": "PE 509 delivers superior sealing performance in extreme service conditions utilizing advanced PTFE technology with integrated self-lubrication. Engineered for applications where contamination control is paramount.",
+      "features": [
+        "Exceptional chemical resistance in aggressive media environments",
+        "Excellent wear resistance ensures extended service life",
+        "Minimal break-in period for rapid commissioning",
+        "FDA compliant for food and pharmaceutical applications"
+      ]
+    },
+    "6": {
+      "name": "HY 105",
+      "description": "HY 105 is a premium hybrid compression packing engineered to deliver exceptional sealing performance in harsh service conditions. Ideal for pumps and reciprocating equipment operating in demanding industrial environments.",
+      "features": [
+        "Unique combination of aramid yarn corners and PTFE yarn faces for superior performance",
+        "Reinforced with high-tensile aramid fiber core for exceptional mechanical strength",
+        "PTFE faces treated with inert, high-temperature lubricants for extended service life",
+        "Aramid corners lubricated with anti-friction fluoropolymer dispersion",
+        "Prevents corner failures commonly experienced in reciprocating equipment",
+        "Excellent chemical resistance across a wide range of industrial media",
+        "Engineered for long-lasting performance in dynamic sealing environments",
+        "Combines strength and flexibility to maintain dimensional stability",
+        "FDA compliant for food and pharmaceutical industry applications"
+      ]
+    },
+    "7": {
+      "name": "HY 105T",
+      "description": "HY 105T offers improved thermal performance through advanced hybrid construction, specifically engineered for demanding high-temperature applications where standard packings may fail.",
+      "features": [
+        "Extended service life in demanding high-temperature applications",
+        "Enhanced pressure resistance for critical sealing requirements",
+        "Maintains sealing integrity at elevated temperatures",
+        "Excellent chemical compatibility across diverse industrial media"
+      ]
+    },
+    "8": {
+      "name": "HY 107",
+      "description": "HY 107 provides exceptional sealing performance with advanced hybrid construction engineered for the most demanding reciprocating applications. Particularly effective in fertilizer industry service conditions.",
+      "features": [
+        "Premium performance in severe service conditions requiring reciprocating motion",
+        "Exceptional wear resistance ensures extended service life",
+        "Superior chemical and thermal resistance for aggressive environments",
+        "Excellent resilience under high-pressure operating conditions",
+        "Ideal sealing solution specifically for fertilizer industry applications"
+      ]
+    },
+    "9": {
+      "name": "HY 107E",
+      "description": "HY 107E offers cost-effective hybrid packing performance for standard industrial applications, providing reliable sealing without premium pricing for less demanding service conditions.",
+      "features": [
+        "Cost-effective sealing solution for general industrial applications",
+        "Good chemical and thermal resistance for standard service conditions",
+        "Easy installation and maintenance reduces operational costs",
+        "Reliable sealing performance in standard operating conditions",
+        "Wide range of media compatibility for versatile applications"
+      ]
+    },
+    "10": {
+      "name": "HY 107 EPT",
+      "description": "HY 107 EPT features soft fluoropolymer reinforcement for enhanced flexibility and superior sealing performance. Engineered to provide exceptional resilience in severe reciprocating service conditions.",
+      "features": [
+        "Soft fluoropolymer reinforcement provides enhanced resilience and flexibility",
+        "Premium performance in severe reciprocating service conditions",
+        "Exceptional wear resistance, resilience, and extended service life",
+        "Superior chemical and thermal resistance for aggressive environments",
+        "Outstanding compression recovery properties maintain sealing effectiveness"
+      ]
+    },
+    "11": {
+      "name": "HY 175",
+      "description": "HY 175 is designed for standard industrial sealing applications, offering balanced performance and cost-effectiveness. An economical solution for general-purpose sealing requirements across various industries.",
+      "features": [
+        "Economical sealing solution for general industrial applications",
+        "Well-balanced performance characteristics for standard services",
+        "Easy installation and maintenance reduces operational complexity",
+        "Suitable for a wide range of industrial media and applications",
+        "Reliable service performance in standard operating conditions"
+      ]
+    },
+    "12": {
+      "name": "PA 106",
+      "description": "PA 106 offers high-strength polyimide fiber packing for demanding applications requiring exceptional mechanical properties. Engineered to withstand aggressive environments and highly abrasive media.",
+      "features": [
+        "Exceptional mechanical strength and durability in harsh conditions",
+        "Superior temperature resistance up to 300°C for high-temperature services",
+        "Excellent chemical resistance across the full pH spectrum",
+        "Outstanding dimensional stability under load and pressure",
+        "Ideal sealing solution for highly abrasive media applications"
+      ]
+    },
+    "13": {
+      "name": "OR 125",
+      "description": "OR 125 is a general-purpose organic fiber packing specifically engineered for clean water applications. Non-toxic and non-contaminating, making it ideal for potable water and food processing industries.",
+      "features": [
+        "Non-toxic and non-contaminating for safe water contact applications",
+        "Maintains consistent performance across a wide temperature range",
+        "Minimal shaft wear extends equipment life and reduces maintenance",
+        "Easy to clean and sanitize for hygienic applications"
+      ]
+    },
+    "14": {
+      "name": "OR 125G",
+      "description": "OR 125G combines organic fibers with graphite particles for enhanced thermal performance and lubrication. Offers improved temperature resistance over standard organic packings for moderate service conditions.",
+      "features": [
+        "Enhanced thermal conductivity from graphite integration",
+        "Improved temperature resistance over standard organic packings",
+        "Good lubrication and wear characteristics reduce friction",
+        "Economical solution for moderate service conditions",
+        "Reduced friction and heat generation extend equipment life"
+      ]
+    },
+    "15": {
+      "name": "CG 101",
+      "description": "CG 101 is a premium carbon fiber packing engineered for high-temperature service with exceptional thermal stability. Provides reliable sealing in the most demanding thermal environments.",
+      "features": [
+        "Impregnated with graphite-based dispersion to minimize voids and improve density",
+        "Acts as an effective blocking agent to reduce stem friction",
+        "Forms a tight barrier when compressed to prevent fluid leakage",
+        "Withstands high-pressure conditions effectively in demanding applications",
+        "Wide chemical resistance including acids, alkalis, and solvents",
+        "Excellent heat dissipation ensures cooler shaft operation",
+        "Strong yet pliable construction without brittleness",
+        "Fire-safe design suitable for flammable media applications",
+        "Low oxidation rate ensures extended service life"
+      ]
+    },
+    "16": {
+      "name": "PE 102",
+      "description": "PE 102 delivers exceptional mechanical strength and chemical resistance for the most demanding industrial applications. Engineered to withstand severe operating conditions and aggressive media.",
+      "features": [
+        "Excellent chemical resistance across a wide range of industrial media",
+        "Outstanding mechanical strength and toughness in severe conditions",
+        "Excellent resistance to thermal cycling and temperature variations",
+        "Moderate abrasion resistance for general industrial applications",
+        "Extended service life in severe operating conditions"
+      ]
+    },
+    "17": {
+      "name": "CG 101E",
+      "description": "CG 101E provides cost-effective carbon fiber sealing solutions for moderate temperature applications. Delivers reliable performance at an economical price point for budget-conscious operations.",
+      "features": [
+        "Economical carbon fiber packing for budget-conscious applications",
+        "Impregnated with graphite-based dispersion to minimize voids",
+        "Acts as a blocking agent to reduce stem friction effectively",
+        "Forms a tight barrier when compressed to prevent leakage",
+        "Wide chemical resistance including acids, alkalis, and solvents",
+        "Excellent heat dissipation for cooler shaft operation",
+        "Good thermal conductivity and self-lubrication properties",
+        "Easy installation and forming simplifies commissioning",
+        "Suitable for moderate temperature service applications"
+      ]
+    },
+    "18": {
+      "name": "CG 100",
+      "description": "CG 100 is designed for general-purpose graphite sealing in standard industrial environments. Offers balanced performance and cost for routine sealing applications across various industries.",
+      "features": [
+        "Balanced performance and cost for standard industrial applications",
+        "Good thermal stability and chemical inertness",
+        "Self-lubricating properties reduce friction and wear",
+        "Minimal shaft wear characteristics extend equipment life",
+        "Wide temperature operating range for versatile applications"
+      ]
+    },
+    "19": {
+      "name": "CG 102",
+      "description": "CG 102 offers superior thermal conductivity and sealing performance in valve applications for critical services. Features Inconel reinforcement for enhanced mechanical strength and reliability.",
+      "features": [
+        "Premium performance for the most demanding valve applications",
+        "Inconel reinforcement enhances mechanical strength and pressure resistance",
+        "Exceptional thermal shock resistance in temperature cycling",
+        "Outstanding dimensional stability at elevated temperatures"
+      ]
+    },
+    "20": {
+      "name": "IN 123",
+      "description": "IN 123 provides reliable ceramic fiber thermal insulation for high-temperature applications. Features e-glass fiber reinforcement for enhanced mechanical properties and thermal protection up to 1260°C.",
+      "features": [
+        "Exceptional high-temperature resistance up to 1260°C",
+        "Superior thermal and electrical insulation properties",
+        "Specifically engineered for static sealing applications",
+        "Non-toxic and non-hazardous composition ensures safe handling",
+        "Non-combustible and electrically non-conductive for enhanced safety",
+        "Maintains mechanical integrity under prolonged high-temperature exposure",
+        "Low ignition loss ensures long-term insulation performance"
+      ]
+    },
+    "21": {
+      "name": "IN 123I",
+      "description": "IN 123I provides reliable ceramic fiber thermal insulation with Inconel wire reinforcement for enhanced mechanical strength. Engineered for high-temperature applications requiring superior durability and mechanical properties.",
+      "features": [
+        "Inconel wire reinforcement provides superior strength and durability",
+        "Exceptional high-temperature resistance up to 1260°C",
+        "Enhanced mechanical properties for demanding applications",
+        "Non-toxic and non-hazardous for safe handling and installation",
+        "Non-combustible and electrically non-conductive properties",
+        "Low ignition loss ensures extended service life",
+        "Suitable for applications requiring higher mechanical strength"
+      ]
+    },
+    "22": {
+      "name": "OR 120",
+      "description": "OR 120 is a vegetable fiber packing that provides reliable sealing for general industrial applications. An economical solution for low-pressure water services and standard operating conditions.",
+      "features": [
+        "Economical sealing solution for low-pressure applications",
+        "Good water absorption and sealing properties",
+        "Easy installation and excellent conformability to stuffing boxes",
+        "Minimal shaft wear in water service applications",
+        "Cost-effective solution for standard operating conditions"
+      ]
+    },
+    "23": {
+      "name": "HY 120AR",
+      "description": "HY 120AR is an aramid-reinforced vegetable fiber packing offering superior mechanical strength and abrasion resistance. Engineered for demanding services requiring enhanced durability and load-bearing capacity.",
+      "features": [
+        "Exceptional mechanical strength from aramid fiber reinforcement",
+        "Superior abrasion and wear resistance in demanding applications",
+        "Good thermal and chemical stability across various services",
+        "Enhanced load-bearing capacity for high-pressure applications",
+        "Excellent dimensional stability under pressure and load"
+      ]
+    },
+    "24": {
+      "name": "IN 140",
+      "description": "IN 140 offers high-temperature glass fiber insulation designed for thermal resistance applications. Provides exceptional fire retardancy and thermal protection up to 550°C for industrial equipment.",
+      "features": [
+        "High-temperature resistance up to 550°C for demanding applications",
+        "Exceptional fire retardant properties with spark resistance",
+        "Low thermal mass enables rapid heating and cooling cycles",
+        "Chemical stability in most industrial environments",
+        "Lightweight and flexible for easy installation"
+      ]
+    },
+    "25": {
+      "name": "CG 900",
+      "description": "CG 900 delivers exceptional performance in extreme operating conditions utilizing advanced flexible graphite technology. Engineered for high-temperature, high-pressure applications requiring the ultimate in sealing reliability.",
+      "features": [
+        "Premium-grade construction for the most severe service conditions",
+        "Exceptional pressure surge resistance maintains sealing integrity",
+        "Extreme oxidation resistance even at elevated temperatures",
+        "Cryogenic to extreme high-temperature operating capability",
+        "Exceptional chemical inertness and thermal shock resistance"
+      ]
+    },
+    "26": {
+      "name": "HY 501",
+      "description": "HY 501 is optimized for centrifugal and rotary pump sealing with superior performance characteristics. Features highly engineered carbon graphite construction for demanding pump applications.",
+      "features": [
+        "Highly engineered carbon graphite sealing for pump applications",
+        "Excellent resilience and recovery properties maintain effectiveness",
+        "Superior wear resistance in abrasive service conditions",
+        "Easy installation with minimal break-in period required"
+      ]
+    },
+    "27": {
+      "name": "CG 503",
+      "description": "CG 503 provides clean, low-friction carbon graphite sealing specifically engineered for control valve applications. High-purity grade ensures minimal contamination in sensitive processes.",
+      "features": [
+        "High-purity grade designed for clean service applications",
+        "Minimal contamination and product degradation",
+        "Ultra-low friction and excellent oxidation resistance",
+        "Excellent thermal conductivity for heat dissipation"
+      ]
+    },
+    "28": {
+      "name": "PE 104",
+      "description": "PE 104 is suitable for pumps, valves, and rotating equipment, offering a versatile PTFE sealing solution. Provides universal application capability across diverse industrial equipment and services.",
+      "features": [
+        "Universal application across pumps, valves, and rotating equipment",
+        "Outstanding chemical resistance across the full pH spectrum",
+        "Low friction extends equipment life and reduces maintenance",
+        "Easy installation and adjustment simplifies commissioning"
+      ]
+    },
+    "29": {
+      "name": "OR 151",
+      "description": "OR 151 provides basic sealing for general applications with cost-effective organic fiber construction. Features graphite-based lubrication for improved performance in low-pressure water services.",
+      "features": [
+        "Most economical packing solution for budget-conscious applications",
+        "Suitable for low-pressure water services and general applications",
+        "Easy installation and replacement reduces downtime",
+        "Good conformability to stuffing boxes ensures reliable sealing"
+      ]
+    },
+    "30": {
+      "name": "OR 156",
+      "description": "OR 156 offers improved performance over standard organic packings through enhanced fiber treatment with special lubricants. Provides better value for mid-range applications requiring enhanced capabilities.",
+      "features": [
+        "Enhanced performance over standard organic fiber packings",
+        "Improved temperature and pressure handling capability",
+        "Better chemical compatibility range for diverse applications",
+        "Good value proposition for mid-range applications",
+        "Longer service life than economy-grade packings"
+      ]
+    },
+    "31": {
+      "name": "HY 606",
+      "description": "HY 606 is engineered for severe service conditions with enhanced mechanical strength and exceptional durability. Features heavy-duty construction with flexible Inmalon core for superior load-bearing capacity.",
+      "features": [
+        "Heavy-duty construction specifically for severe industrial applications",
+        "Exceptional abrasion and wear resistance in harsh environments",
+        "Superior load-bearing capacity with flexible Inmalon core reinforcement",
+        "Extended service life in the most demanding operating conditions"
+      ]
+    },
+    "32": {
+      "name": "CG 501C",
+      "description": "CG 501C is a premium carbon graphite packing optimized for centrifugal and rotary pump sealing applications. Engineered to deliver superior performance with minimal product contamination for sensitive processes.",
+      "features": [
+        "High-performance premium-grade carbon graphite for pump sealing",
+        "Excellent resilience and recovery properties maintain sealing effectiveness",
+        "Superior wear resistance in abrasive service environments",
+        "Easy installation with minimal break-in period required",
+        "Minimal product contamination characteristics for clean services",
+        "Clean service suitable for sensitive industrial processes",
+        "Good thermal conductivity and lubrication properties",
+        "Universal chemical resistance across diverse media",
+        "Low particulate generation for clean applications"
+      ]
+    },
+    "33": {
+      "name": "HY 801",
+      "description": "HY 801 is a premium carbon graphite packing optimized for centrifugal and rotary pump sealing in the most demanding applications. Specifically engineered for challenging conditions including congealing media services.",
+      "features": [
+        "Specifically engineered for challenging applications such as congealing media",
+        "Excellent resilience under thermal cycling conditions",
+        "Superior wear resistance in abrasive service environments",
+        "Easy installation with minimal break-in period required",
+        "Minimal product contamination for sensitive processes",
+        "Clean service suitable for critical industrial applications",
+        "Good thermal conductivity and lubrication properties",
+        "Universal chemical resistance across diverse industrial media",
+        "Low particulate generation maintains process purity"
+      ]
+    },
+    "34": {
+      "name": "PA 499",
+      "description": "PA 499 offers exceptional mechanical properties and chemical resistance for the most demanding applications. Engineered with advanced polyimide technology for extreme conditions where both abrasion resistance and chemical compatibility are critical.",
+      "features": [
+        "Advanced polyimide technology engineered for extreme operating conditions",
+        "Outstanding mechanical strength and toughness in harsh environments",
+        "Excellent abrasion resistance while remaining soft to prevent shaft wear",
+        "Exceptional resistance to thermal degradation at elevated temperatures",
+        "Superior dimensional stability under load and pressure"
+      ]
+    },
+    "35": {
+      "name": "HY 510",
+      "description": "HY 510 is a specially engineered packing for stern tube applications in the marine sector. Features balanced hybrid construction designed to handle the unique challenges of marine propulsion shaft sealing.",
+      "features": [
+        "Excellent resiliency counters shaft eccentricity common in stern tube applications",
+        "Superior abrasion resistance for demanding seawater environments",
+        "Wide chemical resistance ensures low maintenance in marine conditions",
+        "Easy installation and commissioning for marine applications"
+      ]
+    },
+    "36": {
+      "name": "PE 104C",
+      "description": "PE 104C is designed for applications requiring ultra-low friction properties combined with high mechanical strength. Ideal for control valve applications where precise operation and minimal stem friction are essential.",
+      "features": [
+        "Clean service design minimizes product contamination",
+        "Tough carbon fiber reinforcement provides exceptional endurance",
+        "Fluoropolymer jacketing delivers ultra-low friction characteristics",
+        "Excellent chemical resistance across diverse media"
+      ]
+    },
+    "37": {
+      "name": "PA 106G",
+      "description": "PA 106G combines polyimide mechanical strength with graphite lubrication for enhanced thermal performance. Engineered to deliver superior heat dissipation and extended service life in high-temperature applications.",
+      "features": [
+        "Combines polyimide strength with graphite lubrication technology",
+        "Enhanced thermal conductivity improves heat dissipation",
+        "Superior wear resistance and low friction characteristics",
+        "Excellent chemical and thermal stability in aggressive environments",
+        "Extended service life in high-temperature applications"
+      ]
+    },
+    "38": {
+      "name": "PA 106E",
+      "description": "PA 106E is a cost-effective polyimide packing offering exceptional abrasion resistance for demanding applications. Provides reliable sealing with minimal shaft wear at an economical price point.",
+      "features": [
+        "Exceptional mechanical strength and durability with minimal shaft wear",
+        "Outstanding mechanical strength maintained at elevated temperatures",
+        "Excellent chemical resistance across the full pH spectrum",
+        "Outstanding dimensional stability under load and pressure",
+        "Low coefficient of friction extends equipment service life"
+      ]
+    },
+    "39": {
+      "name": "PA 104A",
+      "description": "PA 104A is designed for applications requiring ultra-low friction properties combined with high mechanical strength. Ideal for control valve applications demanding precise operation and exceptional durability.",
+      "features": [
+        "Clean service design for minimal product contamination",
+        "Advanced construction engineered for extreme operating conditions",
+        "Tough aramid fiber reinforcement provides exceptional endurance",
+        "Fluoropolymer jacketing delivers ultra-low friction characteristics",
+        "Exceptional resistance to thermal cycling and temperature variations",
+        "Superior mechanical properties under load and pressure",
+        "Outstanding dimensional stability in demanding services"
+      ]
+    },
+    "40": {
+      "name": "PE 504P",
+      "description": "PE 504P is a premium-grade fluoropolymer packing engineered for high-speed centrifugal pumps with very low leakage requirements. Offers reliable sealing with excellent chemical resistance across a wide temperature range.",
+      "features": [
+        "Universal chemical resistance across the full pH spectrum",
+        "Low coefficient of friction extends service life",
+        "Self-lubricating design reduces maintenance requirements",
+        "Ideal for high-speed rotary applications with stringent tightness requirements",
+        "Extended temperature range provides versatile application capability",
+        "Excellent wear resistance and long-term durability",
+        "Reduced break-in time simplifies installation",
+        "Ultra-low friction characteristics extend packing life",
+        "Excellent resilience and recovery properties"
+      ]
+    },
+    "41": {
+      "name": "ULTRA LE 1002",
+      "description": "ULTRA LE 1002 is an API-certified graphite-based low-emission packing engineered for extreme conditions. Delivers exceptional temperature and pressure capabilities with certified fugitive emission control performance.",
+      "features": [
+        "API 622 certified for fugitive emission control compliance",
+        "API 607 fire-safe performance certification",
+        "Low friction characteristics minimize shaft wear",
+        "Available in both continuous length and preformed ring configurations"
+      ]
+    },
+    "42": {
+      "name": "ULTRA FE 1003",
+      "description": "ULTRA FE 1003 is a high-performance, ultra-low emission packing set engineered with exceptionally low friction and superior oxidation resistance. Designed to meet and exceed evolving industry environmental standards and future regulatory requirements.",
+      "features": [
+        "API 622 certified with ultra-low emission performance below 20 ppm",
+        "API 607 compliant with zero leakage during and after fire exposure",
+        "Minimizes equipment maintenance while delivering exceptional performance",
+        "Ultra-low oxidation ensures superior resistance to thermal cycling",
+        "Extremely low friction and minimal sealing stress requirements",
+        "Extended equipment service life reduces operational costs",
+        "Several value additions enhance overall valve performance"
+      ]
+    },
+    "43": {
+      "name": "ULTRA LT 1004",
+      "description": "ULTRA LT 1004 delivers exceptional sealing integrity with ultra-low emissions in cryogenic and low-temperature applications. Ideal for demanding LNG control valve service, engineered to maintain reliable performance in extreme cold while minimizing emissions.",
+      "features": [
+        "Designed for high endurance up to 100,000 cycles with highest tightness class",
+        "Very low friction ensures extended equipment life and minimal maintenance",
+        "Maintains flexibility at extreme low temperatures",
+        "Excellent thermal shock resistance in cryogenic services",
+        "Suitable for LNG and cryogenic control valve applications"
+      ]
+    },
+    "44": {
+      "name": "ULTRA NE 1005",
+      "description": "ULTRA NE 1005 is an ultra-low emission braided packing available in both continuous rope and preformed ring configurations. Engineered to meet stringent emission standards with exceptional operational compliance and reliability.",
+      "features": [
+        "High-purity graphite with exclusive impregnation technology and thermal stability",
+        "Low detrimental material content provides virtually zero loss at elevated temperatures",
+        "Proprietary impregnation technology ensures friction-free performance even at high endurance",
+        "Flexible ring configuration suitable for shallow stuffing box applications",
+        "Supports evolving environmental compliance and ambitious Net Zero emission targets",
+        "Ideal choice for several control valve brands for emission compliance"
+      ]
+    },
+    "45": {
+      "name": "HY 105 HD",
+      "description": "HY 105 HD is engineered for extreme service conditions with enhanced durability specifically for the fertilizer industry. Features heavy-duty construction preformed under load for optimal reciprocating motion performance.",
+      "features": [
+        "Heavy-duty construction for severe industrial applications",
+        "Preformed under heavy load making it ideal for reciprocating motion",
+        "Enhanced abrasion and wear resistance in aggressive environments",
+        "Superior load-bearing capability in demanding services",
+        "Extended service life in harsh fertilizer industry conditions"
+      ]
+    },
+    "46": {
+      "name": "HY 107 HD",
+      "description": "HY 107 HD is engineered for extreme service conditions with enhanced durability specifically for the fertilizer industry. Specially developed for critical applications including ammonia and carbamate pump services.",
+      "features": [
+        "Specially developed for critical applications like ammonia and carbamate pumps",
+        "Heavy-duty construction for severe fertilizer industry service",
+        "Preformed under heavy load making it ideal for reciprocating motion",
+        "Enhanced abrasion and wear resistance in aggressive chemical environments",
+        "Superior load-bearing capability under demanding operating conditions",
+        "Extended service life in harsh fertilizer production environments"
+      ]
+    },
+    "47": {
+      "name": "OR 125SR",
+      "description": "OR 125SR is a general-purpose organic fiber packing with a resilient elastomeric core to enhance sealing performance. Designed to counter shaft eccentricity in older equipment while maintaining hygienic properties.",
+      "features": [
+        "Non-toxic and non-contaminating for safe applications",
+        "Elastomeric core enhances resiliency to counter shaft eccentricity in aging equipment",
+        "Maintains consistent performance across a wide temperature range",
+        "Minimal shaft wear extends equipment life",
+        "Easy to clean and sanitize for hygienic applications"
+      ]
+    },
+    "48": {
+      "name": "IN 126S",
+      "description": "IN 126S offers superior thermal insulation for demanding high-temperature applications with premium silica fiber construction. Engineered to deliver exceptional temperature stability and energy efficiency.",
+      "features": [
+        "Premium performance for the most demanding thermal applications",
+        "Ultra-low thermal conductivity maximizes energy efficiency",
+        "Exceptional temperature stability up to 1100°C",
+        "Superior chemical resistance in aggressive environments",
+        "Extended service life with minimal degradation over time"
+      ]
+    },
+    "49": {
+      "name": "GM 300 / GM 300Z",
+      "description": "GM 300Z is a precision-molded graphite ring engineered for static sealing applications with exceptional purity and performance. Features ultra-high purity graphite with built-in oxidation inhibitors for extended service life.",
+      "features": [
+        "Ultra-high purity graphite (≥99.85%) with exceptionally low halogen content",
+        "Built-in oxidation inhibitor extends service life significantly",
+        "Suitable for both rotary and rising-stem valve applications",
+        "Fire-safe design provides additional operational safety",
+        "Free from binders, elastomers, and fillers ensuring maximum purity",
+        "Exceptional thermal conductivity for effective heat management",
+        "Low coefficient of friction reduces operational wear"
+      ]
+    },
+    "50": {
+      "name": "GM 310 / GM 310C",
+      "description": "GM 310C is a graphite pressure seal ring with anti-extrusion metallic end caps on top and bottom. Engineered for high-pressure applications requiring exceptional structural integrity and sealing reliability.",
+      "features": [
+        "Available with different graphite purity levels depending on application requirements",
+        "Stainless steel or Inconel end caps provide exceptional extrusion resistance",
+        "Extremely low oxidation rate at elevated temperatures",
+        "Low detrimental material content prevents thermal decomposition",
+        "Available with wire mesh reinforcement for very high-pressure applications",
+        "Multiple construction types available for varied industrial needs"
+      ]
+    },
+    "51": {
+      "name": "INMATEX EPTFE SHEET/GASKET",
+      "description": "INMATEX ePTFE sheet provides superior chemical resistance and exceptional sealing performance with very low seating stress in flange joint management. Ideal for critical flanged connections requiring reliable, long-term sealing.",
+      "features": [
+        "Universal chemical resistance across the full pH spectrum (0-14)",
+        "Excellent conformability to irregular flange surfaces",
+        "Low creep relaxation ensures high bolt load retention capacity",
+        "Superior cold flow resistance maintains sealing integrity",
+        "Low-emission compliance for environmental requirements"
+      ]
+    },
+    "52": {
+      "name": "GM 360",
+      "description": "GM 360 is a premium laminated graphite ring gasket engineered for extreme temperature and pressure sealing applications. Features multiple layers of flexible graphite for superior conformability and sealing performance.",
+      "features": [
+        "Exceptional temperature resistance for high-heat applications",
+        "Multi-layer construction provides superior sealing capability",
+        "Excellent conformability to flange surfaces",
+        "Broad chemical resistance across diverse media",
+        "Outstanding thermal stability in demanding conditions"
+      ]
+    },
+    "53": {
+      "name": "INSULATION GASKET KIT 1800 FS",
+      "description": "Complete flange isolation gasket kit certified to API 6FB fire-safe standards for cathodic protection and electrical isolation. Engineered to provide reliable electrical isolation while maintaining sealing integrity in fire conditions.",
+      "features": [
+        "API 6FB fire-safe certified design for critical safety compliance",
+        "Complete cathodic protection isolation for corrosion prevention",
+        "ASTM B117 salt spray corrosion resistant construction",
+        "Methane and helium-nitrogen leak tested for integrity verification",
+        "Extended service life in harsh environmental conditions"
+      ]
+    },
+    "54": {
+      "name": "750SS WELDING BLANKET",
+      "description": "750SS provides reliable thermal protection for welding, grinding, and high-temperature insulation applications. Features heavy-duty construction with specially formulated treatments for exceptional thermal resistance.",
+      "features": [
+        "Heavy-duty insulation fabric with specially formulated acid treatment",
+        "Vermiculite coating enhances thermal protection properties",
+        "Continuous use rating at 2000°F (1100°C), short-term up to 2550°F (1400°C)",
+        "Electrically and thermally insulating, ideal for welding booth construction and heat protection",
+        "Qualified to UL-94 Class V0 flammability standard",
+        "Enhanced abrasion resistance and tensile strength",
+        "No flashing and no after-glow during fire testing"
+      ]
+    },
+    "55": {
+      "name": "Laminar Gasket",
+      "description": "High-performance metallic gasket engineered for extreme temperature and pressure applications with multi-layer construction. Provides exceptional resilience and sealing reliability in thermal cycling conditions.",
+      "features": [
+        "Multi-layer construction delivers superior sealing performance",
+        "Extreme temperature and pressure handling capability",
+        "Excellent resilience and recovery properties",
+        "Available in various metallurgies for diverse applications",
+        "Suitable for thermal cycling applications",
+        "High cycle life with leak-tight performance"
+      ]
+    },
+    "56": {
+      "name": "Kammprofile Gasket",
+      "description": "High-performance serrated metal gasket combining the resilience of soft materials with the mechanical strength of metal for demanding applications. Ideal for heat exchangers and high-stress sealing requirements.",
+      "features": [
+        "Serrated core provides excellent sealing capability",
+        "Low bolt load requirements reduce flange stress",
+        "Excellent performance in heat exchanger applications",
+        "High blowout resistance for safety and reliability",
+        "Reusable metal core reduces maintenance costs",
+        "Ideal for high-stress sealing applications"
+      ]
+    },
+    "57": {
+      "name": "Shim Joint",
+      "description": "Ultra-thin precision metal gaskets designed for applications requiring tight sealing with minimal compression. Provides precise thickness control and excellent dimensional stability.",
+      "features": [
+        "Precise thickness control for critical applications",
+        "Low compression set maintains sealing integrity",
+        "Excellent sealing performance on machined surfaces",
+        "Cost-effective gasket solution",
+        "Available in multiple materials and custom sizes"
+      ]
+    },
+    "58": {
+      "name": "Double Jacketed Gasket",
+      "description": "Robust double-jacketed metal gaskets combining the chemical resistance of metal with the conformability of soft filler material. Protects filler from chemical attack while providing excellent sealing.",
+      "features": [
+        "Superior chemical resistance from metal jacketing",
+        "High-temperature handling capability",
+        "Excellent conformability to flange surfaces",
+        "Protects filler material from chemical attack",
+        "Suitable for damaged or irregular flanges"
+      ]
+    },
+    "59": {
+      "name": "Ring Type Joint Gasket",
+      "description": "Solid metal ring gaskets engineered for extreme pressure applications in oil and gas industries. Features self-energizing design for reliable metal-to-metal sealing in critical wellhead applications.",
+      "features": [
+        "Extreme pressure capability for demanding services",
+        "Metal-to-metal sealing for reliable performance",
+        "Self-energizing design enhances sealing under pressure",
+        "Specifically suitable for wellhead applications"
+      ]
+    },
+    "60": {
+      "name": "Corrugated Gasket",
+      "description": "Flexible corrugated metal gaskets providing excellent resilience and adaptability to flange irregularities. Engineered to accommodate flange movement and thermal cycling while maintaining sealing integrity.",
+      "features": [
+        "High flexibility and resilience accommodate flange movement",
+        "Accommodates thermal expansion and flange misalignment",
+        "Low bolt load requirements reduce installation stress",
+        "Excellent recovery properties maintain sealing",
+        "Suitable for thermal cycling applications"
+      ]
+    },
+    "61": {
+      "name": "Soft Iron Ring",
+      "description": "Premium soft iron ring gaskets designed for extreme pressure and temperature applications with excellent conformability. Cost-effective solution specifically engineered for iron flange sealing.",
+      "features": [
+        "Excellent conformability to flange surfaces",
+        "High-pressure sealing capability",
+        "Cost-effective solution for iron flanges",
+        "Good machinability for custom applications",
+        "Reliable sealing performance in demanding services"
+      ]
+    },
+    "62": {
+      "name": "NA 432",
+      "description": "NA 432 is a premium compressed non-asbestos fiber (CNAF) gasket sheet designed for general industrial applications with excellent sealing properties. Features organic fiber construction bound with nitrile rubber for reliable performance.",
+      "features": [
+        "Suitable for general-purpose industrial applications with organic fibers",
+        "Bound with NBR (Nitrile Butadiene Rubber) for flexibility",
+        "Excellent resistance to oils, fuels, and water",
+        "Cost-effective sealing solution for medium service conditions",
+        "Good compressibility and recovery properties"
+      ]
+    },
+    "63": {
+      "name": "NA 420",
+      "description": "NA 420 is a high-quality compressed non-asbestos fiber gasket sheet for moderate temperature and pressure applications. Features mineral and aramid fiber construction for enhanced performance.",
+      "features": [
+        "High-quality CNAF sheet with mineral and aramid fiber blend",
+        "Suitable for oils, fuels, lubricants, alcohols, and gases",
+        "Good chemical resistance across various industrial media",
+        "Enhanced temperature performance up to 220°C",
+        "Suitable for medium-stress sealing conditions"
+      ]
+    },
+    "64": {
+      "name": "NA 450",
+      "description": "NA 450 is a premium CNAF gasket material engineered for high-temperature industrial applications. Features aramid fiber construction for superior tensile strength and thermal performance.",
+      "features": [
+        "High-quality CNAF sheet with aramid fiber reinforcement",
+        "Enhanced temperature capability up to 250°C",
+        "Superior tensile strength and recovery properties",
+        "Suitable for medium-stress industrial applications",
+        "Good performance with oils, fuels, and lubricants"
+      ]
+    },
+    "65": {
+      "name": "NA 452 GE",
+      "description": "NA 452 GE is designed for general equipment applications with enhanced sealing performance. Features aramid and glass fiber construction for superior high-temperature and high-stress capabilities.",
+      "features": [
+        "High-quality CNAF sheet with aramid and glass fiber blend",
+        "Excellent high-temperature performance up to 300°C",
+        "Superior mechanical properties for demanding applications",
+        "Suitable for high-stress sealing conditions",
+        "Good chemical resistance to acids and alkalis"
+      ]
+    },
+    "66": {
+      "name": "NA 430",
+      "description": "NA 430 is a standard CNAF gasket material for general industrial sealing applications. Features stainless steel wire mesh reinforcement for enhanced mechanical strength and dimensional stability.",
+      "features": [
+        "Premium metallic grade with SS wire mesh reinforcement",
+        "High-tenacity aramid fiber with organic fiber blend",
+        "Calendered for superior surface finish",
+        "Excellent performance with oils, fuels, lubricants, and alcohols",
+        "Suitable for medium-stress sealing conditions"
+      ]
+    },
+    "67": {
+      "name": "NA 442",
+      "description": "NA 442 is a high-quality CNAF material engineered for demanding industrial sealing applications. Features carbon fiber enhancement for superior performance characteristics.",
+      "features": [
+        "High-performance construction for demanding applications",
+        "Excellent recovery properties maintain sealing",
+        "Broad chemical resistance across diverse media",
+        "Low creep characteristics for long-term reliability",
+        "Durable construction for extended service life",
+        "Carbon fibers enhance overall performance of sheet material"
+      ]
+    },
+    "68": {
+      "name": "SST 323",
+      "description": "SST 323 is a stainless steel reinforced compressed graphite sheet engineered for enhanced performance and durability. Combines the benefits of flexible graphite with stainless steel reinforcement.",
+      "features": [
+        "Stainless steel reinforcement for superior strength",
+        "Enhanced durability in demanding applications",
+        "Excellent corrosion resistance properties",
+        "High mechanical strength and dimensional stability",
+        "Extended service life in harsh environments"
+      ]
+    },
+    "69": {
+      "name": "600 Sintered PTFE Sheet",
+      "description": "600-grade sintered PTFE sheet gasket offering exceptional chemical resistance and sealing performance for aggressive media. Provides universal chemical compatibility with high-purity construction.",
+      "features": [
+        "Universal chemical resistance across all pH levels",
+        "High-purity construction for sensitive applications",
+        "Low coefficient of friction reduces wear",
+        "Non-contaminating for clean processes"
+      ]
+    },
+    "70": {
+      "name": "Aramid Based Wiping Pad",
+      "description": "Specially designed aramid-based wiping pad for the wire drawing industry, providing exceptional strength and durability for high-speed continuous operations. Engineered to withstand extreme mechanical stress.",
+      "features": [
+        "Dense construction ensures extended service life",
+        "Low wear rate under continuous high-stress operations",
+        "PTFE impregnation ensures consistent wire galvanization",
+        "High melting point provides thermal stability",
+        "Engineered to withstand continuous friction and mechanical wear",
+        "Superior abrasion resistance compared to conventional wiping pads"
+      ]
+    },
+    "71": {
+      "name": "High Temperature Wiping Pad",
+      "description": "Specially designed high-temperature wiping pad for the wire drawing industry, providing exceptional thermal stability and durability for high-speed operations. Engineered for elevated temperature wire processing applications.",
+      "features": [
+        "Dense construction ensures extended service life",
+        "Low wear rate under continuous high-stress operations",
+        "PTFE impregnation ensures consistent wire galvanization",
+        "High melting point provides exceptional thermal stability",
+        "Engineered to withstand continuous friction and mechanical wear",
+        "Superior abrasion resistance compared to conventional wiping pads"
+      ]
+    }
+  }
+}
