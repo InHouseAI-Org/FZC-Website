@@ -8,7 +8,7 @@ import { useState, useEffect, useRef } from 'react';
 
 export function Hero() {
   const [mousePosition, setMousePosition] = useState({ x: -9999, y: -9999 });
-  const [heroImage, setHeroImage] = useState('Hero.webp');
+  const [heroImage, setHeroImage] = useState('Hero.png');
   const containerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -35,13 +35,13 @@ export function Hero() {
       const width = window.innerWidth;
       if (width < 768) {
         // Mobile
-        setHeroImage('Hero_mob.webp');
+        setHeroImage('Hero_mob.png');
       } else if (width < 1024) {
         // Tablet
-        setHeroImage('Hero_tab.webp');
+        setHeroImage('Hero_tab.png');
       } else {
         // Desktop
-        setHeroImage('Hero.webp');
+        setHeroImage('Hero.png');
       }
     };
 
@@ -57,12 +57,12 @@ export function Hero() {
         {/* Bottom Image (base layer) - Image #1 */}
         <div className="absolute inset-0 pointer-events-none">
           <ImageWithFallback
-            // src="Gemini_Generated_Image_5h4dsy5h4dsy5h4d.webp"
-            // src="Screenshot 2026-02-18 at 1.33.53 PM.webp"
-            // src="ChatGPT Image Feb 18, 2026 at 01_54_04 PM.webp"
-            // src="ChatGPT Image Feb 18, 2026 at 01_58_58 PM.webp"
-            // src = "public/ChatGPT Image Feb 20, 2026 at 11_36_13 AM.webp"
-            // src="public/ChatGPT Image Feb 20, 2026 at 03_28_49 PM.webp"
+            // src="Gemini_Generated_Image_5h4dsy5h4dsy5h4d.png"
+            // src="Screenshot 2026-02-18 at 1.33.53 PM.png"
+            // src="ChatGPT Image Feb 18, 2026 at 01_54_04 PM.png"
+            // src="ChatGPT Image Feb 18, 2026 at 01_58_58 PM.png"
+            // src = "public/ChatGPT Image Feb 20, 2026 at 11_36_13 AM.png"
+            // src="public/ChatGPT Image Feb 20, 2026 at 03_28_49 PM.png"
             src={heroImage}
             alt="Industrial valve and machinery"
             className="w-full h-full object-cover"
@@ -83,7 +83,7 @@ export function Hero() {
           }}
         >
           <ImageWithFallback
-            src="Gemini_Generated_Image_5h4dsy5h4dsy5h4d.webp"
+            src="Gemini_Generated_Image_5h4dsy5h4dsy5h4d.png"
             alt="Industrial machinery revealed"
             className="w-full h-full object-cover"
             style={{width: '200%'}}

@@ -88,18 +88,18 @@ export default function IndustryDetail() {
 
   // Map industry slugs to their product images
   const industryImages: Record<string, string> = {
-    'oil-gas': 'public/industries/Oil .webp',
-    'power-generation': 'public/industries/Power Gen.webp',
-    'chemical': 'public/industries/Chemical.webp',
-    'water-wastewater-treatment': 'public/industries/Water & Wastewater Treatment.webp',
-    'marine': 'public/industries/Marine.webp',
-    'cement': 'public/industries/Cement.webp',
-    'fertilizers': 'public/industries/Fertlisers.webp',
-    'metallurgy': 'public/industries/Metal.webp',
-    'pulp-paper': 'public/industries/Pulp.webp',
-    'food-pharmaceutical': 'public/industries/Food & Pharma.webp',
-    'sugar': 'public/industries/Sugar.webp',
-    'oem': 'public/industries/OEM.webp',
+    'oil-gas': 'public/industries/Oil .png',
+    'power-generation': 'public/industries/Power Gen.png',
+    'chemical': 'public/industries/Chemical.png',
+    'water-wastewater-treatment': 'public/industries/Water & Wastewater Treatment.png',
+    'marine': 'public/industries/Marine.png',
+    'cement': 'public/industries/Cement.png',
+    'fertilizers': 'public/industries/Fertlisers.png',
+    'metallurgy': 'public/industries/Metal.png',
+    'pulp-paper': 'public/industries/Pulp.png',
+    'food-pharmaceutical': 'public/industries/Food & Pharma.png',
+    'sugar': 'public/industries/Sugar.png',
+    'oem': 'public/industries/OEM.png',
   };
 
   const scrollToCTA = () => {

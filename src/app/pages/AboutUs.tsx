@@ -3,7 +3,7 @@
 import { motion } from 'motion/react';
 import { ImageWithFallback } from '@/app/components/figma/ImageWithFallback';
 import { CheckCircle2, Target, Eye, Lightbulb, Users, Recycle, TrendingUp, Shield, Award } from 'lucide-react';
-import inmarcoLogo from '@/assets/inmarco-tagline-logo1.webp';
+import inmarcoLogo from '@/assets/inmarco-tagline-logo1.png';
 
 export default function AboutUs() {
   const coreValues = [

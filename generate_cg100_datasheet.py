@@ -61,7 +61,7 @@ class DatasheetCanvas(canvas.Canvas):
         self.rect(0, PAGE_HEIGHT - header_height - 3, PAGE_WIDTH, 3, fill=True, stroke=False)
 
         # Logo - left aligned with proper padding
-        logo_path = 'src/assets/inmarco-tagline-logo.webp'
+        logo_path = 'src/assets/inmarco-tagline-logo.png'
         if os.path.exists(logo_path):
             try:
                 self.drawImage(
