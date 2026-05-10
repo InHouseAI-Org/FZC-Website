@@ -1,5 +1,7 @@
+'use client';
+
 import { motion } from 'motion/react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { Award, Target, Users, Zap } from 'lucide-react';
 
 export function WhyInmarco() {
@@ -259,7 +261,7 @@ export function WhyInmarco() {
               </motion.p>
             </div>
 
-            <Link to="/contact">
+            <Link href="/contact">
               <motion.button
                 initial={{ opacity: 0, x: 20 }}
                 whileInView={{ opacity: 1, x: 0 }}

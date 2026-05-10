@@ -1,5 +1,8 @@
+'use client';
+
 import { motion } from 'motion/react';
-import { Link, useParams } from 'react-router-dom';
+import Link from 'next/link';
+import { useParams } from 'next/navigation';
 import { ArrowLeft, CheckCircle2, FileText, Download } from 'lucide-react';
 import { ImageWithFallback } from '@/app/components/figma/ImageWithFallback';
 import { ProductImageGallery } from '@/app/components/ProductImageGallery';
@@ -32,7 +35,7 @@ export default function ProductDetail() {
       <main className="bg-[#2b2a29] min-h-screen flex items-center justify-center">
         <div className="text-center">
           <h1 className="text-white text-4xl mb-4">Product Not Found</h1>
-          <Link to="/products" className="text-[#e31e24] hover:underline">
+          <Link href="/products" className="text-[#e31e24] hover:underline">
             Back to Products
           </Link>
         </div>
@@ -51,7 +54,7 @@ export default function ProductDetail() {
             transition={{ duration: 0.8 }}
           >
             <Link
-              to={subcategory ? `/products/${categorySlug}/${subcategorySlug}` : `/products/${categorySlug}`}
+              href={subcategory ? `/products/${categorySlug}/${subcategorySlug}` : `/products/${categorySlug}`}
               className="inline-flex items-center space-x-2 text-gray-400 hover:text-[#e31e24] transition-colors mt-12 mb-8"
             >
               <ArrowLeft className="w-5 h-5" />
@@ -59,18 +62,18 @@ export default function ProductDetail() {
             </Link>
 
             <div className="flex items-center space-x-3 text-sm text-gray-400 mb-6">
-              <Link to="/products" className="hover:text-[#e31e24] transition-colors">
+              <Link href="/products" className="hover:text-[#e31e24] transition-colors">
                 Products
               </Link>
               <span>/</span>
-              <Link to={`/products/${categorySlug}`} className="hover:text-[#e31e24] transition-colors">
+              <Link href={`/products/${categorySlug}`} className="hover:text-[#e31e24] transition-colors">
                 {category.name}
               </Link>
               {subcategory && (
                 <>
                   <span>/</span>
                   <Link
-                    to={`/products/${categorySlug}/${subcategorySlug}`}
+                    href={`/products/${categorySlug}/${subcategorySlug}`}
                     className="hover:text-[#e31e24] transition-colors"
                   >
                     {subcategory.name}
@@ -141,7 +144,7 @@ export default function ProductDetail() {
               {/* Action Buttons */}
               <div className="flex flex-wrap gap-4">
                 <Link
-                  to="/contact"
+                  href="/contact"
                   className="inline-flex items-center px-6 py-3 bg-[#e31e24] text-white rounded-lg hover:bg-[#c41a20] transition-colors duration-300 font-medium"
                 >
                   Request Quote
@@ -312,7 +315,7 @@ export default function ProductDetail() {
               </p>
               <div className="flex flex-wrap justify-center gap-4">
                 <Link
-                  to="/contact"
+                  href="/contact"
                   className="inline-flex items-center px-8 py-4 bg-[#e31e24] text-white rounded-lg hover:bg-[#c41a20] transition-colors duration-300 text-sm uppercase tracking-wide font-semibold"
                 >
                   Request Quote

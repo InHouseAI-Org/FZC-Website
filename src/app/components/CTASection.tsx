@@ -1,5 +1,7 @@
+'use client';
+
 import { motion } from 'motion/react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { ChevronRight, Mail, Phone, Play } from 'lucide-react';
 
 export function CTASection() {
@@ -73,7 +75,7 @@ export function CTASection() {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="mb-12 flex justify-center"
           >
-            <Link to="/contact" className="group px-8 py-4 bg-[#e31e24] text-white tracking-wide hover:bg-[#c41a20] transition-all duration-300 flex items-center space-x-2">
+            <Link href="/contact" className="group px-8 py-4 bg-[#e31e24] text-white tracking-wide hover:bg-[#c41a20] transition-all duration-300 flex items-center space-x-2">
               <span>Talk to an Engineer</span>
               <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Link>

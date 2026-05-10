@@ -1,8 +1,9 @@
+'use client';
+
 import { motion } from 'motion/react';
 import { Play, BookOpen, Video, Users } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import fluidSealingContent from '@/data/fluidSealingContent.json';
-import { ImageWithFallback } from '@/app/components/figma/ImageWithFallback';
 
 interface Post {
   id: number;
@@ -28,6 +29,12 @@ export function BrandSignature() {
   const formatDate = (dateString: string) => {
     const date = new Date(dateString);
     return date.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+  };
+
+  // Truncate description to approximately 2 lines (about 100 characters)
+  const truncateDescription = (text: string, maxLength: number = 100) => {
+    if (text.length <= maxLength) return text;
+    return text.substring(0, maxLength).trim() + '...';
   };
 
   return (
@@ -107,7 +114,7 @@ export function BrandSignature() {
         {/* Video Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
           {videoSeries.map((video, index) => (
-            <Link key={video.id} to={`/fluid-sealing-simplified/${video.id}`} className="h-full">
+            <Link key={video.id} href={`/fluid-sealing-simplified/${video.id}`} className="h-full">
               <motion.div
                 initial={{ opacity: 0, y: 40 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -142,9 +149,9 @@ export function BrandSignature() {
                       </div>
                     </>
                   ) : (
-                    /* YouTube Thumbnail Fallback */
+                    /* YouTube Thumbnail */
                     <>
-                      <ImageWithFallback
+                      <img
                         src={getYouTubeThumbnail(video.youtubeLink)}
                         alt={video.title}
                         className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
@@ -171,7 +178,7 @@ export function BrandSignature() {
                     </h3>
                   </div>
                   <p className="text-gray-400 text-sm leading-relaxed mb-4 flex-1">
-                    {video.description}
+                    {truncateDescription(video.description)}
                   </p>
 
                   {/* Date and Watch More Button */}
@@ -263,7 +270,7 @@ export function BrandSignature() {
                 >
                   Access our complete library of educational videos and become an expert
                 </motion.p>
-                <Link to="/fluid-sealing-simplified">
+                <Link href="/fluid-sealing-simplified">
                   <motion.button
                     initial={{ opacity: 0, x: 20 }}
                     whileInView={{ opacity: 1, x: 0 }}

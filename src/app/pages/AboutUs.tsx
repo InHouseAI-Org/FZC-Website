@@ -1,3 +1,5 @@
+'use client';
+
 import { motion } from 'motion/react';
 import { ImageWithFallback } from '@/app/components/figma/ImageWithFallback';
 import { CheckCircle2, Target, Eye, Lightbulb, Users, Recycle, TrendingUp, Shield, Award } from 'lucide-react';
@@ -208,7 +210,7 @@ export default function AboutUs() {
                       }}
                     >
                       <img
-                        src={inmarcoLogo}
+                        src={inmarcoLogo.src || inmarcoLogo}
                         alt="Inmarco FZC"
                         className="h-80 md:h-80 w-auto object-contain"
                       />

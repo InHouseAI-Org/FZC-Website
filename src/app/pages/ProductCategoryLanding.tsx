@@ -1,5 +1,10 @@
+'use client';
+
 import { motion } from 'motion/react';
-import { Link, useParams, useNavigate } from 'react-router-dom';
+import Link from 'next/link';
+import { useRouter } from 'next/navigation';
+import { useParams } from 'next/navigation';
+import { useState, useEffect } from 'react';
 import { ImageWithFallback } from '@/app/components/figma/ImageWithFallback';
 import { ArrowLeft, ChevronRight } from 'lucide-react';
 import productsData from '@/data/productsData.json';
@@ -12,16 +17,25 @@ const getRandomItems = <T,>(array: T[], count: number): T[] => {
 
 export default function ProductCategoryLanding() {
   const { categorySlug } = useParams<{ categorySlug: string }>();
-  const navigate = useNavigate();
+  const router = useRouter();
+  const [randomCategories, setRandomCategories] = useState<typeof productsData.categories>([]);
 
   const category = productsData.categories.find((cat) => cat.slug === categorySlug);
+
+  // Initialize random categories on client side only to avoid hydration mismatch
+  useEffect(() => {
+    if (category) {
+      const otherCategories = productsData.categories.filter((cat) => cat.id !== category.id);
+      setRandomCategories(getRandomItems(otherCategories, 3));
+    }
+  }, [category]);
 
   if (!category) {
     return (
       <div className="min-h-screen bg-[#2b2a29] flex items-center justify-center">
         <div className="text-center">
           <h1 className="text-white text-4xl mb-4">Category Not Found</h1>
-          <Link to="/products" className="text-[#e31e24] hover:underline">
+          <Link href="/products" className="text-[#e31e24] hover:underline">
             Back to Products
           </Link>
         </div>
@@ -76,7 +90,7 @@ export default function ProductCategoryLanding() {
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6 }}
-          onClick={() => navigate('/products')}
+          onClick={() => router.push('/products')}
           className="absolute top-25 left-6 lg:left-12 z-20 flex items-center space-x-2 text-white hover:text-[#e31e24] transition-colors"
         >
           <ArrowLeft className="w-5 h-5" />
@@ -156,7 +170,7 @@ export default function ProductCategoryLanding() {
                         <p className="text-gray-400 text-lg">{subcategory.description}</p>
                       </div>
                       <Link
-                        to={`/products/${category.slug}/${subcategory.slug}`}
+                        href={`/products/${category.slug}/${subcategory.slug}`}
                         className="hidden md:flex items-center space-x-2 text-[#e31e24] hover:text-white transition-colors"
                       >
                         <span>View All</span>
@@ -176,7 +190,7 @@ export default function ProductCategoryLanding() {
                         transition={{ duration: 0.6, delay: productIndex * 0.1 }}
                       >
                         <Link
-                          to={`/products/${category.slug}/${subcategory.slug}/${product.slug}`}
+                          href={`/products/${category.slug}/${subcategory.slug}/${product.slug}`}
                           className="block bg-[#1a1918] rounded-lg overflow-hidden border border-gray-800 hover:border-[#e31e24] transition-all duration-300 group h-full flex flex-col"
                         >
                           {/* Image */}
@@ -226,7 +240,7 @@ export default function ProductCategoryLanding() {
 
                   {/* Mobile View All Link */}
                   <Link
-                    to={`/products/${category.slug}/${subcategory.slug}`}
+                    href={`/products/${category.slug}/${subcategory.slug}`}
                     className="md:hidden flex items-center justify-center space-x-2 text-[#e31e24] hover:text-white transition-colors mt-6"
                   >
                     <span>View All {subcategory.name}</span>
@@ -247,7 +261,7 @@ export default function ProductCategoryLanding() {
                   transition={{ duration: 0.6, delay: productIndex * 0.1 }}
                 >
                   <Link
-                    to={`/products/${category.slug}/${product.slug}`}
+                    href={`/products/${category.slug}/${product.slug}`}
                     className="block bg-[#1a1918] rounded-lg overflow-hidden border border-gray-800 hover:border-[#e31e24] transition-all duration-300 group h-full flex flex-col"
                   >
                     {/* Image */}
@@ -315,7 +329,7 @@ export default function ProductCategoryLanding() {
               Our technical team can help you find the perfect {category.name.toLowerCase()} solution for your specific application.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <Link to="/contact">
+              <Link href="/contact">
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
@@ -361,11 +375,8 @@ export default function ProductCategoryLanding() {
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {getRandomItems(
-              productsData.categories.filter((cat) => cat.id !== category.id),
-              3
-            ).map((otherCategory, index) => (
-                <Link key={otherCategory.id} to={`/products/${otherCategory.slug}`}>
+            {randomCategories.map((otherCategory, index) => (
+                <Link key={otherCategory.id} href={`/products/${otherCategory.slug}`}>
                   <motion.div
                     initial={{ opacity: 0, y: 30 }}
                     whileInView={{ opacity: 1, y: 0 }}

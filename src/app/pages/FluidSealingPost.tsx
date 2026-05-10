@@ -1,6 +1,9 @@
+'use client';
+
 import { motion } from 'motion/react';
 import { Calendar, Linkedin, Youtube, ExternalLink, ArrowLeft } from 'lucide-react';
-import { useParams, Link, useNavigate } from 'react-router-dom';
+import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 import fluidSealingData from '@/data/fluidSealingContent.json';
 
 interface Post {
@@ -15,7 +18,7 @@ interface Post {
 
 export default function FluidSealingPost() {
   const { id } = useParams();
-  const navigate = useNavigate();
+  const router = useRouter();
   const posts: Post[] = fluidSealingData.posts;
   const post = posts.find(p => p.id === Number(id));
 
@@ -24,7 +27,7 @@ export default function FluidSealingPost() {
       <main className="bg-[#2b2a29] min-h-screen flex items-center justify-center">
         <div className="text-center">
           <h1 className="text-white text-4xl mb-4">Post Not Found</h1>
-          <Link to="/fluid-sealing-simplified" className="text-[#e31e24] hover:underline">
+          <Link href="/fluid-sealing-simplified" className="text-[#e31e24] hover:underline">
             Back to Fluid Sealing Simplified
           </Link>
         </div>
@@ -51,7 +54,7 @@ export default function FluidSealingPost() {
             transition={{ duration: 0.8 }}
           >
             <Link
-              to="/fluid-sealing-simplified"
+              href="/fluid-sealing-simplified"
               className="inline-flex items-center space-x-2 text-gray-400 hover:text-[#e31e24] transition-colors mb-8"
             >
               <ArrowLeft className="w-5 h-5" />
@@ -193,7 +196,7 @@ export default function FluidSealingPost() {
                   transition={{ duration: 0.6, delay: index * 0.1 }}
                 >
                   <Link
-                    to={`/fluid-sealing-simplified/${relatedPost.id}`}
+                    href={`/fluid-sealing-simplified/${relatedPost.id}`}
                     className="block bg-[#2b2a29] rounded-lg overflow-hidden border border-gray-800 hover:border-[#e31e24] transition-all duration-300 group"
                   >
                     <div className="p-6">
@@ -241,13 +244,13 @@ export default function FluidSealingPost() {
               </p>
               <div className="flex flex-wrap justify-center gap-4">
                 <Link
-                  to="/contact"
+                  href="/contact"
                   className="inline-flex items-center px-8 py-4 bg-[#e31e24] text-white rounded-lg hover:bg-[#c41a20] transition-colors duration-300 text-sm uppercase tracking-wide font-semibold"
                 >
                   Contact Our Experts
                 </Link>
                 <Link
-                  to="/products"
+                  href="/products"
                   className="inline-flex items-center px-8 py-4 bg-transparent border-2 border-[#e31e24] text-[#e31e24] rounded-lg hover:bg-[#e31e24] hover:text-white transition-colors duration-300 text-sm uppercase tracking-wide font-semibold"
                 >
                   Browse Products

@@ -1,5 +1,7 @@
+'use client';
+
 import { motion, AnimatePresence } from 'motion/react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { useState } from 'react';
 import { ImageWithFallback } from '@/app/components/figma/ImageWithFallback';
 import { ChevronDown, ChevronUp } from 'lucide-react';
@@ -88,7 +90,7 @@ export default function Products() {
                   className="relative group"
                 >
                   {/* Category Card */}
-                  <Link to={`/products/${category.slug}`}>
+                  <Link href={`/products/${category.slug}`}>
                     <div className="bg-[#1a1918] rounded-lg overflow-hidden border border-gray-800 hover:border-[#e31e24] transition-all duration-300 h-full cursor-pointer">
                     {/* Image/Video */}
                     <div className="relative h-64 overflow-hidden">
@@ -155,7 +157,7 @@ export default function Products() {
                           {categorySubcategories.map((subcategory, idx) => (
                             <Link
                               key={subcategory.id}
-                              to={`/products/${category.slug}/${subcategory.slug}`}
+                              href={`/products/${category.slug}/${subcategory.slug}`}
                               className={`block px-4 py-3 text-white hover:bg-[#e31e24] transition-colors duration-200 rounded ${
                                 idx !== categorySubcategories.length - 1 ? 'mb-1' : ''
                               }`}
@@ -193,7 +195,7 @@ export default function Products() {
               </p>
               <div className="flex flex-wrap justify-center gap-4">
                 <Link
-                  to="/contact"
+                  href="/contact"
                   className="inline-flex items-center px-8 py-4 bg-[#e31e24] text-white rounded-lg hover:bg-[#c41a20] transition-colors duration-300 text-sm uppercase tracking-wide font-semibold"
                 >
                   Contact Technical Support

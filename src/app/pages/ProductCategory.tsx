@@ -1,5 +1,8 @@
+'use client';
+
 import { motion } from 'motion/react';
-import { Link, useParams, Navigate } from 'react-router-dom';
+import Link from 'next/link';
+import { useParams } from 'next/navigation';
 import { ArrowLeft, CheckCircle2 } from 'lucide-react';
 import { ImageWithFallback } from '@/app/components/figma/ImageWithFallback';
 import productsData from '@/data/productsData.json';
@@ -45,7 +48,7 @@ export default function ProductCategory() {
       <main className="bg-[#2b2a29] min-h-screen flex items-center justify-center">
         <div className="text-center">
           <h1 className="text-white text-4xl mb-4">Category Not Found</h1>
-          <Link to="/products" className="text-[#e31e24] hover:underline">
+          <Link href="/products" className="text-[#e31e24] hover:underline">
             Back to Products
           </Link>
         </div>
@@ -64,7 +67,7 @@ export default function ProductCategory() {
             transition={{ duration: 0.8 }}
           >
             <Link
-              to="/products"
+              href="/products"
               className="inline-flex items-center space-x-2 text-gray-400 hover:text-[#e31e24] transition-colors mb-8"
             >
               <ArrowLeft className="w-5 h-5" />
@@ -72,11 +75,11 @@ export default function ProductCategory() {
             </Link>
 
             <div className="flex items-center space-x-3 text-sm text-gray-400 mb-6">
-              <Link to="/products" className="hover:text-[#e31e24] transition-colors">
+              <Link href="/products" className="hover:text-[#e31e24] transition-colors">
                 Products
               </Link>
               <span>/</span>
-              <Link to={`/products/${category.slug}`} className="hover:text-[#e31e24] transition-colors">
+              <Link href={`/products/${category.slug}`} className="hover:text-[#e31e24] transition-colors">
                 {category.name}
               </Link>
               <span>/</span>
@@ -107,7 +110,7 @@ export default function ProductCategory() {
                   transition={{ duration: 0.6, delay: index * 0.1 }}
                 >
                   <Link
-                    to={`/products/${categorySlug}/${subcategorySlug}/${product.slug}`}
+                    href={`/products/${categorySlug}/${subcategorySlug}/${product.slug}`}
                     className="block bg-[#1a1918] rounded-lg overflow-hidden border border-gray-800 hover:border-[#e31e24] transition-all duration-300 group h-full flex flex-col"
                   >
                     {/* Image */}
@@ -157,7 +160,7 @@ export default function ProductCategory() {
           ) : (
             <div className="text-center py-16">
               <p className="text-gray-400 text-lg">No products available in this category yet.</p>
-              <Link to="/products" className="text-[#e31e24] hover:underline mt-4 inline-block">
+              <Link href="/products" className="text-[#e31e24] hover:underline mt-4 inline-block">
                 Browse other categories
               </Link>
             </div>
@@ -182,7 +185,7 @@ export default function ProductCategory() {
                 Our engineers can help you select the right product for your specific application requirements.
               </p>
               <Link
-                to="/contact"
+                href="/contact"
                 className="inline-flex items-center px-8 py-4 bg-[#e31e24] text-white rounded-lg hover:bg-[#c41a20] transition-colors duration-300 text-sm uppercase tracking-wide font-semibold"
               >
                 Contact Technical Support

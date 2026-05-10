@@ -1,3 +1,5 @@
+'use client';
+
 import { motion } from 'motion/react';
 import { Award, Shield, Gauge, FileCheck } from 'lucide-react';
 

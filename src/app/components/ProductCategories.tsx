@@ -1,5 +1,7 @@
+'use client';
+
 import { motion } from 'motion/react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { Package, Layers, Settings, Flame, Circle, Maximize2, LucideIcon } from 'lucide-react';
 import { ImageWithFallback } from '@/app/components/figma/ImageWithFallback';
 import productsData from '@/data/productsData.json';
@@ -271,7 +273,7 @@ export function ProductCategories() {
             return (
               <Link
                 key={index}
-                to="/products"
+                href={`/products/${product.slug}`}
                 className="flex"
               >
                 <motion.div

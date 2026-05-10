@@ -1,5 +1,7 @@
+'use client';
+
 import { motion } from 'motion/react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 
 export default function TermsOfService() {
   const sections = [
@@ -177,7 +179,7 @@ export default function TermsOfService() {
             className="mt-16 pt-8 border-t border-gray-800"
           >
             <Link
-              to="/"
+              href="/"
               className="inline-flex items-center space-x-2 text-[#e31e24] hover:text-white transition-colors"
             >
               <span>← Back to Home</span>

@@ -1,3 +1,5 @@
+'use client';
+
 import { Hero } from '@/app/components/Hero';
 import { CompanyOverview } from '@/app/components/CompanyOverview';
 import { Sustainability } from '@/app/components/Sustainability';

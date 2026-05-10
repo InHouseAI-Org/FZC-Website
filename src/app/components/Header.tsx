@@ -79,10 +79,10 @@ export function Header() {
       <div className="relative z-10 max-w-[1400px] mx-auto px-6 lg:px-12">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link to="/" className="relative flex items-center space-x-4">
+          <Link href="/" className="relative flex items-center space-x-4">
             <div className="relative overflow-hidden" style={{ width: '180px', height: '64px' }}>
               <img
-                src={inmarcoLogo}
+                src={inmarcoLogo.src || inmarcoLogo}
                 alt="INMARCO"
                 className="absolute"
                 style={{
@@ -122,7 +122,7 @@ export function Header() {
               return (
                 <Link
                   key={item.label}
-                  to={item.href}
+                  href={item.href}
                   className="text-sm tracking-wide text-white hover: transition-colors duration-200 relative group"
                 >
                   {item.label}
@@ -137,7 +137,7 @@ export function Header() {
           </nav>
 
           <Link
-            to="/fluid-sealing-simplified"
+            href="/fluid-sealing-simplified"
             className={`hidden md:flex items-center space-x-2 text-sm tracking-wide border-l border-white/70 pl-4 transition-all duration-500 group ${
               showTransitionAnimation
                 ? 'text-green-400'
@@ -149,7 +149,7 @@ export function Header() {
           </Link>
 
           {/* CTA Button */}
-          <Link to="/contact" className={`hidden lg:block px-6 py-3 ${buttonBgColor} text-white text-sm tracking-wide ${accentHoverColor} transition-all duration-500`}>
+          <Link href="/contact" className={`hidden lg:block px-6 py-3 ${buttonBgColor} text-white text-sm tracking-wide ${accentHoverColor} transition-all duration-500`}>
             Get in Touch
           </Link>
 
@@ -192,7 +192,7 @@ export function Header() {
             return (
               <Link
                 key={item.label}
-                to={item.href}
+                href={item.href}
                 onClick={() => setIsMobileMenuOpen(false)}
                 className={`block text-gray-300 hover:text-white transition-colors duration-200 py-2 border-l-2 pl-4 ${
                   isInSustainability ? 'border-green-500' : 'border-transparent hover:border-[#e31e24]'
@@ -202,7 +202,7 @@ export function Header() {
               </Link>
             );
           })}
-          <Link to="/contact" className={`block w-full px-6 py-3 ${buttonBgColor} text-white text-sm tracking-wide ${accentHoverColor} transition-all duration-500 mt-4 text-center`}>
+          <Link href="/contact" className={`block w-full px-6 py-3 ${buttonBgColor} text-white text-sm tracking-wide ${accentHoverColor} transition-all duration-500 mt-4 text-center`}>
             Get in Touch
           </Link>
         </nav>

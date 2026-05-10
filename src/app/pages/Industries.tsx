@@ -1,5 +1,7 @@
+'use client';
+
 import { motion } from 'motion/react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { ImageWithFallback } from '@/app/components/figma/ImageWithFallback';
 import industriesData from '@/data/industries.json';
 
@@ -60,7 +62,7 @@ export default function IndustriesPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {industries.map((industry, index) => (
-              <Link key={industry.id} to={`/industries/${industry.slug}`}>
+              <Link key={industry.id} href={`/industries/${industry.slug}`}>
                 <motion.div
                   initial={{ opacity: 0, y: 30 }}
                   whileInView={{ opacity: 1, y: 0 }}

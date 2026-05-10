@@ -6,10 +6,17 @@ node_modules/
 # Build output
 dist/
 build/
+.next/
+out/
 
 # Vite
 .vite/
 *.local
+
+# Next.js
+/.next/
+/out/
+next-env.d.ts
 
 # Environment variables
 .env

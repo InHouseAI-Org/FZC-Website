@@ -1,5 +1,7 @@
+'use client';
+
 import { motion } from 'motion/react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { ImageWithFallback } from '@/app/components/figma/ImageWithFallback';
 import { ChevronRight, Play } from 'lucide-react';
 import { useState, useEffect, useRef } from 'react';
@@ -152,12 +154,12 @@ export function Hero() {
             transition={{ duration: 0.8, delay: 0.6 }}
             className="flex flex-wrap gap-4"
           >
-            <Link to="/contact" className="group px-8 py-4 bg-[#e31e24] text-white tracking-wide hover:bg-[#c41a20] transition-all duration-300 flex items-center space-x-2">
+            <Link href="/contact" className="group px-8 py-4 bg-[#e31e24] text-white tracking-wide hover:bg-[#c41a20] transition-all duration-300 flex items-center space-x-2">
               <span>Talk to an Engineer</span>
               <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Link>
 
-            <Link to="/products" className="group px-8 py-4 border-2 border-white text-white tracking-wide hover:bg-white hover:text-[#2b2a29] transition-all duration-300 flex items-center space-x-2">
+            <Link href="/products" className="group px-8 py-4 border-2 border-white text-white tracking-wide hover:bg-white hover:text-[#2b2a29] transition-all duration-300 flex items-center space-x-2">
               <Play className="w-4 h-4" />
               <span>Explore Solutions</span>
             </Link>

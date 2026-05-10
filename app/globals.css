@@ -1,0 +1,5 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-family-switzerland: 'SwitzerlandCondBlack', ui-sans-serif, system-ui, sans-serif;
+}

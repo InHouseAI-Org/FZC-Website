@@ -1,5 +1,9 @@
+'use client';
+
 import { motion } from 'motion/react';
-import { Link, useParams, useNavigate } from 'react-router-dom';
+import Link from 'next/link';
+import { useRouter } from 'next/navigation';
+import { useParams } from 'next/navigation';
 import { ImageWithFallback } from '@/app/components/figma/ImageWithFallback';
 import { ArrowLeft, CheckCircle2, ChevronRight, Hexagon } from 'lucide-react';
 import industriesData from '@/data/industries.json';
@@ -77,7 +81,7 @@ function OEMApplications({ scrollToCTA }: { scrollToCTA: () => void }) {
 
 export default function IndustryDetail() {
   const { slug } = useParams<{ slug: string }>();
-  const navigate = useNavigate();
+  const router = useRouter();
   const ctaSectionRef = useRef<HTMLElement>(null);
 
   const industry = industriesData.industries.find((ind) => ind.slug === slug);
@@ -110,7 +114,7 @@ export default function IndustryDetail() {
       <div className="min-h-screen bg-[#2b2a29] flex items-center justify-center">
         <div className="text-center">
           <h1 className="text-white text-4xl mb-4">Industry Not Found</h1>
-          <Link to="/industries" className="text-[#e31e24] hover:underline">
+          <Link href="/industries" className="text-[#e31e24] hover:underline">
             Back to Industries
           </Link>
         </div>
@@ -140,7 +144,7 @@ export default function IndustryDetail() {
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6 }}
-          onClick={() => navigate('/industries')}
+          onClick={() => router.push('/industries')}
           className="absolute top-25 left-6 lg:left-12 z-20 flex items-center space-x-2 text-white hover:text-[#e31e24] transition-colors"
         >
           <ArrowLeft className="w-5 h-5" />
@@ -414,7 +418,7 @@ export default function IndustryDetail() {
             <p className="text-gray-400 text-lg mb-8 max-w-2xl mx-auto">
               Our engineering team is ready to help you find the perfect sealing solution for your {industry.title.toLowerCase()} application.
             </p>
-            <Link to="/contact">
+            <Link href="/contact">
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -451,7 +455,7 @@ export default function IndustryDetail() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {relatedIndustries.map((relatedIndustry, index) => (
-              <Link key={relatedIndustry.id} to={`/industries/${relatedIndustry.slug}`}>
+              <Link key={relatedIndustry.id} href={`/industries/${relatedIndustry.slug}`}>
                 <motion.div
                   initial={{ opacity: 0, y: 30 }}
                   whileInView={{ opacity: 1, y: 0 }}

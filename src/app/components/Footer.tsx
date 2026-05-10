@@ -1,5 +1,7 @@
+'use client';
+
 import { Linkedin, Youtube } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import inmarcoLogo from '@/assets/inmarco-tagline-logo1.webp';
 import industriesData from '@/data/industries.json';
 import productsData from '@/data/productsData.json';
@@ -30,7 +32,7 @@ export function Footer() {
           {/* Brand Column */}
           <div className="lg:col-span-2">
             <Link
-              to="/"
+              href="/"
               className="relative flex items-center mb-6"
               onClick={(e) => {
                 e.preventDefault();
@@ -39,7 +41,7 @@ export function Footer() {
             >
               <div className="relative overflow-hidden" style={{ width: '230px', height: '180px' }}>
                 <img
-                  src={inmarcoLogo}
+                  src={inmarcoLogo.src || inmarcoLogo}
                   alt="INMARCO"
                   className="absolute"
                   style={{
@@ -86,7 +88,7 @@ export function Footer() {
               {footerLinks.company.map((link, index) => (
                 <li key={index}>
                   <Link
-                    to={link.href}
+                    href={link.href}
                     className="text-gray-400 hover:text-white transition-colors duration-200 text-sm"
                   >
                     {link.label}
@@ -103,7 +105,7 @@ export function Footer() {
               {footerLinks.products.map((link, index) => (
                 <li key={index}>
                   <Link
-                    to={link.href}
+                    href={link.href}
                     className="text-gray-400 hover:text-white transition-colors duration-200 text-sm"
                   >
                     {link.label}
@@ -120,7 +122,7 @@ export function Footer() {
               {footerLinks.industries.map((link, index) => (
                 <li key={index}>
                   <Link
-                    to={link.href}
+                    href={link.href}
                     className="text-gray-400 hover:text-white transition-colors duration-200 text-sm"
                   >
                     {link.label}
@@ -139,15 +141,15 @@ export function Footer() {
             </div>
             
             <div className="flex items-center space-x-6 text-sm">
-              <Link to="/privacy-policy" className="text-gray-500 hover:text-white transition-colors duration-200">
+              <Link href="/privacy-policy" className="text-gray-500 hover:text-white transition-colors duration-200">
                 Privacy Policy
               </Link>
               <span className="text-gray-700">|</span>
-              <Link to="/terms-of-service" className="text-gray-500 hover:text-white transition-colors duration-200">
+              <Link href="/terms-of-service" className="text-gray-500 hover:text-white transition-colors duration-200">
                 Terms of Service
               </Link>
               <span className="text-gray-700">|</span>
-              <Link to="/cookie-policy" className="text-gray-500 hover:text-white transition-colors duration-200">
+              <Link href="/cookie-policy" className="text-gray-500 hover:text-white transition-colors duration-200">
                 Cookie Policy
               </Link>
             </div>

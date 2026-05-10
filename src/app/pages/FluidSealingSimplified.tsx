@@ -1,6 +1,8 @@
+'use client';
+
 import { motion } from 'motion/react';
 import { Calendar, ArrowRight } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import fluidSealingData from '@/data/fluidSealingContent.json';
 import { ImageWithFallback } from '@/app/components/figma/ImageWithFallback';
 
@@ -86,7 +88,7 @@ export default function FluidSealingSimplified() {
                 transition={{ duration: 0.6, delay: index * 0.1 }}
               >
                 <Link
-                  to={`/fluid-sealing-simplified/${post.id}`}
+                  href={`/fluid-sealing-simplified/${post.id}`}
                   className="block bg-[#1a1918] rounded-lg overflow-hidden border border-gray-800 hover:border-[#e31e24] transition-all duration-300 group h-full"
                 >
                   {/* Thumbnail Area */}
@@ -178,13 +180,13 @@ export default function FluidSealingSimplified() {
               </p>
               <div className="flex flex-wrap justify-center gap-4">
                 <Link
-                  to="/contact"
+                  href="/contact"
                   className="inline-flex items-center px-8 py-4 bg-[#e31e24] text-white rounded-lg hover:bg-[#c41a20] transition-colors duration-300 text-sm uppercase tracking-wide font-semibold"
                 >
                   Contact Our Experts
                 </Link>
                 <Link
-                  to="/products"
+                  href="/products"
                   className="inline-flex items-center px-8 py-4 bg-transparent border-2 border-[#e31e24] text-[#e31e24] rounded-lg hover:bg-[#e31e24] hover:text-white transition-colors duration-300 text-sm uppercase tracking-wide font-semibold"
                 >
                   Browse Products

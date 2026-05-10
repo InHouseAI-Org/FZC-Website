@@ -1,5 +1,7 @@
+'use client';
+
 import { motion, useScroll, useTransform } from 'motion/react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import {
   Target,
   Brain,
@@ -1266,7 +1268,7 @@ export default function DesignDeck() {
               turning your website into your best-performing sales channel.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
-              <Link to="/">
+              <Link href="/">
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
@@ -1275,7 +1277,7 @@ export default function DesignDeck() {
                   View Live Website →
                 </motion.button>
               </Link>
-              <Link to="/contact">
+              <Link href="/contact">
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}

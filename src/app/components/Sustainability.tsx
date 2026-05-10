@@ -1,3 +1,5 @@
+'use client';
+
 import { motion } from 'motion/react';
 import { Leaf, Droplets, Shield, Zap, Sparkles, Wind, Battery, TrendingUp, Award } from 'lucide-react';
 
