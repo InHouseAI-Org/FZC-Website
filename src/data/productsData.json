@@ -1388,7 +1388,7 @@
       "material": "INSULATION",
       "apiCertified": false,
       "shortDescription": "Ceramic fiber insulation",
-      "description": "IN 140 offers high-temperature ceramic fiber insulation for extreme thermal protection applications.",
+      "description": "IN 140 offers high-temperature glass fiber insulation for thermal resistance.",
       "image": "/FZC Inmarco Product Shoot/IN 140/IN 140_5.webp",
       "specifications": {
         "Temperature Range": "-50°C to +1200°C",
@@ -1401,8 +1401,8 @@
         "Standard": "ASTM C1728, ISO 9001"
       },
       "features": [
-        "Extreme temperature resistance up to 1200°C",
-        "Exceptional thermal insulation efficiency",
+        "High temperature resistance up to 550°C",
+        "Exceptional fire retardant property with spark resistance",
         "Low thermal mass for rapid heating/cooling",
         "Chemical stability in most environments",
         "Lightweight and flexible installation"
@@ -1427,7 +1427,7 @@
       "material": "CARBON/GRAPHITE",
       "apiCertified": true,
       "shortDescription": "Premium flexible graphite packing",
-      "description": "IN 140 offers high-temperature glass fiber insulation for thermal resistance.",
+      "description": "CG 900 delivers exceptional performance in extreme conditions with advanced flexible graphite technology for high temperature high pressure applications .",
       "image": "/FZC Inmarco Product Shoot/CG 900/CG 900_1.webp",
       "specifications": {
         "Temperature Range": "-240°C to +650°C",
@@ -1446,11 +1446,11 @@
         "Standard": "ISO 15848-1, TA-Luft, MESC SPE 77/312"
       },
       "features": [
-        "High temperature resistance up to 550°C",
-        "Exceptional fire retardant property with spark resistance",
-        "Low thermal mass for rapid heating/cooling",
-        "Chemical stability in most environments",
-        "Lightweight and flexible installation"
+        "Premium grade for most severe service conditions",
+        "Exceptional pressure surge resistance",
+        "Extreme oxidation resistance even at high temperature",
+        "Cryogenic to extreme high-temperature capability",
+        "Exceptional chemical inertness and thermal shock resistance"
       ],
       "applications": [
         "LNG cryogenic services",
@@ -1475,7 +1475,7 @@
       "material": "HYBRID",
       "apiCertified": true,
       "shortDescription": "Hybrid packing for pump applications",
-      "description": "CG 900 delivers exceptional performance in extreme conditions with advanced flexible graphite technology for high temperature high pressure applications .",
+      "description": "HY 501 is optimized for centrifugal and rotary pump sealing with superior performance characteristics.",
       "image": "/FZC Inmarco Product Shoot/HY 501/HY 501 - 27_20.JPG",
       "specifications": {
         "Temperature Range": "-100°C to +280°C",
@@ -1494,11 +1494,10 @@
         "Standard": "ISO 15848-1, TA-Luft"
       },
       "features": [
-        "Premium grade for most severe service conditions",
-        "Exceptional pressure surge resistance",
-        "Extreme oxidation resistance even at high temperature",
-        "Cryogenic to extreme high-temperature capability",
-        "Exceptional chemical inertness and thermal shock resistance"
+        "Highly engineered carbon graphite sealing for pump applications",
+        "Excellent resilience and recovery properties",
+        "Superior wear resistance in abrasive services",
+        "Easy installation with minimal break-in"
       ],
       "applications": [
         "Centrifugal process pumps",
@@ -1523,7 +1522,7 @@
       "material": "CARBON/GRAPHITE",
       "apiCertified": true,
       "shortDescription": "High-purity carbon graphite packing",
-      "description": "HY 501 is optimized for centrifugal and rotary pump sealing with superior performance characteristics.",
+      "description": "CG 503 provides clean, low-friction carbon graphite sealing for control valve applications.",
       "image": "/FZC Inmarco Product Shoot/CG 503/CG503_Edited_2.webp",
       "specifications": {
         "Temperature Range": "-200°C to +600°C",
@@ -1542,10 +1541,10 @@
         "Standard": "ISO 15848-1, TA-Luft"
       },
       "features": [
-        "Highly engineered carbon graphite sealing for pump applications",
-        "Excellent resilience and recovery properties",
-        "Superior wear resistance in abrasive services",
-        "Easy installation with minimal break-in"
+        "High-purity grade for clean service applications",
+        "Minimal contamination and product degradation",
+        "Ultra-low friction and oxidation resistance",
+        "Excellent thermal conductivity"
       ],
       "applications": [
         "Pharmaceutical manufacturing equipment",
@@ -1575,7 +1574,7 @@
       "material": "PTFE",
       "apiCertified": true,
       "shortDescription": "Universal PTFE compression packing",
-      "description": "CG 503 provides clean, low-friction carbon graphite sealing for control valve applications.",
+      "description": "PE 104 is suitable for pumps, valves, and rotating equipment offering versatile PTFE sealing solution.",
       "image": "/FZC Inmarco Product Shoot/PE 104/PE 104_Edited_1.webp",
       "specifications": {
         "Temperature Range": "-200°C to +260°C",
@@ -1594,10 +1593,10 @@
         "Standard": "ISO 15848-1, TA-Luft"
       },
       "features": [
-        "High-purity grade for clean service applications",
-        "Minimal contamination and product degradation",
-        "Ultra-low friction and oxidation resistance",
-        "Excellent thermal conductivity"
+        "Universal application across pumps and valves",
+        "Outstanding chemical resistance across pH spectrum",
+        "Low friction for extended equipment life",
+        "Easy installation and adjustment"
       ],
       "applications": [
         "General purpose chemical pumps",
@@ -1627,7 +1626,7 @@
       "material": "ORGANIC",
       "apiCertified": false,
       "shortDescription": "Economical organic fiber packing",
-      "description": "PE 104 is suitable for pumps, valves, and rotating equipment offering versatile PTFE sealing solution.",
+      "description": "OR 151 provides basic sealing for general applications with cost-effective organic fiber construction with graphite based lubrication.",
       "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
       "specifications": {
         "Temperature Range": "-10°C to +100°C",
@@ -1642,10 +1641,10 @@
         "Standard": "ISO 15848-1"
       },
       "features": [
-        "Universal application across pumps and valves",
-        "Outstanding chemical resistance across pH spectrum",
-        "Low friction for extended equipment life",
-        "Easy installation and adjustment"
+        "Most economical packing solution",
+        "Suitable for low-pressure water applications",
+        "Easy to install and replace",
+        "Good conformability to stuffing boxes"
       ],
       "applications": [
         "Residential water pumps",
@@ -1663,7 +1662,7 @@
       "material": "ORGANIC",
       "apiCertified": false,
       "shortDescription": "Enhanced organic fiber packing",
-      "description": "OR 151 provides basic sealing for general applications with cost-effective organic fiber construction with graphite based lubrication.",
+      "description": "OR 156 offers improved performance over standard organic packings with enhanced fiber treatment by special lubricant.",
       "image": "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
       "specifications": {
         "Temperature Range": "-20°C to +130°C",
@@ -1678,10 +1677,11 @@
         "Standard": "ISO 15848-1"
       },
       "features": [
-        "Most economical packing solution",
-        "Suitable for low-pressure water applications",
-        "Easy to install and replace",
-        "Good conformability to stuffing boxes"
+        "Enhanced performance over standard organic packings",
+        "Improved temperature and pressure capability",
+        "Better chemical compatibility range",
+        "Good value for mid-range applications",
+        "Longer service life than economy grades"
       ],
       "applications": [
         "Industrial water pumps",
@@ -1699,7 +1699,7 @@
       "material": "HYBRID",
       "apiCertified": true,
       "shortDescription": "Heavy-duty hybrid packing",
-      "description": "OR 156 offers improved performance over standard organic packings with enhanced fiber treatment by special lubricant.",
+      "description": "HY 606 is engineered for severe service conditions with enhanced mechanical strength and durability.",
       "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
       "specifications": {
         "Temperature Range": "-100°C to +300°C",
@@ -1718,11 +1718,10 @@
         "Standard": "ISO 15848-1, TA-Luft"
       },
       "features": [
-        "Enhanced performance over standard organic packings",
-        "Improved temperature and pressure capability",
-        "Better chemical compatibility range",
-        "Good value for mid-range applications",
-        "Longer service life than economy grades"
+        "Heavy-duty construction for severe applications",
+        "Exceptional abrasion and wear resistance",
+        "Superior load-bearing capacity with flexible Inmalon core",
+        "Extended service life in harsh conditions"
       ],
       "applications": [
         "Abrasive slurry services",
@@ -1740,7 +1739,7 @@
       "material": "CARBON/GRAPHITE",
       "apiCertified": false,
       "shortDescription": "Clean service carbon graphite packing",
-      "description": "HY 606 is engineered for severe service conditions with enhanced mechanical strength and durability.",
+      "description": "CG 501C is premium carbon graphite packing optimized for centrifugal and rotary pump sealing with superior performance characteristics.",
       "image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
       "specifications": {
         "Temperature Range": "-150°C to +550°C",
@@ -1758,10 +1757,15 @@
         "Standard": "ISO 15848-1"
       },
       "features": [
-        "Heavy-duty construction for severe applications",
-        "Exceptional abrasion and wear resistance",
-        "Superior load-bearing capacity with flexible Inmalon core",
-        "Extended service life in harsh conditions"
+        "High performance premium grade carbon graphite sealing for pump applications",
+        "Excellent resilience and recovery properties",
+        "Superior wear resistance in abrasive services",
+        "Easy installation with minimal break-in",
+        "Minimal product contamination characteristics",
+        "Clean service suitable for sensitive processes",
+        "Good thermal conductivity and lubrication",
+        "Universal chemical resistance",
+        "Low particulate generation"
       ],
       "applications": [
         "Clean steam generation",
@@ -1779,7 +1783,7 @@
       "material": "HYBRID",
       "apiCertified": true,
       "shortDescription": "Premium hybrid valve packing",
-      "description": "CG 501C is premium carbon graphite packing optimized for centrifugal and rotary pump sealing with superior performance characteristics.",
+      "description": "HY 801 is premium carbon graphite packing optimized for centrifugal and rotary pump sealing with superior performance for demanding applications.",
       "image": "/FZC Inmarco Product Shoot/HY 801/HY 801_3.webp",
       "specifications": {
         "Temperature Range": "-100°C to +290°C",
@@ -1798,8 +1802,8 @@
         "Standard": "ISO 15848-1, ISO 15848-2, TA-Luft"
       },
       "features": [
-        "High performance premium grade carbon graphite sealing for pump applications",
-        "Excellent resilience and recovery properties",
+        "Specifically engineered for challenging applications e.g., congealing media",
+        "Excellent resilience under thermal cycling",
         "Superior wear resistance in abrasive services",
         "Easy installation with minimal break-in",
         "Minimal product contamination characteristics",
@@ -1834,7 +1838,7 @@
       "material": "POLYIMIDE",
       "apiCertified": true,
       "shortDescription": "Advanced polyimide packing",
-      "description": "HY 801 is premium carbon graphite packing optimized for centrifugal and rotary pump sealing with superior performance for demanding applications.",
+      "description": "PA 499 offers exceptional mechanical properties and chemical resistance for the most demanding applications where abrasion and chemical resistance both are of concern.",
       "image": "/FZC Inmarco Product Shoot/PA 499/PA 499_Edited_1.JPG",
       "specifications": {
         "Temperature Range": "-150°C to +320°C",
@@ -1853,15 +1857,11 @@
         "Standard": "ISO 15848-1, TA-Luft, MESC SPE 77/312"
       },
       "features": [
-        "Specifically engineered for challenging applications e.g., congealing media",
-        "Excellent resilience under thermal cycling",
-        "Superior wear resistance in abrasive services",
-        "Easy installation with minimal break-in",
-        "Minimal product contamination characteristics",
-        "Clean service suitable for sensitive processes",
-        "Good thermal conductivity and lubrication",
-        "Universal chemical resistance",
-        "Low particulate generation"
+        "Advanced polyimide technology for extreme conditions",
+        "Outstanding mechanical strength and toughness",
+        "Excellent abrasion resistance but soft ensuring no shaft wear",
+        "Exceptional resistance to thermal degradation",
+        "Superior dimensional stability under load"
       ],
       "applications": [
         "Aerospace hydraulic systems",
@@ -1886,7 +1886,7 @@
       "material": "HYBRID",
       "apiCertified": false,
       "shortDescription": "Standard hybrid compression packing",
-      "description": "PA 499 offers exceptional mechanical properties and chemical resistance for the most demanding applications where abrasion and chemical resistance both are of concern.",
+      "description": "HY 510 is a specially engineered packing for stern tube application in marine sector with balanced hybrid construction.",
       "image": "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
       "specifications": {
         "Temperature Range": "-70°C to +250°C",
@@ -1904,11 +1904,10 @@
         "Standard": "ISO 15848-1"
       },
       "features": [
-        "Advanced polyimide technology for extreme conditions",
-        "Outstanding mechanical strength and toughness",
-        "Excellent abrasion resistance but soft ensuring no shaft wear",
-        "Exceptional resistance to thermal degradation",
-        "Superior dimensional stability under load"
+        "Excellent resiliency to counter eccentricity of shaft rotation, common in stern tube",
+        "Abrasion resistance for sea water application",
+        "Wide chemical resistance ensuring low maintenance",
+        "Easy installation and commissioning"
       ],
       "applications": [
         "General industrial pumps",
@@ -1926,7 +1925,7 @@
       "material": "PTFE",
       "apiCertified": true,
       "shortDescription": "Clean service PTFE packing",
-      "description": "INMARCO Style 104C is a high-performance gland packing designed for control valves operating under extreme industrial conditions. It offers excellent resilience, mechanical strength, and sealing reliability, making it ideal for high-pressure and high-temperature environments.",
+      "description": "PE 104C is designed for applications requiring low frictional property with high mechanical strength for applications like control valve.",
       "image": "/FZC Inmarco Product Shoot/PE 104/PE 104_Edited_1.webp",
       "specifications": {
         "Temperature Range": "-200°C to +260°C",
@@ -1945,12 +1944,10 @@
         "Standard": "ISO 15848-1, FDA 21 CFR 177.2600"
       },
       "features": [
-        "The packing is constructed using a combination of PTFE and carbon yarn, engineered for durability and high performance.",
-        "Its carbon yarn core is reinforced to withstand mechanical stress and thermal fluctuations in control valve operations.",
-        "The outer PTFE jacket provides excellent chemical resistance and ensures smooth, low-friction sealing.",
-        "Treated with a fluoropolymer dispersion and corrosion inhibitor, the packing resists degradation in aggressive media.",
-        "The PTFE suspensoid acts as a blocking agent, enhancing sealing efficiency and reducing leakage.",
-        "Designed for easy installation and removal, minimizing downtime during maintenance."
+        "Clean service design for minimal product contamination",
+        "Tough carbon fibre reinforcement provides high endurance resistance",
+        "Fluoropolymer jacketing provides ultra-low friction characteristics",
+        "Excellent chemical resistance"
       ],
       "applications": [
         "Pharmaceutical manufacturing pumps",
@@ -1980,7 +1977,7 @@
       "material": "POLYIMIDE",
       "apiCertified": false,
       "shortDescription": "Graphite enhanced polyimide packing",
-      "description": "HY 510 is a specially engineered packing for stern tube application in marine sector with balanced hybrid construction.",
+      "description": "PA 106G combines polyimide strength with graphite lubrication for enhanced thermal performance.",
       "image": "/FZC Inmarco Product Shoot/PA 106/PA 106_Edited_1.webp",
       "specifications": {
         "Temperature Range": "-100°C to +320°C",
@@ -1995,10 +1992,11 @@
         "Standard": "ISO 15848-1"
       },
       "features": [
-        "Excellent resiliency to counter eccentricity of shaft rotation, common in stern tube",
-        "Abrasion resistance for sea water application",
-        "Wide chemical resistance ensuring low maintenance",
-        "Easy installation and commissioning"
+        "Combines polyimide strength with graphite lubrication",
+        "Enhanced thermal conductivity for heat dissipation",
+        "Superior wear resistance and low friction",
+        "Excellent chemical and thermal stability",
+        "Extended service life in high-temperature applications"
       ],
       "applications": [
         "High-temperature chemical pumps",
@@ -2021,7 +2019,7 @@
       "material": "POLYIMIDE",
       "apiCertified": true,
       "shortDescription": "Enhanced polyimide compression packing",
-      "description": "PE 104C is designed for applications requiring low frictional property with high mechanical strength for applications like control valve.",
+      "description": "PA 106E is a cost effective polymide packing offering abrasion resistance for demanding applications.",
       "image": "/FZC Inmarco Product Shoot/PA 106/PA 106_Edited_1.webp",
       "specifications": {
         "Temperature Range": "-100°C to +320°C",
@@ -2040,10 +2038,11 @@
         "Standard": "ISO 15848-1, TA-Luft"
       },
       "features": [
-        "Clean service design for minimal product contamination",
-        "Tough carbon fibre reinforcement provides high endurance resistance",
-        "Fluoropolymer jacketing provides ultra-low friction characteristics",
-        "Excellent chemical resistance"
+        "Exceptional mechanical strength and durability with low shaft wear",
+        "Outstanding mechanical strength at elevated temperatures",
+        "Excellent chemical resistance across pH range",
+        "Outstanding dimensional stability under load",
+        "Low coefficient of friction"
       ],
       "applications": [
         "Critical refinery pumps and valves",
@@ -2066,7 +2065,7 @@
       "material": "POLYIMIDE",
       "apiCertified": true,
       "shortDescription": "Advanced polyimide packing",
-      "description": "INMARCO Style PA 104A is a high-performance gland packing developed for control valves in demanding industrial environments. It features an aramid yarn core that offers excellent mechanical strength and wear resistance. The outer PTFE jacket ensures smooth operation and chemical compatibility across various media.",
+      "description": "PA 104A is designed for applications requiring low frictional property with high mechanical strength for applications like control valve.",
       "image": "/FZC Inmarco Product Shoot/PA - 104A/PA 104A_Edited_4.JPG",
       "specifications": {
         "Temperature Range": "-120°C to +320°C",
@@ -2085,12 +2084,13 @@
         "Standard": "ISO 15848-1, TA-Luft, MESC SPE 77/312"
       },
       "features": [
-        "The packing is built around a high-strength aramid yarn core, offering excellent resistance to wear, abrasion, and mechanical stress ideal for dynamic valve operations.",
-        "The outer layer of pure PTFE yarn ensures low-friction sealing and superior chemical compatibility, enabling smooth valve movement and reduced energy loss.",
-        "The packing is treated with advanced fluoropolymer dispersion and corrosion inhibitors, enhancing its durability and resistance to aggressive industrial media.",
-        "A PTFE suspensoid acts as a blocking agent within the packing, effectively sealing micro-paths and minimizing leakage even under fluctuating conditions.",
-        "The packing adapts well to surface imperfections, ensuring a tight seal and reducing the risk of bypass leakage in both static and dynamic applications.",
-        "Designed for user convenience, PE 104A allows quick installation and removal, minimizing downtime during maintenance and improving operational efficiency."
+        "Clean service design for minimal product contamination",
+        "Advanced construction for extreme conditions",
+        "Tough aramid fibre reinforcement provides high endurance resistance",
+        "Fluoropolymer jacketing provides ultra-low friction characteristics",
+        "Exceptional resistance to thermal cycling",
+        "Superior mechanical properties under load",
+        "Outstanding dimensional stability"
       ],
       "applications": [
         "Nuclear power plant critical equipment",
@@ -2119,7 +2119,7 @@
       "material": "PTFE",
       "apiCertified": true,
       "shortDescription": "Premium PTFE compression packing",
-      "description": "The INMARCO Style PE 504P is crafted from Premium grade expanded PTFE with graphite, molecularly bonded for enhanced performance. It delivers exceptional chemical resistance, outstanding heat dissipation, and high resilience, ensuring a longer service life. Its anti-friction properties also help prevent wear and erosion on shafts and sleeves.",
+      "description": "PE 504P a premium grade fluoropolymer based packing offers reliable for high speed centrifugal pump with very low leakage requirement with excellent chemical resistance and wide temperature range.",
       "image": "/FZC Inmarco Product Shoot/PE 504/PE 504.webp",
       "specifications": {
         "Temperature Range": "-200°C to +260°C",
@@ -2138,12 +2138,15 @@
         "Standard": "ISO 15848-1, TA-Luft"
       },
       "features": [
-        "INMARCO Style PE 504P is made from a distinctive combination of Premium grade PTFE, Graphite, designed to deliver improved performance.",
-        "The packing is engineered to provide exceptional heat dissipation and chemical resistance in demanding industrial conditions.",
-        "Its friction-reducing design protects rotating machinery from wear and erosion during prolonged use.",
-        "The strong, durable build keeps its shape and ensures secure sealing even during changing conditions.",
-        "Its broad chemical compatibility enables usage across a variety of industrial applications.",
-        "Widely recognized across sectors for its reliable performance and low upkeep demands."
+        "Universal chemical resistance across full pH spectrum",
+        "Low coefficient of friction for extended service life",
+        "Self-lubricating design reduces maintenance",
+        "Ideal for high speed rotary application with high tightness class",
+        "Extended temperature range for versatile applications",
+        "Excellent wear resistance and durability",
+        "Reduced break-in time and easy installation",
+        "Ultra-low friction for extended service life",
+        "Excellent resilience and recovery properties"
       ],
       "applications": [
         "Premium chemical processing equipment",
@@ -2168,7 +2171,7 @@
       "material": "FUGITIVE EMISSION",
       "apiCertified": true,
       "shortDescription": "API 622 & API 607 certified low-emission, fire-safe compression packing",
-      "description": "PA 106G combines polyimide strength with graphite lubrication for enhanced thermal performance.",
+      "description": "An API certified graphite based low emission packing engineered for extreme conditions with exceptional temperature and pressure capabilities.",
       "image": "/FZC Inmarco Product Shoot/Ultra FE 1002/Ultra FE 1002_1(1).webp",
       "gallery": [
         "/FZC Inmarco Product Shoot/Ultra FE 1002/Ultra FE 1002_1.webp",
@@ -2191,11 +2194,10 @@
         "Applications": "Pumps, valves, mixers, agitators"
       },
       "features": [
-        "Combines polyimide strength with graphite lubrication",
-        "Enhanced thermal conductivity for heat dissipation",
-        "Superior wear resistance and low friction",
-        "Excellent chemical and thermal stability",
-        "Extended service life in high-temperature applications"
+        "API 622 certified fugitive emission control",
+        "API 607 fire-safe performance",
+        "Low friction, minimal shaft wear",
+        "Available in both continuous length as well as preformed ring"
       ],
       "applications": [
         "Environmentally sensitive installations",
@@ -2218,7 +2220,7 @@
       "material": "FUGITIVE EMISSION",
       "apiCertified": true,
       "shortDescription": "Near-zero emission packing",
-      "description": "PA 106E is a cost effective polymide packing offering abrasion resistance for demanding applications.",
+      "description": "ULTRA FE 1003 is a high-performance, ultra-low emission packing set engineered with exceptionally low friction and superior oxidation resistance. Designed to meet and exceed evolving industry environmental standards and future regulatory requirements.",
       "image": "/FZC Inmarco Product Shoot/Ultra FE 1003/Ultra FE 1003_2.webp",
       "specifications": {
         "Temperature Range": "-100°C to +290°C",
@@ -2238,11 +2240,13 @@
         "Standard": "ISO 15848-1, EPA Method 21"
       },
       "features": [
-        "Exceptional mechanical strength and durability with low shaft wear",
-        "Outstanding mechanical strength at elevated temperatures",
-        "Excellent chemical resistance across pH range",
-        "Outstanding dimensional stability under load",
-        "Low coefficient of friction"
+        "API 622 certified with ultra low emission performance <20 ppm",
+        "API 607 compliant with zero leakage during and after fire exposure",
+        "Minimizes equipment maintenance while delivering exceptional operational performance",
+        "Ultra low oxidation ensuring superior resistance to thermal cycling",
+        "Extremely low friction and low sealing stress",
+        "Extended equipment life",
+        "Several value additions to valve performance"
       ],
       "applications": [
         "Critical environmental compliance installations",
@@ -2270,7 +2274,7 @@
       "material": "FUGITIVE EMISSION",
       "apiCertified": true,
       "shortDescription": "Low temperature fugitive emission packing",
-      "description": "PA 104A is designed for applications requiring low frictional property with high mechanical strength for applications like control valve.",
+      "description": "ULTRA LT 1004 delivers exceptional sealing integrity with ultra-low emissions in cryogenic and low-temperature applications. Ideal for demanding LNG control valve service, this packing is engineered to maintain reliable performance in extreme cold while minimizing emissions and extending service life.",
       "image": "/FZC Inmarco Product Shoot/Ultra LE 1004/Ultra LE 1004.webp",
       "specifications": {
         "Temperature Range": "-270°C to +260°C",
@@ -2290,13 +2294,11 @@
         "Standard": "ISO 15848-1, cryogenic standards"
       },
       "features": [
-        "Clean service design for minimal product contamination",
-        "Advanced construction for extreme conditions",
-        "Tough aramid fibre reinforcement provides high endurance resistance",
-        "Fluoropolymer jacketing provides ultra-low friction characteristics",
-        "Exceptional resistance to thermal cycling",
-        "Superior mechanical properties under load",
-        "Outstanding dimensional stability"
+        "Designed to work in high endurance upto 100,000 cycles with highest tightness class",
+        "Very Low friction ensuring high equipment life and low maintenance",
+        "Maintains flexibility at extreme low temperatures",
+        "Excellent thermal shock resistance",
+        "Suitable for LNG and cryogenic applications"
       ],
       "applications": [
         "LNG processing and storage",
@@ -2324,7 +2326,7 @@
       "material": "FUGITIVE EMISSION",
       "apiCertified": true,
       "shortDescription": "Nuclear grade fugitive emission packing",
-      "description": "PE 504P a premium grade fluoropolymer based packing offers reliable for high speed centrifugal pump with very low leakage requirement with excellent chemical resistance and wide temperature range.",
+      "description": "ULTRA NE 1005 is an ultra-low emission braided packing available in both continuous rope and preformed ring configurations. Engineered to meet stringent emission standards with exceptional operational compliance and reliability.",
       "image": "/FZC Inmarco Product Shoot/Ultra LE 1005/Ultra LE 1005_2.webp",
       "specifications": {
         "Temperature Range": "-100°C to +300°C",
@@ -2345,15 +2347,12 @@
         "Standard": "ISO 15848-1, nuclear industry standards"
       },
       "features": [
-        "Universal chemical resistance across full pH spectrum",
-        "Low coefficient of friction for extended service life",
-        "Self-lubricating design reduces maintenance",
-        "Ideal for high speed rotary application with high tightness class",
-        "Extended temperature range for versatile applications",
-        "Excellent wear resistance and durability",
-        "Reduced break-in time and easy installation",
-        "Ultra-low friction for extended service life",
-        "Excellent resilience and recovery properties"
+        "High-purity graphite with exclusive impregnation technology and excellent thermal stability",
+        "Low detrimental material content provides virtually zero loss at elevated temperature",
+        "Proprietary impregnation technology provides friction free performance even for high endurance",
+        "Flexible ring configuration suitable for shallow stuffing box applications",
+        "Supports evolving environmental compliance and ambitious Net Zero emission targets",
+        "An ideal choice to several control valve brands for emission compliance"
       ],
       "applications": [
         "Nuclear power plant primary systems",
@@ -2381,7 +2380,7 @@
       "material": "HYBRID",
       "apiCertified": true,
       "shortDescription": "Heavy-duty hybrid packing",
-      "description": "An API certified graphite based low emission packing engineered for extreme conditions with exceptional temperature and pressure capabilities.",
+      "description": "HY 105 HD is engineered for extreme service conditions with enhanced durability in fertiliser industry.",
       "image": "/FZC Inmarco Product Shoot/HY 105/HY 105_2.webp",
       "specifications": {
         "Temperature Range": "-100°C to +290°C",
@@ -2400,10 +2399,11 @@
         "Standard": "ISO 15848-1, TA-Luft"
       },
       "features": [
-        "API 622 certified fugitive emission control",
-        "API 607 fire-safe performance",
-        "Low friction, minimal shaft wear",
-        "Available in both continuous length as well as preformed ring"
+        "Heavy-duty construction for severe applications",
+        "Preformed under heavy load making it most suitable for reciprocating motion",
+        "Enhanced abrasion and wear resistance",
+        "Superior load-bearing capability",
+        "Extended service life in harsh environments"
       ],
       "applications": [
         "Severe duty mining pumps",
@@ -2433,7 +2433,7 @@
       "material": "HYBRID",
       "apiCertified": true,
       "shortDescription": "Heavy-duty premium hybrid packing",
-      "description": "ULTRA FE 1003 is a high-performance, ultra-low emission packing set engineered with exceptionally low friction and superior oxidation resistance. Designed to meet and exceed evolving industry environmental standards and future regulatory requirements.",
+      "description": "HY 107 HD is engineered for extreme service conditions with enhanced durability in fertiliser industry.",
       "image": "/FZC Inmarco Product Shoot/HY 107 HD/HY 107 HD_1.webp",
       "specifications": {
         "Temperature Range": "-100°C to +300°C",
@@ -2452,13 +2452,12 @@
         "Standard": "ISO 15848-1, TA-Luft, MESC SPE 77/312"
       },
       "features": [
-        "API 622 certified with ultra low emission performance <20 ppm",
-        "API 607 compliant with zero leakage during and after fire exposure",
-        "Minimizes equipment maintenance while delivering exceptional operational performance",
-        "Ultra low oxidation ensuring superior resistance to thermal cycling",
-        "Extremely low friction and low sealing stress",
-        "Extended equipment life",
-        "Several value additions to valve performance"
+        "Specially developed for critical applications like, ammonia and carbamate pump",
+        "Heavy-duty construction for severe applications",
+        "Preformed under heavy load making it most suitable for reciprocating motion",
+        "Enhanced abrasion and wear resistance",
+        "Superior load-bearing capability",
+        "Extended service life in harsh environments"
       ],
       "applications": [
         "Extreme duty mining and mineral processing",
@@ -2483,7 +2482,7 @@
       "material": "ORGANIC",
       "apiCertified": true,
       "shortDescription": "Steam resistant organic packing",
-      "description": "ULTRA LT 1004 delivers exceptional sealing integrity with ultra-low emissions in cryogenic and low-temperature applications. Ideal for demanding LNG control valve service, this packing is engineered to maintain reliable performance in extreme cold while minimizing emissions and extending service life.",
+      "description": "OR 125SR is general purpose packing made from organic fibre with resilient elastomeric core to enhance resiliency.",
       "image": "/FZC Inmarco Product Shoot/OR 125 SR/OR 125 SR_1.webp",
       "specifications": {
         "Temperature Range": "-30°C to +200°C",
@@ -2502,11 +2501,11 @@
         "Standard": "ISO 15848-1"
       },
       "features": [
-        "Designed to work in high endurance upto 100,000 cycles with highest tightness class",
-        "Very Low friction ensuring high equipment life and low maintenance",
-        "Maintains flexibility at extreme low temperatures",
-        "Excellent thermal shock resistance",
-        "Suitable for LNG and cryogenic applications"
+        "Non-toxic and non-contaminating",
+        "Elastomeric core enhances resiliency to counter eccentricity in rotation for old equipment",
+        "Maintains performance in wide temperature range",
+        "Minimal shaft wear and longer equipment life",
+        "Easy to clean and sanitize"
       ],
       "applications": [
         "Steam turbine gland sealing",
@@ -2536,7 +2535,7 @@
       "material": "INSULATION",
       "apiCertified": true,
       "shortDescription": "Premium silica insulation",
-      "description": "ULTRA NE 1005 is an ultra-low emission braided packing available in both continuous rope and preformed ring configurations. Engineered to meet stringent emission standards with exceptional operational compliance and reliability.",
+      "description": "IN 126 offers superior thermal insulation for demanding applications with premium silica fibre.",
       "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
       "specifications": {
         "Temperature Range": "-100°C to +1050°C",
@@ -2550,12 +2549,11 @@
         "Standard": "ASTM E84, international fire codes"
       },
       "features": [
-        "High-purity graphite with exclusive impregnation technology and excellent thermal stability",
-        "Low detrimental material content provides virtually zero loss at elevated temperature",
-        "Proprietary impregnation technology provides friction free performance even for high endurance",
-        "Flexible ring configuration suitable for shallow stuffing box applications",
-        "Supports evolving environmental compliance and ambitious Net Zero emission targets",
-        "An ideal choice to several control valve brands for emission compliance"
+        "Premium performance for most demanding applications",
+        "Ultra-low thermal conductivity for energy efficiency",
+        "Exceptional temperature stability to 1100°C",
+        "Superior chemical resistance",
+        "Long service life with minimal degradation"
       ],
       "applications": [
         "Premium furnace and kiln insulation",
@@ -2573,7 +2571,7 @@
       "material": "GRAPHITE MOULDED",
       "apiCertified": true,
       "shortDescription": "Grafoil moulded ring",
-      "description": "Specially designed wiping pad for the wire drawing industry, providing exceptional strength and durability for high-speed operations.",
+      "description": "GM 300Z is a precision-moulded graphite ring for static sealing applications with exceptional performance.",
       "image": "/FZC Inmarco Product Shoot/GM 300Z/GM 300 Z -28_01.JPG",
       "specifications": {
         "Temperature Range": "pH 0-14, up to 650°C",
@@ -2596,12 +2594,13 @@
         "Standard": "Shell MESC SPE 85/203 certified for oxidation"
       },
       "features": [
-        "Dense construction with long life",
-        "Low wear rate and extended service life under continuous stress",
-        "PTFE impregnation ensures consistent wire galvanization",
-        "High melting point",
-        "Engineered to withstand continuous friction and mechanical wear",
-        "Superior abrasion resistance compared to conventional pads"
+        "Ultra-high purity graphite (≥99.85%) with exceptionally low halogen content",
+        "Built-in oxidation inhibitor for extended service life",
+        "Suitable for both rotary and rising-stem valve applications",
+        "Fire-safe design provides additional safety",
+        "Free from binders, elastomers, and fillers ensuring purity",
+        "Exceptional thermal conductivity for heat management",
+        "Low coefficient of friction reduces wear"
       ],
       "applications": [
         "Nuclear power generation valve sealing",
@@ -2628,7 +2627,7 @@
       "material": "GRAPHITE MOULDED",
       "apiCertified": true,
       "shortDescription": "Clean service grafoil moulded ring",
-      "description": "HY 105 HD is engineered for extreme service conditions with enhanced durability in fertiliser industry.",
+      "description": "GM 310C is a graphite pressure seal ring with anti-extrusion metallic end cap on top & bottom",
       "image": "/FZC Inmarco Product Shoot/GM 310C/GM 310 C- 29_05.JPG",
       "specifications": {
         "Temperature Range": "pH 0-14, up to 670°C",
@@ -2647,11 +2646,12 @@
         "Standard": "Tested in Thermo Gravimetric Analyser"
       },
       "features": [
-        "Heavy-duty construction for severe applications",
-        "Preformed under heavy load making it most suitable for reciprocating motion",
-        "Enhanced abrasion and wear resistance",
-        "Superior load-bearing capability",
-        "Extended service life in harsh environments"
+        "Available with different graphite purity depending on application",
+        "SS/Inconel end caps provide exceptional extrusion resistance",
+        "Extremely low oxidation rate at elevated temperatures",
+        "Low detrimental material content prevents decomposition",
+        "Available with wire mesh reinforcement for very high-pressure applications",
+        "Multiple construction types for varied industrial needs"
       ],
       "applications": [
         "Pressure seal valves in demanding service",
@@ -2678,7 +2678,7 @@
       "material": "EXPANDED PTFE",
       "apiCertified": true,
       "shortDescription": "Expanded PTFE gasket sheet",
-      "description": "HY 107 HD is engineered for extreme service conditions with enhanced durability in fertiliser industry.",
+      "description": "INMATEX ePTFE sheet provides superior chemical resistance and sealing performance with very low seating stress in flange joint management.",
       "image": "/FZC Inmarco Product Shoot/Inmatex PTFE Gasket/Inmatex PTFE_1.webp",
       "specifications": {
         "Temperature Range": "-240°C to +260°C",
@@ -2696,12 +2696,11 @@
         "Standard": "ASTM F3369, DIN 28091"
       },
       "features": [
-        "Specially developed for critical applications like, ammonia and carbamate pump",
-        "Heavy-duty construction for severe applications",
-        "Preformed under heavy load making it most suitable for reciprocating motion",
-        "Enhanced abrasion and wear resistance",
-        "Superior load-bearing capability",
-        "Extended service life in harsh environments"
+        "Universal chemical resistance across full pH range",
+        "Excellent conformability to irregular surfaces",
+        "Low creep relaxation ensuring high bolt load retention capacity",
+        "Superior cold flow resistance",
+        "Low emission compliance"
       ],
       "applications": [
         "Aggressive chemical flange sealing",
@@ -2727,7 +2726,7 @@
       "material": "LAMINATED GRAPHITE",
       "apiCertified": false,
       "shortDescription": "Laminated graphite ring gasket for high-temperature applications",
-      "description": "OR 125SR is general purpose packing made from organic fibre with resilient elastomeric core to enhance resiliency.",
+      "description": "GM 360 is a premium laminated graphite ring gasket engineered for extreme temperature and pressure sealing applications. Features multiple layers of flexible graphite for superior sealing performance.",
       "image": "/FZC Inmarco Product Shoot/S 360/S 360 - 95.JPG",
       "specifications": {
         "Temperature Range": "-200°C to +360°C",
@@ -2740,11 +2739,11 @@
         "Size Range": "DN15 to DN600"
       },
       "features": [
-        "Non-toxic and non-contaminating",
-        "Elastomeric core enhances resiliency to counter eccentricity in rotation for old equipment",
-        "Maintains performance in wide temperature range",
-        "Minimal shaft wear and longer equipment life",
-        "Easy to clean and sanitize"
+        "Exceptional temperature resistance",
+        "Multi-layer construction",
+        "Excellent conformability",
+        "Chemical resistance",
+        "Thermal stability"
       ],
       "applications": [
         "High-temperature piping",
@@ -2767,7 +2766,7 @@
       "material": "FLANGE ISOLATION",
       "apiCertified": true,
       "shortDescription": "API 6FB fire safe isolation gasket kit",
-      "description": "INMARCO Insulation Gasket Kit is a high-integrity sealing and isolation solution developed for critical applications where fire safety, fluid containment, and electrical isolation are essential. Designed for high-pressure environments, especially in offshore and industrial settings, this kit features a metal-reinforced epoxy plate with a double sealing structure that ensures reliable performance even during fire incidents.",
+      "description": "Complete flange isolation gasket kit certified as per API 6FB fire safe standards for cathodic protection and electrical isolation.",
       "image": "/FZC Inmarco Product Shoot/Insulation Gasket Kit/IG_1.webp",
       "specifications": {
         "Temperature Range": "-40°C to +150°C",
@@ -2788,7 +2787,7 @@
         "API 6FB fire safe certified design",
         "Complete cathodic protection isolation",
         "ASTM B117 salt spray corrosion resistant",
-        "Methane and helium leak tested",
+        "Methane and helium-nitrogen leak tested",
         "Long service life in harsh environments"
       ],
       "applications": [
@@ -2816,7 +2815,7 @@
       "material": "THERMAL PROTECTION",
       "apiCertified": true,
       "shortDescription": "Heavy-duty welding blanket",
-      "description": "IN 126 offers superior thermal insulation for demanding applications with premium silica fibre.",
+      "description": "750SS provides reliable thermal protection for welding/grinding and high-temperature thermal insulation.",
       "image": "/FZC Inmarco Product Shoot/Welding Blanket 750SS/Welding Gasket_2.webp",
       "specifications": {
         "Service Temperature": "1100°C continuous",
@@ -2837,11 +2836,13 @@
         "Certification": "UL-94 Class V0, ISO 15025"
       },
       "features": [
-        "Premium performance for most demanding applications",
-        "Ultra-low thermal conductivity for energy efficiency",
-        "Exceptional temperature stability to 1100°C",
-        "Superior chemical resistance",
-        "Long service life with minimal degradation"
+        "Heavy duty insulation fabric with specially formulated acid treatment",
+        "Vermiculite coating enhances properties",
+        "Continuous use at 2000°F (1100°C), short-term up to 2550°F (1400°C)",
+        "Electrically and thermally insulating, used for making retrofit welding booth and heat protection",
+        "Qualified as per UL-94 Class V0 flamability standard",
+        "Enhanced abrasion resistance and tensile strength",
+        "No flashing and no after-glow during testing"
       ],
       "applications": [
         "Welding spark and cutting spatter protection",
@@ -2873,7 +2874,7 @@
       "material": "LAMINAR METAL",
       "apiCertified": false,
       "shortDescription": "Multi-layer laminar metallic gasket",
-      "description": "GM 300Z is a precision-moulded graphite ring for static sealing applications with exceptional performance.",
+      "description": "High-performance metallic gasket for extreme temperature and pressure applications with multi-layer construction.",
       "image": "/FZC Inmarco Product Shoot/Laminar Gasket/Laminar Gasket_1.webp",
       "specifications": {
         "Temperature Range": "-200°C to +800°C",
@@ -2886,13 +2887,12 @@
         "Standard": "ASME B16.20, DIN 2696, BS standards"
       },
       "features": [
-        "Ultra-high purity graphite (≥99.85%) with exceptionally low halogen content",
-        "Built-in oxidation inhibitor for extended service life",
-        "Suitable for both rotary and rising-stem valve applications",
-        "Fire-safe design provides additional safety",
-        "Free from binders, elastomers, and fillers ensuring purity",
-        "Exceptional thermal conductivity for heat management",
-        "Low coefficient of friction reduces wear"
+        "Multi-layer construction for superior sealing",
+        "Extreme temperature and pressure capability",
+        "Excellent resilience and recovery",
+        "Available in various metallurgies",
+        "Suitable for thermal cycling applications",
+        "High cycle life & leak – tight performance."
       ],
       "applications": [
         "High-pressure steam systems",
@@ -2932,7 +2932,8 @@
         "Low bolt load requirements",
         "Excellent for heat exchanger applications",
         "High blowout resistance",
-        "Reusable in many applications"
+        "Reusable metal core reduces maintenance cost",
+        "Ideal for high – stress sealing applications"
       ],
       "applications": [
         "Heat exchangers",
@@ -2955,7 +2956,7 @@
       "material": "PRECISION METAL SHIM",
       "apiCertified": false,
       "shortDescription": "Precision metal shim gaskets for tight tolerances",
-      "description": "INMATEX ePTFE sheet provides superior chemical resistance and sealing performance with very low seating stress in flange joint management.",
+      "description": "Ultra-thin precision metal gaskets designed for applications requiring tight sealing with minimal compression.",
       "image": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
       "specifications": {
         "Temperature Range": "-200°C to +600°C",
@@ -2968,11 +2969,11 @@
         "Standard": "Custom to application"
       },
       "features": [
-        "Universal chemical resistance across full pH range",
-        "Excellent conformability to irregular surfaces",
-        "Low creep relaxation ensuring high bolt load retention capacity",
-        "Superior cold flow resistance",
-        "Low emission compliance"
+        "Precise thickness control",
+        "Low compression set",
+        "Excellent for machined surfaces",
+        "Cost-effective solution",
+        "Available in multiple materials & custom sizes"
       ],
       "applications": [
         "Precision machinery",
@@ -2990,7 +2991,7 @@
       "material": "JACKETED METAL",
       "apiCertified": false,
       "shortDescription": "Metal jacketed gaskets with soft filler core",
-      "description": "Complete flange isolation gasket kit certified as per API 6FB fire safe standards for cathodic protection and electrical isolation.",
+      "description": "Robust double-jacketed metal gaskets combining chemical resistance of metal with conformability of soft filler material.",
       "image": "/FZC Inmarco Product Shoot/DJ/DJ.webp",
       "specifications": {
         "Temperature Range": "-200°C to +800°C",
@@ -3003,18 +3004,11 @@
         "Standard": "ASME B16.20"
       },
       "features": [
-        "API 6FB fire safe certified design",
-        "Complete cathodic protection isolation",
-        "ASTM B117 salt spray corrosion resistant",
-        "Methane and helium-nitrogen leak tested",
-        "Long service life in harsh environments",
-        "Heavy duty insulation fabric with specially formulated acid treatment",
-        "Vermiculite coating enhances properties",
-        "Continuous use at 2000°F (1100°C), short-term up to 2550°F (1400°C)",
-        "Electrically and thermally insulating, used for making retrofit welding booth and heat protection",
-        "Qualified as per UL-94 Class V0 flamability standard",
-        "Enhanced abrasion resistance and tensile strength",
-        "No flashing and no after-glow during testing"
+        "Superior chemical resistance",
+        "High temperature capability",
+        "Excellent conformability",
+        "Protects filler from chemical attack",
+        "Suitable for damaged flanges"
       ],
       "applications": [
         "Chemical processing",
@@ -3042,7 +3036,7 @@
       "material": "SOLID METAL RING",
       "apiCertified": true,
       "shortDescription": "RTJ ring gaskets for high-pressure applications",
-      "description": "Solid metal ring gaskets designed for extreme pressure applications in oil and gas, meeting API specifications.",
+      "description": "Solid metal ring gaskets designed for extreme pressure applications in oil and gas.",
       "image": "/FZC Inmarco Product Shoot/RTJ 3167/RTJ 3167-15_05.JPG",
       "specifications": {
         "Temperature Range": "-200°C to +800°C",
@@ -3058,7 +3052,6 @@
         "Extreme pressure capability",
         "Metal-to-metal sealing",
         "Self-energizing design",
-        "API 6A certified",
         "Suitable for wellhead applications"
       ],
       "applications": [
@@ -3084,7 +3077,7 @@
       "material": "CORRUGATED METAL",
       "apiCertified": false,
       "shortDescription": "Corrugated metal gaskets for flexible sealing",
-      "description": "High-performance metallic gasket for extreme temperature and pressure applications with multi-layer construction.",
+      "description": "Flexible corrugated metal gaskets providing excellent resilience and adaptability to flange irregularities.",
       "image": "/FZC Inmarco Product Shoot/Corrugated Gasket/Corrugated Gasket_3.webp",
       "specifications": {
         "Temperature Range": "-200°C to +700°C",
@@ -3097,12 +3090,11 @@
         "Standard": "ASME B16.20, DIN standards"
       },
       "features": [
-        "Multi-layer construction for superior sealing",
-        "Extreme temperature and pressure capability",
-        "Excellent resilience and recovery",
-        "Available in various metallurgies",
-        "Suitable for thermal cycling applications",
-        "High cycle life & leak – tight performance."
+        "High flexibility and resilience",
+        "Accommodates flange movement",
+        "Low bolt load requirements",
+        "Excellent recovery properties",
+        "Suitable for thermal cycling"
       ],
       "applications": [
         "Heat exchangers",
@@ -3130,7 +3122,7 @@
       "material": "SOFT IRON",
       "apiCertified": false,
       "shortDescription": "Soft iron ring gaskets for extreme pressure",
-      "description": "High-performance serrated metal gasket combining the resilience of soft materials with the strength of metal for demanding applications.",
+      "description": "Premium soft iron ring gaskets designed for extreme pressure and temperature applications with excellent conformability.",
       "image": "/FZC Inmarco Product Shoot/Soft Iron/Soft Iron.webp",
       "specifications": {
         "Temperature Range": "-50°C to +400°C",
@@ -3143,12 +3135,11 @@
         "Standard": "API 6A"
       },
       "features": [
-        "Serrated core for excellent sealing",
-        "Low bolt load requirements",
-        "Excellent for heat exchanger applications",
-        "High blowout resistance",
-        "Reusable metal core reduces maintenance cost",
-        "Ideal for high – stress sealing applications"
+        "Excellent conformability",
+        "High pressure sealing",
+        "Cost-effective for iron flanges",
+        "Good machinability",
+        "Reliable performance"
       ],
       "applications": [
         "High-pressure steam",
@@ -3171,7 +3162,7 @@
       "material": "CNAF",
       "apiCertified": false,
       "shortDescription": "Compressed non-asbestos fiber gasket material",
-      "description": "Ultra-thin precision metal gaskets designed for applications requiring tight sealing with minimal compression.",
+      "description": "NA 432 is a premium compressed non-asbestos fiber gasket sheet designed for general industrial applications with excellent sealing properties.",
       "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
       "specifications": {
         "Temperature Range": "-200°C to +150°C",
@@ -3190,11 +3181,11 @@
         "Standard": "ASTM F 152, ASTM F 36 J, DIN 52913"
       },
       "features": [
-        "Precise thickness control",
-        "Low compression set",
-        "Excellent for machined surfaces",
-        "Cost-effective solution",
-        "Available in multiple materials & custom sizes"
+        "Suitable for general purpose applications with organic fibers",
+        "Bound with NBR/Nitrile Butadiene Rubber",
+        "Excellent resistance to oils, fuels, water",
+        "Cost-effective solution for medium service conditions",
+        "Good compressibility and recovery properties"
       ],
       "applications": [
         "Medium like oil, steam, fuel, water applications",
@@ -3212,7 +3203,7 @@
       "material": "CNAF",
       "apiCertified": false,
       "shortDescription": "High-performance compressed non-asbestos fiber gasket",
-      "description": "Robust double-jacketed metal gaskets combining chemical resistance of metal with conformability of soft filler material.",
+      "description": "NA 420 compressed non-asbestos fiber gasket sheet for moderate temperature and pressure applications.",
       "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
       "specifications": {
         "Temperature Range": "-200°C to +220°C",
@@ -3230,11 +3221,11 @@
         "Standard": "ASTM F 152, ASTM F 36 J, DIN 52913"
       },
       "features": [
-        "Superior chemical resistance",
-        "High temperature capability",
-        "Excellent conformability",
-        "Protects filler from chemical attack",
-        "Suitable for damaged flanges"
+        "High quality CNAF sheet with mineral and aramid fibers",
+        "Suitable for oils, fuels, lubricants, alcohols, gases",
+        "Good chemical resistance across various media",
+        "Enhanced temperature performance up to 220°C",
+        "Suitable for medium stress conditions"
       ],
       "applications": [
         "Oils, fuels, lubricants",
@@ -3252,7 +3243,7 @@
       "material": "CNAF",
       "apiCertified": false,
       "shortDescription": "Premium compressed non-asbestos fiber gasket",
-      "description": "Solid metal ring gaskets designed for extreme pressure applications in oil and gas.",
+      "description": "NA 450 premium CNAF gasket material for high-temperature industrial applications.",
       "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
       "specifications": {
         "Temperature Range": "-200°C to +250°C",
@@ -3271,10 +3262,11 @@
         "Standard": "ASTM F 152, ASTM F 36 J, DIN 52913"
       },
       "features": [
-        "Extreme pressure capability",
-        "Metal-to-metal sealing",
-        "Self-energizing design",
-        "Suitable for wellhead applications"
+        "High quality CNAF Sheet with Aramid fiber",
+        "Enhanced temperature capability up to 250°C",
+        "Superior tensile strength and recovery",
+        "Suitable for medium stress applications",
+        "Good performance in oils, fuels, and lubricants"
       ],
       "applications": [
         "Oils, fuels, lubricants",
@@ -3292,7 +3284,7 @@
       "material": "CNAF",
       "apiCertified": false,
       "shortDescription": "General equipment compressed non-asbestos fiber gasket",
-      "description": "Flexible corrugated metal gaskets providing excellent resilience and adaptability to flange irregularities.",
+      "description": "NA 452 GF is designed for general equipment applications with enhanced sealing performance.",
       "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
       "specifications": {
         "Temperature Range": "-200°C to +300°C",
@@ -3311,11 +3303,11 @@
         "Standard": "ASTM F 152, ASTM F 36 J, DIN 52913"
       },
       "features": [
-        "High flexibility and resilience",
-        "Accommodates flange movement",
-        "Low bolt load requirements",
-        "Excellent recovery properties",
-        "Suitable for thermal cycling"
+        "High quality CNAF Sheet with Aramid and Glass fiber",
+        "Excellent high temperature performance up to 300°C",
+        "Superior mechanical properties",
+        "Suitable for high stress conditions",
+        "Good chemical resistance to acids and alkalies"
       ],
       "applications": [
         "Oils, fuels, lubricants, alcohols, gases",
@@ -3333,7 +3325,7 @@
       "material": "CNAF",
       "apiCertified": false,
       "shortDescription": "Standard compressed non-asbestos fiber gasket",
-      "description": "Premium soft iron ring gaskets designed for extreme pressure and temperature applications with excellent conformability.",
+      "description": "NA 430 standard CNAF gasket material for general industrial sealing applications.",
       "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
       "specifications": {
         "Temperature Range": "-200°C to +300°C",
@@ -3351,11 +3343,11 @@
         "Standard": "ASTM F 152, ASTM F 36 J, DIN 52913"
       },
       "features": [
-        "Excellent conformability",
-        "High pressure sealing",
-        "Cost-effective for iron flanges",
-        "Good machinability",
-        "Reliable performance"
+        "Premium metallic grade with SS wire mesh reinforcement",
+        "High tenacity Aramid fiber with organic fibers",
+        "Calendered for superior finish",
+        "Excellent for oils, fuels, lubricants, alcohols",
+        "Suitable for medium stress conditions"
       ],
       "applications": [
         "Oils, fuels, lubricants, alcohols",
@@ -3373,7 +3365,7 @@
       "material": "CNAF",
       "apiCertified": false,
       "shortDescription": "High-quality compressed non-asbestos fiber gasket",
-      "description": "GM 360 is a premium laminated graphite ring gasket engineered for extreme temperature and pressure sealing applications. Features multiple layers of flexible graphite for superior sealing performance.",
+      "description": "NA 442 high-quality CNAF material for demanding industrial sealing applications.",
       "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
       "specifications": {
         "Temperature Range": "-200°C to +450°C",
@@ -3388,11 +3380,12 @@
         "Standard": "ASME B16.21"
       },
       "features": [
-        "Exceptional temperature resistance",
-        "Multi-layer construction",
-        "Excellent conformability",
-        "Chemical resistance",
-        "Thermal stability"
+        "High performance",
+        "Excellent recovery",
+        "Chemical resistant",
+        "Low creep",
+        "Durable",
+        "carbon fibers enhance the performance of sheet material"
       ],
       "applications": [
         "Chemical plants",
@@ -3410,7 +3403,7 @@
       "material": "CNAF",
       "apiCertified": false,
       "shortDescription": "Stainless steel reinforced CNAF gasket",
-      "description": "NA 432 is a premium compressed non-asbestos fiber gasket sheet designed for general industrial applications with excellent sealing properties.",
+      "description": "SST 323 stainless steel reinforced compressed graphite sheet for enhanced performance.",
       "image": "/FZC Inmarco Product Shoot/SS Gasket/SS Gasket_2.webp",
       "specifications": {
         "Temperature Range": "-200°C to +400°C",
@@ -3426,11 +3419,11 @@
         "Reinforcement": "Stainless steel insert"
       },
       "features": [
-        "Suitable for general purpose applications with organic fibers",
-        "Bound with NBR/Nitrile Butadiene Rubber",
-        "Excellent resistance to oils, fuels, water",
-        "Cost-effective solution for medium service conditions",
-        "Good compressibility and recovery properties"
+        "Stainless steel reinforced",
+        "Enhanced durability",
+        "Corrosion resistant",
+        "High strength",
+        "Long lasting"
       ],
       "applications": [
         "Corrosive services",
@@ -3458,7 +3451,7 @@
       "material": "PTFE",
       "apiCertified": false,
       "shortDescription": "Premium sintered PTFE gasket sheet",
-      "description": "NA 420 compressed non-asbestos fiber gasket sheet for moderate temperature and pressure applications.",
+      "description": "600 grade sintered PTFE sheet gasket offering excellent chemical resistance and sealing performance for aggressive media.",
       "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
       "specifications": {
         "Temperature Range": "-240°C to +260°C",
@@ -3473,11 +3466,10 @@
         "Grade": "600 series"
       },
       "features": [
-        "High quality CNAF sheet with mineral and aramid fibers",
-        "Suitable for oils, fuels, lubricants, alcohols, gases",
-        "Good chemical resistance across various media",
-        "Enhanced temperature performance up to 220°C",
-        "Suitable for medium stress conditions"
+        "Universal chemical resistance",
+        "High purity",
+        "Low friction",
+        "Non-contaminating"
       ],
       "applications": [
         "Aggressive chemicals",
@@ -3496,7 +3488,7 @@
       "material": "Copolymer Yarn with High-Tensile Inorganic Filaments",
       "apiCertified": true,
       "shortDescription": "High-performance wiping pad made from copolymer yarn for wire drawing and galvanizing industries",
-      "description": "NA 450 premium CNAF gasket material for high-temperature industrial applications.",
+      "description": "Specially designed wiping pad for the wire drawing industry, providing exceptional strength and durability for high-speed operations.",
       "image": "/FZC Inmarco Product Shoot/Yellow Wiping Pad/Yellow Wiping Pad_2.webp",
       "specifications": {
         "Temperature Range": "-200°C to +450°C",
@@ -3511,11 +3503,12 @@
         "Service Life": "Longer working life than conventional wiping pads"
       },
       "features": [
-        "High quality CNAF Sheet with Aramid fiber",
-        "Enhanced temperature capability up to 250°C",
-        "Superior tensile strength and recovery",
-        "Suitable for medium stress applications",
-        "Good performance in oils, fuels, and lubricants"
+        "Dense construction with long life",
+        "Low wear rate and extended service life under continuous stress",
+        "PTFE impregnation ensures consistent wire galvanization",
+        "High melting point",
+        "Engineered to withstand continuous friction and mechanical wear",
+        "Superior abrasion resistance compared to conventional pads"
       ],
       "applications": [
         "Wire drawing operations",
@@ -3545,7 +3538,7 @@
       "material": "Hybrid Blend of Carbon Fiber, Volcanic Rock Fiber, and Alumino Silicate Fiber",
       "apiCertified": true,
       "shortDescription": "Extreme temperature resistant wiping pad crafted from hybrid fiber blend for demanding industrial environments",
-      "description": "NA 452 GF is designed for general equipment applications with enhanced sealing performance.",
+      "description": "Specially designed wiping pad for the wire drawing industry, providing exceptional strength and durability for high-speed operations.",
       "image": "/FZC Inmarco Product Shoot/Wiping Pad/Wiping Pad_2.webp",
       "specifications": {
         "Temperature Range": "-200°C to +650°C",
@@ -3559,11 +3552,12 @@
         "Service Life": "3-4 times longer than conventional co-polymer yarn pads"
       },
       "features": [
-        "High quality CNAF Sheet with Aramid and Glass fiber",
-        "Excellent high temperature performance up to 300°C",
-        "Superior mechanical properties",
-        "Suitable for high stress conditions",
-        "Good chemical resistance to acids and alkalies"
+        "Dense construction with long life",
+        "Low wear rate and extended service life under continuous stress",
+        "PTFE impregnation ensures consistent wire galvanization",
+        "High melting point",
+        "Engineered to withstand continuous friction and mechanical wear",
+        "Superior abrasion resistance compared to conventional pads"
       ],
       "applications": [
         "High-temperature wire drawing operations",
