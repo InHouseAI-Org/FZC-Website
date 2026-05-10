@@ -1384,48 +1384,6 @@
     },
     {
       "id": 24,
-      "subcategoryId": 30,
-      "name": "OR 120F",
-      "slug": "or-120f",
-      "material": "ORGANIC",
-      "apiCertified": false,
-      "shortDescription": "FDA grade organic packing",
-      "description": "OR 120F is suitable for food processing applications with FDA compliant materials for sanitary services.",
-      "image": "/FZC Inmarco Product Shoot/OR 120/OR 120_1.webp",
-      "specifications": {
-        "Temperature Range": "-20°C to +120°C",
-        "Pressure Rating": "Up to 80 bar",
-        "pH Range": "4-9",
-        "Speed Limit": "10 m/s",
-        "Density": "1.2-1.4 g/cm³"
-      },
-      "technicalData": {
-        "Construction": "FDA compliant organic fibers with food-grade lubricant",
-        "Certification": "FDA 21 CFR 177.2600",
-        "Size Range": "6mm to 40mm cross-section",
-        "Standard": "FDA regulations, 3-A Sanitary Standards"
-      },
-      "features": [
-        "FDA approved for direct food contact",
-        "Non-toxic and tasteless construction",
-        "Easy to clean and sanitize",
-        "Good sealing in water-based media",
-        "Economical for food industry applications"
-      ],
-      "applications": [
-        "Beverage processing equipment",
-        "Dairy product handling",
-        "Food grade water systems",
-        "Brewery and winery pumps",
-        "Confectionery manufacturing"
-      ],
-      "gallery": [
-        "/FZC Inmarco Product Shoot/OR 120/OR 120_1.webp",
-        "/FZC Inmarco Product Shoot/OR 120/OR 120.webp"
-      ]
-    },
-    {
-      "id": 25,
       "subcategoryId": 24,
       "name": "IN 140",
       "slug": "in-140",
@@ -1464,7 +1422,7 @@
       ]
     },
     {
-      "id": 26,
+      "id": 25,
       "subcategoryId": 2,
       "name": "CG 900",
       "slug": "cg-900",
@@ -1513,7 +1471,7 @@
       ]
     },
     {
-      "id": 27,
+      "id": 26,
       "subcategoryId": 5,
       "name": "HY 501",
       "slug": "hy-501",
@@ -1561,7 +1519,7 @@
       ]
     },
     {
-      "id": 28,
+      "id": 27,
       "subcategoryId": 2,
       "name": "CG 503",
       "slug": "cg-503",
@@ -1615,7 +1573,7 @@
       ]
     },
     {
-      "id": 29,
+      "id": 28,
       "subcategoryId": 3,
       "name": "PE 104",
       "slug": "pe-104",
@@ -1669,7 +1627,7 @@
       ]
     },
     {
-      "id": 30,
+      "id": 29,
       "subcategoryId": 30,
       "name": "OR 151",
       "slug": "or-151",
@@ -1706,7 +1664,7 @@
       ]
     },
     {
-      "id": 31,
+      "id": 30,
       "subcategoryId": 30,
       "name": "OR 156",
       "slug": "or-156",
@@ -1743,7 +1701,7 @@
       ]
     },
     {
-      "id": 32,
+      "id": 31,
       "subcategoryId": 5,
       "name": "HY 606",
       "slug": "hy-606",
@@ -1785,7 +1743,7 @@
       ]
     },
     {
-      "id": 33,
+      "id": 32,
       "subcategoryId": 2,
       "name": "CG 501C",
       "slug": "cg-501c",
@@ -1825,7 +1783,7 @@
       ]
     },
     {
-      "id": 34,
+      "id": 33,
       "subcategoryId": 5,
       "name": "HY 801",
       "slug": "hy-801",
@@ -1876,7 +1834,7 @@
       ]
     },
     {
-      "id": 35,
+      "id": 34,
       "subcategoryId": 4,
       "name": "PA 499",
       "slug": "pa-499",
@@ -1925,7 +1883,7 @@
       ]
     },
     {
-      "id": 37,
+      "id": 35,
       "subcategoryId": 5,
       "name": "HY 510",
       "slug": "hy-510",
@@ -1965,7 +1923,7 @@
       ]
     },
     {
-      "id": 38,
+      "id": 36,
       "subcategoryId": 3,
       "name": "PE 104C",
       "slug": "pe-104c",
@@ -2019,103 +1977,7 @@
       ]
     },
     {
-      "id": 39,
-      "subcategoryId": 5,
-      "name": "HY 105PT",
-      "slug": "hy-105pt",
-      "material": "HYBRID",
-      "apiCertified": false,
-      "shortDescription": "PTFE enhanced hybrid packing",
-      "description": "HY 105PT combines hybrid construction with PTFE for improved lubricity and chemical resistance.",
-      "image": "/FZC Inmarco Product Shoot/HY 105/HY 105_2.webp",
-      "specifications": {
-        "Temperature Range": "-90°C to +270°C",
-        "Pressure Rating": "Up to 180 bar",
-        "pH Range": "1-13",
-        "Speed Limit": "18 m/s",
-        "Density": "1.7-1.9 g/cm³"
-      },
-      "technicalData": {
-        "Construction": "Hybrid core with enhanced PTFE coating",
-        "Size Range": "4mm to 50mm cross-section",
-        "Standard": "ISO 15848-1"
-      },
-      "features": [
-        "Enhanced PTFE content for superior lubricity",
-        "Improved chemical compatibility",
-        "Low friction and reduced wear",
-        "Good resilience and recovery",
-        "Extended service life"
-      ],
-      "applications": [
-        "Chemical processing pumps",
-        "Corrosive media handling",
-        "Pharmaceutical equipment",
-        "Specialty chemical production",
-        "Water treatment systems"
-      ],
-      "gallery": [
-        "/FZC Inmarco Product Shoot/HY 105/HY 105_2.webp",
-        "/FZC Inmarco Product Shoot/HY 105/HY 105_3.webp",
-        "/FZC Inmarco Product Shoot/HY 105/HY 105_1.webp"
-      ],
-      "images": [
-        "/FZC Inmarco Product Shoot/HY 105/HY 105_1.webp",
-        "/FZC Inmarco Product Shoot/HY 105/HY 105_2.webp",
-        "/FZC Inmarco Product Shoot/HY 105/HY 105_3.webp"
-      ]
-    },
-    {
-      "id": 40,
-      "subcategoryId": 3,
-      "name": "PE 504C",
-      "slug": "pe-504c",
-      "material": "PTFE",
-      "apiCertified": false,
-      "shortDescription": "Clean service PTFE packing",
-      "description": "The INMARCO Style PE 504P is crafted from Premium grade expanded PTFE with graphite, molecularly bonded for enhanced performance. It delivers exceptional chemical resistance, outstanding heat dissipation, and high resilience, ensuring a longer service life. Its anti-friction properties also help prevent wear and erosion on shafts and sleeves.",
-      "image": "/FZC Inmarco Product Shoot/PE 504/PE 504.webp",
-      "specifications": {
-        "Temperature Range": "-200°C to +260°C",
-        "Pressure Rating": "Up to 150 bar",
-        "pH Range": "0-14",
-        "Speed Limit": "18 m/s",
-        "Density": "1.7-1.9 g/cm³",
-        "temperature": "-200 to +300°C",
-        "pressure": "200",
-        "pH": "0-14"
-      },
-      "technicalData": {
-        "Construction": "Clean PTFE filament with food-grade lubricant",
-        "Certification": "FDA 21 CFR 177.2600",
-        "Size Range": "4mm to 45mm cross-section",
-        "Standard": "FDA regulations, ISO 15848-1"
-      },
-      "features": [
-        "INMARCO Style PE 504P is made from a distinctive combination of Premium grade PTFE, Graphite, designed to deliver improved performance.",
-        "The packing is engineered to provide exceptional heat dissipation and chemical resistance in demanding industrial conditions.",
-        "Its friction-reducing design protects rotating machinery from wear and erosion during prolonged use.",
-        "The strong, durable build keeps its shape and ensures secure sealing even during changing conditions.",
-        "Its broad chemical compatibility enables usage across a variety of industrial applications.",
-        "Widely recognized across sectors for its reliable performance and low upkeep demands."
-      ],
-      "applications": [
-        "Food and beverage processing",
-        "Pharmaceutical water systems",
-        "Clean chemical manufacturing",
-        "Cosmetics production equipment",
-        "Sanitary process pumps"
-      ],
-      "gallery": [
-        "/FZC Inmarco Product Shoot/PE 504/PE 504.webp",
-        "/FZC Inmarco Product Shoot/PE 504/PE 504 - 48(23)_09.JPG",
-        "/FZC Inmarco Product Shoot/PE 504/PE 504_1.webp",
-        "/FZC Inmarco Product Shoot/PE 504/PE 504-23_17.JPG",
-        "/FZC Inmarco Product Shoot/PE 504/PE 504-23_14.JPG"
-      ]
-    },
-    {
-      "id": 41,
+      "id": 37,
       "subcategoryId": 4,
       "name": "PA 106G",
       "slug": "pa-106g",
@@ -2157,7 +2019,7 @@
       ]
     },
     {
-      "id": 42,
+      "id": 38,
       "subcategoryId": 4,
       "name": "PA 106E",
       "slug": "pa-106e",
@@ -2204,7 +2066,7 @@
       ]
     },
     {
-      "id": 43,
+      "id": 39,
       "subcategoryId": 4,
       "name": "PA 104A",
       "slug": "pa-104a",
@@ -2257,7 +2119,7 @@
       ]
     },
     {
-      "id": 44,
+      "id": 40,
       "subcategoryId": 3,
       "name": "PE 504P",
       "slug": "pe-504p",
@@ -2306,7 +2168,7 @@
       ]
     },
     {
-      "id": 45,
+      "id": 41,
       "subcategoryId": 1,
       "name": "ULTRA LE 1002",
       "slug": "ultra-le-1002",
@@ -2355,7 +2217,7 @@
       ]
     },
     {
-      "id": 46,
+      "id": 42,
       "subcategoryId": 1,
       "name": "ULTRA FE 1003",
       "slug": "ultra-fe-1003",
@@ -2408,7 +2270,7 @@
       ]
     },
     {
-      "id": 47,
+      "id": 43,
       "subcategoryId": 1,
       "name": "ULTRA LT 1004",
       "slug": "ultra-lt-1004",
@@ -2460,7 +2322,7 @@
       ]
     },
     {
-      "id": 48,
+      "id": 44,
       "subcategoryId": 1,
       "name": "ULTRA NE 1005",
       "slug": "ultra-ne-1005",
@@ -2513,7 +2375,7 @@
       ]
     },
     {
-      "id": 50,
+      "id": 45,
       "subcategoryId": 5,
       "name": "HY 105 HD",
       "slug": "hy-105-hd",
@@ -2567,7 +2429,7 @@
       ]
     },
     {
-      "id": 51,
+      "id": 46,
       "subcategoryId": 5,
       "name": "HY 107 HD",
       "slug": "hy-107-hd",
@@ -2616,7 +2478,7 @@
       ]
     },
     {
-      "id": 52,
+      "id": 47,
       "subcategoryId": 30,
       "name": "OR 125SR",
       "slug": "or-125sr",
@@ -2670,44 +2532,7 @@
       ]
     },
     {
-      "id": 53,
-      "subcategoryId": 24,
-      "name": "IN 124S",
-      "slug": "in-124s",
-      "material": "INSULATION",
-      "apiCertified": true,
-      "shortDescription": "Silica fiber insulation",
-      "description": "STYLE 124 Fiberglass braided rope is made from premium texturized electrical and chemical resistant special Fiberglass in cover on cover braid.",
-      "image": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
-      "specifications": {
-        "Temperature Range": "-100°C to +1000°C",
-        "Density": "0.15-0.35 g/cm³",
-        "Thermal Conductivity": "0.03-0.05 W/mK",
-        "temperature": "°C"
-      },
-      "technicalData": {
-        "Construction": "Amorphous silica fiber blanket and board",
-        "Certification": "ASTM C1728, ISO 9001",
-        "Size Range": "Blankets, boards, papers - various sizes",
-        "Standard": "ASTM E84, UL certification"
-      },
-      "features": [
-        "Excellent high-temperature performance to 1000°C",
-        "Superior thermal insulation efficiency",
-        "Low thermal conductivity and heat storage",
-        "Good chemical stability and resistance",
-        "Lightweight and flexible for easy installation"
-      ],
-      "applications": [
-        "High-temperature furnace insulation",
-        "Petrochemical process equipment",
-        "Industrial kiln and oven lining",
-        "Fire protection systems",
-        "Expansion joint insulation"
-      ]
-    },
-    {
-      "id": 54,
+      "id": 48,
       "subcategoryId": 26,
       "name": "IN 126S",
       "slug": "in-126s",
@@ -2743,7 +2568,7 @@
       ]
     },
     {
-      "id": 55,
+      "id": 49,
       "subcategoryId": 6,
       "name": "GM 300 / GM 300Z",
       "slug": "gm-300z",
@@ -2799,7 +2624,7 @@
       ]
     },
     {
-      "id": 56,
+      "id": 50,
       "subcategoryId": 7,
       "name": "GM 310 / GM 310C",
       "slug": "gm-310c",
@@ -2851,7 +2676,7 @@
       ]
     },
     {
-      "id": 57,
+      "id": 51,
       "subcategoryId": 12,
       "name": "INMATEX EPTFE SHEET/GASKET",
       "slug": "inmatex-eptfe-sheet-gasket",
@@ -2899,7 +2724,7 @@
       ]
     },
     {
-      "id": 67,
+      "id": 52,
       "subcategoryId": 8,
       "name": "GM 360",
       "slug": "gm-360",
@@ -2940,7 +2765,7 @@
       ]
     },
     {
-      "id": 58,
+      "id": 53,
       "categoryId": 4,
       "name": "INSULATION GASKET KIT 1800 FS",
       "slug": "insulation-gasket-kit-1800-fs",
@@ -2989,7 +2814,7 @@
       ]
     },
     {
-      "id": 59,
+      "id": 54,
       "subcategoryId": 27,
       "name": "750SS WELDING BLANKET",
       "slug": "750ss-welding-blanket",
@@ -3049,7 +2874,7 @@
       ]
     },
     {
-      "id": 60,
+      "id": 55,
       "categoryId": 5,
       "name": "Laminar Gasket",
       "slug": "laminar-gasket",
@@ -3089,7 +2914,7 @@
       ]
     },
     {
-      "id": 61,
+      "id": 56,
       "categoryId": 5,
       "name": "Kammprofile Gasket",
       "slug": "kammprofile-gasket",
@@ -3129,7 +2954,7 @@
       ]
     },
     {
-      "id": 62,
+      "id": 57,
       "categoryId": 5,
       "name": "Shim Joint",
       "slug": "shim-joint",
@@ -3164,7 +2989,7 @@
       ]
     },
     {
-      "id": 63,
+      "id": 58,
       "categoryId": 5,
       "name": "Double Jacketed Gasket",
       "slug": "double-jacketed-gasket",
@@ -3209,7 +3034,7 @@
       ]
     },
     {
-      "id": 64,
+      "id": 59,
       "categoryId": 5,
       "name": "Ring Type Joint Gasket",
       "slug": "ring-type-joint-gasket",
@@ -3251,7 +3076,7 @@
       ]
     },
     {
-      "id": 65,
+      "id": 60,
       "categoryId": 5,
       "name": "Corrugated Gasket",
       "slug": "corrugated-gasket",
@@ -3296,7 +3121,7 @@
       ]
     },
     {
-      "id": 66,
+      "id": 61,
       "categoryId": 5,
       "name": "Soft Iron Ring",
       "slug": "soft-iron-ring",
@@ -3336,7 +3161,7 @@
       ]
     },
     {
-      "id": 68,
+      "id": 62,
       "subcategoryId": 9,
       "name": "NA 432",
       "slug": "na-432",
@@ -3377,7 +3202,7 @@
       ]
     },
     {
-      "id": 69,
+      "id": 63,
       "subcategoryId": 9,
       "name": "NA 420",
       "slug": "na-420",
@@ -3417,7 +3242,7 @@
       ]
     },
     {
-      "id": 70,
+      "id": 64,
       "subcategoryId": 9,
       "name": "NA 450",
       "slug": "na-450",
@@ -3458,7 +3283,7 @@
       ]
     },
     {
-      "id": 71,
+      "id": 65,
       "subcategoryId": 9,
       "name": "NA 452 GE",
       "slug": "na-452-ge",
@@ -3499,7 +3324,7 @@
       ]
     },
     {
-      "id": 72,
+      "id": 66,
       "subcategoryId": 9,
       "name": "NA 430",
       "slug": "na-430",
@@ -3539,7 +3364,7 @@
       ]
     },
     {
-      "id": 73,
+      "id": 67,
       "subcategoryId": 9,
       "name": "NA 442",
       "slug": "na-442",
@@ -3576,42 +3401,7 @@
       ]
     },
     {
-      "id": 74,
-      "subcategoryId": 9,
-      "name": "NA 320",
-      "slug": "na-320",
-      "material": "CNAF",
-      "apiCertified": false,
-      "shortDescription": "Economy compressed non-asbestos fiber gasket",
-      "description": "NA 320 economy CNAF gasket for low-pressure general applications.",
-      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
-      "specifications": {
-        "Temperature Range": "-100°C to +350°C",
-        "Pressure Rating": "Up to 40 bar",
-        "Material": "Compressed aramid fiber"
-      },
-      "technicalData": {
-        "Thickness": "0.5mm to 5.0mm",
-        "Density": "1.70 g/cm³",
-        "Standard": "ASME B16.21"
-      },
-      "features": [
-        "Cost-effective",
-        "Easy to cut",
-        "Good sealing",
-        "Versatile",
-        "Widely used"
-      ],
-      "applications": [
-        "Water lines",
-        "Low-pressure steam",
-        "General machinery",
-        "HVAC systems",
-        "Light industrial"
-      ]
-    },
-    {
-      "id": 75,
+      "id": 68,
       "subcategoryId": 9,
       "name": "SST 323",
       "slug": "sst-323",
@@ -3659,45 +3449,7 @@
       ]
     },
     {
-      "id": 76,
-      "subcategoryId": 9,
-      "name": "NA 321",
-      "slug": "na-321",
-      "material": "CNAF",
-      "apiCertified": false,
-      "shortDescription": "Light-duty compressed non-asbestos fiber gasket",
-      "description": "TYPE SSF 321 sheet is manufactured from plain SS sheet sandwich between two layers of flexible pure graphite sheet. TYPE SSF 321 SS sheet insert graphite gaskets are suitable for metallic, glass, enamel flanges and are designed for trouble free change over which ultimately reduces maintenance cost. They are dimensionally stable under extreme pressure surge. These are also suitable for cryogenic services.",
-      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
-      "specifications": {
-        "Temperature Range": "-100°C to +320°C",
-        "Pressure Rating": "Up to 35 bar",
-        "Material": "Compressed aramid fiber",
-        "temperature": "Min. -200 to max. +650",
-        "pressure": "500",
-        "pH": "0-14"
-      },
-      "technicalData": {
-        "Thickness": "0.5mm to 4.0mm",
-        "Density": "1.65 g/cm³",
-        "Standard": "ASME B16.21"
-      },
-      "features": [
-        "Reinforcement of SS plain sheet increases mechanical strength of the gasket",
-        "Chemical properties of flexible pure graphite remain intact",
-        "Resistant to almost all non-chemicals",
-        "Good compressibility and recovery, hence seals perfectly",
-        "Does not age or creep under hot or cold working conditions"
-      ],
-      "applications": [
-        "Water systems",
-        "Air systems",
-        "Low-pressure oil",
-        "General equipment",
-        "Light industrial"
-      ]
-    },
-    {
-      "id": 77,
+      "id": 69,
       "subcategoryId": 11,
       "name": "600 Sintered PTFE Sheet",
       "slug": "600-sintered-ptfe-sheet",
@@ -3734,42 +3486,7 @@
       ]
     },
     {
-      "id": 79,
-      "subcategoryId": 10,
-      "name": "GFO 441",
-      "slug": "gfo-441",
-      "material": "GRAPHITE",
-      "apiCertified": false,
-      "shortDescription": "Premium flexible graphite sheet gasket",
-      "description": "GFO 441 is a premium flexible graphite sheet gasket offering exceptional thermal stability and chemical resistance.",
-      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
-      "specifications": {
-        "Temperature Range": "-240°C to +650°C",
-        "Pressure Rating": "Up to 250 bar",
-        "Material": "Flexible graphite (99.8% carbon)"
-      },
-      "technicalData": {
-        "Thickness": "0.5mm to 5.0mm",
-        "Density": "1.0-1.3 g/cm³",
-        "Carbon Content": ">99.8%"
-      },
-      "features": [
-        "Excellent high-temperature performance",
-        "Superior chemical resistance",
-        "Self-sealing properties",
-        "Low stress requirement",
-        "Oxidation resistant"
-      ],
-      "applications": [
-        "High-temperature steam",
-        "Refinery equipment",
-        "Chemical processing",
-        "Power generation",
-        "Exhaust systems"
-      ]
-    },
-    {
-      "id": 80,
+      "id": 70,
       "categoryId": 7,
       "subcategoryId": 31,
       "name": "Aramid Based Wiping Pad",
@@ -3825,7 +3542,7 @@
       ]
     },
     {
-      "id": 81,
+      "id": 71,
       "categoryId": 7,
       "subcategoryId": 32,
       "name": "High Temperature Wiping Pad",
