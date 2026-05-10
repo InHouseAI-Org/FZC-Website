@@ -1,0 +1,36 @@
+{
+  "total_products": 77,
+  "products_with_images": 56,
+  "products_with_gallery": 56,
+  "products_without_images": [
+    "OR 125F",
+    "OR 125G",
+    "OR 151",
+    "OR 156",
+    "HY 606",
+    "CG 501C",
+    "HY 510",
+    "ULTRA LE 1002",
+    "IN 124S",
+    "IN 126S",
+    "Shim Joint",
+    "NA 432",
+    "NA 420",
+    "NA 450",
+    "NA 452 GE",
+    "NA 430",
+    "NA 442",
+    "NA 320",
+    "NA 321",
+    "600 Sintered PTFE Sheet",
+    "GFO 441"
+  ],
+  "unmapped_photo_folders": [
+    "504AR",
+    "GN 3000Z",
+    "Plain Graphite Gasket",
+    "Tangent Graphite Gasket",
+    "Rigid FTFE",
+    "PE 499"
+  ]
+}

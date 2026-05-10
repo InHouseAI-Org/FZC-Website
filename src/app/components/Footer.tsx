@@ -1,6 +1,6 @@
 import { Linkedin, Youtube } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import inmarcoLogo from '@/assets/inmarco-tagline-logo1.png';
+import inmarcoLogo from '@/assets/inmarco-tagline-logo1.webp';
 import industriesData from '@/data/industries.json';
 import productsData from '@/data/productsData.json';
 

@@ -12,6 +12,11 @@ export default function Contact() {
     message: '',
   });
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState<{
+    type: 'success' | 'error' | null;
+    message: string;
+  }>({ type: null, message: '' });
   const dropdownRef = useRef<HTMLDivElement>(null);
 
   const enquiryTypes = [
@@ -21,10 +26,51 @@ export default function Contact() {
     { value: 'partnership', label: 'Partnership Opportunities' },
   ];
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission
-    console.log('Form submitted:', formData);
+    setIsSubmitting(true);
+    setSubmitStatus({ type: null, message: '' });
+
+    try {
+      const response = await fetch('http://localhost:3001/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const data = await response.json();
+
+      if (response.ok && data.success) {
+        setSubmitStatus({
+          type: 'success',
+          message: 'Thank you for contacting us! We will get back to you shortly.',
+        });
+        // Reset form
+        setFormData({
+          name: '',
+          email: '',
+          phone: '',
+          company: '',
+          enquiryType: 'sales',
+          message: '',
+        });
+      } else {
+        setSubmitStatus({
+          type: 'error',
+          message: data.message || 'Failed to send message. Please try again.',
+        });
+      }
+    } catch (error) {
+      console.error('Form submission error:', error);
+      setSubmitStatus({
+        type: 'error',
+        message: 'Failed to send message. Please check your connection and try again.',
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -245,11 +291,30 @@ export default function Contact() {
                   />
                 </div>
 
+                {/* Status Message */}
+                <AnimatePresence>
+                  {submitStatus.type && (
+                    <motion.div
+                      initial={{ opacity: 0, y: -10 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      exit={{ opacity: 0, y: -10 }}
+                      className={`p-4 rounded-lg border ${
+                        submitStatus.type === 'success'
+                          ? 'bg-green-900/20 border-green-600 text-green-400'
+                          : 'bg-red-900/20 border-red-600 text-red-400'
+                      }`}
+                    >
+                      {submitStatus.message}
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+
                 <button
                   type="submit"
-                  className="bg-[#e31e24] text-white px-8 py-4 rounded-lg hover:bg-[#c41a20] transition-colors duration-300 tracking-wide text-sm uppercase font-semibold"
+                  disabled={isSubmitting}
+                  className="bg-[#e31e24] text-white px-8 py-4 rounded-lg hover:bg-[#c41a20] transition-colors duration-300 tracking-wide text-sm uppercase font-semibold disabled:opacity-50 disabled:cursor-not-allowed"
                 >
-                  Send Message
+                  {isSubmitting ? 'Sending...' : 'Send Message'}
                 </button>
               </form>
             </motion.div>

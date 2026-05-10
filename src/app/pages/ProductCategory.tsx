@@ -21,6 +21,7 @@ interface Product {
 
 export default function ProductCategory() {
   const { categorySlug, secondParam } = useParams();
+  const subcategorySlug = secondParam; // Alias for clarity
 
   const category = productsData.categories.find(c => c.slug === categorySlug);
 
@@ -110,10 +111,10 @@ export default function ProductCategory() {
                     className="block bg-[#1a1918] rounded-lg overflow-hidden border border-gray-800 hover:border-[#e31e24] transition-all duration-300 group h-full flex flex-col"
                   >
                     {/* Image */}
-                    {product.image && (
+                    {(product.images?.[0] || product.image) && (
                       <div className="relative h-64 overflow-hidden">
                         <ImageWithFallback
-                          src={product.image}
+                          src={product.images?.[0] || product.image}
                           alt={product.name}
                           className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                         />

@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Play } from 'lucide-react';
-import inmarcoLogo from '@/assets/inmarco-tagline-logo.png';
+import inmarcoLogo from '@/assets/inmarco-tagline-logo.webp';
 
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false);

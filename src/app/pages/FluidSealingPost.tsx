@@ -8,6 +8,7 @@ interface Post {
   title: string;
   description: string;
   linkedInPostLink: string;
+  linkedInEmbedUrl?: string;
   youtubeLink: string;
   date: string;
 }
@@ -81,15 +82,49 @@ export default function FluidSealingPost() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="relative bg-black rounded-lg overflow-hidden aspect-video shadow-2xl"
           >
-            <iframe
-              src={post.youtubeLink}
-              title={post.title}
-              className="w-full h-full"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            />
+            {/* LinkedIn Embed - if available */}
+            {post.linkedInEmbedUrl ? (
+              <div className="bg-[#1a1918] rounded-lg p-6 shadow-2xl">
+                <div className="flex items-center justify-between mb-6">
+                  <div className="flex items-center space-x-3">
+                    <Linkedin className="w-6 h-6 text-[#0077b5]" />
+                    <span className="text-white font-semibold">LinkedIn Post</span>
+                  </div>
+                  <a
+                    href={post.linkedInPostLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm text-gray-400 hover:text-[#0077b5] transition-colors flex items-center space-x-1"
+                  >
+                    <span>View on LinkedIn</span>
+                    <ExternalLink className="w-4 h-4" />
+                  </a>
+                </div>
+                <div className="bg-black rounded-lg overflow-hidden">
+                  <iframe
+                    src={`${post.linkedInEmbedUrl}?compact=1`}
+                    height="600"
+                    width="100%"
+                    frameBorder="0"
+                    allowFullScreen={true}
+                    title={post.title}
+                    className="w-full"
+                  />
+                </div>
+              </div>
+            ) : (
+              /* YouTube Embed - fallback */
+              <div className="relative bg-black rounded-lg overflow-hidden aspect-video shadow-2xl">
+                <iframe
+                  src={post.youtubeLink}
+                  title={post.title}
+                  className="w-full h-full"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+              </div>
+            )}
           </motion.div>
         </div>
       </section>
@@ -112,17 +147,6 @@ export default function FluidSealingPost() {
             <div className="border-t border-gray-800 pt-8">
               <h3 className="text-white text-xl mb-6 tracking-tight">Share & Connect</h3>
               <div className="flex flex-wrap gap-4">
-                <a
-                  href={post.youtubeLink.replace('/embed/', '/watch?v=')}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center space-x-2 px-6 py-3 bg-[#e31e24] text-white rounded-lg hover:bg-[#c41a20] transition-colors duration-300"
-                >
-                  <Youtube className="w-5 h-5" />
-                  <span className="text-sm font-medium">Watch on YouTube</span>
-                  <ExternalLink className="w-4 h-4" />
-                </a>
-
                 <a
                   href={post.linkedInPostLink}
                   target="_blank"

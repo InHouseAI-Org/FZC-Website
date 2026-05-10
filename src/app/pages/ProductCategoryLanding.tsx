@@ -44,11 +44,31 @@ export default function ProductCategoryLanding() {
     <main className="bg-[#2b2a29]">
       {/* Hero Section */}
       <section className="relative h-[500px] overflow-hidden">
-        <ImageWithFallback
-          src={category.image}
-          alt={category.name}
-          className="w-full h-full object-cover"
-        />
+        {category.image?.endsWith('.webm') ? (
+          <video
+            src={category.image}
+            autoPlay
+            loop
+            muted
+            playsInline
+            onEnded={(e) => {
+              const video = e.target as HTMLVideoElement;
+              video.currentTime = 0;
+              video.play().catch(err => console.log('Video loop error:', err));
+            }}
+            onLoadedMetadata={(e) => {
+              const video = e.target as HTMLVideoElement;
+              video.loop = true;
+            }}
+            className="w-full h-full object-cover"
+          />
+        ) : (
+          <ImageWithFallback
+            src={category.image}
+            alt={category.name}
+            className="w-full h-full object-cover"
+          />
+        )}
         <div className="absolute inset-0 bg-gradient-to-r from-[#2b2a29]/95 via-[#2b2a29]/85 to-[#2b2a29]/70"></div>
 
         {/* Back Button */}
@@ -146,66 +166,61 @@ export default function ProductCategoryLanding() {
                   </div>
 
                   {/* Products Grid */}
-                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {subcategoryProducts.map((product, productIndex) => (
-                      <Link
+                      <motion.div
                         key={product.id}
-                        to={`/products/${category.slug}/${subcategory.slug}/${product.slug}`}
+                        initial={{ opacity: 0, y: 30 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ duration: 0.6, delay: productIndex * 0.1 }}
                       >
-                        <motion.div
-                          initial={{ opacity: 0, y: 20 }}
-                          whileInView={{ opacity: 1, y: 0 }}
-                          viewport={{ once: true }}
-                          transition={{ duration: 0.5, delay: productIndex * 0.05 }}
-                          className="group relative bg-[#2b2a29] border border-gray-800 hover:border-[#e31e24]/50 transition-all duration-300 overflow-hidden h-full"
+                        <Link
+                          to={`/products/${category.slug}/${subcategory.slug}/${product.slug}`}
+                          className="block bg-[#1a1918] rounded-lg overflow-hidden border border-gray-800 hover:border-[#e31e24] transition-all duration-300 group h-full flex flex-col"
                         >
-                          {/* Top accent line */}
-                          <div className="absolute top-0 left-0 w-full h-1 bg-[#e31e24] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
-
-                          <div className="p-6">
-                            {/* Product Header */}
-                            <div className="mb-4">
-                              <h3 className="text-white text-xl mb-2 tracking-tight group-hover:text-[#e31e24] transition-colors">
-                                {product.name}
-                              </h3>
-                              <p className="text-gray-400 text-sm leading-relaxed">
-                                {product.description}
-                              </p>
+                          {/* Image */}
+                          {(product.images?.[0] || product.image) && (
+                            <div className="relative h-64 overflow-hidden">
+                              <ImageWithFallback
+                                src={product.images?.[0] || product.image}
+                                alt={product.name}
+                                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                              />
+                              <div className="absolute inset-0 bg-gradient-to-t from-[#1a1918] to-transparent opacity-60"></div>
                             </div>
+                          )}
+
+                          {/* Content */}
+                          <div className="p-6 flex-1 flex flex-col">
+                            <h3 className="text-white text-xl mb-3 tracking-tight group-hover:text-[#e31e24] transition-colors">
+                              {product.name}
+                            </h3>
+
+                            <p className="text-gray-400 text-sm leading-relaxed mb-4 flex-1">
+                              {product.shortDescription || product.description}
+                            </p>
 
                             {/* Key Features */}
                             {product.features && product.features.length > 0 && (
-                              <div className="mb-4">
-                                <h4 className="text-gray-500 text-xs uppercase tracking-wider mb-2">
-                                  Key Features
-                                </h4>
-                                <ul className="space-y-1">
-                                  {product.features.slice(0, 3).map((feature, idx) => (
-                                    <li
-                                      key={idx}
-                                      className="text-gray-400 text-sm flex items-start"
-                                    >
-                                      <span className="text-[#e31e24] mr-2">•</span>
-                                      <span>{feature}</span>
-                                    </li>
-                                  ))}
-                                </ul>
+                              <div className="space-y-2 mb-4">
+                                {product.features.slice(0, 3).map((feature, idx) => (
+                                  <div key={idx} className="flex items-start space-x-2 text-xs text-gray-500">
+                                    <ChevronRight className="w-4 h-4 text-[#e31e24] flex-shrink-0 mt-0.5" />
+                                    <span>{feature}</span>
+                                  </div>
+                                ))}
                               </div>
                             )}
 
-                            {/* View Details Link */}
-                            <div className="mt-6 pt-4 border-t border-gray-800">
-                              <div className="flex items-center justify-between text-[#e31e24] group-hover:text-white transition-colors">
-                                <span className="text-sm font-medium">View Details</span>
-                                <ChevronRight className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" />
-                              </div>
+                            <div className="pt-4 border-t border-gray-800">
+                              <span className="text-[#e31e24] text-sm font-medium group-hover:underline">
+                                View Details →
+                              </span>
                             </div>
                           </div>
-
-                          {/* Hover glow effect */}
-                          <div className="absolute inset-0 opacity-0 group-hover:opacity-100 bg-gradient-to-br from-[#e31e24]/5 to-transparent pointer-events-none transition-opacity duration-300"></div>
-                        </motion.div>
-                      </Link>
+                        </Link>
+                      </motion.div>
                     ))}
                   </div>
 
@@ -222,66 +237,61 @@ export default function ProductCategoryLanding() {
             })
           ) : (
             // Show products directly under category (no subcategories)
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {categoryProducts.map((product, productIndex) => (
-                <Link
+                <motion.div
                   key={product.id}
-                  to={`/products/${category.slug}/${product.slug}`}
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.6, delay: productIndex * 0.1 }}
                 >
-                  <motion.div
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.5, delay: productIndex * 0.05 }}
-                    className="group relative bg-[#2b2a29] border border-gray-800 hover:border-[#e31e24]/50 transition-all duration-300 overflow-hidden h-full"
+                  <Link
+                    to={`/products/${category.slug}/${product.slug}`}
+                    className="block bg-[#1a1918] rounded-lg overflow-hidden border border-gray-800 hover:border-[#e31e24] transition-all duration-300 group h-full flex flex-col"
                   >
-                    {/* Top accent line */}
-                    <div className="absolute top-0 left-0 w-full h-1 bg-[#e31e24] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
-
-                    <div className="p-6">
-                      {/* Product Header */}
-                      <div className="mb-4">
-                        <h3 className="text-white text-xl mb-2 tracking-tight group-hover:text-[#e31e24] transition-colors">
-                          {product.name}
-                        </h3>
-                        <p className="text-gray-400 text-sm leading-relaxed">
-                          {product.shortDescription || product.description}
-                        </p>
+                    {/* Image */}
+                    {(product.images?.[0] || product.image) && (
+                      <div className="relative h-64 overflow-hidden">
+                        <ImageWithFallback
+                          src={product.images?.[0] || product.image}
+                          alt={product.name}
+                          className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-[#1a1918] to-transparent opacity-60"></div>
                       </div>
+                    )}
+
+                    {/* Content */}
+                    <div className="p-6 flex-1 flex flex-col">
+                      <h3 className="text-white text-xl mb-3 tracking-tight group-hover:text-[#e31e24] transition-colors">
+                        {product.name}
+                      </h3>
+
+                      <p className="text-gray-400 text-sm leading-relaxed mb-4 flex-1">
+                        {product.shortDescription || product.description}
+                      </p>
 
                       {/* Key Features */}
                       {product.features && product.features.length > 0 && (
-                        <div className="mb-4">
-                          <h4 className="text-gray-500 text-xs uppercase tracking-wider mb-2">
-                            Key Features
-                          </h4>
-                          <ul className="space-y-1">
-                            {product.features.slice(0, 3).map((feature, idx) => (
-                              <li
-                                key={idx}
-                                className="text-gray-400 text-sm flex items-start"
-                              >
-                                <span className="text-[#e31e24] mr-2">•</span>
-                                <span>{feature}</span>
-                              </li>
-                            ))}
-                          </ul>
+                        <div className="space-y-2 mb-4">
+                          {product.features.slice(0, 3).map((feature, idx) => (
+                            <div key={idx} className="flex items-start space-x-2 text-xs text-gray-500">
+                              <ChevronRight className="w-4 h-4 text-[#e31e24] flex-shrink-0 mt-0.5" />
+                              <span>{feature}</span>
+                            </div>
+                          ))}
                         </div>
                       )}
 
-                      {/* View Details Link */}
-                      <div className="mt-6 pt-4 border-t border-gray-800">
-                        <div className="flex items-center justify-between text-[#e31e24] group-hover:text-white transition-colors">
-                          <span className="text-sm font-medium">View Details</span>
-                          <ChevronRight className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" />
-                        </div>
+                      <div className="pt-4 border-t border-gray-800">
+                        <span className="text-[#e31e24] text-sm font-medium group-hover:underline">
+                          View Details →
+                        </span>
                       </div>
                     </div>
-
-                    {/* Hover glow effect */}
-                    <div className="absolute inset-0 opacity-0 group-hover:opacity-100 bg-gradient-to-br from-[#e31e24]/5 to-transparent pointer-events-none transition-opacity duration-300"></div>
-                  </motion.div>
-                </Link>
+                  </Link>
+                </motion.div>
               ))}
             </div>
           )}

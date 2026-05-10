@@ -1,6 +1,7 @@
 import { motion } from 'motion/react';
 import { Link } from 'react-router-dom';
 import { Package, Layers, Settings, Flame, Circle, Maximize2, LucideIcon } from 'lucide-react';
+import { ImageWithFallback } from '@/app/components/figma/ImageWithFallback';
 import productsData from '@/data/productsData.json';
 
 // 3D CSS Diagrams for each product
@@ -215,20 +216,14 @@ export function ProductCategories() {
     ExpansionJointDiagram,
   };
 
-  interface Category {
-    icon: string;
-    name: string;
-    description: string;
-    specs?: string[];
-    diagram: string;
-  }
-
-  const products = productsData.categories.map((category: Category) => ({
+  const products = productsData.categories.map((category: any) => ({
     icon: iconMap[category.icon] || Package,
     title: category.name,
+    slug: category.slug,
     description: category.description,
     specs: category.specs || [],
     diagram: diagramMap[category.diagram] || CompressionPackingDiagram,
+    image: category.image || null,
   }));
 
   return (
@@ -270,34 +265,35 @@ export function ProductCategories() {
         </div>
 
         {/* Product Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-stretch">
           {products.map((product: any, index: number) => {
             const Icon = product.icon;
             return (
               <Link
                 key={index}
                 to="/products"
+                className="flex"
               >
                 <motion.div
                   initial={{ opacity: 0, y: 30 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.6, delay: index * 0.1 }}
-                  className="group relative bg-[#1a1918] border-l-4 border-transparent hover:border-[#e31e24] p-8 transition-all duration-500 hover:bg-[#252423] overflow-visible cursor-pointer"
+                  className="group relative bg-[#1a1918] border border-[#2b2a29] hover:border-[#e31e24]/50 p-8 transition-all duration-300 hover:shadow-lg hover:shadow-[#e31e24]/10 cursor-pointer w-full flex flex-col"
                 >
                 {/* Icon */}
                 <div className="flex items-start justify-between mb-6">
-                  <div className="p-3 bg-[#2b2a29] group-hover:bg-[#e31e24] transition-colors duration-300">
-                    <Icon className="w-8 h-8 text-[#e31e24] group-hover:text-white transition-colors duration-300" />
+                  <div className="p-3 bg-[#2b2a29] transition-colors duration-300">
+                    <Icon className="w-8 h-8 text-[#e31e24] transition-colors duration-300" />
                   </div>
-                  <div className="text-6xl text-[#e31e24] group-hover:text-[#e31e24]/10 transition-colors duration-300">
+                  <div className="text-5xl font-light text-gray-700 transition-colors duration-300">
                     {String(index + 1).padStart(2, '0')}
                   </div>
                 </div>
 
                 {/* Content */}
-                <h3 className="text-2xl text-white mb-3 tracking-tight">{product.title}</h3>
-                <p className="text-gray-400 mb-6 leading-relaxed">{product.description}</p>
+                <h3 className="text-2xl text-white mb-3 tracking-tight group-hover:text-[#e31e24] transition-colors duration-300">{product.title}</h3>
+                <p className="text-gray-400 mb-6 leading-relaxed flex-grow">{product.description}</p>
 
                 {/* 3D Diagram Section - Expands on Hover */}
                 {/* <div className="h-0 group-hover:h-64 transition-all duration-500 ease-in-out overflow-hidden flex items-center justify-center mb-0 group-hover:mb-6">
@@ -321,14 +317,46 @@ export function ProductCategories() {
                   </motion.div>
                 </div> */}
 
-                {/* Image Section - Expands on Hover */}
-                <div className="h-0 group-hover:h-64 transition-all duration-500 ease-in-out overflow-hidden flex items-center justify-center mb-0 group-hover:mb-6">
-                  <img
-                    src="https://www.vikingpump.com/sites/default/files/2023-02/guard_small.gif"
-                    alt={product.title}
-                    className="w-full h-full object-contain opacity-0 group-hover:opacity-100 transition-opacity duration-500"
-                  />
-                </div>
+                {/* Video/Image Section - Expands on Hover */}
+                {product.image && (
+                  <div
+                    className="h-0 group-hover:h-64 transition-all duration-400 ease-out overflow-hidden flex items-center justify-center mb-0 group-hover:mb-6"
+                    onMouseEnter={(e) => {
+                      const video = e.currentTarget.querySelector('video');
+                      if (video) {
+                        video.loop = true;
+                        video.currentTime = 0;
+                        video.play().catch(err => console.log('Video play error:', err));
+                      }
+                    }}
+                  >
+                    {product.image.endsWith('.webm') ? (
+                      <video
+                        src={product.image}
+                        autoPlay
+                        loop
+                        muted
+                        playsInline
+                        onEnded={(e) => {
+                          const video = e.target as HTMLVideoElement;
+                          video.currentTime = 0;
+                          video.play().catch(err => console.log('Video loop error:', err));
+                        }}
+                        onLoadedMetadata={(e) => {
+                          const video = e.target as HTMLVideoElement;
+                          video.loop = true;
+                        }}
+                        className="w-full h-full object-contain opacity-0 group-hover:opacity-100 transition-opacity duration-400"
+                      />
+                    ) : (
+                      <ImageWithFallback
+                        src={product.image}
+                        alt={product.title}
+                        className="w-full h-full object-contain opacity-0 group-hover:opacity-100 transition-opacity duration-400"
+                      />
+                    )}
+                  </div>
+                )}
 
                 {/* Specs */}
                 {product.specs.length > 0 && (
@@ -345,10 +373,10 @@ export function ProductCategories() {
                 )}
 
                 {/* Hover Indicator */}
-                <div className="absolute bottom-8 right-8 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <div className="flex items-center space-x-2 text-[#e31e24] text-sm">
-                    <span>Learn More</span>
-                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="mt-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <div className="flex items-center space-x-2 text-[#e31e24] text-sm font-medium">
+                    <span>Explore Products</span>
+                    <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                     </svg>
                   </div>

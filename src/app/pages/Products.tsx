@@ -10,7 +10,8 @@ interface Category {
   name: string;
   slug: string;
   description: string;
-  image: string;
+  image?: string;
+  images?: string[];
 }
 
 interface Subcategory {
@@ -89,13 +90,24 @@ export default function Products() {
                   {/* Category Card */}
                   <Link to={`/products/${category.slug}`}>
                     <div className="bg-[#1a1918] rounded-lg overflow-hidden border border-gray-800 hover:border-[#e31e24] transition-all duration-300 h-full cursor-pointer">
-                    {/* Image */}
+                    {/* Image/Video */}
                     <div className="relative h-64 overflow-hidden">
-                      <ImageWithFallback
-                        src={category.image}
-                        alt={category.name}
-                        className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                      />
+                      {category.image?.endsWith('.webm') ? (
+                        <video
+                          src={category.image}
+                          autoPlay
+                          loop
+                          muted
+                          playsInline
+                          className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                        />
+                      ) : (
+                        <ImageWithFallback
+                          src={category.image || ''}
+                          alt={category.name}
+                          className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                        />
+                      )}
                       <div className="absolute inset-0 bg-gradient-to-t from-[#1a1918] via-[#1a1918]/60 to-transparent"></div>
 
                       {/* Category Title Overlay */}

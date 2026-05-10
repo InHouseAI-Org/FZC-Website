@@ -82,6 +82,22 @@ export default function IndustryDetail() {
 
   const industry = industriesData.industries.find((ind) => ind.slug === slug);
 
+  // Map industry slugs to their product images
+  const industryImages: Record<string, string> = {
+    'oil-gas': 'public/industries/Oil .webp',
+    'power-generation': 'public/industries/Power Gen.webp',
+    'chemical': 'public/industries/Chemical.webp',
+    'water-wastewater-treatment': 'public/industries/Water & Wastewater Treatment.webp',
+    'marine': 'public/industries/Marine.webp',
+    'cement': 'public/industries/Cement.webp',
+    'fertilizers': 'public/industries/Fertlisers.webp',
+    'metallurgy': 'public/industries/Metal.webp',
+    'pulp-paper': 'public/industries/Pulp.webp',
+    'food-pharmaceutical': 'public/industries/Food & Pharma.webp',
+    'sugar': 'public/industries/Sugar.webp',
+    'oem': 'public/industries/OEM.webp',
+  };
+
   const scrollToCTA = () => {
     ctaSectionRef.current?.scrollIntoView({
       behavior: 'smooth',
@@ -256,7 +272,7 @@ export default function IndustryDetail() {
       </section>
 
       {/* Applications Section */}
-      <section className="py-24 bg-[#1a1918]">
+      <section className="pt-24 bg-[#1a1918]">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -305,6 +321,82 @@ export default function IndustryDetail() {
           )}
         </div>
       </section>
+
+      {/* Industry Product Showcase - Only show if image exists */}
+      {slug && industryImages[slug] && (
+        <section className="relative py-32 bg-[#1a1918] overflow-hidden">
+          {/* Animated background pattern */}
+          <div className="absolute inset-0 opacity-5">
+            <div className="absolute inset-0" style={{
+              backgroundImage: `repeating-linear-gradient(45deg, #e31e24 0px, #e31e24 2px, transparent 2px, transparent 20px)`,
+            }}></div>
+          </div>
+
+          <div className="relative max-w-[1400px] mx-auto px-6 lg:px-12">
+            {/* Section Header */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+              className="text-center mb-16"
+            >
+              <div className="flex items-center justify-center space-x-3 mb-6">
+              </div>
+              <h2 className="text-white text-4xl lg:text-5xl tracking-tight mb-4">
+                {industry.title} Solutions
+              </h2>
+              <p className="text-gray-400 text-lg max-w-2xl mx-auto">
+                Precision-engineered sealing systems designed for the most demanding applications
+              </p>
+            </motion.div>
+
+            {/* Main Image with Parallax Effect */}
+            <motion.div
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8 }}
+              className="relative"
+            >
+              {/* Main large image */}
+              <div className="relative group">
+                <div className="aspect-[16/8] overflow-hidden">
+                  <ImageWithFallback
+                    src={industryImages[slug]}
+                    alt={`${industry.title} Sealing Solutions`}
+                    className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-1000"
+                  />
+
+                  {/* Gradient overlays for depth */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#1a1918] via-transparent to-transparent opacity-60"></div>
+                  <div className="absolute inset-0 bg-gradient-to-r from-[#1a1918]/40 via-transparent to-[#1a1918]/40"></div>
+
+                  {/* Top border accent */}
+                  <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[#e31e24] to-transparent"></div>
+
+                  {/* Bottom content overlay */}
+                  <div className="absolute bottom-0 left-0 right-0 p-8 bg-gradient-to-t from-[#1a1918]/95 to-transparent">
+                    <div className="max-w-4xl">
+                      <h3 className="text-white text-2xl lg:text-3xl font-bold mb-3">
+                        Industry-Leading Performance
+                      </h3>
+                      <p className="text-gray-300 text-sm lg:text-base">
+                        Engineered for extreme conditions, tested for reliability, trusted worldwide
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Corner decorative elements */}
+                <div className="absolute top-0 left-0 w-16 h-16 border-t-2 border-l-2 border-[#e31e24]"></div>
+                <div className="absolute bottom-0 right-0 w-16 h-16 border-b-2 border-r-2 border-[#e31e24]"></div>
+              </div>
+
+            </motion.div>
+          </div>
+        </section>
+      )}
 
       {/* CTA Section */}
       <section ref={ctaSectionRef} className="py-24 bg-[#2b2a29]">

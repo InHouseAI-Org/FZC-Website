@@ -4,9 +4,19 @@ import { Link } from 'react-router-dom';
 import fluidSealingContent from '@/data/fluidSealingContent.json';
 import { ImageWithFallback } from '@/app/components/figma/ImageWithFallback';
 
+interface Post {
+  id: number;
+  title: string;
+  description: string;
+  linkedInPostLink: string;
+  linkedInEmbedUrl?: string;
+  youtubeLink: string;
+  date: string;
+}
+
 export function BrandSignature() {
   // Get the first 3 posts for display on home page
-  const videoSeries = fluidSealingContent.posts.slice(0, 3);
+  const videoSeries: Post[] = fluidSealingContent.posts.slice(0, 3);
 
   // Function to extract YouTube video ID and construct thumbnail URL
   const getYouTubeThumbnail = (youtubeLink: string) => {
@@ -108,21 +118,49 @@ export function BrandSignature() {
               >
                 {/* Video Thumbnail */}
                 <div className="relative h-48 overflow-hidden bg-gray-900">
-                  <ImageWithFallback
-                    src={getYouTubeThumbnail(video.youtubeLink)}
-                    alt={video.title}
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                  />
-                  {/* Play Button Overlay */}
-                  <div className="absolute inset-0 flex items-center justify-center bg-black/40 group-hover:bg-black/60 transition-colors">
-                    <motion.div
-                      className="w-16 h-16 rounded-full bg-[#e31e24] flex items-center justify-center"
-                      whileHover={{ scale: 1.1 }}
-                      whileTap={{ scale: 0.9 }}
-                    >
-                      <Play className="w-8 h-8 text-white ml-1" fill="white" />
-                    </motion.div>
-                  </div>
+                  {video.linkedInEmbedUrl ? (
+                    /* LinkedIn Embed Preview */
+                    <>
+                      <iframe
+                        src={`${video.linkedInEmbedUrl}?compact=1`}
+                        className="absolute inset-0 w-full h-full pointer-events-none object-cover"
+                        title={video.title}
+                        style={{ transform: 'scale(1)', transformOrigin: 'top left' }}
+                      />
+                      {/* Overlay to prevent interaction */}
+                      <div className="absolute inset-0 bg-black/40 group-hover:bg-black/60 transition-colors pointer-events-auto"></div>
+
+                      {/* Play Button Overlay */}
+                      <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+                        <motion.div
+                          className="w-16 h-16 rounded-full bg-[#e31e24] flex items-center justify-center"
+                          whileHover={{ scale: 1.1 }}
+                          whileTap={{ scale: 0.9 }}
+                        >
+                          <Play className="w-8 h-8 text-white ml-1" fill="white" />
+                        </motion.div>
+                      </div>
+                    </>
+                  ) : (
+                    /* YouTube Thumbnail Fallback */
+                    <>
+                      <ImageWithFallback
+                        src={getYouTubeThumbnail(video.youtubeLink)}
+                        alt={video.title}
+                        className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                      />
+                      {/* Play Button Overlay */}
+                      <div className="absolute inset-0 flex items-center justify-center bg-black/40 group-hover:bg-black/60 transition-colors">
+                        <motion.div
+                          className="w-16 h-16 rounded-full bg-[#e31e24] flex items-center justify-center"
+                          whileHover={{ scale: 1.1 }}
+                          whileTap={{ scale: 0.9 }}
+                        >
+                          <Play className="w-8 h-8 text-white ml-1" fill="white" />
+                        </motion.div>
+                      </div>
+                    </>
+                  )}
                 </div>
 
                 {/* Video Info */}

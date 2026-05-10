@@ -2,33 +2,96 @@ import { motion } from 'motion/react';
 import { Link } from 'react-router-dom';
 import { ImageWithFallback } from '@/app/components/figma/ImageWithFallback';
 import { ChevronRight, Play } from 'lucide-react';
+import { useState, useEffect, useRef } from 'react';
 
 export function Hero() {
+  const [mousePosition, setMousePosition] = useState({ x: -9999, y: -9999 });
+  const [heroImage, setHeroImage] = useState('Hero.webp');
+  const containerRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const handleMouseMove = (e: MouseEvent) => {
+      if (containerRef.current) {
+        const rect = containerRef.current.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
+        setMousePosition({ x, y });
+      }
+    };
+
+    const container = containerRef.current;
+    if (container) {
+      container.addEventListener('mousemove', handleMouseMove);
+      return () => {
+        container.removeEventListener('mousemove', handleMouseMove);
+      };
+    }
+  }, []);
+
+  useEffect(() => {
+    const updateImage = () => {
+      const width = window.innerWidth;
+      if (width < 768) {
+        // Mobile
+        setHeroImage('Hero_mob.webp');
+      } else if (width < 1024) {
+        // Tablet
+        setHeroImage('Hero_tab.webp');
+      } else {
+        // Desktop
+        setHeroImage('Hero.webp');
+      }
+    };
+
+    updateImage();
+    window.addEventListener('resize', updateImage);
+    return () => window.removeEventListener('resize', updateImage);
+  }, []);
+
   return (
-    <section id="home" className="relative min-h-screen flex items-center bg-[#2b2a29] overflow-hidden">
-      {/* Background Image with Overlay */}
+    <section ref={containerRef} id="home" className="relative min-h-screen flex items-center bg-[#2b2a29] overflow-hidden">
+      {/* Background Images with X-Ray Effect */}
       <div className="absolute inset-0">
-        <ImageWithFallback
-          src="https://images.unsplash.com/photo-1759148414485-5f624fe9d1ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxpbmR1c3RyaWFsJTIwdmFsdmUlMjBtYWNoaW5lcnl8ZW58MXx8fHwxNzY5NjI2ODU1fDA&ixlib=rb-4.1.0&q=80&w=1080"
-          alt="Industrial valve and machinery"
-          className="w-full h-full object-cover"
-          style={{width: '200%'}}
-        />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#2b2a29]/95 via-[#2b2a29]/85 to-[#2b2a29]/70"></div>
+        {/* Bottom Image (base layer) - Image #1 */}
+        <div className="absolute inset-0 pointer-events-none">
+          <ImageWithFallback
+            // src="Gemini_Generated_Image_5h4dsy5h4dsy5h4d.webp"
+            // src="Screenshot 2026-02-18 at 1.33.53 PM.webp"
+            // src="ChatGPT Image Feb 18, 2026 at 01_54_04 PM.webp"
+            // src="ChatGPT Image Feb 18, 2026 at 01_58_58 PM.webp"
+            // src = "public/ChatGPT Image Feb 20, 2026 at 11_36_13 AM.webp"
+            // src="public/ChatGPT Image Feb 20, 2026 at 03_28_49 PM.webp"
+            src={heroImage}
+            alt="Industrial valve and machinery"
+            className="w-full h-full object-cover"
+            style={{width: '100%', height:'100%'}}
+          />
+        </div>
+
+        {/* Top Image (with cursor reveal effect) - Image #2 */}
+        {/* <div
+          className="absolute inset-0 pointer-events-none"
+          style={{
+            maskImage: mousePosition.x > 0
+              ? `radial-gradient(circle 250px at ${mousePosition.x}px ${mousePosition.y}px, transparent 0%, transparent 40%, black 70%, black 100%)`
+              : 'none',
+            WebkitMaskImage: mousePosition.x > 0
+              ? `radial-gradient(circle 250px at ${mousePosition.x}px ${mousePosition.y}px, transparent 0%, transparent 40%, black 70%, black 100%)`
+              : 'none',
+          }}
+        >
+          <ImageWithFallback
+            src="Gemini_Generated_Image_5h4dsy5h4dsy5h4d.webp"
+            alt="Industrial machinery revealed"
+            className="w-full h-full object-cover"
+            style={{width: '200%'}}
+          />
+        </div> */}
+
+        {/* Gradient Overlay - below content but above images */}
+        {/* <div className="absolute inset-0 bg-gradient-to-r from-[#2b2a29]/95 via-[#2b2a29]/45 to-[#2b2a29]/2 pointer-events-none"></div> */}
       </div>
 
-       {/* Nature-inspired Flowing Gradient */}
-        <motion.div
-          className="absolute inset-0 opacity-20"
-          animate={{
-            background: [
-              'radial-gradient(circle at 20% 50%, rgba(34, 139, 34, 0.3) 0%, transparent 50%)',
-              'radial-gradient(circle at 80% 50%, rgba(34, 139, 34, 0.3) 0%, transparent 50%)',
-              'radial-gradient(circle at 20% 50%, rgba(34, 139, 34, 0.3) 0%, transparent 50%)',
-            ],
-          }}
-          transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
-        />
 
       {/* Animated Red Accent Line */}
       <motion.div
@@ -42,15 +105,7 @@ export function Hero() {
       <div className="relative z-10 max-w-[1400px] mx-auto px-6 lg:px-12 py-20 w-full">
         <div className="max-w-4xl">
           {/* Label */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="flex items-center space-x-3 mb-6"
-          >
-            <div className="h-[2px] w-12 bg-[#e31e24]"></div>
-            <span className="text-sm tracking-widest text-gray-400 uppercase">Innovation in Industrial Fluid Sealing</span>
-          </motion.div>
+
 
           {/* Headline */}
           <motion.h1
@@ -58,13 +113,14 @@ export function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
             className="mb-6 text-white"
-            style={{ 
-              fontSize: 'clamp(2.5rem, 6vw, 5rem)', 
+            style={{
+              fontSize: 'clamp(2.5rem, 6vw, 5rem)',
               lineHeight: '1.1',
               letterSpacing: '-0.02em'
             }}
           >
-            Engineering Reliability for a{' '}
+            Innovations in Industrial{' '}
+            <br/>
             <motion.span
               className="inline-block text-[#e31e24]"
               initial={{ opacity: 0, scale: 0.8 }}
@@ -74,7 +130,7 @@ export function Hero() {
                 textShadow: "0 0 20px rgba(227, 30, 36, 0.5)"
               }}
             >
-              Fluid World
+              Fluid Sealing
             </motion.span>
           </motion.h1>
 
@@ -83,8 +139,8 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="text-gray-300 mb-10 max-w-2xl"
-            style={{ fontSize: 'clamp(1.1rem, 2vw, 1.3rem)', lineHeight: '1.6' }}
+            className="text-gray-300 mb-10"
+            style={{ fontSize: 'clamp(1.1rem, 2vw, 1.3rem)', lineHeight: '1.6', width: '60%' }}
           >
             Advanced fluid sealing solutions designed for extreme pressure, temperature, and performance.
           </motion.p>
@@ -143,7 +199,7 @@ export function Hero() {
       </motion.div>
 
       {/* Bottom Gradient for Smooth Transition */}
-      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#2b2a29] to-transparent z-10"></div>
+      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#2b2a29]/3 to-transparent z-10"></div>
     </section>
   );
 }

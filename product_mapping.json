@@ -1,0 +1,1107 @@
+{
+  "PE 505": {
+    "id": 1,
+    "name": "PE 505",
+    "current_image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [
+      "Datasheet/Compression packing/PE 505.pdf"
+    ],
+    "photos": [
+      "FZC Inmarco Product Shoot/PE 505/PE 505 - 50(14)_13.JPG",
+      "FZC Inmarco Product Shoot/PE 505/PE 505 - 50(14)_05.JPG",
+      "FZC Inmarco Product Shoot/PE 505/PE 505 - 50(14)_15.JPG",
+      "FZC Inmarco Product Shoot/PE 505/PE 505_3.JPG",
+      "FZC Inmarco Product Shoot/PE 505/PE 505_1.webp",
+      "FZC Inmarco Product Shoot/PE 505/PE 505_Edited_2.webp",
+      "FZC Inmarco Product Shoot/PE 505/PE 505_Edited_1.webp",
+      "FZC Inmarco Product Shoot/PE 505/PE 505 - 50(14)_18.JPG",
+      "FZC Inmarco Product Shoot/PE 505/PE 505 - 50(14)_20.JPG"
+    ]
+  },
+  "PE 504": {
+    "id": 2,
+    "name": "PE 504",
+    "current_image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [
+      "Datasheet/Compression packing/PE 504P copy.pdf",
+      "Datasheet/Compression packing/PE 504P.pdf",
+      "Datasheet/Compression packing/style 504IVC.pdf"
+    ],
+    "photos": [
+      "FZC Inmarco Product Shoot/PE 504/PE 504.webp",
+      "FZC Inmarco Product Shoot/PE 504/PE 504 - 48(23)_09.JPG",
+      "FZC Inmarco Product Shoot/PE 504/PE 504_1.webp",
+      "FZC Inmarco Product Shoot/PE 504/PE 504-23_17.JPG",
+      "FZC Inmarco Product Shoot/PE 504/PE 504-23_14.JPG",
+      "FZC Inmarco Product Shoot/PE 504/PE 504-23_11.JPG",
+      "FZC Inmarco Product Shoot/PE 504/PE 504-23_06.JPG",
+      "FZC Inmarco Product Shoot/PE 504/PE 504 - 48(23)_04.JPG",
+      "FZC Inmarco Product Shoot/PE 504/PE 504 - 48(23)_10.JPG",
+      "FZC Inmarco Product Shoot/PE 504/PE 504 - 48(23)_06.JPG"
+    ]
+  },
+  "HY 504": {
+    "id": 3,
+    "name": "HY 504",
+    "current_image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [
+      "Datasheet/Compression packing/PE 504P copy.pdf",
+      "Datasheet/Compression packing/PE 504P.pdf",
+      "Datasheet/Compression packing/style 504IVC.pdf"
+    ],
+    "photos": [
+      "FZC Inmarco Product Shoot/HY 504/HY 504_1.webp",
+      "FZC Inmarco Product Shoot/HY 504/HY 504_3.webp",
+      "FZC Inmarco Product Shoot/HY 504/HY 504_2.webp",
+      "FZC Inmarco Product Shoot/HY 504/HY 504 - 51(24)_20.JPG",
+      "FZC Inmarco Product Shoot/HY 504/HY 504-24_16.JPG",
+      "FZC Inmarco Product Shoot/HY 504/HY 504 - 51(24)_01.JPG"
+    ]
+  },
+  "PE 508": {
+    "id": 4,
+    "name": "PE 508",
+    "current_image": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [
+      "Datasheet/Compression packing/PE 508.pdf"
+    ],
+    "photos": [
+      "FZC Inmarco Product Shoot/PE 508/PE 508_3.webp",
+      "FZC Inmarco Product Shoot/PE 508/PE 508_2.webp",
+      "FZC Inmarco Product Shoot/PE 508/PE 508_1.webp",
+      "FZC Inmarco Product Shoot/PE 508/PE 508_4.webp"
+    ]
+  },
+  "PE 509": {
+    "id": 5,
+    "name": "PE 509",
+    "current_image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [
+      "Datasheet/Compression packing/PE 509.pdf"
+    ],
+    "photos": [
+      "FZC Inmarco Product Shoot/PE 509/PE 509_1.webp",
+      "FZC Inmarco Product Shoot/PE 509/PE 509_3.webp",
+      "FZC Inmarco Product Shoot/PE 509/PE 509_2.webp"
+    ]
+  },
+  "HY 105": {
+    "id": 6,
+    "name": "HY 105",
+    "current_image": "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [
+      "Datasheet/Compression packing/HY 105.pdf",
+      "Datasheet/Compression packing/HY 105HD.pdf",
+      "Datasheet/Compression packing/HY 105T.pdf",
+      "Datasheet/Compression packing/HY 105T copy.pdf"
+    ],
+    "photos": [
+      "FZC Inmarco Product Shoot/HY 105/HY 105_2.webp",
+      "FZC Inmarco Product Shoot/HY 105/HY 105_3.webp",
+      "FZC Inmarco Product Shoot/HY 105/HY 105_1.webp",
+      "FZC Inmarco Product Shoot/HY 105 HD/HY 105 HD_4.webp",
+      "FZC Inmarco Product Shoot/HY 105 HD/HY 105 HD_1.webp",
+      "FZC Inmarco Product Shoot/HY 105 HD/HY 105 HD_2.webp",
+      "FZC Inmarco Product Shoot/HY 105 HD/HY 105 HD_3.webp",
+      "FZC Inmarco Product Shoot/HY 105T/HY 105T_4.webp",
+      "FZC Inmarco Product Shoot/HY 105T/HY 105T_1.webp",
+      "FZC Inmarco Product Shoot/HY 105T/HY 105T_3.webp",
+      "FZC Inmarco Product Shoot/HY 105T/HY 105T_2.webp"
+    ]
+  },
+  "HY 105T": {
+    "id": 7,
+    "name": "HY 105T",
+    "current_image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [
+      "Datasheet/Compression packing/HY 105T.pdf",
+      "Datasheet/Compression packing/HY 105T copy.pdf"
+    ],
+    "photos": [
+      "FZC Inmarco Product Shoot/HY 105/HY 105_2.webp",
+      "FZC Inmarco Product Shoot/HY 105/HY 105_3.webp",
+      "FZC Inmarco Product Shoot/HY 105/HY 105_1.webp",
+      "FZC Inmarco Product Shoot/HY 105T/HY 105T_4.webp",
+      "FZC Inmarco Product Shoot/HY 105T/HY 105T_1.webp",
+      "FZC Inmarco Product Shoot/HY 105T/HY 105T_3.webp",
+      "FZC Inmarco Product Shoot/HY 105T/HY 105T_2.webp"
+    ]
+  },
+  "HY 107": {
+    "id": 8,
+    "name": "HY 107",
+    "current_image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [
+      "Datasheet/Compression packing/HY 107.pdf",
+      "Datasheet/Compression packing/HY 107HD.pdf"
+    ],
+    "photos": [
+      "FZC Inmarco Product Shoot/HY 107 HD/HY 107 HD - 58_03.JPG",
+      "FZC Inmarco Product Shoot/HY 107 HD/HY 107 HD_1.webp",
+      "FZC Inmarco Product Shoot/HY 107 HD/HY 107 HD - 58_01.JPG",
+      "FZC Inmarco Product Shoot/HY 107 HD/HY 107 HD - 58_04.JPG",
+      "FZC Inmarco Product Shoot/HY 107/HY 107_1.webp",
+      "FZC Inmarco Product Shoot/HY 107/HY 107_3.webp",
+      "FZC Inmarco Product Shoot/HY 107/HY 107_2.webp"
+    ]
+  },
+  "HY 107E": {
+    "id": 9,
+    "name": "HY 107E",
+    "current_image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [],
+    "photos": [
+      "FZC Inmarco Product Shoot/HY 107/HY 107_1.webp",
+      "FZC Inmarco Product Shoot/HY 107/HY 107_3.webp",
+      "FZC Inmarco Product Shoot/HY 107/HY 107_2.webp"
+    ]
+  },
+  "HY 107 EPT": {
+    "id": 10,
+    "name": "HY 107 EPT",
+    "current_image": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [
+      "Datasheet/Compression packing/Inmatex ePTFE sheet-gasket.pdf",
+      "Datasheet/Compression packing/HY 107.pdf",
+      "Datasheet/Compression packing/HY 107HD.pdf"
+    ],
+    "photos": [
+      "FZC Inmarco Product Shoot/HY 107/HY 107_1.webp",
+      "FZC Inmarco Product Shoot/HY 107/HY 107_3.webp",
+      "FZC Inmarco Product Shoot/HY 107/HY 107_2.webp"
+    ]
+  },
+  "HY 175": {
+    "id": 11,
+    "name": "HY 175",
+    "current_image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [
+      "Datasheet/Compression packing/style rebacklon 175.pdf"
+    ],
+    "photos": [
+      "FZC Inmarco Product Shoot/HY 175/HY 175_Edited_1.webp",
+      "FZC Inmarco Product Shoot/HY 175/HY 175_Edited_3.JPG",
+      "FZC Inmarco Product Shoot/HY 175/HY 175 - 64(13)_13.JPG",
+      "FZC Inmarco Product Shoot/HY 175/HY 175_Edited_2.webp",
+      "FZC Inmarco Product Shoot/HY 175/HY 175_5.webp",
+      "FZC Inmarco Product Shoot/HY 175/HY 175 - 78 (13).JPG",
+      "FZC Inmarco Product Shoot/HY 175/HY 175 - 64(13)_23.JPG"
+    ]
+  },
+  "PA 106": {
+    "id": 12,
+    "name": "PA 106",
+    "current_image": "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [
+      "Datasheet/Compression packing/PA 106E.pdf",
+      "Datasheet/Compression packing/PA 106.pdf"
+    ],
+    "photos": [
+      "FZC Inmarco Product Shoot/PA 106/PA 106-11_19.JPG",
+      "FZC Inmarco Product Shoot/PA 106/PA 106_Edited_1.webp",
+      "FZC Inmarco Product Shoot/PA 106/PA 106-11_15.JPG"
+    ]
+  },
+  "OR 125F": {
+    "id": 13,
+    "name": "OR 125F",
+    "current_image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [],
+    "photos": []
+  },
+  "OR 125G": {
+    "id": 14,
+    "name": "OR 125G",
+    "current_image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [
+      "Datasheet/Compression packing/style OR 125G.pdf"
+    ],
+    "photos": []
+  },
+  "CG 101": {
+    "id": 15,
+    "name": "CG 101",
+    "current_image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [
+      "Datasheet/Compression packing/CG 101.pdf"
+    ],
+    "photos": [
+      "FZC Inmarco Product Shoot/CG 101/CG 101 - 56(25)_14.JPG",
+      "FZC Inmarco Product Shoot/CG 101/CG 101 - 56(25)_03.JPG",
+      "FZC Inmarco Product Shoot/CG 101/CG 101 - 56(25)_11.JPG",
+      "FZC Inmarco Product Shoot/CG 101/CG 101 - 56(25)_04.JPG",
+      "FZC Inmarco Product Shoot/CG 101/CG 101 - 56(25)_08.JPG"
+    ]
+  },
+  "PE 102": {
+    "id": 16,
+    "name": "PE 102",
+    "current_image": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [
+      "Datasheet/Compression packing/PE 102.pdf",
+      "Datasheet/Compression packing/CG 102.pdf",
+      "Datasheet/Metallic gasket/CorrugatedMetal/Corrugated-Metal-Gasket-CMG-1024x576-gigapixel-standard-scale-2_00x.webp"
+    ],
+    "photos": [
+      "FZC Inmarco Product Shoot/PE 102/PE 102-22_09.JPG",
+      "FZC Inmarco Product Shoot/PE 102/PE 102 - 54 (22)_17.JPG",
+      "FZC Inmarco Product Shoot/PE 102/PE 102-22_11.JPG",
+      "FZC Inmarco Product Shoot/PE 102/PE 102-22_04.JPG",
+      "FZC Inmarco Product Shoot/PE 102/PE 102-22_14.JPG",
+      "FZC Inmarco Product Shoot/PE 102/PE 102 - 54 (22)_05.JPG",
+      "FZC Inmarco Product Shoot/PE 102/PE 102 - 54 (22)_04.JPG",
+      "FZC Inmarco Product Shoot/PE 102/PE 102 - 54 (22)_10.JPG",
+      "FZC Inmarco Product Shoot/PE 102/PE 102 - 54 (22).JPG"
+    ]
+  },
+  "CG 101E": {
+    "id": 17,
+    "name": "CG 101E",
+    "current_image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [],
+    "photos": [
+      "FZC Inmarco Product Shoot/CG 101/CG 101 - 56(25)_14.JPG",
+      "FZC Inmarco Product Shoot/CG 101/CG 101 - 56(25)_03.JPG",
+      "FZC Inmarco Product Shoot/CG 101/CG 101 - 56(25)_11.JPG",
+      "FZC Inmarco Product Shoot/CG 101/CG 101 - 56(25)_04.JPG",
+      "FZC Inmarco Product Shoot/CG 101/CG 101 - 56(25)_08.JPG"
+    ]
+  },
+  "CG 100": {
+    "id": 18,
+    "name": "CG 100",
+    "current_image": "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [
+      "Datasheet/Compression packing/ULTRA FE 1003.pdf",
+      "Datasheet/Compression packing/ULTRA LE 1002.pdf",
+      "Datasheet/Compression packing/ULTRA LT 1004.pdf",
+      "Datasheet/Compression packing/style 100fx.pdf",
+      "Datasheet/Compression packing/ULTRA NE 1005.pdf"
+    ],
+    "photos": [
+      "FZC Inmarco Product Shoot/CG 100/CG 100 - 52(26)_19.JPG",
+      "FZC Inmarco Product Shoot/CG 100/CG 100 - 52(26)_09.JPG",
+      "FZC Inmarco Product Shoot/CG 100/CG 100-26_02.JPG",
+      "FZC Inmarco Product Shoot/CG 100/CG 100-26_16.JPG",
+      "FZC Inmarco Product Shoot/CG 100/CG 100-26_14.JPG",
+      "FZC Inmarco Product Shoot/CG 100/CG100_Edited_1.webp",
+      "FZC Inmarco Product Shoot/CG 100/CG 100-26_08.JPG",
+      "FZC Inmarco Product Shoot/CG 100/CG100_Edited_2.webp",
+      "FZC Inmarco Product Shoot/CG 100/CG 100-26_20.JPG",
+      "FZC Inmarco Product Shoot/CG 100/CG100_Edited_3.webp",
+      "FZC Inmarco Product Shoot/CG 100/CG 100 - 52(26)_14.JPG",
+      "FZC Inmarco Product Shoot/CG 100/CG 100 - 52(26)_01.JPG"
+    ]
+  },
+  "CG 102": {
+    "id": 19,
+    "name": "CG 102",
+    "current_image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [
+      "Datasheet/Compression packing/PE 102.pdf",
+      "Datasheet/Compression packing/CG 102.pdf",
+      "Datasheet/Metallic gasket/CorrugatedMetal/Corrugated-Metal-Gasket-CMG-1024x576-gigapixel-standard-scale-2_00x.webp"
+    ],
+    "photos": [
+      "FZC Inmarco Product Shoot/CG 102/CG 102_4.webp",
+      "FZC Inmarco Product Shoot/CG 102/CG102_Edited_1.webp",
+      "FZC Inmarco Product Shoot/CG 102/CG102_Edited_2.webp",
+      "FZC Inmarco Product Shoot/CG 102/CG 102 - 31_16.JPG",
+      "FZC Inmarco Product Shoot/CG 102/CG102_Edited_3.webp",
+      "FZC Inmarco Product Shoot/CG 102/CG 102 - 31_10.JPG",
+      "FZC Inmarco Product Shoot/CG 102/CG 102 - 31_05.JPG",
+      "FZC Inmarco Product Shoot/CG 102/CG 102 - 31_20.JPG",
+      "FZC Inmarco Product Shoot/CG 102/CG 102 - 31_19.JPG"
+    ]
+  },
+  "IN 123": {
+    "id": 20,
+    "name": "IN 123",
+    "current_image": "https://images.unsplash.com/photo-1768779611359-c4bb38ba3c1e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [
+      "Datasheet/Thermal Insulation/IN 123I.pdf",
+      "Datasheet/Thermal Insulation/IN 123.pdf",
+      "Datasheet/Thermal Insulation/IN 123I copy.pdf"
+    ],
+    "photos": [
+      "FZC Inmarco Product Shoot/IN 123/IN 123 - 45 _29.JPG",
+      "FZC Inmarco Product Shoot/IN 123/IN 123_1.webp",
+      "FZC Inmarco Product Shoot/IN 123/IN 123_2.webp"
+    ]
+  },
+  "IN 123I": {
+    "id": 21,
+    "name": "IN 123I",
+    "current_image": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [
+      "Datasheet/Thermal Insulation/IN 123I.pdf",
+      "Datasheet/Thermal Insulation/IN 123I copy.pdf"
+    ],
+    "photos": [
+      "FZC Inmarco Product Shoot/IN 123/IN 123 - 45 _29.JPG",
+      "FZC Inmarco Product Shoot/IN 123/IN 123_1.webp",
+      "FZC Inmarco Product Shoot/IN 123/IN 123_2.webp"
+    ]
+  },
+  "OR 120": {
+    "id": 22,
+    "name": "OR 120",
+    "current_image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [
+      "Datasheet/Compression packing/style 120AR.pdf",
+      "Datasheet/Compression packing/style 120.pdf"
+    ],
+    "photos": [
+      "FZC Inmarco Product Shoot/OR 120/OR 120_1.webp",
+      "FZC Inmarco Product Shoot/OR 120/OR 120.webp"
+    ]
+  },
+  "HY 120AR": {
+    "id": 23,
+    "name": "HY 120AR",
+    "current_image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [
+      "Datasheet/Compression packing/style 120AR.pdf"
+    ],
+    "photos": [
+      "FZC Inmarco Product Shoot/HY 120AR/HY 120AR.webp",
+      "FZC Inmarco Product Shoot/HY 120AR/HY 120AR_3.webp",
+      "FZC Inmarco Product Shoot/HY 120AR/HY 120AR_2.webp",
+      "FZC Inmarco Product Shoot/HY 120 AR/HY 12O AR_4.webp",
+      "FZC Inmarco Product Shoot/HY 120 AR/HY 120 AR_Edited_1.webp",
+      "FZC Inmarco Product Shoot/HY 120 AR/HY 120 AR_Edited_2.webp"
+    ]
+  },
+  "OR 120F": {
+    "id": 24,
+    "name": "OR 120F",
+    "current_image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [],
+    "photos": [
+      "FZC Inmarco Product Shoot/OR 120/OR 120_1.webp",
+      "FZC Inmarco Product Shoot/OR 120/OR 120.webp"
+    ]
+  },
+  "IN 140": {
+    "id": 25,
+    "name": "IN 140",
+    "current_image": "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [],
+    "photos": [
+      "FZC Inmarco Product Shoot/IN 140/IN 140_5.webp",
+      "FZC Inmarco Product Shoot/IN 140/IN 140_6.webp"
+    ]
+  },
+  "CG 900": {
+    "id": 26,
+    "name": "CG 900",
+    "current_image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [
+      "Datasheet/Compression packing/CG 900.pdf"
+    ],
+    "photos": [
+      "FZC Inmarco Product Shoot/CG 900/CG 900_1.webp",
+      "FZC Inmarco Product Shoot/CG 900/CG 900_2.webp",
+      "FZC Inmarco Product Shoot/CG 900/CG 900 - 32_27.JPG",
+      "FZC Inmarco Product Shoot/CG 900/CG 900 - 32_16.JPG",
+      "FZC Inmarco Product Shoot/CG 900/CG 900 - 57(32).JPG",
+      "FZC Inmarco Product Shoot/CG 900/CG 900 - 57(32)_13.JPG",
+      "FZC Inmarco Product Shoot/CG 900/CG 900 - 57(32)_10.JPG",
+      "FZC Inmarco Product Shoot/CG 900/CG 900 - 57(32)_05.JPG"
+    ]
+  },
+  "HY 501": {
+    "id": 27,
+    "name": "HY 501",
+    "current_image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [
+      "Datasheet/Compression packing/INMARCO Style 501 C.pdf",
+      "Datasheet/Compression packing/HY 501.pdf"
+    ],
+    "photos": [
+      "FZC Inmarco Product Shoot/HY 501/HY 501 - 27_20.JPG",
+      "FZC Inmarco Product Shoot/HY 501/HY 501 - 55(27)_03.JPG",
+      "FZC Inmarco Product Shoot/HY 501/HY 501 - 27_17.JPG",
+      "FZC Inmarco Product Shoot/HY 501/HY 501 - 55(27)_01.JPG",
+      "FZC Inmarco Product Shoot/HY 501/HY 501 - 27_07.JPG",
+      "FZC Inmarco Product Shoot/HY 501/HY 501 - 27_13.JPG",
+      "FZC Inmarco Product Shoot/HY 501/HY 501 - 27_10.JPG"
+    ]
+  },
+  "CG 503": {
+    "id": 28,
+    "name": "CG 503",
+    "current_image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [
+      "Datasheet/Compression packing/CG 503.pdf"
+    ],
+    "photos": [
+      "FZC Inmarco Product Shoot/CG 503/CG 503 - 34_15.JPG",
+      "FZC Inmarco Product Shoot/CG 503/CG503_Edited_2.webp",
+      "FZC Inmarco Product Shoot/CG 503/CG503_Edited_3.webp",
+      "FZC Inmarco Product Shoot/CG 503/CG503_Edited_1.webp",
+      "FZC Inmarco Product Shoot/CG 503/CG 503 - 34_11.JPG",
+      "FZC Inmarco Product Shoot/CG 503/CG 503 - 53(34)_08.JPG",
+      "FZC Inmarco Product Shoot/CG 503/91(34)_05.JPG",
+      "FZC Inmarco Product Shoot/CG 503/CG 503 - 53(34)_05.JPG",
+      "FZC Inmarco Product Shoot/CG 503/91(34)_03.JPG",
+      "FZC Inmarco Product Shoot/CG 503/CG 503 - 53(34)_03.JPG",
+      "FZC Inmarco Product Shoot/CG 503/CG 503 - 91(34).JPG",
+      "FZC Inmarco Product Shoot/CG 503/CG 503 - 53(34)_15.JPG",
+      "FZC Inmarco Product Shoot/CG 503/CG 503 - 34_23.JPG",
+      "FZC Inmarco Product Shoot/CG 503/CG 503 - 34_26.JPG",
+      "FZC Inmarco Product Shoot/CG 503/CG 503 - 34_19.JPG"
+    ]
+  },
+  "PE 104": {
+    "id": 29,
+    "name": "PE 104",
+    "current_image": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [
+      "Datasheet/Compression packing/PE 104.pdf",
+      "Datasheet/Compression packing/PE 104C.pdf",
+      "Datasheet/Compression packing/PE 104A copy.pdf",
+      "Datasheet/Compression packing/PE 104A.pdf",
+      "Datasheet/Compression packing/PA 104A.pdf"
+    ],
+    "photos": [
+      "FZC Inmarco Product Shoot/PE 104/PE 104_Edited_1.webp",
+      "FZC Inmarco Product Shoot/PE 104/PE 104_Edited_2.webp",
+      "FZC Inmarco Product Shoot/PE 104 C/PE 140 C_5.webp",
+      "FZC Inmarco Product Shoot/PE 104 C/PE 104 C_Edited_1.webp",
+      "FZC Inmarco Product Shoot/PE 104 C/PE 104 C_Edited_2.webp",
+      "FZC Inmarco Product Shoot/PE 104 C/PE 104 C_Edited_3.webp"
+    ]
+  },
+  "OR 151": {
+    "id": 30,
+    "name": "OR 151",
+    "current_image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [],
+    "photos": []
+  },
+  "OR 156": {
+    "id": 31,
+    "name": "OR 156",
+    "current_image": "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [],
+    "photos": []
+  },
+  "HY 606": {
+    "id": 32,
+    "name": "HY 606",
+    "current_image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [
+      "Datasheet/Compression packing/HY 606.pdf"
+    ],
+    "photos": []
+  },
+  "CG 501C": {
+    "id": 33,
+    "name": "CG 501C",
+    "current_image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [
+      "Datasheet/Compression packing/INMARCO Style 501 C.pdf"
+    ],
+    "photos": []
+  },
+  "HY 801": {
+    "id": 34,
+    "name": "HY 801",
+    "current_image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [
+      "Datasheet/Compression packing/801CC.pdf",
+      "Datasheet/Compression packing/HY 801.pdf"
+    ],
+    "photos": [
+      "FZC Inmarco Product Shoot/HY 801/HY 801_3.webp",
+      "FZC Inmarco Product Shoot/HY 801/HY 801_2.webp",
+      "FZC Inmarco Product Shoot/HY 801/HY 801_1.webp"
+    ]
+  },
+  "PA 499": {
+    "id": 35,
+    "name": "PA 499",
+    "current_image": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [
+      "Datasheet/Compression packing/PA 499.pdf"
+    ],
+    "photos": [
+      "FZC Inmarco Product Shoot/PA 499/PA 499_Edited_1.JPG",
+      "FZC Inmarco Product Shoot/PA 499/PA 499_Edited_3.JPG",
+      "FZC Inmarco Product Shoot/PA 499/PA 499_Edited_2.JPG",
+      "FZC Inmarco Product Shoot/PA 499/PA 499_Edited_4.JPG"
+    ]
+  },
+  "HY 510": {
+    "id": 37,
+    "name": "HY 510",
+    "current_image": "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [
+      "Datasheet/Compression packing/HY 510EC copy.pdf",
+      "Datasheet/Compression packing/HY 510EC.pdf"
+    ],
+    "photos": []
+  },
+  "PE 104C": {
+    "id": 38,
+    "name": "PE 104C",
+    "current_image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [
+      "Datasheet/Compression packing/PE 104C.pdf"
+    ],
+    "photos": [
+      "FZC Inmarco Product Shoot/PE 104/PE 104_Edited_1.webp",
+      "FZC Inmarco Product Shoot/PE 104/PE 104_Edited_2.webp",
+      "FZC Inmarco Product Shoot/PE 104 C/PE 140 C_5.webp",
+      "FZC Inmarco Product Shoot/PE 104 C/PE 104 C_Edited_1.webp",
+      "FZC Inmarco Product Shoot/PE 104 C/PE 104 C_Edited_2.webp",
+      "FZC Inmarco Product Shoot/PE 104 C/PE 104 C_Edited_3.webp"
+    ]
+  },
+  "HY 105PT": {
+    "id": 39,
+    "name": "HY 105PT",
+    "current_image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [],
+    "photos": [
+      "FZC Inmarco Product Shoot/HY 105/HY 105_2.webp",
+      "FZC Inmarco Product Shoot/HY 105/HY 105_3.webp",
+      "FZC Inmarco Product Shoot/HY 105/HY 105_1.webp"
+    ]
+  },
+  "PE 504C": {
+    "id": 40,
+    "name": "PE 504C",
+    "current_image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [],
+    "photos": [
+      "FZC Inmarco Product Shoot/PE 504/PE 504.webp",
+      "FZC Inmarco Product Shoot/PE 504/PE 504 - 48(23)_09.JPG",
+      "FZC Inmarco Product Shoot/PE 504/PE 504_1.webp",
+      "FZC Inmarco Product Shoot/PE 504/PE 504-23_17.JPG",
+      "FZC Inmarco Product Shoot/PE 504/PE 504-23_14.JPG",
+      "FZC Inmarco Product Shoot/PE 504/PE 504-23_11.JPG",
+      "FZC Inmarco Product Shoot/PE 504/PE 504-23_06.JPG",
+      "FZC Inmarco Product Shoot/PE 504/PE 504 - 48(23)_04.JPG",
+      "FZC Inmarco Product Shoot/PE 504/PE 504 - 48(23)_10.JPG",
+      "FZC Inmarco Product Shoot/PE 504/PE 504 - 48(23)_06.JPG"
+    ]
+  },
+  "PA 106G": {
+    "id": 41,
+    "name": "PA 106G",
+    "current_image": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [],
+    "photos": [
+      "FZC Inmarco Product Shoot/PA 106/PA 106-11_19.JPG",
+      "FZC Inmarco Product Shoot/PA 106/PA 106_Edited_1.webp",
+      "FZC Inmarco Product Shoot/PA 106/PA 106-11_15.JPG"
+    ]
+  },
+  "PA 106E": {
+    "id": 42,
+    "name": "PA 106E",
+    "current_image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [
+      "Datasheet/Compression packing/PA 106E.pdf"
+    ],
+    "photos": [
+      "FZC Inmarco Product Shoot/PA 106/PA 106-11_19.JPG",
+      "FZC Inmarco Product Shoot/PA 106/PA 106_Edited_1.webp",
+      "FZC Inmarco Product Shoot/PA 106/PA 106-11_15.JPG"
+    ]
+  },
+  "PA 104A": {
+    "id": 43,
+    "name": "PA 104A",
+    "current_image": "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [
+      "Datasheet/Compression packing/PE 104A copy.pdf",
+      "Datasheet/Compression packing/PE 104A.pdf",
+      "Datasheet/Compression packing/PA 104A.pdf"
+    ],
+    "photos": []
+  },
+  "PE 504P": {
+    "id": 44,
+    "name": "PE 504P",
+    "current_image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [
+      "Datasheet/Compression packing/PE 504P copy.pdf",
+      "Datasheet/Compression packing/PE 504P.pdf"
+    ],
+    "photos": [
+      "FZC Inmarco Product Shoot/PE 504/PE 504.webp",
+      "FZC Inmarco Product Shoot/PE 504/PE 504 - 48(23)_09.JPG",
+      "FZC Inmarco Product Shoot/PE 504/PE 504_1.webp",
+      "FZC Inmarco Product Shoot/PE 504/PE 504-23_17.JPG",
+      "FZC Inmarco Product Shoot/PE 504/PE 504-23_14.JPG",
+      "FZC Inmarco Product Shoot/PE 504/PE 504-23_11.JPG",
+      "FZC Inmarco Product Shoot/PE 504/PE 504-23_06.JPG",
+      "FZC Inmarco Product Shoot/PE 504/PE 504 - 48(23)_04.JPG",
+      "FZC Inmarco Product Shoot/PE 504/PE 504 - 48(23)_10.JPG",
+      "FZC Inmarco Product Shoot/PE 504/PE 504 - 48(23)_06.JPG"
+    ]
+  },
+  "ULTRA LE 1002": {
+    "id": 45,
+    "name": "ULTRA LE 1002",
+    "current_image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [
+      "Datasheet/Compression packing/ULTRA FE 1003.pdf",
+      "Datasheet/Compression packing/ULTRA LE 1002.pdf",
+      "Datasheet/Compression packing/ULTRA LT 1004.pdf",
+      "Datasheet/Compression packing/ULTRA NE 1005.pdf"
+    ],
+    "photos": []
+  },
+  "ULTRA FE 1003": {
+    "id": 46,
+    "name": "ULTRA FE 1003",
+    "current_image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [
+      "Datasheet/Compression packing/ULTRA FE 1003.pdf",
+      "Datasheet/Compression packing/ULTRA LE 1002.pdf",
+      "Datasheet/Compression packing/ULTRA LT 1004.pdf",
+      "Datasheet/Compression packing/ULTRA NE 1005.pdf"
+    ],
+    "photos": [
+      "FZC Inmarco Product Shoot/Ultra FE 1003/Ultra FE 1003_2.webp",
+      "FZC Inmarco Product Shoot/Ultra FE 1003/Ultra FE 1003_1.webp"
+    ]
+  },
+  "ULTRA LT 1004": {
+    "id": 47,
+    "name": "ULTRA LT 1004",
+    "current_image": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [
+      "Datasheet/Compression packing/ULTRA FE 1003.pdf",
+      "Datasheet/Compression packing/ULTRA LE 1002.pdf",
+      "Datasheet/Compression packing/ULTRA LT 1004.pdf",
+      "Datasheet/Compression packing/ULTRA NE 1005.pdf"
+    ],
+    "photos": []
+  },
+  "ULTRA NE 1005": {
+    "id": 48,
+    "name": "ULTRA NE 1005",
+    "current_image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [
+      "Datasheet/Compression packing/ULTRA FE 1003.pdf",
+      "Datasheet/Compression packing/ULTRA LE 1002.pdf",
+      "Datasheet/Compression packing/ULTRA LT 1004.pdf",
+      "Datasheet/Compression packing/ULTRA NE 1005.pdf"
+    ],
+    "photos": []
+  },
+  "WIPING PAD": {
+    "id": 49,
+    "name": "WIPING PAD",
+    "current_image": "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [
+      "Datasheet/Wiping pad/High Temperature Wiping Pad.pdf"
+    ],
+    "photos": [
+      "FZC Inmarco Product Shoot/Wiping Pad/Wiping Pad_2.webp",
+      "FZC Inmarco Product Shoot/Wiping Pad/Wiping Pad_1.webp",
+      "FZC Inmarco Product Shoot/Yellow Wiping Pad/Yellow Wiping Pad_2.webp",
+      "FZC Inmarco Product Shoot/Yellow Wiping Pad/Yellow Wiping Pad_3.webp",
+      "FZC Inmarco Product Shoot/Yellow Wiping Pad/Yellow Wiping Pad_1.webp"
+    ]
+  },
+  "HY 105 HD": {
+    "id": 50,
+    "name": "HY 105 HD",
+    "current_image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [
+      "Datasheet/Compression packing/HY 105.pdf",
+      "Datasheet/Compression packing/HY 105HD.pdf",
+      "Datasheet/Compression packing/HY 105T.pdf",
+      "Datasheet/Compression packing/HY 105T copy.pdf"
+    ],
+    "photos": [
+      "FZC Inmarco Product Shoot/HY 105/HY 105_2.webp",
+      "FZC Inmarco Product Shoot/HY 105/HY 105_3.webp",
+      "FZC Inmarco Product Shoot/HY 105/HY 105_1.webp",
+      "FZC Inmarco Product Shoot/HY 105 HD/HY 105 HD_4.webp",
+      "FZC Inmarco Product Shoot/HY 105 HD/HY 105 HD_1.webp",
+      "FZC Inmarco Product Shoot/HY 105 HD/HY 105 HD_2.webp",
+      "FZC Inmarco Product Shoot/HY 105 HD/HY 105 HD_3.webp"
+    ]
+  },
+  "HY 107 HD": {
+    "id": 51,
+    "name": "HY 107 HD",
+    "current_image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [
+      "Datasheet/Compression packing/HY 107.pdf",
+      "Datasheet/Compression packing/HY 107HD.pdf"
+    ],
+    "photos": [
+      "FZC Inmarco Product Shoot/HY 107 HD/HY 107 HD - 58_03.JPG",
+      "FZC Inmarco Product Shoot/HY 107 HD/HY 107 HD_1.webp",
+      "FZC Inmarco Product Shoot/HY 107 HD/HY 107 HD - 58_01.JPG",
+      "FZC Inmarco Product Shoot/HY 107 HD/HY 107 HD - 58_04.JPG",
+      "FZC Inmarco Product Shoot/HY 107/HY 107_1.webp",
+      "FZC Inmarco Product Shoot/HY 107/HY 107_3.webp",
+      "FZC Inmarco Product Shoot/HY 107/HY 107_2.webp"
+    ]
+  },
+  "OR 125SR": {
+    "id": 52,
+    "name": "OR 125SR",
+    "current_image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [
+      "Datasheet/Compression packing/OR 125SR.pdf"
+    ],
+    "photos": [
+      "FZC Inmarco Product Shoot/OR 125 SR/OR 125 SR_1.webp",
+      "FZC Inmarco Product Shoot/OR 125 SR/OR 125 SR_3.webp",
+      "FZC Inmarco Product Shoot/OR 125 SR/OR 125 SR_2.webp",
+      "FZC Inmarco Product Shoot/OR 125 SR/OR 125 SR_5.webp",
+      "FZC Inmarco Product Shoot/OR 125 SR/OR 125 SR_4.webp"
+    ]
+  },
+  "IN 124S": {
+    "id": 53,
+    "name": "IN 124S",
+    "current_image": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [],
+    "photos": []
+  },
+  "IN 126S": {
+    "id": 54,
+    "name": "IN 126S",
+    "current_image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [],
+    "photos": []
+  },
+  "GM 300 / GM 300Z": {
+    "id": 55,
+    "name": "GM 300 / GM 300Z",
+    "current_image": "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [
+      "Datasheet/Graphoil Moulded/GM 300Z.pdf"
+    ],
+    "photos": [
+      "FZC Inmarco Product Shoot/GM 300Z/GM 300 Z -28_01.JPG",
+      "FZC Inmarco Product Shoot/GM 300Z/GM 300 Z -28_10.JPG",
+      "FZC Inmarco Product Shoot/GM 300Z/GM 300 Z -28_12.JPG",
+      "FZC Inmarco Product Shoot/GM 300Z/GM 300 Z -28_07.JPG",
+      "FZC Inmarco Product Shoot/GM 300Z/GM 300 Z -28_21.JPG",
+      "FZC Inmarco Product Shoot/GM 300Z/GM 300 Z -28_19.JPG",
+      "FZC Inmarco Product Shoot/GM 300Z/GM 300 Z -28_26.JPG"
+    ]
+  },
+  "GM 310 / GM 310C": {
+    "id": 56,
+    "name": "GM 310 / GM 310C",
+    "current_image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [
+      "Datasheet/Graphoil Moulded/GM 310C.pdf"
+    ],
+    "photos": [
+      "FZC Inmarco Product Shoot/GM 310C/GM 310 C- 29_05.JPG",
+      "FZC Inmarco Product Shoot/GM 310C/GM 310 C- 29_13.JPG",
+      "FZC Inmarco Product Shoot/GM 310C/GM 310 C- 29_02.JPG",
+      "FZC Inmarco Product Shoot/GM 310C/GM 310 C- 29_18.JPG",
+      "FZC Inmarco Product Shoot/GM 310C/GM 310 C- 29_08.JPG"
+    ]
+  },
+  "INMATEX EPTFE SHEET/GASKET": {
+    "id": 57,
+    "name": "INMATEX EPTFE SHEET/GASKET",
+    "current_image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [
+      "Datasheet/Compression packing/Inmatex ePTFE sheet-gasket.pdf",
+      "Datasheet/Flange joint gasket/Flange Joint Gasket v2.pdf",
+      "Datasheet/Flange Isolation gasket/Insulation Gasket Kit 1800 FS.pdf",
+      "Datasheet/Metallic gasket/Laminar_Seal_Datasheet_Updated.docx",
+      "Datasheet/Metallic gasket/Kammprofile/Kammprofile_Gasket_Datasheet_Updated.docx",
+      "Datasheet/Metallic gasket/DJ gasket/Double_Jacketed_Gasket_Datasheet.docx",
+      "Datasheet/Metallic gasket/DJ gasket/~$uble_Jacketed_Gasket_Datasheet.docx",
+      "Datasheet/Metallic gasket/Shims/Shims_Gasket_Datasheet.docx",
+      "Datasheet/Metallic gasket/soft iron ring/pressure-seal-metal-gasket-857-gigapixel-standard-scale-2_00x.jpg",
+      "Datasheet/Metallic gasket/soft iron ring/Pressure_Seal_Ring_Gasket_Datasheet.docx",
+      "Datasheet/Metallic gasket/CorrugatedMetal/Corrugated-Metal-Gasket-CMG-1024x576-gigapixel-standard-scale-2_00x.webp",
+      "Datasheet/Metallic gasket/CorrugatedMetal/Corrugated_Gasket_Datasheet.docx",
+      "Datasheet/Metallic gasket/SWG/Spiral_Wound_Gasket_Datasheet.docx",
+      "Datasheet/Metallic gasket/SWG/Spiral-Wound-Gasket-gigapixel-standard-scale-2_00x.webp"
+    ],
+    "photos": []
+  },
+  "GM 360": {
+    "id": 67,
+    "name": "GM 360",
+    "current_image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [],
+    "photos": []
+  },
+  "INSULATION GASKET KIT 1800 FS": {
+    "id": 58,
+    "name": "INSULATION GASKET KIT 1800 FS",
+    "current_image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [
+      "Datasheet/Compression packing/Inmatex ePTFE sheet-gasket.pdf",
+      "Datasheet/Flange joint gasket/Flange Joint Gasket v2.pdf",
+      "Datasheet/Flange Isolation gasket/Insulation Gasket Kit 1800 FS.pdf",
+      "Datasheet/Metallic gasket/Kammprofile/Kammprofile_Gasket_Datasheet_Updated.docx",
+      "Datasheet/Metallic gasket/DJ gasket/Double_Jacketed_Gasket_Datasheet.docx",
+      "Datasheet/Metallic gasket/DJ gasket/~$uble_Jacketed_Gasket_Datasheet.docx",
+      "Datasheet/Metallic gasket/Shims/Shims_Gasket_Datasheet.docx",
+      "Datasheet/Metallic gasket/soft iron ring/pressure-seal-metal-gasket-857-gigapixel-standard-scale-2_00x.jpg",
+      "Datasheet/Metallic gasket/soft iron ring/Pressure_Seal_Ring_Gasket_Datasheet.docx",
+      "Datasheet/Metallic gasket/CorrugatedMetal/Corrugated-Metal-Gasket-CMG-1024x576-gigapixel-standard-scale-2_00x.webp",
+      "Datasheet/Metallic gasket/CorrugatedMetal/Corrugated_Gasket_Datasheet.docx",
+      "Datasheet/Metallic gasket/SWG/Spiral_Wound_Gasket_Datasheet.docx",
+      "Datasheet/Metallic gasket/SWG/Spiral-Wound-Gasket-gigapixel-standard-scale-2_00x.webp"
+    ],
+    "photos": [
+      "FZC Inmarco Product Shoot/Insulation Gasket Kit/IG_1.webp",
+      "FZC Inmarco Product Shoot/Insulation Gasket Kit/IG_2.webp"
+    ]
+  },
+  "750SS WELDING BLANKET": {
+    "id": 59,
+    "name": "750SS WELDING BLANKET",
+    "current_image": "https://images.unsplash.com/photo-1768779611359-c4bb38ba3c1e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [
+      "Datasheet/Thermal Insulation/750SS WELDING BLANKET.pdf"
+    ],
+    "photos": []
+  },
+  "Laminar Gasket": {
+    "id": 60,
+    "name": "Laminar Gasket",
+    "current_image": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [
+      "Datasheet/Compression packing/Inmatex ePTFE sheet-gasket.pdf",
+      "Datasheet/Flange joint gasket/Flange Joint Gasket v2.pdf",
+      "Datasheet/Flange Isolation gasket/Insulation Gasket Kit 1800 FS.pdf",
+      "Datasheet/Metallic gasket/Laminar_Seal_Datasheet_Updated.docx",
+      "Datasheet/Metallic gasket/Kammprofile/Kammprofile_Gasket_Datasheet_Updated.docx",
+      "Datasheet/Metallic gasket/DJ gasket/Double_Jacketed_Gasket_Datasheet.docx",
+      "Datasheet/Metallic gasket/DJ gasket/~$uble_Jacketed_Gasket_Datasheet.docx",
+      "Datasheet/Metallic gasket/Shims/Shims_Gasket_Datasheet.docx",
+      "Datasheet/Metallic gasket/soft iron ring/pressure-seal-metal-gasket-857-gigapixel-standard-scale-2_00x.jpg",
+      "Datasheet/Metallic gasket/soft iron ring/Pressure_Seal_Ring_Gasket_Datasheet.docx",
+      "Datasheet/Metallic gasket/CorrugatedMetal/Corrugated-Metal-Gasket-CMG-1024x576-gigapixel-standard-scale-2_00x.webp",
+      "Datasheet/Metallic gasket/CorrugatedMetal/Corrugated_Gasket_Datasheet.docx",
+      "Datasheet/Metallic gasket/SWG/Spiral_Wound_Gasket_Datasheet.docx",
+      "Datasheet/Metallic gasket/SWG/Spiral-Wound-Gasket-gigapixel-standard-scale-2_00x.webp"
+    ],
+    "photos": [
+      "FZC Inmarco Product Shoot/Laminar Gasket/Laminar Gasket_1.webp",
+      "FZC Inmarco Product Shoot/Laminar Gasket/Laminar Gasket - 19_11.JPG",
+      "FZC Inmarco Product Shoot/Laminar Gasket/Laminar Gasket - 19_08.JPG"
+    ]
+  },
+  "Kammprofile Gasket": {
+    "id": 61,
+    "name": "Kammprofile Gasket",
+    "current_image": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [
+      "Datasheet/Compression packing/Inmatex ePTFE sheet-gasket.pdf",
+      "Datasheet/Flange joint gasket/Flange Joint Gasket v2.pdf",
+      "Datasheet/Flange Isolation gasket/Insulation Gasket Kit 1800 FS.pdf",
+      "Datasheet/Metallic gasket/Kammprofile/Kammprofile1-gigapixel-standard-height-1820px.webp",
+      "Datasheet/Metallic gasket/Kammprofile/kammprofile 2-standard-height-1820px-gigapixel.jpg",
+      "Datasheet/Metallic gasket/Kammprofile/kammprofile 2-standard-height-1820px-gigapixel-standard-scale-2_00x-gigapixel.jpg",
+      "Datasheet/Metallic gasket/Kammprofile/Kammprofile_Gasket_Datasheet_Updated.docx",
+      "Datasheet/Metallic gasket/DJ gasket/Double_Jacketed_Gasket_Datasheet.docx",
+      "Datasheet/Metallic gasket/DJ gasket/~$uble_Jacketed_Gasket_Datasheet.docx",
+      "Datasheet/Metallic gasket/Shims/Shims_Gasket_Datasheet.docx",
+      "Datasheet/Metallic gasket/soft iron ring/pressure-seal-metal-gasket-857-gigapixel-standard-scale-2_00x.jpg",
+      "Datasheet/Metallic gasket/soft iron ring/Pressure_Seal_Ring_Gasket_Datasheet.docx",
+      "Datasheet/Metallic gasket/CorrugatedMetal/Corrugated-Metal-Gasket-CMG-1024x576-gigapixel-standard-scale-2_00x.webp",
+      "Datasheet/Metallic gasket/CorrugatedMetal/Corrugated_Gasket_Datasheet.docx",
+      "Datasheet/Metallic gasket/SWG/Spiral_Wound_Gasket_Datasheet.docx",
+      "Datasheet/Metallic gasket/SWG/Spiral-Wound-Gasket-gigapixel-standard-scale-2_00x.webp"
+    ],
+    "photos": []
+  },
+  "Shim Joint": {
+    "id": 62,
+    "name": "Shim Joint",
+    "current_image": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [
+      "Datasheet/Flange joint gasket/Flange Joint Gasket v2.pdf",
+      "Datasheet/Metallic gasket/Ring Type Joint.docx",
+      "Datasheet/Metallic gasket/Shims/Shims_Gasket_Datasheet.docx",
+      "Datasheet/Metallic gasket/Shims/Slotted-Shims-SGL-1080x675-gigapixel-standard-scale-2_00x.jpg"
+    ],
+    "photos": []
+  },
+  "Double Jacketed Gasket": {
+    "id": 63,
+    "name": "Double Jacketed Gasket",
+    "current_image": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [
+      "Datasheet/Compression packing/Inmatex ePTFE sheet-gasket.pdf",
+      "Datasheet/Flange joint gasket/Flange Joint Gasket v2.pdf",
+      "Datasheet/Flange Isolation gasket/Insulation Gasket Kit 1800 FS.pdf",
+      "Datasheet/Metallic gasket/Kammprofile/Kammprofile_Gasket_Datasheet_Updated.docx",
+      "Datasheet/Metallic gasket/DJ gasket/Double_Jacketed_Gasket_Datasheet.docx",
+      "Datasheet/Metallic gasket/DJ gasket/~$uble_Jacketed_Gasket_Datasheet.docx",
+      "Datasheet/Metallic gasket/DJ gasket/Double jacketed.jpg",
+      "Datasheet/Metallic gasket/Shims/Shims_Gasket_Datasheet.docx",
+      "Datasheet/Metallic gasket/soft iron ring/pressure-seal-metal-gasket-857-gigapixel-standard-scale-2_00x.jpg",
+      "Datasheet/Metallic gasket/soft iron ring/Pressure_Seal_Ring_Gasket_Datasheet.docx",
+      "Datasheet/Metallic gasket/CorrugatedMetal/Corrugated-Metal-Gasket-CMG-1024x576-gigapixel-standard-scale-2_00x.webp",
+      "Datasheet/Metallic gasket/CorrugatedMetal/Corrugated_Gasket_Datasheet.docx",
+      "Datasheet/Metallic gasket/SWG/Spiral_Wound_Gasket_Datasheet.docx",
+      "Datasheet/Metallic gasket/SWG/Spiral-Wound-Gasket-gigapixel-standard-scale-2_00x.webp"
+    ],
+    "photos": []
+  },
+  "Ring Type Joint Gasket": {
+    "id": 64,
+    "name": "Ring Type Joint Gasket",
+    "current_image": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [
+      "Datasheet/Compression packing/Inmatex ePTFE sheet-gasket.pdf",
+      "Datasheet/Flange joint gasket/Flange Joint Gasket v2.pdf",
+      "Datasheet/Flange Isolation gasket/Insulation Gasket Kit 1800 FS.pdf",
+      "Datasheet/Metallic gasket/Ring Type Joint.docx",
+      "Datasheet/Metallic gasket/Kammprofile/Kammprofile_Gasket_Datasheet_Updated.docx",
+      "Datasheet/Metallic gasket/DJ gasket/Double_Jacketed_Gasket_Datasheet.docx",
+      "Datasheet/Metallic gasket/DJ gasket/~$uble_Jacketed_Gasket_Datasheet.docx",
+      "Datasheet/Metallic gasket/Shims/Shims_Gasket_Datasheet.docx",
+      "Datasheet/Metallic gasket/soft iron ring/pressure-seal-metal-gasket-857-gigapixel-standard-scale-2_00x.jpg",
+      "Datasheet/Metallic gasket/soft iron ring/Pressure_Seal_Ring_Gasket_Datasheet.docx",
+      "Datasheet/Metallic gasket/CorrugatedMetal/Corrugated-Metal-Gasket-CMG-1024x576-gigapixel-standard-scale-2_00x.webp",
+      "Datasheet/Metallic gasket/CorrugatedMetal/Corrugated_Gasket_Datasheet.docx",
+      "Datasheet/Metallic gasket/SWG/Spiral_Wound_Gasket_Datasheet.docx",
+      "Datasheet/Metallic gasket/SWG/Spiral-Wound-Gasket-gigapixel-standard-scale-2_00x.webp",
+      "Datasheet/Metallic gasket/SWG/SGIR TYPE.jpg"
+    ],
+    "photos": []
+  },
+  "Corrugated Gasket": {
+    "id": 65,
+    "name": "Corrugated Gasket",
+    "current_image": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [
+      "Datasheet/Compression packing/Inmatex ePTFE sheet-gasket.pdf",
+      "Datasheet/Flange joint gasket/Flange Joint Gasket v2.pdf",
+      "Datasheet/Flange Isolation gasket/Insulation Gasket Kit 1800 FS.pdf",
+      "Datasheet/Metallic gasket/Kammprofile/Kammprofile_Gasket_Datasheet_Updated.docx",
+      "Datasheet/Metallic gasket/DJ gasket/Double_Jacketed_Gasket_Datasheet.docx",
+      "Datasheet/Metallic gasket/DJ gasket/~$uble_Jacketed_Gasket_Datasheet.docx",
+      "Datasheet/Metallic gasket/Shims/Shims_Gasket_Datasheet.docx",
+      "Datasheet/Metallic gasket/soft iron ring/pressure-seal-metal-gasket-857-gigapixel-standard-scale-2_00x.jpg",
+      "Datasheet/Metallic gasket/soft iron ring/Pressure_Seal_Ring_Gasket_Datasheet.docx",
+      "Datasheet/Metallic gasket/CorrugatedMetal/Corrugated-Metal-Gasket-CMG-1024x576-gigapixel-standard-scale-2_00x.webp",
+      "Datasheet/Metallic gasket/CorrugatedMetal/Corrugated_Gasket_Datasheet.docx",
+      "Datasheet/Metallic gasket/SWG/Spiral_Wound_Gasket_Datasheet.docx",
+      "Datasheet/Metallic gasket/SWG/Spiral-Wound-Gasket-gigapixel-standard-scale-2_00x.webp"
+    ],
+    "photos": [
+      "FZC Inmarco Product Shoot/Corrugated Gasket/Corrugated Gasket_3.webp",
+      "FZC Inmarco Product Shoot/Corrugated Gasket/Corrugated Gasket_2.webp",
+      "FZC Inmarco Product Shoot/Corrugated Gasket/Corrugated Gasket.webp"
+    ]
+  },
+  "Soft Iron Ring": {
+    "id": 66,
+    "name": "Soft Iron Ring",
+    "current_image": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [
+      "Datasheet/Metallic gasket/Ring Type Joint.docx",
+      "Datasheet/Metallic gasket/soft iron ring/Pressure_Seal_Ring_Gasket_Datasheet.docx"
+    ],
+    "photos": [
+      "FZC Inmarco Product Shoot/Soft Iron/Soft Iron - 17.JPG",
+      "FZC Inmarco Product Shoot/Soft Iron/Soft Iron.webp",
+      "FZC Inmarco Product Shoot/Soft Iron/Soft Iron - 17_04.JPG"
+    ]
+  },
+  "NA 432": {
+    "id": 68,
+    "name": "NA 432",
+    "current_image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [],
+    "photos": []
+  },
+  "NA 420": {
+    "id": 69,
+    "name": "NA 420",
+    "current_image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [],
+    "photos": []
+  },
+  "NA 450": {
+    "id": 70,
+    "name": "NA 450",
+    "current_image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [],
+    "photos": []
+  },
+  "NA 452 GE": {
+    "id": 71,
+    "name": "NA 452 GE",
+    "current_image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [],
+    "photos": []
+  },
+  "NA 430": {
+    "id": 72,
+    "name": "NA 430",
+    "current_image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [],
+    "photos": []
+  },
+  "NA 442": {
+    "id": 73,
+    "name": "NA 442",
+    "current_image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [],
+    "photos": []
+  },
+  "NA 320": {
+    "id": 74,
+    "name": "NA 320",
+    "current_image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [],
+    "photos": []
+  },
+  "SST 323": {
+    "id": 75,
+    "name": "SST 323",
+    "current_image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [],
+    "photos": []
+  },
+  "NA 321": {
+    "id": 76,
+    "name": "NA 321",
+    "current_image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [],
+    "photos": []
+  },
+  "600 Sintered PTFE Sheet": {
+    "id": 77,
+    "name": "600 Sintered PTFE Sheet",
+    "current_image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [
+      "Datasheet/Compression packing/Inmatex ePTFE sheet-gasket.pdf",
+      "Datasheet/Metallic gasket/Laminar_Seal_Datasheet_Updated.docx",
+      "Datasheet/Metallic gasket/Kammprofile/Kammprofile_Gasket_Datasheet_Updated.docx",
+      "Datasheet/Metallic gasket/DJ gasket/Double_Jacketed_Gasket_Datasheet.docx",
+      "Datasheet/Metallic gasket/DJ gasket/~$uble_Jacketed_Gasket_Datasheet.docx",
+      "Datasheet/Metallic gasket/Shims/Shims_Gasket_Datasheet.docx",
+      "Datasheet/Metallic gasket/soft iron ring/Pressure_Seal_Ring_Gasket_Datasheet.docx",
+      "Datasheet/Metallic gasket/CorrugatedMetal/Corrugated_Gasket_Datasheet.docx",
+      "Datasheet/Metallic gasket/SWG/Spiral_Wound_Gasket_Datasheet.docx"
+    ],
+    "photos": []
+  },
+  "GFO 441": {
+    "id": 79,
+    "name": "GFO 441",
+    "current_image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "datasheets": [],
+    "photos": []
+  }
+}

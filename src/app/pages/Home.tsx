@@ -1,6 +1,4 @@
 import { Hero } from '@/app/components/Hero';
-import { Hero1 } from '@/app/components/Hero1';
-import { Hero2 } from '@/app/components/Hero2';
 import { CompanyOverview } from '@/app/components/CompanyOverview';
 import { Sustainability } from '@/app/components/Sustainability';
 import { ProductCategories } from '@/app/components/ProductCategories';
@@ -11,7 +9,7 @@ import { CTASection } from '@/app/components/CTASection';
 export default function Home() {
   return (
     <main>
-      <Hero2 />
+      <Hero />
       <CompanyOverview />
       <Sustainability />
       <ProductCategories />

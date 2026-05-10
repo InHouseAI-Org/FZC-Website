@@ -2,6 +2,7 @@ import { motion } from 'motion/react';
 import { Link, useParams } from 'react-router-dom';
 import { ArrowLeft, CheckCircle2, FileText, Download } from 'lucide-react';
 import { ImageWithFallback } from '@/app/components/figma/ImageWithFallback';
+import { ProductImageGallery } from '@/app/components/ProductImageGallery';
 import productsData from '@/data/productsData.json';
 
 export default function ProductDetail() {
@@ -94,20 +95,17 @@ export default function ProductDetail() {
       <section className="py-12 bg-[#2b2a29]">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
           <div className="grid lg:grid-cols-2 gap-12">
-            {/* Image */}
+            {/* Image Gallery */}
             <motion.div
               initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
             >
-              <div className="relative rounded-lg overflow-hidden aspect-square bg-black">
-                <ImageWithFallback
-                  src={product.image}
-                  alt={product.name}
-                  className="w-full h-full object-cover"
-                />
-              </div>
+              <ProductImageGallery
+                images={product.images || product.gallery || [product.image]}
+                productName={product.name}
+              />
             </motion.div>
 
             {/* Description & Quick Actions */}
@@ -148,12 +146,17 @@ export default function ProductDetail() {
                 >
                   Request Quote
                 </Link>
-                <button
-                  className="inline-flex items-center space-x-2 px-6 py-3 bg-transparent border-2 border-[#e31e24] text-[#e31e24] rounded-lg hover:bg-[#e31e24] hover:text-white transition-colors duration-300 font-medium"
-                >
-                  <Download className="w-4 h-4" />
-                  <span>Download Datasheet</span>
-                </button>
+                {product.datasheet && (
+                  <a
+                    href={product.datasheet}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center space-x-2 px-6 py-3 bg-transparent border-2 border-[#e31e24] text-[#e31e24] rounded-lg hover:bg-[#e31e24] hover:text-white transition-colors duration-300 font-medium"
+                  >
+                    <Download className="w-4 h-4" />
+                    <span>Download Datasheet</span>
+                  </a>
+                )}
               </div>
             </motion.div>
           </div>

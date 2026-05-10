@@ -9,6 +9,7 @@ interface Post {
   title: string;
   description: string;
   linkedInPostLink: string;
+  linkedInEmbedUrl?: string;
   youtubeLink: string;
   date: string;
 }
@@ -21,9 +22,16 @@ export default function FluidSealingSimplified() {
     return new Date(dateString).toLocaleDateString('en-US', options);
   };
 
-  const getYouTubeThumbnail = (youtubeLink: string) => {
-    // Extract video ID from embed URL (e.g., https://www.youtube.com/embed/VIDEO_ID)
-    const videoId = youtubeLink.split('/embed/')[1]?.split('?')[0];
+  const getLinkedInThumbnail = (post: Post) => {
+    // Use LinkedIn post image if embed URL exists
+    // LinkedIn doesn't provide a direct thumbnail URL, so we'll use a placeholder
+    // or you can provide custom thumbnails for each post
+    if (post.linkedInEmbedUrl) {
+      // For now, we'll use a placeholder - you can add custom thumbnail URLs to the JSON
+      return post.linkedInEmbedUrl; // This will be handled by iframe preview
+    }
+    // Fallback to YouTube thumbnail
+    const videoId = post.youtubeLink.split('/embed/')[1]?.split('?')[0];
     return videoId ? `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg` : '';
   };
 
@@ -83,25 +91,44 @@ export default function FluidSealingSimplified() {
                 >
                   {/* Thumbnail Area */}
                   <div className="relative aspect-video flex items-center justify-center overflow-hidden bg-black">
-                    {/* YouTube Thumbnail */}
-                    <ImageWithFallback
-                      src={getYouTubeThumbnail(post.youtubeLink)}
-                      alt={post.title}
-                      className="absolute inset-0 w-full h-full object-cover"
-                    />
+                    {post.linkedInEmbedUrl ? (
+                      /* LinkedIn Embed Preview */
+                      <>
+                        <iframe
+                          src={`${post.linkedInEmbedUrl}?compact=1`}
+                          className="absolute inset-0 w-full h-full pointer-events-none"
+                          title={post.title}
+                          style={{ transform: 'scale(1)', transformOrigin: 'top left' }}
+                        />
+                        {/* Overlay to prevent interaction and add play button */}
+                        <div className="absolute inset-0 bg-black/30 group-hover:bg-black/40 transition-colors duration-300 pointer-events-auto"></div>
 
-                    {/* Dark Overlay */}
-                    <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors duration-300"></div>
-
-                    {/* Play Button */}
-                    <div className="relative z-10 w-20 h-20 rounded-full bg-[#e31e24] flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg">
-                      <svg className="w-10 h-10 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M8 5v14l11-7z"/>
-                      </svg>
-                    </div>
+                        {/* Play Button Overlay */}
+                        <div className="relative z-10 w-20 h-20 rounded-full bg-[#e31e24] flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg pointer-events-none">
+                          <svg className="w-10 h-10 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M8 5v14l11-7z"/>
+                          </svg>
+                        </div>
+                      </>
+                    ) : (
+                      /* YouTube Thumbnail Fallback */
+                      <>
+                        <ImageWithFallback
+                          src={getLinkedInThumbnail(post)}
+                          alt={post.title}
+                          className="absolute inset-0 w-full h-full object-cover"
+                        />
+                        <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors duration-300"></div>
+                        <div className="relative z-10 w-20 h-20 rounded-full bg-[#e31e24] flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg">
+                          <svg className="w-10 h-10 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M8 5v14l11-7z"/>
+                          </svg>
+                        </div>
+                      </>
+                    )}
 
                     {/* Article Number Badge */}
-                    <div className="absolute top-4 right-4 bg-[#e31e24] text-white px-3 py-1 rounded-full text-sm font-medium shadow-lg">
+                    <div className="absolute top-4 right-4 bg-[#e31e24] text-white px-3 py-1 rounded-full text-sm font-medium shadow-lg z-20">
                       #{post.id}
                     </div>
                   </div>
