@@ -4332,6 +4332,143 @@
         "/FZC Inmarco Product Shoot/Yellow Wiping Pad/Yellow Wiping Pad_3.png",
         "/FZC Inmarco Product Shoot/Yellow Wiping Pad/Yellow Wiping Pad_3.webp"
       ]
+    },
+    {
+      "id": 72,
+      "categoryId": 3,
+      "subcategoryId": 10,
+      "name": "FG 320",
+      "slug": "fg-320",
+      "material": "INGRAF Plain Sheet - Pure Flexible Graphite",
+      "apiCertified": false,
+      "shortDescription": "High-purity flexible graphite sheet with 99% to 99.9% carbon content for extreme temperature and pressure applications",
+      "description": "FG 320 is manufactured from exfoliated graphite through acid treatment with 100% acids washed out by DM water. The manufacturing process is mechanical without incorporation of any additives or bonding material, resulting in flexible pure graphite sheet with carbon content 99% to 99.9%. Highly resilient and easily adapts to irregularities of flange or surface to make perfect seal. Suitable for metallic, glass, and enamel flanges, designed for trouble-free change over which ultimately reduces maintenance cost. Dimensionally stable under extreme pressure surge and suitable for cryogenic services.",
+      "image": "/FZC Inmarco Product Shoot/Plain Graphite Gasket/96_01.JPG",
+      "specifications": {
+        "Temperature Range": "Min. -200°C to Max. 550°C",
+        "pH Range": "0-14",
+        "Pressure": "150 BAR",
+        "Thickness": "0.5mm to 6mm",
+        "Carbon Content": "99% to 99.9%",
+        "Sulphur Content": "Less than 750ppm",
+        "Chloride Content": "Less than 45ppm",
+        "Ash Content": "Less than 1%"
+      },
+      "technicalData": {
+        "Material": "Pure exfoliated graphite (99-99.9% carbon)",
+        "Manufacturing Process": "Mechanical exfoliation with acid treatment, 100% DM water washed",
+        "Bonding": "No additives or bonding materials",
+        "Sheet Tolerance": "0.5mm ~ 6mm (Thickness)",
+        "Tolerance on Density": "±0.05g/cc",
+        "Tolerance on Thickness": "±0.1mm ~ 0.25",
+        "Temperature - Reducing": "-200 to 3315°C",
+        "Temperature - Oxidizing": "480°C",
+        "Temperature - Steam": "550°C",
+        "Pressure Range": "Vacuum 28Hg to 150 BAR"
+      },
+      "features": [
+        "Ultra-high purity with 99% to 99.9% carbon content",
+        "Extreme temperature capability from -200°C to 550°C",
+        "Highly resilient and adapts easily to surface irregularities",
+        "Dimensionally stable under extreme pressure surge",
+        "Suitable for cryogenic services",
+        "No additives or bonding materials - pure graphite",
+        "Trouble-free installation reduces maintenance costs",
+        "Excellent compressibility (35-40%) and recovery (15-18%)",
+        "Superior sealability for fuel and nitrogen applications",
+        "Low permeability (0.40 nitrogen cc/min)"
+      ],
+      "applications": [
+        "Pipe flanges in high-temperature services",
+        "Valve bonnets and heat exchangers",
+        "Super heated and saturated steam applications",
+        "Non-oxidising liquids and gases",
+        "Hydrocarbon and oxygen services",
+        "Cryogenic services and dye applications",
+        "Chemical processing (acids except hydrofluoric)",
+        "Alkalies and fuel systems",
+        "Lube oil and general industrial sealing"
+      ],
+      "gallery": [
+        "/FZC Inmarco Product Shoot/Plain Graphite Gasket/96_01.JPG",
+        "/FZC Inmarco Product Shoot/Plain Graphite Gasket/96_03.JPG",
+        "/FZC Inmarco Product Shoot/Plain Graphite Gasket/96_06.JPG"
+      ],
+      "images": [
+        "/FZC Inmarco Product Shoot/Plain Graphite Gasket/96_01.JPG",
+        "/FZC Inmarco Product Shoot/Plain Graphite Gasket/96_03.JPG",
+        "/FZC Inmarco Product Shoot/Plain Graphite Gasket/96_06.JPG"
+      ]
+    },
+    {
+      "id": 73,
+      "categoryId": 3,
+      "subcategoryId": 10,
+      "name": "SSF 321",
+      "slug": "ssf-321",
+      "material": "INGRAF Plain with SS Foil Insert - Graphite with Stainless Steel Reinforcement",
+      "apiCertified": false,
+      "shortDescription": "Flexible pure graphite sheet with plain stainless steel foil insert for enhanced mechanical strength in high-pressure applications",
+      "description": "SSF 321 sheet is manufactured from plain SS sheet sandwich between two layers of flexible pure graphite sheet. The manufacturing process is mechanical without incorporation of any additives on bonding materials. SS sheet insert graphite gaskets are suitable for metallic, glass, enamel flanges and are designed for trouble-free change over which ultimately reduces maintenance cost. Dimensionally stable under extreme pressure surge and suitable for cryogenic services.",
+      "image": "/FZC Inmarco Product Shoot/Tangent Graphite Gasket/97_02.JPG",
+      "specifications": {
+        "Temperature Range": "Min. -200°C to Max. +650°C",
+        "pH Range": "0-14",
+        "Pressure": "500 BAR",
+        "Thickness": "1mm to 6mm",
+        "Carbon Content": "99% to 99.9%",
+        "Sulphur Content": "Less than 500ppm",
+        "Chloride Content": "Less than 30ppm",
+        "Ash Content": "Less than 1%"
+      },
+      "technicalData": {
+        "Material": "Plain SS foil sandwiched between flexible pure graphite sheets",
+        "Manufacturing Process": "Mechanical process without additives or bonding materials",
+        "Reinforcement Thickness": "0.05mm ~ 0.1mm",
+        "Sheet Tolerance": "1mm ~ 6mm (Thickness)",
+        "Tolerance on Density": "±0.05g/cc",
+        "Tolerance on Thickness": "±0.1mm ~ 0.25",
+        "Bulk Density": "1.1gms/cc to 1.4gms/cc",
+        "Temperature - Reducing": "-200 to 3315°C",
+        "Temperature - Oxidizing": "+600°C",
+        "Temperature - Steam": "+650°C",
+        "Pressure Range": "Vacuum 28Hg to 300 BAR"
+      },
+      "features": [
+        "SS foil reinforcement increases mechanical strength",
+        "Chemical properties of flexible pure graphite remain intact",
+        "Resistant to almost all non-chemicals",
+        "Good compressibility (35-40%) and recovery (15-18%)",
+        "Seals perfectly with enhanced pressure capability",
+        "Does not age or creep under hot or cold working conditions",
+        "Dimensionally stable under extreme pressure",
+        "Enhanced temperature range up to +650°C in steam",
+        "Low permeability (0.40 nitrogen cc/min)",
+        "Superior m-factor (2.8) and y-factor (4700 psi)"
+      ],
+      "applications": [
+        "Pipe flanges in extreme pressure applications",
+        "Valve bonnets and heat exchangers",
+        "Super heated and saturated steam services",
+        "Non-oxidising liquids and gases",
+        "Hydrocarbon and oxygen services",
+        "Cryogenic services and chemical processing",
+        "Dyes and chemicals (except certain acids)",
+        "Fuel and lube oil systems",
+        "High-pressure industrial sealing applications"
+      ],
+      "gallery": [
+        "/FZC Inmarco Product Shoot/Tangent Graphite Gasket/97_02.JPG",
+        "/FZC Inmarco Product Shoot/Tangent Graphite Gasket/Tangent Graphite Gasket - 97.JPG",
+        "/FZC Inmarco Product Shoot/Tangent Graphite Gasket/Tangent Graphite_2.png",
+        "/FZC Inmarco Product Shoot/Tangent Graphite Gasket/Tangent Graphite_2.webp"
+      ],
+      "images": [
+        "/FZC Inmarco Product Shoot/Tangent Graphite Gasket/97_02.JPG",
+        "/FZC Inmarco Product Shoot/Tangent Graphite Gasket/Tangent Graphite Gasket - 97.JPG",
+        "/FZC Inmarco Product Shoot/Tangent Graphite Gasket/Tangent Graphite_2.png",
+        "/FZC Inmarco Product Shoot/Tangent Graphite Gasket/Tangent Graphite_2.webp"
+      ]
     }
   ]
 }
