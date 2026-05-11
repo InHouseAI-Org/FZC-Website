@@ -65,7 +65,6 @@ export function CompanyOverview() {
           loop
           muted
           playsInline
-          poster="/360_F_861863741_uAHpeQn29yvDLuMGuTlxF6zAd4ZITTxf.jpg"
           className="w-full h-full object-cover"
         >
           <source src="/FZC Inmarco Product Shoot/GB2.webm" type="video/webm" />

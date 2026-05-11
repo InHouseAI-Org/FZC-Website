@@ -3,7 +3,7 @@
 import { motion } from 'motion/react';
 import { Calendar, Linkedin, Youtube, ExternalLink, ArrowLeft } from 'lucide-react';
 import Link from 'next/link';
-import { useRouter } from 'next/navigation';
+import { useRouter, useParams } from 'next/navigation';
 import fluidSealingData from '@/data/fluidSealingContent.json';
 
 interface Post {
@@ -55,7 +55,7 @@ export default function FluidSealingPost() {
           >
             <Link
               href="/fluid-sealing-simplified"
-              className="inline-flex items-center space-x-2 text-gray-400 hover:text-[#e31e24] transition-colors mb-8"
+              className="inline-flex items-center space-x-2 text-gray-400 hover:text-[#e31e24] transition-colors mt-32 mb-8"
             >
               <ArrowLeft className="w-5 h-5" />
               <span>Back to All Articles</span>

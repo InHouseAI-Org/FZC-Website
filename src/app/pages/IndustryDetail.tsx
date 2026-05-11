@@ -88,18 +88,18 @@ export default function IndustryDetail() {
 
   // Map industry slugs to their product images
   const industryImages: Record<string, string> = {
-    'oil-gas': 'public/industries/Oil .webp',
-    'power-generation': 'public/industries/Power Gen.webp',
-    'chemical': 'public/industries/Chemical.webp',
-    'water-wastewater-treatment': 'public/industries/Water & Wastewater Treatment.webp',
-    'marine': 'public/industries/Marine.webp',
-    'cement': 'public/industries/Cement.webp',
-    'fertilizers': 'public/industries/Fertlisers.webp',
-    'metallurgy': 'public/industries/Metal.webp',
-    'pulp-paper': 'public/industries/Pulp.webp',
-    'food-pharmaceutical': 'public/industries/Food & Pharma.webp',
-    'sugar': 'public/industries/Sugar.webp',
-    'oem': 'public/industries/OEM.webp',
+    'oil-gas': 'public/FZC Inmarco Product Shoot/Industries/Oil & Gas.png',
+    'power-generation': 'public/FZC Inmarco Product Shoot/Industries/Power Gen.png',
+    'chemical': 'public/FZC Inmarco Product Shoot/Industries/Chemical.png',
+    'water-wastewater-treatment': 'public/FZC Inmarco Product Shoot/Industries/Waste Water.png',
+    'marine': 'public/FZC Inmarco Product Shoot/Industries/Marine.png',
+    'cement': 'public/FZC Inmarco Product Shoot/Industries/Cement.png',
+    'fertilizers': 'public/FZC Inmarco Product Shoot/Industries/Fertilisers.png',
+    'metallurgy': 'public/FZC Inmarco Product Shoot/Industries/Metal.png',
+    'pulp-paper': 'public/FZC Inmarco Product Shoot/Industries/Pulp.png',
+    'food-pharmaceutical': 'public/FZC Inmarco Product Shoot/Industries/Food & Pharma.png',
+    'sugar': 'public/FZC Inmarco Product Shoot/Industries/Sugar.png',
+    'oem': 'public/FZC Inmarco Product Shoot/Industries/OEM.png',
   };
 
   const scrollToCTA = () => {
@@ -122,10 +122,10 @@ export default function IndustryDetail() {
     );
   }
 
-  // Get related industries (exclude current one) - randomly selected
+  // Get related industries (exclude current one) - deterministically selected based on current industry ID
+  // Use a stable selection to prevent hydration mismatches
   const relatedIndustries = industriesData.industries
     .filter((ind) => ind.id !== industry.id)
-    .sort(() => Math.random() - 0.5)
     .slice(0, 3);
 
   return (
@@ -135,7 +135,10 @@ export default function IndustryDetail() {
         <ImageWithFallback
           src={industry.image}
           alt={industry.title}
-          className="w-full h-full object-cover"
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-[#2b2a29]/95 via-[#2b2a29]/80 to-transparent"></div>
 
@@ -145,7 +148,7 @@ export default function IndustryDetail() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6 }}
           onClick={() => router.push('/industries')}
-          className="absolute top-25 left-6 lg:left-12 z-20 flex items-center space-x-2 text-white hover:text-[#e31e24] transition-colors"
+          className="absolute top-[150px] left-6 lg:left-12 z-20 flex items-center space-x-2 text-white hover:text-[#e31e24] transition-colors"
         >
           <ArrowLeft className="w-5 h-5" />
           <span>Back to Industries</span>
@@ -365,16 +368,16 @@ export default function IndustryDetail() {
             >
               {/* Main large image */}
               <div className="relative group">
-                <div className="aspect-[16/8] overflow-hidden">
+                <div className="overflow-hidden">
                   <ImageWithFallback
                     src={industryImages[slug]}
                     alt={`${industry.title} Sealing Solutions`}
                     className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-1000"
                   />
 
-                  {/* Gradient overlays for depth */}
+                  {/* Gradient overlays for depth
                   <div className="absolute inset-0 bg-gradient-to-t from-[#1a1918] via-transparent to-transparent opacity-60"></div>
-                  <div className="absolute inset-0 bg-gradient-to-r from-[#1a1918]/40 via-transparent to-[#1a1918]/40"></div>
+                  <div className="absolute inset-0 bg-gradient-to-r from-[#1a1918]/40 via-transparent to-[#1a1918]/40"></div> */}
 
                   {/* Top border accent */}
                   <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[#e31e24] to-transparent"></div>

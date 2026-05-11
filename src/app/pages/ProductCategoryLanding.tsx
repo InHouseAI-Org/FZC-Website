@@ -91,7 +91,7 @@ export default function ProductCategoryLanding() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6 }}
           onClick={() => router.push('/products')}
-          className="absolute top-25 left-6 lg:left-12 z-20 flex items-center space-x-2 text-white hover:text-[#e31e24] transition-colors"
+          className="absolute top-[150px] left-6 lg:left-12 z-20 flex items-center space-x-2 text-white hover:text-[#e31e24] transition-colors"
         >
           <ArrowLeft className="w-5 h-5" />
           <span>Back to Products</span>
@@ -193,7 +193,7 @@ export default function ProductCategoryLanding() {
                           href={`/products/${category.slug}/${subcategory.slug}/${product.slug}`}
                           className="block bg-[#1a1918] rounded-lg overflow-hidden border border-gray-800 hover:border-[#e31e24] transition-all duration-300 group h-full flex flex-col"
                         >
-                          {/* Image */}
+                          {/* Image - Only show if exists */}
                           {(product.images?.[0] || product.image) && (
                             <div className="relative h-64 overflow-hidden">
                               <ImageWithFallback
@@ -264,7 +264,7 @@ export default function ProductCategoryLanding() {
                     href={`/products/${category.slug}/${product.slug}`}
                     className="block bg-[#1a1918] rounded-lg overflow-hidden border border-gray-800 hover:border-[#e31e24] transition-all duration-300 group h-full flex flex-col"
                   >
-                    {/* Image */}
+                    {/* Image - Only show if exists */}
                     {(product.images?.[0] || product.image) && (
                       <div className="relative h-64 overflow-hidden">
                         <ImageWithFallback

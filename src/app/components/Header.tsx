@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Play } from 'lucide-react';
-import inmarcoLogo from '@/assets/inmarco-tagline-logo.webp';
+import inmarcoLogo from '@/assets/inmarco-tagline-logo.png';
 
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -82,7 +82,7 @@ export function Header() {
           <Link href="/" className="relative flex items-center space-x-4">
             <div className="relative overflow-hidden" style={{ width: '180px', height: '64px' }}>
               <img
-                src={inmarcoLogo.src || inmarcoLogo}
+                src={inmarcoLogo}
                 alt="INMARCO"
                 className="absolute"
                 style={{

@@ -44,7 +44,7 @@ export default function Products() {
             transition={{ duration: 0.8 }}
             className="max-w-3xl"
           >
-            <div className="h-[2px] w-12 bg-[#e31e24] mb-6"></div>
+            <div className="h-[2px] w-12 bg-[#e31e24] mb-6" style={{marginTop:"40px"}}></div>
             <h1 className="text-white mb-6" style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)', lineHeight: '1.1', letterSpacing: '-0.02em' }}>
               Our Products
             </h1>

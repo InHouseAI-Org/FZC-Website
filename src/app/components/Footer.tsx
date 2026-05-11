@@ -2,7 +2,7 @@
 
 import { Linkedin, Youtube } from 'lucide-react';
 import Link from 'next/link';
-import inmarcoLogo from '@/assets/inmarco-tagline-logo1.webp';
+import inmarcoLogo from '@/assets/inmarco-tagline-logo1.png';
 import industriesData from '@/data/industries.json';
 import productsData from '@/data/productsData.json';
 
@@ -41,7 +41,7 @@ export function Footer() {
             >
               <div className="relative overflow-hidden" style={{ width: '230px', height: '180px' }}>
                 <img
-                  src={inmarcoLogo.src || inmarcoLogo}
+                  src={typeof inmarcoLogo === 'string' ? inmarcoLogo : inmarcoLogo.src}
                   alt="INMARCO"
                   className="absolute"
                   style={{

@@ -3,7 +3,7 @@
 import { motion } from 'motion/react';
 import { ImageWithFallback } from '@/app/components/figma/ImageWithFallback';
 import { CheckCircle2, Target, Eye, Lightbulb, Users, Recycle, TrendingUp, Shield, Award } from 'lucide-react';
-import inmarcoLogo from '@/assets/inmarco-tagline-logo1.webp';
+import inmarcoLogo from '@/assets/inmarco-tagline-logo1.png';
 
 export default function AboutUs() {
   const coreValues = [
@@ -210,7 +210,7 @@ export default function AboutUs() {
                       }}
                     >
                       <img
-                        src={inmarcoLogo.src || inmarcoLogo}
+                        src={typeof inmarcoLogo === 'string' ? inmarcoLogo : inmarcoLogo.src}
                         alt="Inmarco FZC"
                         className="h-80 md:h-80 w-auto object-contain"
                       />

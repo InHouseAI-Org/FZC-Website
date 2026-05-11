@@ -7,10 +7,10 @@
       "/FZC Inmarco Product Shoot/PE 505/PE 505 - 50(14)_05.JPG",
       "/FZC Inmarco Product Shoot/PE 505/PE 505 - 50(14)_15.JPG",
       "/FZC Inmarco Product Shoot/PE 505/PE 505_3.JPG",
-      "/FZC Inmarco Product Shoot/PE 505/PE 505_1.webp",
-      "/FZC Inmarco Product Shoot/PE 504/PE 504.webp",
+      "/FZC Inmarco Product Shoot/PE 505/PE 505_1.png",
+      "/FZC Inmarco Product Shoot/PE 504/PE 504.png",
       "/FZC Inmarco Product Shoot/PE 504/PE 504 - 48(23)_09.JPG",
-      "/FZC Inmarco Product Shoot/PE 504/PE 504_1.webp",
+      "/FZC Inmarco Product Shoot/PE 504/PE 504_1.png",
       "/FZC Inmarco Product Shoot/PE 504/PE 504-23_17.JPG",
       "/FZC Inmarco Product Shoot/PE 504/PE 504-23_14.JPG"
     ]
@@ -33,11 +33,11 @@
   },
   "flange-joint-gaskets": {
     "name": "Flange Joint Gaskets",
-    "image": "/FZC Inmarco Product Shoot/Inmatex PTFE Gasket/Inmatex PTFE_1.webp",
+    "image": "/FZC Inmarco Product Shoot/Inmatex PTFE Gasket/Inmatex PTFE_1.png",
     "all_images": [
-      "/FZC Inmarco Product Shoot/Inmatex PTFE Gasket/Inmatex PTFE_1.webp",
-      "/FZC Inmarco Product Shoot/SS Gasket/SS Gasket_2.webp",
-      "/FZC Inmarco Product Shoot/SS Gasket/SS Gasket_1.webp"
+      "/FZC Inmarco Product Shoot/Inmatex PTFE Gasket/Inmatex PTFE_1.png",
+      "/FZC Inmarco Product Shoot/SS Gasket/SS Gasket_2.png",
+      "/FZC Inmarco Product Shoot/SS Gasket/SS Gasket_1.png"
     ]
   },
   "flange-isolation-gaskets": {
@@ -50,8 +50,8 @@
     "image": "/Datasheet/Metallic gasket/CorrugatedMetal/Image 2.jpeg",
     "all_images": [
       "/Datasheet/Metallic gasket/CorrugatedMetal/Image 2.jpeg",
-      "/Datasheet/Metallic gasket/SWG/Spiral-Wound-Gasket-gigapixel-standard-scale-2_00x.webp",
-      "/Datasheet/Metallic gasket/Kammprofile/Image.webp"
+      "/Datasheet/Metallic gasket/SWG/Spiral-Wound-Gasket-gigapixel-standard-scale-2_00x.png",
+      "/Datasheet/Metallic gasket/Kammprofile/Image.png"
     ]
   },
   "thermal-insulation": {
@@ -59,15 +59,15 @@
     "image": "/FZC Inmarco Product Shoot/IN 123/IN 123 - 45 _29.JPG",
     "all_images": [
       "/FZC Inmarco Product Shoot/IN 123/IN 123 - 45 _29.JPG",
-      "/FZC Inmarco Product Shoot/IN 123/IN 123_1.webp",
-      "/FZC Inmarco Product Shoot/IN 123/IN 123_2.webp",
+      "/FZC Inmarco Product Shoot/IN 123/IN 123_1.png",
+      "/FZC Inmarco Product Shoot/IN 123/IN 123_2.png",
       "/FZC Inmarco Product Shoot/IN 123/IN 123 - 45 _29.JPG",
-      "/FZC Inmarco Product Shoot/IN 123/IN 123_1.webp",
-      "/FZC Inmarco Product Shoot/IN 123/IN 123_2.webp",
-      "/FZC Inmarco Product Shoot/IN 140/IN 140_5.webp",
-      "/FZC Inmarco Product Shoot/IN 140/IN 140_6.webp",
-      "/FZC Inmarco Product Shoot/Welding Blanket 750SS/Welding Gasket_2.webp",
-      "/FZC Inmarco Product Shoot/Welding Blanket 750SS/Welding Gasket_3.webp"
+      "/FZC Inmarco Product Shoot/IN 123/IN 123_1.png",
+      "/FZC Inmarco Product Shoot/IN 123/IN 123_2.png",
+      "/FZC Inmarco Product Shoot/IN 140/IN 140_5.png",
+      "/FZC Inmarco Product Shoot/IN 140/IN 140_6.png",
+      "/FZC Inmarco Product Shoot/Welding Blanket 750SS/Welding Gasket_2.png",
+      "/FZC Inmarco Product Shoot/Welding Blanket 750SS/Welding Gasket_3.png"
     ]
   },
   "wiping-pad": {

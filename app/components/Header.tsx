@@ -2,9 +2,10 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { Menu, X, Play } from 'lucide-react';
-import inmarcoLogo from '@/assets/inmarco-tagline-logo.webp';
+import inmarcoLogo from '@/assets/inmarco-tagline-logo.png';
 
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -80,22 +81,18 @@ export function Header() {
         <div className="absolute inset-0 bg-gradient-to-b from-green-500/5 to-transparent pointer-events-none"></div>
       )}
       <div className="relative z-10 max-w-[1400px] mx-auto px-6 lg:px-12">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between h-[120px]">
           {/* Logo */}
-          <Link href="/" className="relative flex items-center space-x-4">
-            <div className="relative overflow-hidden" style={{ width: '180px', height: '64px' }}>
-              <img
-                src={inmarcoLogo.src || inmarcoLogo}
+          <Link href="/" className="relative flex items-center">
+            <div className="relative w-[180px] h-[100px] overflow-hidden">
+              <Image
+                src={inmarcoLogo}
                 alt="INMARCO"
-                className="absolute"
-                style={{
-                  height: '77px',
-                  top: '0px',
-                  left: '0',
-                  borderRadius: '0px'
-                }}
+                fill
+                sizes="180px"
+                className="object-cover object-top"
+                priority
               />
-              {/*<span className="absolute text-white" style={{ fontSize: '18px', top: '-2px', right: '60px' }}>®</span>*/}
             </div>
           </Link>
 

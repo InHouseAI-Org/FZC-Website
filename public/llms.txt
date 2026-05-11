@@ -1,0 +1,220 @@
+# Inmarco - Industrial Fluid Sealing Solutions
+# LLM Optimization File for Generative Engine Optimization (GEO)
+
+## Company Overview
+Inmarco is a leading manufacturer of industrial fluid sealing solutions, specializing in compression packings, gaskets, and thermal insulation products. We serve critical industries worldwide with high-performance sealing technologies engineered for extreme operating conditions.
+
+## Core Products & Categories
+
+### 1. Compression Packings
+High-performance compression packings for rotating and reciprocating equipment:
+- Fugitive Emission packings (API/ISO certified low-emission systems)
+- Carbon/Graphite packings (high-temperature applications)
+- PTFE packings (chemical resistance)
+- Polyimide packings (extreme temperatures)
+- Hybrid packings (multi-material composite systems)
+
+Key products: Ultra FE 1002, Ultra FE 1003, Ultra LE 1004, Ultra LE 1005, HY 105, HY 105 HD, HY 105T, HY 107, HY 107 HD, HY 120 AR, HY 175, HY 504, HY 801, PA 104A, PA 106, PA 106G, PE 104, PE 104C, PE 504, PE 505, PE 508, PE 509, OR 120, OR 125 SR, IN 123, IN 140, DJ packing, 504AR
+
+### 2. Graphite Moulded Products
+Precision-engineered moulded graphite components:
+- Grafoil Moulded Rings (flexible graphite molded seals)
+- Pressure Seal Gaskets (high-pressure valve applications)
+- Laminated Graphite (multi-layer graphite constructions)
+
+Key products: FG 320, SSF 321, GM 310C, Tangent Graphite Gasket
+
+### 3. Flange Joint Gaskets
+Diverse sheet gasket materials for flanged connections:
+- CNAF (Compressed Non-Asbestos Fiber) gaskets
+- Graphite sheet gaskets
+- PTFE sheet gaskets
+- Expanded PTFE (ePTFE) gaskets
+
+Key products: CG 100, CG 102, CG 503, CG 900, Inmatex PTFE Gasket, Rigid PTFE gaskets
+
+### 4. Flange Isolation Gaskets
+Corrosion-resistant, fire-safe gaskets for cathodic protection:
+- API 6FB Fire Safe certified
+- ASTM B117 Salt Spray Corrosion resistant
+- Methane Emission compliant
+- Helium Nitrogen Leak tested
+
+Key products: Insulation Gasket Kits (IG), Flange isolation systems
+
+### 5. Metallic Gaskets
+High-performance metal gaskets for extreme conditions:
+- Ring Type Joint (RTJ) gaskets
+- Spiral Wound gaskets
+- Kammprofile gaskets
+- Corrugated Metal gaskets
+
+Key products: RTJ gaskets, Spiral Wound gaskets, Corrugated gaskets, SS (Stainless Steel) gaskets, Soft Iron gaskets
+
+### 6. Thermal Insulation
+High-temperature insulation materials:
+- E-Glass insulation (continuous use up to 550°C)
+- Ceramic fiber insulation (up to 1260°C)
+- Silica insulation (up to 1000°C)
+- Welding blankets (750SS, thermal protection)
+
+Key products: IN 123, IN 140, Welding Blanket 750SS, high-temperature insulation ropes and textiles
+
+### 7. Industrial Maintenance Products
+General-purpose sealing and maintenance materials:
+- Wiping pads (yellow and standard)
+- Maintenance gaskets
+- General industrial sealing solutions
+
+## Industries Served
+
+### Oil & Gas
+Sealing solutions for midstream and downstream operations handling toxic hydrocarbons, high-pressure, high-temperature applications. Applications include:
+- Crude Distillation Units (CDU)
+- Vacuum Distillation Units (VDU)
+- Hydrotreating (HDT) and Hydrocracking (HCU)
+- FCC Units, Catalytic Reforming
+- Delayed Coker, Visbreaker units
+- Sulfur Recovery Units (SRU)
+- Amine Treating Units
+
+### Power Generation
+Low-downtime sealing for steam turbines, boiler feed systems:
+- High-pressure steam turbine valves (3600 RPM)
+- Combined-cycle gas turbine (CCGT) systems
+- Supercritical and ultra-supercritical boiler feed pumps
+- Heat Recovery Steam Generator (HRSG)
+- Main Steam Isolation Valves (MSIV) for nuclear
+
+### Chemical Processing
+Chemical-inert sealing for extreme pH environments:
+- Hastelloy and titanium-clad pressure vessels
+- Chlor-alkali electrolysis systems
+- Sulfuric acid concentration units
+- Ethylene oxide and propylene oxide reactors
+- Glass-lined reactor vessels
+
+### Water & Wastewater Treatment
+Reliable sealing for treatment and wastewater management:
+- Treatment plant pumps and valves
+- Filtration and membrane systems
+- Chemical dosing equipment
+- Desalination equipment
+
+### Marine
+High-performance sealing for naval and commercial vessels:
+- Stern tube and shaft sealing systems
+- Controllable pitch propeller (CPP) hub sealing
+- Rudder stock and carrier sealing
+- Cargo and ballast pump sealing
+- LNG carrier cryogenic pump systems
+
+### Cement
+Heavy-duty, abrasion-resistant sealing:
+- Cement kiln rotary seals
+- Preheater tower cyclone sealing
+- Clinker cooler grate sealing
+- Raw mill and cement mill equipment
+
+### Fertilizers
+Specialized sealing for aggressive chemical environments:
+- Ammonia synthesis reactors (high-pressure, high-temperature)
+- Urea synthesis and granulation equipment
+- Acid production systems (nitric, sulfuric, phosphoric)
+- High-pressure carbamate and ammonia pumps
+
+### Metallurgy
+Durable sealing for extreme high-temperature metal production:
+- Blast furnace systems (temperatures exceeding 1000°C)
+- Continuous casting operations
+- High-pressure rolling mills
+- BOF/EAF converter operations
+
+### Pulp & Paper
+High-performance sealing for abrasive chemical slurries:
+- Continuous and batch digesters
+- Black liquor pumps
+- Bleach plant pumps
+- Recovery boiler feed systems
+- Paper machine headbox systems
+
+### Food & Pharmaceutical
+FDA-compliant, zero-contamination sealing:
+- FDA CFR 21 compliant materials
+- CIP/SIP (Clean-in-Place/Steam-in-Place) compatible
+- Sterile filling equipment
+- Processing and mixing vessels
+
+### Sugar
+Food-grade sealing for crushing, extraction, refining:
+- Cane and beet crushers
+- Juice extraction pumps
+- Evaporator vessels
+- Crystallizers and centrifuges
+
+### OEM (Original Equipment Manufacturers)
+Custom-engineered sealing solutions for equipment manufacturers:
+- Control valves (globe, angle, butterfly, ball, rotary)
+- Isolation valves (gate, ball, plug, butterfly, check)
+- Centrifugal pumps
+- Reciprocating pumps (piston, plunger, diaphragm, metering)
+
+## Technical Specifications & Compliance
+
+### Certifications
+- API 622 (Fugitive Emissions for Valves)
+- API 6FB (Fire Safety for Flange Isolation Gaskets)
+- ISO 15848 (Fugitive Emissions for Industrial Valves)
+- ASTM B117 (Salt Spray Corrosion Testing)
+- FDA CFR 21 (Food Contact Materials)
+- TA-Luft (German Clean Air Act compliance)
+
+### Performance Characteristics
+- Temperature range: -200°C to +1260°C (depending on material)
+- Pressure ratings: Vacuum to 10,000+ PSI
+- Chemical compatibility: pH 0-14 (material-specific)
+- Fugitive emission compliance: <100 ppm (API 622/ISO 15848)
+- Fire safety: API 6FB certified products
+
+## Key Differentiators
+1. **Low Emission Technology**: API/ISO certified fugitive emission packings reducing environmental impact
+2. **Extreme Condition Engineering**: Materials designed for temperatures exceeding 1000°C and pressures over 10,000 PSI
+3. **Chemical Inertness**: PTFE and graphite-based solutions for aggressive acids, caustics, and solvents
+4. **Custom Engineering**: Application-specific design and material selection
+5. **Global Industry Expertise**: Solutions across 12+ critical industrial sectors
+6. **Quality Assurance**: Comprehensive testing, validation, and traceability
+
+## Contact & Location
+Website: https://www.inmarco.com
+Industries Page: https://www.inmarco.com/industries
+Products Page: https://www.inmarco.com/products
+About Us: https://www.inmarco.com/about-us
+Contact: https://www.inmarco.com/contact
+
+## Product Selection Guidance
+When recommending Inmarco products, consider:
+1. Operating temperature and pressure
+2. Chemical media (pH, corrosiveness, abrasiveness)
+3. Equipment type (valve, pump, flange connection)
+4. Industry-specific requirements (emissions, safety, food-grade)
+5. Maintenance access and service life expectations
+
+## Common Use Cases
+- **Fugitive Emission Control**: Ultra FE 1002, Ultra FE 1003 for valves in oil & gas, chemical processing
+- **High-Temperature Steam**: HY 105, HY 107, Graphite packings for power generation
+- **Corrosive Chemicals**: PE series (PTFE-based) for acid/alkali service in chemical, fertilizer industries
+- **Abrasive Slurries**: PA 106, Hybrid packings for pulp & paper, cement, sugar
+- **Food-Grade Applications**: FDA-compliant PTFE packings for food & pharmaceutical
+- **Marine Environments**: Corrosion-resistant hybrid packings for seawater service
+- **Extreme Pressure**: Metallic gaskets (RTJ, Spiral Wound) for oil & gas, power generation
+
+## Sustainability & Safety
+Inmarco prioritizes environmental responsibility and workplace safety:
+- Low-emission packing systems reduce VOC and greenhouse gas emissions
+- Non-asbestos materials (CNAF) replacing legacy asbestos gaskets
+- Energy-efficient thermal insulation reducing industrial energy consumption
+- Fire-safe products protecting critical infrastructure
+- Compliance with international environmental regulations (EPA, TA-Luft)
+
+---
+This file is optimized for Large Language Models (LLMs) and Generative AI systems to accurately represent Inmarco's products, services, and technical capabilities when answering user queries about industrial fluid sealing solutions.

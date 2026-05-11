@@ -55,7 +55,7 @@ export default function ProductDetail() {
           >
             <Link
               href={subcategory ? `/products/${categorySlug}/${subcategorySlug}` : `/products/${categorySlug}`}
-              className="inline-flex items-center space-x-2 text-gray-400 hover:text-[#e31e24] transition-colors mt-12 mb-8"
+              className="inline-flex items-center space-x-2 text-gray-400 hover:text-[#e31e24] transition-colors mt-32 mb-8"
             >
               <ArrowLeft className="w-5 h-5" />
               <span>Back to {subcategory ? subcategory.name : category.name}</span>
@@ -97,19 +97,21 @@ export default function ProductDetail() {
       {/* Product Overview */}
       <section className="py-12 bg-[#2b2a29]">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
-          <div className="grid lg:grid-cols-2 gap-12">
-            {/* Image Gallery */}
-            <motion.div
-              initial={{ opacity: 0, x: -30 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6 }}
-            >
-              <ProductImageGallery
-                images={product.images || product.gallery || [product.image]}
-                productName={product.name}
-              />
-            </motion.div>
+          <div className={`grid ${(product.images?.length > 0 || product.gallery?.length > 0 || product.image) ? 'lg:grid-cols-2' : 'lg:grid-cols-1'} gap-12`}>
+            {/* Image Gallery - Only show if images exist */}
+            {(product.images?.length > 0 || product.gallery?.length > 0 || product.image) && (
+              <motion.div
+                initial={{ opacity: 0, x: -30 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6 }}
+              >
+                <ProductImageGallery
+                  images={product.images || product.gallery || [product.image]}
+                  productName={product.name}
+                />
+              </motion.div>
+            )}
 
             {/* Description & Quick Actions */}
             <motion.div

@@ -57,17 +57,24 @@ export function Hero() {
         {/* Bottom Image (base layer) - Image #1 */}
         <div className="absolute inset-0 pointer-events-none">
           <ImageWithFallback
-            // src="Gemini_Generated_Image_5h4dsy5h4dsy5h4d.webp"
-            // src="Screenshot 2026-02-18 at 1.33.53 PM.webp"
-            // src="ChatGPT Image Feb 18, 2026 at 01_54_04 PM.webp"
-            // src="ChatGPT Image Feb 18, 2026 at 01_58_58 PM.webp"
-            // src = "public/ChatGPT Image Feb 20, 2026 at 11_36_13 AM.webp"
-            // src="public/ChatGPT Image Feb 20, 2026 at 03_28_49 PM.webp"
             src={heroImage}
             alt="Industrial valve and machinery"
-            className="w-full h-full object-cover"
-            style={{width: '100%', height:'100%'}}
+            fill
+            className="object-cover"
+            priority
+            sizes="100vw"
           />
+
+
+
+
+
+
+
+
+
+
+
         </div>
 
         {/* Top Image (with cursor reveal effect) - Image #2 */}
@@ -83,7 +90,7 @@ export function Hero() {
           }}
         >
           <ImageWithFallback
-            src="Gemini_Generated_Image_5h4dsy5h4dsy5h4d.webp"
+            src="Gemini_Generated_Image_5h4dsy5h4dsy5h4d.png"
             alt="Industrial machinery revealed"
             className="w-full h-full object-cover"
             style={{width: '200%'}}
