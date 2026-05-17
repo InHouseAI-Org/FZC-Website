@@ -5,6 +5,7 @@ import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 import { Providers } from './providers';
 import Analytics from './components/Analytics';
+import { LayoutContent } from './LayoutContent';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.inmarco.com'), // Replace with your actual domain
@@ -148,11 +149,9 @@ export default function RootLayout({
       <body>
         <Analytics />
         <Providers>
-          <div className="min-h-screen bg-[#2b2a29]">
-            <Header />
+          <LayoutContent>
             {children}
-            <Footer />
-          </div>
+          </LayoutContent>
         </Providers>
       </body>
     </html>

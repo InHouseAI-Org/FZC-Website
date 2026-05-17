@@ -131,8 +131,8 @@ export default function ProductCategory() {
                         {product.name}
                       </h3>
 
-                      <p className="text-gray-400 text-sm leading-relaxed mb-4 flex-1">
-                        {product.shortDescription}
+                      <p className="text-gray-400 text-sm mb-4 flex-1">
+                        {product.description}
                       </p>
 
                       {/* Key Features */}

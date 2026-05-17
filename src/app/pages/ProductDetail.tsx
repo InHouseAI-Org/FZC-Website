@@ -3,7 +3,7 @@
 import { motion } from 'motion/react';
 import Link from 'next/link';
 import { useParams } from 'next/navigation';
-import { ArrowLeft, CheckCircle2, FileText, Download } from 'lucide-react';
+import { ArrowLeft, CheckCircle2, FileText, Download, Info } from 'lucide-react';
 import { ImageWithFallback } from '@/app/components/figma/ImageWithFallback';
 import { ProductImageGallery } from '@/app/components/ProductImageGallery';
 import productsData from '@/data/productsData.json';
@@ -87,9 +87,7 @@ export default function ProductDetail() {
             <h1 className="text-white mb-4" style={{ fontSize: 'clamp(2rem, 4vw, 3.5rem)', lineHeight: '1.2', letterSpacing: '-0.01em' }}>
               {product.name}
             </h1>
-            <p className="text-gray-300 text-xl max-w-3xl">
-              {product.shortDescription}
-            </p>
+
           </motion.div>
         </div>
       </section>
@@ -298,6 +296,46 @@ export default function ProductDetail() {
           </div>
         </section>
       )}
+
+      {/* Variant Notices */}
+      <section className="py-12 bg-[#2b2a29]">
+        <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
+          <div className="space-y-4">
+            {(product as any).economicalVariant && (
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6 }}
+                className="bg-[#e31e24]/5 border-l-4 border-[#e31e24] p-6 rounded-r-lg"
+              >
+                <div className="flex items-center gap-2 mb-3">
+                  <Info className="w-5 h-5 text-[#e31e24] flex-shrink-0" />
+                <p className="text-gray-300 text-sm leading-relaxed">
+                  This product is also available in an Economical version as <strong className="text-[#e31e24]">{(product as any).economicalVariant}</strong>, offering cost-effective sealing solutions while maintaining reliable performance standards.
+                </p>
+                </div>
+              </motion.div>
+            )}
+            {(product as any).elastomericCoreVariant && (
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6, delay: 0.1 }}
+                className="bg-[#e31e24]/5 border-l-4 border-[#e31e24] p-6 rounded-r-lg"
+              >
+                <div className="flex items-center gap-2 mb-3">
+                  <Info className="w-5 h-5 text-[#e31e24] flex-shrink-0" />
+                <p className="text-gray-300 text-sm leading-relaxed">
+                  This product is also available with an elastomeric core as <strong className="text-[#e31e24]">{(product as any).elastomericCoreVariant}</strong>, designed for rugged and resilient operations in demanding service conditions.
+                </p>
+                </div>
+              </motion.div>
+            )}
+          </div>
+        </div>
+      </section>
 
       {/* CTA Section */}
       <section className="py-24 bg-[#1a1918]">

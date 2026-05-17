@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inmarco ULTRA FE 1003 - Technical Datasheet</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        @page {
+            size: A4;
+            margin: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            color: #2b2a29;
+            background: white;
+            width: 210mm;
+            min-height: 297mm;
+            align-content: center;
+            margin: 0 auto;
+        }
+
+        /* Page 1 - Hero */
+        .page-1 {
+            width: 100%;
+            height: 290mm;
+            background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%);
+            position: relative;
+            overflow: hidden;
+            page-break-after: always;
+        }
+
+        .header {
+            padding: 20mm 15mm;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logo-section {
+            color: white;
+        }
+
+        .logo-section img {
+            height: 200px;
+            width: auto;
+        }
+
+        /* Hero section */
+        .hero-section {
+            position: relative;
+            margin-top: 10px;
+            height: 100%;
+            background-image: url('../../oil and gas.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to right, rgba(43, 42, 41, 0.95) 0%, rgba(43, 42, 41, 0.7) 50%, transparent 100%);
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 10;
+            padding: 35mm 15mm 0 15mm;
+            max-width: 150mm;
+        }
+
+        .red-accent {
+            width: 50mm;
+            height: 4px;
+            background: #e31e24;
+            margin-bottom: 10mm;
+        }
+
+        .product-name {
+            font-size: 52pt;
+            font-weight: 700;
+            color: white;
+            margin-bottom: 6mm;
+            letter-spacing: -1.5px;
+            line-height: 1.1;
+        }
+
+        .product-tagline {
+            font-size: 16pt;
+            color: #ffffff;
+            max-width: 140mm;
+            line-height: 1.5;
+            font-weight: 300;
+        }
+
+        /* Page 2 - Technical Details */
+        .page-2 {
+            width: 100%;
+            height: 290mm;
+            background: white;
+            position: relative;
+            page-break-after: always;
+        }
+
+        /* Page 3 - Properties */
+        .page-3 {
+            width: 100%;
+            height: 290mm;
+            background: white;
+            position: relative;
+            page-break-after: always;
+        }
+
+        /* Page 4 - Performance Benefits */
+        .page-4 {
+            width: 100%;
+            height: 290mm;
+            background: white;
+            position: relative;
+        }
+
+        .page-2-header {
+            background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%);
+            padding: 15mm;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .page-2-title {
+            font-size: 28pt;
+            font-weight: bold;
+        }
+
+        .content-section {
+            padding: 12mm 15mm;
+        }
+
+        .description-with-image {
+            display: flex;
+            gap: 10mm;
+            align-items: flex-start;
+            margin-bottom: 10mm;
+        }
+
+        .description-text {
+            flex: 1;
+        }
+
+        .description {
+            font-size: 10pt;
+            line-height: 1.6;
+            color: #333;
+            margin-bottom: 10mm;
+            text-align: justify;
+        }
+
+        .side-product-image {
+            flex-shrink: 0;
+        }
+
+        .product-image-container {
+            background: white;
+            border-radius: 5mm;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            border: 3px solid #e31e24;
+        }
+
+        .product-image-small {
+            width: 70mm;
+            height: 70mm;
+            border-radius: 4mm;
+            object-fit: contain;
+            display: block;
+        }
+
+        .section-divider {
+            height: 2px;
+            background: #e31e24;
+            margin: 8mm 0;
+        }
+
+        .features-grid {
+            display: flex;
+            gap: 10mm;
+            margin-bottom: 10mm;
+        }
+
+        .features-column {
+            flex: 1;
+        }
+
+        .features-column h3 {
+            font-size: 13pt;
+            color: #2b2a29;
+            margin-bottom: 5mm;
+            padding-bottom: 2mm;
+            border-bottom: 2px solid #e31e24;
+            font-weight: 600;
+        }
+
+        .feature-item {
+            display: flex;
+            margin-bottom: 4mm;
+            font-size: 9pt;
+            line-height: 1.5;
+        }
+
+        .bullet {
+            color: #e31e24;
+            font-weight: bold;
+            margin-right: 3mm;
+            font-size: 12pt;
+        }
+
+        .feature-text {
+            flex: 1;
+            color: #444;
+        }
+
+        /* Properties Table */
+        .properties-section {
+            background: #f5f5f5;
+            padding: 8mm;
+            border-radius: 3mm;
+            border-left: 4px solid #e31e24;
+            margin-bottom: 8mm;
+        }
+
+        .properties-section h3 {
+            font-size: 14pt;
+            color: #2b2a29;
+            margin-bottom: 5mm;
+        }
+
+        .properties-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .properties-table th {
+            background: #2b2a29;
+            color: white;
+            padding: 3mm;
+            text-align: left;
+            font-size: 9pt;
+            font-weight: 600;
+        }
+
+        .properties-table td {
+            padding: 2.5mm 3mm;
+            border-bottom: 1px solid #ddd;
+            font-size: 9pt;
+            color: #333;
+        }
+
+        .properties-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .properties-table td:first-child {
+            font-weight: 600;
+            color: #2b2a29;
+        }
+
+        /* Benefits Box */
+        .benefits-box {
+            background: linear-gradient(135deg, #e31e24 0%, #c41a20 100%);
+            color: white;
+            padding: 8mm;
+            border-radius: 3mm;
+            margin-bottom: 8mm;
+        }
+
+        .benefits-box h3 {
+            font-size: 14pt;
+            margin-bottom: 4mm;
+        }
+
+        .benefit-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 3mm;
+            font-size: 9pt;
+            line-height: 1.4;
+        }
+
+        .benefit-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .check-icon {
+            color: white;
+            font-weight: bold;
+            margin-right: 3mm;
+            font-size: 11pt;
+        }
+
+        /* Footer */
+        .footer {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: #2b2a29;
+            color: white;
+            padding: 8mm 15mm;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .company-info {
+            font-size: 7pt;
+            line-height: 1.6;
+        }
+
+        .company-name {
+            font-size: 10pt;
+            font-weight: bold;
+            margin-bottom: 2mm;
+            color: #e31e24;
+        }
+
+        .contact-info {
+            color: #ccc;
+        }
+
+        .disclaimer {
+            font-size: 6pt;
+            color: #888;
+            margin-top: 3mm;
+            max-width: 160mm;
+        }
+    </style>
+</head>
+<body>
+    <!-- Page 1 - Hero -->
+    <div class="page-1">
+        <div class="header">
+            <div class="logo-section">
+                <img src="../../../src/assets/inmarco-tagline-logo1.png" alt="INMARCO - Innovations in Fluid Sealing">
+            </div>
+        </div>
+
+        <div class="hero-section">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <div class="red-accent"></div>
+                <h1 class="product-name">ULTRA FE 1003</h1>
+                <p class="product-tagline">World's Best Fugitive Emission Packing With Annex C (HT) Certified</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page 2 - Technical Details -->
+    <div class="page-2">
+        <div class="page-2-header">
+            <div>
+                <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
+                <h2 class="page-2-title">ULTRA FE 1003</h2>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <div class="description-with-image">
+                <div class="description-text">
+                    <p class="description">
+                        INMARCO ULTRA FE 1003 is a virtually Zero friction and ultra-low emission Combination Packing Set made from expanded graphite Inconel wire mesh jacketed yarn for end rings and graphite foil ribbon moulded intermediate rings. The packing is impregnated with a high temperature proprietary emulsion to ensure extremely low friction.
+                    </p>
+
+                    <p class="description" style="margin-bottom: 0;">
+                        The packing set may be impregnated with an inorganic passive corrosion inhibitor to ensure corrosion free performance for prolonged period. This is the world's most innovative and unrivaled low emission packing, API 622 3rd edition qualified, and the first packing globally certified as per API 622 Annex C (HT) 2022 requirement from Yarmouth Research and Technology, USA.
+                    </p>
+                </div>
+
+                <div class="side-product-image">
+                    <div class="product-image-container">
+                        <img src="../../FZC%20Inmarco%20Product%20Shoot/ULTRA%20FE%201003/ULTRA%20FE%201003_1.png" alt="ULTRA FE 1003" class="product-image-small" onerror="this.style.display='none'">
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-divider"></div>
+
+            <div class="features-grid">
+                <div class="features-column">
+                    <h3>Key Features</h3>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">API 622 3rd edition qualified with virtually Zero friction even after 1510 cycles with 10 ppm maximum leakage for 1/4" and 12 ppm for 1/8"</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">First packing globally certified as per API 622 Annex C (HT) 2022 requirement from Yarmouth Research and Technology, USA</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Virtually Zero friction even at very high endurance with tested friction factor of 0.1</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Zero corrosion in both ambient and high temperature when tested as per API 622 3rd edition</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Certified for Fire safe compliance as per API 607 8th edition with Zero leakage during and after burning</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Certified as per ISO-15848 with tightness class AH up to CO2 endurance without adjustment</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">In-built oxidation inhibitor prevents oxidation loss even at high temperature with very high TQ39 Rating</span>
+                    </div>
+                </div>
+
+                <div class="features-column">
+                    <h3>Applications</h3>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Non-Oxidising Liquids & Gases</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Super Heated & Saturated Steam</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Hot Dry Ash and Flue Gases</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Dyes and Chemicals</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Emissive Fluids</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Fuel Oil & Lube Oil</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Thermic Fluid and Hydrocarbons</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Supercritical phase of CO₂</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page 3 - Technical Properties and Performance Benefits -->
+    <div class="page-3">
+        <div class="page-2-header">
+            <div>
+                <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
+                <h2 class="page-2-title">Technical Specifications</h2>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <div class="properties-section">
+                <h3>Technical Properties</h3>
+                <table class="properties-table">
+                    <tr>
+                        <th>Properties</th>
+                        <th>Values</th>
+                    </tr>
+                    <tr>
+                        <td>pH</td>
+                        <td>0 - 14</td>
+                    </tr>
+                    <tr>
+                        <td>Temperature (°C)</td>
+                        <td>-196 to +538°C</td>
+                    </tr>
+                    <tr>
+                        <td>Pressure (BAR)</td>
+                        <td>300</td>
+                    </tr>
+                    <tr>
+                        <td>Size</td>
+                        <td>(3 sq.mm to 25 sq.mm) Based on stuffing box design</td>
+                    </tr>
+                    <tr>
+                        <td>Compatibility</td>
+                        <td>As per graphite (contact for details)</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="benefits-box">
+                <h3>Performance Benefits</h3>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>Fine Inconel mesh reinforcement in camouflaged construction enhances pressure resistance without compromising sealing property</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>Low detrimental material content and high purity graphite ensure corrosion free performance in compliance with IOGP S-611 Annex E & F and 5-562 Annex T & U</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>User friendly and cost-effective installation procedure with value addition by extending life and less energy consumption</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>Ultra-low emission performance supports future ambitious Methane emission levels</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>A true new generation packing for a cleaner, greener and safer tomorrow</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>Certified in supercritical phase of CO₂ following ISO-15848 with tightness class A up to CO3 endurance without adjustment</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer-content">
+                <div class="company-info">
+                    <div class="company-name">INMARCO FZC</div>
+                    <div class="contact-info">
+                        P.O. Box 120284, Sharjah Airport International Free Zone (SAIF-Zone), Sharjah, UAE<br>
+                        Tel: +971 6 5578378 | Fax: +971 6 5578948<br>
+                        Email: sales@inmarco.ae | Web: www.inmarco.ae
+                    </div>
+                    <div class="disclaimer">
+                        All information and recommendations given in this technical data sheet are correct to the best of our knowledge. However, because of the wide variety of application and operating conditions, we cannot derive the final conclusion. This above information can only serve as a guideline.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

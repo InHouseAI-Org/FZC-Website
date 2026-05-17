@@ -1,0 +1,96 @@
+{
+  "industryMapping": {
+    "po": {
+      "name": "Power",
+      "image": "../../public/power.jpg"
+    },
+    "power": {
+      "name": "Power",
+      "image": "../../public/power.jpg"
+    },
+    "ww": {
+      "name": "Water / Waste Water",
+      "image": "../../public/water.jpg"
+    },
+    "water": {
+      "name": "Water / Waste Water",
+      "image": "../../public/water.jpg"
+    },
+    "chem": {
+      "name": "Chemical",
+      "image": "../../public/chemical.jpg"
+    },
+    "chemical": {
+      "name": "Chemical",
+      "image": "../../public/chemical.jpg"
+    },
+    "fertilizer": {
+      "name": "Fertilizer",
+      "image": "../../public/fertilizer.jpg"
+    },
+    "fer": {
+      "name": "Fertilizer",
+      "image": "../../public/fertilizer.jpg"
+    },
+    "metallurgy": {
+      "name": "Metallurgy",
+      "image": "../../public/metallurgy.jpg"
+    },
+    "met": {
+      "name": "Metallurgy",
+      "image": "../../public/metallurgy.jpg"
+    },
+    "ong": {
+      "name": "Oil & Gas",
+      "image": "../../public/oil and gas.jpg"
+    },
+    "oil": {
+      "name": "Oil & Gas",
+      "image": "../../public/oil and gas.jpg"
+    },
+    "gas": {
+      "name": "Oil & Gas",
+      "image": "../../public/oil and gas.jpg"
+    },
+    "pulp paper": {
+      "name": "Pulp & Paper",
+      "image": "../../public/paper.jpg"
+    },
+    "paper": {
+      "name": "Pulp & Paper",
+      "image": "../../public/paper.jpg"
+    },
+    "pulp": {
+      "name": "Pulp & Paper",
+      "image": "../../public/paper.jpg"
+    },
+    "welding": {
+      "name": "General Industrial",
+      "image": "../../public/cement.jpg"
+    },
+    "marine": {
+      "name": "Marine",
+      "image": "../../public/marine.jpg"
+    },
+    "food": {
+      "name": "Food & Pharma",
+      "image": "../../public/food and pahrma.jpg"
+    },
+    "pharma": {
+      "name": "Food & Pharma",
+      "image": "../../public/food and pahrma.jpg"
+    },
+    "sugar": {
+      "name": "Sugar",
+      "image": "../../public/sugar.jpg"
+    },
+    "cement": {
+      "name": "Cement",
+      "image": "../../public/cement.jpg"
+    },
+    "general": {
+      "name": "General Industrial",
+      "image": "../../public/cement.jpg"
+    }
+  }
+}

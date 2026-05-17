@@ -266,7 +266,7 @@ def create_datasheet():
 
     # Titles
     story.append(Paragraph('Expanded Graphite Non Metallic Packing', subtitle_style))
-    story.append(Paragraph('INMARCO STYLE 100FX', title_style))
+    story.append(Paragraph('100FX', title_style))
 
     # Product Image with proper sizing
     image_path = 'FZC Inmarco Product Shoot/CG 100/CG100_Edited_1.webp'
@@ -312,7 +312,7 @@ def create_datasheet():
         ['Temperature (°C)', '-200 to +650 (2700°C in non-oxidizing media)'],
         ['Pressure (BAR)', '35 / 80 / 100'],
         ['Velocity (m/s)', '20 / 10 / ---'],
-        ['Size Range', '3mm² to 50mm²'],
+        ['Size Range', '3sq mm to 50sq mm'],
     ]
 
     # Create table with two columns

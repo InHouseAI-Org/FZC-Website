@@ -212,7 +212,7 @@ export default function ProductCategoryLanding() {
                             </h3>
 
                             <p className="text-gray-400 text-sm leading-relaxed mb-4 flex-1">
-                              {product.shortDescription || product.description}
+                              {product.description}
                             </p>
 
                             {/* Key Features */}
@@ -283,7 +283,7 @@ export default function ProductCategoryLanding() {
                       </h3>
 
                       <p className="text-gray-400 text-sm leading-relaxed mb-4 flex-1">
-                        {product.shortDescription || product.description}
+                        { product.description}
                       </p>
 
                       {/* Key Features */}

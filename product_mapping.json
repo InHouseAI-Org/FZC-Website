@@ -415,7 +415,7 @@
     "name": "HY 501",
     "current_image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
     "datasheets": [
-      "Datasheet/Compression packing/INMARCO Style 501 C.pdf",
+      "Datasheet/Compression packing/501 C.pdf",
       "Datasheet/Compression packing/HY 501.pdf"
     ],
     "photos": [
@@ -501,7 +501,7 @@
     "name": "CG 501C",
     "current_image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
     "datasheets": [
-      "Datasheet/Compression packing/INMARCO Style 501 C.pdf"
+      "Datasheet/Compression packing/501 C.pdf"
     ],
     "photos": []
   },

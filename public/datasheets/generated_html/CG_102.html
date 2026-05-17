@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CG 102 - Technical Datasheet</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        @page {
+            size: A4;
+            margin: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            color: #2b2a29;
+            background: white;
+            width: 210mm;
+            min-height: 297mm;
+            align-content: center;
+            margin: 0 auto;
+        }
+
+        /* Page 1 - Hero */
+        .page-1 {
+            width: 100%;
+            height: 290mm;
+            background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%);
+            position: relative;
+            overflow: hidden;
+            page-break-after: always;
+        }
+
+        .header {
+            padding: 20mm 15mm;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logo-section {
+            color: white;
+        }
+
+        .logo-section img {
+            height: 200px;
+            width: auto;
+        }
+
+        /* Hero section */
+        .hero-section {
+            position: relative;
+            margin-top: 10px;
+            height: 100%;
+            background-image: url('../../oil and gas.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to right, rgba(43, 42, 41, 0.95) 0%, rgba(43, 42, 41, 0.7) 50%, transparent 100%);
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 10;
+            padding: 35mm 15mm 0 15mm;
+            max-width: 150mm;
+        }
+
+        .red-accent {
+            width: 50mm;
+            height: 4px;
+            background: #e31e24;
+            margin-bottom: 10mm;
+        }
+
+        .product-name {
+            font-size: 52pt;
+            font-weight: 700;
+            color: white;
+            margin-bottom: 6mm;
+            letter-spacing: -1.5px;
+            line-height: 1.1;
+        }
+
+        .product-tagline {
+            font-size: 16pt;
+            color: #ffffff;
+            max-width: 140mm;
+            line-height: 1.5;
+            font-weight: 300;
+        }
+
+        /* Page 2 - Technical Details */
+        .page-2 {
+            width: 100%;
+            height: 290mm;
+            background: white;
+            position: relative;
+            page-break-after: always;
+        }
+
+        /* Page 3 - Properties */
+        .page-3 {
+            width: 100%;
+            height: 290mm;
+            background: white;
+            position: relative;
+            page-break-after: always;
+        }
+
+        /* Page 4 - Performance Benefits */
+        .page-4 {
+            width: 100%;
+            height: 290mm;
+            background: white;
+            position: relative;
+        }
+
+        .page-2-header {
+            background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%);
+            padding: 15mm;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .page-2-title {
+            font-size: 28pt;
+            font-weight: bold;
+        }
+
+        .content-section {
+            padding: 12mm 15mm;
+        }
+
+        .description-with-image {
+            display: flex;
+            gap: 10mm;
+            align-items: flex-start;
+            margin-bottom: 10mm;
+        }
+
+        .description-text {
+            flex: 1;
+        }
+
+        .description {
+            font-size: 10pt;
+            line-height: 1.6;
+            color: #333;
+            margin-bottom: 10mm;
+            text-align: justify;
+        }
+
+        .side-product-image {
+            flex-shrink: 0;
+        }
+
+        .product-image-container {
+            background: white;
+            border-radius: 5mm;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            border: 3px solid #e31e24;
+        }
+
+        .product-image-small {
+            width: 70mm;
+            height: 70mm;
+            border-radius: 4mm;
+            object-fit: contain;
+            display: block;
+        }
+
+        .section-divider {
+            height: 2px;
+            background: #e31e24;
+            margin: 8mm 0;
+        }
+
+        .features-grid {
+            display: flex;
+            gap: 10mm;
+            margin-bottom: 10mm;
+        }
+
+        .features-column {
+            flex: 1;
+        }
+
+        .features-column h3 {
+            font-size: 13pt;
+            color: #2b2a29;
+            margin-bottom: 5mm;
+            padding-bottom: 2mm;
+            border-bottom: 2px solid #e31e24;
+            font-weight: 600;
+        }
+
+        .feature-item {
+            display: flex;
+            margin-bottom: 4mm;
+            font-size: 9pt;
+            line-height: 1.5;
+        }
+
+        .bullet {
+            color: #e31e24;
+            font-weight: bold;
+            margin-right: 3mm;
+            font-size: 12pt;
+        }
+
+        .feature-text {
+            flex: 1;
+            color: #444;
+        }
+
+        /* Properties Table */
+        .properties-section {
+            background: #f5f5f5;
+            padding: 8mm;
+            border-radius: 3mm;
+            border-left: 4px solid #e31e24;
+            margin-bottom: 8mm;
+        }
+
+        .properties-section h3 {
+            font-size: 14pt;
+            color: #2b2a29;
+            margin-bottom: 5mm;
+        }
+
+        .properties-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .properties-table th {
+            background: #2b2a29;
+            color: white;
+            padding: 3mm;
+            text-align: left;
+            font-size: 9pt;
+            font-weight: 600;
+        }
+
+        .properties-table td {
+            padding: 2.5mm 3mm;
+            border-bottom: 1px solid #ddd;
+            font-size: 9pt;
+            color: #333;
+        }
+
+        .properties-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .properties-table td:first-child {
+            font-weight: 600;
+            color: #2b2a29;
+        }
+
+        /* Benefits Box */
+        .benefits-box {
+            background: linear-gradient(135deg, #e31e24 0%, #c41a20 100%);
+            color: white;
+            padding: 8mm;
+            border-radius: 3mm;
+            margin-bottom: 8mm;
+        }
+
+        .benefits-box h3 {
+            font-size: 14pt;
+            margin-bottom: 4mm;
+        }
+
+        .benefit-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 3mm;
+            font-size: 9pt;
+            line-height: 1.4;
+        }
+
+        .benefit-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .check-icon {
+            color: white;
+            font-weight: bold;
+            margin-right: 3mm;
+            font-size: 11pt;
+        }
+
+        /* Footer */
+        .footer {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: #2b2a29;
+            color: white;
+            padding: 8mm 15mm;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .company-info {
+            font-size: 7pt;
+            line-height: 1.6;
+        }
+
+        .company-name {
+            font-size: 10pt;
+            font-weight: bold;
+            margin-bottom: 2mm;
+            color: #e31e24;
+        }
+
+        .contact-info {
+            color: #ccc;
+        }
+
+        .disclaimer {
+            font-size: 6pt;
+            color: #888;
+            margin-top: 3mm;
+            max-width: 160mm;
+        }
+    </style>
+</head>
+<body>
+    <!-- Page 1 - Hero -->
+    <div class="page-1">
+        <div class="header">
+            <div class="logo-section">
+                <img src="../../../src/assets/inmarco-tagline-logo1.png" alt="INMARCO - Innovations in Fluid Sealing">
+            </div>
+        </div>
+
+        <div class="hero-section">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <div class="red-accent"></div>
+                <h1 class="product-name">CG 102</h1>
+                <p class="product-tagline">Engineered for Extreme Conditions – Reliable Sealing with Advanced Graphite Technology</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page 2 - Technical Details -->
+    <div class="page-2">
+        <div class="page-2-header">
+            <div>
+                <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
+                <h2 class="page-2-title">CG 102</h2>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <div class="description-with-image">
+                <div class="description-text">
+                    <p class="description">
+                        CG 102 is crafted from premium expanded graphite yarn with 98% carbon content, reinforced with Inconel wire. It is impregnated with proprietary graphite based dispersion and a corrosion inhibitor to protect equipment from galvanic damage. This ensures durability and reliability in high-pressure environments.
+                    </p>
+
+                    <p class="description" style="margin-bottom: 0;">
+                        The resilient inconel wire enhances structural strength, while the self-lubricating graphite aids stem adjustment during gland tightening. High temperature graphite based lubrication prevents leakage in both static and dynamic equipment, making it ideal for valves, autoclaves, and rotary kilns.
+                    </p>
+                </div>
+
+                <div class="side-product-image">
+                    <div class="product-image-container">
+                        <img src="../../FZC%20Inmarco%20Product%20Shoot/CG%20102/CG_102_1.png" alt="CG 102" class="product-image-small" onerror="this.style.display='none'">
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-divider"></div>
+
+            <div class="features-grid">
+                <div class="features-column">
+                    <h3>Key Features</h3>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Made from expanded graphite yarn with a minimum 98% carbon content</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Ensures excellent thermal conductivity and chemical resistance across a wide range of industrial media</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Braided with strong yet flexible Inconel wire maintaining structural integrity</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Optional multi-wire reinforcement for surge resistance</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Developed through in-house R&D this advanced dispersion prevents leakage</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">The packing generates its own lubrication allowing smooth stem adjustment</span>
+                    </div>
+                </div>
+
+                <div class="features-column">
+                    <h3>Applications</h3>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Ideal for use in valves, autoclaves, rotary kilns</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Systems handling steam, hydrocarbons, thermic fluids, hot oil and cooling water</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Safe for use in sensitive environments as it does not contaminate the media</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Suitable for rotary and rising-stem valve applications from Class 150 to Class 1500</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Integrated sacrificial metal corrosion inhibitors safeguard equipment from galvanic corrosion</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page 3 - Technical Properties and Performance Benefits -->
+    <div class="page-3">
+        <div class="page-2-header">
+            <div>
+                <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
+                <h2 class="page-2-title">Technical Specifications</h2>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <div class="properties-section">
+                <h3>Technical Properties</h3>
+                <table class="properties-table">
+                    <tr>
+                        <th>Properties</th>
+                        <th>Values</th>
+                    </tr>
+                    <tr>
+                        <td>pH</td>
+                        <td>0-14</td>
+                    </tr>
+                    <tr>
+                        <td>Temperature (°C)</td>
+                        <td>-240 to +260</td>
+                    </tr>
+                    <tr>
+                        <td>Pressure (BAR)</td>
+                        <td>300</td>
+                    </tr>
+                    <tr>
+                        <td>Size</td>
+                        <td>3sq mm TO 50sq mm</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="benefits-box">
+                <h3>Performance Benefits</h3>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>Exceptional high temperature resistance up to 3315°C in non-oxidizing media</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>Low oxidation rate ensures long service life in extreme thermal environments</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>Fire-safe design suitable for fire-rated industrial applications</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>Reinforced with Inconel wire for superior pressure resistance and structural integrity</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>Self-lubricating graphite aids stem adjustment and reduces wear during operation</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>Corrosion inhibitor prevents galvanic corrosion protecting valve stems and bodies</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer-content">
+                <div class="company-info">
+                    <div class="company-name">INMARCO FZC</div>
+                    <div class="contact-info">
+                        P.O. Box 120284, Sharjah Airport International Free Zone (SAIF-Zone), Sharjah, UAE<br>
+                        Tel: +971 6 5578378 | Fax: +971 6 5578948<br>
+                        Email: sales@inmarco.ae | Web: www.inmarco.ae
+                    </div>
+                    <div class="disclaimer">
+                        All information and recommendations given in this technical data sheet are correct to the best of our knowledge. However, because of the wide variety of application and operating conditions, we cannot derive the final conclusion. This above information can only serve as a guideline.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
