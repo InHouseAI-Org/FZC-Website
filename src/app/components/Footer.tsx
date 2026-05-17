@@ -14,9 +14,9 @@ export function Footer() {
       { label: 'About Us', href: '/about-us' },
       { label: 'Contact', href: '/contact' },
     ],
-    products: productsData.categories.map((product: { name: string; href: string }) => ({
+    products: productsData.categories.map((product: { id: string; name: string; href?: string }) => ({
       label: product.name,
-      href: product.href
+      href: product.href || `/products/${product.id}`
     })),
     industries: industriesData.industries.map((industry: { title: string; href: string }) => ({
       label: industry.title,
