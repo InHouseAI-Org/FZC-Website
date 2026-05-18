@@ -4,7 +4,7 @@ import productsData from '@/data/productsData.json';
 
 export async function generateMetadata({ params }: { params: Promise<{ categorySlug: string }> }): Promise<Metadata> {
   const { categorySlug } = await params;
-  const category = productsData.categories.find((cat) => cat.id === categorySlug);
+  const category = productsData.categories.find((cat) => String(cat.id) === categorySlug);
 
   if (!category) {
     return {
