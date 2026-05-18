@@ -8,8 +8,8 @@ export async function generateMetadata({
   params: Promise<{ categorySlug: string; secondParam: string; productSlug: string }>;
 }): Promise<Metadata> {
   const { categorySlug, secondParam, productSlug } = await params;
-  const category = productsData.categories.find((cat: any) => cat.slug === categorySlug);
-  const product = (productsData as any).products?.find((prod: any) => prod.slug === productSlug);
+  const category = productsData.categories.find((cat: any) => cat.id === categorySlug);
+  const product = (productsData as any).products?.find((prod: any) => prod.id === productSlug && prod.category === category?.name);
 
   if (!category || !product) {
     return {
@@ -64,14 +64,14 @@ export async function generateStaticParams() {
   const subcategories = (productsData as any).subcategories || [];
 
   products.forEach((product: any) => {
-    const subcategory = subcategories.find((sub: any) => sub.id === product.subcategoryId);
-    const category = productsData.categories.find((cat: any) => cat.id === subcategory?.categoryId);
+    const subcategory = subcategories.find((sub: any) => sub.name === product.subcategory);
+    const category = productsData.categories.find((cat: any) => cat.name === subcategory?.category);
 
-    if (category && subcategory) {
+    if (category && subcategory && product.id) {
       params.push({
-        categorySlug: category.slug,
-        secondParam: subcategory.slug,
-        productSlug: product.slug,
+        categorySlug: category.id,
+        secondParam: subcategory.id,
+        productSlug: product.id,
       });
     }
   });

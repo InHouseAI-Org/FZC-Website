@@ -4,7 +4,7 @@ import productsData from '@/data/productsData.json';
 
 export async function generateMetadata({ params }: { params: Promise<{ categorySlug: string }> }): Promise<Metadata> {
   const { categorySlug } = await params;
-  const category = productsData.categories.find((cat) => cat.slug === categorySlug);
+  const category = productsData.categories.find((cat) => cat.id === categorySlug);
 
   if (!category) {
     return {
@@ -18,7 +18,6 @@ export async function generateMetadata({ params }: { params: Promise<{ categoryS
     description: category.description,
     keywords: [
       category.name,
-      ...category.specs,
       'industrial sealing',
       'fluid sealing solutions',
       'high-performance gaskets',
@@ -26,7 +25,7 @@ export async function generateMetadata({ params }: { params: Promise<{ categoryS
     openGraph: {
       title: `${category.name} | Inmarco`,
       description: category.description,
-      url: `https://www.inmarco.com/products/${category.slug}`,
+      url: `https://www.inmarco.com/products/${category.id}`,
       type: 'website',
       images: [
         {
@@ -43,14 +42,14 @@ export async function generateMetadata({ params }: { params: Promise<{ categoryS
       description: category.description,
     },
     alternates: {
-      canonical: `https://www.inmarco.com/products/${category.slug}`,
+      canonical: `https://www.inmarco.com/products/${category.id}`,
     },
   };
 }
 
 export async function generateStaticParams() {
   return productsData.categories.map((category) => ({
-    categorySlug: category.slug,
+    categorySlug: String(category.id),
   }));
 }
 

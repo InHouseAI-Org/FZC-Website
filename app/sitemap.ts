@@ -73,7 +73,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Product category pages
   const categoryPages: MetadataRoute.Sitemap = productsData.categories.map((category) => ({
-    url: `${baseUrl}/products/${category.slug}`,
+    url: `${baseUrl}/products/${category.id}`,
     lastModified: new Date(),
     changeFrequency: 'weekly' as const,
     priority: 0.8,
@@ -88,9 +88,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     const subcategory = subcategories.find((sub: any) => sub.id === product.subcategoryId);
     const category = productsData.categories.find((cat: any) => cat.id === subcategory?.categoryId);
 
-    if (category && subcategory) {
+    if (category && subcategory && product.id) {
       productPages.push({
-        url: `${baseUrl}/products/${category.slug}/${subcategory.slug}/${product.slug}`,
+        url: `${baseUrl}/products/${category.id}/${subcategory.id}/${product.id}`,
         lastModified: new Date(),
         changeFrequency: 'monthly' as const,
         priority: 0.7,

@@ -1,0 +1,2618 @@
+{
+  "categories": [
+    {
+      "id": "compression_packings",
+      "name": "Compression Packings",
+      "description": "High-quality compression packings for industrial applications",
+      "image": "/FZC Inmarco Product Shoot/Renders/WEBM/Ultra FE 1003_Render.webm"
+    },
+    {
+      "id": "flange_isolation_gaskets",
+      "name": "Flange Isolation Gaskets",
+      "description": "High-quality flange isolation gaskets for industrial applications",
+      "image": "/FZC Inmarco Product Shoot/Renders/WEBM/IG Kit_Render_3.webm"
+    },
+    {
+      "id": "flange_joint_gaskets",
+      "name": "Flange Joint Gaskets",
+      "description": "High-quality flange joint gaskets for industrial applications",
+      "image": "/FZC Inmarco Product Shoot/Renders/WEBM/PTFE_Render_1.webm"
+    },
+    {
+      "id": "graphite_moulded_products",
+      "name": "Graphite Moulded Products",
+      "description": "High-quality graphite moulded products for industrial applications",
+      "image": "/FZC Inmarco Product Shoot/Renders/WEBM/GM 310C_Render_2.webm"
+    },
+    {
+      "id": "thermal_insulation",
+      "name": "Thermal Insulation",
+      "description": "High-quality thermal insulation for industrial applications",
+      "image": "/FZC Inmarco Product Shoot/Renders/WEBM/IN 123_Render_1.webm"
+    }
+  ],
+  "subcategories": [
+    {
+      "id": "carbon_graphite",
+      "name": "Carbon Graphite",
+      "category": "Compression Packings",
+      "description": "Carbon Graphite products"
+    },
+    {
+      "id": "fugitive_emission",
+      "name": "Fugitive Emission",
+      "category": "Compression Packings",
+      "description": "Fugitive Emission products"
+    },
+    {
+      "id": "hybrid",
+      "name": "Hybrid",
+      "category": "Compression Packings",
+      "description": "Hybrid products"
+    },
+    {
+      "id": "organic",
+      "name": "Organic",
+      "category": "Compression Packings",
+      "description": "Organic products"
+    },
+    {
+      "id": "polyimide",
+      "name": "Polyimide",
+      "category": "Compression Packings",
+      "description": "Polyimide products"
+    },
+    {
+      "id": "insulation_gasket_kit_1800_fs",
+      "name": "Insulation Gasket Kit",
+      "category": "Flange Isolation Gaskets",
+      "description": "Insulation Gasket Kit products"
+    },
+    {
+      "id": "cnaf",
+      "name": "CNAF",
+      "category": "Flange Joint Gaskets",
+      "description": "CNAF products"
+    },
+    {
+      "id": "expanded_ptfe",
+      "name": "Expanded PTFE",
+      "category": "Flange Joint Gaskets",
+      "description": "Expanded PTFE products"
+    },
+    {
+      "id": "graphite",
+      "name": "Graphite",
+      "category": "Flange Joint Gaskets",
+      "description": "Graphite products"
+    },
+    {
+      "id": "ptfe",
+      "name": "PTFE",
+      "category": "Flange Joint Gaskets",
+      "description": "PTFE products"
+    },
+    {
+      "id": "grafoil_moulded_ring",
+      "name": "Grafoil Moulded Ring",
+      "category": "Graphite Moulded Products",
+      "description": "Grafoil Moulded Ring products"
+    },
+    {
+      "id": "pressure_seal_gasket",
+      "name": "Pressure Seal Gasket",
+      "category": "Graphite Moulded Products",
+      "description": "Pressure Seal Gasket products"
+    },
+    {
+      "id": "ceramic",
+      "name": "Ceramic",
+      "category": "Thermal Insulation",
+      "description": "Ceramic products"
+    },
+    {
+      "id": "e-glass",
+      "name": "E-Glass",
+      "category": "Thermal Insulation",
+      "description": "E-Glass products"
+    },
+    {
+      "id": "welding_blanket",
+      "name": "Welding Blanket",
+      "category": "Thermal Insulation",
+      "description": "Welding Blanket products"
+    }
+  ],
+  "products": [
+    {
+      "id": "100fx",
+      "name": "100FX",
+      "category": "Compression Packings",
+      "subcategory": "Carbon Graphite",
+      "description": "STYLE 100FX is an expanded flexible pure graphite fibre (purity 99% minimum) braided packing reinforced with non metallic filament. The packing is extrusion resistant and capable of withstanding higher pressure both in dynamic and static condition.\n\nSTYLE 100FX packing is also impregnated with proprietary hi-therm dispersion to fill the leak paths between the braids. Under gland pressure it becomes a homogeneous mass.",
+      "features": [],
+      "advantages": [
+        "Self generating lubrication accommodates and aids self adjustment on stem upon tighting of gland",
+        "Most effective sealing performance & no scoring of sleeve, plunger or stem",
+        "Hi-therm lubrication developed by us, in-house R & D prevents the body and shaft leakage on static or dynamic equipment",
+        "Suits for high mechanical & cylindrical load",
+        "Excellent sealing during long duration"
+      ],
+      "applications": [
+        "Pumps, Valves, Dryers, Reactors, etc."
+      ],
+      "images": [
+        "/FZC Inmarco Product Shoot/CG 100/CG100 - Updated/CG 100-Edited_3.png"
+      ],
+      "gallery": [],
+      "datasheet": "",
+      "image": "/FZC Inmarco Product Shoot/CG 100/CG100 - Updated/CG 100-Edited_3.png"
+    },
+    {
+      "id": "501c",
+      "name": "501C",
+      "category": "Compression Packings",
+      "subcategory": "Carbon Graphite",
+      "description": "501C is a specially developed hybrid combination packing of Non-Metallic Expanded Pure Graphite yarn reinforced with high structural Carbon filament at core, four corners and carrier. The packing is impregnated with proprietary THERMOLUBE Graphite based dispersion and also INORGANIC PASSIVE CORROSION INHIBITOR. This Passive Corrosion Inhibitor safeguards parent equipment from Galvanic Corrosion and also reduction of LOSS ON IGNITION.\n\n501C is a combination of softness of Expanded Pure Graphite and Toughness of Carbon fibre yarn. The packing is highly Chemical resistant and very good Thermal Conductor. This can be used both in dynamic & Static application.",
+      "features": [],
+      "advantages": [
+        "Excellent dry run capabilities and hence reduce continuous water flashing",
+        "Incorporation of corrosion inhibitor prevents corrosion and pitting on parent equipment",
+        "THERMOLUBE dispersion acts as a blocking agent",
+        "The packing adopts to worn out surface and pitting with smooth running",
+        "Dissipates heat without chemical hardening"
+      ],
+      "applications": [
+        "Pumps, Valves, Autoclaves, Converters, Mixers, Reactors, etc."
+      ],
+      "images": [
+        "/FZC Inmarco Product Shoot/HY 501/HY 175_Edited_3_2.png",
+        "/FZC Inmarco Product Shoot/HY 501/HY 501 - 27_07_2.png",
+        "/FZC Inmarco Product Shoot/HY 501/HY 501 - 27_20_2.png"
+      ],
+      "gallery": [],
+      "datasheet": "",
+      "specifications": {
+        "temperature": {
+          "value": "-200 to +650",
+          "unit": "°C"
+        },
+        "pH": "0-14",
+        "sizeRange": {
+          "value": "6 to 50",
+          "unit": "sq mm"
+        },
+        "rotating": {
+          "pressure": {
+            "value": "150",
+            "unit": "bar"
+          },
+          "velocity": {
+            "value": "25",
+            "unit": "m/s"
+          }
+        },
+        "reciprocating": {
+          "pressure": {
+            "value": "300",
+            "unit": "bar"
+          },
+          "velocity": {
+            "value": "20",
+            "unit": "m/s"
+          }
+        },
+        "static": {
+          "pressure": {
+            "value": "350",
+            "unit": "bar"
+          },
+          "velocity": {
+            "value": "N/A",
+            "unit": "m/s"
+          }
+        }
+      },
+      "image": "/FZC Inmarco Product Shoot/HY 501/HY 175_Edited_3_2.png"
+    },
+    {
+      "id": "cg-101",
+      "name": "CG 101",
+      "category": "Compression Packings",
+      "subcategory": "Carbon Graphite",
+      "description": "CG 101 is a high-performance packing manufactured from carbon filament yarn. It is impregnated with a thermally cured graphite-based in-therm dispersion, which acts as a blocking agent and further reduces stem friction. This packing is designed to prevent leakage of gaseous or liquid materials. Additionally, it incorporates a passive corrosion inhibitor to prevent galvanic corrosion.\n\nAdequate lubrication allows for extremely low friction runs, making it strong yet pliable without brittleness. The packing also provides excellent heat dissipation for cooler shaft runs, ensuring superior sealing services.",
+      "features": [
+        "The packing is thoroughly impregnated with graphite-based in-therm dispersion, ensuring minimal gaps or voids. This impregnation contributes to its exceptional friction-free runs even in high endurance",
+        "When compressed, the packing forms a tight barrier, effectively preventing fluid leakage",
+        "It is designed to withstand high-pressure conditions. Its robust materials and construction make it suitable for applications where pressure levels are significant",
+        "It boasts wide chemical resistance and handles various corrosive substances, including acids, alkalis, solvents, organic chemicals, gases, steam, and thermic fluids, without compromising its sealing properties",
+        "Additionally, its abrasion resistance ensures longevity, even in demanding industrial settings",
+        "The packing material penetrates well into irregular surfaces, conforming closely to the equipment it seals",
+        "This property enhances its sealing effectiveness and minimizes the risk of leaks"
+      ],
+      "advantages": [
+        "Resistant to a wide range of chemicals, including acids, alkalis, solvents, gases, and steam",
+        "Excellent heat dissipation for cooler shaft runs, ensuring superior sealing services",
+        "Strong yet pliable without brittleness, providing durability and flexibility",
+        "Low oxidation rate and long service life in high-temperature applications",
+        "Suitable for both dynamic and static applications",
+        "Fire-safe design for use in inflammable applications"
+      ],
+      "applications": [],
+      "images": [
+        "/FZC Inmarco Product Shoot/CG 101/CG 101- Updated/CG 101_1.png",
+        "/FZC Inmarco Product Shoot/CG 101/CG 101- Updated/CG 101_2.png",
+        "/FZC Inmarco Product Shoot/CG 101/CG 101- Updated/CG 101_3.png"
+      ],
+      "gallery": [],
+      "datasheet": "",
+      "specifications": {
+        "temperature": {
+          "value": "-200 to +650",
+          "unit": "°C"
+        },
+        "pH": "0-14",
+        "sizeRange": {
+          "value": "3 to 50",
+          "unit": "sq mm"
+        },
+        "rotating": {
+          "pressure": {
+            "value": "250",
+            "unit": "bar"
+          },
+          "velocity": {
+            "value": "25",
+            "unit": "m/s"
+          }
+        },
+        "reciprocating": {
+          "pressure": {
+            "value": "250",
+            "unit": "bar"
+          },
+          "velocity": {
+            "value": "25",
+            "unit": "m/s"
+          }
+        },
+        "static": {
+          "pressure": {
+            "value": "250",
+            "unit": "bar"
+          },
+          "velocity": {
+            "value": "N/A",
+            "unit": "m/s"
+          }
+        }
+      },
+      "image": "/FZC Inmarco Product Shoot/CG 101/CG 101- Updated/CG 101_1.png"
+    },
+    {
+      "id": "cg-102",
+      "name": "CG 102",
+      "category": "Compression Packings",
+      "subcategory": "Carbon Graphite",
+      "description": "CG 102 is crafted from premium expanded graphite yarn with 98% carbon content, reinforced with Inconel wire. It is impregnated with proprietary graphite based dispersion and a corrosion inhibitor to protect equipment from galvanic damage. This ensures durability and reliability in high-pressure environments.\n\nThe resilient inconel wire enhances structural strength, while the self-lubricating graphite aids stem adjustment during gland tightening. High temperature graphite based lubrication prevents leakage in both static and dynamic equipment, making it ideal for valves, autoclaves, and rotary kilns.",
+      "features": [
+        "Made from expanded graphite yarn with a minimum 98% carbon content, ensuring excellent thermal conductivity and chemical resistance across a wide range of industrial media",
+        "Braided with strong yet flexible Inconel wire, the packing maintains structural integrity under high pressure and temperature, with optional multi-wire reinforcement for surge resistance",
+        "Developed through in-house R&D, this advanced dispersion prevents leakage and enhances sealing performance in both static and dynamic equipment",
+        "The packing generates its own lubrication, allowing smooth stem adjustment during gland tightening and reducing wear on moving parts",
+        "Integrated sacrificial metal corrosion inhibitors safeguard equipment from galvanic corrosion, preventing pitting on valve stems and bodies",
+        "Safe for use in sensitive environments, as it does not contaminate the media and remains chemically inert",
+        "Ideal for use in valves, autoclaves, rotary kilns, and systems handling steam, hydrocarbons, thermic fluids, hot oil, and cooling water"
+      ],
+      "advantages": [
+        "Exceptional high temperature resistance up to 3315°C in non-oxidizing media",
+        "Low oxidation rate ensures long service life in extreme thermal environments",
+        "Suitable for rotary and rising-stem valve applications from Class 150 to Class 1500; consult JWI for higher class suitability",
+        "Fire-safe design suitable for fire-rated industrial applications",
+        "Reinforced with Inconel wire for superior pressure resistance and structural integrity",
+        "Self-lubricating graphite aids stem adjustment and reduces wear during operation",
+        "Corrosion inhibitor prevents galvanic corrosion, protecting valve stems and bodies"
+      ],
+      "applications": [],
+      "images": [
+        "/FZC Inmarco Product Shoot/CG 102/CG 102- Updated/CG 102 - 31_05_2.png",
+        "/FZC Inmarco Product Shoot/CG 102/CG 102- Updated/CG 102 - 31_10_2.png",
+        "/FZC Inmarco Product Shoot/CG 102/CG 102- Updated/CG 102 - 31_16_2.png",
+        "/FZC Inmarco Product Shoot/CG 102/CG 102- Updated/CG 102_1.png",
+        "/FZC Inmarco Product Shoot/CG 102/CG 102- Updated/CG 102_2.png",
+        "/FZC Inmarco Product Shoot/CG 102/CG 102- Updated/CG 102_3.png"
+      ],
+      "gallery": [],
+      "datasheet": "",
+      "specifications": {
+        "temperature": {
+          "value": "-240 to +260",
+          "unit": "°C"
+        },
+        "pH": "0-14",
+        "sizeRange": {
+          "value": "3 to 50",
+          "unit": "sq mm"
+        },
+        "pressure": {
+          "value": "300",
+          "unit": "bar"
+        }
+      },
+      "image": "/FZC Inmarco Product Shoot/CG 102/CG 102- Updated/CG 102 - 31_05_2.png"
+    },
+    {
+      "id": "cg-503",
+      "name": "CG 503",
+      "category": "Compression Packings",
+      "subcategory": "Carbon Graphite",
+      "description": "CG 503 is a high-performance packing made from expanded graphite and carbon fibre yarn, ideal for high-pressure and high-temperature valves. Its core is reinforced with Inconel wire and jacketed with fine mesh, while the outer layer uses low-friction carbon yarn. This design ensures reliable sealing in control valves and soot blower applications.\n\nEnhanced with an inorganic passive corrosion inhibitor and proprietary graphite based dispersion, Style CG 503 protects against galvanic corrosion and reduces loss on ignition. It adapts to worn surfaces, dissipates heat efficiently, and allows smooth removal during shutdowns. The packing remains intact when cut, ensuring easy handling and installation.",
+      "features": [
+        "Designed to perform under high temperatures and pressures, making it suitable for critical valve applications",
+        "Made from expanded graphite and carbon fibre yarn, reinforced with Inconel wire mesh for enhanced durability and sealing efficiency",
+        "Treated with an inorganic passive corrosion inhibitor that prevents galvanic corrosion and extends equipment life",
+        "Proprietary graphite-based dispersion improves heat dissipation and acts as a sealing enhancer, ensuring consistent performance",
+        "Conforms to worn or pitted valve surfaces, maintaining a smooth seal without scoring or damage",
+        "The packing remains intact during cutting and allows for smooth removal during shutdowns, reducing maintenance time",
+        "Suitable for a broad range of fluids and gases including steam, hydrocarbons, chemicals, ammonia, and thermic fluids"
+      ],
+      "advantages": [
+        "Exceptional high temperature resistance up to +650°C",
+        "Low oxidation rate and long service life in high-temperature and high-pressure environments",
+        "Inconel wire reinforcement ensures structural integrity under mechanical and thermal stress",
+        "Suitable for both dynamic and static applications Class 150 up to Class 1500. Please consult Inmarco for higher Class range suitability",
+        "Graphite based dispersion enhances sealing performance and heat dissipation",
+        "Passive corrosion inhibitor protects equipment from galvanic corrosion and reduces loss on ignition"
+      ],
+      "applications": [],
+      "images": [
+        "/FZC Inmarco Product Shoot/CG 503/CG 503 Updated/CG 503 - 34_15_2.png",
+        "/FZC Inmarco Product Shoot/CG 503/CG 503 Updated/CG 503 - 34_19_2.png",
+        "/FZC Inmarco Product Shoot/CG 503/CG 503 Updated/CG 503 - 34_23_2.png",
+        "/FZC Inmarco Product Shoot/CG 503/CG 503 Updated/CG 503 - 53(34)_03_2.png",
+        "/FZC Inmarco Product Shoot/CG 503/CG 503 Updated/CG 503 - 53(34)_08_2.png",
+        "/FZC Inmarco Product Shoot/CG 503/CG 503 Updated/CG503_Edited_3_2.png"
+      ],
+      "gallery": [],
+      "datasheet": "",
+      "specifications": {
+        "temperature": {
+          "value": "-250 to +650",
+          "unit": "°C"
+        },
+        "pH": "0-14",
+        "sizeRange": {
+          "value": "3 to 50",
+          "unit": "sq mm"
+        },
+        "rotating": {
+          "pressure": {
+            "value": "500",
+            "unit": "bar"
+          }
+        },
+        "reciprocating": {
+          "pressure": {
+            "value": "500",
+            "unit": "bar"
+          }
+        },
+        "static": {
+          "pressure": {
+            "value": "500",
+            "unit": "bar"
+          },
+          "velocity": {
+            "value": "N/A",
+            "unit": "m/s"
+          }
+        }
+      },
+      "image": "/FZC Inmarco Product Shoot/CG 503/CG 503 Updated/CG 503 - 34_15_2.png"
+    },
+    {
+      "id": "cg-900",
+      "name": "CG 900",
+      "category": "Compression Packings",
+      "subcategory": "Carbon Graphite",
+      "description": "Style CG 900 is a premium flexible expanded graphite fiber packing with high carbon content. It is impregnated with proprietary THERMOLUBE dispersion and reinforced with multiple Inconel/SS wires in each strand. The packing also incorporates an inorganic passive corrosion inhibitor to safeguard the parent body from galvanic corrosion and reduce loss on ignition.\n\nStyle CG 900 is a soft, expanded graphite fiber packing reinforced with resilient multiple Inconel or stainless steel wires. This construction ensures excellent flexibility, making it ideal for wrapping around small-diameter shafts and spindles. The use of special-grade Inconel wire significantly enhances the mechanical strength of the packing, providing superior resistance to pressure surges.",
+      "features": [
+        "Contains Inorganic Passive Corrosion Inhibitor to Prevent Galvanic Corrosion and Reduce Loss on Ignition, ensuring longer service life",
+        "Easily wraps around small diameter shafts and spindles without compromising integrity",
+        "Inconel wire reinforcement enhances resistance to pressure surges and mechanical stress",
+        "Minimal volume loss during operation, preventing premature leakage and extending service life",
+        "Automatically adapts during gland tightening, reducing maintenance needs",
+        "THERMOLUBE dispersion fills micro-gaps between yarns, ensuring tight sealing"
+      ],
+      "advantages": [
+        "Ensures dimensional stability under high pressure",
+        "Allows flexibility for wrapping around small shafts and spindles",
+        "Supports self-adjustment during gland tightening, improving sealing performance",
+        "Reduces loss on ignition, preserving packing volume and extending service life",
+        "Supports self adjustment during gland tightening improving sealing performance",
+        "Offers excellent thermal conductivity and chemical resistance"
+      ],
+      "applications": [],
+      "images": [
+        "/FZC Inmarco Product Shoot/CG 900/CG 900 Updated/CG 900 - 57(32)_05_2(1).png",
+        "/FZC Inmarco Product Shoot/CG 900/CG 900 Updated/CG 900 - 57(32)_05_2.png",
+        "/FZC Inmarco Product Shoot/CG 900/CG 900 Updated/CG 900 - 57(32)_10_2.png"
+      ],
+      "gallery": [],
+      "datasheet": "",
+      "specifications": {
+        "temperature": {
+          "value": "-200 to +650",
+          "unit": "°C"
+        },
+        "pH": "0-14",
+        "sizeRange": {
+          "value": "3 to 50",
+          "unit": "sq mm"
+        },
+        "pressure": {
+          "value": "500",
+          "unit": "bar"
+        }
+      },
+      "image": "/FZC Inmarco Product Shoot/CG 900/CG 900 Updated/CG 900 - 57(32)_05_2(1).png"
+    },
+    {
+      "id": "ultra-fe-1003",
+      "name": "ULTRA FE 1003",
+      "category": "Compression Packings",
+      "subcategory": "Fugitive Emission",
+      "description": "A virtually Zero friction and ultra-low emission Combination Packing Set made from expanded graphite Inconel wire mesh jacketed yarn for end rings and graphite foil ribbon moulded intermediate rings.\n\nThe packing is impregnated with a high temperature proprietary emulsion to ensure extremely low friction.\n\nThe packing set may be impregnated with an inorganic passive corrosion inhibitor to ensure corrosion free performance for prolonged period.",
+      "features": [],
+      "advantages": [],
+      "applications": [
+        "Non-Oxidising Liquids & Gases",
+        "Super Heated & Saturated Steam",
+        "Hot Dry Ash",
+        "Flue Gases",
+        "Dyes and Chemicals",
+        "Emissive Fluids",
+        "Fuel Oil & Lube Oil",
+        "Thermic Fluid",
+        "Hydrocarbons",
+        "Supercritical phase of CO2"
+      ],
+      "images": [
+        "/FZC Inmarco Product Shoot/Ultra FE 1002/Ultra FE 1002_1 (1).png",
+        "/FZC Inmarco Product Shoot/Ultra FE 1002/Ultra FE 1002_2 (1).png",
+        "/FZC Inmarco Product Shoot/Ultra FE 1002/Ultra FE 1002_3.png",
+        "/FZC Inmarco Product Shoot/Ultra FE 1003/Ultra FE 1003_1.png",
+        "/FZC Inmarco Product Shoot/Ultra FE 1003/Ultra FE 1003_2.png"
+      ],
+      "gallery": [],
+      "datasheet": "",
+      "specifications": {
+        "temperature": {
+          "value": "-196 to +538",
+          "unit": "°C"
+        },
+        "pH": "0 - 14",
+        "pressure": {
+          "value": "300",
+          "unit": "bar"
+        }
+      },
+      "image": "/FZC Inmarco Product Shoot/Ultra FE 1002/Ultra FE 1002_1 (1).png"
+    },
+    {
+      "id": "ultra-le-1002",
+      "name": "ULTRA LE 1002",
+      "category": "Compression Packings",
+      "subcategory": "Fugitive Emission",
+      "description": "Inmarco Ultra LE 1002 is a premium expanded pure graphite (carbon content 99.5 to 99.9%) fiber yarn braided packing, each yarn of which is reinforced with Multiple Inconnel wire, thoroughly incorporated with inorganic passive corrosion inhibitor and special lubricating agents. This Passive Corrosion Inhibitor safeguards parent equipment from Galvanic Corrosion and also reduction of loss on ignition.\n\nEach yarn is jacketed with inconnel wire mesh. The reinforcement and jacketing with inconnel wire meshing each yarn enables the packing to withstand extreme mechanical stress and cyclic loads.",
+      "features": [],
+      "advantages": [],
+      "applications": [
+        "### Service Media\n\nAll Non-Oxidizing liquids and gases, Super-heated and Saturated Steam, Hot dry Ash, Flue gases, Dyes and Chemicals, Emissive fluids, Fuel Oil & Lube Oil, Thermic fluid, Hydrocarbons etc."
+      ],
+      "images": [
+        "/FZC Inmarco Product Shoot/Ultra LE 1005/Ultra LE 1005_1_1.png",
+        "/FZC Inmarco Product Shoot/Ultra LE 1005/Ultra LE 1005_2_1.png",
+        "/FZC Inmarco Product Shoot/Ultra LE 1005/Ultra LE 1005_3_1.png"
+      ],
+      "gallery": [],
+      "datasheet": "",
+      "specifications": {
+        "temperature": {
+          "value": "-240 to +650",
+          "unit": "°C"
+        },
+        "pH": "0 - 14",
+        "pressure": {
+          "value": "500",
+          "unit": "bar"
+        }
+      },
+      "image": "/FZC Inmarco Product Shoot/Ultra LE 1005/Ultra LE 1005_1_1.png"
+    },
+    {
+      "id": "ultra-lt-1004",
+      "name": "ULTRA LT 1004",
+      "category": "Compression Packings",
+      "subcategory": "Fugitive Emission",
+      "description": "An Ultra-low friction low emission PTFE combination packing set made from PTFE filament braided intermediate rings with PTFE sintered end rings.\n\nThe packing is impregnated with a high temperature proprietary emulsion to ensure extremely low friction even at sub-zero temperature.",
+      "features": [],
+      "advantages": [],
+      "applications": [
+        "Acids & alkalis of any concentration",
+        "Solvents",
+        "Organic/inorganic chemicals",
+        "Hydrogen services",
+        "Food & pharma application"
+      ],
+      "images": [
+        "/FZC Inmarco Product Shoot/Ultra FE 1002/Ultra FE 1002_1 (1).png",
+        "/FZC Inmarco Product Shoot/Ultra FE 1002/Ultra FE 1002_2 (1).png",
+        "/FZC Inmarco Product Shoot/Ultra FE 1002/Ultra FE 1002_3.png",
+        "/FZC Inmarco Product Shoot/Ultra FE 1003/Ultra FE 1003_1.png",
+        "/FZC Inmarco Product Shoot/Ultra FE 1003/Ultra FE 1003_2.png"
+      ],
+      "gallery": [],
+      "datasheet": "",
+      "specifications": {
+        "temperature": {
+          "value": "-246 to +260",
+          "unit": "°C"
+        },
+        "pH": "0 - 14",
+        "pressure": {
+          "value": "200",
+          "unit": "bar"
+        }
+      },
+      "image": "/FZC Inmarco Product Shoot/Ultra FE 1002/Ultra FE 1002_1 (1).png"
+    },
+    {
+      "id": "ultra-ne-1005",
+      "name": "ULTRA NE 1005",
+      "category": "Compression Packings",
+      "subcategory": "Fugitive Emission",
+      "description": "Inmarco ULTRA NE 1005 is an Ultra-low emission, all-braided packing set crafted from expanded graphite yarn jacketed with Inconnel wire mesh. It is impregnated with a proprietary high-temperature emulsion to ensure minimal friction and can be optionally treated with an inorganic passive corrosion inhibitor for long-term, corrosion-free performance.",
+      "features": [],
+      "advantages": [],
+      "applications": [
+        "Non-oxidizing liquids and gases",
+        "Super-heated and saturated steam",
+        "Hot dry ash",
+        "Flue gases",
+        "Dyes and chemicals",
+        "Emissive fluids",
+        "Fuel oil & lube oil",
+        "Thermic fluid",
+        "Hydrocarbons"
+      ],
+      "images": [
+        "/FZC Inmarco Product Shoot/Ultra LE 1005/Ultra LE 1005_1_1.png",
+        "/FZC Inmarco Product Shoot/Ultra LE 1005/Ultra LE 1005_2_1.png",
+        "/FZC Inmarco Product Shoot/Ultra LE 1005/Ultra LE 1005_3_1.png"
+      ],
+      "gallery": [],
+      "datasheet": "",
+      "specifications": {
+        "temperature": {
+          "value": "-196 to +538",
+          "unit": "°C"
+        },
+        "pH": "0-14",
+        "pressure": {
+          "value": "425",
+          "unit": "bar"
+        }
+      },
+      "image": "/FZC Inmarco Product Shoot/Ultra LE 1005/Ultra LE 1005_1_1.png"
+    },
+    {
+      "id": "504ivc",
+      "name": "504IVC",
+      "category": "Compression Packings",
+      "subcategory": "Hybrid",
+      "description": "HY 504 is an improved version of duplex braided packing manufactured from Expanded PTFE intimately entrapped with high quality graphite reinforced with high structural carbon fibers. The PTFE graphite yarn is made in single molecular structure. This is a dense packing having high degree of resiliency and chemical properties. Presence of graphite & carbon enables the packing dissipate heat accurately leading to longer life of the packing.\n\nHY 504 is highly anti-frictional and hence able to safeguard shaft/sleeves from wear/erosion. This packing is having excellent resistance to almost all known chemicals and is compatible to wide range of industrial media and is only affected by strong oxidizers, molten alkali metal and fluorine compounds.\n\nHY 504 is dimensionally stable and requires minimum gland loading to effect perfect seal. This is also compatible to very high peripheral speed with extremely low leakage rate. This packing is an excellent resistant to corrosion and abrasion.",
+      "features": [],
+      "advantages": [],
+      "applications": [],
+      "images": [
+        "/FZC Inmarco Product Shoot/HY 504/HY 504 - 51(24)_20_2.png",
+        "/FZC Inmarco Product Shoot/HY 504/HY 504_1_2.png",
+        "/FZC Inmarco Product Shoot/HY 504/HY 504_3_2.png"
+      ],
+      "gallery": [],
+      "datasheet": "",
+      "specifications": {
+        "temperature": {
+          "value": "-200 to +300",
+          "unit": "°C"
+        },
+        "pH": "0-14",
+        "sizeRange": {
+          "value": "3 to 35",
+          "unit": "sq mm"
+        },
+        "rotating": {
+          "pressure": {
+            "value": "200",
+            "unit": "bar"
+          },
+          "velocity": {
+            "value": "25",
+            "unit": "m/s"
+          }
+        },
+        "reciprocating": {
+          "pressure": {
+            "value": "300",
+            "unit": "bar"
+          },
+          "velocity": {
+            "value": "15",
+            "unit": "m/s"
+          }
+        },
+        "static": {
+          "pressure": {
+            "value": "350",
+            "unit": "bar"
+          },
+          "velocity": {
+            "value": "N/A",
+            "unit": "m/s"
+          }
+        }
+      },
+      "image": "/FZC Inmarco Product Shoot/HY 504/HY 504 - 51(24)_20_2.png"
+    },
+    {
+      "id": "801cc",
+      "name": "801CC",
+      "category": "Compression Packings",
+      "subcategory": "Hybrid",
+      "description": "801CC is a versatile hybrid packing made from non-metallic expanded graphite yarn and carbon filament in unique construction, it is reinforced with high structural carbon filament. It offers exceptional chemical resistance and thermal conductivity.\n\nImpregnated with proprietary high-therm graphite-based dispersion and an inorganic passive corrosion inhibitor, this packing protects equipment from galvanic corrosion and reduces loss on ignition. It adapts to surface irregularities, ensuring smooth performance and excellent dry run capabilities.",
+      "features": [
+        "The packing is made from non-metallic expanded graphite yarn, reinforced with high structural carbon filament",
+        "The construction has a unique reinforcement of high structural carbon filament to increase strength with enhanced seal-ability",
+        "The packing exhibits high chemical resistance and excellent thermal conductivity",
+        "It is non-sticky and does not corrode or erode parent equipment, ensuring longevity",
+        "Self-lubricating to prevent shaft or stem wear and extend the life of the packing",
+        "Unique construction suitable for use across all types of pumps and valves in a plant",
+        "Chemically inert, it does not leach out any chemicals during operation, maintaining safety",
+        "The packing adapts easily to surface irregularities and conforms to stuffing box dimensions, enhancing its sealing effectiveness",
+        "It can be used as an anti-extrusion ring, providing versatility in various applications"
+      ],
+      "advantages": [
+        "Exceptional chemical resistance to a wide range of media",
+        "High thermal conductivity for efficient heat dissipation",
+        "Low oxidation rate and long service life",
+        "Suitable for both dynamic and static applications",
+        "Fire-safe design for use in inflammable applications"
+      ],
+      "applications": [],
+      "images": [
+        "/FZC Inmarco Product Shoot/HY 801/HY 801_1_2.png",
+        "/FZC Inmarco Product Shoot/HY 801/HY 801_2_2.png",
+        "/FZC Inmarco Product Shoot/HY 801/HY 801_3_2.png"
+      ],
+      "gallery": [],
+      "datasheet": "",
+      "specifications": {
+        "temperature": {
+          "value": "-200 to +650",
+          "unit": "°C"
+        },
+        "pH": "0-14",
+        "sizeRange": {
+          "value": "6 to 50",
+          "unit": "sq mm"
+        },
+        "pressure": {
+          "value": "150",
+          "unit": "bar"
+        },
+        "velocity": {
+          "value": "25",
+          "unit": "m/s"
+        }
+      },
+      "image": "/FZC Inmarco Product Shoot/HY 801/HY 801_1_2.png"
+    },
+    {
+      "id": "hy-105",
+      "name": "HY 105",
+      "category": "Compression Packings",
+      "subcategory": "Hybrid",
+      "description": "HY 105 is a high-performance gland packing made from a dense braid of Aramid Yarn corners and PTFE Yarn faces, reinforced with a resilient Aramid fiber core. The materials are treated with advanced lubricants to reduce friction and enhance thermal resistance, ensuring smooth operation and extended service life.\n\nThis packing is designed for demanding industrial environments, offering excellent chemical resistance, high pressure tolerance, and dimensional stability. It is ideal for use in pumps, valves, mixers, and reactors across chemical, fertilizer, and process industries.",
+      "features": [
+        "HY 105 is a unique combination of aramid yarn corners and PTFE Yarn faces, designed for enhanced sealing performance",
+        "The packing is reinforced with a high-tensile Aramid fiber core, offering exceptional mechanical strength and dimensional stability",
+        "PTFE faces are treated with inert, high-temperature lubricants to ensure smooth, low-friction operation",
+        "Aramid corners are lubricated with antifrictional fluoropolymer dispersion, preventing corner failures in reciprocating equipment",
+        "Developed to deliver reliable sealing in chemically aggressive and mechanically demanding environments",
+        "Offers excellent compatibility with a wide range of industrial media including slurries, pigments, and synthetic compounds",
+        "Designed for consistent performance in centrifugal, reciprocating, and plunger pump systems"
+      ],
+      "advantages": [
+        "Engineered for long-lasting sealing performance in dynamic environments",
+        "Combines strength and flexibility for consistent dimensional stability",
+        "Delivers smooth, low-friction operation to protect equipment surfaces",
+        "Designed to perform reliably across a wide range of industrial applications",
+        "Constructed with advanced materials for superior chemical and mechanical resistance"
+      ],
+      "applications": [
+        "Ideal for use in pumps, valves, mixers, and reactors across chemical, fertilizer, and process industries."
+      ],
+      "images": [
+        "/FZC Inmarco Product Shoot/HY 105/HY 105_1_2.png"
+      ],
+      "gallery": [],
+      "datasheet": "",
+      "specifications": {
+        "temperature": {
+          "value": "-200 to +300",
+          "unit": "°C"
+        },
+        "pH": "0-14",
+        "sizeRange": {
+          "value": "3 to 35",
+          "unit": "sq mm"
+        },
+        "rotating": {
+          "pressure": {
+            "value": "100",
+            "unit": "bar"
+          },
+          "velocity": {
+            "value": "25",
+            "unit": "m/s"
+          }
+        },
+        "reciprocating": {
+          "pressure": {
+            "value": "200",
+            "unit": "bar"
+          },
+          "velocity": {
+            "value": "10",
+            "unit": "m/s"
+          }
+        },
+        "static": {
+          "pressure": {
+            "value": "300",
+            "unit": "bar"
+          },
+          "velocity": {
+            "value": "N/A",
+            "unit": "m/s"
+          }
+        }
+      },
+      "image": "/FZC Inmarco Product Shoot/HY 105/HY 105_1_2.png"
+    },
+    {
+      "id": "hy-105hd",
+      "name": "HY 105HD",
+      "category": "Compression Packings",
+      "subcategory": "Hybrid",
+      "description": "HY 105HD is a dense braided gland packing made with Aramid Yarn corners and PTFE Yarn faces. It includes a high-tensile Aramid fiber core for strength and dimensional stability. Designed for high-pressure and high-temperature environments.\n\nThis high-density packing is ideal for critical fertilizer industry applications. Aramid yarn is treated with antifrictional fluoropolymer and break-in lubricant, while PTFE faces use inert, heat-resistant lubricant. This ensures low friction and protects plunger and valve stems.",
+      "features": [
+        "High-Density Braided Construction - The packing is densely braided using Aramid and PTFE yarns, ensuring excellent sealability and dimensional stability under high mechanical stress",
+        "Aramid Yarn corners provide structural strength and resistance to corner failures, while PTFE Yarn faces offer low friction and cool shaft operation",
+        "Aramid fibers are treated with antifrictional fluoropolymer and break-in lubricant; PTFE faces are lubricated with inert, high-temperature-resistant compounds for smooth performance",
+        "Resistant to a broad range of chemicals including ammonia, urea, carbamate condensate, detergents, pigments, and synthetic molten materials used in fertilizer production",
+        "PTFE's low-friction properties reduce wear on plungers and valve stems, extending equipment life and reducing maintenance costs",
+        "Ideal for use in centrifugal, reciprocating, and plunger pumps, as well as valves, agitators, mixers, extruders, and reactors across various industries"
+      ],
+      "advantages": [
+        "Exceptional high pressure resistance due to strong Aramid fiber core",
+        "Low friction PTFE faces ensure cool shaft operation and reduced wear",
+        "High-density braided construction for superior sealability and dimensional stability",
+        "Wide chemical compatibility including ammonia, urea, and carbamate solutions",
+        "Suitable for reciprocating, centrifugal, and plunger pumps in fertilizer applications",
+        "Operates effectively across a wide temperature range",
+        "Designed for critical applications in the fertilizer industry with reliable performance"
+      ],
+      "applications": [
+        "Ideal for critical fertilizer industry applications, particularly in centrifugal, reciprocating, and plunger pumps, as well as valves, agitators, mixers, extruders, and reactors."
+      ],
+      "images": [
+        "/FZC Inmarco Product Shoot/HY 105 HD/HY 105 HD_1_2.png",
+        "/FZC Inmarco Product Shoot/HY 105 HD/HY 105 HD_2_2.png"
+      ],
+      "gallery": [],
+      "datasheet": "",
+      "specifications": {
+        "temperature": {
+          "value": "-200 to +300",
+          "unit": "°C"
+        },
+        "pH": "0-14",
+        "sizeRange": {
+          "value": "3 to 35",
+          "unit": "sq mm"
+        },
+        "rotating": {
+          "pressure": {
+            "value": "100",
+            "unit": "bar"
+          },
+          "velocity": {
+            "value": "25",
+            "unit": "m/s"
+          }
+        },
+        "reciprocating": {
+          "pressure": {
+            "value": "200",
+            "unit": "bar"
+          },
+          "velocity": {
+            "value": "10",
+            "unit": "m/s"
+          }
+        },
+        "static": {
+          "pressure": {
+            "value": "300",
+            "unit": "bar"
+          },
+          "velocity": {
+            "value": "N/A",
+            "unit": "m/s"
+          }
+        }
+      },
+      "image": "/FZC Inmarco Product Shoot/HY 105 HD/HY 105 HD_1_2.png"
+    },
+    {
+      "id": "hy-105t",
+      "name": "HY 105T",
+      "category": "Compression Packings",
+      "subcategory": "Hybrid",
+      "description": "HY 105T is a high-performance gland packing made from Aldehyde Yarn corners and PTFE Yarn faces, reinforced with a resilient PTFE cord core. Its dense braided construction ensures excellent strength, dimensional stability, and sealing capability under extreme conditions. This makes it ideal for pumps, valves, mixers, and reactors.\n\nThe packing is lubricated with advanced fluoropolymer and inert compounds, reducing friction and wear during operation. It handles a wide range of aggressive media like ammonia, urea, carbamate, and dry abrasives. With high pressure resistance and broad chemical compatibility, it excels in fertilizer, chemical, and paint industries.",
+      "features": [
+        "Combines Aldehyde Yarn corners with PTFE Yarn faces and a high-tensile PTFE cord core, delivering superior mechanical strength and sealing performance",
+        "Withstands pressures up to 500 bar, making it ideal for high-pressure applications in pumps, valves, and reactors",
+        "PTFE fibers and specialized lubricants reduce friction, ensuring cooler shaft runs and minimizing wear on plungers and valve stems",
+        "Resistant to a wide range of aggressive media including ammonia, urea, carbamate, detergents, pigments, and synthetic materials",
+        "Performs reliably in dry, abrasive, and corrosive environments, extending service life even under harsh operating conditions",
+        "Suitable for centrifugal, reciprocating, and plunger pumps, as well as agitators, mixers, extruders, and more",
+        "Dense braided structure ensures excellent sealability and dimensional stability, reducing the risk of leakage or packing failure"
+      ],
+      "advantages": [
+        "Exceptional high-pressure resistance",
+        "Low friction operation ensures minimal wear on shafts and plungers",
+        "Excellent chemical compatibility with ammonia, urea, carbamate, and more",
+        "Dense braided construction provides superior seal integrity and dimensional stability",
+        "Suitable for centrifugal, reciprocating, and plunger pumps, as well as valves and mixers",
+        "Performs reliably in dry, abrasive, and corrosive environments",
+        "Lubricated with high-temperature inert compounds for extended service life"
+      ],
+      "applications": [
+        "Ideal for use in pumps, valves, mixers, and reactors in fertilizer, chemical, and paint industries."
+      ],
+      "images": [
+        "/FZC Inmarco Product Shoot/HY 105/HY 105_2.png",
+        "/FZC Inmarco Product Shoot/HY 105/HY 105_3.png",
+        "/FZC Inmarco Product Shoot/HY 105/HY 105_1.png",
+        "/FZC Inmarco Product Shoot/HY 105T/HY 105T_4.png",
+        "/FZC Inmarco Product Shoot/HY 105T/HY 105T_1.png",
+        "/FZC Inmarco Product Shoot/HY 105T/HY 105T_3.png",
+        "/FZC Inmarco Product Shoot/HY 105T/HY 105T_2.png"
+      ],
+      "gallery": [],
+      "datasheet": "",
+      "specifications": {
+        "temperature": {
+          "value": "-200 to +280",
+          "unit": "°C"
+        },
+        "pH": "0-14",
+        "sizeRange": {
+          "value": "5 to 35",
+          "unit": "sq mm"
+        },
+        "pressure": {
+          "value": "500",
+          "unit": "bar"
+        }
+      },
+      "image": "/FZC Inmarco Product Shoot/HY 105/HY 105_2.png"
+    },
+    {
+      "id": "hy-107",
+      "name": "HY 107",
+      "category": "Compression Packings",
+      "subcategory": "Hybrid",
+      "description": "HY 107 is a unique multi yarn packing designed for harsh applications having Aramid filament yarn at the corners and PTFE graphited yarn at the faces having core of Aramid filament.\n\nThis packing provides low friction due to graphite lubricated PTFE faces but ensures resistance to abrasion with tough Aramid filament at the corner.\n\nThese features contribute to its ability to deliver extended, leak-free performance. Whether in demanding industrial applications or critical sealing scenarios, this packing material ensures reliability and longevity.",
+      "features": [
+        "The packing exhibits a dense construction, ensuring minimal gaps or voids. This density contributes to its exceptional sealability",
+        "When compressed, the packing forms a tight barrier, effectively preventing fluid leakage",
+        "It is designed to withstand high pressure conditions. Its robust materials and construction make it suitable for applications where pressure levels are significant",
+        "Whether in pumps, valves, or other equipment, this packing maintains its integrity even under substantial pressure",
+        "A standout feature of this packing is its extreme durability when exposed to Ammonia and Carbamate solutions",
+        "It boasts wide chemical resistance and handles various corrosive substances without compromising its sealing properties",
+        "Additionally, its abrasion resistance ensures longevity, even in demanding industrial settings",
+        "The packing material penetrates well into irregular surfaces, conforming closely to the equipment it seals",
+        "This property enhances its sealing effectiveness and minimizes the risk of leaks"
+      ],
+      "advantages": [
+        "Excellent abrasion resistance",
+        "Superior compression and recovery characteristics with out-of-true shafts and spindles",
+        "Excellent extrusion resistance",
+        "Low shaft wear",
+        "Packing is tested and qualified as per EN16752 (Centrifugal pumps test procedure for seal packing), tightness class T2"
+      ],
+      "applications": [
+        "Suitable for use in pumps, valves, and other equipment in demanding industrial applications and critical sealing scenarios."
+      ],
+      "images": [
+        "/FZC Inmarco Product Shoot/HY 107/HY 107_1_2.png",
+        "/FZC Inmarco Product Shoot/HY 107/HY 107_2_2.png"
+      ],
+      "gallery": [],
+      "datasheet": "",
+      "specifications": {
+        "temperature": {
+          "value": "-240 to +260",
+          "unit": "°C"
+        },
+        "pH": "1-13",
+        "sizeRange": {
+          "value": "6 to 28",
+          "unit": "sq mm"
+        },
+        "rotating": {
+          "pressure": {
+            "value": "25",
+            "unit": "bar"
+          }
+        },
+        "reciprocating": {
+          "pressure": {
+            "value": "100",
+            "unit": "bar"
+          }
+        },
+        "static": {
+          "pressure": {
+            "value": "250",
+            "unit": "bar"
+          }
+        }
+      },
+      "image": "/FZC Inmarco Product Shoot/HY 107/HY 107_1_2.png"
+    },
+    {
+      "id": "hy-107hd",
+      "name": "HY 107HD",
+      "category": "Compression Packings",
+      "subcategory": "Hybrid",
+      "description": "HY 107HD is a high-density combination packing made with Aramid Fibre Yarn at the corners and PTFE Graphite Yarn at the faces, reinforced with an Aramid core. It is treated with antifrictional fluoropolymer dispersion and a special break-in lubricant. This design ensures excellent chemical resistance, dimensional stability, and thermal control.\n\nThe graphite-faced surface promotes efficient heat dissipation, while the Aramid corners enhance structural integrity under pressure. Its compact construction supports long-term sealing performance in high-pressure, high-temperature environments.",
+      "features": [
+        "High-Density Construction - Densely braided for superior sealability and structural integrity, ideal for high-pressure sealing environments",
+        "Designed for Critical Fertilizer Applications - Specifically engineered for use in fertilizer plants, especially in carbamate and urea pump systems, where reliability is essential",
+        "Aramid Fibre Yarn at the corners provides mechanical strength, while PTFE Graphite Yarn at the faces ensures smooth operation and thermal control",
+        "Impregnated with antifrictional fluoropolymer dispersion and break-in lubricant to minimize startup wear and extend service life",
+        "Withstands harsh chemicals and abrasive media, ensuring long-term durability in demanding industrial conditions",
+        "Graphite-faced surfaces enhance heat dissipation, allowing cooler operation and reducing thermal stress on equipment",
+        "Aramid corners prevent deformation and failure in reciprocating motion, maintaining consistent sealing under dynamic loads"
+      ],
+      "advantages": [
+        "Exceptional high-density construction for reliable sealing under high pressure",
+        "Engineered for critical operations in fertilizer plants, including carbamate and urea pump systems",
+        "Dual-yarn design with Aramid corners and PTFE Graphite faces for enhanced durability and thermal control",
+        "Low wear during startup due to antifrictional fluoropolymer and break-in lubricant treatment",
+        "Excellent resistance to chemical attack and abrasive media, ensuring long service life"
+      ],
+      "applications": [
+        "Specifically engineered for use in fertilizer plants, especially in carbamate and urea pump systems. Suitable for high-pressure, high-temperature environments requiring reliable sealing performance."
+      ],
+      "images": [
+        "/FZC Inmarco Product Shoot/HY 107 HD/HY 107 HD - 58_03_2.png",
+        "/FZC Inmarco Product Shoot/HY 107 HD/HY 107 HD - 58_04_2.png",
+        "/FZC Inmarco Product Shoot/HY 107 HD/HY 107 HD_1_2.png"
+      ],
+      "gallery": [],
+      "datasheet": "",
+      "specifications": {
+        "temperature": {
+          "value": "-240 to +280",
+          "unit": "°C"
+        },
+        "pH": "0-14",
+        "sizeRange": {
+          "value": "6 to 50",
+          "unit": "sq mm"
+        },
+        "pressure": {
+          "value": "500",
+          "unit": "bar"
+        }
+      },
+      "image": "/FZC Inmarco Product Shoot/HY 107 HD/HY 107 HD - 58_03_2.png"
+    },
+    {
+      "id": "hy-120ar",
+      "name": "HY 120AR",
+      "category": "Compression Packings",
+      "subcategory": "Hybrid",
+      "description": "STYLE 120AR is a premium grade economical packing manufactured from Aramid yarn in the core & corner all four faces from Ramie fiber packing with a highly tenacious synthetic reinforcement which enhances the tensile strength, increase operational life of packing. This packing is dispersed with pure PTFE and does excellent sealing in stern tubes.",
+      "features": [
+        "Highest quality Ramie Fibre with Aramid reinforcement",
+        "Better mechanical strength",
+        "Excellent lubrication leading to minimal shaft wear",
+        "Special water absorption capabilities of Ramie fibre enhance the sealing capabilities"
+      ],
+      "advantages": [],
+      "applications": [
+        "Rudder shaft sealing, Water handling equipment, etc."
+      ],
+      "images": [
+        "/FZC Inmarco Product Shoot/HY 120 AR/HY 120 AR_Edited_1_2.png",
+        "/FZC Inmarco Product Shoot/HY 120 AR/HY 120 AR_Edited_2_2.png",
+        "/FZC Inmarco Product Shoot/HY 120 AR/HY 12O AR_4_2.png"
+      ],
+      "gallery": [],
+      "datasheet": "",
+      "specifications": {
+        "temperature": {
+          "value": "-40 to +150",
+          "unit": "°C"
+        },
+        "pH": "4-10",
+        "sizeRange": {
+          "value": "3 to 35",
+          "unit": "sq mm"
+        },
+        "rotating": {
+          "pressure": {
+            "value": "50",
+            "unit": "bar"
+          }
+        },
+        "reciprocating": {
+          "pressure": {
+            "value": "100",
+            "unit": "bar"
+          }
+        },
+        "static": {
+          "pressure": {
+            "value": "200",
+            "unit": "bar"
+          }
+        }
+      },
+      "image": "/FZC Inmarco Product Shoot/HY 120 AR/HY 120 AR_Edited_1_2.png"
+    },
+    {
+      "id": "hy-501",
+      "name": "HY 501",
+      "category": "Compression Packings",
+      "subcategory": "Hybrid",
+      "description": "HY 501 is a versatile hybrid packing made from Non-Metallic Expanded Pure Graphite yarn. It is impregnated with proprietary Graphite-based dispersion and an INORGANIC PASSIVE CORROSION INHIBITOR. This combination ensures excellent chemical resistance, thermal conductivity, and protection against galvanic corrosion.\n\nThe packing adapts to surface irregularities, ensuring smooth performance and excellent dry run capabilities. It is chemically inert, self-lubricating, and suitable for use across pumps and valves.",
+      "features": [],
+      "advantages": [
+        "Exceptional chemical resistance to a wide range of media",
+        "High thermal conductivity for efficient heat dissipation",
+        "Low oxidation rate and long service life",
+        "Suitable for both dynamic and static applications Class 150 up to Class 1500. Please consult Inmarco for higher Class range suitability",
+        "Fire-safe design for use in fire-rated applications"
+      ],
+      "applications": [],
+      "images": [
+        "/FZC Inmarco Product Shoot/HY 501/HY 175_Edited_3_2.png",
+        "/FZC Inmarco Product Shoot/HY 501/HY 501 - 27_07_2.png",
+        "/FZC Inmarco Product Shoot/HY 501/HY 501 - 27_20_2.png"
+      ],
+      "gallery": [],
+      "datasheet": "",
+      "specifications": {
+        "temperature": {
+          "value": "-200 to +650",
+          "unit": "°C"
+        },
+        "pH": "0-14",
+        "sizeRange": {
+          "value": "6 to 50",
+          "unit": "sq mm"
+        },
+        "rotating": {
+          "pressure": {
+            "value": "150",
+            "unit": "bar"
+          },
+          "velocity": {
+            "value": "25",
+            "unit": "m/s"
+          }
+        },
+        "reciprocating": {
+          "pressure": {
+            "value": "450",
+            "unit": "bar"
+          },
+          "velocity": {
+            "value": "20",
+            "unit": "m/s"
+          }
+        },
+        "static": {
+          "pressure": {
+            "value": "450",
+            "unit": "bar"
+          },
+          "velocity": {
+            "value": "N/A",
+            "unit": "m/s"
+          }
+        }
+      },
+      "image": "/FZC Inmarco Product Shoot/HY 501/HY 175_Edited_3_2.png"
+    },
+    {
+      "id": "hy-510ec",
+      "name": "HY 510EC",
+      "category": "Compression Packings",
+      "subcategory": "Hybrid",
+      "description": "Style HY 510EC is a high-performance hybrid packing designed for demanding industrial and marine applications. It is made from PTFE-based fibers with graphite in the molecular structure and Aramid reinforcement, and features a hollow elastomer core that provides enhanced resiliency. This advanced construction ensures reliable sealing and a long service life, particularly in seawater applications.\n\nThe packing offers excellent sealing performance and an optimized mechanical design for marine service conditions. Its specialized structure supports consistent operation under harsh environments, delivering durability, stability, and dependable leak-free performance in critical applications.",
+      "features": [],
+      "advantages": [
+        "Adequate lubrication for low friction runs",
+        "No embrittlement or abrasion to parent equipment",
+        "Graphite Inblend controls the thermal expansion of PTFE by around 20%, eliminating chances of overheating and extrusion",
+        "Excellent heat dissipation to ensure cool run and thus guarantee excellent sealing performance",
+        "Hollow elastomer core ensures excellent resiliency"
+      ],
+      "applications": [
+        "Pumps, agitators, dryers, mixers, reactor shafts, stern tubes, and similar rotating equipment."
+      ],
+      "images": [],
+      "gallery": [],
+      "datasheet": "",
+      "specifications": {
+        "pH": "0 - 14",
+        "rotating": {
+          "velocity": {
+            "value": "25 m",
+            "unit": "m/s"
+          }
+        },
+        "reciprocating": {
+          "velocity": {
+            "value": "s",
+            "unit": "m/s"
+          }
+        },
+        "static": {
+          "velocity": {
+            "value": "N/A",
+            "unit": "m/s"
+          }
+        },
+        "pressure": {
+          "value": "200",
+          "unit": "bar"
+        }
+      }
+    },
+    {
+      "id": "hy-606",
+      "name": "HY 606",
+      "category": "Compression Packings",
+      "subcategory": "Hybrid",
+      "description": "HY 606 is a high-performance packing made from abrasion-resistant Aldehyde fibre yarn. It is impregnated with PTFE-based Inflon dispersion and treated with break-in and run-in lubricants. These additives reduce friction and protect sleeves and shafts from erosion.\n\nThe packing's core of Red Inmalon yarn adds resilience and structural strength. Its tough construction ensures dimensional stability and resistance to deformation, making it ideal for demanding industrial operations.",
+      "features": [],
+      "advantages": [
+        "Exceptional resistance to high temperatures and thermal stress",
+        "Low friction performance due to advanced PTFE-based lubrication",
+        "Suitable for both rotary and reciprocating equipment in tough conditions",
+        "Resilient core construction ensures long-lasting structural integrity",
+        "Maintains dimensional stability under mechanical and thermal loads",
+        "Available in a wide range of sizes for diverse industrial applications",
+        "Designed for reliable sealing in high-pressure and high-speed operations"
+      ],
+      "applications": [],
+      "images": [],
+      "gallery": [],
+      "datasheet": "",
+      "specifications": {
+        "temperature": {
+          "value": "-200 to +300",
+          "unit": "°C"
+        },
+        "pH": "0-14",
+        "sizeRange": {
+          "value": "6 to 50",
+          "unit": "sq mm"
+        },
+        "pressure": {
+          "value": "300",
+          "unit": "bar"
+        }
+      }
+    },
+    {
+      "id": "hy801",
+      "name": "HY801",
+      "category": "Compression Packings",
+      "subcategory": "Hybrid",
+      "description": "HY801 is a versatile hybrid packing made from Non-Metallic Expanded Pure Graphite yarn, reinforced with high structural Carbon filament. It offers exceptional chemical resistance and thermal conductivity.\n\nImpregnated with proprietary THERMOLUBE Graphite-based dispersion and an INORGANIC PASSIVE CORROSION INHIBITOR, this packing protects equipment from galvanic corrosion and reduces loss on ignition. It adapts to surface irregularities, ensuring smooth performance and excellent dry run capabilities.",
+      "features": [],
+      "advantages": [
+        "Exceptional chemical resistance to a wide range of media",
+        "High thermal conductivity for efficient heat dissipation",
+        "Low oxidation rate and long service life",
+        "Suitable for both dynamic and static applications Class 150 up to Class 1500. Please consult Inmarco for higher Class range suitability",
+        "Fire-safe design for use in fire-rated applications"
+      ],
+      "applications": [],
+      "images": [
+        "/FZC Inmarco Product Shoot/HY 801/HY 801_1_2.png",
+        "/FZC Inmarco Product Shoot/HY 801/HY 801_2_2.png",
+        "/FZC Inmarco Product Shoot/HY 801/HY 801_3_2.png"
+      ],
+      "gallery": [],
+      "datasheet": "",
+      "specifications": {
+        "temperature": {
+          "value": "-200 to +650",
+          "unit": "°C"
+        },
+        "pH": "0-14",
+        "sizeRange": {
+          "value": "6 to 50",
+          "unit": "sq mm"
+        },
+        "rotating": {
+          "pressure": {
+            "value": "150",
+            "unit": "bar"
+          },
+          "velocity": {
+            "value": "25",
+            "unit": "m/s"
+          }
+        },
+        "reciprocating": {
+          "pressure": {
+            "value": "450",
+            "unit": "bar"
+          },
+          "velocity": {
+            "value": "20",
+            "unit": "m/s"
+          }
+        },
+        "static": {
+          "pressure": {
+            "value": "450",
+            "unit": "bar"
+          },
+          "velocity": {
+            "value": "N/A",
+            "unit": "m/s"
+          }
+        }
+      },
+      "image": "/FZC Inmarco Product Shoot/HY 801/HY 801_1_2.png"
+    },
+    {
+      "id": "rebacklon-175",
+      "name": "REBACKLON 175",
+      "category": "Compression Packings",
+      "subcategory": "Hybrid",
+      "description": "STYLE REBACKLON 175 is a combination of duplex braided packing with inmalon yarn and expanded PTFE intimately bonded with special quality graphite yarn incorporating break-in-lubricant in a special process. This is a dense packing having high degree of resiliency and chemical properties.\n\nSTYLE REBACKLON 175 the presence of graphite enables the packing dissipate heat accurately leading to longer life of the packing. The break-in-lubricant ensures extra lubrication during the complete operational life.\n\nSTYLE REBACKLON 175 is highly anti-frictional and hence able to safeguard shaft/sleeves from wear/erosion. This packing is having excellent resistance to almost all known chemicals and is compatible to wide range of industrial media and is only affected by strong oxidizers, molten alkali metal, fluorine compounds, concentrated fuming acids.\n\nSTYLE REBACKLON 175 is suitable for dynamic as well as static application. As it is dimensionally stable it ensures leakage free operational life for a longer period.",
+      "features": [
+        "Combination of duplex braided packing with inmalon yarn and expanded PTFE intimately bonded with special quality graphite yarn",
+        "Incorporates break-in-lubricant in a special process for extra lubrication during complete operational life",
+        "Dense packing with high degree of resiliency and chemical properties",
+        "Presence of graphite enables accurate heat dissipation leading to longer packing life",
+        "Highly anti-frictional, safeguarding shaft/sleeves from wear/erosion",
+        "Excellent resistance to almost all known chemicals",
+        "Compatible with wide range of industrial media",
+        "Only affected by strong oxidizers, molten alkali metal, fluorine compounds, concentrated fuming acids",
+        "Dimensionally stable ensuring leakage free operational life for longer period",
+        "Suitable for dynamic as well as static applications"
+      ],
+      "advantages": [],
+      "applications": [
+        "Pumps, Valves, Mixers, Reactors, etc."
+      ],
+      "images": [
+        "/FZC Inmarco Product Shoot/HY 175/HY 175_5_2.png",
+        "/FZC Inmarco Product Shoot/HY 175/HY 175_Edited_1_2.png",
+        "/FZC Inmarco Product Shoot/HY 175/HY 175_Edited_3_2.png"
+      ],
+      "gallery": [],
+      "datasheet": "",
+      "specifications": {
+        "temperature": {
+          "value": "-200 to +280",
+          "unit": "°C"
+        },
+        "pH": "3-14",
+        "sizeRange": {
+          "value": "5 to 50",
+          "unit": "sq mm"
+        },
+        "rotating": {
+          "pressure": {
+            "value": "150",
+            "unit": "bar"
+          }
+        },
+        "reciprocating": {
+          "pressure": {
+            "value": "200",
+            "unit": "bar"
+          }
+        },
+        "static": {
+          "pressure": {
+            "value": "350",
+            "unit": "bar"
+          }
+        }
+      },
+      "image": "/FZC Inmarco Product Shoot/HY 175/HY 175_5_2.png"
+    },
+    {
+      "id": "120",
+      "name": "120",
+      "category": "Compression Packings",
+      "subcategory": "Organic",
+      "description": "STYLE 120 is a special developed ramie fibre packing with a highly tenacious synthetic reinforcement which enhances the tensile strength, increases operational life of packing. This packing is dispersed with pure PTFE and does excellent sealing in stern tubes.",
+      "features": [],
+      "advantages": [
+        "Proprietary Inflon dispersion enhances the density and the sealing ability. Safe & stays clean under operation.",
+        "Highest quality Ramie Fibre with Aramid reinforcement.",
+        "Comparatively better mechanical strength.",
+        "Excellent lubrication leading to minimal shaft wear.",
+        "Special water absorption capabilities of Ramie fibre enhance the sealing capabilities."
+      ],
+      "applications": [
+        "Stern tubes, Water handling equipment, etc."
+      ],
+      "images": [
+        "/FZC Inmarco Product Shoot/OR 120/OR 120.png",
+        "/FZC Inmarco Product Shoot/OR 120/OR 120_1.png",
+        "/FZC Inmarco Product Shoot/OR 120/OR-120_3.JPG"
+      ],
+      "gallery": [],
+      "datasheet": "",
+      "specifications": {
+        "temperature": {
+          "value": "Ambient to 80",
+          "unit": "°C"
+        },
+        "pH": "4-10",
+        "sizeRange": {
+          "value": "5 to 50",
+          "unit": "sq mm"
+        },
+        "pressure": {
+          "value": "65",
+          "unit": "bar"
+        },
+        "velocity": {
+          "value": "10",
+          "unit": "m/s"
+        }
+      },
+      "image": "/FZC Inmarco Product Shoot/OR 120/OR 120.png"
+    },
+    {
+      "id": "or-125",
+      "name": "OR 125",
+      "category": "Compression Packings",
+      "subcategory": "Organic",
+      "description": "OR 125 is a premium-grade packing made from high-strength acrylic fiber. It is impregnated with proprietary PTFE based dispersion, enhancing its chemical resistance and sealing performance. The packing offers excellent mechanical integrity and durability.\n\nIts advanced composition ensures minimal shaft wear and superior lubrication. Designed for consistent performance, Style OR 125 is an economical and efficient solution for various industrial sealing needs.",
+      "features": [
+        "Impregnated with proprietary PTFE based dispersion, the packing offers superior resistance to a wide range of chemicals, ensuring long-term reliability in challenging environments.",
+        "Braided from strong acrylic fibers, it offers superior durability and tensile strength compared to traditional natural or vegetable fiber-based packings.",
+        "The PTFE treatment provides smooth lubrication, reducing friction and minimizing wear on shafts and other moving components.",
+        "The advanced impregnation process increases packing density, resulting in better sealing efficiency and reduced leakage under pressure.",
+        "Designed to balance performance and affordability, it serves as a reliable choice for industrial sealing without compromising on quality.",
+        "The packing maintains its integrity across a wide temperature range, ensuring consistent sealing performance even under fluctuating thermal conditions.",
+        "Designed to perform safely in clean water systems, it minimizes contamination and supports hygienic operation in sensitive environments."
+      ],
+      "advantages": [
+        "Enhanced sealing density through proprietary PTFE dispersion.",
+        "Excellent lubrication ensures minimal shaft wear and longer equipment life.",
+        "Superior mechanical strength compared to natural and vegetable fiber packings.",
+        "Safe for use in clean water systems and mild chemical environments.",
+        "Economical design suitable for general-purpose industrial sealing.",
+        "Maintains performance across a wide temperature range up to 260°C."
+      ],
+      "applications": [],
+      "images": [
+        "/FZC Inmarco Product Shoot/OR 125 SR/OR 125 SR_1.png",
+        "/FZC Inmarco Product Shoot/OR 125 SR/OR 125 SR_2.png",
+        "/FZC Inmarco Product Shoot/OR 125 SR/OR 125 SR_3.png"
+      ],
+      "gallery": [],
+      "datasheet": "",
+      "specifications": {
+        "pH": "4-10",
+        "sizeRange": {
+          "value": "3 to 35",
+          "unit": "sq mm"
+        },
+        "pressure": {
+          "value": "150",
+          "unit": "bar"
+        }
+      },
+      "image": "/FZC Inmarco Product Shoot/OR 125 SR/OR 125 SR_1.png"
+    },
+    {
+      "id": "or-125g",
+      "name": "OR 125G",
+      "category": "Compression Packings",
+      "subcategory": "Organic",
+      "description": "STYLE OR 125G is a premium grade economical packing braided from extremely strong acrylic fiber and further impregnated with graphite based intherm dispersion which is for better heat dissipation.",
+      "features": [],
+      "advantages": [
+        "Proprietary inflon/intherm dispersion enhances the density and sealing ability.",
+        "Safe and stays under clean water application.",
+        "Comparatively better mechanical strength as against natural and vegetable fibers.",
+        "Excellent lubrication leading to minimal shaft wear.",
+        "An economical choice for fluid handling equipment.",
+        "Intherm dispersion enhances the thermal conductivity of the packing."
+      ],
+      "applications": [
+        "Pumps, Reactors, Agitators, Mixtures, etc."
+      ],
+      "images": [
+        "/FZC Inmarco Product Shoot/OR 125 SR/OR 125 SR_1.png",
+        "/FZC Inmarco Product Shoot/OR 125 SR/OR 125 SR_2.png",
+        "/FZC Inmarco Product Shoot/OR 125 SR/OR 125 SR_3.png"
+      ],
+      "gallery": [],
+      "datasheet": "",
+      "specifications": {
+        "pH": "4-10",
+        "sizeRange": {
+          "value": "3 to 35",
+          "unit": "sq mm"
+        },
+        "pressure": {
+          "value": "50",
+          "unit": "bar"
+        },
+        "velocity": {
+          "value": "7",
+          "unit": "m/s"
+        }
+      },
+      "image": "/FZC Inmarco Product Shoot/OR 125 SR/OR 125 SR_1.png"
+    },
+    {
+      "id": "or-125sr",
+      "name": "OR 125SR",
+      "category": "Compression Packings",
+      "subcategory": "Organic",
+      "description": "OR 125SR is a high-performance packing solution designed for industrial sealing applications. It features a silicon rubber core that enhances elasticity, compression recovery, and sealing adaptability under dynamic conditions. Braided from high-strength acrylic fibers and treated with proprietary PTFE based dispersion, it ensures excellent chemical resistance and mechanical integrity.\n\nThe advanced composition minimizes shaft wear, improves sealing density, and reduces leakage under pressure. OR 125 SR performs reliably across a wide temperature range. It is ideal for clean water systems, mild chemical environments, and general-purpose industrial use.",
+      "features": [
+        "The integrated silicon rubber core enhances the packing's ability to recover after compression, ensuring a tight seal even under fluctuating pressure and dynamic conditions.",
+        "Impregnated with proprietary PTFE dispersion, OR 125 SR resists a wide range of chemicals, making it suitable for aggressive media and extending service life.",
+        "The outer structure is braided from durable acrylic fibers, offering superior tensile strength and mechanical integrity compared to traditional fiber-based packings.",
+        "PTFE treatment provides smooth lubrication, reducing friction and minimizing shaft wear, which helps in maintaining equipment efficiency and longevity.",
+        "The combination of PTFE and silicon rubber increases packing density, improving sealing performance and reducing leakage under high pressure.",
+        "Designed for hygienic applications, it minimizes contamination and is safe for use in clean water systems and mild chemical processes."
+      ],
+      "advantages": [
+        "Enhanced sealing density through hollow elastomar core & proprietary PTFE dispersion.",
+        "Excellent lubrication ensures minimal shaft wear and longer equipment life.",
+        "Superior mechanical strength compared to natural and vegetable fiber packings.",
+        "Safe for use in clean water systems and mild chemical environments.",
+        "Economical design suitable for general-purpose industrial sealing.",
+        "Maintains performance across a wide temperature range up to 260°C."
+      ],
+      "applications": [],
+      "images": [
+        "/FZC Inmarco Product Shoot/OR 125 SR/OR 125 SR_1.png",
+        "/FZC Inmarco Product Shoot/OR 125 SR/OR 125 SR_2.png",
+        "/FZC Inmarco Product Shoot/OR 125 SR/OR 125 SR_3.png"
+      ],
+      "gallery": [],
+      "datasheet": "",
+      "specifications": {
+        "pH": "4-10",
+        "sizeRange": {
+          "value": "3 to 35",
+          "unit": "sq mm"
+        },
+        "pressure": {
+          "value": "150",
+          "unit": "bar"
+        }
+      },
+      "image": "/FZC Inmarco Product Shoot/OR 125 SR/OR 125 SR_1.png"
+    },
+    {
+      "id": "pe-102",
+      "name": "PE 102",
+      "category": "Compression Packings",
+      "subcategory": "PTFE",
+      "description": "PE 102 is an inter-braided packing made from expanded PTFE and graphite fiber. This molecular blend offers excellent chemical resistance, reduced friction, and enhanced heat conduction. It ensures superior sealing performance compared to conventional PTFE graphite packings.\n\nThe packing uses K-fibre from WL Gore Inc., with graphite blended during polymerisation for structural integrity. This prevents disintegration, maintains lubrication, and supports long-term use. Ideal for pumps without cooling water, it delivers unmatched reliability and efficiency.",
+      "features": [
+        "With a unique PTFE and graphite blend, it withstands a wide range of corrosive media including acids, alkalis, and organic chemicals.",
+        "Graphite integration improves heat dissipation, allowing equipment to run cooler and more efficiently under high temperatures.",
+        "The packing minimizes friction against shafts and sleeves, reducing wear and extending equipment life.",
+        "Exhibits low thermal expansion, maintaining consistent sealing performance even in fluctuating temperature conditions.",
+        "Prevents static charge build-up, making it safe for use in sensitive chemical and hydrocarbon environments.",
+        "Graphite is molecularly bonded during polymerisation, ensuring continuous lubrication and preventing hardening over time.",
+        "Flexible and easy to cut, it simplifies fitting and maintenance, reducing downtime and labor costs."
+      ],
+      "advantages": [],
+      "applications": [
+        "Exceptional resistance to a wide range of chemicals including acids, alkali, and hydrocarbons.",
+        "High thermal conductivity ensures cooler operation and reduced friction in dynamic equipment.",
+        "Suitable for pumps, valves, reactors, and agitators across various industrial applications.",
+        "Low thermal expansion maintains sealing integrity under fluctuating temperatures.",
+        "No static charge build-up, making it safe for sensitive chemical environments.",
+        "Graphite bonded during polymerization ensures long-term lubrication and prevents hardening."
+      ],
+      "images": [
+        "/FZC Inmarco Product Shoot/PE 102/PE 102 - 54 (22).JPG",
+        "/FZC Inmarco Product Shoot/PE 102/PE 102 - 54 (22)_04.JPG",
+        "/FZC Inmarco Product Shoot/PE 102/PE 102 - 54 (22)_05.JPG",
+        "/FZC Inmarco Product Shoot/PE 102/PE 102 - 54 (22)_10.JPG",
+        "/FZC Inmarco Product Shoot/PE 102/PE 102 - 54 (22)_17.JPG",
+        "/FZC Inmarco Product Shoot/PE 102/PE 102-22_04.JPG",
+        "/FZC Inmarco Product Shoot/PE 102/PE 102-22_09.JPG",
+        "/FZC Inmarco Product Shoot/PE 102/PE 102-22_11.JPG",
+        "/FZC Inmarco Product Shoot/PE 102/PE 102-22_14.JPG",
+        "/FZC Inmarco Product Shoot/PE 102/PE 102_1.JPG",
+        "/FZC Inmarco Product Shoot/PE 102/PE 102_2.JPG",
+        "/FZC Inmarco Product Shoot/PE 102/PE 102_3.png"
+      ],
+      "gallery": [],
+      "datasheet": "",
+      "specifications": {
+        "temperature": {
+          "value": "-240 to +300",
+          "unit": "°C"
+        },
+        "pH": "0-14",
+        "sizeRange": {
+          "value": "3 to 35",
+          "unit": "sq mm"
+        },
+        "pressure": {
+          "value": "300",
+          "unit": "bar"
+        }
+      },
+      "image": "/FZC Inmarco Product Shoot/PE 102/PE 102 - 54 (22).JPG"
+    },
+    {
+      "id": "pe-104",
+      "name": "PE 104",
+      "category": "Compression Packings",
+      "subcategory": "PTFE",
+      "description": "PE 104 is a high-performance packing made from virgin PTFE fiber yarn, interlock braided with proprietary lubricant and PTFE dispersion. Its non-toxic and chemically inert nature ensures purity and safety of fluid media. The construction offers excellent dimensional stability and resists disintegration during use.\n\nIt is designed for reliable, leak-free performance in both dynamic and static conditions. The packing maintains its integrity under demanding operational parameters, helping reduce maintenance and downtime. Style PE 104 delivers consistent sealing efficiency and long service life.",
+      "features": [
+        "Made from high-quality virgin PTFE fiber yarn, ensuring excellent chemical resistance and purity in sealing applications.",
+        "The interlock braided structure enhances mechanical strength and prevents unraveling, even under high stress.",
+        "Incorporates a special lubricant and PTFE dispersion within the molecular structure, reducing friction and wear during operation.",
+        "Maintains shape and integrity under varying pressures and temperatures, suitable for both dynamic and static conditions.",
+        "Safe for use in sensitive environments, as it does not contaminate the media and remains chemically inert.",
+        "Designed for extended service life with minimal maintenance, reducing downtime and operational costs.",
+        "Withstands mechanical stress and chemical exposure without breaking down, even in demanding environments."
+      ],
+      "advantages": [
+        "Exceptional dimensional stability for consistent sealing under varying conditions.",
+        "Resists disintegration during operation, ensuring long-term reliability.",
+        "Suitable for both dynamic and static sealing applications.",
+        "Non-toxic and inert, ideal for use in clean and sensitive environments.",
+        "Low friction and wear due to proprietary PTFE dispersion and lubricant.",
+        "Designed for extended service life with minimal maintenance requirements."
+      ],
+      "applications": [],
+      "images": [
+        "/FZC Inmarco Product Shoot/PE 104/PE 104_Edited_1.png",
+        "/FZC Inmarco Product Shoot/PE 104/PE 104_Edited_2.png",
+        "/FZC Inmarco Product Shoot/PE 104 C/PE 140 C_5.png",
+        "/FZC Inmarco Product Shoot/PE 104 C/PE 104 C_Edited_1.png",
+        "/FZC Inmarco Product Shoot/PE 104 C/PE 104 C_Edited_2.png",
+        "/FZC Inmarco Product Shoot/PE 104 C/PE 104 C_Edited_3.png"
+      ],
+      "gallery": [],
+      "datasheet": "",
+      "specifications": {
+        "temperature": {
+          "value": "-240 to +260",
+          "unit": "°C"
+        },
+        "pH": "0-14",
+        "sizeRange": {
+          "value": "5 to 50",
+          "unit": "sq mm"
+        },
+        "pressure": {
+          "value": "300",
+          "unit": "bar"
+        }
+      },
+      "image": "/FZC Inmarco Product Shoot/PE 104/PE 104_Edited_1.png"
+    },
+    {
+      "id": "pe-104a",
+      "name": "PE 104A",
+      "category": "Compression Packings",
+      "subcategory": "PTFE",
+      "description": "PE 104A is a high-performance gland packing developed for control valves in demanding industrial environments. It features an aramid yarn core that offers excellent mechanical strength and wear resistance. The outer PTFE jacket ensures smooth operation and chemical compatibility across various media.\n\nEnhanced with fluoro polymer dispersion and corrosion inhibitors, PE 104A delivers long-lasting sealing performance. Its construction allows effective heat dissipation and minimal leakage. Style PE 104A delivers consistent sealing efficiency and long service life.",
+      "features": [
+        "The packing is built around a high-strength aramid yarn core, offering excellent resistance to wear, abrasion, and mechanical stress ideal for dynamic valve operations.",
+        "The outer layer of pure PTFE yarn ensures low-friction sealing and superior chemical compatibility, enabling smooth valve movement and reduced energy loss.",
+        "The packing is treated with advanced fluoropolymer dispersion and corrosion inhibitors, enhancing its durability and resistance to aggressive industrial media.",
+        "A PTFE suspensoid acts as a blocking agent within the packing, effectively sealing micro-paths and minimizing leakage even under fluctuating conditions.",
+        "The packing adapts well to surface imperfections, ensuring a tight seal and reducing the risk of bypass leakage in both static and dynamic applications.",
+        "Designed for user convenience, PE 104A allows quick installation and removal, minimizing downtime during maintenance and improving operational efficiency.",
+        "Suitable for a wide range of fluids including steam, hydrocarbons, acids, alkalis, and solvents, making it a reliable choice across multiple industries."
+      ],
+      "advantages": [
+        "Exceptional dimensional stability for consistent sealing under varying conditions.",
+        "Resists disintegration during operation, ensuring long-term reliability.",
+        "Suitable for both dynamic and static sealing applications.",
+        "Non-toxic and inert, ideal for use in clean and sensitive environments.",
+        "Low friction and wear due to proprietary PTFE dispersion and lubricant.",
+        "Designed for extended service life with minimal maintenance requirements."
+      ],
+      "applications": [],
+      "images": [
+        "/FZC Inmarco Product Shoot/PE 104/PE 104_Edited_1.png",
+        "/FZC Inmarco Product Shoot/PE 104/PE 104_Edited_2.png",
+        "/FZC Inmarco Product Shoot/PE 104 C/PE 140 C_5.png",
+        "/FZC Inmarco Product Shoot/PE 104 C/PE 104 C_Edited_1.png",
+        "/FZC Inmarco Product Shoot/PE 104 C/PE 104 C_Edited_2.png",
+        "/FZC Inmarco Product Shoot/PE 104 C/PE 104 C_Edited_3.png"
+      ],
+      "gallery": [],
+      "datasheet": "",
+      "specifications": {
+        "temperature": {
+          "value": "-240 to +260",
+          "unit": "°C"
+        },
+        "pH": "0-14",
+        "sizeRange": {
+          "value": "5 to 50",
+          "unit": "sq mm"
+        },
+        "pressure": {
+          "value": "300",
+          "unit": "bar"
+        }
+      },
+      "image": "/FZC Inmarco Product Shoot/PE 104/PE 104_Edited_1.png"
+    },
+    {
+      "id": "pe-104c",
+      "name": "PE 104C",
+      "category": "Compression Packings",
+      "subcategory": "PTFE",
+      "description": "104C is a high-performance gland packing designed for control valves operating under extreme industrial conditions. It offers excellent resilience, mechanical strength, and sealing reliability, making it ideal for high-pressure and high-temperature environments.\n\nThe packing features a carbon yarn core treated with fluoropolymer dispersion and corrosion inhibitors, surrounded by a pure PTFE yarn jacket lubricated with PTFE suspensoid. This advanced construction ensures long-lasting performance, chemical resistance, and smooth operation across a wide range of applications.",
+      "features": [
+        "The packing is constructed using a combination of PTFE and carbon yarn, engineered for durability and high performance.",
+        "Its carbon yarn core is reinforced to withstand mechanical stress and thermal fluctuations in control valve operations.",
+        "The outer PTFE jacket provides excellent chemical resistance and ensures smooth, low-friction sealing.",
+        "Treated with a fluoropolymer dispersion and corrosion inhibitor, the packing resists degradation in aggressive media.",
+        "The PTFE suspensoid acts as a blocking agent, enhancing sealing efficiency and reducing leakage.",
+        "Designed for easy installation and removal, minimizing downtime during maintenance.",
+        "Suitable for a wide range of industrial media, including hydrocarbons, steam, acids, alkalis, and solvents.",
+        "The packing conforms well to stuffing box dimensions, adapting to surface irregularities for optimal sealing.",
+        "Its versatile design allows use in both dynamic and static applications, including control and plug valves."
+      ],
+      "advantages": [
+        "Excellent leakage control in frequently operated control valve",
+        "High mechanical and thermal stability",
+        "Very high recovery factor for reliable sealing",
+        "PTFE suspensoid enhances sealing and blocks leakage paths",
+        "Dissipates heat without hardening",
+        "Easy to install and remove during maintenance"
+      ],
+      "applications": [],
+      "images": [
+        "/FZC Inmarco Product Shoot/PE 104/PE 104_Edited_1.png",
+        "/FZC Inmarco Product Shoot/PE 104/PE 104_Edited_2.png",
+        "/FZC Inmarco Product Shoot/PE 104 C/PE 140 C_5.png",
+        "/FZC Inmarco Product Shoot/PE 104 C/PE 104 C_Edited_1.png",
+        "/FZC Inmarco Product Shoot/PE 104 C/PE 104 C_Edited_2.png",
+        "/FZC Inmarco Product Shoot/PE 104 C/PE 104 C_Edited_3.png"
+      ],
+      "gallery": [],
+      "datasheet": "",
+      "specifications": {
+        "temperature": {
+          "value": "-240 to +260",
+          "unit": "°C"
+        },
+        "pH": "0-14",
+        "sizeRange": {
+          "value": "5 to 50",
+          "unit": "sq mm"
+        },
+        "pressure": {
+          "value": "300",
+          "unit": "bar"
+        }
+      },
+      "image": "/FZC Inmarco Product Shoot/PE 104/PE 104_Edited_1.png"
+    },
+    {
+      "id": "pe-504p",
+      "name": "PE 504P",
+      "category": "Compression Packings",
+      "subcategory": "PTFE",
+      "description": "The PE 504P is crafted from Premium grade expanded PTFE with graphite, molecularly bonded for enhanced performance. It delivers exceptional chemical resistance, outstanding heat dissipation, and high resilience, ensuring a longer service life. Its anti-friction properties also help prevent wear and erosion on shafts and sleeves.\n\nThe packing maintains dimensional stability, needs minimal gland pressure, and operates reliably at high speeds with low leakage. It is compatible with a broad range of industrial media, except for strong oxidizers, molten alkali metals, and fluorine compounds. It is perfectly suited for pumps, valves, reactors, and other high-performance industrial applications.",
+      "features": [
+        "PE 504P is made from a distinctive combination of Premium grade PTFE, Graphite, designed to deliver improved performance.",
+        "The packing is engineered to provide exceptional heat dissipation and chemical resistance in demanding industrial conditions.",
+        "Its friction-reducing design protects rotating machinery from wear and erosion during prolonged use.",
+        "The strong, durable build keeps its shape and ensures secure sealing even during changing conditions.",
+        "Its broad chemical compatibility enables usage across a variety of industrial applications.",
+        "Widely recognized across sectors for its reliable performance and low upkeep demands.",
+        "Commonly deployed in pumps, valves, agitators, and various high-speed rotary systems."
+      ],
+      "advantages": [
+        "Engineered to endure and perform reliably in challenging operational conditions",
+        "Optimized for smooth performance and expanded equipments life through minimal wear.",
+        "Ensures consistent sealing with reduced maintenance needs",
+        "Suited for diverse industrial processes and compatible with various media types.",
+        "Performs reliably under dynamic conditions including high-speed operations",
+        "Facilitates streamlined and secure functioning across multiple process industry sectors."
+      ],
+      "applications": [],
+      "images": [
+        "/FZC Inmarco Product Shoot/PE 504/PE 504.png",
+        "/FZC Inmarco Product Shoot/PE 504/PE 504 - 48(23)_09.JPG",
+        "/FZC Inmarco Product Shoot/PE 504/PE 504_1.png",
+        "/FZC Inmarco Product Shoot/PE 504/PE 504-23_17.JPG",
+        "/FZC Inmarco Product Shoot/PE 504/PE 504-23_14.JPG",
+        "/FZC Inmarco Product Shoot/PE 504/PE 504-23_11.JPG",
+        "/FZC Inmarco Product Shoot/PE 504/PE 504-23_06.JPG",
+        "/FZC Inmarco Product Shoot/PE 504/PE 504 - 48(23)_04.JPG",
+        "/FZC Inmarco Product Shoot/PE 504/PE 504 - 48(23)_10.JPG",
+        "/FZC Inmarco Product Shoot/PE 504/PE 504 - 48(23)_06.JPG"
+      ],
+      "gallery": [],
+      "datasheet": "",
+      "specifications": {
+        "temperature": {
+          "value": "-200 to +300",
+          "unit": "°C"
+        },
+        "pH": "0-14",
+        "sizeRange": {
+          "value": "3 to 35",
+          "unit": "sq mm"
+        },
+        "pressure": {
+          "value": "200",
+          "unit": "bar"
+        },
+        "velocity": {
+          "value": "10",
+          "unit": "m/s"
+        }
+      },
+      "image": "/FZC Inmarco Product Shoot/PE 504/PE 504.png"
+    },
+    {
+      "id": "pe-505",
+      "name": "PE 505",
+      "category": "Compression Packings",
+      "subcategory": "PTFE",
+      "description": "PE 505 is a duplex braided packing made from Expanded PTFE, Graphite, and MoS₂, bonded at the molecular level. It offers high resiliency, excellent chemical resistance, and superior heat dissipation for extended service life. Its anti-frictional nature protects shafts and sleeves from wear and erosion.\n\nThe packing is dimensionally stable, requires minimal gland loading, and performs reliably at high speeds with low leakage. It is compatible with a wide range of industrial media, excluding strong oxidizers, molten alkali metals, and fluorine compounds. Ideal for pumps, valves, reactors, and other demanding industrial applications.",
+      "features": [
+        "PE 505 is crafted from a unique blend of Expanded PTFE, Graphite, and MoS₂ for enhanced performance.",
+        "The packing is designed to offer superior heat dissipation and chemical resistance in challenging industrial environments.",
+        "Its anti-frictional structure helps safeguard rotating equipment from wear and erosion during continuous operation.",
+        "The dense and resilient construction ensures dimensional stability and reliable sealing under dynamic conditions.",
+        "It is compatible with a wide range of industrial media, making it suitable for diverse applications.",
+        "Trusted across industries for its consistent performance and minimal maintenance requirements.",
+        "Widely used in pumps, valves, agitators, and other high-speed rotating equipment.",
+        "Developed to meet the rigorous demands of modern industrial sealing systems."
+      ],
+      "advantages": [
+        "Designed for durability and long-lasting performance in demanding environments",
+        "Offers smooth operation with minimal wear on equipment components",
+        "Ensures consistent sealing with reduced maintenance needs",
+        "Compatible with a wide range of industrial applications and media",
+        "Performs reliably under dynamic conditions including high-speed operations",
+        "Supports efficient and safe operations across various process industries"
+      ],
+      "applications": [],
+      "images": [
+        "/FZC Inmarco Product Shoot/PE 505/PE 505 - 50(14)_05.JPG",
+        "/FZC Inmarco Product Shoot/PE 505/PE 505 - 50(14)_13.JPG",
+        "/FZC Inmarco Product Shoot/PE 505/PE 505 - 50(14)_15.JPG",
+        "/FZC Inmarco Product Shoot/PE 505/PE 505 - 50(14)_18.JPG",
+        "/FZC Inmarco Product Shoot/PE 505/PE 505 - 50(14)_20.JPG",
+        "/FZC Inmarco Product Shoot/PE 505/PE 505_1.png",
+        "/FZC Inmarco Product Shoot/PE 505/PE 505_2.png",
+        "/FZC Inmarco Product Shoot/PE 505/PE 505_3.JPG",
+        "/FZC Inmarco Product Shoot/PE 505/PE 505_3.png",
+        "/FZC Inmarco Product Shoot/PE 505/PE 505_Edited_1.png",
+        "/FZC Inmarco Product Shoot/PE 505/PE 505_Edited_2.png"
+      ],
+      "gallery": [],
+      "datasheet": "",
+      "specifications": {
+        "temperature": {
+          "value": "-200 to +300",
+          "unit": "°C"
+        },
+        "pH": "0-14",
+        "sizeRange": {
+          "value": "3 to 35",
+          "unit": "sq mm"
+        },
+        "pressure": {
+          "value": "200",
+          "unit": "bar"
+        },
+        "velocity": {
+          "value": "10",
+          "unit": "m/s"
+        }
+      },
+      "image": "/FZC Inmarco Product Shoot/PE 505/PE 505 - 50(14)_05.JPG"
+    },
+    {
+      "id": "pe-508",
+      "name": "PE 508",
+      "category": "Compression Packings",
+      "subcategory": "PTFE",
+      "description": "PE 508 is a diagonally braided packing made from pure PTFE filament yarn, integrated with a proprietary break-in lubricant. This combination ensures smooth startup, enhanced pressure resistance, and long-lasting performance. Its non-toxic and inert composition supports safe and stable operation.\n\nThe packing is dimensionally stable, offering consistent sealing performance over extended use. It minimizes maintenance needs and ensures operational reliability, making it ideal for demanding industrial environments where durability and precision are critical.",
+      "features": [
+        "Made from high-quality pure PTFE filament yarn, ensuring excellent chemical resistance and non-reactivity with process media.",
+        "The unique diagonal braid enhances structural integrity, providing uniform sealing pressure and dimensional stability.",
+        "Proprietary lubricant embedded in the yarn allows smooth startup and reduces wear during initial operation.",
+        "Performs reliably across a broad temperature range (-240°C to +290°C) and pH spectrum (0-14), suitable for diverse environments.",
+        "Withstands pressures up to 350 bar, making it ideal for demanding sealing applications in industrial systems.",
+        "Its stable structure minimizes leakage and wear, reducing downtime and maintenance costs over extended use.",
+        "Non-toxic and chemically inert, ensuring safe handling and compatibility with sensitive or hazardous fluids."
+      ],
+      "advantages": [
+        "Exceptional resistance to high pressure and mechanical stress.",
+        "Dimensionally stable design ensures consistent sealing and long service life.",
+        "Integrated break-in lubricant enables smooth startup and reduces initial wear.",
+        "Suitable for both rotary and static sealing applications across industrial equipment.",
+        "Non-toxic and chemically inert for safe and clean operation.",
+        "Low friction and wear characteristics enhance equipment efficiency.",
+        "Designed for reliable performance in demanding industrial environments."
+      ],
+      "applications": [],
+      "images": [
+        "/FZC Inmarco Product Shoot/PE 508/PE 508_3.png",
+        "/FZC Inmarco Product Shoot/PE 508/PE 508_2.png",
+        "/FZC Inmarco Product Shoot/PE 508/PE 508_1.png",
+        "/FZC Inmarco Product Shoot/PE 508/PE 508_4.png"
+      ],
+      "gallery": [],
+      "datasheet": "",
+      "specifications": {
+        "temperature": {
+          "value": "-240 to +290",
+          "unit": "°C"
+        },
+        "pH": "0-14",
+        "sizeRange": {
+          "value": "3 to 35",
+          "unit": "sq mm"
+        },
+        "pressure": {
+          "value": "350",
+          "unit": "bar"
+        }
+      },
+      "image": "/FZC Inmarco Product Shoot/PE 508/PE 508_3.png"
+    },
+    {
+      "id": "pe-509",
+      "name": "PE 509",
+      "category": "Compression Packings",
+      "subcategory": "PTFE",
+      "description": "PE 509 is crafted from 100% pure PTFE, offering excellent chemical resistance and thermal stability. It is designed for general industrial applications where clean, non-toxic, and non-flammable materials are essential. The packing ensures reliable sealing performance with minimal maintenance.\n\nIts square-section design and skin-friendly nature make it ideal for diverse environments. With low dust generation and high durability, Style PE 509 supports safe handling and long service life. It is environmentally safe, recyclable, and suitable for use across a wide range of plant operations.",
+      "features": [
+        "Manufactured using high-purity PTFE, this packing offers outstanding resistance to chemicals and thermal stress, making it ideal for a wide range of industrial applications.",
+        "The material is non-hazardous and gentle on the skin, ensuring safe handling and use in environments where cleanliness and safety are priorities.",
+        "It remains stable under elevated temperatures and does not support combustion, providing reliable performance in heat-intensive operations.",
+        "Designed to minimize dust generation, this packing helps maintain a cleaner workspace and reduces the risk of airborne particles during handling.",
+        "Its inert nature allows it to perform effectively in contact with a broad spectrum of chemicals, making it suitable for diverse sealing needs.",
+        "The product is recyclable and poses no known environmental hazards when used and disposed of properly, supporting sustainable practices.",
+        "With a robust braided structure, it adapts well to various sealing configurations and maintains integrity over extended use."
+      ],
+      "advantages": [
+        "Exceptional resistance to high temperatures and chemically aggressive environments",
+        "Non-toxic, non-flammable, and safe for use in clean and sensitive applications",
+        "Low dust generation ensures a cleaner workspace and safer handling",
+        "Suitable for both static and dynamic sealing applications across various industries",
+        "Stable under thermal stress without releasing hazardous fumes under normal use",
+        "Environmentally safe design with recyclable material composition",
+        "Compatible with a wide range of industrial chemicals and process conditions."
+      ],
+      "applications": [],
+      "images": [
+        "/FZC Inmarco Product Shoot/PE 509/PE 509_1.png",
+        "/FZC Inmarco Product Shoot/PE 509/PE 509_3.png",
+        "/FZC Inmarco Product Shoot/PE 509/PE 509_2.png"
+      ],
+      "gallery": [],
+      "datasheet": "",
+      "specifications": {
+        "temperature": {
+          "value": "-240 to +260",
+          "unit": "°C"
+        },
+        "pH": "0-14",
+        "sizeRange": {
+          "value": "5 to 50",
+          "unit": "sq mm"
+        },
+        "pressure": {
+          "value": "300",
+          "unit": "bar"
+        }
+      },
+      "image": "/FZC Inmarco Product Shoot/PE 509/PE 509_1.png"
+    },
+    {
+      "id": "pa-104a",
+      "name": "PA 104A",
+      "category": "Compression Packings",
+      "subcategory": "Polyimide",
+      "description": "PA 104A is a high-performance gland packing developed for control valves in demanding industrial environments. It features an aramid yarn core that offers excellent mechanical strength and wear resistance. The outer PTFE jacket ensures smooth operation and chemical compatibility across various media.\n\nEnhanced with fluoro polymer dispersion and corrosion inhibitors, PA 104A delivers long-lasting sealing performance. Its construction allows effective heat dissipation and minimal leakage. Style PA 104A delivers consistent sealing efficiency and long service life.",
+      "features": [
+        "The packing is built around a high-strength aramid yarn core, offering excellent resistance to wear, abrasion, and mechanical stress ideal for dynamic valve operations.",
+        "The outer layer of pure PTFE yarn ensures low-friction sealing and superior chemical compatibility, enabling smooth valve movement and reduced energy loss.",
+        "The packing is treated with advanced fluoropolymer dispersion and corrosion inhibitors, enhancing its durability and resistance to aggressive industrial media.",
+        "A PTFE suspensoid acts as a blocking agent within the packing, effectively sealing micro-paths and minimizing leakage even under fluctuating conditions.",
+        "The packing adapts well to surface imperfections, ensuring a tight seal and reducing the risk of bypass leakage in both static and dynamic applications.",
+        "Designed for user convenience, PE 104A allows quick installation and removal, minimizing downtime during maintenance and improving operational efficiency.",
+        "Suitable for a wide range of fluids including steam, hydrocarbons, acids, alkalis, and solvents, making it a reliable choice across multiple industries."
+      ],
+      "advantages": [
+        "Exceptional dimensional stability for consistent sealing under varying conditions.",
+        "Resists disintegration during operation, ensuring long-term reliability.",
+        "Suitable for both dynamic and static sealing applications.",
+        "Non-toxic and inert, ideal for use in clean and sensitive environments.",
+        "Low friction and wear due to proprietary PTFE dispersion and lubricant.",
+        "Designed for extended service life with minimal maintenance requirements."
+      ],
+      "applications": [],
+      "images": [
+        "/FZC Inmarco Product Shoot/PA 106/PA 106_1.png",
+        "/FZC Inmarco Product Shoot/PA 106/PA 106_2.png",
+        "/FZC Inmarco Product Shoot/PA 106/PA 106_3.png"
+      ],
+      "gallery": [],
+      "datasheet": "",
+      "specifications": {
+        "temperature": {
+          "value": "-240 to +260",
+          "unit": "°C"
+        },
+        "pH": "0-14",
+        "sizeRange": {
+          "value": "5 to 50",
+          "unit": "sq mm"
+        },
+        "pressure": {
+          "value": "300",
+          "unit": "bar"
+        }
+      },
+      "image": "/FZC Inmarco Product Shoot/PA 106/PA 106_1.png"
+    },
+    {
+      "id": "pa-106",
+      "name": "PA 106",
+      "category": "Compression Packings",
+      "subcategory": "Polyimide",
+      "description": "PA 106 is a high-performance packing made from abrasion-resistant co-polymer fiber yarn, impregnated with PTFE-based Inflon dispersion. It offers excellent resistance to brine, corrosive media, and acidic reactions, making it ideal for harsh industrial environments.\n\nEnhanced with break-in and run-in lubricants, it ensures low friction, prevents sleeve and shaft erosion, and maintains dimensional stability under high pressure and temperature. This robust design guarantees long service life and reliable sealing in demanding applications.",
+      "features": [
+        "Made from tough co-polymer fiber yarn, ensuring durability and long-lasting performance in abrasive environments.",
+        "PTFE-based impregnation provides excellent resistance to saline water and corrosive chemicals.",
+        "Incorporates break-in and run-in lubricants for smooth installation, reduced friction, and protection against sleeve or shaft wear.",
+        "Maintains shape and integrity even under extreme operating conditions, minimizing deformation risks.",
+        "Suitable for a wide range of aggressive media, including slurries, chemicals, and saline solutions.",
+        "Ideal for pumps, valves, mixers, reactors, and other rotating or reciprocating equipment in challenging environments.",
+        "Combines abrasion resistance, chemical stability, and low-friction design to reduce maintenance and maximize service life."
+      ],
+      "advantages": [
+        "Exceptional resistance to abrasion and brine for reliable performance in harsh environments.",
+        "PTFE-based impregnation ensures superior chemical resistance and low friction operation.",
+        "Dual lubrication system provides smooth break-in and extended operational life.",
+        "Maintains dimensional stability under extreme pressure and temperature conditions.",
+        "Compatible with a wide range of corrosive and slurry-based media.",
+        "Suitable for pumps, valves, mixers, reactors, and other heavy-duty industrial equipment.",
+        "Designed for long service life with reduced maintenance requirements."
+      ],
+      "applications": [],
+      "images": [
+        "/FZC Inmarco Product Shoot/PA 106/PA 106_1.png",
+        "/FZC Inmarco Product Shoot/PA 106/PA 106_2.png",
+        "/FZC Inmarco Product Shoot/PA 106/PA 106_3.png"
+      ],
+      "gallery": [],
+      "datasheet": "",
+      "specifications": {
+        "temperature": {
+          "value": "-200 to +300",
+          "unit": "°C"
+        },
+        "pH": "0-14",
+        "sizeRange": {
+          "value": "6 to 50",
+          "unit": "sq mm"
+        },
+        "pressure": {
+          "value": "500",
+          "unit": "bar"
+        }
+      },
+      "image": "/FZC Inmarco Product Shoot/PA 106/PA 106_1.png"
+    },
+    {
+      "id": "pa-106e",
+      "name": "PA 106E",
+      "category": "Compression Packings",
+      "subcategory": "Polyimide",
+      "description": "PA 106E is a superior packing material designed to resist both abrasion and corrosion. It is crafted from Aramid fiber yarn, which is thoroughly impregnated with a PTFE suspension and incorporates a specialized inert lubricant for initial use.\n\nThis packing features an interlock construction. The combination of the run-in lubricant and PTFE suspension enhances its antifriction properties, thereby preventing wear on sleeves and shafts.",
+      "features": [
+        "The combination of fibrous Aramid and PTFE provides rich lubrication, significantly reducing friction even when sealing abrasive or viscous media, pigments, and molten synthetic formulations.",
+        "The tough fibrous Aramid construction ensures excellent dimensional stability and resistance to deformation under demanding conditions.",
+        "This packing offers outstanding resistance to penetration and fatigue caused by abrasive particles during service, ensuring long-lasting performance.",
+        "The packing material is non-contaminating, making it suitable for applications where purity is crucial.",
+        "Excellent slip properties protect shaft sleeves, reducing wear and extending the lifespan of equipment.",
+        "Additionally, its abrasion resistance ensures longevity, even in demanding industrial settings."
+      ],
+      "advantages": [
+        "Excellent abrasion resistance",
+        "Dense impregnation provides blocking characteristics",
+        "Superior compression and recovery characteristics with out-of-true shafts and spindles",
+        "Excellent extrusion resistance",
+        "Low shaft wear"
+      ],
+      "applications": [],
+      "images": [
+        "/FZC Inmarco Product Shoot/PA 106/PA 106_1.png",
+        "/FZC Inmarco Product Shoot/PA 106/PA 106_2.png",
+        "/FZC Inmarco Product Shoot/PA 106/PA 106_3.png"
+      ],
+      "gallery": [],
+      "datasheet": "",
+      "specifications": {
+        "temperature": {
+          "value": "-200 to +300",
+          "unit": "°C"
+        },
+        "pH": "1-13",
+        "sizeRange": {
+          "value": "6 to 50",
+          "unit": "sq mm"
+        },
+        "pressure": {
+          "value": "350",
+          "unit": "bar"
+        },
+        "velocity": {
+          "value": "25",
+          "unit": "m/s"
+        }
+      },
+      "image": "/FZC Inmarco Product Shoot/PA 106/PA 106_1.png"
+    },
+    {
+      "id": "pa-499",
+      "name": "PA 499",
+      "category": "Compression Packings",
+      "subcategory": "Polyimide",
+      "description": "PA 499 is an advanced synthetic packing tough, soft, flexible with enhanced sliding feature, impregnated with fluoropolymer dispersion. This new generation packing addresses the limitations of earlier synthetic packings, making it suitable for challenging applications combined with abrasion and chemical media. By combining the durability of aramid with the low friction characteristics of material like carbon fiber, it stands out as an excellent choice for diverse applications.\n\nThis innovative packing material offers flexibility, wear resistance, and efficient performance, while preventing abrasion and shaft damage, and is easy to install with minimal adjustments.",
+      "features": [
+        "Offers excellent flexibility and wear resistance, ensuring long-lasting performance.",
+        "Generates less heat during operation, enhancing efficiency and safety.",
+        "Safe for use in various environments without causing corrosion or contamination.",
+        "Resists abrasion effectively without causing sleeve scoring, unlike traditional aramid packing.",
+        "Reduced water consumption: Significantly lowers water consumption, contributing to cost savings and environmental sustainability.",
+        "Prevents shaft scoring, a common issue with many synthetic packings.",
+        "Conforms readily to stuffing box configurations, allowing for easy installation with minimal gland torque and adjustments.",
+        "Protection against galvanic corrosion: Does not cause galvanic corrosion, thereby protecting the sleeve."
+      ],
+      "advantages": [
+        "Excellent abrasion resistance",
+        "Dense impregnation provides blocking characteristics",
+        "Superior compression and recovery characteristics with out-of-true shafts and spindles",
+        "Excellent extrusion resistance",
+        "Low shaft wear"
+      ],
+      "applications": [],
+      "images": [
+        "/FZC Inmarco Product Shoot/PA 499/(12)_02_1.png",
+        "/FZC Inmarco Product Shoot/PA 499/(12)_02_2.png",
+        "/FZC Inmarco Product Shoot/PA 499/(12)_02_3.png",
+        "/FZC Inmarco Product Shoot/PA 499/PA 499_Edited_1.JPG",
+        "/FZC Inmarco Product Shoot/PA 499/PA 499_Edited_2.JPG",
+        "/FZC Inmarco Product Shoot/PA 499/PA 499_Edited_3.JPG",
+        "/FZC Inmarco Product Shoot/PA 499/PA 499_Edited_4.JPG"
+      ],
+      "gallery": [],
+      "datasheet": "",
+      "specifications": {
+        "temperature": {
+          "value": "-150 to +260",
+          "unit": "°C"
+        },
+        "pH": "1-13",
+        "sizeRange": {
+          "value": "5 to 50",
+          "unit": "sq mm"
+        },
+        "pressure": {
+          "value": "150",
+          "unit": "bar"
+        },
+        "velocity": {
+          "value": "15",
+          "unit": "m/s"
+        }
+      },
+      "image": "/FZC Inmarco Product Shoot/PA 499/(12)_02_1.png"
+    },
+    {
+      "id": "insulation-gasket-kit-1800-fs",
+      "name": "Insulation Gasket Kit 1800 FS",
+      "category": "Flange Isolation Gaskets",
+      "subcategory": "Insulation Gasket Kit",
+      "description": "INMARCO Insulation Gasket Kit is a high-integrity sealing and isolation solution developed for critical applications where fire safety, fluid containment, and electrical isolation are essential. Designed for high-pressure environments, especially in offshore and industrial settings, this kit features a metal-reinforced epoxy plate with a double sealing structure that ensures reliable performance even during fire incidents.\n\n**Engineered for Safety, Designed for Isolation - The Ultimate Fire-Safe Gasket Solution**",
+      "features": [],
+      "advantages": [],
+      "applications": [
+        "Critical applications requiring fire safety, fluid containment, and electrical isolation",
+        "High-pressure environments",
+        "Offshore installations",
+        "Industrial settings where fire safety is essential",
+        "Environments requiring prevention of galvanic corrosion between dissimilar metals",
+        "Maintenance-intensive environments"
+      ],
+      "images": [
+        "/FZC Inmarco Product Shoot/Insulation Gasket Kit/IG_1_2.png",
+        "/FZC Inmarco Product Shoot/Insulation Gasket Kit/IG_2_2.png",
+        "/FZC Inmarco Product Shoot/Insulation Gasket Kit/IG_3_2.png"
+      ],
+      "gallery": [],
+      "datasheet": "",
+      "image": "/FZC Inmarco Product Shoot/Insulation Gasket Kit/IG_1_2.png"
+    },
+    {
+      "id": "na-320",
+      "name": "NA 320",
+      "category": "Flange Joint Gaskets",
+      "subcategory": "CNAF",
+      "description": "NA 320 economy CNAF gasket for low-pressure general applications.",
+      "features": [
+        "Cost-effective",
+        "Easy to cut",
+        "Good sealing",
+        "Versatile",
+        "Widely used"
+      ],
+      "advantages": [],
+      "applications": [
+        "Water lines",
+        "Low-pressure steam",
+        "General machinery",
+        "HVAC systems",
+        "Light industrial"
+      ],
+      "images": [],
+      "gallery": [],
+      "datasheet": "",
+      "specifications": {
+        "temperature": {
+          "value": "-100 to +350",
+          "unit": "°C"
+        },
+        "pressure": {
+          "value": "40",
+          "unit": "bar"
+        },
+        "material": "Compressed aramid fiber",
+        "thickness": "0.5mm to 5.0mm",
+        "density": "1.70 g/cm³",
+        "standard": "ASME B16.21"
+      }
+    },
+    {
+      "id": "na-321",
+      "name": "NA 321",
+      "category": "Flange Joint Gaskets",
+      "subcategory": "CNAF",
+      "description": "TYPE SSF 321 sheet is manufactured from plain SS sheet sandwich between two layers of flexible pure graphite sheet. TYPE SSF 321 SS sheet insert graphite gaskets are suitable for metallic, glass, enamel flanges and are designed for trouble free change over which ultimately reduces maintenance cost. They are dimensionally stable under extreme pressure surge. These are also suitable for cryogenic services.",
+      "features": [],
+      "advantages": [
+        "Reinforcement of SS plain sheet increases mechanical strength of the gasket",
+        "Chemical properties of flexible pure graphite remain intact",
+        "Resistant to almost all non-chemicals",
+        "Good compressibility and recovery, hence seals perfectly",
+        "Does not age or creep under hot or cold working conditions"
+      ],
+      "applications": [],
+      "images": [],
+      "gallery": [],
+      "datasheet": ""
+    },
+    {
+      "id": "na-420",
+      "name": "NA 420",
+      "category": "Flange Joint Gaskets",
+      "subcategory": "CNAF",
+      "description": "TYPE NA-420 is a Compressed Non Asbestos filled jointing sheet. It's a high quality CNAF Sheet with Mineral fiber, Aramid fiber & Inorganic fillers with NBR binder.",
+      "features": [],
+      "advantages": [],
+      "applications": [],
+      "images": [],
+      "gallery": [],
+      "datasheet": ""
+    },
+    {
+      "id": "na-430",
+      "name": "NA 430",
+      "category": "Flange Joint Gaskets",
+      "subcategory": "CNAF",
+      "description": "TYPE NA-430 Non Asbestos Compressed fibre reinforced with SS wire mesh, SS304 grade. Calendered on high performance calendaring machine. The composition of the sheet will be high tenacity Aramid Fibre together with organic fibres bonded with (NBR) Nitrile Butadiene Rubber.",
+      "features": [],
+      "advantages": [],
+      "applications": [],
+      "images": [],
+      "gallery": [],
+      "datasheet": ""
+    },
+    {
+      "id": "na-432",
+      "name": "NA 432",
+      "category": "Flange Joint Gaskets",
+      "subcategory": "CNAF",
+      "description": "TYPE NA-432 is a Compressed Non Asbestos filled jointing sheet. Material suitable for general purpose applications with organic fibers bound with (NBR) Nitrile Butadiene Rubber.\n\n**Compliance:** BS 7531 Grade Z",
+      "features": [],
+      "advantages": [],
+      "applications": [],
+      "images": [],
+      "gallery": [],
+      "datasheet": ""
+    },
+    {
+      "id": "na-442",
+      "name": "NA 442",
+      "category": "Flange Joint Gaskets",
+      "subcategory": "CNAF",
+      "description": "TYPE NA-442 Compressed Non Asbestos Carbon filled gasket sheet with (NBR) Nitrile Butadiene Rubber as binder. The carbon fibers enhance the performance of sheet material for high temperature and high pressure.\n\n**Compliance:** BS 7531 Grade Y",
+      "features": [],
+      "advantages": [],
+      "applications": [],
+      "images": [],
+      "gallery": [],
+      "datasheet": ""
+    },
+    {
+      "id": "na-450",
+      "name": "NA 450",
+      "category": "Flange Joint Gaskets",
+      "subcategory": "CNAF",
+      "description": "TYPE NA-450 is a Compressed Non Asbestos filled jointing sheet. It's a high quality CNAF Sheet with Aramid fiber bound with (NBR) Nitrile Butadiene Rubber and Mineral fiber.\n\n**Compliance:** BS 7531 Grade Y",
+      "features": [],
+      "advantages": [],
+      "applications": [],
+      "images": [],
+      "gallery": [],
+      "datasheet": ""
+    },
+    {
+      "id": "na-452-ge",
+      "name": "NA 452 GE",
+      "category": "Flange Joint Gaskets",
+      "subcategory": "CNAF",
+      "description": "TYPE NA-452 GE is a Compressed Non Asbestos filled jointing sheet. It's a high quality CNAF Sheet with Aramid fiber and Glass fiber bound with (NBR) Nitrile Butadiene Rubber.\n\n**Compliance:** BS 7531 Grade X",
+      "features": [],
+      "advantages": [],
+      "applications": [],
+      "images": [],
+      "gallery": [],
+      "datasheet": ""
+    },
+    {
+      "id": "sst-323",
+      "name": "SST 323",
+      "category": "Flange Joint Gaskets",
+      "subcategory": "CNAF",
+      "description": "TYPE SST 323 Flexible pure Graphite Tanged Gasket Sheet is manufactured from perforated tanged SS sheet sandwich between two layers of flexible pure graphite sheet. The whole process of manufacturing flexible pure graphite tanged gasket sheet is mechanical without incorporation of any additives on bonding materials. TYPE SST 323 the flexible pure graphite sheet is having 99% to 99.9%. These are extremely suitable for high temperature and high pressure application. These gaskets are highly resilient and as such easily adopts to irregularities of flange or surface to make perfect seal. SS tanged gaskets are suitable for metallic, glass, enamel flanges and are designed for trouble free change over which ultimately reduces maintenance cost. They are dimensionally stable under extreme pressure surge. These are also suitable for cryogenic services.",
+      "features": [],
+      "advantages": [
+        "Reinforcement of SS tanged sheet increases mechanical strength of the gasket",
+        "Chemical properties of flexible pure graphite remain intact",
+        "Resistant to almost all non-chemicals",
+        "Good compressibility and recovery, hence seals perfectly",
+        "Does not age or creep under hot or cold working conditions"
+      ],
+      "applications": [],
+      "images": [],
+      "gallery": [],
+      "datasheet": ""
+    },
+    {
+      "id": "inmatex-eptfe-sheet-gasket",
+      "name": "INMATEX EPTFE SHEET/GASKET",
+      "category": "Flange Joint Gaskets",
+      "subcategory": "Expanded PTFE",
+      "description": "INMATEX EXPANDED PTFE (ePTFE) SHEET / GASKET WITH EXCEPTIONAL MALLEABILITY FOR EXTREME OPERATING CONDITION. With exceptionally uniform density and highly fibrillated micro structure (no unexpanded nodes), INMATEX multi-directional expanded PTFE (ePTFE) sheet/gasket has excellent resistance to pressure, creep relaxation, cold flow. It is made of 100% virgin PTFE. It is extremely soft but tough and highly compressible. It is non-staining and non-contaminating and one of the highest resistance to aggressive media, best in-class reliability as to seal flange joints and piping equipments.",
+      "features": [],
+      "advantages": [],
+      "applications": [],
+      "images": [],
+      "gallery": [],
+      "datasheet": ""
+    },
+    {
+      "id": "gfo-441",
+      "name": "GFO 441",
+      "category": "Flange Joint Gaskets",
+      "subcategory": "Graphite",
+      "description": "GFO 441 is a premium flexible graphite sheet gasket offering exceptional thermal stability and chemical resistance.",
+      "features": [
+        "Excellent high-temperature performance",
+        "Superior chemical resistance",
+        "Self-sealing properties",
+        "Low stress requirement",
+        "Oxidation resistant"
+      ],
+      "advantages": [],
+      "applications": [
+        "High-temperature steam",
+        "Refinery equipment",
+        "Chemical processing",
+        "Power generation",
+        "Exhaust systems"
+      ],
+      "images": [],
+      "gallery": [],
+      "datasheet": "",
+      "specifications": {
+        "temperature": {
+          "value": "-240 to +650",
+          "unit": "°C"
+        },
+        "pressure": {
+          "value": "250",
+          "unit": "bar"
+        },
+        "material": "Flexible graphite (99.8% carbon)",
+        "thickness": "0.5mm to 5.0mm",
+        "density": "1.0-1.3 g/cm³",
+        "carbonContent": ">99.8%"
+      }
+    },
+    {
+      "id": "na-320",
+      "name": "NA 320",
+      "category": "Flange Joint Gaskets",
+      "subcategory": "Graphite",
+      "description": "TYPE FG 320 is manufactured from exfoliated graphite. During the initial process of exfoliation of graphite, acid treatment is done but 100% of acids are washed out by the DM water. After this, the whole process of manufacturing flexible graphite gasket sheet is mechanical, without incorporation of any additives, oils or bonding material. TYPE FG 320 flexible pure graphite sheet is having carbon content 99% to 99.9%. These are extremely suitable for high temperature and high pressure application. These gaskets are highly resilient and as such easily adopts to irregularities of flange or surface to make perfect seal. Inmarco flexible pure graphite gaskets are suitable for metallic, glass, enamel flanges and are designed for trouble free change over which ultimately reduces maintenance cost. They are dimensionally stable under extreme pressure surge. These are also suitable for cryogenic services.",
+      "features": [],
+      "advantages": [],
+      "applications": [],
+      "images": [],
+      "gallery": [],
+      "datasheet": ""
+    },
+    {
+      "id": "600-sintered-ptfe-sheet",
+      "name": "600 Sintered PTFE Sheet",
+      "category": "Flange Joint Gaskets",
+      "subcategory": "PTFE",
+      "description": "TYPE 600 is a pure form of PTFE available in various types such as skived sheets, moulded sheets, rods, tubes, rings and custom moulded components. 100% virgin PTFE has excellent inertness to most chemicals. PTFE is not inflammable and highly stable at normal operating temperature of 250°C. It has low friction and high release properties. Easy to machine cut or mould. It has good electrical insulation properties.",
+      "features": [],
+      "advantages": [],
+      "applications": [],
+      "images": [],
+      "gallery": [],
+      "datasheet": ""
+    },
+    {
+      "id": "gm-300z",
+      "name": "GM 300Z",
+      "category": "Graphite Moulded Products",
+      "subcategory": "Grafoil Moulded Ring",
+      "description": "GM 300Z is a high-efficiency, ultra-low oxidation, graphite-molded rings for valve stem and seat sealing. Each ring is made from flexible graphite foil with high purity (≥99.85%) and low detrimental material content. These rings have oxidation inhibitors and advanced corrosion-resistant properties, meeting stringent nuclear industry specifications. They are precisely sized, density-controlled, and free from binders, elastomers, or any fillers.\n\nIt is specifically designed for demanding valve operating conditions in the nuclear sector and high temperature application where high graphite purity and low sulfur content are essential.",
+      "features": [],
+      "advantages": [],
+      "applications": [
+        "Suitable for all types of valves that handle high-temperature steam, heat transfer media, hydrocarbon and a wide range of other nuclear power generation liquids and gases",
+        "Nuclear sector applications with demanding valve operating conditions",
+        "High temperature applications where high graphite purity and low sulfur content are essential",
+        "Fire-rated applications"
+      ],
+      "images": [],
+      "gallery": [],
+      "datasheet": "",
+      "specifications": {
+        "pH": "0-14",
+        "pressure": {
+          "value": "250",
+          "unit": "bar"
+        }
+      }
+    },
+    {
+      "id": "gm-310c",
+      "name": "GM 310C",
+      "category": "Graphite Moulded Products",
+      "subcategory": "Pressure Seal Gasket",
+      "description": "GM 310C is graphite pressure seal rings are made from very high purity graphite ribbon without any additives and are used in pressure seal valves. SS/Inconel end caps on top and bottom ensure extrusion resistance. This comes in varied construction ranging from rectangular, angular (u-shape, I-shape) construction to meet various industrial needs.\n\nThe unique design ensures extreme extrusion resistance without compromising sealing performance. Low detrimental material content enables virtually no decomposition even at high temperature. The gasket exhibits extremely low oxidation at elevated temperature.",
+      "features": [],
+      "advantages": [],
+      "applications": [
+        "All non-oxidizing liquids and gases, super heated and saturated steam, hot dry ash, flue gases, dyes and chemicals, emissive fluids, fuel oil and lube oil, thermal fluid, hydrocarbons etc.\n\n**Specific Applications:** Pressure seal valves"
+      ],
+      "images": [],
+      "gallery": [],
+      "datasheet": "",
+      "specifications": {
+        "pH": "0-14",
+        "pressure": {
+          "value": "425",
+          "unit": "bar"
+        }
+      }
+    },
+    {
+      "id": "in-123",
+      "name": "IN 123",
+      "category": "Thermal Insulation",
+      "subcategory": "Ceramic",
+      "description": "IN 123 is a ceramic fibre packing rope made from alumina and silica-based refractory oxides. It delivers excellent thermal and electrical insulation, ideal for static applications in high-temperature environments. The product is engineered to withstand harsh industrial conditions with consistent reliability.\n\nIt is non-toxic, non-combustible, and environmentally safe, ensuring a secure working atmosphere. Continuous R&D has enhanced its insulation efficiency and minimized loss on ignition. Widely used across industries like power, steel, aluminium, and cement, it supports critical sealing and insulation needs.",
+      "features": [
+        "Made from refractory oxides like alumina and silica, it withstands extreme temperatures up to 1260°C, making it ideal for high-heat industrial environments.",
+        "Offers superior thermal and electrical insulation, helping maintain safe operating conditions and reducing energy loss.",
+        "Specifically engineered for static sealing applications, ensuring stable performance without wear from dynamic movement.",
+        "The material is non-toxic, non-hazardous, and environmentally friendly, promoting a safer workplace for personnel.",
+        "Its non-combustible nature and electrical non-conductivity enhance fire safety and operational reliability.",
+        "Maintains mechanical integrity and insulation efficiency even under prolonged exposure to high temperatures and industrial stress.",
+        "Developed through continuous research to reduce loss on ignition and improve insulation, ensuring consistent and enhanced performance."
+      ],
+      "advantages": [
+        "Exceptional high temperature resistance up to 1260°C.",
+        "Low ignition loss ensures long-term insulation performance.",
+        "Suitable for static sealing in high-temperature industrial environments.",
+        "Electrically non-conductive and non-combustible for enhanced safety.",
+        "Non-toxic and environmentally friendly for safe workplace conditions.",
+        "Suitable for varied chemical exposure.",
+        "Proven reliability in applications like furnace doors, coke ovens, and boiler seals."
+      ],
+      "applications": [],
+      "images": [
+        "/FZC Inmarco Product Shoot/IN 123/IN 123 - 45 _29_2.png",
+        "/FZC Inmarco Product Shoot/IN 123/IN 123_1_2.png",
+        "/FZC Inmarco Product Shoot/IN 123/IN 123_2_2.png"
+      ],
+      "gallery": [],
+      "datasheet": "",
+      "specifications": {
+        "pH": "2-12",
+        "sizeRange": {
+          "value": "3 to 50",
+          "unit": "sq mm"
+        }
+      },
+      "image": "/FZC Inmarco Product Shoot/IN 123/IN 123 - 45 _29_2.png"
+    },
+    {
+      "id": "in-123i",
+      "name": "IN 123I",
+      "category": "Thermal Insulation",
+      "subcategory": "Ceramic",
+      "description": "IN 123I is a ceramic fibre packing rope made from alumina and silica-based refractory oxides with Inconel wire reinforcement. It delivers excellent thermal and electrical insulation, ideal for static applications in high-temperature environments. The product is engineered to withstand harsh industrial conditions with consistent reliability.\n\nIt is non-toxic, non-combustible, and environmentally safe, ensuring a secure working atmosphere. Continuous R&D has enhanced its insulation efficiency and minimized loss on ignition. Widely used across industries like power, steel, aluminium, and cement, it supports critical sealing and insulation needs.",
+      "features": [
+        "Made from refractory oxides like alumina and silica, it withstands extreme temperatures up to 1260°C, making it ideal for high-heat industrial environments.",
+        "Offers superior thermal and electrical insulation, helping maintain safe operating conditions and reducing energy loss.",
+        "Specifically engineered for static sealing applications, ensuring stable performance without wear from dynamic movement.",
+        "The material is non-toxic, non-hazardous, and environmentally friendly, promoting a safer workplace for personnel.",
+        "Its non-combustible nature and electrical non-conductivity enhance fire safety and operational reliability.",
+        "Maintains mechanical integrity and insulation efficiency even under prolonged exposure to high temperatures and industrial stress.",
+        "Developed through continuous research to reduce loss on ignition and improve insulation, ensuring consistent and enhanced performance."
+      ],
+      "advantages": [
+        "Exceptional high temperature resistance up to 1260°C.",
+        "Low ignition loss ensures long-term insulation performance.",
+        "Suitable for static sealing in high-temperature industrial environments.",
+        "Electrically non-conductive and non-combustible for enhanced safety.",
+        "Non-toxic and environmentally friendly for safe workplace conditions.",
+        "Suitable for varied chemical exposure.",
+        "Proven reliability in applications like furnace doors, coke ovens, and boiler seals."
+      ],
+      "applications": [],
+      "images": [
+        "/FZC Inmarco Product Shoot/IN 123/IN 123 - 45 _29.JPG",
+        "/FZC Inmarco Product Shoot/IN 123/IN 123_1.png",
+        "/FZC Inmarco Product Shoot/IN 123/IN 123_2.png"
+      ],
+      "gallery": [],
+      "datasheet": "",
+      "specifications": {
+        "temperature": {
+          "value": "-240 to +260",
+          "unit": "°C"
+        },
+        "pH": "0-14",
+        "sizeRange": {
+          "value": "5 to 50",
+          "unit": "sq mm"
+        },
+        "pressure": {
+          "value": "300",
+          "unit": "bar"
+        }
+      },
+      "image": "/FZC Inmarco Product Shoot/IN 123/IN 123 - 45 _29.JPG"
+    },
+    {
+      "id": "124-fiberglass-braided-packing",
+      "name": "124 - Fiberglass Braided Packing",
+      "category": "Thermal Insulation",
+      "subcategory": "E-Glass",
+      "description": "STYLE 124 Fiberglass braided rope is made from premium texturized electrical and chemical resistant special Fiberglass in cover on cover braid.\n\nSTYLE 124 is of high tenacity and is meant for static sealing in dry condition. Can also be used in dynamic condition while treated with special dispersion based on graphite, Vermiculite or PTFE. This also available with SS wire/Inconnel wire reinforced to resist higher pressure and static load.",
+      "features": [],
+      "advantages": [],
+      "applications": [
+        "Furnace doors.",
+        "Fill glass flange and kiln cover.",
+        "Chemical glass flanges in exhaust and chimneys.",
+        "Equipment handling, highly corrosive, alcohol and solvents except HFHCL and hot phosphoric acid."
+      ],
+      "images": [],
+      "gallery": [],
+      "datasheet": ""
+    },
+    {
+      "id": "750-ss-special-silica-fabric-welding-blanket",
+      "name": "750 SS - Special Silica Fabric / Welding Blanket",
+      "category": "Thermal Insulation",
+      "subcategory": "Welding Blanket",
+      "description": "STYLE 750 SS is a heavy duty fabric woven by high SiO2 content yarn with specially formulated Acid treatment. This Silica cloth is suitable for continuous use at 2000 °F (1100 °C), and able to withstand short term exposure 2550 °F (1400 °C). Additional Polyurethane coating or Vermiculite coating will enhance the fabrics unmatched abrasion resistance and tensile strength.\n\nSTYLE 750 SS is ideal for heat preservation material, firefighting equipment like Fire curtains, Welding Blankets & Fireproof garments. Very good in dust collection and filtration equipment where special material is needed to withstand high temperature gas, and in filtering high temperature liquid metal.\n\nSTYLE 750 SS is ideal to make preformed Fire & Welding Blankets all side stitched with Fiber Glass Tape having Brass Eyelets at 1 Mtr distance.",
+      "features": [],
+      "advantages": [],
+      "applications": [
+        "Style 750 SS Silica fabrics withstand Welding Spark, Cutting Spatter, Molten Metal etc.",
+        "Style 750 SS Silica fabrics are used as high temperature insulation.",
+        "Applications include molten metal splash, valve covers & curtain materials.",
+        "Thermal protection for different branches of technique, namely for Refractorywoundings, Gaskets, blankets.",
+        "Excessive heat for manufacture of filters used for cleaning of the corrosive medium.",
+        "Style 750 SS Silica fabric is Electrically and Thermally insulating."
+      ],
+      "images": [],
+      "gallery": [],
+      "datasheet": "",
+      "specifications": {
+        "weave": "Satin 8HS / 12HS",
+        "siO2Content": "≥ 96%",
+        "linearShrinkage(1000°C30Min)": "< 7.10% Max.",
+        "areaShrinkage(1000°C30Min)": "< 13% Max.",
+        "weight": "1150 g/m² (for 1.4 mm Thk)",
+        "tensileStrength(Wrap)": "≥ 800 (N/Inch) / 1100 (N/Inch)",
+        "tensileStrength(Weft)": "≥ 600 (N/Inch) / 900 (N/Inch)",
+        "threadCount(Wrap)": "20 per cm",
+        "threadCount(Weft)": "15 per cm",
+        "color": "White / Golden",
+        "size": "Thk 0.7 mm & 1.4 mm"
+      }
+    }
+  ]
+}
