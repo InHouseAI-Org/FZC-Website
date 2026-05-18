@@ -151,9 +151,8 @@ export default function ProductDetail() {
                 </Link>
                 {product.datasheet && (
                   <a
-                    href={product.datasheet}
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    href={`/api/datasheet-pdf?path=${encodeURIComponent(product.datasheet)}`}
+                    download
                     className="inline-flex items-center space-x-2 px-6 py-3 bg-transparent border-2 border-[#e31e24] text-[#e31e24] rounded-lg hover:bg-[#e31e24] hover:text-white transition-colors duration-300 font-medium"
                   >
                     <Download className="w-4 h-4" />
