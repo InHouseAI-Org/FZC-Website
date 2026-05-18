@@ -57,3 +57,6 @@ Thumbs.db
 # Large video files
 *.mp4
 public/FZC Inmarco Product Shoot/Videos/
+
+# Project-specific folders
+Products/
