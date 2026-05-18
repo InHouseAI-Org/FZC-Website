@@ -339,6 +339,7 @@ export function ProductCategories() {
                         loop
                         muted
                         playsInline
+                        preload="none"
                         onEnded={(e) => {
                           const video = e.target as HTMLVideoElement;
                           video.currentTime = 0;

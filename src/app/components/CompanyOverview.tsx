@@ -2,6 +2,7 @@
 
 import { motion } from 'motion/react';
 import { Award, Shield, Gauge, FileCheck } from 'lucide-react';
+import { LazyVideo } from './figma/LazyVideo';
 
 export function CompanyOverview() {
   const expertise = [
@@ -60,15 +61,14 @@ export function CompanyOverview() {
 
       {/* Background Video with Gradient Overlay */}
       <div className="absolute inset-0">
-        <video
+        <LazyVideo
+          src="/FZC Inmarco Product Shoot/GB2.webm"
           autoPlay
           loop
           muted
           playsInline
           className="w-full h-full object-cover"
-        >
-          <source src="/FZC Inmarco Product Shoot/GB2.webm" type="video/webm" />
-        </video>
+        />
         <div className="absolute inset-0 bg-gradient-to-r from-[#2b2a29]/10 via-[#2b2a29]/20 to-[#2b2a29]/30"></div>
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#2b2a29]/20 to-[#2b2a29]/75"></div>
       </div>
