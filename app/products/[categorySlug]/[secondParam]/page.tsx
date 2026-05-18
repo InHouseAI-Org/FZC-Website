@@ -8,8 +8,8 @@ export async function generateMetadata({
   params: Promise<{ categorySlug: string; secondParam: string }>;
 }): Promise<Metadata> {
   const { categorySlug, secondParam } = await params;
-  const category = productsData.categories.find((cat: any) => String(cat.id) === categorySlug);
-  const subcategory = (productsData as any).subcategories?.find((sub: any) => String(sub.id) === secondParam);
+  const category = productsData.categories.find((cat: any) => cat.slug === categorySlug);
+  const subcategory = (productsData as any).subcategories?.find((sub: any) => sub.slug === secondParam);
 
   if (!category || !subcategory) {
     return {
@@ -32,7 +32,7 @@ export async function generateMetadata({
     openGraph: {
       title: `${subcategory.name} | ${category.name} | Inmarco`,
       description: subcategoryDescription,
-      url: `https://www.inmarco.com/products/${categorySlug}/${secondParam}`,
+      url: `https://www.inmarco.com/products/${category.slug}/${subcategory.slug}`,
       type: 'website',
     },
     twitter: {
@@ -41,7 +41,7 @@ export async function generateMetadata({
       description: subcategoryDescription,
     },
     alternates: {
-      canonical: `https://www.inmarco.com/products/${categorySlug}/${secondParam}`,
+      canonical: `https://www.inmarco.com/products/${category.slug}/${subcategory.slug}`,
     },
   };
 }
@@ -53,10 +53,10 @@ export async function generateStaticParams() {
   subcategories.forEach((subcategory: any) => {
     const category = productsData.categories.find((cat: any) => cat.id === subcategory.categoryId);
 
-    if (category && subcategory.id) {
+    if (category && subcategory.slug) {
       params.push({
-        categorySlug: String(category.id),
-        secondParam: String(subcategory.id),
+        categorySlug: category.slug,
+        secondParam: subcategory.slug,
       });
     }
   });

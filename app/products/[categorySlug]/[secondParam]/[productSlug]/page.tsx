@@ -8,7 +8,8 @@ export async function generateMetadata({
   params: Promise<{ categorySlug: string; secondParam: string; productSlug: string }>;
 }): Promise<Metadata> {
   const { categorySlug, secondParam, productSlug } = await params;
-  const category = productsData.categories.find((cat: any) => String(cat.id) === categorySlug);
+  const category = productsData.categories.find((cat: any) => cat.slug === categorySlug);
+  const subcategory = (productsData as any).subcategories?.find((sub: any) => sub.slug === secondParam);
   const product = (productsData as any).products?.find((prod: any) => prod.slug === productSlug);
 
   if (!category || !product) {
@@ -33,7 +34,7 @@ export async function generateMetadata({
     openGraph: {
       title: `${product.name} | ${category.name} | Inmarco`,
       description: productDescription,
-      url: `https://www.inmarco.com/products/${categorySlug}/${secondParam}/${productSlug}`,
+      url: `https://www.inmarco.com/products/${category.slug}/${subcategory?.slug || secondParam}/${productSlug}`,
       type: 'website',
       images: product.image
         ? [
@@ -52,7 +53,7 @@ export async function generateMetadata({
       description: productDescription,
     },
     alternates: {
-      canonical: `https://www.inmarco.com/products/${categorySlug}/${secondParam}/${productSlug}`,
+      canonical: `https://www.inmarco.com/products/${category.slug}/${subcategory?.slug || secondParam}/${productSlug}`,
     },
   };
 }
@@ -69,8 +70,8 @@ export async function generateStaticParams() {
 
     if (category && subcategory && product.slug) {
       params.push({
-        categorySlug: String(category.id),
-        secondParam: String(subcategory.id),
+        categorySlug: category.slug,
+        secondParam: subcategory.slug,
         productSlug: product.slug,
       });
     }

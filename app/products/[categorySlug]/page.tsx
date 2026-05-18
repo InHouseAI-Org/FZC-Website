@@ -4,7 +4,7 @@ import productsData from '@/data/productsData.json';
 
 export async function generateMetadata({ params }: { params: Promise<{ categorySlug: string }> }): Promise<Metadata> {
   const { categorySlug } = await params;
-  const category = productsData.categories.find((cat) => String(cat.id) === categorySlug);
+  const category = productsData.categories.find((cat) => cat.slug === categorySlug);
 
   if (!category) {
     return {
@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: { params: Promise<{ categoryS
     openGraph: {
       title: `${category.name} | Inmarco`,
       description: category.description,
-      url: `https://www.inmarco.com/products/${category.id}`,
+      url: `https://www.inmarco.com/products/${category.slug}`,
       type: 'website',
       images: [
         {
@@ -42,14 +42,14 @@ export async function generateMetadata({ params }: { params: Promise<{ categoryS
       description: category.description,
     },
     alternates: {
-      canonical: `https://www.inmarco.com/products/${category.id}`,
+      canonical: `https://www.inmarco.com/products/${category.slug}`,
     },
   };
 }
 
 export async function generateStaticParams() {
   return productsData.categories.map((category) => ({
-    categorySlug: String(category.id),
+    categorySlug: category.slug,
   }));
 }
 
