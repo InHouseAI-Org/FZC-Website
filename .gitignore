@@ -64,3 +64,5 @@ public/FZC Inmarco Product Shoot/Videos/
 #pdf datasheets
 public/datasheets/pdf_output
 /src/generated/prisma
+
+fzc-website.pem
