@@ -1,0 +1,30 @@
+# Development Docker Compose - Only runs PostgreSQL
+# Use this for local development while running Next.js natively
+#
+# Usage: docker-compose -f docker-compose.dev.yml up -d
+
+version: '3.8'
+
+services:
+  # PostgreSQL Database for Development
+  postgres:
+    image: postgres:16-alpine
+    container_name: inmarco-postgres-dev
+    restart: unless-stopped
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=inmarco
+      - POSTGRES_PASSWORD=inmarco_secure_password_2024
+      - POSTGRES_DB=inmarco_website
+    volumes:
+      - postgres-dev-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U inmarco -d inmarco_website"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  postgres-dev-data:
+    driver: local

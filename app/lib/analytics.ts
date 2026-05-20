@@ -1,4 +1,6 @@
-// Analytics data utilities
+// Analytics data utilities - Fetch real data from database
+import prisma from './prisma';
+
 export interface AnalyticsData {
   pageViews: {
     total: number;
@@ -54,95 +56,422 @@ export interface AnalyticsData {
   };
 }
 
-// Mock data generator - Replace with real analytics API
-export async function getAnalyticsData(): Promise<AnalyticsData> {
-  // This would typically fetch from Google Analytics API or your analytics database
-  const last30Days = Array.from({ length: 30 }, (_, i) => {
-    const date = new Date();
-    date.setDate(date.getDate() - (29 - i));
-    return date.toISOString().split('T')[0];
+// ============================================
+// Helper Functions
+// ============================================
+
+function getDaysAgo(days: number): Date {
+  const date = new Date();
+  date.setDate(date.getDate() - days);
+  date.setHours(0, 0, 0, 0);
+  return date;
+}
+
+function formatDate(date: Date): string {
+  return date.toISOString().split('T')[0];
+}
+
+function calculateTrend(current: number, previous: number): number {
+  if (previous === 0) return 0;
+  return ((current - previous) / previous) * 100;
+}
+
+// ============================================
+// Analytics Data Fetcher
+// ============================================
+
+export async function getAnalyticsData(days: number = 30): Promise<AnalyticsData> {
+  try {
+    const startDate = getDaysAgo(days);
+    const previousStartDate = getDaysAgo(days * 2);
+    const previousEndDate = getDaysAgo(days);
+
+    // ====== PAGE VIEWS ======
+    const pageViewsData = await getPageViewsData(startDate, days);
+
+    // ====== UNIQUE VISITORS ======
+    const uniqueVisitorsData = await getUniqueVisitorsData(startDate, days);
+
+    // ====== TOP PAGES ======
+    const topPages = await getTopPages(startDate);
+
+    // ====== TOP PRODUCTS ======
+    const topProducts = await getTopProducts(startDate);
+
+    // ====== TOP INDUSTRIES ======
+    const topIndustries = await getTopIndustries(startDate);
+
+    // ====== GEOGRAPHIC DATA ======
+    const geographicData = await getGeographicData(startDate);
+
+    // ====== DEVICE DATA ======
+    const deviceData = await getDeviceData(startDate);
+
+    // ====== TRAFFIC SOURCES ======
+    const trafficSources = await getTrafficSources(startDate);
+
+    // ====== CONVERSION METRICS ======
+    const conversionMetrics = await getConversionMetrics(startDate);
+
+    // ====== PERFORMANCE METRICS ======
+    const performanceMetrics = await getPerformanceMetrics(startDate);
+
+    return {
+      pageViews: pageViewsData,
+      uniqueVisitors: uniqueVisitorsData,
+      topPages,
+      topProducts,
+      topIndustries,
+      geographicData,
+      deviceData,
+      trafficSources,
+      conversionMetrics,
+      performanceMetrics,
+    };
+  } catch (error) {
+    console.error('Error fetching analytics data:', error);
+    throw error;
+  }
+}
+
+// ============================================
+// Individual Data Fetchers
+// ============================================
+
+async function getPageViewsData(startDate: Date, days: number) {
+  const currentPeriodViews = await prisma.pageView.count({
+    where: {
+      createdAt: { gte: startDate },
+    },
+  });
+
+  const previousStartDate = getDaysAgo(days * 2);
+  const previousEndDate = getDaysAgo(days);
+  const previousPeriodViews = await prisma.pageView.count({
+    where: {
+      createdAt: {
+        gte: previousStartDate,
+        lt: previousEndDate,
+      },
+    },
+  });
+
+  const trend = calculateTrend(currentPeriodViews, previousPeriodViews);
+
+  // Get daily page views
+  const dailyData = await prisma.$queryRaw<{ date: Date; count: bigint }[]>`
+    SELECT DATE(created_at) as date, COUNT(*)::int as count
+    FROM page_views
+    WHERE created_at >= ${startDate}
+    GROUP BY DATE(created_at)
+    ORDER BY date ASC
+  `;
+
+  const data = Array.from({ length: days }, (_, i) => {
+    const date = getDaysAgo(days - 1 - i);
+    const dateStr = formatDate(date);
+    const dayData = dailyData.find(d => formatDate(new Date(d.date)) === dateStr);
+    return {
+      date: dateStr,
+      views: dayData ? Number(dayData.count) : 0,
+    };
   });
 
   return {
-    pageViews: {
-      total: 45678,
-      trend: 12.5,
-      data: last30Days.map((date, i) => ({
-        date,
-        views: Math.floor(1200 + Math.random() * 500 + i * 10),
-      })),
+    total: currentPeriodViews,
+    trend,
+    data,
+  };
+}
+
+async function getUniqueVisitorsData(startDate: Date, days: number) {
+  const currentPeriodVisitors = await prisma.pageView.groupBy({
+    by: ['visitorId'],
+    where: {
+      createdAt: { gte: startDate },
+      visitorId: { not: null },
     },
-    uniqueVisitors: {
-      total: 12345,
-      trend: 8.3,
-      data: last30Days.map((date, i) => ({
-        date,
-        visitors: Math.floor(300 + Math.random() * 150 + i * 5),
-      })),
+  });
+
+  const previousStartDate = getDaysAgo(days * 2);
+  const previousEndDate = getDaysAgo(days);
+  const previousPeriodVisitors = await prisma.pageView.groupBy({
+    by: ['visitorId'],
+    where: {
+      createdAt: {
+        gte: previousStartDate,
+        lt: previousEndDate,
+      },
+      visitorId: { not: null },
     },
-    topPages: [
-      { path: '/', views: 8234, percentage: 18 },
-      { path: '/products', views: 6543, percentage: 14.3 },
-      { path: '/products/compression-packings', views: 4321, percentage: 9.5 },
-      { path: '/industries/oil-and-gas', views: 3456, percentage: 7.6 },
-      { path: '/about-us', views: 2987, percentage: 6.5 },
-      { path: '/contact', views: 2654, percentage: 5.8 },
-      { path: '/products/metallic-gaskets', views: 2341, percentage: 5.1 },
-      { path: '/industries/power-generation', views: 2123, percentage: 4.6 },
-    ],
-    topProducts: [
-      { name: 'Ultra FE 1002 (Fugitive Emission)', views: 2345, percentage: 15.2 },
-      { name: 'Spiral Wound Gaskets', views: 2123, percentage: 13.8 },
-      { name: 'RTJ Gaskets (Ring Type Joint)', views: 1987, percentage: 12.9 },
-      { name: 'HY 105 (PTFE Graphite Hybrid)', views: 1654, percentage: 10.7 },
-      { name: 'Isolation Gasket Kits (API 6FB)', views: 1432, percentage: 9.3 },
-      { name: 'PE 504 (PTFE Packing)', views: 1234, percentage: 8.0 },
-      { name: 'Graphite Sheet Gaskets', views: 1098, percentage: 7.1 },
-    ],
-    topIndustries: [
-      { name: 'Oil & Gas', views: 5432, percentage: 22.1 },
-      { name: 'Power Generation', views: 4321, percentage: 17.6 },
-      { name: 'Chemical Processing', views: 3654, percentage: 14.9 },
-      { name: 'Marine', views: 2987, percentage: 12.2 },
-      { name: 'Pharmaceutical', views: 2345, percentage: 9.5 },
-      { name: 'Petrochemical', views: 2123, percentage: 8.6 },
-      { name: 'Water Treatment', views: 1876, percentage: 7.6 },
-    ],
-    geographicData: [
-      { country: 'United Arab Emirates', visitors: 2543, percentage: 20.6 },
-      { country: 'Saudi Arabia', visitors: 1987, percentage: 16.1 },
-      { country: 'India', visitors: 1654, percentage: 13.4 },
-      { country: 'United States', visitors: 1432, percentage: 11.6 },
-      { country: 'Qatar', visitors: 987, percentage: 8.0 },
-      { country: 'Kuwait', visitors: 876, percentage: 7.1 },
-      { country: 'Singapore', visitors: 765, percentage: 6.2 },
-      { country: 'United Kingdom', visitors: 654, percentage: 5.3 },
-      { country: 'Oman', visitors: 543, percentage: 4.4 },
-      { country: 'Others', visitors: 904, percentage: 7.3 },
-    ],
-    deviceData: [
-      { device: 'Desktop', visitors: 7407, percentage: 60 },
-      { device: 'Mobile', visitors: 3704, percentage: 30 },
-      { device: 'Tablet', visitors: 1234, percentage: 10 },
-    ],
-    trafficSources: [
-      { source: 'Organic Search', visitors: 6173, percentage: 50 },
-      { source: 'Direct', visitors: 2469, percentage: 20 },
-      { source: 'Referral', visitors: 2469, percentage: 20 },
-      { source: 'Social Media', visitors: 741, percentage: 6 },
-      { source: 'Email', visitors: 493, percentage: 4 },
-    ],
-    conversionMetrics: {
-      contactForms: 234,
-      quoteRequests: 187,
-      productInquiries: 432,
-      downloads: 156,
+  });
+
+  const currentCount = currentPeriodVisitors.length;
+  const previousCount = previousPeriodVisitors.length;
+  const trend = calculateTrend(currentCount, previousCount);
+
+  // Get daily unique visitors
+  const dailyData = await prisma.$queryRaw<{ date: Date; count: bigint }[]>`
+    SELECT DATE(created_at) as date, COUNT(DISTINCT visitor_id)::int as count
+    FROM page_views
+    WHERE created_at >= ${startDate} AND visitor_id IS NOT NULL
+    GROUP BY DATE(created_at)
+    ORDER BY date ASC
+  `;
+
+  const data = Array.from({ length: days }, (_, i) => {
+    const date = getDaysAgo(days - 1 - i);
+    const dateStr = formatDate(date);
+    const dayData = dailyData.find(d => formatDate(new Date(d.date)) === dateStr);
+    return {
+      date: dateStr,
+      visitors: dayData ? Number(dayData.count) : 0,
+    };
+  });
+
+  return {
+    total: currentCount,
+    trend,
+    data,
+  };
+}
+
+async function getTopPages(startDate: Date) {
+  const pageViews = await prisma.pageView.groupBy({
+    by: ['path'],
+    where: {
+      createdAt: { gte: startDate },
     },
-    performanceMetrics: {
-      avgLoadTime: 1.2,
-      bounceRate: 42.5,
-      avgSessionDuration: 245,
-      pagesPerSession: 3.2,
+    _count: true,
+    orderBy: {
+      _count: {
+        path: 'desc',
+      },
     },
+    take: 8,
+  });
+
+  const totalViews = await prisma.pageView.count({
+    where: { createdAt: { gte: startDate } },
+  });
+
+  return pageViews.map(p => ({
+    path: p.path,
+    views: p._count,
+    percentage: totalViews > 0 ? (p._count / totalViews) * 100 : 0,
+  }));
+}
+
+async function getTopProducts(startDate: Date) {
+  const productViews = await prisma.productView.groupBy({
+    by: ['productName', 'category'],
+    where: {
+      createdAt: { gte: startDate },
+    },
+    _count: true,
+    orderBy: {
+      _count: {
+        productName: 'desc',
+      },
+    },
+    take: 7,
+  });
+
+  const totalViews = await prisma.productView.count({
+    where: { createdAt: { gte: startDate } },
+  });
+
+  return productViews.map(p => ({
+    name: p.productName,
+    views: p._count,
+    percentage: totalViews > 0 ? (p._count / totalViews) * 100 : 0,
+  }));
+}
+
+async function getTopIndustries(startDate: Date) {
+  const industryViews = await prisma.industryView.groupBy({
+    by: ['industryName'],
+    where: {
+      createdAt: { gte: startDate },
+    },
+    _count: true,
+    orderBy: {
+      _count: {
+        industryName: 'desc',
+      },
+    },
+    take: 7,
+  });
+
+  const totalViews = await prisma.industryView.count({
+    where: { createdAt: { gte: startDate } },
+  });
+
+  return industryViews.map(i => ({
+    name: i.industryName,
+    views: i._count,
+    percentage: totalViews > 0 ? (i._count / totalViews) * 100 : 0,
+  }));
+}
+
+async function getGeographicData(startDate: Date) {
+  const countryData = await prisma.pageView.groupBy({
+    by: ['country'],
+    where: {
+      createdAt: { gte: startDate },
+      country: { not: null },
+    },
+    _count: true,
+    orderBy: {
+      _count: {
+        country: 'desc',
+      },
+    },
+    take: 10,
+  });
+
+  const totalVisitors = countryData.reduce((sum, c) => sum + c._count, 0);
+
+  return countryData.map(c => ({
+    country: c.country || 'Unknown',
+    visitors: c._count,
+    percentage: totalVisitors > 0 ? (c._count / totalVisitors) * 100 : 0,
+  }));
+}
+
+async function getDeviceData(startDate: Date) {
+  const deviceData = await prisma.pageView.groupBy({
+    by: ['device'],
+    where: {
+      createdAt: { gte: startDate },
+      device: { not: null },
+    },
+    _count: true,
+  });
+
+  const totalVisitors = deviceData.reduce((sum, d) => sum + d._count, 0);
+
+  return deviceData.map(d => ({
+    device: d.device || 'Unknown',
+    visitors: d._count,
+    percentage: totalVisitors > 0 ? (d._count / totalVisitors) * 100 : 0,
+  }));
+}
+
+async function getTrafficSources(startDate: Date) {
+  const referrerData = await prisma.pageView.groupBy({
+    by: ['referrer'],
+    where: {
+      createdAt: { gte: startDate },
+      referrer: { not: null },
+    },
+    _count: true,
+    orderBy: {
+      _count: {
+        referrer: 'desc',
+      },
+    },
+    take: 5,
+  });
+
+  const totalVisitors = referrerData.reduce((sum, r) => sum + r._count, 0);
+
+  return referrerData.map(r => {
+    let source = 'Direct';
+    if (r.referrer) {
+      if (r.referrer.includes('google')) source = 'Organic Search';
+      else if (r.referrer.includes('facebook') || r.referrer.includes('linkedin')) source = 'Social Media';
+      else source = 'Referral';
+    }
+
+    return {
+      source,
+      visitors: r._count,
+      percentage: totalVisitors > 0 ? (r._count / totalVisitors) * 100 : 0,
+    };
+  });
+}
+
+async function getConversionMetrics(startDate: Date) {
+  const contactForms = await prisma.contactSubmission.count({
+    where: { createdAt: { gte: startDate } },
+  });
+
+  const quoteRequests = await prisma.contactSubmission.count({
+    where: {
+      createdAt: { gte: startDate },
+      enquiryType: 'sales',
+    },
+  });
+
+  const productInquiries = await prisma.analyticsEvent.count({
+    where: {
+      createdAt: { gte: startDate },
+      eventType: 'view_product',
+    },
+  });
+
+  const downloads = await prisma.downloadEvent.count({
+    where: { createdAt: { gte: startDate } },
+  });
+
+  return {
+    contactForms,
+    quoteRequests,
+    productInquiries,
+    downloads,
+  };
+}
+
+async function getPerformanceMetrics(startDate: Date) {
+  // Average load time
+  const pageViewsWithLoadTime = await prisma.pageView.aggregate({
+    where: {
+      createdAt: { gte: startDate },
+      loadTime: { not: null },
+    },
+    _avg: {
+      loadTime: true,
+    },
+  });
+
+  // Bounce rate (sessions with only 1 page view)
+  const totalSessions = await prisma.visitorSession.count({
+    where: { startTime: { gte: startDate } },
+  });
+
+  const bouncedSessions = await prisma.visitorSession.count({
+    where: {
+      startTime: { gte: startDate },
+      pageViews: 1,
+    },
+  });
+
+  const bounceRate = totalSessions > 0 ? (bouncedSessions / totalSessions) * 100 : 0;
+
+  // Average session duration
+  const avgDuration = await prisma.visitorSession.aggregate({
+    where: {
+      startTime: { gte: startDate },
+      duration: { not: null },
+    },
+    _avg: {
+      duration: true,
+    },
+  });
+
+  // Pages per session
+  const avgPageViews = await prisma.visitorSession.aggregate({
+    where: { startTime: { gte: startDate } },
+    _avg: {
+      pageViews: true,
+    },
+  });
+
+  return {
+    avgLoadTime: pageViewsWithLoadTime._avg.loadTime || 0,
+    bounceRate,
+    avgSessionDuration: avgDuration._avg.duration || 0,
+    pagesPerSession: avgPageViews._avg.pageViews || 0,
   };
 }

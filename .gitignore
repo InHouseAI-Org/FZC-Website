@@ -60,3 +60,7 @@ public/FZC Inmarco Product Shoot/Videos/
 
 # Project-specific folders
 /Products/
+
+#pdf datasheets
+public/datasheets/pdf_output
+/src/generated/prisma

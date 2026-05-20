@@ -130,12 +130,28 @@ export default function ProductDetail() {
                   <div className="bg-[#1a1918] p-6 rounded-lg border border-gray-800 mb-8">
                     <h3 className="text-white text-lg mb-4 tracking-tight">Quick Specifications</h3>
                     <div className="grid grid-cols-2 gap-4">
-                      {Object.entries(product.specifications).slice(0, 4).map(([key, value]) => (
-                        <div key={key}>
-                          <div className="text-gray-500 text-xs uppercase mb-1">{key}</div>
-                          <div className="text-white text-sm">{value as string}</div>
-                        </div>
-                      ))}
+                      {(() => {
+                        // Handle new byEquipmentType structure
+                        if ((product.specifications as any).byEquipmentType && (product.specifications as any).common) {
+                          const commonSpecs = Object.entries((product.specifications as any).common).slice(0, 4);
+                          return commonSpecs.map(([key, value]) => (
+                            <div key={key}>
+                              <div className="text-gray-500 text-xs uppercase mb-1">{key}</div>
+                              <div className="text-white text-sm">{value as string}</div>
+                            </div>
+                          ));
+                        }
+                        // Handle legacy structure
+                        return Object.entries(product.specifications).slice(0, 4).map(([key, value]) => {
+                          if (typeof value === 'object') return null;
+                          return (
+                            <div key={key}>
+                              <div className="text-gray-500 text-xs uppercase mb-1">{key}</div>
+                              <div className="text-white text-sm">{value as string}</div>
+                            </div>
+                          );
+                        }).filter(Boolean);
+                      })()}
                     </div>
                   </div>
                 )}
@@ -185,14 +201,69 @@ export default function ProductDetail() {
                     </div>
                     <h2 className="text-white text-3xl mb-6 tracking-tight">Specifications</h2>
 
-                    <div className="space-y-4">
-                      {Object.entries(product.specifications).map(([key, value]) => (
-                        <div key={key} className="flex justify-between py-3 border-b border-gray-800">
-                          <span className="text-gray-400">{key}</span>
-                          <span className="text-white font-medium">{value as string}</span>
+                    {/* Equipment-Specific Specifications Table */}
+                    {(product.specifications as any).byEquipmentType ? (
+                      <div className="space-y-6">
+                        {/* Equipment Type Table */}
+                        <div className="overflow-x-auto">
+                          <table className="w-full bg-[#2b2a29] border border-gray-800 rounded-lg overflow-hidden">
+                            <thead>
+                              <tr className="bg-[#1a1918]">
+                                <th className="px-4 py-3 text-left text-gray-400 text-sm font-medium border-b border-gray-800">Equipment Type</th>
+                                <th className="px-4 py-3 text-left text-gray-400 text-sm font-medium border-b border-gray-800">Pressure</th>
+                                <th className="px-4 py-3 text-left text-gray-400 text-sm font-medium border-b border-gray-800">Velocity</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              {(product.specifications as any).byEquipmentType.rotating && (
+                                <tr className="border-b border-gray-800">
+                                  <td className="px-4 py-3 text-white font-medium">Rotating</td>
+                                  <td className="px-4 py-3 text-gray-300">{(product.specifications as any).byEquipmentType.rotating.pressure || '---'}</td>
+                                  <td className="px-4 py-3 text-gray-300">{(product.specifications as any).byEquipmentType.rotating.velocity || '---'}</td>
+                                </tr>
+                              )}
+                              {(product.specifications as any).byEquipmentType.reciprocating && (
+                                <tr className="border-b border-gray-800">
+                                  <td className="px-4 py-3 text-white font-medium">Reciprocating</td>
+                                  <td className="px-4 py-3 text-gray-300">{(product.specifications as any).byEquipmentType.reciprocating.pressure || '---'}</td>
+                                  <td className="px-4 py-3 text-gray-300">{(product.specifications as any).byEquipmentType.reciprocating.velocity || '---'}</td>
+                                </tr>
+                              )}
+                              {(product.specifications as any).byEquipmentType.static && (
+                                <tr>
+                                  <td className="px-4 py-3 text-white font-medium">Static</td>
+                                  <td className="px-4 py-3 text-gray-300">{(product.specifications as any).byEquipmentType.static.pressure || '---'}</td>
+                                  <td className="px-4 py-3 text-gray-300">{(product.specifications as any).byEquipmentType.static.velocity || '---'}</td>
+                                </tr>
+                              )}
+                            </tbody>
+                          </table>
                         </div>
-                      ))}
-                    </div>
+
+                        {/* Common Specifications */}
+                        {(product.specifications as any).common && Object.keys((product.specifications as any).common).length > 0 && (
+                          <div className="space-y-4 pt-4">
+                            <h3 className="text-white text-lg mb-4 tracking-tight">Common Specifications</h3>
+                            {Object.entries((product.specifications as any).common).map(([key, value]) => (
+                              <div key={key} className="flex justify-between py-3 border-b border-gray-800">
+                                <span className="text-gray-400">{key}</span>
+                                <span className="text-white font-medium">{value as string}</span>
+                              </div>
+                            ))}
+                          </div>
+                        )}
+                      </div>
+                    ) : (
+                      /* Standard Specifications Display */
+                      <div className="space-y-4">
+                        {Object.entries(product.specifications).map(([key, value]) => (
+                          <div key={key} className="flex justify-between py-3 border-b border-gray-800">
+                            <span className="text-gray-400">{key}</span>
+                            <span className="text-white font-medium">{value as string}</span>
+                          </div>
+                        ))}
+                      </div>
+                    )}
                   </>
                 )}
 

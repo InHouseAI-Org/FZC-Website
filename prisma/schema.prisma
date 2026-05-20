@@ -1,0 +1,255 @@
+// Inmarco Website Database Schema
+// Handles admin authentication and analytics tracking
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+// ============================================
+// ADMIN & AUTHENTICATION
+// ============================================
+
+model AdminUser {
+  id        String   @id @default(cuid())
+  username  String   @unique
+  email     String   @unique
+  password  String   // Bcrypt hashed password
+  firstName String?
+  lastName  String?
+  role      String   @default("admin") // admin, superadmin
+  isActive  Boolean  @default(true)
+  lastLogin DateTime?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  sessions  Session[]
+
+  @@map("admin_users")
+}
+
+model Session {
+  id        String   @id @default(cuid())
+  token     String   @unique
+  userId    String
+  expiresAt DateTime
+  ipAddress String?
+  userAgent String?
+
+  createdAt DateTime @default(now())
+
+  user      AdminUser @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([token])
+  @@map("sessions")
+}
+
+// ============================================
+// ANALYTICS & TRACKING
+// ============================================
+
+model PageView {
+  id        String   @id @default(cuid())
+  path      String
+  title     String?
+  referrer  String?
+  userAgent String?
+  ipAddress String?
+  country   String?
+  device    String?  // Desktop, Mobile, Tablet
+
+  // Session tracking
+  sessionId String?
+  visitorId String?  // Anonymous visitor tracking
+
+  // Performance metrics
+  loadTime  Float?   // Page load time in seconds
+
+  createdAt DateTime @default(now())
+
+  @@index([path])
+  @@index([sessionId])
+  @@index([visitorId])
+  @@index([createdAt])
+  @@map("page_views")
+}
+
+model AnalyticsEvent {
+  id        String   @id @default(cuid())
+  eventType String   // view_product, contact_form, download, etc.
+  category  String   // Product, Industry, Contact, Download, etc.
+  action    String
+  label     String?
+  value     Float?
+
+  // Additional metadata
+  metadata  Json?    // Store extra data as JSON
+
+  // User tracking
+  sessionId String?
+  visitorId String?
+  ipAddress String?
+  userAgent String?
+
+  createdAt DateTime @default(now())
+
+  @@index([eventType])
+  @@index([category])
+  @@index([sessionId])
+  @@index([visitorId])
+  @@index([createdAt])
+  @@map("analytics_events")
+}
+
+model ProductView {
+  id          String   @id @default(cuid())
+  productId   String
+  productName String
+  category    String
+
+  // User tracking
+  sessionId   String?
+  visitorId   String?
+  referrer    String?
+
+  createdAt   DateTime @default(now())
+
+  @@index([productId])
+  @@index([sessionId])
+  @@index([createdAt])
+  @@map("product_views")
+}
+
+model IndustryView {
+  id           String   @id @default(cuid())
+  industryId   String
+  industryName String
+
+  // User tracking
+  sessionId    String?
+  visitorId    String?
+  referrer     String?
+
+  createdAt    DateTime @default(now())
+
+  @@index([industryId])
+  @@index([sessionId])
+  @@index([createdAt])
+  @@map("industry_views")
+}
+
+// ============================================
+// CONTACT FORMS & CONVERSIONS
+// ============================================
+
+model ContactSubmission {
+  id          String   @id @default(cuid())
+  name        String
+  email       String
+  phone       String?
+  company     String?
+  enquiryType String   // sales, technical, general, partnership
+  message     String
+
+  // Tracking
+  ipAddress   String?
+  userAgent   String?
+  referrer    String?
+  sessionId   String?
+
+  // Status
+  status      String   @default("new") // new, contacted, converted, closed
+  assignedTo  String?
+  notes       String?
+
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([status])
+  @@index([enquiryType])
+  @@index([createdAt])
+  @@map("contact_submissions")
+}
+
+model DownloadEvent {
+  id         String   @id @default(cuid())
+  fileType   String   // datasheet, catalog, brochure
+  fileName   String
+  productId  String?
+
+  // User tracking
+  sessionId  String?
+  visitorId  String?
+  ipAddress  String?
+
+  createdAt  DateTime @default(now())
+
+  @@index([fileType])
+  @@index([productId])
+  @@index([createdAt])
+  @@map("download_events")
+}
+
+// ============================================
+// VISITOR SESSIONS
+// ============================================
+
+model Visitor {
+  id            String   @id @default(cuid())
+  visitorId     String   @unique // Anonymous tracking ID
+  firstSeen     DateTime @default(now())
+  lastSeen      DateTime @updatedAt
+
+  // Device info
+  userAgent     String?
+  device        String?  // Desktop, Mobile, Tablet
+  browser       String?
+  os            String?
+
+  // Location
+  country       String?
+  city          String?
+
+  // Traffic source
+  source        String?  // organic, direct, referral, social, email
+  medium        String?
+  campaign      String?
+  referrer      String?
+
+  // Engagement metrics
+  pageViewCount Int      @default(0)
+  sessionCount  Int      @default(0)
+  totalDuration Int      @default(0) // Total time spent in seconds
+
+  @@index([visitorId])
+  @@index([country])
+  @@index([source])
+  @@map("visitors")
+}
+
+model VisitorSession {
+  id         String   @id @default(cuid())
+  sessionId  String   @unique
+  visitorId  String
+
+  startTime  DateTime @default(now())
+  endTime    DateTime?
+  duration   Int?     // Session duration in seconds
+
+  pageViews  Int      @default(0)
+  events     Int      @default(0)
+
+  // Entry/Exit
+  entryPage  String?
+  exitPage   String?
+
+  @@index([sessionId])
+  @@index([visitorId])
+  @@index([startTime])
+  @@map("visitor_sessions")
+}

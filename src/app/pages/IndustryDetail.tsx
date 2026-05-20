@@ -88,18 +88,18 @@ export default function IndustryDetail() {
 
   // Map industry slugs to their product images
   const industryImages: Record<string, string> = {
-    'oil-gas': 'public/FZC Inmarco Product Shoot/Industries/Oil & Gas.png',
-    'power-generation': 'public/FZC Inmarco Product Shoot/Industries/Power Gen.png',
-    'chemical': 'public/FZC Inmarco Product Shoot/Industries/Chemical.png',
-    'water-wastewater-treatment': 'public/FZC Inmarco Product Shoot/Industries/Waste Water.png',
-    'marine': 'public/FZC Inmarco Product Shoot/Industries/Marine.png',
-    'cement': 'public/FZC Inmarco Product Shoot/Industries/Cement.png',
-    'fertilizers': 'public/FZC Inmarco Product Shoot/Industries/Fertilisers.png',
-    'metallurgy': 'public/FZC Inmarco Product Shoot/Industries/Metal.png',
-    'pulp-paper': 'public/FZC Inmarco Product Shoot/Industries/Pulp.png',
-    'food-pharmaceutical': 'public/FZC Inmarco Product Shoot/Industries/Food & Pharma.png',
-    'sugar': 'public/FZC Inmarco Product Shoot/Industries/Sugar.png',
-    'oem': 'public/FZC Inmarco Product Shoot/Industries/OEM.png',
+    'oil-gas': '/FZC Inmarco Product Shoot/Industries/Oil & Gas.png',
+    'power-generation': '/FZC Inmarco Product Shoot/Industries/Power.png',
+    'chemical': '/FZC Inmarco Product Shoot/Industries/Chemical.png',
+    'water-wastewater-treatment': '/FZC Inmarco Product Shoot/Industries/Waste.png',
+    'marine': '/FZC Inmarco Product Shoot/Industries/Marine.png',
+    'cement': '/FZC Inmarco Product Shoot/Industries/Cement.png',
+    'fertilizers': '/FZC Inmarco Product Shoot/Industries/Fertilisers.png',
+    'metallurgy': '/FZC Inmarco Product Shoot/Industries/Metallurgy.png',
+    'pulp-paper': '/FZC Inmarco Product Shoot/Industries/Pulp.png',
+    'food-pharmaceutical': '/FZC Inmarco Product Shoot/Industries/Food.png',
+    'sugar': '/FZC Inmarco Product Shoot/Industries/Sugar.png',
+    'oem': '/FZC Inmarco Product Shoot/Industries/OEM.png',
   };
 
   const scrollToCTA = () => {

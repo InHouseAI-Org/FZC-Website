@@ -34,7 +34,7 @@ export default function Contact() {
     setSubmitStatus({ type: null, message: '' });
 
     try {
-      const response = await fetch('http://localhost:3001/api/contact', {
+      const response = await fetch('/api/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -47,7 +47,7 @@ export default function Contact() {
       if (response.ok && data.success) {
         setSubmitStatus({
           type: 'success',
-          message: 'Thank you for contacting us! We will get back to you shortly.',
+          message: data.message || 'Thank you for contacting us! We will get back to you shortly.',
         });
         // Reset form
         setFormData({

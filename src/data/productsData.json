@@ -258,14 +258,25 @@
       "description": "PE 505 is a high-performance PTFE compression packing engineered for demanding industrial applications. Suitable for pumps, valves, and rotating equipment across diverse industries requiring reliable sealing solutions.",
       "image": "/FZC Inmarco Product Shoot/PE 505/PE 505 - 50(14)_05.JPG",
       "specifications": {
-        "Temperature Range": "-200°C to +300°C",
-        "Pressure Rating": "100-300 bar (depending on velocity)",
-        "pH Range": "0-14",
-        "Velocity": "25 m/s at 100 bar, 10 m/s at 200-300 bar",
-        "Size Range": "3mm² to 35mm²",
-        "temperature": "-200 to +300°C",
-        "pressure": "200",
-        "pH": "0-14"
+        "byEquipmentType": {
+          "rotating": {
+            "pressure": "100 bar",
+            "velocity": "25 m/s"
+          },
+          "reciprocating": {
+            "pressure": "200 bar",
+            "velocity": "10 m/s"
+          },
+          "static": {
+            "pressure": "300 bar",
+            "velocity": "---"
+          }
+        },
+        "common": {
+          "Temperature Range": "-200°C to +300°C",
+          "pH Range": "0-14",
+          "Size Range": "3 sq.mm to 35 sq.mm"
+        }
       },
       "technicalData": {
         "Material": "Duplex braided packing from Expanded PTFE, Graphite, and MoS₂",
@@ -366,14 +377,26 @@
       "description": "HY 504 combines multiple high-performance materials in a hybrid construction to deliver superior sealing across various service conditions. Its unique structural design provides exceptional reliability in demanding industrial environments.",
       "image": "/FZC Inmarco Product Shoot/HY 504/HY 504 - 51(24)_01.JPG",
       "specifications": {
-        "Temperature Range": "-100°C to +300°C",
-        "Pressure Rating": "Up to 250 bar",
-        "pH Range": "2-12",
-        "Speed Limit": "22 m/s",
-        "Density": "1.6-1.8 g/cm³",
-        "temperature": "-200 to +300",
-        "pressure": "200",
-        "pH": "0-14"
+        "byEquipmentType": {
+          "rotating": {
+            "pressure": "200 bar",
+            "velocity": "25 m/s"
+          },
+          "reciprocating": {
+            "pressure": "300 bar",
+            "velocity": "15 m/s"
+          },
+          "static": {
+            "pressure": "350 bar",
+            "velocity": "---"
+          }
+        },
+        "common": {
+          "Temperature Range": "-200°C to +300°C",
+          "pH Range": "0-14",
+          "Size Range": "3 sq.mm to 35 sq.mm",
+          "Density": "1.6-1.8 g/cm³"
+        }
       },
       "technicalData": {
         "Construction": "Hybrid fiber blend with PTFE and graphite lubrication",
@@ -519,14 +542,25 @@
       "description": "HY 105 is a premium hybrid compression packing engineered to deliver exceptional sealing performance in harsh service conditions. Ideal for pumps and reciprocating equipment operating in demanding industrial environments.",
       "image": "/FZC Inmarco Product Shoot/HY 105/HY 105_1.png",
       "specifications": {
-        "Temperature Range": "-200°C to +300°C",
-        "Pressure Rating": "100-300 bar (depending on velocity)",
-        "pH Range": "0-14",
-        "Velocity": "25 m/s at 100 bar, 10 m/s at 200-300 bar",
-        "Size Range": "3mm² to 35mm²",
-        "temperature": "-200 to +300°C",
-        "pressure": "100 / 200 / 300",
-        "pH": "0-14"
+        "byEquipmentType": {
+          "rotating": {
+            "pressure": "100 bar",
+            "velocity": "25 m/s"
+          },
+          "reciprocating": {
+            "pressure": "200 bar",
+            "velocity": "10 m/s"
+          },
+          "static": {
+            "pressure": "300 bar",
+            "velocity": "---"
+          }
+        },
+        "common": {
+          "Temperature Range": "-200°C to +300°C",
+          "pH Range": "0-14",
+          "Size Range": "3 sq.mm to 35 sq.mm"
+        }
       },
       "technicalData": {
         "Material": "Dense braid of Aramid Yarn corners and PTFE Yarn faces with Aramid fiber core",
@@ -629,14 +663,26 @@
       "description": "HY 107 provides exceptional sealing performance with advanced hybrid construction engineered for the most demanding reciprocating applications. Particularly effective in fertilizer industry service conditions.",
       "image": "/FZC Inmarco Product Shoot/HY 107/HY 107_1.png",
       "specifications": {
-        "Temperature Range": "-100°C to +290°C",
-        "Pressure Rating": "Up to 250 bar",
-        "pH Range": "1-13",
-        "Speed Limit": "22 m/s",
-        "Density": "1.8-2.0 g/cm³",
-        "temperature": "-240 to +260",
-        "pressure": "25 / 100 / 250",
-        "pH": "1-13"
+        "byEquipmentType": {
+          "rotating": {
+            "pressure": "25 bar",
+            "velocity": "20 m/s"
+          },
+          "reciprocating": {
+            "pressure": "100 bar",
+            "velocity": "2 m/s"
+          },
+          "static": {
+            "pressure": "250 bar",
+            "velocity": "---"
+          }
+        },
+        "common": {
+          "Temperature Range": "-240°C to +260°C",
+          "pH Range": "1-13",
+          "Size Range": "6 sq.mm to 28 sq.mm",
+          "Density": "1.8-2.0 g/cm³"
+        }
       },
       "technicalData": {
         "Construction": "Premium hybrid fiber blend with PTFE and graphite",
@@ -682,14 +728,26 @@
       "description": "HY 175 is designed for standard industrial sealing applications, offering balanced performance and cost-effectiveness. An economical solution for general-purpose sealing requirements across various industries.",
       "image": "/FZC Inmarco Product Shoot/HY 175/HY 175 - 64(13)_13.JPG",
       "specifications": {
-        "Temperature Range": "-60°C to +240°C",
-        "Pressure Rating": "Up to 100 bar",
-        "pH Range": "4-10",
-        "Speed Limit": "15 m/s",
-        "Density": "1.5-1.7 g/cm³",
-        "temperature": "-200 to 280",
-        "pressure": "150 / 200 / 350",
-        "pH": "3-14"
+        "byEquipmentType": {
+          "rotating": {
+            "pressure": "150 bar",
+            "velocity": "25 m/s"
+          },
+          "reciprocating": {
+            "pressure": "200 bar",
+            "velocity": "35 m/s"
+          },
+          "static": {
+            "pressure": "350 bar",
+            "velocity": "---"
+          }
+        },
+        "common": {
+          "Temperature Range": "-200°C to 280°C",
+          "pH Range": "3-14",
+          "Size Range": "5 sq.mm to 50 sq.mm",
+          "Density": "1.5-1.7 g/cm³"
+        }
       },
       "technicalData": {
         "Construction": "Balanced hybrid fiber blend with standard lubricants",
@@ -843,7 +901,7 @@
         "Pressure Rating": "Up to 250 bar",
         "pH Range": "0-14",
         "Velocity": "Up to 25 m/s",
-        "Size Range": "3mm² to 50mm²",
+        "Size Range": "3sq.mm to 50sq.mm",
         "temperature": "-200 to +650",
         "pressure": "250",
         "pH": "0-14"
@@ -951,14 +1009,26 @@
       "description": "CG 100 is designed for general-purpose graphite sealing in standard industrial environments. Offers balanced performance and cost for routine sealing applications across various industries.",
       "image": "/FZC Inmarco Product Shoot/CG 100/CG 100 - 52(26)_01.JPG",
       "specifications": {
-        "Temperature Range": "-100°C to +550°C",
-        "Pressure Rating": "Up to 250 bar",
-        "pH Range": "0-14",
-        "Speed Limit": "18 m/s",
-        "Density": "1.1-1.3 g/cm³",
-        "temperature": "-200 to +650 (2700°C in non oxidizing media)",
-        "pressure": "35",
-        "pH": "0-14"
+        "byEquipmentType": {
+          "rotating": {
+            "pressure": "35 bar",
+            "velocity": "20 m/s"
+          },
+          "reciprocating": {
+            "pressure": "80 bar",
+            "velocity": "10 m/s"
+          },
+          "static": {
+            "pressure": "100 bar",
+            "velocity": "---"
+          }
+        },
+        "common": {
+          "Temperature Range": "-200°C to +650°C (2700°C in non oxidizing media)",
+          "pH Range": "0-14",
+          "Size Range": "3 sq.mm to 50 sq.mm",
+          "Density": "1.1-1.3 g/cm³"
+        }
       },
       "technicalData": {
         "Construction": "Flexible graphite with carbon fiber reinforcement",
@@ -1055,7 +1125,7 @@
       "specifications": {
         "Temperature Range": "Up to 1260°C",
         "pH Range": "2-12",
-        "Size Range": "3mm² to 50mm²",
+        "Size Range": "3sq.mm to 50sq.mm",
         "temperature": "1260",
         "pH": "2-12"
       },
@@ -1109,7 +1179,7 @@
       "specifications": {
         "Temperature Range": "Up to 1260°C",
         "pH Range": "2-12",
-        "Size Range": "3mm² to 50mm²",
+        "Size Range": "3sq.mm to 50sq.mm",
         "temperature": "-240 to +260",
         "pressure": "300",
         "pH": "0-14"
@@ -1211,14 +1281,26 @@
       "description": "HY 120AR is an aramid-reinforced vegetable fiber packing offering superior mechanical strength and abrasion resistance. Engineered for demanding services requiring enhanced durability and load-bearing capacity.",
       "image": "/FZC Inmarco Product Shoot/HY 120AR/HY 120AR.png",
       "specifications": {
-        "Temperature Range": "-80°C to +280°C",
-        "Pressure Rating": "Up to 180 bar",
-        "pH Range": "3-11",
-        "Speed Limit": "20 m/s",
-        "Density": "1.6-1.8 g/cm³",
-        "temperature": "-40 to 150",
-        "pressure": "50 / 100 / 200",
-        "pH": "4-10"
+        "byEquipmentType": {
+          "rotating": {
+            "pressure": "50 bar",
+            "velocity": "10 m/s"
+          },
+          "reciprocating": {
+            "pressure": "100 bar",
+            "velocity": "2 m/s"
+          },
+          "static": {
+            "pressure": "200 bar",
+            "velocity": "---"
+          }
+        },
+        "common": {
+          "Temperature Range": "-40°C to 150°C",
+          "pH Range": "4-10",
+          "Size Range": "3 sq.mm to 35 sq.mm",
+          "Density": "1.6-1.8 g/cm³"
+        }
       },
       "technicalData": {
         "Construction": "Aramid fiber core with PTFE and graphite coating",
@@ -1308,14 +1390,11 @@
       "description": "CG 900 delivers exceptional performance in extreme operating conditions utilizing advanced flexible graphite technology. Engineered for high-temperature, high-pressure applications requiring the ultimate in sealing reliability.",
       "image": "/FZC Inmarco Product Shoot/CG 900/CG 900 - 32_16.JPG",
       "specifications": {
-        "Temperature Range": "-240°C to +650°C",
-        "Pressure Rating": "Up to 400 bar",
+        "Temperature Range": "-200°C to +650°C",
+        "Pressure Rating": "500 bar",
         "pH Range": "0-14",
-        "Speed Limit": "25 m/s",
-        "Density": "1.3-1.5 g/cm³",
-        "temperature": "-200 to +650",
-        "pressure": "500",
-        "pH": "0-14"
+        "Size Range": "3 sq.mm to 50 sq.mm",
+        "Density": "1.3-1.5 g/cm³"
       },
       "technicalData": {
         "Construction": "Ultra-pure flexible graphite with specialty alloy reinforcement",
@@ -1411,14 +1490,26 @@
       "description": "CG 503 provides clean, low-friction carbon graphite sealing specifically engineered for control valve applications. High-purity grade ensures minimal contamination in sensitive processes.",
       "image": "/FZC Inmarco Product Shoot/CG 503/91(34)_03.JPG",
       "specifications": {
-        "Temperature Range": "-200°C to +600°C",
-        "Pressure Rating": "Up to 280 bar",
-        "pH Range": "0-14",
-        "Speed Limit": "20 m/s",
-        "Density": "1.2-1.4 g/cm³",
-        "temperature": "-250 to +650",
-        "pressure": "500",
-        "pH": "0-14"
+        "byEquipmentType": {
+          "rotating": {
+            "pressure": "500 bar",
+            "velocity": "---"
+          },
+          "reciprocating": {
+            "pressure": "500 bar",
+            "velocity": "---"
+          },
+          "static": {
+            "pressure": "500 bar",
+            "velocity": "---"
+          }
+        },
+        "common": {
+          "Temperature Range": "-250°C to +650°C",
+          "pH Range": "0-14",
+          "Size Range": "3 sq.mm to 50 sq.mm",
+          "Density": "1.2-1.4 g/cm³"
+        }
       },
       "technicalData": {
         "Construction": "High-purity expanded graphite with corrosion-resistant wire",
@@ -1564,14 +1655,26 @@
       "description": "CG 501C is a premium carbon graphite packing optimized for centrifugal and rotary pump sealing applications. Engineered to deliver superior performance with minimal product contamination for sensitive processes.",
       "image": "/FZC Inmarco Product Shoot/CG 503/91(34)_03.JPG",
       "specifications": {
-        "Temperature Range": "-150°C to +550°C",
-        "Pressure Rating": "Up to 220 bar",
-        "pH Range": "0-14",
-        "Speed Limit": "18 m/s",
-        "Density": "1.1-1.3 g/cm³",
-        "temperature": "-200 to +650 (2750°C in Non Oxidizing media)",
-        "pressure": "150",
-        "pH": "0-14"
+        "byEquipmentType": {
+          "rotating": {
+            "pressure": "150 bar",
+            "velocity": "25 m/s"
+          },
+          "reciprocating": {
+            "pressure": "300 bar",
+            "velocity": "20 m/s"
+          },
+          "static": {
+            "pressure": "350 bar",
+            "velocity": "---"
+          }
+        },
+        "common": {
+          "Temperature Range": "-200°C to +650°C (2750°C in Non Oxidizing media)",
+          "pH Range": "0-14",
+          "Size Range": "6 sq.mm to 50 sq.mm",
+          "Density": "1.1-1.3 g/cm³"
+        }
       },
       "technicalData": {
         "Construction": "Clean-service flexible graphite with minimal binder",
@@ -1840,7 +1943,7 @@
         "pH Range": "0-14",
         "Temperature Range": "-196°C to +600°C",
         "Pressure Rating": "500 bar",
-        "Size Range": "3mm² - 25.4mm²",
+        "Size Range": "3sq.mm - 25.4sq.mm",
         "temperature": "-240 to +650°C",
         "pressure": "500",
         "pH": "0 - 14"
@@ -2853,7 +2956,7 @@
         "Density": "1.69 - 1.9 g/cm³",
         "Compressibility": "7 - 17%",
         "Recovery": "≥40%",
-        "Tensile Strength": "≥7 N/mm²",
+        "Tensile Strength": "≥7 N/sq.mm",
         "temperature": "200°C",
         "pressure": "50 bar"
       },
@@ -2905,7 +3008,7 @@
         "Density": "1.60 - 1.90 g/cm³",
         "Compressibility": "7 - 17%",
         "Recovery": "≥50%",
-        "Tensile Strength": "≥9.50 N/mm²",
+        "Tensile Strength": "≥9.50 N/sq.mm",
         "temperature": "300°C",
         "pressure": "80 bar"
       },
@@ -2956,7 +3059,7 @@
         "Density": "1.69 - 1.9 g/cm³",
         "Compressibility": "6 - 14%",
         "Recovery": "≥50%",
-        "Tensile Strength": "≥10.5 N/mm²",
+        "Tensile Strength": "≥10.5 N/sq.mm",
         "temperature": "350°C",
         "pressure": "100 bar"
       },
@@ -3008,7 +3111,7 @@
         "Density": "1.6 - 1.9 g/cm³",
         "Compressibility": "5 - 15%",
         "Recovery": "≥50%",
-        "Tensile Strength": "≥10.5 N/mm²",
+        "Tensile Strength": "≥10.5 N/sq.mm",
         "temperature": "450°C",
         "pressure": "120 bar"
       },
@@ -3060,7 +3163,7 @@
         "Density": "1.70 - 2.0 g/cm³",
         "Compressibility": "7 - 17%",
         "Recovery": "≥40%",
-        "Tensile Strength": "≥13.7 N/mm²",
+        "Tensile Strength": "≥13.7 N/sq.mm",
         "temperature": "400°C",
         "pressure": "120 bar"
       },
@@ -3255,7 +3358,7 @@
         "Temperature Range": "-200°C to +450°C",
         "pH Range": "0-14",
         "Pressure": "500 BAR",
-        "Size Range": "6.5mm² to 50mm²"
+        "Size Range": "6.5sq.mm to 50sq.mm"
       },
       "technicalData": {
         "Material": "Reinforced copolymer yarn with inorganic filaments",
@@ -3305,7 +3408,7 @@
       "specifications": {
         "Temperature Range": "-200°C to +650°C",
         "pH Range": "0-14",
-        "Size Range": "6.5mm² to 50mm²"
+        "Size Range": "6.5sq.mm to 50sq.mm"
       },
       "technicalData": {
         "Material": "Hybrid blend of Carbon fiber, Volcanic rock fiber, and Alumino Silicate fiber",
