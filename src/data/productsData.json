@@ -2942,6 +2942,94 @@
     },
     {
       "id": 62,
+      "categoryId": 5,
+      "name": "Pressure Seal Ring",
+      "slug": "pressure-seal-ring",
+      "material": "PRESSURE SEAL METAL",
+      "apiCertified": false,
+      "shortDescription": "Self-energizing metal gaskets for extreme pressure",
+      "description": "High-performance pressure seal ring gaskets designed for extreme pressure applications. The unique self-energizing design uses internal pressure to enhance sealing capability, making them ideal for valve bonnets and pressure vessels.",
+      "image": "/FZC Inmarco Product Shoot/Pressure Seal Ring/pressure-seal-metal-gasket-857-gigapixel-standard-scale-2_00x.jpg",
+      "specifications": {
+        "Temperature Range": "-200°C to +600°C",
+        "Pressure Rating": "Up to 1500 bar",
+        "Material Options": "SS304, SS316, Inconel, Monel"
+      },
+      "technicalData": {
+        "Construction": "Solid metal ring with pressure-energized design",
+        "Size Range": "1/2\" to 48\" all ANSI/DIN classes",
+        "Standard": "ASME B16.20, API 6A"
+      },
+      "features": [
+        "Self-energizing design increases sealing with pressure",
+        "Excellent performance in high-pressure applications",
+        "Ideal for valve bonnet and pressure vessel applications",
+        "Superior resistance to blowout",
+        "Reusable and cost-effective for long-term service",
+        "No filler material required for extreme conditions"
+      ],
+      "applications": [
+        "Valve bonnets",
+        "Pressure vessels",
+        "High-pressure steam systems",
+        "Oil and gas wellhead equipment",
+        "Power generation equipment",
+        "Chemical processing under extreme pressure"
+      ],
+      "gallery": [],
+      "images": [],
+      "datasheet": "/datasheets/generated_html/Pressure_Seal_Ring.html"
+    },
+    {
+      "id": 63,
+      "categoryId": 5,
+      "name": "Spiral Wound Gasket",
+      "slug": "spiral-wound-gasket",
+      "material": "SPIRAL WOUND METAL",
+      "apiCertified": false,
+      "shortDescription": "Industry-standard spiral wound gaskets with excellent resilience",
+      "description": "Premium spiral wound gaskets featuring alternating layers of V-shaped metal winding and soft filler material. The industry standard for high-temperature and high-pressure flange sealing, offering excellent resilience and recovery.",
+      "image": "/FZC Inmarco Product Shoot/Spiral Wound Gasket/Spiral Gasket_1_1.png",
+      "specifications": {
+        "Temperature Range": "-200°C to +1000°C",
+        "Pressure Rating": "Up to 600 bar",
+        "Material Options": "SS304, SS316, Inconel winding with Graphite/PTFE filler"
+      },
+      "technicalData": {
+        "Construction": "V-shaped metal winding with soft filler material",
+        "Size Range": "1/2\" to 120\" all ANSI/DIN classes",
+        "Standard": "ASME B16.20"
+      },
+      "features": [
+        "Excellent resilience and recovery properties",
+        "Industry-standard design proven across applications",
+        "Available with inner and outer guide rings",
+        "Superior performance in thermal cycling conditions",
+        "Low bolt load requirements reduce flange stress",
+        "Wide range of winding and filler material combinations"
+      ],
+      "applications": [
+        "Oil and gas pipeline flanges",
+        "Chemical processing equipment",
+        "Refineries and petrochemical plants",
+        "Power generation equipment",
+        "Heat exchangers",
+        "High-temperature steam systems"
+      ],
+      "gallery": [
+        "/FZC Inmarco Product Shoot/Spiral Wound Gasket/Spiral Gasket_1_1.png",
+        "/FZC Inmarco Product Shoot/Spiral Wound Gasket/Spiral Gasket_2_2.png",
+        "/FZC Inmarco Product Shoot/Spiral Wound Gasket/Spiral Gasket_3_2.png"
+      ],
+      "images": [
+        "/FZC Inmarco Product Shoot/Spiral Wound Gasket/Spiral Gasket_1_1.png",
+        "/FZC Inmarco Product Shoot/Spiral Wound Gasket/Spiral Gasket_2_2.png",
+        "/FZC Inmarco Product Shoot/Spiral Wound Gasket/Spiral Gasket_3_2.png"
+      ],
+      "datasheet": "/datasheets/generated_html/Spiral_Wound_Gasket.html"
+    },
+    {
+      "id": 64,
       "subcategoryId": 9,
       "name": "NA 432",
       "slug": "na-432",
