@@ -2,6 +2,24 @@
 // Next.js compatible version
 import { Client } from '@microsoft/microsoft-graph-client';
 import { ClientSecretCredential } from '@azure/identity';
+import fs from 'fs';
+import path from 'path';
+
+/**
+ * Gets the logo as base64 data URL for embedding in emails
+ */
+function getLogoBase64(): string {
+  try {
+    const logoPath = path.join(process.cwd(), 'public', 'inmarco-tagline-logo1.png');
+    const logoBuffer = fs.readFileSync(logoPath);
+    const logoBase64 = logoBuffer.toString('base64');
+    return `data:image/png;base64,${logoBase64}`;
+  } catch (error) {
+    console.error('Error reading logo file:', error);
+    // Fallback to external URL if file read fails
+    return 'https://inmarco.ae/inmarco-tagline-logo1.png';
+  }
+}
 
 /**
  * Creates and returns an authenticated Microsoft Graph client
@@ -42,12 +60,14 @@ async function sendCustomerConfirmation(client: any, formData: {
     partnership: 'Partnership Opportunities'
   };
 
+  // Get logo as base64 for email embedding
+  const logoSrc = getLogoBase64();
+
   const customerEmailBody = `
     <html>
       <body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: 0 auto;">
         <div style="background-color: #1a1918; padding: 30px; text-align: center;">
-          <img src="https://inmarco.ae/logo.png" alt="Inmarco FZC Logo" style="max-width: 200px; height: auto; margin-bottom: 10px;" />
-          <p style="color: #ffffff; margin: 10px 0 0 0; font-size: 14px;">Precision Sealing Solutions</p>
+          <img src="${logoSrc}" alt="Inmarco FZC Logo" style="max-width: 200px; height: auto; margin-bottom: 10px;" />
         </div>
 
         <div style="padding: 40px 30px; background-color: #ffffff;">

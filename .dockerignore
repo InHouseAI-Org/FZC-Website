@@ -50,3 +50,14 @@ DEPLOYMENT.md
 .editorconfig
 .eslintcache
 .prettierrc
+
+# Large files and generated content
+public/datasheets/pdf_output/
+*.mp4
+public/FZC Inmarco Product Shoot/Videos/
+/Products/
+/src/generated/prisma
+
+# SSH keys
+*.pem
+fzc-website.pem
