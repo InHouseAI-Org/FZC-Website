@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GM 300Z - Technical Datasheet</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        @page {
+            size: A4;
+            margin: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            color: #2b2a29;
+            background: white;
+            width: 210mm;
+            min-height: 297mm;
+            align-content: center;
+            margin: 0 auto;
+        }
+
+        /* Page 1 - Hero */
+        .page-1 {
+            width: 100%;
+            height: 290mm;
+            background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%);
+            position: relative;
+            overflow: hidden;
+            page-break-after: always;
+        }
+
+        .header {
+            padding: 20mm 15mm;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logo-section {
+            color: white;
+        }
+
+        .logo-section img {
+            height: 200px;
+            width: auto;
+        }
+
+        /* Hero section */
+        .hero-section {
+            position: relative;
+            margin-top: 10px;
+            height: 100%;
+            background-image: url('../../power.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to right, rgba(43, 42, 41, 0.95) 0%, rgba(43, 42, 41, 0.7) 50%, transparent 100%);
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 10;
+            padding: 35mm 15mm 0 15mm;
+            max-width: 150mm;
+        }
+
+        .red-accent {
+            width: 50mm;
+            height: 4px;
+            background: #e31e24;
+            margin-bottom: 10mm;
+        }
+
+        .product-name {
+            font-size: 52pt;
+            font-weight: 700;
+            color: white;
+            margin-bottom: 6mm;
+            letter-spacing: -1.5px;
+            line-height: 1.1;
+        }
+
+        .product-tagline {
+            font-size: 16pt;
+            color: #ffffff;
+            max-width: 140mm;
+            line-height: 1.5;
+            font-weight: 300;
+        }
+
+        /* Page 2 - Technical Details */
+        .page-2 {
+            width: 100%;
+            height: 290mm;
+            background: white;
+            position: relative;
+            page-break-after: always;
+        }
+
+        /* Page 3 - Properties */
+        .page-3 {
+            width: 100%;
+            height: 290mm;
+            background: white;
+            position: relative;
+            page-break-after: always;
+        }
+
+        /* Page 4 - Performance Benefits */
+        .page-4 {
+            width: 100%;
+            height: 290mm;
+            background: white;
+            position: relative;
+        }
+
+        .page-2-header {
+            background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%);
+            padding: 15mm;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .page-2-title {
+            font-size: 28pt;
+            font-weight: bold;
+        }
+
+        .content-section {
+            padding: 12mm 15mm;
+        }
+
+        .description-with-image {
+            display: flex;
+            gap: 10mm;
+            align-items: flex-start;
+            margin-bottom: 10mm;
+        }
+
+        .description-text {
+            flex: 1;
+        }
+
+        .description {
+            font-size: 10pt;
+            line-height: 1.6;
+            color: #333;
+            margin-bottom: 10mm;
+            text-align: justify;
+        }
+
+        .side-product-image {
+            flex-shrink: 0;
+        }
+
+        .product-image-container {
+            background: white;
+            border-radius: 5mm;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            border: 3px solid #e31e24;
+        }
+
+        .product-image-small {
+            width: 70mm;
+            height: 70mm;
+            border-radius: 4mm;
+            object-fit: contain;
+            display: block;
+        }
+
+        .section-divider {
+            height: 2px;
+            background: #e31e24;
+            margin: 8mm 0;
+        }
+
+        .features-grid {
+            display: flex;
+            gap: 10mm;
+            margin-bottom: 10mm;
+        }
+
+        .features-column {
+            flex: 1;
+        }
+
+        .features-column h3 {
+            font-size: 13pt;
+            color: #2b2a29;
+            margin-bottom: 5mm;
+            padding-bottom: 2mm;
+            border-bottom: 2px solid #e31e24;
+            font-weight: 600;
+        }
+
+        .feature-item {
+            display: flex;
+            margin-bottom: 4mm;
+            font-size: 9pt;
+            line-height: 1.5;
+        }
+
+        .bullet {
+            color: #e31e24;
+            font-weight: bold;
+            margin-right: 3mm;
+            font-size: 12pt;
+        }
+
+        .feature-text {
+            flex: 1;
+            color: #444;
+        }
+
+        /* Properties Table */
+        .properties-section {
+            background: #f5f5f5;
+            padding: 8mm;
+            border-radius: 3mm;
+            border-left: 4px solid #e31e24;
+            margin-bottom: 8mm;
+        }
+
+        .properties-section h3 {
+            font-size: 14pt;
+            color: #2b2a29;
+            margin-bottom: 5mm;
+        }
+
+        .properties-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .properties-table th {
+            background: #2b2a29;
+            color: white;
+            padding: 3mm;
+            text-align: left;
+            font-size: 9pt;
+            font-weight: 600;
+        }
+
+        .properties-table td {
+            padding: 2.5mm 3mm;
+            border-bottom: 1px solid #ddd;
+            font-size: 9pt;
+            color: #333;
+        }
+
+        .properties-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .properties-table td:first-child {
+            font-weight: 600;
+            color: #2b2a29;
+        }
+
+        /* Benefits Box */
+        .benefits-box {
+            background: linear-gradient(135deg, #e31e24 0%, #c41a20 100%);
+            color: white;
+            padding: 8mm;
+            border-radius: 3mm;
+            margin-bottom: 8mm;
+        }
+
+        .benefits-box h3 {
+            font-size: 14pt;
+            margin-bottom: 4mm;
+        }
+
+        .benefit-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 3mm;
+            font-size: 9pt;
+            line-height: 1.4;
+        }
+
+        .benefit-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .check-icon {
+            color: white;
+            font-weight: bold;
+            margin-right: 3mm;
+            font-size: 11pt;
+        }
+
+        /* Footer */
+        .footer {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: #2b2a29;
+            color: white;
+            padding: 8mm 15mm;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .company-info {
+            font-size: 7pt;
+            line-height: 1.6;
+        }
+
+        .company-name {
+            font-size: 10pt;
+            font-weight: bold;
+            margin-bottom: 2mm;
+            color: #e31e24;
+        }
+
+        .contact-info {
+            color: #ccc;
+        }
+
+        .disclaimer {
+            font-size: 6pt;
+            color: #888;
+            margin-top: 3mm;
+            max-width: 160mm;
+        }
+    </style>
+</head>
+<body>
+    <!-- Page 1 - Hero -->
+    <div class="page-1">
+        <div class="header">
+            <div class="logo-section">
+                <img src="../../../src/assets/inmarco-tagline-logo1.png" alt="INMARCO - Innovations in Fluid Sealing">
+            </div>
+        </div>
+
+        <div class="hero-section">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <div class="red-accent"></div>
+                <h1 class="product-name">GM 300Z</h1>
+                <p class="product-tagline">High-Purity Graphite Molded Rings for Valve Stem and Seat Sealing</p>
+            </div>
+                <div class="features-column">
+                    <h3>Service Media</h3>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">• Superheated steam</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">• Saturated steam</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">• Hydrocarbons</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">• Heat transfer fluids</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">• Fuel oil and lubricating oil</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">• Flue gases</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">• Hot dry ash</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">• Emissive fluids</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">• Chemicals and dyes</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">• Non-oxidizing liquids and gases</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">• Nuclear power generation process fluids</span>
+                    </div>
+                </div>
+        </div>
+        </div>
+
+    <!-- Page 2 - Technical Details -->
+    <div class="page-2">
+        <div class="page-2-header">
+            <div>
+                <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
+                <h2 class="page-2-title">GM 300Z</h2>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <div class="description-with-image">
+                <div class="description-text">
+                    <p class="description" style="margin-bottom: 0;">
+                        GM 300Zis a high-efficiency, ultra-low
+                oxidation, graphite-molded rings for valve stem and seat
+                sealing. Each ring is made from flexible graphite foil with
+                high purity (≥99.85%) and low detrimental material content. These
+                rings have oxidation inhibitors and advanced corrosion-resistant properties, meeting stringent nuclear industry
+                specifications. They are precisely sized, density-controlled, and free from binders, elastomers, or any
+                fillers.
+                    </p>
+
+                </div>
+
+                <div class="side-product-image">
+                    <div class="product-image-container">
+                        <img src="../../FZC%20Inmarco%20Product%20Shoot/GM%20300Z/GM%20300%20Z%20-28_10_2.png" alt="GM 300 / GM 300Z" class="product-image-small" onerror="this.style.display='none'">
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-divider"></div>
+
+            <div class="features-grid">
+                <div class="features-column">
+                    <h3>Key Features</h3>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Ultra-High PurityGraphite purity ≥99.85% with ultra-low sulfur content (typical batch specific values below 50 ppm)</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Nuclear Grade SpecificationDesigned for demanding nuclear sector valve applications where high purity and low sulfur are essential</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Built-in Oxidation InhibitorAdvanced oxidation-resistant properties for extended service life</span>
+                    </div>
+                </div>
+
+                <div class="features-column">
+                    <h3>Performance Advantages</h3>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Free from ContaminantsNo binders, elastomers, or fillers - precisely sized and density-controlled</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Excellent Thermal ConductivityAxial: 400W/mK; Radial: 6W/mK (at density 1.4g/cm³)</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Low Friction CoefficientCoefficient of friction to steel: 0.05 for smooth operation</span>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page 3 - Technical Properties and Performance Benefits -->
+    <div class="page-3">
+        <div class="page-2-header">
+            <div>
+                <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
+                <h2 class="page-2-title">Technical Specifications</h2>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <div class="features-column" style="margin-bottom: 10mm;">
+<div class="features-column">
+                    <h3>Certifications & Compliance</h3>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">• Graphite foil tested and certified as per Shell MESC SPE 85/203</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">• Oxidation performance verified using gravimetric analysis</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">• Typical oxidation rate: 2.6% weight loss per hour at 670°C for 4 hours</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">• EN 10204 Type 2.2 Material Certificate available upon request</span>
+                    </div>
+                </div>
+            </div>
+            <div class="properties-section">
+                <h3>Technical Properties</h3>
+                <table class="properties-table">
+                    <thead>
+                        <tr>
+                            <th>Property</th>
+                            <th>Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>pH Range</td>
+                            <td>0 - 14 (Universal)</td>
+                        </tr>
+                        <tr>
+                            <td>Maximum Temperature</td>
+                            <td>650°C</td>
+                        </tr>
+                        <tr>
+                            <td>Maximum Pressure</td>
+                            <td>250 bar</td>
+                        </tr>
+                        <tr>
+                            <td>Size</td>
+                            <td>According to chamber size</td>
+                        </tr>
+                        <tr>
+                            <td>Graphite Purity</td>
+                            <td>≥99.85%</td>
+                        </tr>
+                        <tr>
+                            <td>Density</td>
+                            <td>1.4 g/cm³</td>
+                        </tr>
+                        <tr>
+                            <td>Thermal Conductivity (Axial)</td>
+                            <td>400 W/mK</td>
+                        </tr>
+                        <tr>
+                            <td>Thermal Conductivity (Radial)</td>
+                            <td>6 W/mK</td>
+                        </tr>
+                        <tr>
+                            <td>Coefficient of Friction (to steel)</td>
+                            <td>0.05</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page 4 - Performance Benefits -->
+    <div class="page-4">
+        <div class="page-2-header">
+            <div>
+                <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
+                <h2 class="page-2-title">Performance Benefits</h2>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <div class="features-column" style="margin-bottom: 10mm;">
+<div class="features-column">
+                    <h3>Certifications & Compliance</h3>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">• Graphite foil tested and certified as per Shell MESC SPE 85/203</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">• Oxidation performance verified using gravimetric analysis</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">• Typical oxidation rate: 2.6% weight loss per hour at 670°C for 4 hours</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">• EN 10204 Type 2.2 Material Certificate available upon request</span>
+                    </div>
+                </div>
+            </div>
+            <div class="features-column" style="margin-bottom: 10mm;">
+<div class="features-column">
+                    <h3>Suitable For</h3>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Valve stem sealing systems</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Valve seat sealing systems</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Rising stem valves</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Rotary valves</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Class 150–1500 valves</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Higher pressure classes upon technical review</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="features-column" style="margin-bottom: 10mm;">
+<div class="features-column">
+                    <h3>Technical Specifications</h3>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Property | Value</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">pH Range | 0 – 14</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Maximum Temperature | 650°C</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Maximum Pressure | 250 bar</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Size Availability | According to chamber size</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Graphite Purity | ≥99.85%</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Sulfur Content | &lt; 300 ppm</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Chloride Content | ≤ 10 ppm</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Fluoride Content | ≤ 10 ppm</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Halogen Content | ≤ 40 ppm</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Density | 1.4 to 1.8 gm/cm³</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Oxidation Inhibitor | Built-in</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Construction | Flexible Graphite Molded Ring</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="features-column" style="margin-bottom: 10mm;">
+<div class="features-column">
+                    <h3>Thermal Properties</h3>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Property | Value</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Thermal Conductivity (Axial) | 400 W/mK</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Thermal Conductivity (Radial) | 6 W/mK</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Coefficient of Friction (Steel) | 0.05</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="benefits-box">
+                <h3>Performance Benefits</h3>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>Unique construction with high structural carbon filament reinforcement increases strength and enhanced seal-ability</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>Impregnated with proprietary high-therm graphite-based dispersion for superior performance</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>Inorganic passive corrosion inhibitor protects equipment from galvanic corrosion</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>Adapts easily to surface irregularities and conforms to stuffing box dimensions</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>Excellent dry run capabilities with smooth performance in demanding applications</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>Chemically inert, does not leach chemicals during operation maintaining safety standards</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer-content">
+                <div class="company-info">
+                    <div class="company-name">INMARCO FZC</div>
+                    <div class="contact-info">
+                        P.O. Box 120284, Sharjah Airport International Free Zone (SAIF-Zone), Sharjah, UAE<br>
+                        Tel: +971 6 5578378 | Fax: +971 6 5578948<br>
+                        Email: sales@inmarco.ae | Web: www.inmarco.ae
+                    </div>
+                    <div class="disclaimer">
+                        All information and recommendations given in this technical data sheet are correct to the best of our knowledge. However, because of the wide variety of application and operating conditions, we cannot derive the final conclusion. This above information can only serve as a guideline.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

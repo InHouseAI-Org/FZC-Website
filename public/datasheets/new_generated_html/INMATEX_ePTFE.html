@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> - Technical Datasheet</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        @page {
+            size: A4;
+            margin: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            color: #2b2a29;
+            background: white;
+            width: 210mm;
+            min-height: 297mm;
+            align-content: center;
+            margin: 0 auto;
+        }
+
+        /* Page 1 - Hero */
+        .page-1 {
+            width: 100%;
+            height: 290mm;
+            background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%);
+            position: relative;
+            overflow: hidden;
+            page-break-after: always;
+        }
+
+        .header {
+            padding: 20mm 15mm;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logo-section {
+            color: white;
+        }
+
+        .logo-section img {
+            height: 200px;
+            width: auto;
+        }
+
+        /* Hero section */
+        .hero-section {
+            position: relative;
+            margin-top: 10px;
+            height: 100%;
+            background-image: url('../../chemical.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to right, rgba(43, 42, 41, 0.95) 0%, rgba(43, 42, 41, 0.7) 50%, transparent 100%);
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 10;
+            padding: 35mm 15mm 0 15mm;
+            max-width: 150mm;
+        }
+
+        .red-accent {
+            width: 50mm;
+            height: 4px;
+            background: #e31e24;
+            margin-bottom: 10mm;
+        }
+
+        .product-name {
+            font-size: 52pt;
+            font-weight: 700;
+            color: white;
+            margin-bottom: 6mm;
+            letter-spacing: -1.5px;
+            line-height: 1.1;
+        }
+
+        .product-tagline {
+            font-size: 16pt;
+            color: #ffffff;
+            max-width: 140mm;
+            line-height: 1.5;
+            font-weight: 300;
+        }
+
+        /* Page 2 - Technical Details */
+        .page-2 {
+            width: 100%;
+            height: 290mm;
+            background: white;
+            position: relative;
+            page-break-after: always;
+        }
+
+        /* Page 3 - Properties */
+        .page-3 {
+            width: 100%;
+            height: 290mm;
+            background: white;
+            position: relative;
+            page-break-after: always;
+        }
+
+        /* Page 4 - Performance Benefits */
+        .page-4 {
+            width: 100%;
+            height: 290mm;
+            background: white;
+            position: relative;
+        }
+
+        .page-2-header {
+            background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%);
+            padding: 15mm;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .page-2-title {
+            font-size: 28pt;
+            font-weight: bold;
+        }
+
+        .content-section {
+            padding: 12mm 15mm;
+        }
+
+        .description-with-image {
+            display: flex;
+            gap: 10mm;
+            align-items: flex-start;
+            margin-bottom: 10mm;
+        }
+
+        .description-text {
+            flex: 1;
+        }
+
+        .description {
+            font-size: 10pt;
+            line-height: 1.6;
+            color: #333;
+            margin-bottom: 10mm;
+            text-align: justify;
+        }
+
+        .side-product-image {
+            flex-shrink: 0;
+        }
+
+        .product-image-container {
+            background: white;
+            border-radius: 5mm;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            border: 3px solid #e31e24;
+        }
+
+        .product-image-small {
+            width: 70mm;
+            height: 70mm;
+            border-radius: 4mm;
+            object-fit: contain;
+            display: block;
+        }
+
+        .section-divider {
+            height: 2px;
+            background: #e31e24;
+            margin: 8mm 0;
+        }
+
+        .features-grid {
+            display: flex;
+            gap: 10mm;
+            margin-bottom: 10mm;
+        }
+
+        .features-column {
+            flex: 1;
+        }
+
+        .features-column h3 {
+            font-size: 13pt;
+            color: #2b2a29;
+            margin-bottom: 5mm;
+            padding-bottom: 2mm;
+            border-bottom: 2px solid #e31e24;
+            font-weight: 600;
+        }
+
+        .feature-item {
+            display: flex;
+            margin-bottom: 4mm;
+            font-size: 9pt;
+            line-height: 1.5;
+        }
+
+        .bullet {
+            color: #e31e24;
+            font-weight: bold;
+            margin-right: 3mm;
+            font-size: 12pt;
+        }
+
+        .feature-text {
+            flex: 1;
+            color: #444;
+        }
+
+        /* Properties Table */
+        .properties-section {
+            background: #f5f5f5;
+            padding: 8mm;
+            border-radius: 3mm;
+            border-left: 4px solid #e31e24;
+            margin-bottom: 8mm;
+        }
+
+        .properties-section h3 {
+            font-size: 14pt;
+            color: #2b2a29;
+            margin-bottom: 5mm;
+        }
+
+        .properties-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .properties-table th {
+            background: #2b2a29;
+            color: white;
+            padding: 3mm;
+            text-align: left;
+            font-size: 9pt;
+            font-weight: 600;
+        }
+
+        .properties-table td {
+            padding: 2.5mm 3mm;
+            border-bottom: 1px solid #ddd;
+            font-size: 9pt;
+            color: #333;
+        }
+
+        .properties-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .properties-table td:first-child {
+            font-weight: 600;
+            color: #2b2a29;
+        }
+
+        /* Benefits Box */
+        .benefits-box {
+            background: linear-gradient(135deg, #e31e24 0%, #c41a20 100%);
+            color: white;
+            padding: 8mm;
+            border-radius: 3mm;
+            margin-bottom: 8mm;
+        }
+
+        .benefits-box h3 {
+            font-size: 14pt;
+            margin-bottom: 4mm;
+        }
+
+        .benefit-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 3mm;
+            font-size: 9pt;
+            line-height: 1.4;
+        }
+
+        .benefit-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .check-icon {
+            color: white;
+            font-weight: bold;
+            margin-right: 3mm;
+            font-size: 11pt;
+        }
+
+        /* Footer */
+        .footer {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: #2b2a29;
+            color: white;
+            padding: 8mm 15mm;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .company-info {
+            font-size: 7pt;
+            line-height: 1.6;
+        }
+
+        .company-name {
+            font-size: 10pt;
+            font-weight: bold;
+            margin-bottom: 2mm;
+            color: #e31e24;
+        }
+
+        .contact-info {
+            color: #ccc;
+        }
+
+        .disclaimer {
+            font-size: 6pt;
+            color: #888;
+            margin-top: 3mm;
+            max-width: 160mm;
+        }
+    </style>
+</head>
+<body>
+    <!-- Page 1 - Hero -->
+    <div class="page-1">
+        <div class="header">
+            <div class="logo-section">
+                <img src="../../../src/assets/inmarco-tagline-logo1.png" alt="INMARCO - Innovations in Fluid Sealing">
+            </div>
+        </div>
+
+        <div class="hero-section">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <div class="red-accent"></div>
+                <h1 class="product-name">INMATEX ePTFE</h1>
+                <p class="product-tagline">Expanded PTFE Textile for Superior Chemical Resistance and Sealing</p>
+            </div>
+                <div class="features-column">
+                    <h3>SERVICE MEDIA</h3>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Suitable for:</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Acids</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Alkalis</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Solvents</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Aggressive chemicals</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Process fluids</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Water</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Steam</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Industrial gases</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Corrosive chemical media</span>
+                    </div>
+                </div>
+        </div>
+        </div>
+
+    <!-- Page 2 - Technical Details -->
+    <div class="page-2">
+        <div class="page-2-header">
+            <div>
+                <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
+                <h2 class="page-2-title">INMATEX ePTFE</h2>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <div class="description-with-image">
+                <div class="description-text">
+                    <p class="description" style="margin-bottom: 0;">
+                        INMATEX Expanded PTFE (ePTFE) Sheet / Gasketwith exceptional malleability for extreme operating conditions.With exceptionally uniform density and highly fibrillated micro structure (no unexpanded nodes), INMATEX multi-directional expanded PTFE (ePTFE)
+                sheet/gasket has excellent resistance to pressure, creep relaxation, cold flow. It is
+                made of 100% virgin PTFE. It is extremely soft but tough and highly compressible.
+                It is non-staining and non-contaminating and one of the highest resistance to
+                aggressive media, best in-class reliability as to seal flange joints and piping
+                equipments.
+                    </p>
+
+                </div>
+
+                <div class="side-product-image">
+                    <div class="product-image-container">
+                        <img src="../../FZC%20Inmarco%20Product%20Shoot/Inmatex%20PTFE%20Gasket/Inmatex%20PTFE%20Gasket_2.png" alt="INMATEX EPTFE SHEET/GASKET" class="product-image-small" onerror="this.style.display='none'">
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-divider"></div>
+
+            <div class="features-grid">
+                <div class="features-column">
+                    <h3>Key Features</h3>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">100% Virgin PTFEMulti-directional expanded PTFE with very high malleability, withstand temperature -232°C to +315°C (peak)</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">High Creep ResistanceExcellent resistance to creep relaxation and cold flow</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Enhanced LightnessEnhanced and incredible lightness for easy handling</span>
+                    </div>
+                </div>
+
+                <div class="features-column">
+                    <h3>Performance Advantages</h3>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">No Aging or HardeningIndefinite shelf life with extreme chemical compatibility</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Broad Pressure RangeFull vacuum to 3000 PSI pressure range capability</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Increased Flange LifeSignificantly reduces maintenance cost and downtime - Greater reliability and operational excellence</span>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+            <div class="benefits-box">
+                <h3>PERFORMANCE ADVANTAGES</h3>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>Best-in-class sealing reliability for flange joints and piping equipment</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>High bolt load retention capability</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>Enhanced gasket tightness under fluctuating operating conditions</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>Excellent dimensional stability throughout service life</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>Significantly reduces maintenance requirements and downtime</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>Improves flange protection and extends flange service life</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>Suitable for vacuum as well as high-pressure applications</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>Compatible with most aggressive chemicals and process media</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>RoHS and REACH compliant</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>Supports improved plant reliability and operational efficiency</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Page 3) - Technical Properties and Performance Benefits -->
+    <div class="page-3">
+        <div class="page-2-header">
+            <div>
+                <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
+                <h2 class="page-2-title">Technical Specifications</h2>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <div class="properties-section">
+                <h3>Technical Properties</h3>
+                <table class="properties-table">
+                    <thead>
+                        <tr>
+                            <th>Property</th>
+                            <th>Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Temperature Range (Peak)</td>
+                            <td>-232°C to +315°C</td>
+                        </tr>
+                        <tr>
+                            <td>Temperature Range (Service)</td>
+                            <td>-232°C to +260°C</td>
+                        </tr>
+                        <tr>
+                            <td>Pressure</td>
+                            <td>Vacuum to 200 Kg/cm²</td>
+                        </tr>
+                        <tr>
+                            <td>pH Range</td>
+                            <td>0-14 (Universal)</td>
+                        </tr>
+                        <tr>
+                            <td>Colour</td>
+                            <td>White</td>
+                        </tr>
+                        <tr>
+                            <td>Density</td>
+                            <td>0.8 gm/cc (±0.1)</td>
+                        </tr>
+                        <tr>
+                            <td>Thickness</td>
+                            <td>0.5 mm to 6 mm</td>
+                        </tr>
+                        <tr>
+                            <td>m-factor</td>
+                            <td>2.0</td>
+                        </tr>
+                        <tr>
+                            <td>y-factor</td>
+                            <td>3730 PSI</td>
+                        </tr>
+                        <tr>
+                            <td>Compressibility</td>
+                            <td>60 to 70%</td>
+                        </tr>
+                        <tr>
+                            <td>Recovery</td>
+                            <td>12 to 20%</td>
+                        </tr>
+                        <tr>
+                            <td>Residual Stress</td>
+                            <td>25.6 MPa</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page 4 - Performance Benefits -->
+    <div class="page-4">
+        <div class="page-2-header">
+            <div>
+                <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
+                <h2 class="page-2-title">Performance Benefits</h2>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <div class="features-column" style="margin-bottom: 10mm;">
+<div class="features-column">
+                    <h3>TEMPERATURE & PRESSURE LIMITS</h3>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Property | Value</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Service Temperature | -232°C to +260°C</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Peak Temperature | -232°C to +315°C</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Pressure Range | Full Vacuum to 200 kg/cm²</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="features-column" style="margin-bottom: 10mm;">
+<div class="features-column">
+                    <h3>CHEMICAL COMPATIBILITY</h3>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">INMATEX ePTFE demonstrates exceptional resistance to:</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Strong acids</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Strong alkalis</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Solvents</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Hydrocarbons</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Process chemicals</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Corrosive media</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Industrial gases</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Water and wastewater services</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Not recommended for:</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Elemental fluorine</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Molten alkali metals</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="features-column" style="margin-bottom: 10mm;">
+<div class="features-column">
+                    <h3>STANDARD AVAILABILITY</h3>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Description | Availability</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Sheet Thickness | 0.5 mm to 6 mm</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Dimensions | Metric and Imperial Sizes Available</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Gasket Form | Custom-Cut Gaskets Available</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="features-column" style="margin-bottom: 10mm;">
+<div class="features-column">
+                    <h3>TYPICAL APPLICATIONS</h3>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Flange joints</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Chemical process piping</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Fume duct systems</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Heat exchangers</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Glass-lined equipment</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Fiberglass reinforced plastic (FRP) vessels</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Pump housing flanges</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Compressor housing flanges</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Steam vessel flanges</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Manhole covers</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Concrete lids</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Ceramic joints</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Hydraulic systems</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Pneumatic systems</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Water treatment systems</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Ventilation ducts</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Fan housings</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="benefits-box">
+                <h3>Performance Benefits</h3>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>Unique construction with high structural carbon filament reinforcement increases strength and enhanced seal-ability</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>Impregnated with proprietary high-therm graphite-based dispersion for superior performance</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>Inorganic passive corrosion inhibitor protects equipment from galvanic corrosion</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>Adapts easily to surface irregularities and conforms to stuffing box dimensions</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>Excellent dry run capabilities with smooth performance in demanding applications</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>Chemically inert, does not leach chemicals during operation maintaining safety standards</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer-content">
+                <div class="company-info">
+                    <div class="company-name">INMARCO FZC</div>
+                    <div class="contact-info">
+                        P.O. Box 120284, Sharjah Airport International Free Zone (SAIF-Zone), Sharjah, UAE<br>
+                        Tel: +971 6 5578378 | Fax: +971 6 5578948<br>
+                        Email: sales@inmarco.ae | Web: www.inmarco.ae
+                    </div>
+                    <div class="disclaimer">
+                        All information and recommendations given in this technical data sheet are correct to the best of our knowledge. However, because of the wide variety of application and operating conditions, we cannot derive the final conclusion. This above information can only serve as a guideline.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

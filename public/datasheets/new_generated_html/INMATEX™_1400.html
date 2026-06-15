@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INMATEX™ 1400 - Technical Datasheet</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        @page { size: A4 portrait; margin: 0; }
+        @media print { body { margin: 0; padding: 0; } .product-image-container { box-shadow: none !important; } }
+        html { margin: 0; padding: 0; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; color: #2b2a29; background: white; width: 210mm; min-height: 290mm; margin: 0; padding: 0; }
+        .page-1 { width: 210mm; height: 290mm; background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%); position: relative; overflow: hidden; page-break-after: always; }
+        .header { padding: 20mm 15mm; display: flex; justify-content: center; align-items: center; }
+        .logo-section { color: white; }
+        .logo-section img { height: 200px; width: auto; }
+        .hero-section { position: relative; margin-top: 10px; height: 100%; background-image: url('../../oil and gas.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; }
+        .hero-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to right, rgba(43, 42, 41, 0.95) 0%, rgba(43, 42, 41, 0.7) 50%, transparent 100%); }
+        .hero-content { position: relative; z-index: 10; padding: 35mm 15mm 0 15mm; max-width: 150mm; }
+        .red-accent { width: 50mm; height: 4px; background: #e31e24; margin-bottom: 10mm; }
+        .product-name { font-size: 52pt; font-weight: 700; color: white; margin-bottom: 6mm; letter-spacing: -1.5px; line-height: 1.1; }
+        .product-tagline { font-size: 16pt; color: #ffffff; max-width: 140mm; line-height: 1.5; font-weight: 300; }
+        .page-2, .page-3, .page-4 { width: 210mm; height: 290mm; background: white; position: relative; page-break-after: always; }
+        .page-4 { page-break-after: auto; }
+        .page-2-header { background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%); padding: 12mm 15mm; color: white; display: flex; justify-content: space-between; align-items: center; }
+        .page-2-title { font-size: 28pt; font-weight: bold; }
+        .content-section { padding: 10mm 15mm; }
+        .description { font-size: 10pt; line-height: 1.5; color: #333; margin-bottom: 0; text-align: justify; }
+
+        .description-with-image {
+            margin-bottom: 6mm;
+            overflow: auto;
+        }
+
+        .description-text {
+            display: block;
+        }
+
+        .side-product-image {
+            float: right;
+            margin-left: 5mm;
+            margin-bottom: 5mm;
+            margin-right: 0;
+            width: 60mm;
+        }
+
+        .product-image-container {
+            background: white;
+            border-radius: 5mm;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            border: 3px solid #e31e24;
+        }
+
+        .product-image-small {
+            height: 50mm;
+            width: 100%;
+            border-radius: 4mm;
+            object-fit: cover;
+            display: block;
+        }
+
+        .section-divider { height: 2px; background: #e31e24; margin: 5mm 0; }
+        .features-grid { display: flex; gap: 10mm; margin-bottom: 0; }
+        .features-column { flex: 1; }
+        .features-column h3 { font-size: 12pt; color: #2b2a29; margin-bottom: 3mm; padding-bottom: 2mm; border-bottom: 2px solid #e31e24; font-weight: 600; }
+        .feature-item { display: flex; margin-bottom: 1mm; font-size: 8.5pt; line-height: 1.4; }
+        .bullet { color: #e31e24; font-weight: bold; margin-right: 3mm; font-size: 8pt; margin-top: 0.8mm; }
+        .feature-text { flex: 1; color: #444; }
+        .benefits-box { background: linear-gradient(135deg, #e31e24 0%, #c41a20 100%); color: white; padding: 8mm; border-radius: 3mm; margin-bottom: 8mm; }
+        .benefits-box h3 { font-size: 14pt; margin-bottom: 4mm; }
+        .benefit-item { display: flex; align-items: flex-start; margin-bottom: 3mm; font-size: 9pt; line-height: 1.4; }
+        .benefit-item:last-child { margin-bottom: 0; }
+        .check-icon { color: white; font-weight: bold; margin-right: 3mm; font-size: 11pt; }
+        .tech-specs-section { margin-top: 5mm; }
+        .tech-specs-section h3 { font-size: 12pt; color: #2b2a29; margin-bottom: 3mm; padding-bottom: 2mm; border-bottom: 2px solid #e31e24; font-weight: 600; }
+        .tech-table { width: 100%; border-collapse: collapse; font-size: 9pt; }
+        .tech-table thead { background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%); color: white; }
+        .tech-table th { padding: 3mm; text-align: left; font-weight: 600; border: 1px solid #ddd; }
+        .tech-table td { padding: 2.5mm; border: 1px solid #ddd; color: #444; }
+        .tech-table tbody tr:nth-child(even) { background-color: #f9f9f9; }
+        .footer { position: absolute; bottom: 0; left: 0; right: 0; background: #2b2a29; color: white; padding: 8mm 15mm; }
+        .footer-content { display: flex; justify-content: space-between; align-items: center; }
+        .company-info { font-size: 7pt; line-height: 1.6; }
+        .company-name { font-size: 10pt; font-weight: bold; margin-bottom: 2mm; color: #e31e24; }
+        .contact-info { color: #ccc; }
+        .disclaimer { font-size: 6pt; color: #888; margin-top: 3mm; max-width: 160mm; }
+    </style>
+</head>
+<body>
+    <div class="page-1">
+        <div class="header">
+            <div class="logo-section">
+                <img src="../../../src/assets/inmarco-tagline-logo1.png" alt="Inmarco - Innovations in Fluid Sealing">
+            </div>
+        </div>
+        <div class="hero-section">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <div class="red-accent"></div>
+                <h1 class="product-name">INMATEX™ 1400</h1>
+                <p class="product-tagline">Expanded PTFE Sheet for High-Integrity Flange Sealing</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-2">
+        <div class="page-2-header">
+            <div>
+                <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
+                <h2 class="page-2-title">INMATEX™ 1400</h2>
+            </div>
+        </div>
+        <div class="content-section">
+            <div class="description-with-image">
+                <div class="side-product-image">
+                    <div class="product-image-container">
+                        <img src="../../FZC%20Inmarco%20Product%20Shoot/Rigid%20FTFE/Rigid%20FTFE_3.png" alt="INMATEX™ 1400" class="product-image-small" onerror="this.style.display='none'">
+                    </div>
+                </div>
+
+                <div class="description-text">
+                    <p class="description">Inmarco INMATEX™ TYPE 1400 is a premium expanded PTFE sheet manufactured from 100% virgin Polytetrafluoroethylene (PTFE) using an advanced expansion process.<br><br>The material is soft, flexible, and highly resilient, allowing excellent compressibility and conformance to flange sealing surfaces.The sheet exhibits outstanding resistance to creep, hot flow, and cold flow while maintaining excellent sealing performance under low bolt loads.<br><br>Its unique expanded PTFE structure provides superior permeation resistance, emission control, and long-term sealing reliability across a wide range of chemical and industrial applications.INMATEX™ 1400 withstands compressive loads exceeding 1650 bar, making it suitable for demanding sealing applications involving fragile and non-metallic flanges.</p>
+                </div>
+            </div>
+            <div class="section-divider"></div>
+            <div class="features-grid">
+                <div class="features-column">
+                    <h3>Key Features</h3>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Manufactured from 100% Virgin PTFE with ultra-high molecular weight fine resin</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Highly expanded structure provides exceptional flexibility and compressibility</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Excellent conformity to irregular flange sealing surfaces</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Resistant to creep, hot flow, and cold flow</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">High sealing performance with minimum bolt torque</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Easy installation resulting in reduced downtime</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Excellent permeation and emission resistance</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Withstands compressive loads above 1650 bar</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Chemically inert and suitable for a broad range of aggressive media</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Suitable for fragile and sensitive flange materials</span></div>
+                </div>
+                <div class="features-column">
+                    <h3>Applications</h3>
+                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Glass-lined equipment flanges</span></div>
+                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">FRP (Fiberglass Reinforced Plastic) flanges</span></div>
+                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Ceramic flanges and joints</span></div>
+                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Plastic piping systems</span></div>
+                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Lined pipe joints</span></div>
+                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Chemical process equipment</span></div>
+                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Acid and alkali handling systems</span></div>
+                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">HCL processing plants</span></div>
+                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">PVC manufacturing facilities</span></div>
+                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Nuclear industry applications</span></div>
+                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">General industrial fluid and gas sealing services</span></div>
+                </div>
+            </div>
+            <div class="tech-specs-section">
+                <h3>Technical Properties</h3>
+                <table class="tech-table">
+                    <thead>
+                        <tr>
+                            <th>Property</th>
+                            <th>Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Material</td>
+                            <td>100% PTFE (Polytetrafluoroethylene)</td>
+                        </tr>
+                        <tr>
+                            <td>Resin Type</td>
+                            <td>Ultra High Molecular Weight Fine Resin</td>
+                        </tr>
+                        <tr>
+                            <td>Fillers / Binders</td>
+                            <td>None</td>
+                        </tr>
+                        <tr>
+                            <td>Process</td>
+                            <td>Highly Expanded</td>
+                        </tr>
+                        <tr>
+                            <td>Colour</td>
+                            <td>White</td>
+                        </tr>
+                        <tr>
+                            <td>Thickness Tolerance</td>
+                            <td>±0.010"</td>
+                        </tr>
+                        <tr>
+                            <td>Temperature Range</td>
+                            <td>-267.77°C to +315.55°C</td>
+                        </tr>
+                        <tr>
+                            <td>Pressure Range</td>
+                            <td>Full Vacuum to 3000 PSI</td>
+                        </tr>
+                        <tr>
+                            <td>Chemical Compatibility</td>
+                            <td>pH 0 – 14</td>
+                        </tr>
+                        <tr>
+                            <td>Specific Gravity (ASTM D792)</td>
+                            <td>0.80 ± 0.10</td>
+                        </tr>
+                        <tr>
+                            <td>ASTM Testing</td>
+                            <td>Yes</td>
+                        </tr>
+                        <tr>
+                            <td>FSA Testing</td>
+                            <td>Yes</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-3">
+        <div class="page-2-header">
+            <div>
+                <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
+                <h2 class="page-2-title">INMATEX™ 1400</h2>
+            </div>
+        </div>
+        <div class="content-section">
+            <div class="features-column" style="margin-bottom: 10mm;">
+<div class="features-column">
+                    <h3>Physical Properties</h3>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Property | Test Method | Value</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Compressibility | ASTM F-36 | 66%</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Recovery | ASTM F-36 | 12%</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Creep Relaxation | ASTM F-38 | 38%</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Matrix Tensile Strength | ASTM F-152 | 2106 PSI</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Tensile Strength | ASTM F-152 | 5455 PSI</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Elongation | ASTM F-152 | 169.9%</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Tensile at Break Point | ASTM F-152 | 2632 PSI</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="features-column" style="margin-bottom: 10mm;">
+<div class="features-column">
+                    <h3>Sealability Data</h3>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Property | Value</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Sealability – Fuel A (Isooctane) ASTM F-37-B | 0.02 ml/hr</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Sealability – Fuel B (Nitrogen @ 60 psig) ASTM F-37-B | N/A</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="features-column" style="margin-bottom: 10mm;">
+<div class="features-column">
+                    <h3>Thermal Performance</h3>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Property | Value</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Hot Compression Test | 300°C</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Hot Loss | 70.9%</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Hot Creep | 17.5%</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="features-column" style="margin-bottom: 10mm;">
+<div class="features-column">
+                    <h3>FSA High Pressure Steam Test</h3>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Test Condition | Result</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">275°C @ 860 PSI for 561 Hours | Pass</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Weight Loss | 0.49%</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="benefits-box">
+                <h3>Performance Benefits</h3>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>PropertyValueHot Compression Test300°CHot Loss70.9%Hot Creep17.5%FSA High Pressure Steam TestTest ConditionResult275°C @ 860 PSI for 561 HoursPassWeight Loss0.49%Performance Benefits</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Exceptional compressibility for sealing irregular flange surfaces</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Excellent recovery characteristics for long-term sealing reliability</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Superior resistance to creep relaxation and cold flow</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>High tensile strength for enhanced durability and handling</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Excellent chemical resistance across the full pH range (0–14)</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Suitable for both liquid and gaseous media</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Low seating stress requirements reduce flange loading</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>High sealing efficiency with minimum installation torque</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Outstanding permeation and emission control</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Resistant to aging, hardening, and degradation during service</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Reliable performance under vacuum and high-pressure conditions</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Ideal for fragile flanges including glass, FRP, ceramic, plastic, and lined equipmentDISCLAIMERAll technical information, recommendations, and performance data provided in this technical datasheet are based on current knowledge, laboratory testing, and industrial experience. Actual product performance may vary depending on operating conditions, equipment design, installation practices, process media, pressure, temperature, and application environment. Final product selection and suitability should be determined by the user based on the specific service conditions and application requirements.</span></div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-content">
+                <div class="company-info">
+                    <div class="company-name">Inmarco FZC</div>
+                    <div class="contact-info">
+                        P.O. Box 120284, Sharjah Airport International Free Zone (SAIF-Zone), Sharjah, UAE<br>
+                        Tel: +971 6 5578378 | Fax: +971 6 5578948<br>
+                        Email: sales@inmarco.ae | Web: www.inmarco.ae
+                    </div>
+                    <div class="disclaimer">All technical information, recommendations, and performance data provided in this technical datasheet are based on current knowledge, laboratory testing, and/or industrial experience. Actual product performance may vary depending on operating conditions, equipment design, installation practices, process parameters. Final product selection and suitability should be determined by the user based on the specific service conditions and application requirements.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
