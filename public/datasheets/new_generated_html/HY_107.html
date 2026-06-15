@@ -39,7 +39,7 @@
 
         .header {
             padding: 20mm 15mm;
-            display: flex;
+            margin-bottom: 10mm;
             justify-content: center;
             align-items: center;
         }
@@ -122,7 +122,7 @@
             background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%);
             padding: 15mm;
             color: white;
-            display: flex;
+            margin-bottom: 10mm;
             justify-content: space-between;
             align-items: center;
         }
@@ -137,14 +137,11 @@
         }
 
         .description-with-image {
-            display: flex;
-            gap: 10mm;
-            align-items: flex-start;
             margin-bottom: 10mm;
         }
 
         .description-text {
-            flex: 1;
+            text-align: justify;
         }
 
         .description {
@@ -156,7 +153,9 @@
         }
 
         .side-product-image {
-            flex-shrink: 0;
+            float: right;
+            margin-left: 6mm;
+            margin-bottom: 4mm;
         }
 
         .product-image-container {
@@ -167,10 +166,10 @@
         }
 
         .product-image-small {
-            width: 70mm;
-            height: 70mm;
+            width: 85mm;
+            height: 55mm;
             border-radius: 4mm;
-            object-fit: contain;
+            object-fit: cover;
             display: block;
         }
 
@@ -181,13 +180,13 @@
         }
 
         .features-grid {
-            display: flex;
-            gap: 10mm;
+            margin-bottom: 10mm;
+            /* removed gap */
             margin-bottom: 10mm;
         }
 
         .features-column {
-            flex: 1;
+            text-align: justify;
         }
 
         .features-column h3 {
@@ -200,7 +199,7 @@
         }
 
         .feature-item {
-            display: flex;
+            margin-bottom: 10mm;
             margin-bottom: 4mm;
             font-size: 9pt;
             line-height: 1.5;
@@ -214,7 +213,7 @@
         }
 
         .feature-text {
-            flex: 1;
+            text-align: justify;
             color: #444;
         }
 
@@ -276,8 +275,8 @@
         }
 
         .benefit-item {
-            display: flex;
-            align-items: flex-start;
+            margin-bottom: 10mm;
+            /* removed align-items */
             margin-bottom: 3mm;
             font-size: 9pt;
             line-height: 1.4;
@@ -305,7 +304,7 @@
         }
 
         .footer-content {
-            display: flex;
+            margin-bottom: 10mm;
             justify-content: space-between;
             align-items: center;
         }
@@ -347,7 +346,7 @@
             font-size: 10pt;
             font-weight: 600;
             margin-bottom: 2mm;
-            display: flex;
+            margin-bottom: 10mm;
             align-items: center;
             gap: 2mm;
         }
@@ -425,16 +424,17 @@
 
         <div class="content-section">
             <div class="description-with-image">
-                <div class="description-text">
-                    <p class="description">HY 107 is a unique multi yarn packing designed for harsh applications having Aramid filament yarn at the corners and PTFE graphited yarn at the faces having core of Aramid filament.</p>
-                    <p class="description" style="margin-bottom: 0;">This packing provides low friction due to graphite lubricated PTFE faces but ensures resistance to abrasion with tough Aramid filament at the corner. These features contribute to its ability to deliver extended, leak-free performance. Whether in demanding industrial applications or critical sealing scenarios, this packing material ensures reliability and longevity.</p>
-                </div>
-
                 <div class="side-product-image">
                     <div class="product-image-container">
                         <img src="../../FZC%20Inmarco%20Product%20Shoot/HY%20107/HY%20107_1_2.png" alt="HY 107" class="product-image-small" onerror="this.style.display='none'">
                     </div>
                 </div>
+
+                <div class="description-text">
+                    <p class="description">HY 107 is a unique multi yarn packing designed for harsh applications having Aramid filament yarn at the corners and PTFE graphited yarn at the faces having core of Aramid filament.</p>
+                    <p class="description" style="margin-bottom: 0;">This packing provides low friction due to graphite lubricated PTFE faces but ensures resistance to abrasion with tough Aramid filament at the corner. These features contribute to its ability to deliver extended, leak-free performance. Whether in demanding industrial applications or critical sealing scenarios, this packing material ensures reliability and longevity.</p>
+                </div>
+            </div>
             </div>
 
             <div class="economical-notice">

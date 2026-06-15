@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> - Technical Datasheet</title>
+    <title>INMATEX ePTFE - Technical Datasheet</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
         * {
@@ -39,13 +39,14 @@
 
         .header {
             padding: 20mm 15mm;
-            display: flex;
+            margin-bottom: 10mm;
             justify-content: center;
             align-items: center;
         }
 
         .logo-section {
             color: white;
+            text-align: center;
         }
 
         .logo-section img {
@@ -128,13 +129,21 @@
             height: 290mm;
             background: white;
             position: relative;
+            page-break-after: always;
+        }
+
+        .page-5 {
+            width: 100%;
+            height: 290mm;
+            background: white;
+            position: relative;
         }
 
         .page-2-header {
             background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%);
             padding: 15mm;
             color: white;
-            display: flex;
+            margin-bottom: 10mm;
             justify-content: space-between;
             align-items: center;
         }
@@ -145,18 +154,15 @@
         }
 
         .content-section {
-            padding: 12mm 15mm;
+            padding: 5mm 15mm;
         }
 
         .description-with-image {
-            display: flex;
-            gap: 10mm;
-            align-items: flex-start;
             margin-bottom: 10mm;
         }
 
         .description-text {
-            flex: 1;
+            text-align: justify;
         }
 
         .description {
@@ -168,7 +174,9 @@
         }
 
         .side-product-image {
-            flex-shrink: 0;
+            float: right;
+            margin-left: 6mm;
+            margin-bottom: 4mm;
         }
 
         .product-image-container {
@@ -179,10 +187,10 @@
         }
 
         .product-image-small {
-            width: 70mm;
-            height: 70mm;
+            width: 85mm;
+            height: 55mm;
             border-radius: 4mm;
-            object-fit: contain;
+            object-fit: cover;
             display: block;
         }
 
@@ -192,18 +200,12 @@
             margin: 8mm 0;
         }
 
-        .features-grid {
-            display: flex;
-            gap: 10mm;
-            margin-bottom: 10mm;
-        }
+        .features-grid { display: flex; gap: 10mm; margin-bottom: 0; }
 
-        .features-column {
-            flex: 1;
-        }
+        .features-column { flex: 1; }
 
         .features-column h3 {
-            font-size: 13pt;
+            font-size: 12pt;
             color: #2b2a29;
             margin-bottom: 5mm;
             padding-bottom: 2mm;
@@ -211,69 +213,20 @@
             font-weight: 600;
         }
 
-        .feature-item {
-            display: flex;
-            margin-bottom: 4mm;
-            font-size: 9pt;
-            line-height: 1.5;
-        }
+        .feature-item { display: flex; margin-bottom: 3mm; font-size: 10pt; line-height: 1.8; }
 
-        .bullet {
-            color: #e31e24;
-            font-weight: bold;
-            margin-right: 3mm;
-            font-size: 12pt;
-        }
+        .bullet { color: #e31e24; font-weight: bold; margin-right: 3mm; font-size: 8pt; margin-top: 0.8mm; }
 
-        .feature-text {
-            flex: 1;
-            color: #444;
-        }
+        .feature-text { flex: 1; color: #444; }
 
-        /* Properties Table */
-        .properties-section {
-            background: #f5f5f5;
-            padding: 8mm;
-            border-radius: 3mm;
-            border-left: 4px solid #e31e24;
-            margin-bottom: 8mm;
-        }
-
-        .properties-section h3 {
-            font-size: 14pt;
-            color: #2b2a29;
-            margin-bottom: 5mm;
-        }
-
-        .properties-table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-
-        .properties-table th {
-            background: #2b2a29;
-            color: white;
-            padding: 3mm;
-            text-align: left;
-            font-size: 9pt;
-            font-weight: 600;
-        }
-
-        .properties-table td {
-            padding: 2.5mm 3mm;
-            border-bottom: 1px solid #ddd;
-            font-size: 9pt;
-            color: #333;
-        }
-
-        .properties-table tr:last-child td {
-            border-bottom: none;
-        }
-
-        .properties-table td:first-child {
-            font-weight: 600;
-            color: #2b2a29;
-        }
+        /* Technical Specifications Table */
+        .tech-specs-section { margin-top: 5mm; }
+        .tech-specs-section h3 { font-size: 12pt; color: #2b2a29; margin-bottom: 3mm; padding-bottom: 2mm; border-bottom: 2px solid #e31e24; font-weight: 600; }
+        .tech-table { width: 100%; border-collapse: collapse; font-size: 9pt; }
+        .tech-table thead { background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%); color: white; }
+        .tech-table th { padding: 3mm; text-align: left; font-weight: 600; border: 1px solid #ddd; }
+        .tech-table td { padding: 2.5mm; border: 1px solid #ddd; color: #444; }
+        .tech-table tbody tr:nth-child(even) { background-color: #f9f9f9; }
 
         /* Benefits Box */
         .benefits-box {
@@ -320,7 +273,7 @@
         }
 
         .footer-content {
-            display: flex;
+            margin-bottom: 10mm;
             justify-content: space-between;
             align-items: center;
         }
@@ -363,53 +316,10 @@
             <div class="hero-content">
                 <div class="red-accent"></div>
                 <h1 class="product-name">INMATEX ePTFE</h1>
-                <p class="product-tagline">Expanded PTFE Textile for Superior Chemical Resistance and Sealing</p>
+                <p class="product-tagline">Multi-Directional Expanded PTFE Gasket for Superior Chemical Resistance and Low Seating Stress</p>
             </div>
-                <div class="features-column">
-                    <h3>SERVICE MEDIA</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Suitable for:</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Acids</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Alkalis</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Solvents</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Aggressive chemicals</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Process fluids</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Water</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Steam</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Industrial gases</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Corrosive chemical media</span>
-                    </div>
-                </div>
         </div>
-        </div>
+    </div>
 
     <!-- Page 2 - Technical Details -->
     <div class="page-2">
@@ -422,120 +332,101 @@
 
         <div class="content-section">
             <div class="description-with-image">
-                <div class="description-text">
-                    <p class="description" style="margin-bottom: 0;">
-                        INMATEX Expanded PTFE (ePTFE) Sheet / Gasketwith exceptional malleability for extreme operating conditions.With exceptionally uniform density and highly fibrillated micro structure (no unexpanded nodes), INMATEX multi-directional expanded PTFE (ePTFE)
-                sheet/gasket has excellent resistance to pressure, creep relaxation, cold flow. It is
-                made of 100% virgin PTFE. It is extremely soft but tough and highly compressible.
-                It is non-staining and non-contaminating and one of the highest resistance to
-                aggressive media, best in-class reliability as to seal flange joints and piping
-                equipments.
-                    </p>
-
-                </div>
-
                 <div class="side-product-image">
                     <div class="product-image-container">
                         <img src="../../FZC%20Inmarco%20Product%20Shoot/Inmatex%20PTFE%20Gasket/Inmatex%20PTFE%20Gasket_2.png" alt="INMATEX EPTFE SHEET/GASKET" class="product-image-small" onerror="this.style.display='none'">
                     </div>
                 </div>
+
+                <div class="description-text">
+                    <p class="description">
+                        INMARCO INMATEX Expanded PTFE (ePTFE) Sheet / Gasket is manufactured from 100% virgin multi-directional expanded PTFE featuring a highly fibrillated microstructure with exceptionally uniform density and no unexpanded nodes.
+                    </p>
+
+                    <p class="description">
+                        The unique multi-directional structure provides outstanding resistance to creep relaxation, cold flow, and pressure deformation while maintaining exceptional flexibility and compressibility. INMATEX offers reliable sealing performance under low bolt loads and conforms easily to irregular flange surfaces, ensuring leak-free operation across a wide range of industrial applications.
+                    </p>
+
+                    <p class="description" style="margin-bottom: 0;">
+                        The material is non-staining, non-contaminating, chemically inert, and highly resistant to aggressive media, making it ideal for sealing critical flange joints, process equipment, and piping systems operating under severe chemical and thermal conditions.
+                    </p>
+                </div>
             </div>
 
             <div class="section-divider"></div>
 
-            <div class="features-grid">
+            <div class="features-grid" style="margin-bottom: 8mm;">
                 <div class="features-column">
-                    <h3>Key Features</h3>
+                    <h3>Temperature & Pressure Limits</h3>
                     <div class="feature-item">
                         <span class="bullet">●</span>
-                        <span class="feature-text">100% Virgin PTFEMulti-directional expanded PTFE with very high malleability, withstand temperature -232°C to +315°C (peak)</span>
+                        <span class="feature-text">Property | Value</span>
                     </div>
                     <div class="feature-item">
                         <span class="bullet">●</span>
-                        <span class="feature-text">High Creep ResistanceExcellent resistance to creep relaxation and cold flow</span>
+                        <span class="feature-text">Service Temperature | -232°C to +260°C</span>
                     </div>
                     <div class="feature-item">
                         <span class="bullet">●</span>
-                        <span class="feature-text">Enhanced LightnessEnhanced and incredible lightness for easy handling</span>
+                        <span class="feature-text">Peak Temperature | -232°C to +315°C</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Pressure Range | Full Vacuum to 200 kg/cm²</span>
                     </div>
                 </div>
+                <div class="features-column">
+                    <h3>Standard Availability</h3>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Description | Availability</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Sheet Thickness | 0.5 mm to 6 mm</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Dimensions | Metric and Imperial Sizes Available</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Gasket Form | Custom-Cut Gaskets Available</span>
+                    </div>
+                </div>
+            </div>
 
-                <div class="features-column">
-                    <h3>Performance Advantages</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">No Aging or HardeningIndefinite shelf life with extreme chemical compatibility</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Broad Pressure RangeFull vacuum to 3000 PSI pressure range capability</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Increased Flange LifeSignificantly reduces maintenance cost and downtime - Greater reliability and operational excellence</span>
-                    </div>
+            <div class="features-column">
+                <h3>Chemical Compatibility</h3>
+                <div class="feature-item">
+                    <span class="bullet">●</span>
+                    <span class="feature-text">INMATEX ePTFE demonstrates exceptional resistance to:</span>
                 </div>
-            </div>
-            </div>
-        </div>
-            <div class="benefits-box">
-                <h3>PERFORMANCE ADVANTAGES</h3>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Best-in-class sealing reliability for flange joints and piping equipment</span>
+                <div class="feature-item">
+                    <span class="bullet">●</span>
+                    <span class="feature-text">Strong acids, Strong alkalis, Solvents, Hydrocarbons, Process chemicals, Corrosive media, Industrial gases, Water and wastewater services</span>
                 </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>High bolt load retention capability</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Enhanced gasket tightness under fluctuating operating conditions</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Excellent dimensional stability throughout service life</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Significantly reduces maintenance requirements and downtime</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Improves flange protection and extends flange service life</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Suitable for vacuum as well as high-pressure applications</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Compatible with most aggressive chemicals and process media</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>RoHS and REACH compliant</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Supports improved plant reliability and operational efficiency</span>
+                <div class="feature-item">
+                    <span class="bullet">●</span>
+                    <span class="feature-text">Not recommended for: Elemental fluorine, Molten alkali metals</span>
                 </div>
             </div>
         </div>
+    </div>
 
-        <!-- Page 3) - Technical Properties and Performance Benefits -->
+    <!-- Page 3 - Technical Properties -->
     <div class="page-3">
         <div class="page-2-header">
             <div>
                 <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
-                <h2 class="page-2-title">Technical Specifications</h2>
+                <h2 class="page-2-title">INMATEX ePTFE</h2>
             </div>
         </div>
 
         <div class="content-section">
-            <div class="properties-section">
+            <div class="tech-specs-section">
                 <h3>Technical Properties</h3>
-                <table class="properties-table">
+                <table class="tech-table">
                     <thead>
                         <tr>
                             <th>Property</th>
@@ -597,117 +488,63 @@
         </div>
     </div>
 
-    <!-- Page 4 - Performance Benefits -->
+    <!-- Page 4 - Key Features & Applications -->
     <div class="page-4">
         <div class="page-2-header">
             <div>
                 <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
-                <h2 class="page-2-title">Performance Benefits</h2>
+                <h2 class="page-2-title">INMATEX ePTFE</h2>
             </div>
         </div>
 
         <div class="content-section">
-            <div class="features-column" style="margin-bottom: 10mm;">
-<div class="features-column">
-                    <h3>TEMPERATURE & PRESSURE LIMITS</h3>
+            <div class="features-grid">
+                <div class="features-column">
+                    <h3>Key Features</h3>
                     <div class="feature-item">
                         <span class="bullet">●</span>
-                        <span class="feature-text">Property | Value</span>
+                        <span class="feature-text">Manufactured from 100% virgin multi-directional expanded PTFE</span>
                     </div>
                     <div class="feature-item">
                         <span class="bullet">●</span>
-                        <span class="feature-text">Service Temperature | -232°C to +260°C</span>
+                        <span class="feature-text">Highly fibrillated microstructure with uniform density</span>
                     </div>
                     <div class="feature-item">
                         <span class="bullet">●</span>
-                        <span class="feature-text">Peak Temperature | -232°C to +315°C</span>
+                        <span class="feature-text">No unexpanded nodes for enhanced sealing performance</span>
                     </div>
                     <div class="feature-item">
                         <span class="bullet">●</span>
-                        <span class="feature-text">Pressure Range | Full Vacuum to 200 kg/cm²</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="features-column" style="margin-bottom: 10mm;">
-<div class="features-column">
-                    <h3>CHEMICAL COMPATIBILITY</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">INMATEX ePTFE demonstrates exceptional resistance to:</span>
+                        <span class="feature-text">Excellent resistance to creep relaxation and cold flow</span>
                     </div>
                     <div class="feature-item">
                         <span class="bullet">●</span>
-                        <span class="feature-text">Strong acids</span>
+                        <span class="feature-text">Extremely soft, flexible, and highly compressible</span>
                     </div>
                     <div class="feature-item">
                         <span class="bullet">●</span>
-                        <span class="feature-text">Strong alkalis</span>
+                        <span class="feature-text">Outstanding chemical resistance across a broad pH range</span>
                     </div>
                     <div class="feature-item">
                         <span class="bullet">●</span>
-                        <span class="feature-text">Solvents</span>
+                        <span class="feature-text">Non-staining and non-contaminating material</span>
                     </div>
                     <div class="feature-item">
                         <span class="bullet">●</span>
-                        <span class="feature-text">Hydrocarbons</span>
+                        <span class="feature-text">Excellent conformity to irregular flange surfaces</span>
                     </div>
                     <div class="feature-item">
                         <span class="bullet">●</span>
-                        <span class="feature-text">Process chemicals</span>
+                        <span class="feature-text">Suitable for low seating stress applications</span>
                     </div>
                     <div class="feature-item">
                         <span class="bullet">●</span>
-                        <span class="feature-text">Corrosive media</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Industrial gases</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Water and wastewater services</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Not recommended for:</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Elemental fluorine</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Molten alkali metals</span>
+                        <span class="feature-text">Unlimited shelf life with no aging or hardening during service</span>
                     </div>
                 </div>
-            </div>
 
-            <div class="features-column" style="margin-bottom: 10mm;">
-<div class="features-column">
-                    <h3>STANDARD AVAILABILITY</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Description | Availability</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Sheet Thickness | 0.5 mm to 6 mm</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Dimensions | Metric and Imperial Sizes Available</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Gasket Form | Custom-Cut Gaskets Available</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="features-column" style="margin-bottom: 10mm;">
-<div class="features-column">
-                    <h3>TYPICAL APPLICATIONS</h3>
+                <div class="features-column">
+                    <h3>Applications</h3>
                     <div class="feature-item">
                         <span class="bullet">●</span>
                         <span class="feature-text">Flange joints</span>
@@ -746,64 +583,64 @@
                     </div>
                     <div class="feature-item">
                         <span class="bullet">●</span>
-                        <span class="feature-text">Manhole covers</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Concrete lids</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Ceramic joints</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Hydraulic systems</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Pneumatic systems</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Water treatment systems</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Ventilation ducts</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Fan housings</span>
+                        <span class="feature-text">Hydraulic and pneumatic systems</span>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
 
+    <!-- Page 5 - Performance Benefits -->
+    <div class="page-5">
+        <div class="page-2-header">
+            <div>
+                <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
+                <h2 class="page-2-title">INMATEX ePTFE</h2>
+            </div>
+        </div>
+
+        <div class="content-section">
             <div class="benefits-box">
                 <h3>Performance Benefits</h3>
                 <div class="benefit-item">
                     <span class="check-icon">✓</span>
-                    <span>Unique construction with high structural carbon filament reinforcement increases strength and enhanced seal-ability</span>
+                    <span>Best-in-class sealing reliability for flange joints and piping equipment</span>
                 </div>
                 <div class="benefit-item">
                     <span class="check-icon">✓</span>
-                    <span>Impregnated with proprietary high-therm graphite-based dispersion for superior performance</span>
+                    <span>High bolt load retention capability</span>
                 </div>
                 <div class="benefit-item">
                     <span class="check-icon">✓</span>
-                    <span>Inorganic passive corrosion inhibitor protects equipment from galvanic corrosion</span>
+                    <span>Enhanced gasket tightness under fluctuating operating conditions</span>
                 </div>
                 <div class="benefit-item">
                     <span class="check-icon">✓</span>
-                    <span>Adapts easily to surface irregularities and conforms to stuffing box dimensions</span>
+                    <span>Excellent dimensional stability throughout service life</span>
                 </div>
                 <div class="benefit-item">
                     <span class="check-icon">✓</span>
-                    <span>Excellent dry run capabilities with smooth performance in demanding applications</span>
+                    <span>Significantly reduces maintenance requirements and downtime</span>
                 </div>
                 <div class="benefit-item">
                     <span class="check-icon">✓</span>
-                    <span>Chemically inert, does not leach chemicals during operation maintaining safety standards</span>
+                    <span>Improves flange protection and extends flange service life</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>Suitable for vacuum as well as high-pressure applications</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>Compatible with most aggressive chemicals and process media</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>RoHS and REACH compliant</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>Supports improved plant reliability and operational efficiency</span>
                 </div>
             </div>
         </div>

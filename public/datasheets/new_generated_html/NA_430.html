@@ -39,7 +39,7 @@
 
         .header {
             padding: 20mm 15mm;
-            display: flex;
+            margin-bottom: 10mm;
             justify-content: center;
             align-items: center;
         }
@@ -134,7 +134,7 @@
             background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%);
             padding: 15mm;
             color: white;
-            display: flex;
+            margin-bottom: 10mm;
             justify-content: space-between;
             align-items: center;
         }
@@ -153,14 +153,11 @@
         }
 
         .description-with-image {
-            display: flex;
-            gap: 10mm;
-            align-items: flex-start;
             margin-bottom: 10mm;
         }
 
         .description-text {
-            flex: 1;
+            text-align: justify;
         }
 
         .description {
@@ -172,7 +169,9 @@
         }
 
         .side-product-image {
-            flex-shrink: 0;
+            float: right;
+            margin-left: 6mm;
+            margin-bottom: 4mm;
         }
 
         .product-image-container {
@@ -183,10 +182,10 @@
         }
 
         .product-image-small {
-            width: 70mm;
-            height: 70mm;
+            width: 85mm;
+            height: 55mm;
             border-radius: 4mm;
-            object-fit: contain;
+            object-fit: cover;
             display: block;
         }
 
@@ -197,13 +196,13 @@
         }
 
         .features-grid {
-            display: flex;
-            gap: 10mm;
+            margin-bottom: 10mm;
+            /* removed gap */
             margin-bottom: 10mm;
         }
 
         .features-column {
-            flex: 1;
+            text-align: justify;
         }
 
         .features-column h3 {
@@ -216,7 +215,7 @@
         }
 
         .feature-item {
-            display: flex;
+            margin-bottom: 10mm;
             margin-bottom: 4mm;
             font-size: 9pt;
             line-height: 1.5;
@@ -230,7 +229,7 @@
         }
 
         .feature-text {
-            flex: 1;
+            text-align: justify;
             color: #444;
         }
 
@@ -294,8 +293,8 @@
         }
 
         .benefit-item {
-            display: flex;
-            align-items: flex-start;
+            margin-bottom: 10mm;
+            /* removed align-items */
             margin-bottom: 3mm;
             font-size: 9pt;
             line-height: 1.4;
@@ -324,7 +323,7 @@
         }
 
         .footer-content {
-            display: flex;
+            margin-bottom: 10mm;
             justify-content: space-between;
             align-items: center;
         }
@@ -383,18 +382,19 @@
 
         <div class="content-section">
             <div class="description-with-image">
+                <div class="side-product-image">
+                    <div class="product-image-container">
+                        <img src="../../FZC%20Inmarco%20Product%20Shoot/Rigid%20FTFE/Rigid%20FTFE_1.png" alt="NA 430" class="product-image-small" onerror="this.style.display='none'">
+                    </div>
+                </div>
+
                 <div class="description-text">
                     <p class="description" style="margin-bottom: 0;">
                         INMARCO TYPE NA-430is a Non Asbestos Compressed fibre reinforced with SS wire mesh, SS304 grade. Calendered on high performance calendaring machine. The composition of the sheet will be high tenacity Aramid Fibre together with organic fibres bonded with (NBR) Nitrile Butadiene Rubber.
                     </p>
 
                 </div>
-
-                <div class="side-product-image">
-                    <div class="product-image-container">
-                        <img src="../../FZC%20Inmarco%20Product%20Shoot/Rigid%20FTFE/Rigid%20FTFE_1.png" alt="NA 430" class="product-image-small" onerror="this.style.display='none'">
-                    </div>
-                </div>
+            </div>
             </div>
 
             <div class="section-divider"></div>

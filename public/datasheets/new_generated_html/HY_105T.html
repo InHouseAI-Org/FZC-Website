@@ -1,11 +1,12 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HY 105T - Technical Datasheet</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>HY 105T - Advanced Aramid-PTFE Packing - INMARCO</title>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet"/>
+<style>
         * {
             margin: 0;
             padding: 0;
@@ -53,6 +54,11 @@
             width: auto;
         }
 
+        .version {
+            font-size: 8pt;
+            color: #888;
+        }
+
         /* Hero section */
         .hero-section {
             position: relative;
@@ -62,6 +68,10 @@
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
+        }
+
+        .industry-image {
+            display: none;
         }
 
         .hero-overlay {
@@ -104,6 +114,41 @@
             font-weight: 300;
         }
 
+        /* Product images section */
+        .product-images {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(43, 42, 41, 0.95);
+            padding: 12mm 15mm;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8mm;
+        }
+
+        .product-image-box {
+            background: white;
+            padding: 6mm;
+            border-radius: 2mm;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.4);
+            border-top: 2px solid #e31e24;
+            text-align: center;
+            max-width: 55mm;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 55mm;
+        }
+
+        .product-image-box img {
+            width: 100%;
+            height: auto;
+            max-height: 45mm;
+            object-fit: cover;
+        }
+
         /* Page 2 - Technical Details */
         .page-2 {
             width: 100%;
@@ -144,19 +189,31 @@
             font-weight: bold;
         }
 
+        .product-image-container {
+            background: white;
+            border-radius: 5mm;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            border: 3px solid #e31e24;
+        }
+
+        .product-image-small {
+            width: 85mm;
+            height: 55mm;
+            border-radius: 4mm;
+            object-fit: cover;
+            display: block;
+        }
+
         .content-section {
             padding: 12mm 15mm;
         }
 
         .description-with-image {
-            display: flex;
-            gap: 10mm;
-            align-items: flex-start;
             margin-bottom: 10mm;
         }
 
         .description-text {
-            flex: 1;
+            text-align: justify;
         }
 
         .description {
@@ -168,34 +225,21 @@
         }
 
         .side-product-image {
-            flex-shrink: 0;
-        }
-
-        .product-image-container {
-            background: white;
-            border-radius: 5mm;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-            border: 3px solid #e31e24;
-        }
-
-        .product-image-small {
-            width: 70mm;
-            height: 70mm;
-            border-radius: 4mm;
-            object-fit: contain;
-            display: block;
+            float: right;
+            margin-left: 6mm;
+            margin-bottom: 4mm;
         }
 
         .section-divider {
             height: 2px;
             background: #e31e24;
-            margin: 8mm 0;
+            margin: 5mm 0;
         }
 
         .features-grid {
             display: flex;
             gap: 10mm;
-            margin-bottom: 10mm;
+            margin-bottom: 0mm;
         }
 
         .features-column {
@@ -213,7 +257,7 @@
 
         .feature-item {
             display: flex;
-            margin-bottom: 4mm;
+            margin-bottom: 2mm;
             font-size: 9pt;
             line-height: 1.5;
         }
@@ -230,49 +274,46 @@
             color: #444;
         }
 
-        /* Properties Table */
-        .properties-section {
-            background: #f5f5f5;
-            padding: 8mm;
-            border-radius: 3mm;
-            border-left: 4px solid #e31e24;
-            margin-bottom: 8mm;
+        /* Technical Properties Table */
+        .tech-specs-section {
+            margin-top: 5mm;
         }
 
-        .properties-section h3 {
-            font-size: 14pt;
+        .tech-specs-section h3 {
+            font-size: 12pt;
             color: #2b2a29;
-            margin-bottom: 5mm;
+            margin-bottom: 3mm;
+            padding-bottom: 2mm;
+            border-bottom: 2px solid #e31e24;
+            font-weight: 600;
         }
 
-        .properties-table {
+        .tech-table {
             width: 100%;
             border-collapse: collapse;
+            font-size: 9pt;
         }
 
-        .properties-table th {
-            background: #2b2a29;
+        .tech-table thead {
+            background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%);
             color: white;
+        }
+
+        .tech-table th {
             padding: 3mm;
             text-align: left;
-            font-size: 9pt;
             font-weight: 600;
+            border: 1px solid #ddd;
         }
 
-        .properties-table td {
-            padding: 2.5mm 3mm;
-            border-bottom: 1px solid #ddd;
-            font-size: 9pt;
-            color: #333;
+        .tech-table td {
+            padding: 2.5mm;
+            border: 1px solid #ddd;
+            color: #444;
         }
 
-        .properties-table tr:last-child td {
-            border-bottom: none;
-        }
-
-        .properties-table td:first-child {
-            font-weight: 600;
-            color: #2b2a29;
+        .tech-table tbody tr:nth-child(even) {
+            background-color: #f9f9f9;
         }
 
         /* Benefits Box */
@@ -347,114 +388,181 @@
             margin-top: 3mm;
             max-width: 160mm;
         }
+
+        .economical-notice {
+            background: linear-gradient(135deg, #f8f8f8 0%, #ffffff 100%);
+            border-left: 4px solid #e31e24;
+            padding: 4mm 6mm;
+            margin: 6mm 0;
+            border-radius: 2mm;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .economical-notice-title {
+            color: #e31e24;
+            font-size: 10pt;
+            font-weight: 600;
+            margin-bottom: 2mm;
+            display: flex;
+            align-items: center;
+            gap: 2mm;
+        }
+
+        .economical-notice-text {
+            color: #555;
+            font-size: 9pt;
+            line-height: 1.5;
+        }
     </style>
 </head>
 <body>
-    <!-- Page 1 - Hero -->
-    <div class="page-1">
-        <div class="header">
-            <div class="logo-section">
-                <img src="../../../src/assets/inmarco-tagline-logo1.png" alt="INMARCO - Innovations in Fluid Sealing">
-            </div>
-        </div>
-
-        <div class="hero-section">
-            <div class="hero-overlay"></div>
-            <div class="hero-content">
-                <div class="red-accent"></div>
-                <h1 class="product-name">HY 105T</h1>
-                <p class="product-tagline">Advanced Aramid-PTFE Packing for Superior Strength</p>
-            </div>
-                <div class="features-column">
-                    <h3>SERVICE MEDIA</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">● Ammonia</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">● Urea</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">● Carbamate</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">● Detergents</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">● Pigments</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">● Synthetic materials</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">● Chemical process fluids</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">● Dry abrasive media</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">● Corrosive media</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">● Industrial process chemicals</span>
-                    </div>
+<!-- Page 1 - Hero -->
+<div class="page-1">
+<div class="header">
+<div class="logo-section">
+<img alt="INMARCO - Innovations in Fluid Sealing" src="../../../src/assets/inmarco-tagline-logo1.png"/>
+</div>
+</div>
+<div class="hero-section">
+<div class="hero-overlay"></div>
+<div class="hero-content">
+<div class="red-accent"></div>
+<h1 class="product-name">HY 105T</h1>
+<p class="product-tagline">Advanced Aramid-PTFE Packing for Superior Strength</p>
+</div>
+<!-- <div class="product-images">
+                <div class="product-image-box">
+                    <img src="../../public/FZC%20Inmarco%20Product%20Shoot/HY%20105/HY%20105_1.png" alt="HY 105 Product" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22200%22 height=%22200%22%3E%3Crect fill=%22%23f0f0f0%22 width=%22200%22 height=%22200%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 dy=%22.3em%22 fill=%22%23999%22%3EHY 105%3C/text%3E%3C/svg%3E'">
                 </div>
-        </div>
-        </div>
-
-    <!-- Page 2 - Technical Details -->
-    <div class="page-2">
-        <div class="page-2-header">
-            <div>
-                <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
-                <h2 class="page-2-title">HY 105T</h2>
-            </div>
-        </div>
-
-        <div class="content-section">
-            <div class="description-with-image">
-                <div class="description-text">
-                    <p class="description">
-                        HY 105T is a high-performance gland packing made from Aldehyde Yarn corners and PTFE Yarn faces, reinforced with a resilient PTFE cord core. Its dense braided construction ensures excellent strength, dimensional stability, and sealing capability under extreme conditions. This makes it ideal for pumps, valves, mixers, and reactors.
+                <div class="product-image-box">
+                    <img src="../../public/FZC%20Inmarco%20Product%20Shoot/HY%20105/HY%20105_2.png" alt="HY 105 Detail" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22200%22 height=%22200%22%3E%3Crect fill=%22%23f0f0f0%22 width=%22200%22 height=%22200%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 dy=%22.3em%22 fill=%22%23999%22%3EHY 105%3C/text%3E%3C/svg%3E'">
+                </div>
+                <div class="product-image-box">
+                    <img src="../../public/FZC%20Inmarco%20Product%20Shoot/HY%20105/HY%20105_3.png" alt="HY 105 Application" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22200%22 height=%22200%22%3E%3Crect fill=%22%23f0f0f0%22 width=%22200%22 height=%22200%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 dy=%22.3em%22 fill=%22%23999%22%3EHY 105%3C/text%3E%3C/svg%3E'">
+                </div>
+            </div> -->
+</div>
+</div>
+<!-- Page 2 - Technical Details -->
+<div class="page-2">
+<div class="page-2-header">
+<div>
+<div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
+<h2 class="page-2-title">HY 105T</h2>
+</div>
+</div>
+<div class="content-section">
+<div class="description-with-image">
+<div class="side-product-image">
+<div class="product-image-container">
+<img alt="HY 105T" class="product-image-small" onerror="this.style.display='none'" src="../../FZC%20Inmarco%20Product%20Shoot/HY%20105T/HY%20105T_1.png"/>
+</div>
+</div>
+<div class="description-text">
+<p class="description">
+                        INMARCO HY 105T is a high-performance gland packing manufactured using Aldehyde Yarn corners and PTFE Yarn faces, reinforced with a resilient PTFE cord core. Its dense braided construction provides excellent mechanical strength, dimensional stability, and sealing reliability under extreme operating conditions.
                     </p>
-
-                    <p class="description" style="margin-bottom: 0;">
-                        The packing is lubricated with advanced fluoropolymer and inert compounds, reducing friction and wear during operation. It handles a wide range of aggressive media like ammonia, urea, carbamate, and dry abrasives. With high pressure resistance and broad chemical compatibility, it excels in fertilizer, chemical, and paint industries.
+<p class="description">
+                        The packing is impregnated with advanced fluoropolymer and inert lubricating compounds that reduce friction and minimize wear during operation. HY 105T offers outstanding resistance to aggressive chemical media including ammonia, urea, carbamate, detergents, pigments, and synthetic materials.
                     </p>
-                </div>
-
-                <div class="side-product-image">
-                    <div class="product-image-container">
-                        <img src="../../FZC%20Inmarco%20Product%20Shoot/HY%20105T/HY%20105T_2.png" alt="HY 105T" class="product-image-small" onerror="this.style.display='none'">
-                    </div>
-                </div>
-            </div>
+<p class="description" style="margin-bottom: 0;">
+                        Designed for demanding industrial applications, HY 105T delivers reliable sealing performance in fertilizer, chemical, paint, and process industries where high pressure, abrasive conditions, and chemical exposure are common.
+                    </p>
+</div>
+</div>
 
             <div class="section-divider"></div>
 
             <div class="features-grid">
                 <div class="features-column">
+                    <h3>Service Media</h3>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Ammonia</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Urea</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Carbamate</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Detergents</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Pigments</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Synthetic materials</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Chemical process fluids</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Dry abrasive media</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Corrosive media</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Industrial process chemicals</span>
+                    </div>
+                </div>
+
+                <div class="features-column">
+                    <h3>Compliance</h3>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text"><strong>FDA Certified</strong></span>
+                    </div>
+                </div>
+            </div>
+</div>
+</div>
+<!-- Page 3 - Key Features and Applications -->
+<div class="page-3">
+<div class="page-2-header">
+<div>
+<div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
+<h2 class="page-2-title">HY 105T</h2>
+</div>
+</div>
+<div class="content-section">
+            <div class="features-grid">
+                <div class="features-column">
                     <h3>Key Features</h3>
                     <div class="feature-item">
                         <span class="bullet">●</span>
-                        <span class="feature-text">Combines Aldehyde Yarn corners with PTFE Yarn faces and a high-tensile PTFE cord core</span>
+                        <span class="feature-text">Manufactured with Aldehyde Yarn corners and PTFE Yarn faces for optimum strength and sealing performance</span>
                     </div>
                     <div class="feature-item">
                         <span class="bullet">●</span>
-                        <span class="feature-text">Withstands pressures up to 500 bar for high-pressure applications</span>
+                        <span class="feature-text">Reinforced with a high-tensile PTFE cord core for enhanced resilience and dimensional stability</span>
                     </div>
                     <div class="feature-item">
                         <span class="bullet">●</span>
-                        <span class="feature-text">PTFE fibers and specialized lubricants reduce friction for cooler shaft runs</span>
+                        <span class="feature-text">Dense braided construction ensures superior sealability under demanding operating conditions</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Withstands operating pressures up to 500 bar</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Advanced fluoropolymer and inert lubricants reduce friction and shaft wear</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Provides cooler shaft operation and extended equipment life</span>
                     </div>
                     <div class="feature-item">
                         <span class="bullet">●</span>
@@ -462,11 +570,15 @@
                     </div>
                     <div class="feature-item">
                         <span class="bullet">●</span>
-                        <span class="feature-text">Performs reliably in dry, abrasive, and corrosive environments</span>
+                        <span class="feature-text">Suitable for dry, abrasive, corrosive, and chemically aggressive environments</span>
                     </div>
                     <div class="feature-item">
                         <span class="bullet">●</span>
-                        <span class="feature-text">Dense braided structure ensures excellent sealability and dimensional stability</span>
+                        <span class="feature-text">High-temperature inert lubrication extends operational service life</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Compatible with centrifugal, reciprocating, and plunger pump applications</span>
                     </div>
                 </div>
 
@@ -474,162 +586,162 @@
                     <h3>Applications</h3>
                     <div class="feature-item">
                         <span class="bullet">●</span>
-                        <span class="feature-text">Ideal for use in centrifugal, reciprocating, and plunger pumps</span>
+                        <span class="feature-text">Centrifugal pumps</span>
                     </div>
                     <div class="feature-item">
                         <span class="bullet">●</span>
-                        <span class="feature-text">Suitable for valves, agitators, mixers, extruders, and reactors</span>
+                        <span class="feature-text">Reciprocating pumps</span>
                     </div>
                     <div class="feature-item">
                         <span class="bullet">●</span>
-                        <span class="feature-text">Designed for critical applications in the fertilizer industry</span>
+                        <span class="feature-text">Plunger pumps</span>
                     </div>
                     <div class="feature-item">
                         <span class="bullet">●</span>
-                        <span class="feature-text">Suitable for chemical and paint industries handling aggressive media</span>
+                        <span class="feature-text">Valves</span>
                     </div>
                     <div class="feature-item">
                         <span class="bullet">●</span>
-                        <span class="feature-text">Lubricated with high-temperature inert compounds for extended service life</span>
+                        <span class="feature-text">Agitators</span>
                     </div>
-                </div>
-            </div>
-        </div>
-            <div class="benefits-box">
-                <h3>PERFORMANCE ADVANTAGES</h3>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>● Exceptional high-pressure sealing performance up to 500 bar</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>● Low-friction operation minimizes wear on shafts, plungers, and valve stems</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>● Excellent chemical compatibility across a broad range of industrial media</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>● Superior seal integrity through dense braided construction</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>● High dimensional stability reduces leakage and packing failure</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>● Performs reliably in dry, abrasive, and corrosive operating conditions</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>● Suitable for dynamic and static sealing applications</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>● Extended service life with reduced maintenance requirements</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>● Reliable performance in critical fertilizer and chemical process applications</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>● Excellent resistance to mechanical wear and extrusion</span>
-                </div>
-            </div>
-        </div>
-
-        <!-- Page 3) - Technical Properties and Performance Benefits -->
-    <div class="page-3">
-        <div class="page-2-header">
-            <div>
-                <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
-                <h2 class="page-2-title">Technical Specifications</h2>
-            </div>
-        </div>
-
-        <div class="content-section">
-            <div class="features-column" style="margin-bottom: 10mm;">
-<div class="features-column">
-                    <h3>COMPLIANCE</h3>
                     <div class="feature-item">
                         <span class="bullet">●</span>
-                        <span class="feature-text">FDA Certified</span>
+                        <span class="feature-text">Mixers</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Extruders</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Reactors</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Fertilizer process equipment</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Chemical processing equipment</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Paint manufacturing systems</span>
                     </div>
                 </div>
             </div>
 
-            <div class="properties-section">
+            <div class="section-divider"></div>
+
+            <div class="tech-specs-section">
                 <h3>Technical Properties</h3>
-                <table class="properties-table">
-                    <tr>
-                        <th>Properties</th>
-                        <th>Values</th>
-                    </tr>
-                    <tr>
-                        <td>pH</td>
-                        <td>0-14</td>
-                    </tr>
-                    <tr>
-                        <td>Temperature (°C)</td>
-                        <td>-200 to +280</td>
-                    </tr>
-                    <tr>
-                        <td>Pressure (BAR)</td>
-                        <td>500</td>
-                    </tr>
-                    <tr>
-                        <td>Size</td>
-                        <td>5sq mm TO 35sq mm</td>
-                    </tr>
+                <table class="tech-table">
+                    <thead>
+                        <tr>
+                            <th>Properties</th>
+                            <th style="text-align: center;">
+                                <i class="fas fa-sync-alt" style="font-size: 14pt;"></i>
+                                <br/><span style="font-size: 7pt; font-weight: normal;">Rotating</span>
+                            </th>
+                            <th style="text-align: center;">
+                                <i class="fas fa-arrows-alt-h" style="font-size: 14pt;"></i>
+                                <br/><span style="font-size: 7pt; font-weight: normal;">Reciprocating</span>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>pH Range</td>
+                            <td style="text-align: center;">0 – 14</td>
+                            <td style="text-align: center;">0 – 14</td>
+                        </tr>
+                        <tr>
+                            <td>Temperature Range</td>
+                            <td style="text-align: center;">-200°C to +280°C</td>
+                            <td style="text-align: center;">-200°C to +280°C</td>
+                        </tr>
+                        <tr>
+                            <td>Maximum Pressure</td>
+                            <td style="text-align: center;">500 bar</td>
+                            <td style="text-align: center;">500 bar</td>
+                        </tr>
+                        <tr>
+                            <td>Available Sizes</td>
+                            <td colspan="2" style="text-align: center;">5 sq mm to 35 sq mm</td>
+                        </tr>
+                    </tbody>
                 </table>
             </div>
-
-            <div class="benefits-box">
-                <h3>Performance Benefits</h3>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Exceptional high-pressure resistance up to 500 bar for demanding applications</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Low friction operation ensures minimal wear on shafts and plungers</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Excellent chemical compatibility with ammonia, urea, carbamate, and more</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Dense braided construction provides superior seal integrity and dimensional stability</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Suitable for centrifugal, reciprocating, and plunger pumps, as well as valves and mixers</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Performs reliably in dry, abrasive, and corrosive environments with extended service life</span>
-                </div>
-            </div>
         </div>
-
-        <div class="footer">
-            <div class="footer-content">
-                <div class="company-info">
-                    <div class="company-name">INMARCO FZC</div>
-                    <div class="contact-info">
-                        P.O. Box 120284, Sharjah Airport International Free Zone (SAIF-Zone), Sharjah, UAE<br>
-                        Tel: +971 6 5578378 | Fax: +971 6 5578948<br>
+</div>
+<!-- Page 4 - Performance Benefits -->
+<div class="page-4">
+<div class="page-2-header">
+<div>
+<div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
+<h2 class="page-2-title">HY 105T</h2>
+</div>
+</div>
+<div class="content-section">
+<div class="benefits-box">
+<h3>Performance Benefits</h3>
+<div class="benefit-item">
+<span class="check-icon">✓</span>
+<span>Exceptional high-pressure resistance for demanding industrial applications</span>
+</div>
+<div class="benefit-item">
+<span class="check-icon">✓</span>
+<span>Low friction operation ensures minimal wear on shafts and plungers</span>
+</div>
+<div class="benefit-item">
+<span class="check-icon">✓</span>
+<span>Excellent chemical compatibility with ammonia, urea, carbamate, and other aggressive chemicals</span>
+</div>
+<div class="benefit-item">
+<span class="check-icon">✓</span>
+<span>Dense braided construction provides superior seal integrity and dimensional stability</span>
+</div>
+<div class="benefit-item">
+<span class="check-icon">✓</span>
+<span>Suitable for centrifugal, reciprocating, and plunger pumps, as well as valves and mixers</span>
+</div>
+<div class="benefit-item">
+<span class="check-icon">✓</span>
+<span>Performs reliably in dry, abrasive, and corrosive environments</span>
+</div>
+<div class="benefit-item">
+<span class="check-icon">✓</span>
+<span>Advanced lubrication system promotes cooler operation and longer equipment life</span>
+</div>
+<div class="benefit-item">
+<span class="check-icon">✓</span>
+<span>Reduced maintenance requirements and extended packing service life</span>
+</div>
+<div class="benefit-item">
+<span class="check-icon">✓</span>
+<span>Reliable sealing performance under severe operating conditions</span>
+</div>
+<div class="benefit-item">
+<span class="check-icon">✓</span>
+<span>Excellent operational reliability in fertilizer, chemical, and paint industries</span>
+</div>
+</div>
+</div>
+<div class="footer">
+<div class="footer-content">
+<div class="company-info">
+<div class="company-name">INMARCO FZC</div>
+<div class="contact-info">
+                        P.O. Box 120284, Sharjah Airport International Free Zone (SAIF-Zone), Sharjah, UAE<br/>
+                        Tel: +971 6 5578378 | Fax: +971 6 5578948<br/>
                         Email: sales@inmarco.ae | Web: www.inmarco.ae
                     </div>
-                    <div class="disclaimer">
+<div class="disclaimer">
                         All information and recommendations given in this technical data sheet are correct to the best of our knowledge. However, because of the wide variety of application and operating conditions, we cannot derive the final conclusion. This above information can only serve as a guideline.
                     </div>
-                </div>
-            </div>
-        </div>
-    </div>
+</div>
+</div>
+</div>
+</div>
 </body>
 </html>

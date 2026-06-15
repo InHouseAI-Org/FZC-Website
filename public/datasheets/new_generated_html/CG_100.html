@@ -46,6 +46,7 @@
 
         .logo-section {
             color: white;
+            text-align: center;
         }
 
         .logo-section img {
@@ -134,7 +135,7 @@
             background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%);
             padding: 15mm;
             color: white;
-            display: flex;
+            margin-bottom: 10mm;
             justify-content: space-between;
             align-items: center;
         }
@@ -149,26 +150,25 @@
         }
 
         .description-with-image {
-            display: flex;
-            gap: 10mm;
-            align-items: flex-start;
             margin-bottom: 10mm;
         }
 
         .description-text {
-            flex: 1;
+            text-align: justify;
         }
 
         .description {
-            font-size: 10pt;
-            line-height: 1.6;
+            font-size: 9pt;
+            line-height: 1.5;
             color: #333;
             margin-bottom: 10mm;
             text-align: justify;
         }
 
         .side-product-image {
-            flex-shrink: 0;
+            float: right;
+            margin-left: 6mm;
+            margin-bottom: 4mm;
         }
 
         .product-image-container {
@@ -179,10 +179,10 @@
         }
 
         .product-image-small {
-            width: 70mm;
-            height: 70mm;
+            width: 85mm;
+            height: 55mm;
             border-radius: 4mm;
-            object-fit: contain;
+            object-fit: cover;
             display: block;
         }
 
@@ -203,9 +203,9 @@
         }
 
         .features-column h3 {
-            font-size: 13pt;
+            font-size: 12pt;
             color: #2b2a29;
-            margin-bottom: 5mm;
+            margin-bottom: 3mm;
             padding-bottom: 2mm;
             border-bottom: 2px solid #e31e24;
             font-weight: 600;
@@ -213,16 +213,17 @@
 
         .feature-item {
             display: flex;
-            margin-bottom: 4mm;
-            font-size: 9pt;
-            line-height: 1.5;
+            margin-bottom: 3mm;
+            font-size: 10pt;
+            line-height: 1.8;
         }
 
         .bullet {
             color: #e31e24;
             font-weight: bold;
             margin-right: 3mm;
-            font-size: 12pt;
+            font-size: 8pt;
+            margin-top: 0.8mm;
         }
 
         .feature-text {
@@ -230,49 +231,46 @@
             color: #444;
         }
 
-        /* Properties Table */
-        .properties-section {
-            background: #f5f5f5;
-            padding: 8mm;
-            border-radius: 3mm;
-            border-left: 4px solid #e31e24;
-            margin-bottom: 8mm;
+        /* Technical Properties Table */
+        .tech-specs-section {
+            margin-top: 5mm;
         }
 
-        .properties-section h3 {
-            font-size: 14pt;
+        .tech-specs-section h3 {
+            font-size: 12pt;
             color: #2b2a29;
-            margin-bottom: 5mm;
+            margin-bottom: 3mm;
+            padding-bottom: 2mm;
+            border-bottom: 2px solid #e31e24;
+            font-weight: 600;
         }
 
-        .properties-table {
+        .tech-table {
             width: 100%;
             border-collapse: collapse;
+            font-size: 9pt;
         }
 
-        .properties-table th {
-            background: #2b2a29;
+        .tech-table thead {
+            background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%);
             color: white;
+        }
+
+        .tech-table th {
             padding: 3mm;
             text-align: left;
-            font-size: 9pt;
             font-weight: 600;
+            border: 1px solid #ddd;
         }
 
-        .properties-table td {
-            padding: 2.5mm 3mm;
-            border-bottom: 1px solid #ddd;
-            font-size: 9pt;
-            color: #333;
+        .tech-table td {
+            padding: 2.5mm;
+            border: 1px solid #ddd;
+            color: #444;
         }
 
-        .properties-table tr:last-child td {
-            border-bottom: none;
-        }
-
-        .properties-table td:first-child {
-            font-weight: 600;
-            color: #2b2a29;
+        .tech-table tbody tr:nth-child(even) {
+            background-color: #f9f9f9;
         }
 
         /* Benefits Box */
@@ -290,8 +288,8 @@
         }
 
         .benefit-item {
-            display: flex;
-            align-items: flex-start;
+            margin-bottom: 10mm;
+            /* removed align-items */
             margin-bottom: 3mm;
             font-size: 9pt;
             line-height: 1.4;
@@ -320,7 +318,7 @@
         }
 
         .footer-content {
-            display: flex;
+            margin-bottom: 10mm;
             justify-content: space-between;
             align-items: center;
         }
@@ -363,7 +361,7 @@
             <div class="hero-content">
                 <div class="red-accent"></div>
                 <h1 class="product-name">CG 100</h1>
-                <p class="product-tagline">Expanded Graphite Non-Metallic Packing</p>
+                <p class="product-tagline">Advanced Graphite Technology for Superior Sealing</p>
             </div>
         </div>
     </div>
@@ -379,106 +377,167 @@
 
         <div class="content-section">
             <div class="description-with-image">
-                <div class="description-text">
-                    <p class="description">
-                        100FX is an expanded flexible pure graphite fibre (purity 99% minimum) braided packing reinforced with non-metallic filament. The packing is extrusion resistant and capable of withstanding higher pressure both in dynamic and static conditions.
-                    </p>
-
-                    <p class="description" style="margin-bottom: 0;">
-                        CG 100 packing is impregnated with proprietary hi-therm dispersion to fill the leak paths between the braids. Under gland pressure it becomes a homogeneous mass. This advanced construction ensures reliable sealing performance with excellent resistance to high temperatures and pressures.
-                    </p>
-                </div>
-
                 <div class="side-product-image">
                     <div class="product-image-container">
                         <img src="../../FZC%20Inmarco%20Product%20Shoot/CG%20100/CG%20100%20-%2052(26)_19_2.png" alt="CG 100" class="product-image-small" onerror="this.style.display='none'">
                     </div>
                 </div>
+
+                <div class="description-text">
+                    <p class="description">
+                        Style CG 100 is a high-performance braided packing manufactured from 99% pure expanded graphite fiber reinforced with non-metallic filaments. Designed for demanding industrial sealing applications, it offers outstanding resistance to extrusion, high temperatures, aggressive chemicals, and high-pressure operating conditions in both dynamic and static services.
+                    </p>
+
+                    <p class="description">
+                        The packing is impregnated with proprietary HiTherm dispersion, with PTFE dispersion available as an option, creating a dense and uniform sealing structure that effectively blocks leakage paths. Its self-lubricating properties allow automatic adjustment under gland pressure, reducing friction, minimizing wear, and extending equipment life.
+                    </p>
+
+                    <p class="description" style="margin-bottom: 0;">
+                        Developed through advanced in-house research and engineering, Style CG 100 provides exceptional sealing reliability, superior thermal stability, and long-term performance under severe mechanical loads and thermal cycling conditions.
+                    </p>
+                </div>
             </div>
 
             <div class="section-divider"></div>
 
-            <div class="features-grid">
-                <div class="features-column">
-                    <h3>Key Features & Advantages</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Self generating lubrication accommodates and aids self adjustment on stem upon tightening of gland</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Most effective sealing performance with no scoring of sleeve, plunger or stem</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Hi-therm lubrication developed by in-house R&D prevents body and shaft leakage on static or dynamic equipment</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Suits for high mechanical and cylindrical load applications</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Excellent sealing during long duration operations</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Extrusion resistant and capable of withstanding higher pressure</span>
-                    </div>
-                </div>
-
-                <div class="features-column">
-                    <h3>Applications & Service Media</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Pumps, Valves, Dryers, Reactors</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Superheated & Saturated steam</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Gases, Petrochemicals, Hydrocarbon</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Thermic fluid, Hot oil</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Acids & Alkalis, Solvents</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Organic chemicals, Emissive fluids</span>
-                    </div>
-                </div>
+            <div class="tech-specs-section">
+                <h3>Technical Properties</h3>
+                <table class="tech-table">
+                    <thead>
+                        <tr>
+                            <th>Property</th>
+                            <th>Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>pH Range</td>
+                            <td>0 – 14</td>
+                        </tr>
+                        <tr>
+                            <td>Temperature (°C)</td>
+                            <td>-200 to +650°C (3000°C in Non-Oxidizing Media)</td>
+                        </tr>
+                        <tr>
+                            <td>Pressure (Bar)</td>
+                            <td>100</td>
+                        </tr>
+                        <tr>
+                            <td>Velocity (m/s)</td>
+                            <td>20</td>
+                        </tr>
+                        <tr>
+                            <td>Size</td>
+                            <td>3 sq mm to 50 sq mm</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
 
-    <!-- Page 3 - Technical Properties and Performance Benefits -->
+    <!-- Page 3 - Key Features and Applications -->
     <div class="page-3">
         <div class="page-2-header">
             <div>
                 <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
-                <h2 class="page-2-title">Technical Specifications</h2>
+                <h2 class="page-2-title">CG 100</h2>
             </div>
         </div>
 
         <div class="content-section">
+            <div class="features-grid">
+                <div class="features-column">
+                    <h3>Key Features</h3>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Manufactured from 99% pure expanded graphite fiber for exceptional thermal and chemical resistance.</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Reinforced with non-metallic filaments to improve strength and extrusion resistance.</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Impregnated with proprietary HiTherm dispersion for enhanced sealing performance.</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Optional PTFE dispersion available for specialized applications.</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Self-lubricating construction reduces friction and minimizes shaft and stem wear.</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Forms a dense and uniform seal that effectively blocks leakage paths.</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Excellent dimensional stability under thermal cycling and pressure fluctuations.</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Fire-safe design suitable for safety-critical applications.</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Suitable for both rotary and rising stem valve applications.</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Designed for long-term performance in demanding industrial environments.</span>
+                    </div>
+                </div>
+
+                <div class="features-column">
+                    <h3>Applications</h3>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Rotary valves.</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Rising stem valves.</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Pumps and process equipment.</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Steam service applications.</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Hydrocarbon processing systems.</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Chemical and petrochemical plants.</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Refinery operations.</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Solvent handling systems.</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Acid and alkali service.</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">General industrial fluid sealing applications.</span>
+                    </div>
+                </div>
+            </div>
             <div class="features-column" style="margin-bottom: 10mm;">
-<div class="features-column">
-                    <h3>Availability</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Size Range: 3 sq mm to 50 sq mm</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Impregnation Options:</span>
-                    </div>
+                <h3>Impregantion Options</h3>
+                <div style="margin-left: 8mm;">
                     <div class="feature-item">
                         <span class="bullet">●</span>
                         <span class="feature-text">Proprietary HiTherm Dispersion</span>
@@ -489,95 +548,59 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
 
-            <div class="properties-section">
-                <h3>Technical Properties</h3>
-                <table class="properties-table">
-                    <tr>
-                        <th>Properties</th>
-                        <th style="text-align: center;">
-                            <i class="fas fa-sync-alt" style="font-size: 14pt;"></i>
-                            <br><span style="font-size: 7pt; font-weight: normal;">Rotating</span>
-                        </th>
-                        <th style="text-align: center;">
-                            <i class="fas fa-arrows-alt-h" style="font-size: 14pt;"></i>
-                            <br><span style="font-size: 7pt; font-weight: normal;">Reciprocating</span>
-                        </th>
-                        <th style="text-align: center;">
-                            <i class="fas fa-circle" style="font-size: 14pt;"></i>
-                            <br><span style="font-size: 7pt; font-weight: normal;">Static</span>
-                        </th>
-                    </tr>
-                    <tr>
-                        <td>pH</td>
-                        <td colspan="3" style="text-align: center;">0-14</td>
-                    </tr>
-                    <tr>
-                        <td>Temperature (°C)</td>
-                        <td colspan="3" style="text-align: center;">-200 to +650°C (2700°C in non oxidizing media)</td>
-                    </tr>
-                    <tr>
-                        <td>Pressure (BAR)</td>
-                        <td style="text-align: center;">35</td>
-                        <td style="text-align: center;">80</td>
-                        <td style="text-align: center;">100</td>
-                    </tr>
-                    <tr>
-                        <td>Velocity (m/s)</td>
-                        <td style="text-align: center;">20</td>
-                        <td style="text-align: center;">10</td>
-                        <td style="text-align: center;">---</td>
-                    </tr>
-                    <tr>
-                        <td>Size</td>
-                        <td colspan="3" style="text-align: center;">3sq mm to 50sq mm</td>
-                    </tr>
-                </table>
+    <!-- Page 4 - Performance Benefits -->
+    <div class="page-4">
+        <div class="page-2-header">
+            <div>
+                <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
+                <h2 class="page-2-title">CG 100</h2>
             </div>
-
-            <div class="features-column" style="margin-bottom: 10mm;">
-<div class="features-column">
-                    <h3>Style CG 100</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Style CG 100 is a high-performance braided packing manufactured from 99% pure expanded graphite fiber reinforced with non-metallic filaments. Designed for demanding industrial sealing applications, it offers outstanding resistance to extrusion, high temperatures, aggressive chemicals, and high-pressure operating conditions in both dynamic and static services.</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">The packing is impregnated with proprietary HiTherm dispersion, with PTFE dispersion available as an option, creating a dense and uniform sealing structure that effectively blocks leakage paths. Its self-lubricating properties allow automatic adjustment under gland pressure, reducing friction, minimizing wear, and extending equipment life.</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Developed through advanced in-house research and engineering, Style CG 100 provides exceptional sealing reliability, superior thermal stability, and long-term performance under severe mechanical loads and thermal cycling conditions.</span>
-                    </div>
-                </div>
-            </div>
-
+        </div>
+        <div class="content-section">
             <div class="benefits-box">
                 <h3>Performance Benefits</h3>
                 <div class="benefit-item">
                     <span class="check-icon">✓</span>
-                    <span>Expanded flexible pure graphite fibre with 99% minimum purity for exceptional performance</span>
+                    <span>Exceptional resistance to high temperatures and chemically aggressive media.</span>
                 </div>
                 <div class="benefit-item">
                     <span class="check-icon">✓</span>
-                    <span>Reinforced with non-metallic filament for extrusion resistance and higher pressure capability</span>
+                    <span>Proprietary HiTherm impregnation ensures uniform sealing and reduced leakage.</span>
                 </div>
                 <div class="benefit-item">
                     <span class="check-icon">✓</span>
-                    <span>Proprietary hi-therm dispersion fills leak paths between braids creating homogeneous mass under gland pressure</span>
+                    <span>Suitable for both rotary and rising stem valve applications across a wide pressure range.</span>
                 </div>
                 <div class="benefit-item">
                     <span class="check-icon">✓</span>
-                    <span>Self generating lubrication provides effective sealing with no scoring of equipment components</span>
+                    <span>Fire-safe design makes it ideal for fire-rated and safety-critical installations.</span>
                 </div>
                 <div class="benefit-item">
                     <span class="check-icon">✓</span>
-                    <span>Suitable for both dynamic and static conditions across wide range of industrial applications</span>
+                    <span>Self-lubricating properties reduce wear and extend equipment service life.</span>
                 </div>
                 <div class="benefit-item">
                     <span class="check-icon">✓</span>
-                    <span>In-house R&D developed hi-therm lubrication prevents body and shaft leakage</span>
+                    <span>Compatible with steam, hydrocarbons, solvents, acids, alkalis, and numerous industrial fluids.</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>Reinforced construction prevents extrusion under high-pressure conditions.</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>Prevents scoring and damage to sleeves, plungers, and valve stems.</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>Performs exceptionally well under mechanical loads and thermal cycling.</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>Maintains sealing integrity and reliability during extended operating periods.</span>
                 </div>
             </div>
         </div>

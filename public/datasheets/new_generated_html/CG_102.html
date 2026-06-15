@@ -149,14 +149,11 @@
         }
 
         .description-with-image {
-            display: flex;
-            gap: 10mm;
-            align-items: flex-start;
             margin-bottom: 10mm;
         }
 
         .description-text {
-            flex: 1;
+            text-align: justify;
         }
 
         .description {
@@ -168,7 +165,9 @@
         }
 
         .side-product-image {
-            flex-shrink: 0;
+            float: right;
+            margin-left: 6mm;
+            margin-bottom: 4mm;
         }
 
         .product-image-container {
@@ -179,10 +178,10 @@
         }
 
         .product-image-small {
-            width: 70mm;
-            height: 70mm;
+            width: 85mm;
+            height: 55mm;
             border-radius: 4mm;
-            object-fit: contain;
+            object-fit: cover;
             display: block;
         }
 
@@ -230,49 +229,46 @@
             color: #444;
         }
 
-        /* Properties Table */
-        .properties-section {
-            background: #f5f5f5;
-            padding: 8mm;
-            border-radius: 3mm;
-            border-left: 4px solid #e31e24;
-            margin-bottom: 8mm;
+        /* Technical Properties Table */
+        .tech-specs-section {
+            margin-top: 5mm;
         }
 
-        .properties-section h3 {
-            font-size: 14pt;
+        .tech-specs-section h3 {
+            font-size: 12pt;
             color: #2b2a29;
-            margin-bottom: 5mm;
+            margin-bottom: 3mm;
+            padding-bottom: 2mm;
+            border-bottom: 2px solid #e31e24;
+            font-weight: 600;
         }
 
-        .properties-table {
+        .tech-table {
             width: 100%;
             border-collapse: collapse;
+            font-size: 9pt;
         }
 
-        .properties-table th {
-            background: #2b2a29;
+        .tech-table thead {
+            background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%);
             color: white;
+        }
+
+        .tech-table th {
             padding: 3mm;
             text-align: left;
-            font-size: 9pt;
             font-weight: 600;
+            border: 1px solid #ddd;
         }
 
-        .properties-table td {
-            padding: 2.5mm 3mm;
-            border-bottom: 1px solid #ddd;
-            font-size: 9pt;
-            color: #333;
+        .tech-table td {
+            padding: 2.5mm;
+            border: 1px solid #ddd;
+            color: #444;
         }
 
-        .properties-table tr:last-child td {
-            border-bottom: none;
-        }
-
-        .properties-table td:first-child {
-            font-weight: 600;
-            color: #2b2a29;
+        .tech-table tbody tr:nth-child(even) {
+            background-color: #f9f9f9;
         }
 
         /* Benefits Box */
@@ -379,114 +375,78 @@
 
         <div class="content-section">
             <div class="description-with-image">
-                <div class="description-text">
-                    <p class="description">
-                        CG 102 is crafted from premium expanded graphite yarn with 98% carbon content, reinforced with Inconel wire. It is impregnated with proprietary graphite based dispersion and a corrosion inhibitor to protect equipment from galvanic damage. This ensures durability and reliability in high-pressure environments.
-                    </p>
-
-                    <p class="description" style="margin-bottom: 0;">
-                        The resilient inconel wire enhances structural strength, while the self-lubricating graphite aids stem adjustment during gland tightening. High temperature graphite based lubrication prevents leakage in both static and dynamic equipment, making it ideal for valves, autoclaves, and rotary kilns.
-                    </p>
-                </div>
-
                 <div class="side-product-image">
                     <div class="product-image-container">
                         <img src="../../FZC%20Inmarco%20Product%20Shoot/CG%20102/CG%20102%20-%2031_05_2.png" alt="CG 102" class="product-image-small" onerror="this.style.display='none'">
                     </div>
                 </div>
+
+                <div class="description-text">
+                    <p class="description">
+                        INMARCO Style CG 102 is manufactured from premium expanded graphite yarn containing a minimum of 98% carbon content and reinforced with resilient Inconel wire. The packing is impregnated with a proprietary graphite-based dispersion and a corrosion inhibitor system that protects equipment against galvanic corrosion while enhancing sealing performance in demanding applications.
+                    </p>
+
+                    <p class="description" style="margin-bottom: 0;">
+                        The flexible Inconel wire reinforcement provides excellent mechanical strength and pressure resistance, while the self-lubricating graphite structure assists stem adjustment during gland tightening. The advanced graphite-based lubricant minimizes leakage in both static and dynamic equipment, making Style CG 102 an ideal solution for valves, autoclaves, rotary kilns, and other high-temperature sealing applications.
+                    </p>
+                </div>
             </div>
 
             <div class="section-divider"></div>
 
-            <div class="features-grid">
-                <div class="features-column">
-                    <h3>Key Features</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Made from expanded graphite yarn with a minimum 98% carbon content</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Ensures excellent thermal conductivity and chemical resistance across a wide range of industrial media</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Braided with strong yet flexible Inconel wire maintaining structural integrity</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Optional multi-wire reinforcement for surge resistance</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Developed through in-house R&D this advanced dispersion prevents leakage</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">The packing generates its own lubrication allowing smooth stem adjustment</span>
-                    </div>
-                </div>
-
-                <div class="features-column">
-                    <h3>Applications</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Ideal for use in valves, autoclaves, rotary kilns</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Systems handling steam, hydrocarbons, thermic fluids, hot oil and cooling water</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Safe for use in sensitive environments as it does not contaminate the media</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Suitable for rotary and rising-stem valve applications from Class 150 to Class 1500</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Integrated sacrificial metal corrosion inhibitors safeguard equipment from galvanic corrosion</span>
-                    </div>
-                </div>
+            <div class="tech-specs-section">
+                <h3>Technical Properties</h3>
+                <table class="tech-table">
+                    <thead>
+                        <tr>
+                            <th>Property</th>
+                            <th>Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>pH Range</td>
+                            <td>0 – 14</td>
+                        </tr>
+                        <tr>
+                            <td>Temperature Range</td>
+                            <td>-240°C to +538°C</td>
+                        </tr>
+                        <tr>
+                            <td>Pressure Rating</td>
+                            <td>300 bar</td>
+                        </tr>
+                        <tr>
+                            <td>Available Sizes</td>
+                            <td>6.5 sq mm to 50 sq mm</td>
+                        </tr>
+                        <tr>
+                            <td>Construction</td>
+                            <td>Expanded Graphite Yarn with Inconel Wire Reinforcement</td>
+                        </tr>
+                        <tr>
+                            <td>Carbon Content</td>
+                            <td>Minimum 98%</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
 
-    <!-- Page 3 - Technical Properties and Performance Benefits -->
+    <!-- Page 3 - Key Features and Applications -->
     <div class="page-3">
         <div class="page-2-header">
             <div>
                 <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
-                <h2 class="page-2-title">Technical Specifications</h2>
+                <h2 class="page-2-title">CG 102</h2>
             </div>
         </div>
 
         <div class="content-section">
-            <div class="features-column" style="margin-bottom: 10mm;">
-<div class="features-column">
-                    <h3>CG 102</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Engineered for Extreme Conditions – Reliable Sealing with Advanced Graphite Technology</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Style CG 102</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">INMARCO Style CG 102 is manufactured from premium expanded graphite yarn containing a minimum of 98% carbon content and reinforced with resilient Inconel wire. The packing is impregnated with a proprietary graphite-based dispersion and a corrosion inhibitor system that protects equipment against galvanic corrosion while enhancing sealing performance in demanding applications.</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">The flexible Inconel wire reinforcement provides excellent mechanical strength and pressure resistance, while the self-lubricating graphite structure assists stem adjustment during gland tightening. The advanced graphite-based lubricant minimizes leakage in both static and dynamic equipment, making Style CG 102 an ideal solution for valves, autoclaves, rotary kilns, and other high-temperature sealing applications.</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">KEY FEATURES</span>
-                    </div>
+            <div class="features-grid">
+                <div class="features-column">
+                    <h3>Key Features</h3>
                     <div class="feature-item">
                         <span class="bullet">●</span>
                         <span class="feature-text">Manufactured from premium expanded graphite yarn with a minimum carbon content of 98%.</span>
@@ -519,10 +479,10 @@
                         <span class="bullet">●</span>
                         <span class="feature-text">Chemically inert and suitable for applications where media contamination must be avoided.</span>
                     </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">APPLICATIONS</span>
-                    </div>
+                </div>
+
+                <div class="features-column">
+                    <h3>Applications</h3>
                     <div class="feature-item">
                         <span class="bullet">●</span>
                         <span class="feature-text">Industrial valves.</span>
@@ -559,152 +519,73 @@
                         <span class="bullet">●</span>
                         <span class="feature-text">Rotary and rising-stem valve applications.</span>
                     </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">TECHNICAL SPECIFICATIONS</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Property | Value</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">pH Range | 0 – 14</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Temperature Range | -240°C to +538°C</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Pressure Rating | 300 bar</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Available Sizes | 6.5 sq mm to 50 sq mm</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Construction | Expanded Graphite Yarn with Inconel Wire Reinforcement</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Carbon Content | Minimum 98%</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">PERFORMANCE BENEFITS</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Exceptional high-temperature resistance up to 3000°C in non-oxidizing environments.</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Low oxidation characteristics provide extended service life under extreme thermal conditions.</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Fire-safe design suitable for critical industrial and fire-rated applications.</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Inconel wire reinforcement delivers outstanding pressure resistance and mechanical stability.</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Self-lubricating graphite reduces friction and wear during operation.</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Corrosion inhibitor system protects valve stems and equipment from galvanic corrosion.</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Excellent thermal conductivity promotes efficient heat dissipation and cooler operation.</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Suitable for rotary and rising-stem valve applications from Class 150 to Class 1500.</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Maintains sealing integrity under high pressure and severe operating conditions.</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Provides long-term reliability in steam, hydrocarbon, thermic fluid, and hot oil services.</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">ADDITIONAL INFORMATION</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Optional multi-wire Inconel reinforcement is available for applications requiring enhanced surge resistance.</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">For valve classes above Class 1500, please consult INMARCO Technical Services.</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">s</span>
-                    </div>
                 </div>
             </div>
+        </div>
+    </div>
 
-            <div class="properties-section">
-                <h3>Technical Properties</h3>
-                <table class="properties-table">
-                    <tr>
-                        <th>Properties</th>
-                        <th>Values</th>
-                    </tr>
-                    <tr>
-                        <td>pH</td>
-                        <td>0-14</td>
-                    </tr>
-                    <tr>
-                        <td>Temperature (°C)</td>
-                        <td>-240 to +260</td>
-                    </tr>
-                    <tr>
-                        <td>Pressure (BAR)</td>
-                        <td>300</td>
-                    </tr>
-                    <tr>
-                        <td>Size</td>
-                        <td>3sq mm TO 50sq mm</td>
-                    </tr>
-                </table>
+    <!-- Page 4 - Performance Benefits -->
+    <div class="page-4">
+        <div class="page-2-header">
+            <div>
+                <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
+                <h2 class="page-2-title">CG 102</h2>
             </div>
+        </div>
 
+        <div class="content-section">
             <div class="benefits-box">
                 <h3>Performance Benefits</h3>
                 <div class="benefit-item">
                     <span class="check-icon">✓</span>
-                    <span>Exceptional high temperature resistance up to 3315°C in non-oxidizing media</span>
+                    <span>Exceptional high-temperature resistance up to 3000°C in non-oxidizing environments.</span>
                 </div>
                 <div class="benefit-item">
                     <span class="check-icon">✓</span>
-                    <span>Low oxidation rate ensures long service life in extreme thermal environments</span>
+                    <span>Low oxidation characteristics provide extended service life under extreme thermal conditions.</span>
                 </div>
                 <div class="benefit-item">
                     <span class="check-icon">✓</span>
-                    <span>Fire-safe design suitable for fire-rated industrial applications</span>
+                    <span>Fire-safe design suitable for critical industrial and fire-rated applications.</span>
                 </div>
                 <div class="benefit-item">
                     <span class="check-icon">✓</span>
-                    <span>Reinforced with Inconel wire for superior pressure resistance and structural integrity</span>
+                    <span>Inconel wire reinforcement delivers outstanding pressure resistance and mechanical stability.</span>
                 </div>
                 <div class="benefit-item">
                     <span class="check-icon">✓</span>
-                    <span>Self-lubricating graphite aids stem adjustment and reduces wear during operation</span>
+                    <span>Self-lubricating graphite reduces friction and wear during operation.</span>
                 </div>
                 <div class="benefit-item">
                     <span class="check-icon">✓</span>
-                    <span>Corrosion inhibitor prevents galvanic corrosion protecting valve stems and bodies</span>
+                    <span>Corrosion inhibitor system protects valve stems and equipment from galvanic corrosion.</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>Excellent thermal conductivity promotes efficient heat dissipation and cooler operation.</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>Suitable for rotary and rising-stem valve applications from Class 150 to Class 1500.</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>Maintains sealing integrity under high pressure and severe operating conditions.</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>Provides long-term reliability in steam, hydrocarbon, thermic fluid, and hot oil services.</span>
+                </div>
+            </div>
+
+            <div style="background: #fff9e6; border-left: 4px solid #e31e24; padding: 6mm 8mm; margin-top: 8mm; border-radius: 3mm;">
+                <div style="color: #e31e24; font-size: 10pt; font-weight: 600; margin-bottom: 3mm; display: flex; align-items: center; gap: 2mm;">
+                    <i class="fas fa-info-circle"></i>
+                    Additional Information
+                </div>
+                <div style="color: #555; font-size: 9pt; line-height: 1.5;">
+                    <p style="margin-bottom: 2mm;">● Optional multi-wire Inconel reinforcement is available for applications requiring enhanced surge resistance.</p>
+                    <p style="margin-bottom: 0;">● For valve classes above Class 1500, please consult INMARCO Technical Services.</p>
                 </div>
             </div>
         </div>

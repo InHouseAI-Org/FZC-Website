@@ -13,7 +13,7 @@
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; color: #2b2a29; background: white; width: 210mm; min-height: 290mm; margin: 0; padding: 0; }
         .page-1 { width: 210mm; height: 290mm; background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%); position: relative; overflow: hidden; page-break-after: always; }
         .header { padding: 20mm 15mm; display: flex; justify-content: center; align-items: center; }
-        .logo-section { color: white; }
+        .logo-section { color: white; text-align: center; }
         .logo-section img { height: 200px; width: auto; }
         .hero-section { position: relative; margin-top: 10px; height: 100%; background-image: url('../../oil and gas.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; }
         .hero-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to right, rgba(43, 42, 41, 0.95) 0%, rgba(43, 42, 41, 0.7) 50%, transparent 100%); }
@@ -21,16 +21,15 @@
         .red-accent { width: 50mm; height: 4px; background: #e31e24; margin-bottom: 10mm; }
         .product-name { font-size: 52pt; font-weight: 700; color: white; margin-bottom: 6mm; letter-spacing: -1.5px; line-height: 1.1; }
         .product-tagline { font-size: 16pt; color: #ffffff; max-width: 140mm; line-height: 1.5; font-weight: 300; }
-        .page-2, .page-3, .page-4 { width: 210mm; height: 290mm; background: white; position: relative; page-break-after: always; }
-        .page-4 { page-break-after: auto; }
+        .page-2, .page-3, .page-4, .page-5 { width: 210mm; height: 290mm; background: white; position: relative; page-break-after: always; }
+        .page-5 { page-break-after: auto; }
         .page-2-header { background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%); padding: 12mm 15mm; color: white; display: flex; justify-content: space-between; align-items: center; }
         .page-2-title { font-size: 28pt; font-weight: bold; }
         .content-section { padding: 10mm 15mm; }
         .description { font-size: 10pt; line-height: 1.5; color: #333; margin-bottom: 0; text-align: justify; }
 
         .description-with-image {
-            margin-bottom: 6mm;
-            overflow: auto;
+            margin-bottom: 10mm;
         }
 
         .description-text {
@@ -42,7 +41,7 @@
             margin-left: 5mm;
             margin-bottom: 5mm;
             margin-right: 0;
-            width: 60mm;
+            width: 85mm;
         }
 
         .product-image-container {
@@ -53,8 +52,8 @@
         }
 
         .product-image-small {
-            height: 50mm;
-            width: 100%;
+            height: 55mm;
+            width: 85mm;
             border-radius: 4mm;
             object-fit: cover;
             display: block;
@@ -64,7 +63,7 @@
         .features-grid { display: flex; gap: 10mm; margin-bottom: 0; }
         .features-column { flex: 1; }
         .features-column h3 { font-size: 12pt; color: #2b2a29; margin-bottom: 3mm; padding-bottom: 2mm; border-bottom: 2px solid #e31e24; font-weight: 600; }
-        .feature-item { display: flex; margin-bottom: 1mm; font-size: 8.5pt; line-height: 1.4; }
+        .feature-item { display: flex; margin-bottom: 3mm; font-size: 10pt; line-height: 1.8; }
         .bullet { color: #e31e24; font-weight: bold; margin-right: 3mm; font-size: 8pt; margin-top: 0.8mm; }
         .feature-text { flex: 1; color: #444; }
         .benefits-box { background: linear-gradient(135deg, #e31e24 0%, #c41a20 100%); color: white; padding: 8mm; border-radius: 3mm; margin-bottom: 8mm; }
@@ -120,39 +119,10 @@
                 </div>
 
                 <div class="description-text">
-                    <p class="description">Inmarco INMATEX™ TYPE 1400 is a premium expanded PTFE sheet manufactured from 100% virgin Polytetrafluoroethylene (PTFE) using an advanced expansion process.<br><br>The material is soft, flexible, and highly resilient, allowing excellent compressibility and conformance to flange sealing surfaces.The sheet exhibits outstanding resistance to creep, hot flow, and cold flow while maintaining excellent sealing performance under low bolt loads.<br><br>Its unique expanded PTFE structure provides superior permeation resistance, emission control, and long-term sealing reliability across a wide range of chemical and industrial applications.INMATEX™ 1400 withstands compressive loads exceeding 1650 bar, making it suitable for demanding sealing applications involving fragile and non-metallic flanges.</p>
+                    <p class="description">INMARCO INMATEX™ TYPE 1400 is a premium expanded PTFE sheet manufactured from 100% virgin Polytetrafluoroethylene (PTFE) using an advanced expansion process. The material is soft, flexible, and highly resilient, allowing excellent compressibility and conformance to flange sealing surfaces.<br><br>The sheet exhibits outstanding resistance to creep, hot flow, and cold flow while maintaining excellent sealing performance under low bolt loads. Its unique expanded PTFE structure provides superior permeation resistance, emission control, and long-term sealing reliability across a wide range of chemical and industrial applications.<br><br>INMATEX™ 1400 withstands compressive loads exceeding 1650 bar, making it suitable for demanding sealing applications involving fragile and non-metallic flanges.</p>
                 </div>
             </div>
             <div class="section-divider"></div>
-            <div class="features-grid">
-                <div class="features-column">
-                    <h3>Key Features</h3>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Manufactured from 100% Virgin PTFE with ultra-high molecular weight fine resin</span></div>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Highly expanded structure provides exceptional flexibility and compressibility</span></div>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Excellent conformity to irregular flange sealing surfaces</span></div>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Resistant to creep, hot flow, and cold flow</span></div>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">High sealing performance with minimum bolt torque</span></div>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Easy installation resulting in reduced downtime</span></div>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Excellent permeation and emission resistance</span></div>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Withstands compressive loads above 1650 bar</span></div>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Chemically inert and suitable for a broad range of aggressive media</span></div>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Suitable for fragile and sensitive flange materials</span></div>
-                </div>
-                <div class="features-column">
-                    <h3>Applications</h3>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Glass-lined equipment flanges</span></div>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">FRP (Fiberglass Reinforced Plastic) flanges</span></div>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Ceramic flanges and joints</span></div>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Plastic piping systems</span></div>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Lined pipe joints</span></div>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Chemical process equipment</span></div>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Acid and alkali handling systems</span></div>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">HCL processing plants</span></div>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">PVC manufacturing facilities</span></div>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Nuclear industry applications</span></div>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">General industrial fluid and gas sealing services</span></div>
-                </div>
-            </div>
             <div class="tech-specs-section">
                 <h3>Technical Properties</h3>
                 <table class="tech-table">
@@ -225,8 +195,48 @@
             </div>
         </div>
         <div class="content-section">
-            <div class="features-column" style="margin-bottom: 10mm;">
-<div class="features-column">
+            <div class="features-grid">
+                <div class="features-column">
+                    <h3>Key Features</h3>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Manufactured from 100% Virgin PTFE with ultra-high molecular weight fine resin</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Highly expanded structure provides exceptional flexibility and compressibility</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Excellent conformity to irregular flange sealing surfaces</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Resistant to creep, hot flow, and cold flow</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">High sealing performance with minimum bolt torque</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Easy installation resulting in reduced downtime</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Excellent permeation and emission resistance</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Withstands compressive loads above 1650 bar</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Chemically inert and suitable for a broad range of aggressive media</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Suitable for fragile and sensitive flange materials</span></div>
+                </div>
+                <div class="features-column">
+                    <h3>Applications</h3>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Glass-lined equipment flanges</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">FRP (Fiberglass Reinforced Plastic) flanges</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Ceramic flanges and joints</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Plastic piping systems</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Lined pipe joints</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Chemical process equipment</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Acid and alkali handling systems</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">HCL processing plants</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">PVC manufacturing facilities</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Nuclear industry applications</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">General industrial fluid and gas sealing services</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-4">
+        <div class="page-2-header">
+            <div>
+                <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
+                <h2 class="page-2-title">INMATEX™ 1400</h2>
+            </div>
+        </div>
+        <div class="content-section">
+            <div class="features-grid" style="margin-bottom: 8mm;">
+                <div class="features-column">
                     <h3>Physical Properties</h3>
                     <div class="feature-item">
                         <span class="bullet">●</span>
@@ -261,10 +271,7 @@
                         <span class="feature-text">Tensile at Break Point | ASTM F-152 | 2632 PSI</span>
                     </div>
                 </div>
-            </div>
-
-            <div class="features-column" style="margin-bottom: 10mm;">
-<div class="features-column">
+                <div class="features-column">
                     <h3>Sealability Data</h3>
                     <div class="feature-item">
                         <span class="bullet">●</span>
@@ -281,8 +288,8 @@
                 </div>
             </div>
 
-            <div class="features-column" style="margin-bottom: 10mm;">
-<div class="features-column">
+            <div class="features-grid" style="margin-bottom: 8mm;">
+                <div class="features-column">
                     <h3>Thermal Performance</h3>
                     <div class="feature-item">
                         <span class="bullet">●</span>
@@ -301,10 +308,7 @@
                         <span class="feature-text">Hot Creep | 17.5%</span>
                     </div>
                 </div>
-            </div>
-
-            <div class="features-column" style="margin-bottom: 10mm;">
-<div class="features-column">
+                <div class="features-column">
                     <h3>FSA High Pressure Steam Test</h3>
                     <div class="feature-item">
                         <span class="bullet">●</span>
@@ -320,10 +324,19 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
 
+    <div class="page-5">
+        <div class="page-2-header">
+            <div>
+                <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
+                <h2 class="page-2-title">INMATEX™ 1400</h2>
+            </div>
+        </div>
+        <div class="content-section">
             <div class="benefits-box">
                 <h3>Performance Benefits</h3>
-                <div class="benefit-item"><span class="check-icon">✓</span><span>PropertyValueHot Compression Test300°CHot Loss70.9%Hot Creep17.5%FSA High Pressure Steam TestTest ConditionResult275°C @ 860 PSI for 561 HoursPassWeight Loss0.49%Performance Benefits</span></div>
                 <div class="benefit-item"><span class="check-icon">✓</span><span>Exceptional compressibility for sealing irregular flange surfaces</span></div>
                 <div class="benefit-item"><span class="check-icon">✓</span><span>Excellent recovery characteristics for long-term sealing reliability</span></div>
                 <div class="benefit-item"><span class="check-icon">✓</span><span>Superior resistance to creep relaxation and cold flow</span></div>
@@ -335,7 +348,7 @@
                 <div class="benefit-item"><span class="check-icon">✓</span><span>Outstanding permeation and emission control</span></div>
                 <div class="benefit-item"><span class="check-icon">✓</span><span>Resistant to aging, hardening, and degradation during service</span></div>
                 <div class="benefit-item"><span class="check-icon">✓</span><span>Reliable performance under vacuum and high-pressure conditions</span></div>
-                <div class="benefit-item"><span class="check-icon">✓</span><span>Ideal for fragile flanges including glass, FRP, ceramic, plastic, and lined equipmentDISCLAIMERAll technical information, recommendations, and performance data provided in this technical datasheet are based on current knowledge, laboratory testing, and industrial experience. Actual product performance may vary depending on operating conditions, equipment design, installation practices, process media, pressure, temperature, and application environment. Final product selection and suitability should be determined by the user based on the specific service conditions and application requirements.</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Ideal for fragile flanges including glass, FRP, ceramic, plastic, and lined equipment</span></div>
             </div>
         </div>
         <div class="footer">

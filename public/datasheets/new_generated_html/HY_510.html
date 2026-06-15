@@ -39,7 +39,7 @@
 
         .header {
             padding: 20mm 15mm;
-            display: flex;
+            margin-bottom: 10mm;
             justify-content: center;
             align-items: center;
         }
@@ -134,7 +134,7 @@
             background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%);
             padding: 15mm;
             color: white;
-            display: flex;
+            margin-bottom: 10mm;
             justify-content: space-between;
             align-items: center;
         }
@@ -149,14 +149,11 @@
         }
 
         .description-with-image {
-            display: flex;
-            gap: 10mm;
-            align-items: flex-start;
             margin-bottom: 10mm;
         }
 
         .description-text {
-            flex: 1;
+            text-align: justify;
         }
 
         .description {
@@ -168,7 +165,9 @@
         }
 
         .side-product-image {
-            flex-shrink: 0;
+            float: right;
+            margin-left: 6mm;
+            margin-bottom: 4mm;
         }
 
         .product-image-container {
@@ -179,10 +178,10 @@
         }
 
         .product-image-small {
-            width: 70mm;
-            height: 70mm;
+            width: 85mm;
+            height: 55mm;
             border-radius: 4mm;
-            object-fit: contain;
+            object-fit: cover;
             display: block;
         }
 
@@ -193,13 +192,13 @@
         }
 
         .features-grid {
-            display: flex;
-            gap: 10mm;
+            margin-bottom: 10mm;
+            /* removed gap */
             margin-bottom: 10mm;
         }
 
         .features-column {
-            flex: 1;
+            text-align: justify;
         }
 
         .features-column h3 {
@@ -212,7 +211,7 @@
         }
 
         .feature-item {
-            display: flex;
+            margin-bottom: 10mm;
             margin-bottom: 4mm;
             font-size: 9pt;
             line-height: 1.5;
@@ -226,7 +225,7 @@
         }
 
         .feature-text {
-            flex: 1;
+            text-align: justify;
             color: #444;
         }
 
@@ -290,8 +289,8 @@
         }
 
         .benefit-item {
-            display: flex;
-            align-items: flex-start;
+            margin-bottom: 10mm;
+            /* removed align-items */
             margin-bottom: 3mm;
             font-size: 9pt;
             line-height: 1.4;
@@ -320,7 +319,7 @@
         }
 
         .footer-content {
-            display: flex;
+            margin-bottom: 10mm;
             justify-content: space-between;
             align-items: center;
         }
@@ -442,6 +441,12 @@
 
         <div class="content-section">
             <div class="description-with-image">
+                <div class="side-product-image">
+                    <div class="product-image-container">
+                        <img src="../../FZC%20Inmarco%20Product%20Shoot/HY%20501/HY%20175_Edited_3_2.png" alt="HY 510" class="product-image-small" onerror="this.style.display='none'">
+                    </div>
+                </div>
+
                 <div class="description-text">
                     <p class="description">
                         HY 510EC is a high-performance hybrid packing designed for demanding industrial and marine applications. It is made from PTFE-based fibers with graphite in the molecular structure and Aramid reinforcement, and features a hollow elastomer core that provides enhanced resiliency. This advanced construction ensures reliable sealing and a long service life, particularly in seawater applications.
@@ -451,12 +456,7 @@
                         The packing offers excellent sealing performance and an optimized mechanical design for marine service conditions. Its specialized structure supports consistent operation under harsh environments, delivering durability, stability, and dependable leak-free performance in critical applications. Tested and qualified as per EN 16752 (Centrifugal pumps test procedure for seal packing), Tightness Class T2.
                     </p>
                 </div>
-
-                <div class="side-product-image">
-                    <div class="product-image-container">
-                        <img src="../../FZC%20Inmarco%20Product%20Shoot/HY%20501/HY%20175_Edited_3_2.png" alt="HY 510" class="product-image-small" onerror="this.style.display='none'">
-                    </div>
-                </div>
+            </div>
             </div>
 
             <div class="section-divider"></div>

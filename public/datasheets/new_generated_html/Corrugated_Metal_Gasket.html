@@ -13,7 +13,7 @@
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; color: #2b2a29; background: white; width: 210mm; min-height: 290mm; margin: 0; padding: 0; }
         .page-1 { width: 210mm; height: 290mm; background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%); position: relative; overflow: hidden; page-break-after: always; }
         .header { padding: 20mm 15mm; display: flex; justify-content: center; align-items: center; }
-        .logo-section { color: white; }
+        .logo-section { color: white; text-align: center; }
         .logo-section img { height: 200px; width: auto; }
         .hero-section { position: relative; margin-top: 10px; height: 100%; background-image: url('../../oil and gas.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; }
         .hero-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to right, rgba(43, 42, 41, 0.95) 0%, rgba(43, 42, 41, 0.7) 50%, transparent 100%); }
@@ -21,16 +21,15 @@
         .red-accent { width: 50mm; height: 4px; background: #e31e24; margin-bottom: 10mm; }
         .product-name { font-size: 52pt; font-weight: 700; color: white; margin-bottom: 6mm; letter-spacing: -1.5px; line-height: 1.1; }
         .product-tagline { font-size: 16pt; color: #ffffff; max-width: 140mm; line-height: 1.5; font-weight: 300; }
-        .page-2, .page-3, .page-4 { width: 210mm; height: 290mm; background: white; position: relative; page-break-after: always; }
-        .page-4 { page-break-after: auto; }
+        .page-2, .page-3, .page-4, .page-5 { width: 210mm; height: 290mm; background: white; position: relative; page-break-after: always; }
+        .page-5 { page-break-after: auto; }
         .page-2-header { background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%); padding: 12mm 15mm; color: white; display: flex; justify-content: space-between; align-items: center; }
         .page-2-title { font-size: 28pt; font-weight: bold; }
         .content-section { padding: 10mm 15mm; }
         .description { font-size: 10pt; line-height: 1.5; color: #333; margin-bottom: 0; text-align: justify; }
 
         .description-with-image {
-            margin-bottom: 6mm;
-            overflow: auto;
+            margin-bottom: 10mm;
         }
 
         .description-text {
@@ -42,7 +41,7 @@
             margin-left: 5mm;
             margin-bottom: 5mm;
             margin-right: 0;
-            width: 60mm;
+            width: 85mm;
         }
 
         .product-image-container {
@@ -53,8 +52,8 @@
         }
 
         .product-image-small {
-            height: 50mm;
-            width: 100%;
+            height: 55mm;
+            width: 85mm;
             border-radius: 4mm;
             object-fit: cover;
             display: block;
@@ -64,7 +63,7 @@
         .features-grid { display: flex; gap: 10mm; margin-bottom: 0; }
         .features-column { flex: 1; }
         .features-column h3 { font-size: 12pt; color: #2b2a29; margin-bottom: 3mm; padding-bottom: 2mm; border-bottom: 2px solid #e31e24; font-weight: 600; }
-        .feature-item { display: flex; margin-bottom: 1mm; font-size: 8.5pt; line-height: 1.4; }
+        .feature-item { display: flex; margin-bottom: 3mm; font-size: 10pt; line-height: 1.8; }
         .bullet { color: #e31e24; font-weight: bold; margin-right: 3mm; font-size: 8pt; margin-top: 0.8mm; }
         .feature-text { flex: 1; color: #444; }
         .benefits-box { background: linear-gradient(135deg, #e31e24 0%, #c41a20 100%); color: white; padding: 8mm; border-radius: 3mm; margin-bottom: 8mm; }
@@ -124,34 +123,7 @@
                 </div>
             </div>
             <div class="section-divider"></div>
-            <div class="features-grid">
-                <div class="features-column">
-                    <h3>Key Features</h3>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Precision-formed concentric corrugations provide excellent resilience, flexibility, and recovery characteristics.</span></div>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Available with graphite, PTFE, mica, ceramic, or non-asbestos facing materials for enhanced sealing performance.</span></div>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Provides effective sealing with relatively low bolt loads compared to fully metallic gaskets.</span></div>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Maintains sealing integrity through repeated temperature and pressure fluctuations.</span></div>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Effectively compensates for uneven, warped, or imperfect flange surfaces.</span></div>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Available in multiple profiles and configurations to suit specialized equipment requirements.</span></div>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Suitable for use with multiple soft facing materials depending on service conditions.</span></div>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Wide range of material combinations for temperature and chemical compatibility.</span></div>
-                </div>
-                <div class="features-column">
-                    <h3>Applications</h3>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Heat exchangers</span></div>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Pressure vessels</span></div>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Valves and actuators</span></div>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Process piping systems</span></div>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Steam lines</span></div>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Reactor nozzles</span></div>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Flanged joints</span></div>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Chemical processing plants</span></div>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Petrochemical facilities</span></div>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Oil & gas operations</span></div>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Refineries</span></div>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Power generation plants</span></div>
-                </div>
-            </div>
+
             <div class="tech-specs-section">
                 <h3>Technical Properties</h3>
                 <table class="tech-table">
@@ -204,13 +176,48 @@
             </div>
         </div>
         <div class="content-section">
-            <div class="features-column" style="margin-bottom: 10mm;">
-<div class="features-column">
+            <div class="features-grid">
+                <div class="features-column">
+                    <h3>Key Features</h3>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Precision-formed concentric corrugations provide excellent resilience, flexibility, and recovery characteristics.</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Available with graphite, PTFE, mica, ceramic, or non-asbestos facing materials for enhanced sealing performance.</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Provides effective sealing with relatively low bolt loads compared to fully metallic gaskets.</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Maintains sealing integrity through repeated temperature and pressure fluctuations.</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Effectively compensates for uneven, warped, or imperfect flange surfaces.</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Available in multiple profiles and configurations to suit specialized equipment requirements.</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Suitable for use with multiple soft facing materials depending on service conditions.</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Wide range of material combinations for temperature and chemical compatibility.</span></div>
+                </div>
+                <div class="features-column">
+                    <h3>Applications</h3>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Heat exchangers</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Pressure vessels</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Valves and actuators</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Process piping systems</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Steam lines</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Reactor nozzles</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Flanged joints</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Chemical processing plants</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Petrochemical facilities</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Oil & gas operations</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Refineries</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Power generation plants</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-4">
+        <div class="page-2-header">
+            <div>
+                <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
+                <h2 class="page-2-title">CORRUGATED METAL GASKET</h2>
+            </div>
+        </div>
+        <div class="content-section">
+            <div class="features-grid">
+                <div class="features-column">
                     <h3>Core Material Options</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Material</span>
-                    </div>
                     <div class="feature-item">
                         <span class="bullet">●</span>
                         <span class="feature-text">Stainless Steel 304</span>
@@ -240,9 +247,7 @@
                         <span class="feature-text">Carbon Steel</span>
                     </div>
                 </div>
-            </div>
 
-            <div class="features-column" style="margin-bottom: 10mm;">
                 <div class="features-column">
                     <h3>Facing Material Options</h3>
                     <div class="feature-item">
@@ -268,7 +273,9 @@
                 </div>
             </div>
 
-            <div class="features-column" style="margin-bottom: 10mm;">
+            <div class="section-divider"></div>
+
+            <div class="features-grid">
                 <div class="features-column">
                     <h3>Profile Options</h3>
                     <div class="feature-item">
@@ -300,9 +307,7 @@
                         <span class="feature-text">Custom CNC-Manufactured Profiles</span>
                     </div>
                 </div>
-            </div>
 
-            <div class="features-column" style="margin-bottom: 10mm;">
                 <div class="features-column">
                     <h3>Advantages</h3>
                     <div class="feature-item">
@@ -332,72 +337,17 @@
                 </div>
             </div>
 
-            <div class="features-column" style="margin-bottom: 10mm;">
-<div class="features-column">
-                    <h3>CORRUGATED METAL GASKET</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Flexible Corrugated Metal Sealing Solution for Flange Irregularities</span>
-                    </div>
-                </div>
-            </div>
+        </div>
+    </div>
 
-            <div class="features-column" style="margin-bottom: 10mm;">
-<div class="features-column">
-                    <h3>INMARCO Corrugated Metal Gaskets are versatile semi-metallic sealing elements manufactured from precision-formed thin metallic sheets with concentric corrugations. The corrugated metal core is typically faced with soft sealing materials such as flexible graphite, PTFE, mica, ceramic fibre, or non-asbestos materials to enhance sealing performance and flange conformity.</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">The corrugated construction provides excellent resilience, recovery, and mechanical stability while requiring relatively low seating stress. These gaskets effectively accommodate flange irregularities, thermal expansion, vibration, and pressure fluctuations, making them suitable for demanding industrial applications.</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Corrugated Metal Gaskets are widely used in chemical processing, petrochemical plants, refineries, power generation facilities, and oil &amp; gas operations where reliable sealing under fluctuating operating conditions is essential.</span>
-                    </div>
-                </div>
+    <div class="page-5">
+        <div class="page-2-header">
+            <div>
+                <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
+                <h2 class="page-2-title">CORRUGATED METAL GASKET</h2>
             </div>
-
-            <div class="features-column" style="margin-bottom: 10mm;">
-<div class="features-column">
-                    <h3>Technical Specifications</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Property | Value</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Operating Temperature | Cryogenic to +550°C*</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Maximum Temperature with Special Facing | Up to +1000°C*</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Pressure Range | Vacuum to 100 bar*</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Gasket Type | Semi-Metallic</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Construction | Corrugated Metal Core with Soft Facing</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Soft Facing Thickness | 0.5 mm to 3 mm per side</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Compliance Standards | ASME B16.20, DIN EN 1514-4, API 601</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">* Depending on material selection and service conditions.</span>
-                    </div>
-                </div>
-            </div>
-
+        </div>
+        <div class="content-section">
             <div class="benefits-box">
                 <h3>Performance Benefits</h3>
                 <div class="benefit-item"><span class="check-icon">✓</span><span>Excellent resilience and recovery under thermal and pressure cycling.</span></div>
@@ -409,50 +359,6 @@
                 <div class="benefit-item"><span class="check-icon">✓</span><span>Suitable for both standard and custom flange geometries.</span></div>
                 <div class="benefit-item"><span class="check-icon">✓</span><span>Provides long service life under demanding operating conditions.</span></div>
                 <div class="benefit-item"><span class="check-icon">✓</span><span>Easy installation and reduced maintenance requirements.</span></div>
-            </div>
-
-            <div class="features-grid" style="margin-top: 5mm;">
-                <div class="features-column">
-                    <h3>Core Material Options</h3>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Stainless Steel 304</span></div>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Stainless Steel 316</span></div>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Stainless Steel 321</span></div>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Inconel®</span></div>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Monel®</span></div>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Titanium</span></div>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Carbon Steel</span></div>
-                </div>
-                <div class="features-column">
-                    <h3>Facing Material Options</h3>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Flexible Graphite</span></div>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">PTFE</span></div>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Mica</span></div>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Ceramic Fibre</span></div>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Non-Asbestos Fibre</span></div>
-                </div>
-            </div>
-
-            <div class="features-grid" style="margin-top: 5mm;">
-                <div class="features-column">
-                    <h3>Profile Options</h3>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Circular</span></div>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Oval</span></div>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Elongated Oval</span></div>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Frame Type</span></div>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Divider Type</span></div>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Support Ring Design</span></div>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Custom CNC-Manufactured Profiles</span></div>
-                </div>
-                <div class="features-column">
-                    <h3>Advantages</h3>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">High flexibility and adaptability</span></div>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Excellent sealing efficiency</span></div>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Reliable thermal cycling performance</span></div>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Reduced flange loading requirements</span></div>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Customizable construction options</span></div>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Suitable for aggressive process media</span></div>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Economical long-term sealing solution</span></div>
-                </div>
             </div>
         </div>
         <div class="footer">

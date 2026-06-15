@@ -7,8 +7,6 @@ import json
 import os
 from pathlib import Path
 from docx import Document
-from docx.enum.text import WD_PARAGRAPH_ALIGNMENT
-from docx.oxml.xmlchemy import OxmlElement
 
 def is_heading(paragraph):
     """Check if paragraph is a heading"""

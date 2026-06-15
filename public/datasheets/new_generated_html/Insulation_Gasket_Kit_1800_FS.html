@@ -54,7 +54,7 @@
 
         .header {
             padding: 20mm 15mm;
-            display: flex;
+            margin-bottom: 10mm;
             justify-content: center;
             align-items: center;
         }
@@ -149,7 +149,7 @@
             background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%);
             padding: 12mm 15mm;
             color: white;
-            display: flex;
+            margin-bottom: 10mm;
             justify-content: space-between;
             align-items: center;
         }
@@ -164,7 +164,7 @@
         }
 
         .description-with-image {
-            margin-bottom: 6mm;
+            margin-bottom: 10mm;
         }
 
         .description-text {
@@ -193,9 +193,10 @@
         }
 
         .product-image-small {
-            height: 50mm;
+            width: 85mm;
+            height: 55mm;
             border-radius: 4mm;
-            object-fit: contain;
+            object-fit: cover;
             display: block;
         }
 
@@ -206,13 +207,13 @@
         }
 
         .features-grid {
-            display: flex;
-            gap: 10mm;
+            margin-bottom: 10mm;
+            /* removed gap */
             margin-bottom: 0;
         }
 
         .features-column {
-            flex: 1;
+            text-align: justify;
         }
 
         .features-column h3 {
@@ -225,7 +226,7 @@
         }
 
         .feature-item {
-            display: flex;
+            margin-bottom: 10mm;
             margin-bottom: 1mm;
             font-size: 8.5pt;
             line-height: 1.4;
@@ -240,7 +241,7 @@
         }
 
         .feature-text {
-            flex: 1;
+            text-align: justify;
             color: #444;
         }
 
@@ -304,8 +305,8 @@
         }
 
         .benefit-item {
-            display: flex;
-            align-items: flex-start;
+            margin-bottom: 10mm;
+            /* removed align-items */
             margin-bottom: 3mm;
             font-size: 9pt;
             line-height: 1.4;
@@ -334,7 +335,7 @@
         }
 
         .footer-content {
-            display: flex;
+            margin-bottom: 10mm;
             justify-content: space-between;
             align-items: center;
         }

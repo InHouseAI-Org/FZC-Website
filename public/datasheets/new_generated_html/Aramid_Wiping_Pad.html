@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> - Technical Datasheet</title>
+    <title>Wiping Pad - Technical Datasheet</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
         * {
@@ -149,14 +149,11 @@
         }
 
         .description-with-image {
-            display: flex;
-            gap: 10mm;
-            align-items: flex-start;
             margin-bottom: 10mm;
         }
 
         .description-text {
-            flex: 1;
+            text-align: justify;
         }
 
         .description {
@@ -168,7 +165,9 @@
         }
 
         .side-product-image {
-            flex-shrink: 0;
+            float: right;
+            margin-left: 6mm;
+            margin-bottom: 4mm;
         }
 
         .product-image-container {
@@ -179,10 +178,10 @@
         }
 
         .product-image-small {
-            width: 70mm;
-            height: 70mm;
+            width: 85mm;
+            height: 55mm;
             border-radius: 4mm;
-            object-fit: contain;
+            object-fit: cover;
             display: block;
         }
 
@@ -230,49 +229,46 @@
             color: #444;
         }
 
-        /* Properties Table */
-        .properties-section {
-            background: #f5f5f5;
-            padding: 8mm;
-            border-radius: 3mm;
-            border-left: 4px solid #e31e24;
-            margin-bottom: 8mm;
+        /* Technical Properties Table */
+        .tech-specs-section {
+            margin-top: 5mm;
         }
 
-        .properties-section h3 {
-            font-size: 14pt;
+        .tech-specs-section h3 {
+            font-size: 12pt;
             color: #2b2a29;
-            margin-bottom: 5mm;
+            margin-bottom: 3mm;
+            padding-bottom: 2mm;
+            border-bottom: 2px solid #e31e24;
+            font-weight: 600;
         }
 
-        .properties-table {
+        .tech-table {
             width: 100%;
             border-collapse: collapse;
+            font-size: 9pt;
         }
 
-        .properties-table th {
-            background: #2b2a29;
+        .tech-table thead {
+            background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%);
             color: white;
+        }
+
+        .tech-table th {
             padding: 3mm;
             text-align: left;
-            font-size: 9pt;
             font-weight: 600;
+            border: 1px solid #ddd;
         }
 
-        .properties-table td {
-            padding: 2.5mm 3mm;
-            border-bottom: 1px solid #ddd;
-            font-size: 9pt;
-            color: #333;
+        .tech-table td {
+            padding: 2.5mm;
+            border: 1px solid #ddd;
+            color: #444;
         }
 
-        .properties-table tr:last-child td {
-            border-bottom: none;
-        }
-
-        .properties-table td:first-child {
-            font-weight: 600;
-            color: #2b2a29;
+        .tech-table tbody tr:nth-child(even) {
+            background-color: #f9f9f9;
         }
 
         /* Benefits Box */
@@ -362,8 +358,8 @@
             <div class="hero-overlay"></div>
             <div class="hero-content">
                 <div class="red-accent"></div>
-                <h1 class="product-name">Aramid Wiping Pad</h1>
-                <p class="product-tagline">High-Performance Aramid Fiber Pad for Industrial Cleaning and Sealing</p>
+                <h1 class="product-name">Wiping Pad</h1>
+                <p class="product-tagline">High-Performance Wiping Pad for Wire Industries</p>
             </div>
         </div>
     </div>
@@ -373,88 +369,38 @@
         <div class="page-2-header">
             <div>
                 <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
-                <h2 class="page-2-title">Aramid Wiping Pad</h2>
+                <h2 class="page-2-title">Wiping Pad</h2>
             </div>
         </div>
 
         <div class="content-section">
             <div class="description-with-image">
-                <div class="description-text">
-                    <p class="description" style="margin-bottom: 0;">
-                        INMARCO Wiping Padis made from tough yet smooth
-                copolymer yarn, lubricated with mineral oil and
-                fluoropolymer suspensoid, and reinforced with high-tensile inorganic filaments. Its dense and heavy
-                construction is produced on a tailor-made machine to
-                ensure stable performance in wire drawing and
-                galvanizing operations.It offers a longer working life than conventional wiping
-                pads and maintains smooth but durable wiping action
-                during continuous use. The pad is designed to handle
-                demanding industrial wiping conditions without
-                compromising wire surface quality or process
-                consistency.
-                    </p>
-
-                </div>
-
                 <div class="side-product-image">
                     <div class="product-image-container">
                         <img src="../../FZC%20Inmarco%20Product%20Shoot/Wiping%20Pad/(1)_02.JPG" alt="Aramid Based Wiping Pad" class="product-image-small" onerror="this.style.display='none'">
                     </div>
                 </div>
+
+                <div class="description-text">
+                    <p class="description">
+                        INMARCO Wiping Pad is manufactured from tough yet smooth copolymer yarn, lubricated with mineral oil and fluoropolymer suspensoid, and reinforced with high-tensile inorganic filaments. Its dense and heavy-duty construction is produced on specially engineered machinery to ensure dimensional accuracy, consistent wiping performance, and extended service life in demanding wire processing applications.
+                    </p>
+
+                    <p class="description">
+                        Designed specifically for wire drawing and galvanizing operations, the pad delivers smooth and uniform wiping action while maintaining excellent durability under continuous operating conditions. Its advanced construction provides reliable wiping performance without compromising wire surface quality, coating consistency, or production efficiency.
+                    </p>
+
+                    <p class="description" style="margin-bottom: 0;">
+                        The Wiping Pad offers superior wear resistance, excellent chemical compatibility, and reliable operation across a broad temperature range, making it an ideal solution for modern wire manufacturing facilities.
+                    </p>
+                </div>
             </div>
 
             <div class="section-divider"></div>
 
-            <div class="features-grid">
-                <div class="features-column">
-                    <h3>Key Features</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Uniform Coating SupportAllows wires to pass smoothly between paired wiping system, achieving uniform coating during galvanizing</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Precision ManufacturingProduced on tailor-made machine ensuring precise pad dimensions and performance consistency</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Continuous Operation ReadyBuilt to perform reliably in continuous and demanding wire processing environments</span>
-                    </div>
-                </div>
-
-                <div class="features-column">
-                    <h3>Performance Advantages</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Steady Wiping PressureEngineered structure maintains steady wiping pressure during wire movement for consistent output</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Extended Service LifeDesigned to reduce frequent replacement, maintaining longer operational cycles</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Superior Wire FinishControls wiping uniformity to achieve cleaner, more refined wire surfaces</span>
-                    </div>
-                </div>
-            </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Page 3 - Technical Properties and Performance Benefits -->
-    <div class="page-3">
-        <div class="page-2-header">
-            <div>
-                <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
-                <h2 class="page-2-title">Technical Specifications</h2>
-            </div>
-        </div>
-
-        <div class="content-section">
-            <div class="properties-section">
+            <div class="tech-specs-section">
                 <h3>Technical Properties</h3>
-                <table class="properties-table">
+                <table class="tech-table">
                     <thead>
                         <tr>
                             <th>Property</th>
@@ -488,7 +434,7 @@
                         </tr>
                         <tr>
                             <td>Construction</td>
-                            <td>Dense and Heavy, Tailor-Made Manufacturing</td>
+                            <td>Dense and Heavy, Specially Engineered Manufacturing</td>
                         </tr>
                     </tbody>
                 </table>
@@ -496,36 +442,62 @@
         </div>
     </div>
 
-    <!-- Page 4 - Performance Benefits -->
-    <div class="page-4">
+    <!-- Page 3 - Key Features and Applications -->
+    <div class="page-3">
         <div class="page-2-header">
             <div>
                 <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
-                <h2 class="page-2-title">Performance Benefits</h2>
+                <h2 class="page-2-title">Wiping Pad</h2>
             </div>
         </div>
 
         <div class="content-section">
-            <div class="features-column" style="margin-bottom: 10mm;">
-<div class="features-column">
-                    <h3>Wiping Pad</h3>
+            <div class="features-grid">
+                <div class="features-column">
+                    <h3>Key Features</h3>
                     <div class="feature-item">
                         <span class="bullet">●</span>
-                        <span class="feature-text">INMARCO Wiping Pad is manufactured from tough yet smooth copolymer yarn, lubricated with mineral oil and fluoropolymer suspensoid, and reinforced with high-tensile inorganic filaments. Its dense and heavy-duty construction is produced on specially engineered machinery to ensure dimensional accuracy, consistent wiping performance, and extended service life in demanding wire processing applications.</span>
+                        <span class="feature-text">Manufactured from tough and smooth copolymer yarn for durable wiping performance.</span>
                     </div>
                     <div class="feature-item">
                         <span class="bullet">●</span>
-                        <span class="feature-text">Designed specifically for wire drawing and galvanizing operations, the pad delivers smooth and uniform wiping action while maintaining excellent durability under continuous operating conditions. Its advanced construction provides reliable wiping performance without compromising wire surface quality, coating consistency, or production efficiency.</span>
+                        <span class="feature-text">Lubricated with mineral oil and fluoropolymer suspensoid to reduce friction and enhance service life.</span>
                     </div>
                     <div class="feature-item">
                         <span class="bullet">●</span>
-                        <span class="feature-text">The Wiping Pad offers superior wear resistance, excellent chemical compatibility, and reliable operation across a broad temperature range, making it an ideal solution for modern wire manufacturing facilities.</span>
+                        <span class="feature-text">Reinforced with high-tensile inorganic filaments for improved mechanical strength.</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Dense construction provides consistent wiping pressure during operation.</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Produced on specially engineered equipment to ensure dimensional accuracy and performance consistency.</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Designed for continuous operation in demanding wire processing environments.</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Maintains smooth wiping action without damaging wire surfaces.</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Reduces replacement frequency and supports longer operating cycles.</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Suitable for both wire drawing and galvanizing applications.</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="bullet">●</span>
+                        <span class="feature-text">Excellent resistance to wear and mechanical degradation.</span>
                     </div>
                 </div>
-            </div>
 
-            <div class="features-column" style="margin-bottom: 10mm;">
-<div class="features-column">
+                <div class="features-column">
                     <h3>Applications</h3>
                     <div class="feature-item">
                         <span class="bullet">●</span>
@@ -569,42 +541,74 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
 
-            <div class="features-column" style="margin-bottom: 10mm;">
-<div class="features-column">
-                    <h3>Availability</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Size Range: 6.5 sq mm to 50 sq mm</span>
-                    </div>
-                </div>
+    <!-- Page 4 - Performance Benefits -->
+    <div class="page-4">
+        <div class="page-2-header">
+            <div>
+                <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
+                <h2 class="page-2-title">Performance Benefits</h2>
             </div>
+        </div>
 
+        <div class="content-section">
             <div class="benefits-box">
                 <h3>Performance Benefits</h3>
                 <div class="benefit-item">
                     <span class="check-icon">✓</span>
-                    <span>Unique construction with high structural carbon filament reinforcement increases strength and enhanced seal-ability</span>
+                    <span>Allows wires to pass smoothly through paired wiping systems for uniform coating control.</span>
                 </div>
                 <div class="benefit-item">
                     <span class="check-icon">✓</span>
-                    <span>Impregnated with proprietary high-therm graphite-based dispersion for superior performance</span>
+                    <span>Maintains consistent wiping pressure throughout continuous wire movement.</span>
                 </div>
                 <div class="benefit-item">
                     <span class="check-icon">✓</span>
-                    <span>Inorganic passive corrosion inhibitor protects equipment from galvanic corrosion</span>
+                    <span>Supports uniform coating thickness during galvanizing operations.</span>
                 </div>
                 <div class="benefit-item">
                     <span class="check-icon">✓</span>
-                    <span>Adapts easily to surface irregularities and conforms to stuffing box dimensions</span>
+                    <span>Provides cleaner and more refined wire surfaces for downstream processing.</span>
                 </div>
                 <div class="benefit-item">
                     <span class="check-icon">✓</span>
-                    <span>Excellent dry run capabilities with smooth performance in demanding applications</span>
+                    <span>Reliable operation across extreme hot and cold production conditions.</span>
                 </div>
                 <div class="benefit-item">
                     <span class="check-icon">✓</span>
-                    <span>Chemically inert, does not leach chemicals during operation maintaining safety standards</span>
+                    <span>Broad chemical compatibility for diverse wire processing environments.</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>High pressure resistance suitable for demanding production line configurations.</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>Excellent wear resistance ensures extended operational life.</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>Reduces maintenance frequency and production interruptions.</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>Compatible with paired-pad wiping assemblies commonly used in wire drawing and galvanizing systems.</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="check-icon">✓</span>
+                    <span>Contributes to improved process consistency and product quality.</span>
+                </div>
+            </div>
+
+            <div style="background: #fff9e6; border-left: 4px solid #e31e24; padding: 6mm 8mm; margin-top: 8mm; border-radius: 3mm;">
+                <div style="color: #e31e24; font-size: 10pt; font-weight: 600; margin-bottom: 3mm; display: flex; align-items: center; gap: 2mm;">
+                    <i class="fas fa-info-circle"></i>
+                    Availability
+                </div>
+                <div style="color: #555; font-size: 9pt; line-height: 1.5;">
+                    <p style="margin-bottom: 0;">Size Range: 6.5 sq mm to 50 sq mm</p>
                 </div>
             </div>
         </div>

@@ -6,387 +6,72 @@
     <title>CG 101 - Technical Datasheet</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        @page {
-            size: A4;
-            margin: 0;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
-            color: #2b2a29;
-            background: white;
-            width: 210mm;
-            min-height: 297mm;
-            align-content: center;
-            margin: 0 auto;
-        }
-
-        /* Page 1 - Hero */
-        .page-1 {
-            width: 100%;
-            height: 290mm;
-            background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%);
-            position: relative;
-            overflow: hidden;
-            page-break-after: always;
-        }
-
-        .header {
-            padding: 20mm 15mm;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .logo-section {
-            color: white;
-        }
-
-        .logo-section img {
-            height: 200px;
-            width: auto;
-        }
-
-        /* Hero section */
-        .hero-section {
-            position: relative;
-            margin-top: 10px;
-            height: 100%;
-            background-image: url('../../power.jpg');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-
-        .hero-overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(to right, rgba(43, 42, 41, 0.95) 0%, rgba(43, 42, 41, 0.7) 50%, transparent 100%);
-        }
-
-        .hero-content {
-            position: relative;
-            z-index: 10;
-            padding: 35mm 15mm 0 15mm;
-            max-width: 150mm;
-        }
-
-        .red-accent {
-            width: 50mm;
-            height: 4px;
-            background: #e31e24;
-            margin-bottom: 10mm;
-        }
-
-        .product-name {
-            font-size: 52pt;
-            font-weight: 700;
-            color: white;
-            margin-bottom: 6mm;
-            letter-spacing: -1.5px;
-            line-height: 1.1;
-        }
-
-        .product-tagline {
-            font-size: 16pt;
-            color: #ffffff;
-            max-width: 140mm;
-            line-height: 1.5;
-            font-weight: 300;
-        }
-
-        /* Page 2 - Technical Details */
-        .page-2 {
-            width: 100%;
-            height: 290mm;
-            background: white;
-            position: relative;
-            page-break-after: always;
-        }
-
-        /* Page 3 - Properties */
-        .page-3 {
-            width: 100%;
-            height: 290mm;
-            background: white;
-            position: relative;
-            page-break-after: always;
-        }
-
-        /* Page 4 - Performance Benefits */
-        .page-4 {
-            width: 100%;
-            height: 290mm;
-            background: white;
-            position: relative;
-        }
-
-        .page-2-header {
-            background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%);
-            padding: 15mm;
-            color: white;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .page-2-title {
-            font-size: 28pt;
-            font-weight: bold;
-        }
-
-        .content-section {
-            padding: 12mm 15mm;
-        }
-
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        @page { size: A4 portrait; margin: 0; }
+        @media print { body { margin: 0; padding: 0; } .product-image-container { box-shadow: none !important; } }
+        html { margin: 0; padding: 0; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; color: #2b2a29; background: white; width: 210mm; min-height: 290mm; margin: 0; padding: 0; }
+        .page-1 { width: 210mm; height: 290mm; background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%); position: relative; overflow: hidden; page-break-after: always; }
+        .header { padding: 20mm 15mm; display: flex; justify-content: center; align-items: center; }
+        .logo-section { color: white; }
+        .logo-section img { height: 200px; width: auto; }
+        .hero-section { position: relative; margin-top: 10px; height: 100%; background-image: url('../../power.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; }
+        .hero-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to right, rgba(43, 42, 41, 0.95) 0%, rgba(43, 42, 41, 0.7) 50%, transparent 100%); }
+        .hero-content { position: relative; z-index: 10; padding: 35mm 15mm 0 15mm; max-width: 150mm; }
+        .red-accent { width: 50mm; height: 4px; background: #e31e24; margin-bottom: 10mm; }
+        .product-name { font-size: 52pt; font-weight: 700; color: white; margin-bottom: 6mm; letter-spacing: -1.5px; line-height: 1.1; }
+        .product-tagline { font-size: 16pt; color: #ffffff; max-width: 140mm; line-height: 1.5; font-weight: 300; }
+        .page-2, .page-3, .page-4 { width: 210mm; height: 290mm; background: white; position: relative; page-break-after: always; }
+        .page-4 { page-break-after: auto; }
+        .page-2-header { background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%); padding: 12mm 15mm; color: white; display: flex; justify-content: space-between; align-items: center; }
+        .page-2-title { font-size: 28pt; font-weight: bold; }
+        .content-section { padding: 10mm 15mm; }
+        .description { font-size: 10pt; line-height: 1.5; color: #333; margin-bottom: 0; text-align: justify; }
         .description-with-image {
-            display: flex;
-            gap: 10mm;
-            align-items: flex-start;
             margin-bottom: 10mm;
         }
-
-        .description-text {
-            flex: 1;
-        }
-
-        .description {
-            font-size: 10pt;
-            line-height: 1.6;
-            color: #333;
-            margin-bottom: 10mm;
-            text-align: justify;
-        }
-
-        .side-product-image {
-            flex-shrink: 0;
-        }
-
-        .product-image-container {
-            background: white;
-            border-radius: 5mm;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-            border: 3px solid #e31e24;
-        }
-
-        .product-image-small {
-            width: 70mm;
-            height: 70mm;
-            border-radius: 4mm;
-            object-fit: contain;
-            display: block;
-        }
-
-        .section-divider {
-            height: 2px;
-            background: #e31e24;
-            margin: 8mm 0;
-        }
-
-        .features-grid {
-            display: flex;
-            gap: 10mm;
-            margin-bottom: 10mm;
-        }
-
-        .features-column {
-            flex: 1;
-        }
-
-        .features-column h3 {
-            font-size: 13pt;
-            color: #2b2a29;
-            margin-bottom: 5mm;
-            padding-bottom: 2mm;
-            border-bottom: 2px solid #e31e24;
-            font-weight: 600;
-        }
-
-        .feature-item {
-            display: flex;
-            margin-bottom: 4mm;
-            font-size: 9pt;
-            line-height: 1.5;
-        }
-
-        .bullet {
-            color: #e31e24;
-            font-weight: bold;
-            margin-right: 3mm;
-            font-size: 12pt;
-        }
-
-        .feature-text {
-            flex: 1;
-            color: #444;
-        }
-
-        /* Properties Table */
-        .properties-section {
-            background: #f5f5f5;
-            padding: 8mm;
-            border-radius: 3mm;
-            border-left: 4px solid #e31e24;
-            margin-bottom: 8mm;
-        }
-
-        .properties-section h3 {
-            font-size: 14pt;
-            color: #2b2a29;
-            margin-bottom: 5mm;
-        }
-
-        .properties-table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-
-        .properties-table th {
-            background: #2b2a29;
-            color: white;
-            padding: 3mm;
-            text-align: left;
-            font-size: 9pt;
-            font-weight: 600;
-        }
-
-        .properties-table td {
-            padding: 2.5mm 3mm;
-            border-bottom: 1px solid #ddd;
-            font-size: 9pt;
-            color: #333;
-        }
-
-        .properties-table tr:last-child td {
-            border-bottom: none;
-        }
-
-        .properties-table td:first-child {
-            font-weight: 600;
-            color: #2b2a29;
-        }
-
-        /* Benefits Box */
-        .benefits-box {
-            background: linear-gradient(135deg, #e31e24 0%, #c41a20 100%);
-            color: white;
-            padding: 8mm;
-            border-radius: 3mm;
-            margin-bottom: 8mm;
-        }
-
-        .benefits-box h3 {
-            font-size: 14pt;
-            margin-bottom: 4mm;
-        }
-
-        .benefit-item {
-            display: flex;
-            align-items: flex-start;
-            margin-bottom: 3mm;
-            font-size: 9pt;
-            line-height: 1.4;
-        }
-
-        .benefit-item:last-child {
-            margin-bottom: 0;
-        }
-
-        .check-icon {
-            color: white;
-            font-weight: bold;
-            margin-right: 3mm;
-            font-size: 11pt;
-        }
-
-        /* Economical Notice */
-        .economical-notice {
-            background: #fff9e6;
-            border-left: 4px solid #e31e24;
-            padding: 6mm 8mm;
-            margin: 8mm 0;
-            border-radius: 3mm;
-        }
-
-        .economical-notice-title {
-            color: #e31e24;
-            font-size: 10pt;
-            font-weight: 600;
-            margin-bottom: 2mm;
-            display: flex;
-            align-items: center;
-            gap: 2mm;
-        }
-
-        .economical-notice-text {
-            color: #555;
-            font-size: 9pt;
-            line-height: 1.5;
-        }
-
-        .economical-notice-text strong {
-            color: #e31e24;
-        }
-
-        /* Footer */
-        .footer {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: #2b2a29;
-            color: white;
-            padding: 8mm 15mm;
-        }
-
-        .footer-content {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .company-info {
-            font-size: 7pt;
-            line-height: 1.6;
-        }
-
-        .company-name {
-            font-size: 10pt;
-            font-weight: bold;
-            margin-bottom: 2mm;
-            color: #e31e24;
-        }
-
-        .contact-info {
-            color: #ccc;
-        }
-
-        .disclaimer {
-            font-size: 6pt;
-            color: #888;
-            margin-top: 3mm;
-            max-width: 160mm;
-        }
+        .description-text { display: block; }
+        .side-product-image { float: right; margin-left: 5mm; margin-bottom: 5mm; margin-right: 0; width: 85mm; }
+        .product-image-container { background: white; border-radius: 5mm; box-shadow: 0 4px 15px rgba(0,0,0,0.3); border: 3px solid #e31e24; }
+        .product-image-small { width: 85mm; height: 55mm; border-radius: 4mm; object-fit: cover; display: block; }
+        .section-divider { height: 2px; background: #e31e24; margin: 5mm 0; }
+        .features-grid { display: flex; gap: 10mm; margin-bottom: 0; }
+        .features-column { flex: 1; }
+        .features-column h3 { font-size: 12pt; color: #2b2a29; margin-bottom: 3mm; padding-bottom: 2mm; border-bottom: 2px solid #e31e24; font-weight: 600; }
+        .feature-item { display: flex; margin-bottom: 3mm; font-size: 10pt; line-height: 1.8; }
+        .bullet { color: #e31e24; font-weight: bold; margin-right: 3mm; font-size: 8pt; margin-top: 0.8mm; }
+        .feature-text { flex: 1; color: #444; }
+        .benefits-box { background: linear-gradient(135deg, #e31e24 0%, #c41a20 100%); color: white; padding: 8mm; border-radius: 3mm; margin-bottom: 8mm; }
+        .benefits-box h3 { font-size: 14pt; margin-bottom: 4mm; }
+        .benefit-item { display: flex; align-items: flex-start; margin-bottom: 3mm; font-size: 9pt; line-height: 1.4; }
+        .benefit-item:last-child { margin-bottom: 0; }
+        .check-icon { color: white; font-weight: bold; margin-right: 3mm; font-size: 11pt; }
+        .tech-specs-section { margin-top: 5mm; }
+        .tech-specs-section h3 { font-size: 12pt; color: #2b2a29; margin-bottom: 3mm; padding-bottom: 2mm; border-bottom: 2px solid #e31e24; font-weight: 600; }
+        .tech-table { width: 100%; border-collapse: collapse; font-size: 9pt; }
+        .tech-table thead { background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%); color: white; }
+        .tech-table th { padding: 3mm; text-align: left; font-weight: 600; border: 1px solid #ddd; }
+        .tech-table td { padding: 2.5mm; border: 1px solid #ddd; color: #444; }
+        .tech-table tbody tr:nth-child(even) { background-color: #f9f9f9; }
+        .economical-notice { background: #fff9e6; border-left: 4px solid #e31e24; padding: 6mm 8mm; margin: 8mm 0; border-radius: 3mm; }
+        .economical-notice-title { color: #e31e24; font-size: 10pt; font-weight: 600; margin-bottom: 2mm; display: flex; align-items: center; gap: 2mm; }
+        .economical-notice-text { color: #555; font-size: 9pt; line-height: 1.5; }
+        .economical-notice-text strong { color: #e31e24; }
+        .footer { position: absolute; bottom: 0; left: 0; right: 0; background: #2b2a29; color: white; padding: 8mm 15mm; }
+        .footer-content { display: flex; justify-content: space-between; align-items: center; }
+        .company-info { font-size: 7pt; line-height: 1.6; }
+        .company-name { font-size: 10pt; font-weight: bold; margin-bottom: 2mm; color: #e31e24; }
+        .contact-info { color: #ccc; }
+        .disclaimer { font-size: 6pt; color: #888; margin-top: 3mm; max-width: 160mm; }
     </style>
 </head>
 <body>
-    <!-- Page 1 - Hero -->
     <div class="page-1">
         <div class="header">
             <div class="logo-section">
-                <img src="../../../src/assets/inmarco-tagline-logo1.png" alt="INMARCO - Innovations in Fluid Sealing">
+                <img src="../../../src/assets/inmarco-tagline-logo1.png" alt="Inmarco - Innovations in Fluid Sealing">
             </div>
         </div>
-
         <div class="hero-section">
             <div class="hero-overlay"></div>
             <div class="hero-content">
@@ -397,7 +82,6 @@
         </div>
     </div>
 
-    <!-- Page 2 - Technical Details -->
     <div class="page-2">
         <div class="page-2-header">
             <div>
@@ -405,183 +89,137 @@
                 <h2 class="page-2-title">CG 101</h2>
             </div>
         </div>
-
         <div class="content-section">
             <div class="description-with-image">
-                <div class="description-text">
-                    <p class="description">
-                        CG 101 is a high-performance packing manufactured from carbon filament yarn. It is impregnated with a thermally cured graphite-based in-therm dispersion, which acts as a blocking agent and further reduces stem friction. This packing is designed to prevent leakage of gaseous or liquid materials. Additionally, it incorporates a passive corrosion inhibitor to prevent galvanic corrosion.
-                    </p>
-
-                    <p class="description" style="margin-bottom: 0;">
-                        Adequate lubrication allows for extremely low friction runs, making it strong yet pliable without brittleness. The packing also provides excellent heat dissipation for cooler shaft runs, ensuring superior sealing services.
-                    </p>
-                </div>
-
                 <div class="side-product-image">
                     <div class="product-image-container">
                         <img src="../../FZC%20Inmarco%20Product%20Shoot/CG%20101/CG%20101_1.png" alt="CG 101" class="product-image-small" onerror="this.style.display='none'">
                     </div>
                 </div>
-            </div>
 
+                <div class="description-text">
+                    <p class="description">CG 101 is a high-performance gland packing manufactured from premium carbon filament yarn and impregnated with a thermally cured graphite-based In-Therm dispersion. This proprietary treatment acts as a blocking agent, significantly reducing stem friction while enhancing sealing efficiency against both gaseous and liquid media.<br><br>The packing incorporates a passive corrosion inhibitor that protects equipment against galvanic corrosion, extending component life and maintaining sealing integrity. Its excellent heat dissipation characteristics ensure cooler shaft operation, while adequate lubrication provides exceptionally low-friction performance without sacrificing strength or flexibility.<br><br>Designed for demanding industrial environments, CG 101 delivers reliable sealing performance across a wide range of temperatures, pressures, and chemical media.</p>
+                </div>
+            </div>
+            
             <div class="economical-notice">
                 <div class="economical-notice-title">
                     <i class="fas fa-info-circle"></i>
-                    Also Available in Economical version
+                    Also Available
                 </div>
                 <div class="economical-notice-text">
-                    This product is also available in an Economical version as <strong>CG 101E</strong>, offering cost-effective sealing solutions while maintaining reliable performance standards.
+                    <strong>CG 101E</strong> – Economical version offering cost-effective sealing performance while maintaining dependable operational reliability.
                 </div>
             </div>
 
             <div class="section-divider"></div>
 
+            <div class="tech-specs-section">
+                <h3>Technical Properties</h3>
+                <table class="tech-table">
+                    <thead>
+                        <tr>
+                            <th>Property</th>
+                            <th>Rotating</th>
+                            <th>Static</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>pH Range</td>
+                            <td>0 – 14</td>
+                            <td>0-14</td>
+                        </tr>
+                        <tr>
+                            <td>Temperature Range</td>
+                            <td>-200°C to +650°C</td>
+                            <td>-200°C to +650°C</td>
+                        </tr>
+                        <tr>
+                            <td>Maximum Pressure</td>
+                            <td>35 Bar</td>
+                            <td>250 Bar</td>
+                        </tr>
+                        <tr>
+                            <td>Maximum Velocity</td>
+                            <td>25 m/s</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>Available Sizes</td>
+                            <td>3 sq mm to 50 sq mm</td>
+                            <td>3 sq mm to 50 sq mm</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-3">
+        <div class="page-2-header">
+            <div>
+                <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
+                <h2 class="page-2-title">CG 101</h2>
+            </div>
+        </div>
+        <div class="content-section">
             <div class="features-grid">
                 <div class="features-column">
                     <h3>Key Features</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Thoroughly impregnated with graphite-based in-therm dispersion ensuring minimal gaps or voids</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Impregnation contributes to exceptional friction-free runs even in high endurance</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">When compressed forms a tight barrier effectively preventing fluid leakage</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Designed to withstand high-pressure conditions with robust materials and construction</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Boasts wide chemical resistance handling various corrosive substances</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Abrasion resistance ensures longevity even in demanding industrial settings</span>
-                    </div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Manufactured from high-strength carbon filament yarn for superior mechanical performance.</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Impregnated with thermally cured graphite-based In-Therm dispersion to minimize friction and improve sealing effectiveness.</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Forms a dense, reliable sealing barrier when compressed, effectively preventing leakage of gases and liquids.</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Incorporates a passive corrosion inhibitor to protect equipment from galvanic corrosion.</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Excellent heat dissipation properties promote cooler shaft operation and longer service life.</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Strong yet flexible construction resists brittleness and maintains dimensional stability during operation.</span></div>
                 </div>
-
                 <div class="features-column">
                     <h3>Applications</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Suitable for both dynamic and static applications</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Fire-safe design for use in inflammable applications</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Ideal for pumps, valves, and other equipment requiring reliable sealing</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Handles acids, alkalis, solvents, organic chemicals, gases, steam and thermic fluids</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Packing material penetrates well into irregular surfaces conforming closely to equipment</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Suitable for diverse industrial applications across multiple sectors</span>
-                    </div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Suitable for both dynamic and static sealing applications.</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Ideal for pumps, valves, mixers, agitators, and other rotating equipment.</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Compatible with acids, alkalis, solvents, organic chemicals, gases, steam, and thermic fluids.</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Performs effectively in demanding industrial environments requiring reliable high-temperature sealing.</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Conforms well to irregular sealing surfaces, improving sealing performance and reducing leakage risk.</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Fire-safe design makes it suitable for applications involving combustible or flammable media.</span></div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Page 3 - Technical Properties and Performance Benefits -->
-    <div class="page-3">
+    <div class="page-4">
         <div class="page-2-header">
             <div>
                 <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
-                <h2 class="page-2-title">Technical Specifications</h2>
+                <h2 class="page-2-title">CG 101</h2>
             </div>
         </div>
-
         <div class="content-section">
-
-            <div class="properties-section">
-                <h3>Technical Properties</h3>
-                <table class="properties-table">
-                    <tr>
-                        <th>Properties</th>
-                        <th>Values</th>
-                    </tr>
-                    <tr>
-                        <td>pH</td>
-                        <td>0-14</td>
-                    </tr>
-                    <tr>
-                        <td>Temperature (°C)</td>
-                        <td>-200 to +650</td>
-                    </tr>
-                    <tr>
-                        <td>Pressure (BAR)</td>
-                        <td>250</td>
-                    </tr>
-                    <tr>
-                        <td>Velocity (m/s)</td>
-                        <td>25</td>
-                    </tr>
-                    <tr>
-                        <td>Size</td>
-                        <td>3sq mm TO 50sq mm</td>
-                    </tr>
-                </table>
-            </div>
-
             <div class="benefits-box">
                 <h3>Performance Benefits</h3>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Resistant to a wide range of chemicals including acids, alkalis, solvents, gases and steam</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Excellent heat dissipation for cooler shaft runs ensuring superior sealing services</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Strong yet pliable without brittleness providing durability and flexibility</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Low oxidation rate and long service life in high-temperature applications</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Fire-safe design for use in inflammable applications</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Passive corrosion inhibitor prevents galvanic corrosion for extended equipment life</span>
-                </div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Excellent chemical resistance across a broad range of aggressive media.</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Superior heat dissipation ensures cooler shaft operation and enhanced sealing performance.</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Low-friction characteristics reduce wear on shafts and sleeves.</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Strong yet pliable construction provides durability without brittleness.</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Low oxidation rate contributes to extended service life in high-temperature environments.</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Passive corrosion inhibitor protects equipment from galvanic corrosion and premature failure.</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Fire-safe design suitable for critical industrial sealing applications.</span></div>
             </div>
         </div>
-
         <div class="footer">
             <div class="footer-content">
                 <div class="company-info">
-                    <div class="company-name">INMARCO FZC</div>
+                    <div class="company-name">Inmarco FZC</div>
                     <div class="contact-info">
                         P.O. Box 120284, Sharjah Airport International Free Zone (SAIF-Zone), Sharjah, UAE<br>
                         Tel: +971 6 5578378 | Fax: +971 6 5578948<br>
                         Email: sales@inmarco.ae | Web: www.inmarco.ae
                     </div>
-                    <div class="disclaimer">
-                        All information and recommendations given in this technical data sheet are correct to the best of our knowledge. However, because of the wide variety of application and operating conditions, we cannot derive the final conclusion. This above information can only serve as a guideline.
-                    </div>
+                    <div class="disclaimer">All technical information, recommendations, and performance data provided in this technical datasheet are based on current knowledge, laboratory testing, and/or industrial experience. Actual product performance may vary depending on operating conditions, equipment design, installation practices, process parameters. Final product selection and suitability should be determined by the user based on the specific service conditions and application requirements.</div>
                 </div>
             </div>
         </div>
     </div>
+
 </body>
 </html>
