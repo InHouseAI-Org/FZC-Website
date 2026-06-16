@@ -5,10 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "next dev -p 4001",
-    "build": "next build",
+    "build": "prisma generate && next build",
+    "build:vercel": "next build",
     "start": "next start -p 4001",
     "lint": "next lint",
-    "server": "node server/index.js"
+    "server": "node server/index.js",
+    "postinstall": "prisma generate || true"
   },
   "dependencies": {
     "@azure/identity": "^4.13.1",
