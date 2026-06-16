@@ -1,0 +1,16 @@
+# Exclude PDF generation route (requires Chromium - too large for Vercel)
+app/api/datasheet-pdf
+
+# Exclude large files
+public/FZC Inmarco Product Shoot/Videos
+*.mp4
+*.webm
+
+# Exclude Docker files
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Exclude documentation
+DOCKER_*.md
+*.sh

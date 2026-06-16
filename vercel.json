@@ -1,7 +1,12 @@
 {
   "buildCommand": "npm run build:vercel",
-  "installCommand": "npm install --legacy-peer-deps",
+  "installCommand": "npm install --legacy-peer-deps --omit=optional",
   "framework": "nextjs",
+  "functions": {
+    "app/api/**/route.ts": {
+      "maxDuration": 60
+    }
+  },
   "env": {
     "DATABASE_URL": "postgresql://dummy:dummy@localhost:5432/dummy",
     "SKIP_ENV_VALIDATION": "1",
