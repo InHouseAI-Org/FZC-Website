@@ -3,167 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inmarco ULTRA LT 1004 - Technical Datasheet</title>
+    <title>ULTRA LT 1004 - Technical Datasheet</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        @page {
-            size: A4;
-            margin: 0;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
-            color: #2b2a29;
-            background: white;
-            width: 210mm;
-            min-height: 297mm;
-            align-content: center;
-            margin: 0 auto;
-        }
-
-        /* Page 1 - Hero */
-        .page-1 {
-            width: 100%;
-            height: 290mm;
-            background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%);
-            position: relative;
-            overflow: hidden;
-            page-break-after: always;
-        }
-
-        .header {
-            padding: 20mm 15mm;
-            margin-bottom: 10mm;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .logo-section {
-            color: white;
-        }
-
-        .logo-section img {
-            height: 200px;
-            width: auto;
-        }
-
-        /* Hero section */
-        .hero-section {
-            position: relative;
-            margin-top: 10px;
-            height: 100%;
-            background-image: url('../../oil and gas.jpg');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-
-        .hero-overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(to right, rgba(43, 42, 41, 0.95) 0%, rgba(43, 42, 41, 0.7) 50%, transparent 100%);
-        }
-
-        .hero-content {
-            position: relative;
-            z-index: 10;
-            padding: 35mm 15mm 0 15mm;
-            max-width: 150mm;
-        }
-
-        .red-accent {
-            width: 50mm;
-            height: 4px;
-            background: #e31e24;
-            margin-bottom: 10mm;
-        }
-
-        .product-name {
-            font-size: 52pt;
-            font-weight: 700;
-            color: white;
-            margin-bottom: 6mm;
-            letter-spacing: -1.5px;
-            line-height: 1.1;
-        }
-
-        .product-tagline {
-            font-size: 16pt;
-            color: #ffffff;
-            max-width: 140mm;
-            line-height: 1.5;
-            font-weight: 300;
-        }
-
-        /* Page 2 - Technical Details */
-        .page-2 {
-            width: 100%;
-            height: 290mm;
-            background: white;
-            position: relative;
-            page-break-after: always;
-        }
-
-        /* Page 3 - Properties */
-        .page-3 {
-            width: 100%;
-            height: 290mm;
-            background: white;
-            position: relative;
-            page-break-after: always;
-        }
-
-        /* Page 4 - Performance Benefits */
-        .page-4 {
-            width: 100%;
-            height: 290mm;
-            background: white;
-            position: relative;
-        }
-
-        .page-2-header {
-            background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%);
-            padding: 15mm;
-            color: white;
-            margin-bottom: 10mm;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .page-2-title {
-            font-size: 28pt;
-            font-weight: bold;
-        }
-
-        .content-section {
-            padding: 12mm 15mm;
-        }
-
-        .description-with-image {
-            margin-bottom: 10mm;
-        }
-
-        .description-text {
-            text-align: justify;
-        }
-
-        .description {
-            font-size: 10pt;
-            line-height: 1.6;
-            color: #333;
-            margin-bottom: 10mm;
-            text-align: justify;
-        }
-
+        * { margin: 0; padding: 0; box-sizing: border-box; -webkit-print-color-adjust: exact; print-color-adjust: exact; color-adjust: exact; }
+        @page { size: A4 portrait; margin: 0; }
+        @media print { body { margin: 0; padding: 0; } }
+        html { margin: 0; padding: 0; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; color: #2b2a29; background: white; width: 210mm; min-height: 290mm; margin: 0; padding: 0; }
+        .page-1 { width: 210mm; height: 290mm; background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%); position: relative; overflow: hidden; page-break-after: always; }
+        .header { padding: 20mm 15mm; display: flex; justify-content: center; align-items: center; }
+        .logo-section { color: white; text-align: center; }
+        .logo-section img { height: 200px; width: auto; }
+        .hero-section { position: relative; margin-top: 10px; height: 100%; background-size: cover; background-position: center; background-repeat: no-repeat; }
+        .hero-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to right, rgba(43, 42, 41, 0.95) 0%, rgba(43, 42, 41, 0.7) 50%, transparent 100%); }
+        .hero-content { position: relative; z-index: 10; padding: 35mm 15mm 0 15mm; max-width: 150mm; }
+        .red-accent { width: 50mm; height: 4px; background: #e31e24; margin-bottom: 10mm; }
+        .product-name { font-size: 48pt; font-weight: 700; color: white; margin-bottom: 6mm; letter-spacing: -1.5px; line-height: 1.1; }
+        .product-tagline { font-size: 12pt; color: #ffffff; max-width: 140mm; line-height: 1.5; font-weight: 300; }
+        .page-2, .page-3, .page-4 { width: 210mm; height: 290mm; background: white; position: relative; page-break-after: always; }
+        .page-4 { page-break-after: auto; }
+        .page-2-header { background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%); padding: 12mm 15mm; color: white; display: flex; justify-content: space-between; align-items: center; }
+        .page-2-title { font-size: 28pt; font-weight: bold; }
+        .content-section { padding: 10mm 15mm; }
+        .description { font-size: 10pt; line-height: 1.5; color: #333; margin-bottom: 5mm; text-align: justify; }
         .side-product-image {
             float: right;
             margin-left: 6mm;
@@ -175,6 +38,8 @@
             border-radius: 5mm;
             box-shadow: 0 4px 15px rgba(0,0,0,0.3);
             border: 3px solid #e31e24;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
         }
 
         .product-image-small {
@@ -185,189 +50,53 @@
             display: block;
         }
 
-        .section-divider {
-            height: 2px;
-            background: #e31e24;
-            margin: 8mm 0;
-        }
-
-        .features-grid {
-            margin-bottom: 10mm;
-            /* removed gap */
-            margin-bottom: 10mm;
-        }
-
-        .features-column {
-            text-align: justify;
-        }
-
-        .features-column h3 {
-            font-size: 13pt;
-            color: #2b2a29;
-            margin-bottom: 5mm;
-            padding-bottom: 2mm;
-            border-bottom: 2px solid #e31e24;
-            font-weight: 600;
-        }
-
-        .feature-item {
-            margin-bottom: 10mm;
-            margin-bottom: 4mm;
-            font-size: 9pt;
-            line-height: 1.5;
-        }
-
-        .bullet {
-            color: #e31e24;
-            font-weight: bold;
-            margin-right: 3mm;
-            font-size: 12pt;
-        }
-
-        .feature-text {
-            text-align: justify;
-            color: #444;
-        }
-
-        /* Properties Table */
-        .properties-section {
-            background: #f5f5f5;
-            padding: 8mm;
-            border-radius: 3mm;
-            border-left: 4px solid #e31e24;
-            margin-bottom: 8mm;
-        }
-
-        .properties-section h3 {
-            font-size: 14pt;
-            color: #2b2a29;
-            margin-bottom: 5mm;
-        }
-
-        .properties-table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-
-        .properties-table th {
-            background: #2b2a29;
-            color: white;
-            padding: 3mm;
-            text-align: left;
-            font-size: 9pt;
-            font-weight: 600;
-        }
-
-        .properties-table td {
-            padding: 2.5mm 3mm;
-            border-bottom: 1px solid #ddd;
-            font-size: 9pt;
-            color: #333;
-        }
-
-        .properties-table tr:last-child td {
-            border-bottom: none;
-        }
-
-        .properties-table td:first-child {
-            font-weight: 600;
-            color: #2b2a29;
-        }
-
-        /* Benefits Box */
-        .benefits-box {
-            background: linear-gradient(135deg, #e31e24 0%, #c41a20 100%);
-            color: white;
-            padding: 8mm;
-            border-radius: 3mm;
-            margin-bottom: 8mm;
-        }
-
-        .benefits-box h3 {
-            font-size: 14pt;
-            margin-bottom: 4mm;
-        }
-
-        .benefit-item {
-            margin-bottom: 10mm;
-            /* removed align-items */
-            margin-bottom: 3mm;
-            font-size: 9pt;
-            line-height: 1.4;
-        }
-
-        .benefit-item:last-child {
-            margin-bottom: 0;
-        }
-
-        .check-icon {
-            color: white;
-            font-weight: bold;
-            margin-right: 3mm;
-            font-size: 11pt;
-        }
-
-        /* Footer */
-        .footer {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: #2b2a29;
-            color: white;
-            padding: 8mm 15mm;
-        }
-
-        .footer-content {
-            margin-bottom: 10mm;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .company-info {
-            font-size: 7pt;
-            line-height: 1.6;
-        }
-
-        .company-name {
-            font-size: 10pt;
-            font-weight: bold;
-            margin-bottom: 2mm;
-            color: #e31e24;
-        }
-
-        .contact-info {
-            color: #ccc;
-        }
-
-        .disclaimer {
-            font-size: 6pt;
-            color: #888;
-            margin-top: 3mm;
-            max-width: 160mm;
-        }
+        .section-divider { height: 2px; background: #e31e24; margin: 5mm 0; }
+        .features-grid { display: flex; gap: 10mm; margin-bottom: 0; }
+        .features-column { flex: 1; }
+        .features-column h3 { font-size: 12pt; color: #2b2a29; margin-bottom: 3mm; padding-bottom: 2mm; border-bottom: 2px solid #e31e24; font-weight: 600; }
+        .feature-item { display: flex; margin-bottom: 3mm; font-size: 10pt; line-height: 1.8; }
+        .bullet { color: #e31e24; font-weight: bold; margin-right: 3mm; font-size: 8pt; margin-top: 0.8mm; }
+        .feature-text { flex: 1; color: #444; }
+        .benefits-box { background: linear-gradient(135deg, #e31e24 0%, #c41a20 100%); color: white; padding: 8mm; border-radius: 3mm; margin-bottom: 8mm; }
+        .benefits-box h3 { font-size: 14pt; margin-bottom: 4mm; }
+        .benefit-item { display: flex; align-items: flex-start; margin-bottom: 3mm; font-size: 9pt; line-height: 1.4; }
+        .benefit-item:last-child { margin-bottom: 0; }
+        .check-icon { color: white; font-weight: bold; margin-right: 3mm; font-size: 11pt; }
+        .tech-specs-section { margin-top: 5mm; }
+        .tech-specs-section h3 { font-size: 12pt; color: #2b2a29; margin-bottom: 3mm; padding-bottom: 2mm; border-bottom: 2px solid #e31e24; font-weight: 600; }
+        .tech-table { width: 100%; border-collapse: collapse; font-size: 9pt; }
+        .tech-table thead { background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%); color: white; }
+        .tech-table th { padding: 3mm; text-align: left; font-weight: 600; border: 1px solid #ddd; }
+        .tech-table td { padding: 2.5mm; border: 1px solid #ddd; color: #444; }
+        .tech-table tbody tr:nth-child(even) { background-color: #f9f9f9; }
+        .footer { position: absolute; bottom: 0; left: 0; right: 0; background: #2b2a29; color: white; padding: 5mm 15mm; }
+        .footer-content { display: flex; justify-content: space-between; align-items: center; }
+        .company-info { font-size: 7pt; line-height: 1.6; }
+        .company-name { font-size: 10pt; font-weight: bold; margin-bottom: 2mm; color: #e31e24; }
+        .contact-info { color: #ccc; }
+        .disclaimer { font-size: 6pt; color: #888; margin-top: 3mm; max-width: 160mm; }
+        .certification-box { background: #f5f5f5; padding: 3mm; border-radius: 3mm; border-left: 4px solid #2b2a29; margin-top: 2mm; }
+        .certification-box h4 { font-size: 11pt; color: #2b2a29; margin-bottom: 3mm; font-weight: 600; }
+        .certification-box p { font-size: 8pt; line-height: 1; color: #444; margin: 0; }
     </style>
 </head>
 <body>
-    <!-- Page 1 - Hero -->
     <div class="page-1">
         <div class="header">
             <div class="logo-section">
-                <img src="../../../src/assets/inmarco-tagline-logo1.png" alt="INMARCO - Innovations in Fluid Sealing">
+                <img src="../../../src/assets/inmarco-tagline-logo1.png" alt="Inmarco - Innovations in Fluid Sealing">
             </div>
         </div>
-
-        <div class="hero-section">
+        <div class="hero-section" style="background-image: url('../../chemical.jpg');">
             <div class="hero-overlay"></div>
             <div class="hero-content">
                 <div class="red-accent"></div>
                 <h1 class="product-name">ULTRA LT 1004</h1>
-                <p class="product-tagline">High Endurance Ultra-Low Friction Fugitive Emission Packing</p>
+                <p class="product-tagline">Advanced Ultra-Low Friction PTFE-Based Fugitive Emission Combination Packing for Low-Temperature Applications</p>
             </div>
         </div>
     </div>
 
-    <!-- Page 2 - Technical Details -->
     <div class="page-2">
         <div class="page-2-header">
             <div>
@@ -375,262 +104,138 @@
                 <h2 class="page-2-title">ULTRA LT 1004</h2>
             </div>
         </div>
-
         <div class="content-section">
-            <div class="description-with-image">
-                <div class="side-product-image">
-                    <div class="product-image-container">
-                        <img src="../../FZC%20Inmarco%20Product%20Shoot/Ultra%20LE%201004/Ultra%20LE%201004.png" alt="ULTRA LT 1004" class="product-image-small" onerror="this.style.display='none'">
-                    </div>
-                </div>
-
-                <div class="description-text">
-                    <p class="description">
-                        INMARCO ULTRA LT 1004 is an ultra-low friction low emission PTFE combination packing set made from PTFE filament braided intermediate rings with PTFE sintered end rings. The packing is impregnated with a high temperature proprietary emulsion to ensure extremely low friction even at sub-zero temperature.
-                    </p>
-
-                    <p class="description" style="margin-bottom: 0;">
-                        This is the world's most innovative and unrivaled low emission packing for low temperature applications, tested and certified as per ISO 15848 for temperature range -46°C to 200°C. The engineered profile of end rings helps in equivalent load transfer for best sealing performance, while virgin PTFE ensures high chemical compatibility.
-                    </p>
+            <div class="side-product-image">
+                <div class="product-image-container">
+                    <img src="../../FZC%20Inmarco%20Product%20Shoot/Ultra%20LE%201004/Ultra%20LE%201004.png" alt="Product Image" class="product-image-small" onerror="this.style.display='none'">
                 </div>
             </div>
-            </div>
+            <p class="description">Inmarco ULTRA LT 1004 is an advanced ultra-low friction PTFE-based fugitive emission combination packing specifically engineered for low-temperature and cryogenic applications requiring exceptional sealing performance, minimal leakage, and long-term operational reliability. The packing features a unique construction consisting of intermediate rings braided from high-quality PTFE filament combined with sintered PTFE end rings, ensuring superior mechanical stability, chemical resistance, and dimensional integrity under extreme temperature conditions.</p>
+            
+            <p class="description">Designed to meet the stringent requirements of fugitive emission control, ULTRA LT 1004 delivers virtually zero friction characteristics (friction factor 0.1), outstanding low-temperature performance, and enhanced adaptability to thermal cycling. Its combination of braided PTFE intermediate rings and sintered end rings provides uniform sealing pressure distribution, minimal shaft wear, and extended service life in demanding cryogenic, LNG, and refrigeration applications.</p>
+            
+            <p class="description">ULTRA LT 1004 is tested and certified according to ISO 15848 and TA-Luft (2021) standards, ensuring compliance with international fugitive emission regulations. The packing is suitable for critical valves, pumps, and rotating equipment operating in low-temperature service conditions where conventional packings may fail due to thermal contraction, embrittlement, or loss of sealing integrity.</p>
 
             <div class="section-divider"></div>
 
-            <div class="features-grid">
-                <div class="features-column">
-                    <h3>Key Features & Certifications</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Certified as per ISO15848-CO3-AH-SSA0-t for temperature range -46°C to 200°C</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Certified as per TA-Luft(2021)-CO3-LB-SSA0 for room temperature to 200°C</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Certified as per ISO15848-CC3-AM-SSA1-t for room temperature to 200°C</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Exceptionally low friction to ensure consistent low emission performance even at sub-zero temperatures</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">In-built solid lubricant with extremely low coefficient of friction and high load bearing capacity</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Engineered profile of end rings helps in equivalent load transfer for best sealing performance</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Virgin PTFE ensures high chemical compatibility across a wide range of media</span>
-                    </div>
-                </div>
-
-                <div class="features-column">
-                    <h3>Applications</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Acids & alkalis of any concentration</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Solvents</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Organic/inorganic chemicals</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Hydrogen services</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Food & pharma applications</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Low temperature processes and cryogenic applications</span>
-                    </div>
-                </div>
+            <div class="tech-specs-section">
+                <h3>Technical Properties</h3>
+                <table class="tech-table">
+                    <thead>
+                        <tr>
+                            <th>Property</th>
+                            <th>Specification</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Construction</td><td>PTFE filament braided intermediate rings + PTFE sintered end rings</td></tr>
+                        <tr><td>Material Composition</td><td>High-quality PTFE (Virgin Grade)</td></tr>
+                        <tr><td>pH Range</td><td>0 – 14</td></tr>
+                        <tr><td>Temperature Range</td><td>-246°C to +260°C</td></tr>
+                        <tr><td>Maximum Pressure</td><td>Up to 350 bar</td></tr>
+                        <tr><td>Shaft Speed – Rotating</td><td>Up to 20 m/s</td></tr>
+                        <tr><td>Shaft Speed – Reciprocating</td><td>Up to 5 m/s</td></tr>
+                        <tr><td>Size Range</td><td>6 mm² to 35 mm²</td></tr>
+                        <tr><td>Friction Factor</td><td>0.1 (Ultra-low friction)</td></tr>
+                        <tr><td>Chemical Compatibility</td><td>Suitable for cryogenic fluids, LNG, LPG, refrigerants, hydrocarbons, chemicals, and oxidizing media</td></tr>
+                        <tr><td>Operational Characteristics</td><td>Non-toxic, chemically inert, low friction, self-lubricating</td></tr>
+                    </tbody>
+                </table>
             </div>
         </div>
-            <div class="benefits-box">
-                <h3>PERFORMANCE ADVANTAGES</h3>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Maintains reliable sealing integrity under low-temperature and thermal cycling conditions</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Exceptionally low friction reduces stem wear and actuator operating load</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Excellent chemical resistance across aggressive industrial process media</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Superior endurance performance under repeated operational cycling</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Reduces operational leakage and supports emission compliance requirements</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Stable sealing performance under fluctuating pressure and temperature conditions</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Long operational life with reduced maintenance intervention</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Improves valve efficiency and operational reliability</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Suitable for clean and sensitive industrial applications</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Supports cleaner, safer, and environmentally responsible operations</span>
-                </div>
-            </div>
-        </div>
+    </div>
 
-        <!-- Page 3) - Technical Properties and Performance Benefits -->
     <div class="page-3">
         <div class="page-2-header">
             <div>
                 <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
-                <h2 class="page-2-title">Technical Specifications</h2>
+                <h2 class="page-2-title">ULTRA LT 1004</h2>
             </div>
         </div>
-
         <div class="content-section">
-            <div class="features-column" style="margin-bottom: 10mm;">
-<div class="features-column">
-                    <h3>CERTIFICATIONS & APPROVALS</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Certified as per ISO 15848-CO3-AH-SSA0-t for temperature range -46°C to 200°C</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Certified as per TA-Luft (2021)-CO3-LB-SSA0 for room temperature to 200°C</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Certified as per ISO 15848-CC3-AM-SSA1-t for room temperature to 200°C</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Tested and validated for low-temperature fugitive emission sealing applications</span>
-                    </div>
+            <div class="features-grid">
+                <div class="features-column">
+                    <h3>Key Features</h3>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Advanced combination packing construction with PTFE filament braided intermediate rings and sintered PTFE end rings</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Exceptional low-temperature performance suitable for cryogenic applications down to -246°C</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Ultra-low friction factor (0.1) minimizes shaft and sleeve wear under dynamic sealing conditions</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Self-lubricating PTFE composition reduces equipment maintenance and operational costs</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Certified as per ISO 15848 and TA-Luft (2021) for fugitive emission control in low-temperature service</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Maintains dimensional stability and sealing integrity under extreme thermal cycling</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Non-toxic and chemically inert composition ensures safe handling and clean operation</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Uniform sealing pressure distribution minimizes gland loading requirements</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Excellent resistance to cryogenic fluids, LNG, LPG, refrigerants, and chemically aggressive media</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Designed for critical sealing applications requiring zero-emission performance and long service life</span></div>
+                </div>
+                <div class="features-column">
+                    <h3>Applications</h3>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Cryogenic valves handling LNG, LPG, liquid nitrogen, and other cryogenic fluids</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Low-temperature pumps and compressors in refrigeration and gas processing systems</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Control valves in cryogenic storage and transfer systems</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Liquefied gas handling equipment in petrochemical and refinery operations</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Fugitive emission-controlled equipment in chemical processing industries</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Rotating and reciprocating equipment requiring ultra-low friction sealing performance</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Industrial refrigeration systems and cold storage facilities</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Pharmaceutical and food processing equipment operating at low temperatures</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Aerospace and industrial gas handling systems</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Critical service applications requiring compliance with ISO 15848 and TA-Luft standards</span></div>
                 </div>
             </div>
-            <div class="features-column" style="margin-bottom: 10mm;">
-<div class="features-column">
-                    <h3>TESTING & VALIDATION</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Tested for fugitive emission sealing performance under international standards</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Validated for low-temperature operational reliability</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Proven performance under cyclic endurance testing conditions</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Verified sealing capability across wide temperature operating ranges</span>
-                    </div>
-                </div>
-            </div>
-            <div class="properties-section">
-                <h3>Technical Properties</h3>
-                <table class="properties-table">
-                    <tr>
-                        <th>Properties</th>
-                        <th>Values</th>
-                    </tr>
-                    <tr>
-                        <td>pH</td>
-                        <td>0 - 14</td>
-                    </tr>
-                    <tr>
-                        <td>Temperature (°C)</td>
-                        <td>-246 to +260°C</td>
-                    </tr>
-                    <tr>
-                        <td>Pressure (BAR)</td>
-                        <td>200</td>
-                    </tr>
-                    <tr>
-                        <td>Size</td>
-                        <td>(3 sq.mm to 25 sq.mm) Based on stuffing box design</td>
-                    </tr>
-                    <tr>
-                        <td>Compatibility</td>
-                        <td>As per virgin PTFE (contact for details)</td>
-                    </tr>
-                </table>
-            </div>
+        </div>
+    </div>
 
+    <div class="page-4">
+        <div class="page-2-header">
+            <div>
+                <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
+                <h2 class="page-2-title">ULTRA LT 1004</h2>
+            </div>
+        </div>
+        <div class="content-section">
             <div class="benefits-box">
                 <h3>Performance Benefits</h3>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>User friendly and cost-effective installation procedure with minimal setup time</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Value addition by extending service life, less energy consumption and low maintenance costs</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Ultra-low emission performance supports future ambitious CO₂ emission levels</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Significantly reduces packing friction even at high endurance and extreme operating conditions</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>A true new generation packing for a cleaner, greener and safer tomorrow</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Virtually zero leakage, zero corrosion, and virtually zero friction for maximum reliability</span>
-                </div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Delivers exceptional low-temperature performance without embrittlement or loss of sealing integrity</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Ultra-low friction factor (0.1) reduces shaft and equipment wear, extending operational life</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Combination of braided and sintered PTFE rings ensures uniform pressure distribution and reliable sealing</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Self-lubricating properties minimize maintenance requirements and reduce operational costs</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Maintains dimensional stability and sealing efficiency under extreme thermal cycling conditions</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Certified compliance with ISO 15848 and TA-Luft (2021) ensures fugitive emission control and regulatory adherence</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Excellent chemical resistance across a broad range of cryogenic, hydrocarbon, and chemically aggressive media</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Minimizes leakage and environmental impact in critical sealing applications</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Reduces equipment downtime and maintenance frequency through extended service life</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Safe, non-toxic, and chemically inert composition supports clean industrial operations and worker safety</span></div>
+            </div>
+            <div class="certification-box">
+                <h4>Testing & Certifications</h4>
+                <table class="tech-table">
+                    <thead>
+                        <tr>
+                            <th>Standard / Certification</th>
+                            <th>Performance Achievement</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>ISO 15848-CO3-AH-SSA0-t</td><td>Certified for fugitive emission control in cryogenic and low-temperature service applications</td></tr>
+                        <tr><td>TA-Luft (2021) - CO3-LB-SSA0</td><td>Compliant with German emission control regulations for low-temperature valve applications</td></tr>
+                        <tr><td>ISO 15848-CC3-AM-SSA1-t</td><td>Certified for medium-temperature chemical processing applications with fugitive emission control</td></tr>
+                    </tbody>
+                </table>
             </div>
         </div>
-
         <div class="footer">
             <div class="footer-content">
                 <div class="company-info">
-                    <div class="company-name">INMARCO FZC</div>
+                    <div class="company-name">Inmarco FZC</div>
                     <div class="contact-info">
                         P.O. Box 120284, Sharjah Airport International Free Zone (SAIF-Zone), Sharjah, UAE<br>
                         Tel: +971 6 5578378 | Fax: +971 6 5578948<br>
                         Email: sales@inmarco.ae | Web: www.inmarco.ae
                     </div>
-                    <div class="disclaimer">
-                        All information and recommendations given in this technical data sheet are correct to the best of our knowledge. However, because of the wide variety of application and operating conditions, we cannot derive the final conclusion. This above information can only serve as a guideline.
-                    </div>
+                    <div class="disclaimer">All technical information, recommendations, and performance data provided in this technical datasheet are based on current knowledge, laboratory testing, and/or industrial experience. Actual product performance may vary depending on operating conditions, equipment design, installation practices, process parameters. Final product selection and suitability should be determined by the user based on the specific service conditions and application requirements.</div>
                 </div>
             </div>
         </div>
     </div>
+
 </body>
 </html>

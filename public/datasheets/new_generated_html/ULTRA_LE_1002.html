@@ -3,167 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inmarco ULTRA LE 1002 - Technical Datasheet</title>
+    <title>ULTRA LE 1002 - Technical Datasheet</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        @page {
-            size: A4;
-            margin: 0;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
-            color: #2b2a29;
-            background: white;
-            width: 210mm;
-            min-height: 297mm;
-            align-content: center;
-            margin: 0 auto;
-        }
-
-        /* Page 1 - Hero */
-        .page-1 {
-            width: 100%;
-            height: 290mm;
-            background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%);
-            position: relative;
-            overflow: hidden;
-            page-break-after: always;
-        }
-
-        .header {
-            padding: 20mm 15mm;
-            margin-bottom: 10mm;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .logo-section {
-            color: white;
-        }
-
-        .logo-section img {
-            height: 200px;
-            width: auto;
-        }
-
-        /* Hero section */
-        .hero-section {
-            position: relative;
-            margin-top: 10px;
-            height: 100%;
-            background-image: url('../../oil and gas.jpg');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-
-        .hero-overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(to right, rgba(43, 42, 41, 0.95) 0%, rgba(43, 42, 41, 0.7) 50%, transparent 100%);
-        }
-
-        .hero-content {
-            position: relative;
-            z-index: 10;
-            padding: 35mm 15mm 0 15mm;
-            max-width: 150mm;
-        }
-
-        .red-accent {
-            width: 50mm;
-            height: 4px;
-            background: #e31e24;
-            margin-bottom: 10mm;
-        }
-
-        .product-name {
-            font-size: 52pt;
-            font-weight: 700;
-            color: white;
-            margin-bottom: 6mm;
-            letter-spacing: -1.5px;
-            line-height: 1.1;
-        }
-
-        .product-tagline {
-            font-size: 16pt;
-            color: #ffffff;
-            max-width: 140mm;
-            line-height: 1.5;
-            font-weight: 300;
-        }
-
-        /* Page 2 - Technical Details */
-        .page-2 {
-            width: 100%;
-            height: 290mm;
-            background: white;
-            position: relative;
-            page-break-after: always;
-        }
-
-        /* Page 3 - Properties */
-        .page-3 {
-            width: 100%;
-            height: 290mm;
-            background: white;
-            position: relative;
-            page-break-after: always;
-        }
-
-        /* Page 4 - Performance Benefits */
-        .page-4 {
-            width: 100%;
-            height: 290mm;
-            background: white;
-            position: relative;
-        }
-
-        .page-2-header {
-            background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%);
-            padding: 15mm;
-            color: white;
-            margin-bottom: 10mm;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .page-2-title {
-            font-size: 28pt;
-            font-weight: bold;
-        }
-
-        .content-section {
-            padding: 12mm 15mm;
-        }
-
-        .description-with-image {
-            margin-bottom: 10mm;
-        }
-
-        .description-text {
-            text-align: justify;
-        }
-
-        .description {
-            font-size: 10pt;
-            line-height: 1.6;
-            color: #333;
-            margin-bottom: 10mm;
-            text-align: justify;
-        }
-
+        * { margin: 0; padding: 0; box-sizing: border-box; -webkit-print-color-adjust: exact; print-color-adjust: exact; color-adjust: exact; }
+        @page { size: A4 portrait; margin: 0; }
+        @media print { body { margin: 0; padding: 0; } }
+        html { margin: 0; padding: 0; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; color: #2b2a29; background: white; width: 210mm; min-height: 290mm; margin: 0; padding: 0; }
+        .page-1 { width: 210mm; height: 290mm; background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%); position: relative; overflow: hidden; page-break-after: always; }
+        .header { padding: 20mm 15mm; display: flex; justify-content: center; align-items: center; }
+        .logo-section { color: white; text-align: center; }
+        .logo-section img { height: 200px; width: auto; }
+        .hero-section { position: relative; margin-top: 10px; height: 100%; background-size: cover; background-position: center; background-repeat: no-repeat; }
+        .hero-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to right, rgba(43, 42, 41, 0.95) 0%, rgba(43, 42, 41, 0.7) 50%, transparent 100%); }
+        .hero-content { position: relative; z-index: 10; padding: 35mm 15mm 0 15mm; max-width: 150mm; }
+        .red-accent { width: 50mm; height: 4px; background: #e31e24; margin-bottom: 10mm; }
+        .product-name { font-size: 48pt; font-weight: 700; color: white; margin-bottom: 6mm; letter-spacing: -1.5px; line-height: 1.1; }
+        .product-tagline { font-size: 12pt; color: #ffffff; max-width: 140mm; line-height: 1.5; font-weight: 300; }
+        .page-2, .page-3, .page-4 { width: 210mm; height: 290mm; background: white; position: relative; page-break-after: always; }
+        .page-4 { page-break-after: auto; }
+        .page-2-header { background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%); padding: 12mm 15mm; color: white; display: flex; justify-content: space-between; align-items: center; }
+        .page-2-title { font-size: 28pt; font-weight: bold; }
+        .content-section { padding: 10mm 15mm; }
+        .description { font-size: 10pt; line-height: 1.5; color: #333; margin-bottom: 5mm; text-align: justify; }
         .side-product-image {
             float: right;
             margin-left: 6mm;
@@ -175,6 +38,8 @@
             border-radius: 5mm;
             box-shadow: 0 4px 15px rgba(0,0,0,0.3);
             border: 3px solid #e31e24;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
         }
 
         .product-image-small {
@@ -185,189 +50,53 @@
             display: block;
         }
 
-        .section-divider {
-            height: 2px;
-            background: #e31e24;
-            margin: 8mm 0;
-        }
-
-        .features-grid {
-            margin-bottom: 10mm;
-            /* removed gap */
-            margin-bottom: 10mm;
-        }
-
-        .features-column {
-            text-align: justify;
-        }
-
-        .features-column h3 {
-            font-size: 13pt;
-            color: #2b2a29;
-            margin-bottom: 5mm;
-            padding-bottom: 2mm;
-            border-bottom: 2px solid #e31e24;
-            font-weight: 600;
-        }
-
-        .feature-item {
-            margin-bottom: 10mm;
-            margin-bottom: 4mm;
-            font-size: 9pt;
-            line-height: 1.5;
-        }
-
-        .bullet {
-            color: #e31e24;
-            font-weight: bold;
-            margin-right: 3mm;
-            font-size: 12pt;
-        }
-
-        .feature-text {
-            text-align: justify;
-            color: #444;
-        }
-
-        /* Properties Table */
-        .properties-section {
-            background: #f5f5f5;
-            padding: 8mm;
-            border-radius: 3mm;
-            border-left: 4px solid #e31e24;
-            margin-bottom: 8mm;
-        }
-
-        .properties-section h3 {
-            font-size: 14pt;
-            color: #2b2a29;
-            margin-bottom: 5mm;
-        }
-
-        .properties-table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-
-        .properties-table th {
-            background: #2b2a29;
-            color: white;
-            padding: 3mm;
-            text-align: left;
-            font-size: 9pt;
-            font-weight: 600;
-        }
-
-        .properties-table td {
-            padding: 2.5mm 3mm;
-            border-bottom: 1px solid #ddd;
-            font-size: 9pt;
-            color: #333;
-        }
-
-        .properties-table tr:last-child td {
-            border-bottom: none;
-        }
-
-        .properties-table td:first-child {
-            font-weight: 600;
-            color: #2b2a29;
-        }
-
-        /* Benefits Box */
-        .benefits-box {
-            background: linear-gradient(135deg, #e31e24 0%, #c41a20 100%);
-            color: white;
-            padding: 8mm;
-            border-radius: 3mm;
-            margin-bottom: 8mm;
-        }
-
-        .benefits-box h3 {
-            font-size: 14pt;
-            margin-bottom: 4mm;
-        }
-
-        .benefit-item {
-            margin-bottom: 10mm;
-            /* removed align-items */
-            margin-bottom: 3mm;
-            font-size: 9pt;
-            line-height: 1.4;
-        }
-
-        .benefit-item:last-child {
-            margin-bottom: 0;
-        }
-
-        .check-icon {
-            color: white;
-            font-weight: bold;
-            margin-right: 3mm;
-            font-size: 11pt;
-        }
-
-        /* Footer */
-        .footer {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: #2b2a29;
-            color: white;
-            padding: 8mm 15mm;
-        }
-
-        .footer-content {
-            margin-bottom: 10mm;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .company-info {
-            font-size: 7pt;
-            line-height: 1.6;
-        }
-
-        .company-name {
-            font-size: 10pt;
-            font-weight: bold;
-            margin-bottom: 2mm;
-            color: #e31e24;
-        }
-
-        .contact-info {
-            color: #ccc;
-        }
-
-        .disclaimer {
-            font-size: 6pt;
-            color: #888;
-            margin-top: 3mm;
-            max-width: 160mm;
-        }
+        .section-divider { height: 2px; background: #e31e24; margin: 5mm 0; }
+        .features-grid { display: flex; gap: 10mm; margin-bottom: 0; }
+        .features-column { flex: 1; }
+        .features-column h3 { font-size: 12pt; color: #2b2a29; margin-bottom: 3mm; padding-bottom: 2mm; border-bottom: 2px solid #e31e24; font-weight: 600; }
+        .feature-item { display: flex; margin-bottom: 3mm; font-size: 10pt; line-height: 1.8; }
+        .bullet { color: #e31e24; font-weight: bold; margin-right: 3mm; font-size: 8pt; margin-top: 0.8mm; }
+        .feature-text { flex: 1; color: #444; }
+        .benefits-box { background: linear-gradient(135deg, #e31e24 0%, #c41a20 100%); color: white; padding: 8mm; border-radius: 3mm; margin-bottom: 8mm; }
+        .benefits-box h3 { font-size: 14pt; margin-bottom: 4mm; }
+        .benefit-item { display: flex; align-items: flex-start; margin-bottom: 3mm; font-size: 9pt; line-height: 1.4; }
+        .benefit-item:last-child { margin-bottom: 0; }
+        .check-icon { color: white; font-weight: bold; margin-right: 3mm; font-size: 11pt; }
+        .tech-specs-section { margin-top: 5mm; }
+        .tech-specs-section h3 { font-size: 12pt; color: #2b2a29; margin-bottom: 3mm; padding-bottom: 2mm; border-bottom: 2px solid #e31e24; font-weight: 600; }
+        .tech-table { width: 100%; border-collapse: collapse; font-size: 9pt; }
+        .tech-table thead { background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%); color: white; }
+        .tech-table th { padding: 3mm; text-align: left; font-weight: 600; border: 1px solid #ddd; }
+        .tech-table td { padding: 2.5mm; border: 1px solid #ddd; color: #444; }
+        .tech-table tbody tr:nth-child(even) { background-color: #f9f9f9; }
+        .footer { position: absolute; bottom: 0; left: 0; right: 0; background: #2b2a29; color: white; padding: 8mm 15mm; }
+        .footer-content { display: flex; justify-content: space-between; align-items: center; }
+        .company-info { font-size: 7pt; line-height: 1.6; }
+        .company-name { font-size: 10pt; font-weight: bold; margin-bottom: 2mm; color: #e31e24; }
+        .contact-info { color: #ccc; }
+        .disclaimer { font-size: 6pt; color: #888; margin-top: 3mm; max-width: 160mm; }
+        .certification-box { background: #f5f5f5; padding: 6mm; border-radius: 3mm; border-left: 4px solid #2b2a29; margin-top: 5mm; }
+        .certification-box h4 { font-size: 11pt; color: #2b2a29; margin-bottom: 3mm; font-weight: 600; }
+        .certification-box p { font-size: 9pt; line-height: 1.5; color: #444; margin: 0; margin-bottom: 2mm; }
     </style>
 </head>
 <body>
-    <!-- Page 1 - Hero -->
     <div class="page-1">
         <div class="header">
             <div class="logo-section">
-                <img src="../../../src/assets/inmarco-tagline-logo1.png" alt="INMARCO - Innovations in Fluid Sealing">
+                <img src="../../../src/assets/inmarco-tagline-logo1.png" alt="Inmarco - Innovations in Fluid Sealing">
             </div>
         </div>
-
-        <div class="hero-section">
+        <div class="hero-section" style="background-image: url('../../oil and gas.jpg');">
             <div class="hero-overlay"></div>
             <div class="hero-content">
                 <div class="red-accent"></div>
                 <h1 class="product-name">ULTRA LE 1002</h1>
-                <p class="product-tagline">100% Leakage Free Performance from Shutdown to Shutdown</p>
+                <p class="product-tagline">Premium Low-Emission Braided Packing for Critical Valve Applications</p>
             </div>
         </div>
     </div>
 
-    <!-- Page 2 - Technical Details -->
     <div class="page-2">
         <div class="page-2-header">
             <div>
@@ -375,258 +104,129 @@
                 <h2 class="page-2-title">ULTRA LE 1002</h2>
             </div>
         </div>
-
         <div class="content-section">
-            <div class="description-with-image">
-                <div class="side-product-image">
-                    <div class="product-image-container">
-                        <img src="../../FZC%20Inmarco%20Product%20Shoot/Ultra%20FE%201002/Ultra%20FE%201002_1%20(1).png" alt="ULTRA LE 1002" class="product-image-small" onerror="this.style.display='none'">
-                    </div>
-                </div>
-
-                <div class="description-text">
-                    <p class="description">
-                        INMARCO ULTRA LE 1002 is a premium expanded pure graphite (carbon content 99.5 to 99.9%) fiber yarn braided packing, each yarn of which is reinforced with Multiple Inconel wire, thoroughly incorporated with inorganic passive corrosion inhibitor and special lubricating agents. This Passive Corrosion Inhibitor safeguards parent equipment from Galvanic Corrosion and also reduction of loss on ignition.
-                    </p>
-
-                    <p class="description" style="margin-bottom: 0;">
-                        Each yarn is jacketed with inconnel wire mesh. The reinforcement and jacketing with inconnel wire meshing each yarn enables the packing to withstand extreme mechanical stress and cyclic loads. This packing is designed for applications requiring 100% leakage free performance and fire hazard protection.
-                    </p>
+            <div class="side-product-image">
+                <div class="product-image-container">
+                    <img src="../../FZC%20Inmarco%20Product%20Shoot/Ultra%20FE%201002/Ultra%20FE%201002_1%20(1).png" alt="Product Image" class="product-image-small" onerror="this.style.display='none'">
                 </div>
             </div>
-            </div>
+            <p class="description">Inmarco ULTRA LE 1002 is a premium low-emission braided packing manufactured from high-purity expanded graphite fibre yarn with minimum carbon 99%. Each yarn is reinforced with multiple Inconel wires and externally jacketed with Inconel wire mesh to provide exceptional mechanical strength, thermal stability, extrusion resistance, and sealing reliability under severe operating conditions.</p>
+            
+            <p class="description">The packing is thoroughly incorporated with inorganic passive corrosion inhibitors and specialized lubricating agents. The corrosion inhibitor system protects parent equipment against galvanic corrosion while minimizing oxidation-related material degradation during high-temperature operation.</p>
+            
+            <p class="description">The reinforced graphite construction enables ULTRA LE 1002 to withstand extreme mechanical stress, thermal cycling, pressure fluctuations, and oscillating valve movement while maintaining reliable sealing integrity and ultra-low emission performance. Designed for critical industrial valve applications, ULTRA LE 1002 delivers long sealing life, reduced maintenance, excellent fire-safe performance, and superior fugitive emission control in demanding process environments.</p>
 
             <div class="section-divider"></div>
 
-            <div class="features-grid">
-                <div class="features-column">
-                    <h3>Key Features & Approvals</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Passed API 607 and ISO 10497 Fire Safe Tests by Yarmouth Lab, USA</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Passed fugitive emission Test as per SHELL MESC SPE 77/312 to tightness Class B</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Approved as per ISO 15848 - Part I for fugitive emission from FCRI, Palakkad</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Passed API 622 2nd edition from Yarmouth Lab, USA</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Tested for anti VOC compliance</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Special lubricating agents reduces stem friction and corrosion inhibitor prevents pitting due to galvanic corrosion</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Very high sealing efficiency even on oscillating valve stems without much wear and tear</span>
-                    </div>
-                </div>
-
-                <div class="features-column">
-                    <h3>Applications</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">All Non-Oxidizing liquids and gases</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Super-heated and Saturated Steam</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Hot dry Ash and Flue gases</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Dyes and Chemicals</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Emissive fluids</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Fuel Oil & Lube Oil</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Thermic fluid and Hydrocarbons</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Valves, Screw Conveyers, Dryers</span>
-                    </div>
-                </div>
+            <div class="tech-specs-section">
+                <h3>Technical Properties</h3>
+                <table class="tech-table">
+                    <thead>
+                        <tr>
+                            <th>Property</th>
+                            <th>Specification</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Construction</td><td>Braided expanded graphite packing with Inconel wire reinforcement and Inconel mesh jacketing</td></tr>
+                        <tr><td>Material Composition</td><td>High-purity expanded graphite + multiple Inconel wire reinforcement</td></tr>
+                        <tr><td>Carbon Content</td><td>99% min</td></tr>
+                        <tr><td>pH Range</td><td>0 – 14</td></tr>
+                        <tr><td>Temperature Range</td><td>-240°C to +650°C</td></tr>
+                        <tr><td>Maximum Pressure</td><td>Up to 500 bar</td></tr>
+                        <tr><td>Size Range</td><td>3 mm² to 50 mm²</td></tr>
+                        <tr><td>Corrosion Protection</td><td>Inorganic passive corrosion inhibitor incorporated</td></tr>
+                        <tr><td>Friction Characteristics</td><td>Low-friction lubricated construction</td></tr>
+                        <tr><td>Chemical Compatibility</td><td>Suitable for most non-oxidizing industrial media</td></tr>
+                        <tr><td>Application Type</td><td>Low-emission valve sealing applications</td></tr>
+                    </tbody>
+                </table>
             </div>
         </div>
-            <div class="benefits-box">
-                <h3>PERFORMANCE ADVANTAGES</h3>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Maintains reliable sealing integrity under extreme thermal and pressure cycling conditions</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Excellent sealing efficiency on oscillating and high-cycle valve stems</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Reduced friction lowers stem wear and actuator operating load</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>High-purity graphite minimizes corrosion risk and material contamination</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Superior resistance to oxidation and thermal degradation</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Excellent extrusion resistance under high-pressure service conditions</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Reduces leakage and supports environmental emission compliance</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Long sealing life reduces maintenance shutdown frequency</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Suitable for severe industrial applications involving steam, hydrocarbons, and aggressive media</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Enhances operational safety in fire-sensitive process systems</span>
-                </div>
-            </div>
-        </div>
+    </div>
 
-        <!-- Page 3) - Technical Properties and Performance Benefits -->
     <div class="page-3">
         <div class="page-2-header">
             <div>
                 <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
-                <h2 class="page-2-title">Technical Specifications</h2>
+                <h2 class="page-2-title">ULTRA LE 1002</h2>
             </div>
         </div>
-
         <div class="content-section">
-            <div class="features-column" style="margin-bottom: 10mm;">
-<div class="features-column">
-                    <h3>CERTIFICATIONS & APPROVALS</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Passed API 622 2nd Edition fugitive emission valve packing qualification testing</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Approved as per ISO 15848 – Part 1 for fugitive emission performance</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Passed SHELL MESC SPE 77/312 fugitive emission testing to Tightness Class B</span>
-                    </div>
+            <div class="features-grid">
+                <div class="features-column">
+                    <h3>Key Features</h3>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Manufactured from premium expanded pure graphite yarn with 99% carbon purity</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Multiple Inconel wire reinforcement for enhanced mechanical strength and pressure resistance</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Inconel wire mesh jacketing improves extrusion resistance and structural stability</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Incorporated inorganic passive corrosion inhibitor protects against galvanic corrosion</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Special lubricating agents reduce stem friction and operational wear</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Excellent sealing performance under thermal and mechanical cycling conditions</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">High resistance to pressure, extrusion, and elevated temperatures</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Low-emission sealing performance for critical valve applications</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Suitable for severe industrial environments requiring fire-safe and fugitive emission compliance</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Long operational life with reduced maintenance requirements</span></div>
+                </div>
+                <div class="features-column">
+                    <h3>Applications</h3>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Industrial valve sealing systems</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Steam valves and high-temperature valve applications</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Hydrocarbon processing systems</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Petrochemical and refinery plants</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Thermal fluid systems</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Fuel oil and lubricating oil services</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Hot dry ash and flue gas systems</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Chemical and dye processing industries</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Screw conveyors and dryers</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">General low-emission industrial sealing applications</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Available continuous rope packing as well as preformed rings</span></div>
                 </div>
             </div>
-            <div class="features-column" style="margin-bottom: 10mm;">
-<div class="features-column">
-                    <h3>TESTING & VALIDATION</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Proven fugitive emission sealing capability under cyclic operating conditions</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Verified low-emission performance for industrial valve applications</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Tested for corrosion resistance, thermal endurance, and operational reliability</span>
-                    </div>
-                </div>
-            </div>
-            <div class="properties-section">
-                <h3>Technical Properties</h3>
-                <table class="properties-table">
-                    <tr>
-                        <th>Properties</th>
-                        <th>Values</th>
-                    </tr>
-                    <tr>
-                        <td>pH</td>
-                        <td>0 - 14</td>
-                    </tr>
-                    <tr>
-                        <td>Temperature (°C)</td>
-                        <td>-240 to +650°C</td>
-                    </tr>
-                    <tr>
-                        <td>Pressure (BAR)</td>
-                        <td>500</td>
-                    </tr>
-                    <tr>
-                        <td>Size</td>
-                        <td>3sq.mm - 25sq.mm</td>
-                    </tr>
-                </table>
-            </div>
-
-            <div class="benefits-box">
-                <h3>Performance Benefits & Advantages</h3>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Reinforcement and jacketing of inconnel wire enhance the strength of packing and withstand high temperature and pressure</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Excellent sealing under mechanical and thermal stress or cyclic loads</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Low wear and tear mean long sealing life with reduced maintenance requirements</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Emission much below the EPI limits ensuring environmental compliance</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Highly resistant to pressure and extrusion for reliable performance</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Reduces consumption of make-up water (DM water in Boiler) for cost-effective operation</span>
-                </div>
+            <div class="certification-box">
+                <h4>Certifications & Approvals</h4>
+                <p>● Passed API 622 2nd Edition fugitive emission valve packing qualification testing</p>
+                <p>● Approved as per ISO 15848 – Part 1 for fugitive emission performance</p>
+                <p>● Passed SHELL MESC SPE 77/312 fugitive emission testing to Tightness Class B</p>
             </div>
         </div>
+    </div>
 
+    <div class="page-4">
+        <div class="page-2-header">
+            <div>
+                <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
+                <h2 class="page-2-title">ULTRA LE 1002</h2>
+            </div>
+        </div>
+        <div class="content-section">
+            <div class="benefits-box">
+                <h3>Performance Benefits</h3>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Maintains reliable sealing integrity under extreme thermal and pressure cycling conditions</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Excellent sealing efficiency on oscillating and high-cycle valve stems</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Reduced friction lowers stem wear and actuator operating load</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>High-purity graphite minimizes corrosion risk and material contamination</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Superior resistance to oxidation and thermal degradation</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Excellent extrusion resistance under high-pressure service conditions</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Reduces leakage and supports environmental emission compliance</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Long sealing life reduces maintenance shutdown frequency</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Suitable for severe industrial applications involving steam, hydrocarbons, and aggressive media</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Enhances operational safety in fire-sensitive process systems</span></div>
+            </div>
+        </div>
         <div class="footer">
             <div class="footer-content">
                 <div class="company-info">
-                    <div class="company-name">INMARCO FZC</div>
+                    <div class="company-name">Inmarco FZC</div>
                     <div class="contact-info">
                         P.O. Box 120284, Sharjah Airport International Free Zone (SAIF-Zone), Sharjah, UAE<br>
                         Tel: +971 6 5578378 | Fax: +971 6 5578948<br>
                         Email: sales@inmarco.ae | Web: www.inmarco.ae
                     </div>
-                    <div class="disclaimer">
-                        All information and recommendations given in this technical data sheet are correct to the best of our knowledge. However, because of the wide variety of application and operating conditions, we cannot derive the final conclusion. This above information can only serve as a guideline.
-                    </div>
+                    <div class="disclaimer">All technical information, recommendations, and performance data provided in this technical datasheet are based on current knowledge, laboratory testing, and/or industrial experience. Actual product performance may vary depending on operating conditions, equipment design, installation practices, process parameters. Final product selection and suitability should be determined by the user based on the specific service conditions and application requirements.</div>
                 </div>
             </div>
         </div>
     </div>
+
 </body>
 </html>

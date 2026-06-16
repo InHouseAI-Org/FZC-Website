@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style PA 499 - Technical Datasheet</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; -webkit-print-color-adjust: exact; print-color-adjust: exact; color-adjust: exact; }
+        @page { size: A4 portrait; margin: 0; }
+        @media print { body { margin: 0; padding: 0; } }
+        html { margin: 0; padding: 0; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; color: #2b2a29; background: white; width: 210mm; min-height: 290mm; margin: 0; padding: 0; }
+        .page-1 { width: 210mm; height: 290mm; background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%); position: relative; overflow: hidden; page-break-after: always; }
+        .header { padding: 20mm 15mm; display: flex; justify-content: center; align-items: center; }
+        .logo-section { color: white; text-align: center; }
+        .logo-section img { height: 200px; width: auto; }
+        .hero-section { position: relative; margin-top: 10px; height: 100%; background-image: url('../../fertilizer.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; }
+        .hero-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to right, rgba(43, 42, 41, 0.95) 0%, rgba(43, 42, 41, 0.7) 50%, transparent 100%); }
+        .hero-content { position: relative; z-index: 10; padding: 35mm 15mm 0 15mm; max-width: 150mm; }
+        .red-accent { width: 50mm; height: 4px; background: #e31e24; margin-bottom: 10mm; }
+        .product-name { font-size: 48pt; font-weight: 700; color: white; margin-bottom: 6mm; letter-spacing: -1.5px; line-height: 1.1; }
+        .product-tagline { font-size: 12pt; color: #ffffff; max-width: 140mm; line-height: 1.5; font-weight: 300; }
+        .page-2, .page-3, .page-4 { width: 210mm; height: 290mm; background: white; position: relative; page-break-after: always; }
+        .page-4 { page-break-after: auto; }
+        .page-2-header { background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%); padding: 12mm 15mm; color: white; display: flex; justify-content: space-between; align-items: center; }
+        .page-2-title { font-size: 28pt; font-weight: bold; }
+        .content-section { padding: 10mm 15mm; }
+        .description { font-size: 10pt; line-height: 1.5; color: #333; margin-bottom: 5mm; text-align: justify; }
+        .side-product-image {
+            float: right;
+            margin-left: 6mm;
+            margin-bottom: 4mm;
+        }
+
+        .product-image-container {
+            background: white;
+            border-radius: 5mm;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            border: 3px solid #e31e24;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+
+        .product-image-small {
+            width: 85mm;
+            height: 55mm;
+            border-radius: 4mm;
+            object-fit: cover;
+            display: block;
+        }
+
+        .section-divider { height: 2px; background: #e31e24; margin: 5mm 0; }
+        .features-grid { display: flex; gap: 10mm; margin-bottom: 0; }
+        .features-column { flex: 1; }
+        .features-column h3 { font-size: 12pt; color: #2b2a29; margin-bottom: 3mm; padding-bottom: 2mm; border-bottom: 2px solid #e31e24; font-weight: 600; }
+        .feature-item { display: flex; margin-bottom: 3mm; font-size: 10pt; line-height: 1.8; }
+        .bullet { color: #e31e24; font-weight: bold; margin-right: 3mm; font-size: 8pt; margin-top: 0.8mm; }
+        .feature-text { flex: 1; color: #444; }
+        .benefits-box { background: linear-gradient(135deg, #e31e24 0%, #c41a20 100%); color: white; padding: 8mm; border-radius: 3mm; margin-bottom: 8mm; }
+        .benefits-box h3 { font-size: 14pt; margin-bottom: 4mm; }
+        .benefit-item { display: flex; align-items: flex-start; margin-bottom: 3mm; font-size: 9pt; line-height: 1.4; }
+        .benefit-item:last-child { margin-bottom: 0; }
+        .check-icon { color: white; font-weight: bold; margin-right: 3mm; font-size: 11pt; }
+        .tech-specs-section { margin-top: 5mm; }
+        .tech-specs-section h3 { font-size: 12pt; color: #2b2a29; margin-bottom: 3mm; padding-bottom: 2mm; border-bottom: 2px solid #e31e24; font-weight: 600; }
+        .tech-table { width: 100%; border-collapse: collapse; font-size: 9pt; }
+        .tech-table thead { background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%); color: white; }
+        .tech-table th { padding: 3mm; text-align: left; font-weight: 600; border: 1px solid #ddd; }
+        .tech-table td { padding: 2.5mm; border: 1px solid #ddd; color: #444; }
+        .tech-table tbody tr:nth-child(even) { background-color: #f9f9f9; }
+        .footer { position: absolute; bottom: 0; left: 0; right: 0; background: #2b2a29; color: white; padding: 8mm 15mm; }
+        .footer-content { display: flex; justify-content: space-between; align-items: center; }
+        .company-info { font-size: 7pt; line-height: 1.6; }
+        .company-name { font-size: 10pt; font-weight: bold; margin-bottom: 2mm; color: #e31e24; }
+        .contact-info { color: #ccc; }
+        .disclaimer { font-size: 6pt; color: #888; margin-top: 3mm; max-width: 160mm; }
+        .certification-box { background: #f5f5f5; padding: 6mm; border-radius: 3mm; border-left: 4px solid #2b2a29; margin-top: 5mm; }
+        .certification-box h4 { font-size: 11pt; color: #2b2a29; margin-bottom: 3mm; font-weight: 600; }
+        .certification-box ul { list-style: none; padding: 0; margin: 0; }
+        .certification-box li { display: flex; align-items: flex-start; margin-bottom: 2mm; font-size: 9pt; line-height: 1.4; color: #444; }
+        .certification-box li:before { content: "✓"; color: #2b2a29; font-weight: bold; margin-right: 3mm; font-size: 11pt; }
+    </style>
+</head>
+<body>
+    <div class="page-1">
+        <div class="header">
+            <div class="logo-section">
+                <img src="../../../src/assets/inmarco-tagline-logo1.png" alt="Inmarco - Innovations in Fluid Sealing">
+            </div>
+        </div>
+        <div class="hero-section">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <div class="red-accent"></div>
+                <h1 class="product-name">STYLE PA 499</h1>
+                <p class="product-tagline">High Mechanical Resistance with Exceptional Flexibility and Wide Material Compatibility</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-2">
+        <div class="page-2-header">
+            <div>
+                <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
+                <h2 class="page-2-title">STYLE PA 499</h2>
+            </div>
+        </div>
+        <div class="content-section">
+            <div class="side-product-image">
+                <div class="product-image-container">
+                    <img src="../../FZC%20Inmarco%20Product%20Shoot/PA%20499/%2812%29_02_2.png" alt="Product Image" class="product-image-small" onerror="this.style.display='none'">
+                </div>
+            </div>
+            <p class="description">Style PA 499 is an advanced synthetic packing engineered to provide exceptional mechanical strength, flexibility, and sealing reliability in demanding industrial applications. Manufactured from a unique blend of high-performance novoloid fibres and impregnated with a proprietary fluoropolymer dispersion, it combines excellent abrasion resistance with superior sliding characteristics. It is tough, soft, flexible with enhanced sliding feature, delivers reliable sealing performance across a wide range of operating conditions.</p>
+            
+            <p class="description">This next-generation packing addresses the limitations of conventional synthetic packings by offering outstanding performance in applications involving abrasive media, chemical exposure, and dynamic operating conditions. By combining the durability of aramid-based materials with the low-friction characteristics associated with advanced fibre technologies, Style PA 499 delivers extended equipment life, reduced maintenance, and enhanced operational efficiency.</p>
+            
+            <p class="description">Its flexible construction allows easy installation and excellent conformity to stuffing box configurations while minimizing gland adjustment requirements and shaft wear.</p>
+
+            <div class="section-divider"></div>
+
+            <div class="tech-specs-section">
+                <h3>Technical Properties</h3>
+                <table class="tech-table">
+                    <thead>
+                        <tr>
+                            <th>Properties</th>
+                            <th>Rotating</th>
+                            <th>Reciprocating</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>pH Range</td>
+                            <td>1 – 13</td>
+                            <td>1 – 13</td>
+                        </tr>
+                        <tr>
+                            <td>Temperature (°C)</td>
+                            <td>-150 to +260</td>
+                            <td>-150 to +260</td>
+                        </tr>
+                        <tr>
+                            <td>Pressure (Bar)</td>
+                            <td>150</td>
+                            <td>250</td>
+                        </tr>
+                        <tr>
+                            <td>Velocity (m/s)</td>
+                            <td>15</td>
+                            <td>20</td>
+                        </tr>
+                        <tr>
+                            <td>Size</td>
+                            <td colspan="2">5 sq mm to 50 sq mm</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="certification-box">
+                <h4>Certifications & Compliance</h4>
+                <ul>
+                    <li>Tested and qualified according to EN 16752 (Centrifugal Pumps Test Procedure for Seal Packing), Tightness Class T2</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-3">
+        <div class="page-2-header">
+            <div>
+                <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
+                <h2 class="page-2-title">STYLE PA 499</h2>
+            </div>
+        </div>
+        <div class="content-section">
+            <div class="features-grid">
+                <div class="features-column">
+                    <h3>Key Features</h3>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Advanced synthetic fibre construction provides exceptional flexibility and mechanical strength</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Impregnated with proprietary fluoropolymer dispersion for enhanced lubrication and sealing performance</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Excellent wear and abrasion resistance for extended service life in demanding applications</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Generates less heat during operation, improving equipment efficiency and operational safety</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Dense impregnation provides superior blocking characteristics and leakage control</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Conforms readily to stuffing box geometries, simplifying installation and reducing gland adjustment requirements</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Prevents shaft scoring commonly associated with traditional abrasion-resistant packings</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Does not promote galvanic corrosion, helping protect sleeves, shafts, and equipment components</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Safe for use in a wide variety of industrial environments without causing contamination or corrosion</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Tested and qualified according to EN 16752, Tightness Class T2</span></div>
+                </div>
+                <div class="features-column">
+                    <h3>Applications</h3>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Centrifugal pumps handling abrasive or chemically aggressive media</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Process pumps in chemical, petrochemical, and industrial plants</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Water treatment and wastewater handling equipment</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Slurry transfer systems</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Mixers, agitators, and rotating equipment</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Applications requiring low shaft wear and excellent extrusion resistance</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Services involving abrasive particles combined with chemical exposure</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">General industrial sealing applications requiring long service life and minimal maintenance</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-4">
+        <div class="page-2-header">
+            <div>
+                <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
+                <h2 class="page-2-title">STYLE PA 499</h2>
+            </div>
+        </div>
+        <div class="content-section">
+            <div class="benefits-box">
+                <h3>Performance Benefits</h3>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Excellent abrasion resistance for demanding industrial applications</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Superior flexibility and wear resistance ensure long-term sealing performance</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Prevents shaft scoring and sleeve damage unlike many traditional synthetic packings</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Dense fluoropolymer impregnation enhances sealing efficiency and leakage control</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Reduced water consumption contributes to lower operating costs and improved sustainability</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Outstanding compression and recovery characteristics compensate for shaft and spindle misalignment</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Excellent extrusion resistance under demanding operating conditions</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Low shaft wear extends equipment service life</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Generates less operational heat, improving efficiency and reliability</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Protection against galvanic corrosion safeguards equipment components</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Easy installation with minimal gland torque and reduced maintenance requirements</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>EN 16752 qualified performance with Tightness Class T2 certification</span></div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-content">
+                <div class="company-info">
+                    <div class="company-name">Inmarco FZC</div>
+                    <div class="contact-info">
+                        P.O. Box 120284, Sharjah Airport International Free Zone (SAIF-Zone), Sharjah, UAE<br>
+                        Tel: +971 6 5578378 | Fax: +971 6 5578948<br>
+                        Email: sales@inmarco.ae | Web: www.inmarco.ae
+                    </div>
+                    <div class="disclaimer">All technical information, recommendations, and performance data provided in this technical datasheet are based on current knowledge, laboratory testing, and/or industrial experience. Actual product performance may vary depending on operating conditions, equipment design, installation practices, process parameters. Final product selection and suitability should be determined by the user based on the specific service conditions and application requirements.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

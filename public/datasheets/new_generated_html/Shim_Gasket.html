@@ -3,45 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SHIM GASKET - Technical Datasheet</title>
+    <title>Shim Gasket - Technical Datasheet</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
+        * { margin: 0; padding: 0; box-sizing: border-box; -webkit-print-color-adjust: exact; print-color-adjust: exact; color-adjust: exact; }
         @page { size: A4 portrait; margin: 0; }
-        @media print { body { margin: 0; padding: 0; } .product-image-container { box-shadow: none !important; } }
-        html { margin: 0; padding: 0; }
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; color: #2b2a29; background: white; width: 210mm; min-height: 290mm; margin: 0; padding: 0; }
         .page-1 { width: 210mm; height: 290mm; background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%); position: relative; overflow: hidden; page-break-after: always; }
         .header { padding: 20mm 15mm; display: flex; justify-content: center; align-items: center; }
-        .logo-section { color: white; }
+        .logo-section { color: white; text-align: center; }
         .logo-section img { height: 200px; width: auto; }
         .hero-section { position: relative; margin-top: 10px; height: 100%; background-image: url('../../oil and gas.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; }
         .hero-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to right, rgba(43, 42, 41, 0.95) 0%, rgba(43, 42, 41, 0.7) 50%, transparent 100%); }
         .hero-content { position: relative; z-index: 10; padding: 35mm 15mm 0 15mm; max-width: 150mm; }
         .red-accent { width: 50mm; height: 4px; background: #e31e24; margin-bottom: 10mm; }
-        .product-name { font-size: 52pt; font-weight: 700; color: white; margin-bottom: 6mm; letter-spacing: -1.5px; line-height: 1.1; }
-        .product-tagline { font-size: 16pt; color: #ffffff; max-width: 140mm; line-height: 1.5; font-weight: 300; }
-        .page-2, .page-3, .page-4 { width: 210mm; height: 290mm; background: white; position: relative; page-break-after: always; }
-        .page-4 { page-break-after: auto; }
-        .page-2-header { background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%); padding: 12mm 15mm; color: white; display: flex; justify-content: space-between; align-items: center; }
+        .product-name { font-size: 48pt; font-weight: 700; color: white; margin-bottom: 6mm; letter-spacing: -1.5px; line-height: 1.1; }
+        .product-tagline { font-size: 13pt; color: #ffffff; max-width: 140mm; line-height: 1.5; font-weight: 300; }
+        .page-2, .page-3, .page-4, .page-5, .page-6 { width: 210mm; height: 290mm; background: white; position: relative; page-break-after: always; }
+        .page-6 { page-break-after: auto; }
+        .page-2-header { background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%); padding: 12mm 15mm; color: white; }
         .page-2-title { font-size: 28pt; font-weight: bold; }
         .content-section { padding: 10mm 15mm; }
-        .description { font-size: 10pt; line-height: 1.5; color: #333; margin-bottom: 0; text-align: justify; }
-
-        .description-with-image {
-            margin-bottom: 10mm;
-        }
-
-        .description-text {
-            display: block;
-        }
-
+        .description { font-size: 10pt; line-height: 1.5; color: #333; margin-bottom: 5mm; text-align: justify; }
         .side-product-image {
             float: right;
-            margin-left: 5mm;
-            margin-bottom: 5mm;
-            margin-right: 0;
-            width: 85mm;
+            margin-left: 6mm;
+            margin-bottom: 4mm;
         }
 
         .product-image-container {
@@ -49,21 +36,23 @@
             border-radius: 5mm;
             box-shadow: 0 4px 15px rgba(0,0,0,0.3);
             border: 3px solid #e31e24;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
         }
 
         .product-image-small {
-            height: 55mm;
             width: 85mm;
+            height: 55mm;
             border-radius: 4mm;
             object-fit: cover;
             display: block;
         }
 
         .section-divider { height: 2px; background: #e31e24; margin: 5mm 0; }
-        .features-grid { display: flex; gap: 10mm; margin-bottom: 0; }
+        .features-grid { display: flex; gap: 10mm; }
         .features-column { flex: 1; }
         .features-column h3 { font-size: 12pt; color: #2b2a29; margin-bottom: 3mm; padding-bottom: 2mm; border-bottom: 2px solid #e31e24; font-weight: 600; }
-        .feature-item { display: flex; margin-bottom: 1mm; font-size: 8.5pt; line-height: 1.4; }
+        .feature-item { display: flex; margin-bottom: 3mm; font-size: 10pt; line-height: 1.8; }
         .bullet { color: #e31e24; font-weight: bold; margin-right: 3mm; font-size: 8pt; margin-top: 0.8mm; }
         .feature-text { flex: 1; color: #444; }
         .benefits-box { background: linear-gradient(135deg, #e31e24 0%, #c41a20 100%); color: white; padding: 8mm; border-radius: 3mm; margin-bottom: 8mm; }
@@ -71,15 +60,14 @@
         .benefit-item { display: flex; align-items: flex-start; margin-bottom: 3mm; font-size: 9pt; line-height: 1.4; }
         .benefit-item:last-child { margin-bottom: 0; }
         .check-icon { color: white; font-weight: bold; margin-right: 3mm; font-size: 11pt; }
-        .tech-specs-section { margin-top: 5mm; }
+        .tech-specs-section { margin-top: 2mm; }
         .tech-specs-section h3 { font-size: 12pt; color: #2b2a29; margin-bottom: 3mm; padding-bottom: 2mm; border-bottom: 2px solid #e31e24; font-weight: 600; }
         .tech-table { width: 100%; border-collapse: collapse; font-size: 9pt; }
         .tech-table thead { background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%); color: white; }
         .tech-table th { padding: 3mm; text-align: left; font-weight: 600; border: 1px solid #ddd; }
-        .tech-table td { padding: 2.5mm; border: 1px solid #ddd; color: #444; }
+        .tech-table td { padding: 2mm; border: 1px solid #ddd; color: #444; }
         .tech-table tbody tr:nth-child(even) { background-color: #f9f9f9; }
         .footer { position: absolute; bottom: 0; left: 0; right: 0; background: #2b2a29; color: white; padding: 8mm 15mm; }
-        .footer-content { display: flex; justify-content: space-between; align-items: center; }
         .company-info { font-size: 7pt; line-height: 1.6; }
         .company-name { font-size: 10pt; font-weight: bold; margin-bottom: 2mm; color: #e31e24; }
         .contact-info { color: #ccc; }
@@ -90,7 +78,7 @@
     <div class="page-1">
         <div class="header">
             <div class="logo-section">
-                <img src="../../../src/assets/inmarco-tagline-logo1.png" alt="Inmarco - Innovations in Fluid Sealing">
+                <img src="../../../src/assets/inmarco-tagline-logo1.png" alt="Inmarco">
             </div>
         </div>
         <div class="hero-section">
@@ -98,7 +86,7 @@
             <div class="hero-content">
                 <div class="red-accent"></div>
                 <h1 class="product-name">SHIM GASKET</h1>
-                <p class="product-tagline">Precision-Manufactured Thin Metallic Components Engineered for Flange Sealing</p>
+                <p class="product-tagline">Precision-Manufactured Metallic Components for Critical Alignment and Spacing Applications</p>
             </div>
         </div>
     </div>
@@ -111,206 +99,29 @@
             </div>
         </div>
         <div class="content-section">
-            <div class="description-with-image">
-                <div class="side-product-image">
-                    <div class="product-image-container">
-                        <img src="../../FZC%20Inmarco%20Product%20Shoot/SS%20Gasket/SS%20Gasket_2_1.png" alt="Shim Gasket" class="product-image-small" onerror="this.style.display='none'">
-                    </div>
-                </div>
+            <p class="description">Inmarco Shim Gaskets are precision-manufactured thin metallic components engineered for critical alignment, spacing, sealing, and tolerance-control applications across industrial equipment and mechanical assemblies.</p>
+            <p class="description">Manufactured using high-precision die-punching, CNC machining, and laser-cutting technologies, these shim gaskets deliver exceptional dimensional accuracy, flatness, and surface finish required for demanding engineering applications.</p>
+            <p class="description">Designed to provide reliable load distribution, flange alignment correction, gap compensation, and precision spacing, Inmarco Shim Gaskets are widely used in aerospace, oil & gas, petrochemical, marine, automotive, pharmaceutical, and heavy engineering industries.</p>
+            <p class="description">Available in multiple metallic materials and thickness configurations, these gaskets ensure excellent dimensional stability, corrosion resistance, thermal stability, and long-term operational reliability under varying industrial conditions.</p>
 
-                <div class="description-text">
-                    <p class="description">Inmarco Shim Gaskets are precision-manufactured thin metallic components engineered for critical alignment, spacing, sealing, and tolerance-control applications across industrial equipment and mechanical assemblies.<br><br>Manufactured using high-precision die-punching, CNC machining, and laser-cutting technologies, these shim gaskets deliver exceptional dimensional accuracy, flatness, and surface finish required for demanding engineering applications. Designed to provide reliable load distribution, flange alignment correction, gap compensation, and precision spacing, Inmarco Shim Gaskets are widely used in aerospace, oil & gas, petrochemical, marine, automotive, pharmaceutical, and heavy engineering industries.<br><br>Available in multiple metallic materials and thickness configurations, these gaskets ensure excellent dimensional stability, corrosion resistance, thermal stability, and long-term operational reliability under varying industrial conditions.</p>
-                </div>
-            </div>
-            <div class="section-divider"></div>
-            <div class="features-grid">
-                <div class="features-column">
-                    <h3>Key Features</h3>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Precision-manufactured for accurate clearance and alignment control Fabricated using high-precision laser cutting and die-punching processes Burr-free smooth surface finish for improved assembly performance Excellent dimensional stability under load and thermal variation Permanent thickness identification for easy traceability and selection Available in single-layer and multi-layer configurations Suitable for high-precision industrial and mechanical assemblies Excellent corrosion and temperature resistance depending on material selection Custom profiles, slots, holes, and special geometries available Suitable for OEM, EPC, maintenance, and precision engineering applications 3. PERFORMANCE ADVANTAGESEnsures precise flange alignment and gap compensation Helps maintain critical mechanical tolerances and assembly accuracy Reduces vibration-related misalignment and uneven load distribution Excellent flatness improves sealing consistency on machined surfaces High structural stability minimizes dimensional variation during operation Supports long-term reliability in precision assemblies Cost-effective solution for machinery calibration and alignment applications Available in multiple metallurgy options for aggressive industrial environments Suitable for high-temperature and corrosive operating conditions Simplifies installation, maintenance, and equipment adjustment procedures 4. TECHNICAL PROPERTIESPropertySpecificationConstructionPrecision metallic shim gasketThickness Range0.05 mm to 3 mmStandard Tolerance±0.01 mm to ±0.05 mm depending on thicknessTemperature Range-200°C to +500°C depending on materialPressure CapabilityUp to 300 bar depending on applicationSurface FinishBurr-free precision finishConfiguration OptionsFull sheet, custom profile, slotted, drilled, layeredFabrication MethodCNC laser cutting, die-punching, precision machiningStandardsCustom manufactured to application requirements5. MATERIAL OPTIONSMaterial TypeTypical Application CharacteristicsSS304General industrial corrosion resistanceSS316Superior corrosion resistance for aggressive mediaCarbon SteelGeneral mechanical and structural applicationsBrassElectrical conductivity and soft sealing applicationsCopperThermal conductivity and electrical applicationsAluminumLightweight precision applications6.</span></div>
-                </div>
-                <div class="features-column">
-                    <h3>Applications</h3>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Flange gap adjustment in oil & gas and chemical plants Precision machinery alignment systems Aerospace structural and engine assemblies Marine propulsion and shaft alignment systems Automotive engine, brake, and suspension assemblies Pharmaceutical processing equipment Packaging and manufacturing machinery Compressor and pump alignment systems Instrumentation and calibration assemblies OEM precision engineering applications 7.</span></div>
-                </div>
-            </div>
-            <div class="features-column" style="margin-bottom: 10mm;">
-<div class="features-column">
-                    <h3>CUSTOM FABRICATION OPTIONS</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Custom dimensions as per drawing or sample</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">CNC laser profile cutting available</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Multi-layer shim packs available upon request</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Slotted, drilled, and custom hole patterns available</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Material certification and traceability options available</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Special alloy materials available for critical applications</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="benefits-box">
-                <h3>PERFORMANCE ADVANTAGES</h3>
-                <div class="benefit-item"><span class="check-icon">✓</span><span>Ensures precise flange alignment and gap compensation</span></div>
-                <div class="benefit-item"><span class="check-icon">✓</span><span>Helps maintain critical mechanical tolerances and assembly accuracy</span></div>
-                <div class="benefit-item"><span class="check-icon">✓</span><span>Reduces vibration-related misalignment and uneven load distribution</span></div>
-                <div class="benefit-item"><span class="check-icon">✓</span><span>Excellent flatness improves sealing consistency on machined surfaces</span></div>
-                <div class="benefit-item"><span class="check-icon">✓</span><span>High structural stability minimizes dimensional variation during operation</span></div>
-                <div class="benefit-item"><span class="check-icon">✓</span><span>Supports long-term reliability in precision assemblies</span></div>
-                <div class="benefit-item"><span class="check-icon">✓</span><span>Cost-effective solution for machinery calibration and alignment applications</span></div>
-                <div class="benefit-item"><span class="check-icon">✓</span><span>Available in multiple metallurgy options for aggressive industrial environments</span></div>
-                <div class="benefit-item"><span class="check-icon">✓</span><span>Suitable for high-temperature and corrosive operating conditions</span></div>
-                <div class="benefit-item"><span class="check-icon">✓</span><span>Simplifies installation, maintenance, and equipment adjustment procedures</span></div>
-            </div>
-            <div class="benefits-box">
-                <h3>PERFORMANCE ADVANTAGES</h3>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Ensures precise flange alignment and gap compensation</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Helps maintain critical mechanical tolerances and assembly accuracy</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Reduces vibration-related misalignment and uneven load distribution</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Excellent flatness improves sealing consistency on machined surfaces</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>High structural stability minimizes dimensional variation during operation</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Supports long-term reliability in precision assemblies</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Cost-effective solution for machinery calibration and alignment applications</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Available in multiple metallurgy options for aggressive industrial environments</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Suitable for high-temperature and corrosive operating conditions</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Simplifies installation, maintenance, and equipment adjustment procedures</span>
-                </div>
-            </div>
-            <div class="benefits-box">
-                <h3>PERFORMANCE ADVANTAGES</h3>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Ensures precise flange alignment and gap compensation</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Helps maintain critical mechanical tolerances and assembly accuracy</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Reduces vibration-related misalignment and uneven load distribution</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Excellent flatness improves sealing consistency on machined surfaces</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>High structural stability minimizes dimensional variation during operation</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Supports long-term reliability in precision assemblies</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Cost-effective solution for machinery calibration and alignment applications</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Available in multiple metallurgy options for aggressive industrial environments</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Suitable for high-temperature and corrosive operating conditions</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Simplifies installation, maintenance, and equipment adjustment procedures</span>
-                </div>
-            </div>
             <div class="tech-specs-section">
                 <h3>Technical Properties</h3>
                 <table class="tech-table">
-                    <thead>
-                        <tr>
-                            <th>Property</th>
-                            <th>Specification</th>
-                        </tr>
-                    </thead>
+                    <thead><tr><th>Property</th><th>Specification</th></tr></thead>
                     <tbody>
-                        <tr>
-                            <td>Construction</td>
-                            <td>Precision metallic shim gasket</td>
-                        </tr>
-                        <tr>
-                            <td>Thickness Range</td>
-                            <td>0.05 mm to 3 mm</td>
-                        </tr>
-                        <tr>
-                            <td>Standard Tolerance</td>
-                            <td>±0.01 mm to ±0.05 mm depending on thickness</td>
-                        </tr>
-                        <tr>
-                            <td>Temperature Range</td>
-                            <td>-200°C to +500°C depending on material</td>
-                        </tr>
-                        <tr>
-                            <td>Pressure Capability</td>
-                            <td>Up to 300 bar depending on application</td>
-                        </tr>
-                        <tr>
-                            <td>Surface Finish</td>
-                            <td>Burr-free precision finish</td>
-                        </tr>
-                        <tr>
-                            <td>Configuration Options</td>
-                            <td>Full sheet, custom profile, slotted, drilled, layered</td>
-                        </tr>
-                        <tr>
-                            <td>Fabrication Method</td>
-                            <td>CNC laser cutting, die-punching, precision machining</td>
-                        </tr>
-                        <tr>
-                            <td>Standards</td>
-                            <td>Custom manufactured to application requirements</td>
-                        </tr>
+                        <tr><td>Construction</td><td>Precision metallic shim gasket</td></tr>
+                        <tr><td>Thickness Range</td><td>0.05 mm to 3 mm</td></tr>
+                        <tr><td>Standard Tolerance</td><td>±0.01 mm to ±0.05 mm depending on thickness</td></tr>
+                        <tr><td>Temperature Range</td><td>-200°C to +500°C depending on material</td></tr>
+                        <tr><td>Pressure Capability</td><td>Up to 300 bar depending on application</td></tr>
+                        <tr><td>Surface Finish</td><td>Burr-free precision finish</td></tr>
+                        <tr><td>Configuration Options</td><td>Full sheet, custom profile, slotted, drilled, layered</td></tr>
+                        <tr><td>Fabrication Method</td><td>CNC laser cutting, die-punching, precision machining</td></tr>
+                        <tr><td>Standards</td><td>Custom manufactured to application requirements</td></tr>
                     </tbody>
                 </table>
             </div>
+
         </div>
     </div>
 
@@ -322,27 +133,117 @@
             </div>
         </div>
         <div class="content-section">
-            <div class="tech-specs-section">
+            <div class="features-grid">
                 <div class="features-column">
-                    <h3>MATERIAL OPTIONS</h3>
+                    <h3>Key Features</h3>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Precision-manufactured for accurate clearance and alignment control</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Fabricated using high-precision laser cutting and die-punching processes</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Burr-free smooth surface finish for improved assembly performance</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Excellent dimensional stability under load and thermal variation</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Permanent thickness identification for easy traceability and selection</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Available in single-layer and multi-layer configurations</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Suitable for high-precision industrial and mechanical assemblies</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Excellent corrosion and temperature resistance depending on material selection</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Custom profiles, slots, holes, and special geometries available</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Suitable for OEM, EPC, maintenance, and precision engineering applications</span></div>
+                </div>
+                <div class="features-column">
+                    <h3>Performance Advantages</h3>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Ensures precise flange alignment and gap compensation</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Helps maintain critical mechanical tolerances and assembly accuracy</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Reduces vibration-related misalignment and uneven load distribution</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Excellent flatness improves sealing consistency on machined surfaces</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">High structural stability minimizes dimensional variation during operation</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Supports long-term reliability in precision assemblies</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Cost-effective solution for machinery calibration and alignment applications</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Available in multiple metallurgy options for aggressive industrial environments</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Suitable for high-temperature and corrosive operating conditions</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Simplifies installation, maintenance, and equipment adjustment procedures</span></div>
                 </div>
             </div>
+            <div class="tech-specs-section">
+                <h3>Material Options</h3>
+                <table class="tech-table">
+                    <thead><tr><th>Material Type</th><th>Typical Application Characteristics</th></tr></thead>
+                    <tbody>
+                        <tr><td>SS304</td><td>General industrial corrosion resistance</td></tr>
+                        <tr><td>SS316</td><td>Superior corrosion resistance for aggressive media</td></tr>
+                        <tr><td>Carbon Steel</td><td>General mechanical and structural applications</td></tr>
+                        <tr><td>Brass</td><td>Electrical conductivity and soft sealing applications</td></tr>
+                        <tr><td>Copper</td><td>Thermal conductivity and electrical applications</td></tr>
+                        <tr><td>Aluminum</td><td>Lightweight precision applications</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-5">
+        <div class="page-2-header">
+            <div>
+                <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
+                <h2 class="page-2-title">SHIM GASKET</h2>
+            </div>
+        </div>
+        <div class="content-section">
+            <div class="features-grid">
+                <div class="features-column">
+                    <h3>Applications</h3>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Flange gap adjustment in oil & gas and chemical plants</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Precision machinery alignment systems</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Aerospace structural and engine assemblies</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Marine propulsion and shaft alignment systems</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Automotive engine, brake, and suspension assemblies</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Pharmaceutical processing equipment</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Packaging and manufacturing machinery</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Compressor and pump alignment systems</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Instrumentation and calibration assemblies</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">OEM precision engineering applications</span></div>
+                </div>
+                <div class="features-column">
+                    <h3>Custom Fabrication Options</h3>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Custom dimensions as per drawing or sample</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">CNC laser profile cutting available</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Multi-layer shim packs available upon request</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Slotted, drilled, and custom hole patterns available</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Material certification and traceability options available</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Special alloy materials available for critical applications</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-6">
+        <div class="page-2-header">
+            <div>
+                <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
+                <h2 class="page-2-title">SHIM GASKET</h2>
+            </div>
+        </div>
+        <div class="content-section">
             <div class="benefits-box">
                 <h3>Performance Benefits</h3>
-                <div class="benefit-item"><span class="check-icon">✓</span><span>ADVANTAGESEnsures precise flange alignment and gap compensation Helps maintain critical mechanical tolerances and assembly accuracy Reduces vibration-related misalignment and uneven load distribution Excellent flatness improves sealing consistency on machined surfaces High structural stability minimizes dimensional variation during operation Supports long-term reliability in precision assemblies Cost-effective solution for machinery calibration and alignment applications Available in multiple metallurgy options for aggressive industrial environments Suitable for high-temperature and corrosive operating conditions Simplifies installation, maintenance, and equipment adjustment procedures 4.</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Maintains precise equipment alignment and operational accuracy</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Enhances assembly reliability and mechanical stability</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Supports consistent load distribution across mating surfaces</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Improves equipment efficiency and operational performance</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Reduces maintenance caused by vibration and misalignment</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Suitable for chemically aggressive and high-temperature environments</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Excellent resistance to deformation and compression under load</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Reliable long-term dimensional stability</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Supports high-precision industrial manufacturing requirements</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Ideal for critical EPC, OEM, and maintenance applications</span></div>
             </div>
         </div>
         <div class="footer">
-            <div class="footer-content">
-                <div class="company-info">
-                    <div class="company-name">Inmarco FZC</div>
-                    <div class="contact-info">
-                        P.O. Box 120284, Sharjah Airport International Free Zone (SAIF-Zone), Sharjah, UAE<br>
-                        Tel: +971 6 5578378 | Fax: +971 6 5578948<br>
-                        Email: sales@inmarco.ae | Web: www.inmarco.ae
-                    </div>
-                    <div class="disclaimer">All technical information, recommendations, and performance data provided in this technical datasheet are based on current knowledge, laboratory testing, and/or industrial experience. Actual product performance may vary depending on operating conditions, equipment design, installation practices, process parameters. Final product selection and suitability should be determined by the user based on the specific service conditions and application requirements.</div>
+            <div class="company-info">
+                <div class="company-name">Inmarco FZC</div>
+                <div class="contact-info">
+                    P.O. Box 120284, Sharjah Airport International Free Zone (SAIF-Zone), Sharjah, UAE<br>
+                    Tel: +971 6 5578378 | Fax: +971 6 5578948<br>
+                    Email: sales@inmarco.ae | Web: www.inmarco.ae
                 </div>
+                <div class="disclaimer">All technical information, recommendations, and performance data provided in this technical datasheet are based on current knowledge, laboratory testing, and/or industrial experience. Actual product performance may vary depending on operating conditions, equipment design, installation practices, process parameters. Final product selection and suitability should be determined by the user based on the specific service conditions and application requirements.</div>
             </div>
         </div>
     </div>

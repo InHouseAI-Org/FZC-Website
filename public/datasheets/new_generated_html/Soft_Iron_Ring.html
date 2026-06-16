@@ -3,167 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> - Technical Datasheet</title>
+    <title>Soft Iron Ring - Technical Datasheet</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        @page {
-            size: A4;
-            margin: 0;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
-            color: #2b2a29;
-            background: white;
-            width: 210mm;
-            min-height: 297mm;
-            align-content: center;
-            margin: 0 auto;
-        }
-
-        /* Page 1 - Hero */
-        .page-1 {
-            width: 100%;
-            height: 290mm;
-            background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%);
-            position: relative;
-            overflow: hidden;
-            page-break-after: always;
-        }
-
-        .header {
-            padding: 20mm 15mm;
-            margin-bottom: 10mm;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .logo-section {
-            color: white;
-        }
-
-        .logo-section img {
-            height: 200px;
-            width: auto;
-        }
-
-        /* Hero section */
-        .hero-section {
-            position: relative;
-            margin-top: 10px;
-            height: 100%;
-            background-image: url('../../power.jpg');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-
-        .hero-overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(to right, rgba(43, 42, 41, 0.95) 0%, rgba(43, 42, 41, 0.7) 50%, transparent 100%);
-        }
-
-        .hero-content {
-            position: relative;
-            z-index: 10;
-            padding: 35mm 15mm 0 15mm;
-            max-width: 150mm;
-        }
-
-        .red-accent {
-            width: 50mm;
-            height: 4px;
-            background: #e31e24;
-            margin-bottom: 10mm;
-        }
-
-        .product-name {
-            font-size: 52pt;
-            font-weight: 700;
-            color: white;
-            margin-bottom: 6mm;
-            letter-spacing: -1.5px;
-            line-height: 1.1;
-        }
-
-        .product-tagline {
-            font-size: 16pt;
-            color: #ffffff;
-            max-width: 140mm;
-            line-height: 1.5;
-            font-weight: 300;
-        }
-
-        /* Page 2 - Technical Details */
-        .page-2 {
-            width: 100%;
-            height: 290mm;
-            background: white;
-            position: relative;
-            page-break-after: always;
-        }
-
-        /* Page 3 - Properties */
-        .page-3 {
-            width: 100%;
-            height: 290mm;
-            background: white;
-            position: relative;
-            page-break-after: always;
-        }
-
-        /* Page 4 - Performance Benefits */
-        .page-4 {
-            width: 100%;
-            height: 290mm;
-            background: white;
-            position: relative;
-        }
-
-        .page-2-header {
-            background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%);
-            padding: 15mm;
-            color: white;
-            margin-bottom: 10mm;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .page-2-title {
-            font-size: 28pt;
-            font-weight: bold;
-        }
-
-        .content-section {
-            padding: 12mm 15mm;
-        }
-
-        .description-with-image {
-            margin-bottom: 10mm;
-        }
-
-        .description-text {
-            text-align: justify;
-        }
-
-        .description {
-            font-size: 10pt;
-            line-height: 1.6;
-            color: #333;
-            margin-bottom: 10mm;
-            text-align: justify;
-        }
-
+        * { margin: 0; padding: 0; box-sizing: border-box; -webkit-print-color-adjust: exact; print-color-adjust: exact; color-adjust: exact; }
+        @page { size: A4 portrait; margin: 0; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; color: #2b2a29; background: white; width: 210mm; min-height: 290mm; margin: 0; padding: 0; }
+        .page-1 { width: 210mm; height: 290mm; background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%); position: relative; overflow: hidden; page-break-after: always; }
+        .header { padding: 20mm 15mm; display: flex; justify-content: center; align-items: center; }
+        .logo-section { color: white; text-align: center; }
+        .logo-section img { height: 200px; width: auto; }
+        .hero-section { position: relative; margin-top: 10px; height: 100%; background-image: url('../../oil and gas.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; }
+        .hero-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to right, rgba(43, 42, 41, 0.95) 0%, rgba(43, 42, 41, 0.7) 50%, transparent 100%); }
+        .hero-content { position: relative; z-index: 10; padding: 35mm 15mm 0 15mm; max-width: 150mm; }
+        .red-accent { width: 50mm; height: 4px; background: #e31e24; margin-bottom: 10mm; }
+        .product-name { font-size: 48pt; font-weight: 700; color: white; margin-bottom: 6mm; letter-spacing: -1.5px; line-height: 1.1; }
+        .product-tagline { font-size: 13pt; color: #ffffff; max-width: 140mm; line-height: 1.5; font-weight: 300; }
+        .page-2, .page-3, .page-4, .page-5, .page-6 { width: 210mm; height: 290mm; background: white; position: relative; page-break-after: always; }
+        .page-6 { page-break-after: auto; }
+        .page-2-header { background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%); padding: 12mm 15mm; color: white; }
+        .page-2-title { font-size: 28pt; font-weight: bold; }
+        .content-section { padding: 10mm 15mm; }
+        .description { font-size: 10pt; line-height: 1.5; color: #333; margin-bottom: 5mm; text-align: justify; }
         .side-product-image {
             float: right;
             margin-left: 6mm;
@@ -175,6 +36,8 @@
             border-radius: 5mm;
             box-shadow: 0 4px 15px rgba(0,0,0,0.3);
             border: 3px solid #e31e24;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
         }
 
         .product-image-small {
@@ -185,614 +48,241 @@
             display: block;
         }
 
-        .section-divider {
-            height: 2px;
-            background: #e31e24;
-            margin: 8mm 0;
-        }
-
-        .features-grid {
-            margin-bottom: 10mm;
-            /* removed gap */
-            margin-bottom: 10mm;
-        }
-
-        .features-column {
-            text-align: justify;
-        }
-
-        .features-column h3 {
-            font-size: 13pt;
-            color: #2b2a29;
-            margin-bottom: 5mm;
-            padding-bottom: 2mm;
-            border-bottom: 2px solid #e31e24;
-            font-weight: 600;
-        }
-
-        .feature-item {
-            margin-bottom: 10mm;
-            margin-bottom: 4mm;
-            font-size: 9pt;
-            line-height: 1.5;
-        }
-
-        .bullet {
-            color: #e31e24;
-            font-weight: bold;
-            margin-right: 3mm;
-            font-size: 12pt;
-        }
-
-        .feature-text {
-            text-align: justify;
-            color: #444;
-        }
-
-        /* Properties Table */
-        .properties-section {
-            background: #f5f5f5;
-            padding: 8mm;
-            border-radius: 3mm;
-            border-left: 4px solid #e31e24;
-            margin-bottom: 8mm;
-        }
-
-        .properties-section h3 {
-            font-size: 14pt;
-            color: #2b2a29;
-            margin-bottom: 5mm;
-        }
-
-        .properties-table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-
-        .properties-table th {
-            background: #2b2a29;
-            color: white;
-            padding: 3mm;
-            text-align: left;
-            font-size: 9pt;
-            font-weight: 600;
-        }
-
-        .properties-table td {
-            padding: 2.5mm 3mm;
-            border-bottom: 1px solid #ddd;
-            font-size: 9pt;
-            color: #333;
-        }
-
-        .properties-table tr:last-child td {
-            border-bottom: none;
-        }
-
-        .properties-table td:first-child {
-            font-weight: 600;
-            color: #2b2a29;
-        }
-
-        /* Benefits Box */
-        .benefits-box {
-            background: linear-gradient(135deg, #e31e24 0%, #c41a20 100%);
-            color: white;
-            padding: 8mm;
-            border-radius: 3mm;
-            margin-bottom: 8mm;
-        }
-
-        .benefits-box h3 {
-            font-size: 14pt;
-            margin-bottom: 4mm;
-        }
-
-        .benefit-item {
-            margin-bottom: 10mm;
-            /* removed align-items */
-            margin-bottom: 3mm;
-            font-size: 9pt;
-            line-height: 1.4;
-        }
-
-        .benefit-item:last-child {
-            margin-bottom: 0;
-        }
-
-        .check-icon {
-            color: white;
-            font-weight: bold;
-            margin-right: 3mm;
-            font-size: 11pt;
-        }
-
-        /* Footer */
-        .footer {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: #2b2a29;
-            color: white;
-            padding: 8mm 15mm;
-        }
-
-        .footer-content {
-            margin-bottom: 10mm;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .company-info {
-            font-size: 7pt;
-            line-height: 1.6;
-        }
-
-        .company-name {
-            font-size: 10pt;
-            font-weight: bold;
-            margin-bottom: 2mm;
-            color: #e31e24;
-        }
-
-        .contact-info {
-            color: #ccc;
-        }
-
-        .disclaimer {
-            font-size: 6pt;
-            color: #888;
-            margin-top: 3mm;
-            max-width: 160mm;
-        }
+        .section-divider { height: 2px; background: #e31e24; margin: 5mm 0; }
+        .features-grid { display: flex; gap: 10mm; }
+        .features-column { flex: 1; }
+        .features-column h3 { font-size: 12pt; color: #2b2a29; margin-bottom: 3mm; padding-bottom: 2mm; border-bottom: 2px solid #e31e24; font-weight: 600; }
+        .feature-item { display: flex; margin-bottom: 3mm; font-size: 10pt; line-height: 1.8; }
+        .bullet { color: #e31e24; font-weight: bold; margin-right: 3mm; font-size: 8pt; margin-top: 0.8mm; }
+        .feature-text { flex: 1; color: #444; }
+        .benefits-box { background: linear-gradient(135deg, #e31e24 0%, #c41a20 100%); color: white; padding: 8mm; border-radius: 3mm; margin-bottom: 8mm; }
+        .benefits-box h3 { font-size: 14pt; margin-bottom: 4mm; }
+        .benefit-item { display: flex; align-items: flex-start; margin-bottom: 3mm; font-size: 9pt; line-height: 1.4; }
+        .benefit-item:last-child { margin-bottom: 0; }
+        .check-icon { color: white; font-weight: bold; margin-right: 3mm; font-size: 11pt; }
+        .tech-specs-section { margin-top: 5mm; }
+        .tech-specs-section h3 { font-size: 12pt; color: #2b2a29; margin-bottom: 3mm; padding-bottom: 2mm; border-bottom: 2px solid #e31e24; font-weight: 600; }
+        .tech-table { width: 100%; border-collapse: collapse; font-size: 9pt; }
+        .tech-table thead { background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%); color: white; }
+        .tech-table th { padding: 3mm; text-align: left; font-weight: 600; border: 1px solid #ddd; }
+        .tech-table td { padding: 2.5mm; border: 1px solid #ddd; color: #444; }
+        .tech-table tbody tr:nth-child(even) { background-color: #f9f9f9; }
+        .footer { position: absolute; bottom: 0; left: 0; right: 0; background: #2b2a29; color: white; padding: 8mm 15mm; }
+        .company-info { font-size: 7pt; line-height: 1.6; }
+        .company-name { font-size: 10pt; font-weight: bold; margin-bottom: 2mm; color: #e31e24; }
+        .contact-info { color: #ccc; }
+        .disclaimer { font-size: 6pt; color: #888; margin-top: 3mm; max-width: 160mm; }
     </style>
 </head>
 <body>
-    <!-- Page 1 - Hero -->
     <div class="page-1">
         <div class="header">
             <div class="logo-section">
-                <img src="../../../src/assets/inmarco-tagline-logo1.png" alt="INMARCO - Innovations in Fluid Sealing">
+                <img src="../../../src/assets/inmarco-tagline-logo1.png" alt="Inmarco">
             </div>
         </div>
-
         <div class="hero-section">
             <div class="hero-overlay"></div>
             <div class="hero-content">
                 <div class="red-accent"></div>
-                <h1 class="product-name">Soft Iron Ring</h1>
-                <p class="product-tagline">Soft Iron Gasket Ring for High-Temperature Applications</p>
+                <h1 class="product-name">SOFT IRON RING</h1>
+                <p class="product-tagline">Precision-Machined Metallic Sealing for High-Pressure Valve Applications</p>
             </div>
-                <div class="features-column">
-                    <h3>SERVICE MEDIA</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">High-pressure steam</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Hydrocarbons</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Oil and gas process fluids</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Feedwater systems</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Petrochemical process media</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Refinery services</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Utility services</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Industrial process fluids</span>
-                    </div>
-                </div>
         </div>
-        </div>
+    </div>
 
-    <!-- Page 2 - Technical Details -->
     <div class="page-2">
         <div class="page-2-header">
             <div>
                 <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
-                <h2 class="page-2-title">Soft Iron Ring</h2>
+                <h2 class="page-2-title">SOFT IRON RING</h2>
             </div>
         </div>
-
         <div class="content-section">
-            <div class="description-with-image">
-                <div class="side-product-image">
-                    <div class="product-image-container">
-                        <img src="../../FZC%20Inmarco%20Product%20Shoot/Soft%20Iron/Soft%20Iron_1.png" alt="Soft Iron Ring" class="product-image-small" onerror="this.style.display='none'">
-                    </div>
-                </div>
-
-                <div class="description-text">
-                    <p class="description" style="margin-bottom: 0;">
-                        INMARCO SOFT IRON RINGgaskets are premium quality rings designed for extreme pressure and temperature applications with excellent conformability. Cost-effective solution specifically engineered for iron flange sealing.Manufactured from low carbon steel (soft iron), these rings provide excellent conformability to flange surfaces while maintaining the strength needed for high-pressure applications. Ideal for use with iron and steel flanges in demanding industrial services.
-                    </p>
-
-                </div>
-            </div>
-            </div>
+            <p class="description">Inmarco Soft Iron Ring is a precision-machined metallic sealing component designed for high-pressure valve systems and critical sealing applications where reliable metal-to-metal sealing performance is required. Manufactured from high-quality soft iron and optionally supplied with silver-plated sealing surfaces, the ring provides excellent surface conformity and dependable sealing under severe operating conditions.</p>
+            <p class="description">The pressure-activated sealing design utilizes internal system pressure to increase sealing efficiency as operating pressure rises. This self-tightening mechanism enables superior leak-tight performance in high-pressure valve bonnets, steam systems, pressure vessels, and other critical industrial applications.</p>
+            <p class="description">Designed for demanding thermal and pressure cycling environments, Soft Iron Rings provide excellent dimensional stability, repeatable sealing performance, and long service life. Standard and custom dimensions are available to suit a wide range of valve and equipment designs.</p>
 
             <div class="section-divider"></div>
 
             <div class="features-grid">
                 <div class="features-column">
                     <h3>Key Features</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Excellent ConformabilitySuperior adaptation to flange surface irregularities</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">High-Pressure CapabilitySealing capability up to 1000 bar for extreme services</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Cost-Effective SolutionEconomical option specifically for iron flanges</span>
-                    </div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Precision machined from high-quality soft iron</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Available with silver-plated sealing surfaces for improved conformity</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Self-energizing sealing design improves sealing performance as pressure increases</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Excellent resistance to thermal cycling and pressure fluctuations</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Tight machining tolerances ensure repeatable sealing performance</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Suitable for metal-to-metal sealing applications</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Standard and custom dimensions available</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Designed for critical high-pressure industrial services</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Cost-effective alternative where conventional soft gaskets are unsuitable</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Reliable performance in safety-critical applications</span></div>
                 </div>
-
                 <div class="features-column">
                     <h3>Performance Advantages</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Good MachinabilityCan be easily machined for custom applications</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">API RatedMeets API 6A standards for oil and gas applications</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Reliable PerformanceProven reliability in demanding industrial services</span>
-                    </div>
-                </div>
-            </div>
-            </div>
-        </div>
-            <div class="benefits-box">
-                <h3>PERFORMANCE ADVANTAGES</h3>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Enhanced sealing capability under elevated internal pressure</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Excellent conformity to valve and flange sealing surfaces</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Reliable leak-tight performance in high-pressure systems</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Superior resistance to thermal shock and pressure differentials</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Long operational service life with reduced maintenance requirements</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Suitable for demanding steam, oil &amp; gas, and process applications</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Maintains sealing integrity during thermal cycling conditions</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Provides dependable performance in safety-critical environments</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Supports improved plant reliability and operational efficiency</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Reduces risk of leakage in high-pressure services</span>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Enhanced sealing capability under elevated internal pressure</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Excellent conformity to valve and flange sealing surfaces</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Reliable leak-tight performance in high-pressure systems</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Superior resistance to thermal shock and pressure differentials</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Long operational service life with reduced maintenance requirements</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Suitable for demanding steam, oil & gas, and process applications</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Maintains sealing integrity during thermal cycling conditions</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Provides dependable performance in safety-critical environments</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Supports improved plant reliability and operational efficiency</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Reduces risk of leakage in high-pressure services</span></div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <!-- Page 3) - Technical Properties and Performance Benefits -->
     <div class="page-3">
         <div class="page-2-header">
             <div>
                 <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
-                <h2 class="page-2-title">Technical Specifications</h2>
+                <h2 class="page-2-title">SOFT IRON RING</h2>
             </div>
         </div>
-
         <div class="content-section">
-            <div class="properties-section">
+            <div class="tech-specs-section">
                 <h3>Technical Properties</h3>
-                <table class="properties-table">
-                    <thead>
-                        <tr>
-                            <th>Property</th>
-                            <th>Value</th>
-                        </tr>
-                    </thead>
+                <table class="tech-table">
+                    <thead><tr><th>Property</th><th>Specification</th></tr></thead>
                     <tbody>
-                        <tr>
-                            <td>Temperature Range</td>
-                            <td>-50°C to +400°C</td>
-                        </tr>
-                        <tr>
-                            <td>Pressure Rating</td>
-                            <td>Up to 1000 bar</td>
-                        </tr>
-                        <tr>
-                            <td>Material</td>
-                            <td>Soft iron (low carbon steel)</td>
-                        </tr>
-                        <tr>
-                            <td>Construction</td>
-                            <td>Solid soft iron ring</td>
-                        </tr>
-                        <tr>
-                            <td>Size Range</td>
-                            <td>1/2" to 24" API rated</td>
-                        </tr>
-                        <tr>
-                            <td>Standards</td>
-                            <td>API 6A</td>
-                        </tr>
-                        <tr>
-                            <td>Hardness</td>
-                            <td>Soft (for excellent conformability)</td>
-                        </tr>
+                        <tr><td>Pressure Rating</td><td>Up to 450 bar (6,500 psi)*</td></tr>
+                        <tr><td>Temperature Range</td><td>-50°C to +600°C*</td></tr>
+                        <tr><td>Material Options</td><td>Soft Iron, Carbon Steel, Low Alloy Steel, SS304, SS316, Inconel®</td></tr>
+                        <tr><td>Plating Options</td><td>Silver, Nickel, Chrome, Zinc Phosphate</td></tr>
+                        <tr><td>Seal Design</td><td>Self-tightening pressure-activated metallic seal</td></tr>
+                        <tr><td>Typical Sizes</td><td>2" to 36" (DN50 to DN900)</td></tr>
+                        <tr><td>Construction</td><td>Precision Machined Metallic Ring</td></tr>
+                        <tr><td>Applicable Standards</td><td>ASME B16.34, API 600, API 602, MSS SP-144</td></tr>
+                    </tbody>
+                </table>
+                <p style="font-size: 8pt; color: #666; margin-top: 2mm; font-style: italic;">*Dependent on material selection, valve design, and operating conditions.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-4">
+        <div class="page-2-header">
+            <div>
+                <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
+                <h2 class="page-2-title">SOFT IRON RING</h2>
+            </div>
+        </div>
+        <div class="content-section">
+            <div class="tech-specs-section">
+                <h3>Engineering Characteristics</h3>
+                <table class="tech-table">
+                    <thead><tr><th>Parameter</th><th>Description</th></tr></thead>
+                    <tbody>
+                        <tr><td>Sealing Principle</td><td>Pressure Activated / Self-Energizing</td></tr>
+                        <tr><td>Surface Conformity</td><td>Excellent</td></tr>
+                        <tr><td>Thermal Cycling Resistance</td><td>Excellent</td></tr>
+                        <tr><td>High Pressure Capability</td><td>Excellent</td></tr>
+                        <tr><td>Mechanical Strength</td><td>High</td></tr>
+                        <tr><td>Leak Tightness</td><td>Excellent</td></tr>
+                        <tr><td>Reusability</td><td>Application Dependent</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="tech-specs-section">
+                <h3>Temperature & Service Limits</h3>
+                <table class="tech-table">
+                    <thead><tr><th>Service Condition</th><th>Operating Range</th></tr></thead>
+                    <tbody>
+                        <tr><td>Temperature</td><td>-50°C to +600°C</td></tr>
+                        <tr><td>Pressure</td><td>Up to 450 bar</td></tr>
+                        <tr><td>Service Type</td><td>High Pressure Valve Applications</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="tech-specs-section">
+                <h3>Standard Availability</h3>
+                <table class="tech-table">
+                    <thead><tr><th>Description</th><th>Availability</th></tr></thead>
+                    <tbody>
+                        <tr><td>Standard Sizes</td><td>2" to 36"</td></tr>
+                        <tr><td>Custom Sizes</td><td>Available on Request</td></tr>
+                        <tr><td>Material Grades</td><td>Multiple Options Available</td></tr>
+                        <tr><td>Surface Finish Options</td><td>Silver, Nickel, Chrome, Zinc Phosphate</td></tr>
                     </tbody>
                 </table>
             </div>
         </div>
     </div>
 
-    <!-- Page 4 - Performance Benefits -->
-    <div class="page-4">
+    <div class="page-5">
         <div class="page-2-header">
             <div>
                 <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
-                <h2 class="page-2-title">Performance Benefits</h2>
+                <h2 class="page-2-title">SOFT IRON RING</h2>
             </div>
         </div>
-
         <div class="content-section">
-            <div class="features-column" style="margin-bottom: 10mm;">
-<div class="features-column">
-                    <h3>ENGINEERING CHARACTERISTICS</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Parameter | Description</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Sealing Principle | Pressure Activated / Self-Energizing</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Surface Conformity | Excellent</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Thermal Cycling Resistance | Excellent</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">High Pressure Capability | Excellent</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Mechanical Strength | High</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Leak Tightness | Excellent</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Reusability | Application Dependent</span>
-                    </div>
+            <div class="features-grid">
+                <div class="features-column">
+                    <h3>Typical Applications</h3>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Pressure seal gate valves</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Pressure seal globe valves</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">High-pressure steam systems</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Power generation facilities</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Main steam and feedwater systems</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Nuclear power plant valves</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Refineries and petrochemical plants</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Oil & gas production facilities</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">High-pressure pipelines</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Pressure vessels and process equipment</span></div>
                 </div>
-            </div>
-
-            <div class="features-column" style="margin-bottom: 10mm;">
-<div class="features-column">
-                    <h3>TEMPERATURE & SERVICE LIMITS</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Service Condition | Operating Range</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Temperature | -50°C to +600°C</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Pressure | Up to 450 bar</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Service Type | High Pressure Valve Applications</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="features-column" style="margin-bottom: 10mm;">
-<div class="features-column">
-                    <h3>STANDARD AVAILABILITY</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Description | Availability</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Standard Sizes | 2" to 36"</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Custom Sizes | Available on Request</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Material Grades | Multiple Options Available</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Surface Finish Options | Silver, Nickel, Chrome, Zinc Phosphate</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="features-column" style="margin-bottom: 10mm;">
-<div class="features-column">
-                    <h3>TYPICAL APPLICATIONS</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Pressure seal gate valves</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Pressure seal globe valves</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">High-pressure steam systems</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Power generation facilities</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Main steam and feedwater systems</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Nuclear power plant valves</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Refineries and petrochemical plants</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Oil &amp; gas production facilities</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">High-pressure pipelines</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Pressure vessels and process equipment</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="features-column" style="margin-bottom: 10mm;">
-<div class="features-column">
-                    <h3>PERFORMANCE BENEFITS</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Provides reliable metal-to-metal sealing performance</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Self-tightening design enhances sealing under pressure</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Excellent resistance to thermal and mechanical stresses</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Reduces maintenance frequency and operational downtime</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Suitable for critical high-pressure applications</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Supports safe and reliable plant operation</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Long service life under demanding operating conditions</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Cost-effective solution for severe service environments</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Excellent sealing reliability in pressure seal valve designs</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Trusted solution for power, oil &amp; gas, and process industries</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="benefits-box">
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Unique construction with high structural carbon filament reinforcement increases strength and enhanced seal-ability</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Impregnated with proprietary high-therm graphite-based dispersion for superior performance</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Inorganic passive corrosion inhibitor protects equipment from galvanic corrosion</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Adapts easily to surface irregularities and conforms to stuffing box dimensions</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Excellent dry run capabilities with smooth performance in demanding applications</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Chemically inert, does not leach chemicals during operation maintaining safety standards</span>
+                <div class="features-column">
+                    <h3>Service Media</h3>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">High-pressure steam</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Hydrocarbons</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Oil and gas process fluids</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Feedwater systems</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Petrochemical process media</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Refinery services</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Utility services</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Industrial process fluids</span></div>
                 </div>
             </div>
         </div>
+    </div>
 
+    <div class="page-6">
+        <div class="page-2-header">
+            <div>
+                <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
+                <h2 class="page-2-title">SOFT IRON RING</h2>
+            </div>
+        </div>
+        <div class="content-section">
+            <div class="benefits-box">
+                <h3>Performance Benefits</h3>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Provides reliable metal-to-metal sealing performance</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Self-tightening design enhances sealing under pressure</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Excellent resistance to thermal and mechanical stresses</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Reduces maintenance frequency and operational downtime</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Suitable for critical high-pressure applications</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Supports safe and reliable plant operation</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Long service life under demanding operating conditions</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Cost-effective solution for severe service environments</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Excellent sealing reliability in pressure seal valve designs</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Trusted solution for power, oil & gas, and process industries</span></div>
+            </div>
+        </div>
         <div class="footer">
-            <div class="footer-content">
-                <div class="company-info">
-                    <div class="company-name">INMARCO FZC</div>
-                    <div class="contact-info">
-                        P.O. Box 120284, Sharjah Airport International Free Zone (SAIF-Zone), Sharjah, UAE<br>
-                        Tel: +971 6 5578378 | Fax: +971 6 5578948<br>
-                        Email: sales@inmarco.ae | Web: www.inmarco.ae
-                    </div>
-                    <div class="disclaimer">
-                        All information and recommendations given in this technical data sheet are correct to the best of our knowledge. However, because of the wide variety of application and operating conditions, we cannot derive the final conclusion. This above information can only serve as a guideline.
-                    </div>
+            <div class="company-info">
+                <div class="company-name">Inmarco FZC</div>
+                <div class="contact-info">
+                    P.O. Box 120284, Sharjah Airport International Free Zone (SAIF-Zone), Sharjah, UAE<br>
+                    Tel: +971 6 5578378 | Fax: +971 6 5578948<br>
+                    Email: sales@inmarco.ae | Web: www.inmarco.ae
                 </div>
+                <div class="disclaimer">All technical information, recommendations, and performance data provided in this technical datasheet are based on current knowledge, laboratory testing, and/or industrial experience. Actual product performance may vary depending on operating conditions, equipment design, installation practices, process parameters. Final product selection and suitability should be determined by the user based on the specific service conditions and application requirements.</div>
             </div>
         </div>
     </div>

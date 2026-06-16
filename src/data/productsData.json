@@ -274,8 +274,17 @@
         },
         "common": {
           "Temperature Range": "-200°C to +300°C",
-          "pH Range": "0-14",
-          "Size Range": "3 sq.mm to 35 sq.mm"
+          "pH Range": "0 – 14",
+          "Size Range": "3 mm² to 35 mm²",
+          "Construction": "Duplex braided packing",
+          "Material Composition": "Expanded PTFE + Graphite + MoS₂",
+          "Pressure – Rotating": "Up to 100 bar",
+          "Pressure – Reciprocating": "Up to 200 bar",
+          "Pressure – Static": "Up to 300 bar",
+          "Shaft Speed – Rotating": "Up to 25 m/s",
+          "Shaft Speed – Reciprocating": "Up to 10 m/s",
+          "Chemical Compatibility": "Suitable for most industrial chemicals except strong oxidizers, molten alkali metals, and fluorine compounds",
+          "Standards Compliance": "Tested as per EN16752 – Tightness Class T1"
         }
       },
       "technicalData": {
@@ -313,7 +322,7 @@
         "/FZC Inmarco Product Shoot/PE 505/PE 505_2.png",
         "/FZC Inmarco Product Shoot/PE 505/PE 505_3.png"
       ],
-      "datasheet": "/datasheets/generated_html/PE_505.html"
+      "datasheet": "/datasheets/new_generated_html/Style_PE_505.html"
     },
     {
       "id": 2,
@@ -326,14 +335,11 @@
       "description": "PE 504 offers dependable PTFE sealing for general-purpose industrial applications. Features excellent chemical resistance and operates effectively across a wide temperature range, making it an ideal choice for standard pump and valve applications.",
       "image": "/FZC Inmarco Product Shoot/PE 504/PE 504 - 48(23)_04.JPG",
       "specifications": {
-        "Temperature Range": "-200°C to +260°C",
-        "Pressure Rating": "Up to 150 bar",
-        "pH Range": "0-14",
-        "Speed Limit": "18 m/s",
-        "Density": "1.7-1.9 g/cm³",
-        "temperature": "-200 to +300°C",
-        "pressure": "200",
-        "pH": "0-14"
+        "pH Range": "0 – 14",
+        "Temperature (°C)": "-200 to +300",
+        "Pressure (Bar)": "100",
+        "Velocity (m/s)": "25",
+        "Size": "3 sq mm to 35 sq mm"
       },
       "technicalData": {
         "Construction": "PTFE filament yarn with lubricant impregnation",
@@ -364,7 +370,7 @@
         "/FZC Inmarco Product Shoot/PE 504/PE 504_2.png",
         "/FZC Inmarco Product Shoot/PE 504/PE 504_3.png"
       ],
-      "datasheet": "/datasheets/generated_html/PE_504.html"
+      "datasheet": "/datasheets/new_generated_html/PE_504.html"
     },
     {
       "id": 3,
@@ -393,9 +399,12 @@
         },
         "common": {
           "Temperature Range": "-200°C to +300°C",
-          "pH Range": "0-14",
+          "pH Range": "0 – 14",
           "Size Range": "3 sq.mm to 35 sq.mm",
-          "Density": "1.6-1.8 g/cm³"
+          "Density": "1.6-1.8 g/cm³",
+          "Maximum Pressure": "100 bar",
+          "Velocity": "25 m/s",
+          "Available Sizes": "3 mm² to 35 mm²"
         }
       },
       "technicalData": {
@@ -427,7 +436,7 @@
         "/FZC Inmarco Product Shoot/HY 504/HY 504_1_2.png",
         "/FZC Inmarco Product Shoot/HY 504/HY 504_3_2.png"
       ],
-      "datasheet": "/datasheets/generated_html/HY_504.html"
+      "datasheet": "/datasheets/new_generated_html/HY_504.html"
     },
     {
       "id": 4,
@@ -440,14 +449,12 @@
       "description": "PE 508 is a premium PTFE compression packing engineered for critical service applications requiring superior sealing performance. Ideal for high-purity processes where contamination must be eliminated.",
       "image": "/FZC Inmarco Product Shoot/PE 508/PE 508_1.png",
       "specifications": {
-        "Temperature Range": "-200°C to +260°C",
-        "Pressure Rating": "Up to 220 bar",
-        "pH Range": "0-14",
-        "Speed Limit": "20 m/s",
-        "Density": "1.9-2.1 g/cm³",
-        "temperature": "-240 to +290",
-        "pressure": "350",
-        "pH": "0-14"
+        "pH Range": "0 – 14",
+        "Temperature Range": "-240°C to +280°C",
+        "Maximum Pressure": "350 Bar",
+        "Available Sizes": "3 sq mm to 35 sq mm",
+        "Construction": "Diagonally Braided Pure PTFE Filament Yarn",
+        "Lubrication": "Proprietary Break-In Lubricant"
       },
       "technicalData": {
         "Construction": "Pure PTFE yarn with special lubricant package",
@@ -478,7 +485,7 @@
         "/FZC Inmarco Product Shoot/PE 508/PE 508_3.png",
         "/FZC Inmarco Product Shoot/PE 508/PE 508_4.png"
       ],
-      "datasheet": "/datasheets/generated_html/PE_508.html"
+      "datasheet": "/datasheets/new_generated_html/Style_PE_508.html"
     },
     {
       "id": 5,
@@ -491,14 +498,16 @@
       "description": "PE 509 delivers superior sealing performance in extreme service conditions utilizing advanced PTFE technology with integrated self-lubrication. Engineered for applications where contamination control is paramount.",
       "image": "/FZC Inmarco Product Shoot/PE 509/PE 509_1.png",
       "specifications": {
-        "Temperature Range": "-200°C to +260°C",
-        "Pressure Rating": "Up to 250 bar",
-        "pH Range": "0-14",
-        "Speed Limit": "25 m/s",
-        "Density": "2.0-2.2 g/cm³",
-        "temperature": "-240 to +260",
-        "pressure": "300",
-        "pH": "0-14"
+        "Construction": "Braided PTFE packing",
+        "Material Composition": "100% Pure PTFE",
+        "pH Range": "0 – 14",
+        "Temperature Range": "-240°C to +260°C",
+        "Maximum Pressure": "Up to 300 bar",
+        "Size Range": "6.5 mm² to 50 mm²",
+        "Chemical Compatibility": "Suitable for most industrial chemicals and process media",
+        "Friction Characteristics": "Low friction design for reduced wear",
+        "Operational Characteristics": "Non-toxic, non-flammable, chemically inert",
+        "Application Type": "Static and dynamic sealing applications"
       },
       "technicalData": {
         "Construction": "Premium PTFE filament with advanced lubricant system",
@@ -529,7 +538,7 @@
         "/FZC Inmarco Product Shoot/PE 509/PE 509_2.png",
         "/FZC Inmarco Product Shoot/PE 509/PE 509_3.png"
       ],
-      "datasheet": "/datasheets/generated_html/PE_509.html"
+      "datasheet": "/datasheets/new_generated_html/Style_PE_509.html"
     },
     {
       "id": 6,
@@ -559,7 +568,12 @@
         "common": {
           "Temperature Range": "-200°C to +300°C",
           "pH Range": "0-14",
-          "Size Range": "3 sq.mm to 35 sq.mm"
+          "Size Range": "3 sq.mm to 35 sq.mm",
+          "pH": "0-14",
+          "Temperature (°C)": "-200 to +300°C",
+          "Pressure (BAR)": "100",
+          "Velocity (m/s)": "25",
+          "Size": "3sq mm TO 35sq mm"
         }
       },
       "technicalData": {
@@ -598,7 +612,7 @@
         "/FZC Inmarco Product Shoot/HY 105/HY 105_1_2.png",
         "/FZC Inmarco Product Shoot/HY 105/HY 105_3.png"
       ],
-      "datasheet": "/datasheets/generated_html/HY_105.html",
+      "datasheet": "/datasheets/new_generated_html/HY_105.html",
       "economicalVariant": "HY 105E"
     },
     {
@@ -612,14 +626,10 @@
       "description": "HY 105T offers improved thermal performance through advanced hybrid construction, specifically engineered for demanding high-temperature applications where standard packings may fail.",
       "image": "/FZC Inmarco Product Shoot/HY 105T/HY 105T_1.png",
       "specifications": {
-        "Temperature Range": "-100°C to +300°C",
-        "Pressure Rating": "Up to 220 bar",
-        "pH Range": "2-12",
-        "Speed Limit": "20 m/s",
-        "Density": "1.8-2.0 g/cm³",
-        "temperature": "-200 to +280",
-        "pressure": "500",
-        "pH": "0-14"
+        "pH Range": "0 – 14",
+        "Temperature Range": "-200°C to +280°C",
+        "Maximum Pressure": "500 bar",
+        "Available Sizes": "5 sq mm to 35 sq mm"
       },
       "technicalData": {
         "Construction": "High-temperature hybrid blend with enhanced lubricants",
@@ -650,7 +660,7 @@
         "/FZC Inmarco Product Shoot/HY 105T/HY 105T_3.png",
         "/FZC Inmarco Product Shoot/HY 105T/HY 105T_4.png"
       ],
-      "datasheet": "/datasheets/generated_html/HY_105T.html"
+      "datasheet": "/datasheets/new_generated_html/HY_105T.html"
     },
     {
       "id": 8,
@@ -679,9 +689,12 @@
         },
         "common": {
           "Temperature Range": "-240°C to +260°C",
-          "pH Range": "1-13",
-          "Size Range": "6 sq.mm to 28 sq.mm",
-          "Density": "1.8-2.0 g/cm³"
+          "pH Range": "1 – 13",
+          "Size Range": "6 mm² to 28 mm²",
+          "Density": "1.8-2.0 g/cm³",
+          "Temperature (°C)": "-240 to +260",
+          "Pressure (Bar)": "25",
+          "Velocity (m/s)": "20"
         }
       },
       "technicalData": {
@@ -714,7 +727,7 @@
         "/FZC Inmarco Product Shoot/HY 107/HY 107_2_2.png",
         "/FZC Inmarco Product Shoot/HY 107/HY 107_3.png"
       ],
-      "datasheet": "/datasheets/generated_html/HY_107.html",
+      "datasheet": "/datasheets/new_generated_html/HY_107.html",
       "economicalVariant": "HY 107E"
     },
     {
@@ -744,9 +757,12 @@
         },
         "common": {
           "Temperature Range": "-200°C to 280°C",
-          "pH Range": "3-14",
-          "Size Range": "5 sq.mm to 50 sq.mm",
-          "Density": "1.5-1.7 g/cm³"
+          "pH Range": "3 – 14",
+          "Size Range": "5 mm² to 50 mm²",
+          "Density": "1.5-1.7 g/cm³",
+          "Temperature": "-200°C to +280°C",
+          "Pressure (BAR)": "150",
+          "Velocity (m/s)": "25"
         }
       },
       "technicalData": {
@@ -778,7 +794,7 @@
         "/FZC Inmarco Product Shoot/HY 175/HY 175_Edited_1_2.png",
         "/FZC Inmarco Product Shoot/HY 175/HY 175_Edited_3_2.png"
       ],
-      "datasheet": "/datasheets/generated_html/HY_175.html"
+      "datasheet": "/datasheets/new_generated_html/HY_175.html"
     },
     {
       "id": 12,
@@ -791,14 +807,10 @@
       "description": "PA 106 offers high-strength polyimide fiber packing for demanding applications requiring exceptional mechanical properties. Engineered to withstand aggressive environments and highly abrasive media.",
       "image": "/FZC Inmarco Product Shoot/PA 106/PA 106-11_15.JPG",
       "specifications": {
-        "Temperature Range": "-100°C to +320°C",
-        "Pressure Rating": "Up to 300 bar",
-        "pH Range": "1-13",
-        "Speed Limit": "25 m/s",
-        "Density": "1.4-1.6 g/cm³",
-        "temperature": "-200 to +300",
-        "pressure": "500",
-        "pH": "0-14"
+        "pH Range": "0-14",
+        "Temperature (°C)": "-200 to +300",
+        "Pressure (BAR)": "500",
+        "Size Range": "6sq mm to 50sq mm"
       },
       "technicalData": {
         "Construction": "High-performance polyimide fiber with PTFE coating",
@@ -830,7 +842,7 @@
         "/FZC Inmarco Product Shoot/PA 106/PA 106_2.png",
         "/FZC Inmarco Product Shoot/PA 106/PA 106_3.png"
       ],
-      "datasheet": "/datasheets/generated_html/PA_106.html",
+      "datasheet": "/datasheets/new_generated_html/PA_106.html",
       "economicalVariant": "PA 106E",
       "elastomericCoreVariant": "PA 106EC"
     },
@@ -845,14 +857,10 @@
       "description": "OR 125 is a general-purpose organic fiber packing specifically engineered for clean water applications. Non-toxic and non-contaminating, making it ideal for potable water and food processing industries.",
       "image": "/FZC Inmarco Product Shoot/HY 120 AR/HY 120 AR_Edited_1.png",
       "specifications": {
-        "Temperature Range": "-40°C to +150°C",
-        "Pressure Rating": "Up to 100 bar",
-        "pH Range": "4-10",
-        "Speed Limit": "12 m/s",
-        "Density": "1.3-1.5 g/cm³",
-        "temperature": "Ambient to +260",
-        "pressure": "150",
-        "pH": "4-10"
+        "pH Range": "4 – 10",
+        "Temperature (°C)": "Ambient to +260",
+        "Pressure (Bar)": "150",
+        "Size": "3 sq mm to 35 sq mm"
       },
       "technicalData": {
         "Construction": "FDA compliant organic fiber with food-grade lubricant",
@@ -883,7 +891,7 @@
         "/FZC Inmarco Product Shoot/OR 125 SR/OR 125 SR_2.png",
         "/FZC Inmarco Product Shoot/OR 125 SR/OR 125 SR_3.png"
       ],
-      "datasheet": "/datasheets/generated_html/OR_125.html",
+      "datasheet": "/datasheets/new_generated_html/OR_125.html",
       "elastomericCoreVariant": "OR 125EC"
     },
     {
@@ -897,14 +905,11 @@
       "description": "CG 101 is a premium carbon fiber packing engineered for high-temperature service with exceptional thermal stability. Provides reliable sealing in the most demanding thermal environments.",
       "image": "/FZC Inmarco Product Shoot/CG 101/CG 101 - 56(25)_03.JPG",
       "specifications": {
+        "pH Range": "0 – 14",
         "Temperature Range": "-200°C to +650°C",
-        "Pressure Rating": "Up to 250 bar",
-        "pH Range": "0-14",
-        "Velocity": "Up to 25 m/s",
-        "Size Range": "3sq.mm to 50sq.mm",
-        "temperature": "-200 to +650",
-        "pressure": "250",
-        "pH": "0-14"
+        "Maximum Pressure": "35 Bar",
+        "Maximum Velocity": "25 m/s",
+        "Available Sizes": "3 sq mm to 50 sq mm"
       },
       "technicalData": {
         "Material": "Carbon filament yarn with graphite-based in-therm dispersion",
@@ -943,7 +948,7 @@
         "/FZC Inmarco Product Shoot/CG 101/CG 101_2.png",
         "/FZC Inmarco Product Shoot/CG 101/CG 101_3.png"
       ],
-      "datasheet": "/datasheets/generated_html/CG_101.html",
+      "datasheet": "/datasheets/new_generated_html/CG_101.html",
       "economicalVariant": "CG 101E"
     },
     {
@@ -957,14 +962,10 @@
       "description": "PE 102 delivers exceptional mechanical strength and chemical resistance for the most demanding industrial applications. Engineered to withstand severe operating conditions and aggressive media.",
       "image": "/FZC Inmarco Product Shoot/PE 102/PE 102 - 54 (22).JPG",
       "specifications": {
-        "Temperature Range": "-100°C to +320°C",
-        "Pressure Rating": "Up to 280 bar",
-        "pH Range": "0-14",
-        "Speed Limit": "23 m/s",
-        "Density": "1.4-1.6 g/cm³",
-        "temperature": "-240 to +300",
-        "pressure": "300",
-        "pH": "0-14"
+        "pH Range": "0 – 14",
+        "Temperature (°C)": "-240 to +300",
+        "Pressure (Bar)": "300",
+        "Size": "3 sq mm to 35 sq mm"
       },
       "technicalData": {
         "Construction": "Polyimide fiber with graphite and PTFE dispersion",
@@ -996,7 +997,7 @@
         "/FZC Inmarco Product Shoot/PE 102/PE 102_2.JPG",
         "/FZC Inmarco Product Shoot/PE 102/PE 102_3.png"
       ],
-      "datasheet": "/datasheets/generated_html/PE_102.html"
+      "datasheet": "/datasheets/new_generated_html/STYLE_PE_102.html"
     },
     {
       "id": 18,
@@ -1025,9 +1026,13 @@
         },
         "common": {
           "Temperature Range": "-200°C to +650°C (2700°C in non oxidizing media)",
-          "pH Range": "0-14",
+          "pH Range": "0 – 14",
           "Size Range": "3 sq.mm to 50 sq.mm",
-          "Density": "1.1-1.3 g/cm³"
+          "Density": "1.1-1.3 g/cm³",
+          "Temperature (°C)": "-200 to +650°C (3000°C in Non-Oxidizing Media)",
+          "Pressure (Bar)": "100",
+          "Velocity (m/s)": "20",
+          "Size": "3 sq mm to 50 sq mm"
         }
       },
       "technicalData": {
@@ -1054,7 +1059,7 @@
         "/FZC Inmarco Product Shoot/CG 100/CG 100-26_02_2.png",
         "/FZC Inmarco Product Shoot/CG 100/CG 100-26_20_2.png"
       ],
-      "datasheet": "/datasheets/generated_html/CG_100.html",
+      "datasheet": "/datasheets/new_generated_html/CG_100.html",
       "images": [
         "/FZC Inmarco Product Shoot/CG 100/CG 100 - 52(26)_19_2.png",
         "/FZC Inmarco Product Shoot/CG 100/CG 100-26_02_2.png",
@@ -1072,14 +1077,12 @@
       "description": "CG 102 offers superior thermal conductivity and sealing performance in valve applications for critical services. Features Inconel reinforcement for enhanced mechanical strength and reliability.",
       "image": "/FZC Inmarco Product Shoot/CG 102/CG 102 - 31_05.JPG",
       "specifications": {
-        "Temperature Range": "-200°C to +650°C",
-        "Pressure Rating": "Up to 350 bar",
-        "pH Range": "0-14",
-        "Speed Limit": "22 m/s",
-        "Density": "1.2-1.4 g/cm³",
-        "temperature": "-240 to +260",
-        "pressure": "300",
-        "pH": "0-14"
+        "pH Range": "0 – 14",
+        "Temperature Range": "-240°C to +538°C",
+        "Pressure Rating": "300 bar",
+        "Available Sizes": "6.5 sq mm to 50 sq mm",
+        "Construction": "Expanded Graphite Yarn with Inconel Wire Reinforcement",
+        "Carbon Content": "Minimum 98%"
       },
       "technicalData": {
         "Construction": "Premium flexible graphite with inconel wire reinforcement",
@@ -1110,7 +1113,7 @@
         "/FZC Inmarco Product Shoot/CG 102/CG 102_1.png",
         "/FZC Inmarco Product Shoot/CG 102/CG 102_3.png"
       ],
-      "datasheet": "/datasheets/generated_html/CG_102.html"
+      "datasheet": "/datasheets/new_generated_html/CG_102.html"
     },
     {
       "id": 20,
@@ -1123,11 +1126,14 @@
       "description": "IN 123 provides reliable ceramic fiber thermal insulation for high-temperature applications. Features e-glass fiber reinforcement for enhanced mechanical properties and thermal protection up to 1260°C.",
       "image": "/FZC Inmarco Product Shoot/IN 123/IN 123 - 45 _29.JPG",
       "specifications": {
-        "Temperature Range": "Up to 1260°C",
-        "pH Range": "2-12",
-        "Size Range": "3sq.mm to 50sq.mm",
-        "temperature": "1260",
-        "pH": "2-12"
+        "pH Range": "2 - 12",
+        "Maximum Temperature": "1260°C",
+        "Available Sizes": "3 sq mm to 50 sq mm",
+        "Material Composition": "Alumina and Silica-based Refractory Oxides",
+        "Application Type": "Static Sealing",
+        "Electrical Conductivity": "Non-Conductive",
+        "Combustibility": "Non-Combustible",
+        "Toxicity": "Non-Toxic"
       },
       "technicalData": {
         "Material": "Ceramic fibre made from alumina and silica-based refractory oxides",
@@ -1164,7 +1170,7 @@
         "/FZC Inmarco Product Shoot/IN 123/IN 123_1_2.png",
         "/FZC Inmarco Product Shoot/IN 123/IN 123_2_2.png"
       ],
-      "datasheet": "/datasheets/generated_html/IN_123.html"
+      "datasheet": "/datasheets/new_generated_html/IN_123.html"
     },
     {
       "id": 21,
@@ -1177,12 +1183,16 @@
       "description": "IN 123I provides reliable ceramic fiber thermal insulation with Inconel wire reinforcement for enhanced mechanical strength. Engineered for high-temperature applications requiring superior durability and mechanical properties.",
       "image": "/FZC Inmarco Product Shoot/IN 123/IN 123 - 45 _29.JPG",
       "specifications": {
-        "Temperature Range": "Up to 1260°C",
-        "pH Range": "2-12",
-        "Size Range": "3sq.mm to 50sq.mm",
-        "temperature": "-240 to +260",
-        "pressure": "300",
-        "pH": "0-14"
+        "pH Range": "0 - 14 (Universal)",
+        "Temperature Range": "-240°C to +260°C",
+        "Maximum Pressure": "300 bar",
+        "Available Sizes": "6.5 sq mm to 50 sq mm",
+        "Material Composition": "Alumina and Silica-based Refractory Oxides",
+        "Reinforcement": "Inconel Wire",
+        "Application Type": "Static Sealing",
+        "Electrical Conductivity": "Non-Conductive",
+        "Combustibility": "Non-Combustible",
+        "Toxicity": "Non-Toxic"
       },
       "technicalData": {
         "Material": "Ceramic fibre made from alumina and silica-based refractory oxides with inconel wire reinforcement",
@@ -1217,7 +1227,7 @@
         "/FZC Inmarco Product Shoot/IN 123/IN 123_1_2.png",
         "/FZC Inmarco Product Shoot/IN 123/IN 123_2_2.png"
       ],
-      "datasheet": "/datasheets/generated_html/IN_123I.html"
+      "datasheet": "/datasheets/new_generated_html/IN_123I.html"
     },
     {
       "id": 22,
@@ -1230,14 +1240,11 @@
       "description": "OR 120 is a vegetable fiber packing that provides reliable sealing for general industrial applications. An economical solution for low-pressure water services and standard operating conditions.",
       "image": "/FZC Inmarco Product Shoot/OR 120/OR 120.png",
       "specifications": {
-        "Temperature Range": "-20°C to +120°C",
-        "Pressure Rating": "Up to 80 bar",
-        "pH Range": "5-9",
-        "Speed Limit": "10 m/s",
-        "Density": "1.2-1.4 g/cm³",
-        "temperature": "Ambient to 80",
-        "pressure": "65",
-        "pH": "4-10"
+        "pH Range": "6 – 11",
+        "Temperature (°C)": "-40 to +150",
+        "Pressure (Bar)": "50",
+        "Velocity (m/s)": "10",
+        "Size Range": "3 sq mm to 35 sq mm"
       },
       "technicalData": {
         "Construction": "Organic fiber blend with mineral oil lubricant",
@@ -1268,7 +1275,7 @@
         "/FZC Inmarco Product Shoot/OR 120/OR 120_1.png",
         "/FZC Inmarco Product Shoot/OR 120/OR-120_3.JPG"
       ],
-      "datasheet": "/datasheets/generated_html/OR_120.html"
+      "datasheet": "/datasheets/new_generated_html/OR_120.html"
     },
     {
       "id": 23,
@@ -1296,9 +1303,9 @@
           }
         },
         "common": {
-          "Temperature Range": "-40°C to 150°C",
-          "pH Range": "4-10",
-          "Size Range": "3 sq.mm to 35 sq.mm",
+          "Temperature Range": "-40°C to +150°C",
+          "pH Range": "6 – 11",
+          "Size Range": "3 mm² to 35 mm²",
           "Density": "1.6-1.8 g/cm³"
         }
       },
@@ -1331,7 +1338,7 @@
         "/FZC Inmarco Product Shoot/HY 120 AR/HY 120AR_3.png",
         "/FZC Inmarco Product Shoot/HY 120 AR/HY 12O AR_4_2.png"
       ],
-      "datasheet": "/datasheets/generated_html/HY_120AR.html"
+      "datasheet": "/datasheets/new_generated_html/HY_120_AR.html"
     },
     {
       "id": 24,
@@ -1344,9 +1351,11 @@
       "description": "IN 140 offers high-temperature glass fiber insulation designed for thermal resistance applications. Provides exceptional fire retardancy and thermal protection up to 550°C for industrial equipment.",
       "image": "/FZC Inmarco Product Shoot/IN 140/IN 140_5.png",
       "specifications": {
-        "Temperature Range": "-50°C to +1200°C",
-        "Density": "0.1-0.3 g/cm³",
-        "Thermal Conductivity": "0.03-0.05 W/mK"
+        "Max. Working Temperature": "°C",
+        "Loss on Ignition (@ 850°C)": "%",
+        "Thermal Conductivity (@ 550°C)": "W/m-°K",
+        "Thickness": "mm",
+        "Standard Length": "Mtr."
       },
       "technicalData": {
         "Construction": "Alumina-silica ceramic fiber blanket",
@@ -1377,7 +1386,7 @@
         "/FZC Inmarco Product Shoot/IN 140/IN 140_6_2.png",
         "/FZC Inmarco Product Shoot/IN 140/IN140-4_06_2.png"
       ],
-      "datasheet": "/datasheets/generated_html/IN_140.html"
+      "datasheet": "/datasheets/new_generated_html/IN_140.html"
     },
     {
       "id": 25,
@@ -1390,11 +1399,14 @@
       "description": "CG 900 delivers exceptional performance in extreme operating conditions utilizing advanced flexible graphite technology. Engineered for high-temperature, high-pressure applications requiring the ultimate in sealing reliability.",
       "image": "/FZC Inmarco Product Shoot/CG 900/CG 900 - 32_16.JPG",
       "specifications": {
+        "pH Range": "0 – 14",
         "Temperature Range": "-200°C to +650°C",
-        "Pressure Rating": "500 bar",
-        "pH Range": "0-14",
-        "Size Range": "3 sq.mm to 50 sq.mm",
-        "Density": "1.3-1.5 g/cm³"
+        "Maximum Pressure": "500 bar",
+        "Available Sizes": "3 sq mm to 50 sq mm",
+        "Reinforcement": "Multiple Inconel Wires",
+        "Lubrication": "Proprietary THERMOLUBE Dispersion",
+        "Corrosion Protection": "Inorganic Passive Corrosion Inhibitor",
+        "Certification": "SHELL MESC SPEC 77/312"
       },
       "technicalData": {
         "Construction": "Ultra-pure flexible graphite with specialty alloy reinforcement",
@@ -1426,7 +1438,7 @@
         "/FZC Inmarco Product Shoot/CG 900/CG 900 - 57(32)_05_2.png",
         "/FZC Inmarco Product Shoot/CG 900/CG 900 - 57(32)_10_2.png"
       ],
-      "datasheet": "/datasheets/generated_html/CG_900.html"
+      "datasheet": "/datasheets/new_generated_html/Style_CG_900.html"
     },
     {
       "id": 26,
@@ -1439,14 +1451,11 @@
       "description": "HY 501 is optimized for centrifugal and rotary pump sealing with superior performance characteristics. Features highly engineered carbon graphite construction for demanding pump applications.",
       "image": "/FZC Inmarco Product Shoot/HY 501/HY 501 - 27_07.JPG",
       "specifications": {
-        "Temperature Range": "-100°C to +280°C",
-        "Pressure Rating": "Up to 200 bar",
-        "pH Range": "2-12",
-        "Speed Limit": "20 m/s",
-        "Density": "1.7-1.9 g/cm³",
-        "temperature": "-200 to +650 (2750°C in Non Oxidizing media)",
-        "pressure": "150",
-        "pH": "0-14"
+        "pH Range": "0 – 14",
+        "Temperature Range": "-200°C to +650°C*",
+        "Maximum Pressure": "150 bar",
+        "Velocity": "25 m/s",
+        "Available Sizes": "6 mm² to 50 mm²"
       },
       "technicalData": {
         "Construction": "Aramid and PTFE hybrid with graphite dispersion",
@@ -1477,7 +1486,7 @@
         "/FZC Inmarco Product Shoot/HY 501/HY 501 - 27_07_2.png",
         "/FZC Inmarco Product Shoot/HY 501/HY 501 - 27_20_2.png"
       ],
-      "datasheet": "/datasheets/generated_html/HY_501.html"
+      "datasheet": "/datasheets/new_generated_html/HY_501.html"
     },
     {
       "id": 27,
@@ -1506,9 +1515,14 @@
         },
         "common": {
           "Temperature Range": "-250°C to +650°C",
-          "pH Range": "0-14",
+          "pH Range": "0 – 14",
           "Size Range": "3 sq.mm to 50 sq.mm",
-          "Density": "1.2-1.4 g/cm³"
+          "Density": "1.2-1.4 g/cm³",
+          "Maximum Pressure": "500 bar",
+          "Available Sizes": "3 sq mm to 50 sq mm",
+          "Reinforcement": "Inconel Wire with Fine Mesh Jacket",
+          "Construction": "Expanded Graphite & Carbon Fibre Yarn",
+          "Corrosion Protection": "Inorganic Passive Corrosion Inhibitor"
         }
       },
       "technicalData": {
@@ -1540,7 +1554,7 @@
         "/FZC Inmarco Product Shoot/CG 503/CG 503 Updated/CG 503 - 53(34)_03_2.png",
         "/FZC Inmarco Product Shoot/CG 503/CG 503 Updated/CG 503 - 53(34)_08_2.png"
       ],
-      "datasheet": "/datasheets/generated_html/CG_503.html"
+      "datasheet": "/datasheets/new_generated_html/Style_CG_503.html"
     },
     {
       "id": 28,
@@ -1553,14 +1567,10 @@
       "description": "PE 104 is suitable for pumps, valves, and rotating equipment, offering a versatile PTFE sealing solution. Provides universal application capability across diverse industrial equipment and services.",
       "image": "/FZC Inmarco Product Shoot/PE 104/PE 104_3.png",
       "specifications": {
-        "Temperature Range": "-200°C to +260°C",
-        "Pressure Rating": "Up to 200 bar",
-        "pH Range": "0-14",
-        "Speed Limit": "20 m/s",
-        "Density": "1.8-2.0 g/cm³",
-        "temperature": "-240 to +260",
-        "pressure": "300",
-        "pH": "0-14"
+        "pH Range": "0 – 14",
+        "Temperature (°C)": "-240 to +260",
+        "Pressure (Bar)": "300",
+        "Size": "6.5 sq mm to 50 sq mm"
       },
       "technicalData": {
         "Construction": "PTFE fiber with enhanced lubricant package",
@@ -1591,7 +1601,7 @@
         "/FZC Inmarco Product Shoot/PE 104/PE 104_Edited_1.png",
         "/FZC Inmarco Product Shoot/PE 104/PE 104_Edited_2.png"
       ],
-      "datasheet": "/datasheets/generated_html/PE_104.html"
+      "datasheet": "/datasheets/new_generated_html/STYLE_PE_104.html"
     },
     {
       "id": 31,
@@ -1604,14 +1614,10 @@
       "description": "HY 606 is engineered for severe service conditions with enhanced mechanical strength and exceptional durability. Features heavy-duty construction with flexible Inmalon core for superior load-bearing capacity.",
       "image": "/FZC Inmarco Product Shoot/HY 105/HY 105_1.png",
       "specifications": {
-        "Temperature Range": "-100°C to +300°C",
-        "Pressure Rating": "Up to 300 bar",
-        "pH Range": "1-13",
-        "Speed Limit": "22 m/s",
-        "Density": "1.8-2.0 g/cm³",
-        "temperature": "-200 to +300",
-        "pressure": "300",
-        "pH": "0-14"
+        "pH Range": "0 – 14",
+        "Temperature Range": "-200°C to +300°C",
+        "Pressure Rating": "Up to 300 Bar",
+        "Size Range": "6 mm² to 50 mm²"
       },
       "technicalData": {
         "Construction": "Heavy-duty aramid and PTFE with enhanced graphite",
@@ -1642,7 +1648,7 @@
         "/FZC Inmarco Product Shoot/HY 501/HY 501 - 27_07_2.png",
         "/FZC Inmarco Product Shoot/HY 501/HY 501 - 27_20_2.png"
       ],
-      "datasheet": "/datasheets/generated_html/HY_606.html"
+      "datasheet": "/datasheets/new_generated_html/HY_606.html"
     },
     {
       "id": 32,
@@ -1709,7 +1715,7 @@
         "/FZC Inmarco Product Shoot/HY 501/HY 501 - 27_07_2.png",
         "/FZC Inmarco Product Shoot/HY 501/HY 501 - 27_20_2.png"
       ],
-      "datasheet": "/datasheets/generated_html/HY_501C.html"
+      "datasheet": "/datasheets/new_generated_html/HY_501.html"
     },
     {
       "id": 33,
@@ -1722,14 +1728,12 @@
       "description": "HY 801 is a premium carbon graphite packing optimized for centrifugal and rotary pump sealing in the most demanding applications. Specifically engineered for challenging conditions including congealing media services.",
       "image": "/FZC Inmarco Product Shoot/HY 801/HY 801_1.png",
       "specifications": {
-        "Temperature Range": "-100°C to +290°C",
-        "Pressure Rating": "Up to 400 bar",
-        "pH Range": "1-13",
-        "Speed Limit": "15 m/s (reciprocating)",
-        "Density": "1.8-2.0 g/cm³",
-        "temperature": "-200 to +650 (2750°C in Non Oxidizing media)",
-        "pressure": "150",
-        "pH": "0-14"
+        "pH Range": "0 – 14",
+        "Temperature (°C)": "-200 to +650",
+        "Temperature (Non-Oxidizing Media)": "Up to 2750°C",
+        "Pressure (Bar)": "150",
+        "Velocity (m/s)": "25",
+        "Size Range": "6 mm² to 50 mm²"
       },
       "technicalData": {
         "Construction": "Premium hybrid blend optimized for valve applications",
@@ -1765,7 +1769,7 @@
         "/FZC Inmarco Product Shoot/HY 801/HY 801_2_2.png",
         "/FZC Inmarco Product Shoot/HY 801/HY 801_3_2.png"
       ],
-      "datasheet": "/datasheets/generated_html/HY_801.html"
+      "datasheet": "/datasheets/new_generated_html/HY_801.html"
     },
     {
       "id": 34,
@@ -1778,14 +1782,11 @@
       "description": "PA 499 offers exceptional mechanical properties and chemical resistance for the most demanding applications. Engineered with advanced polyimide technology for extreme conditions where both abrasion resistance and chemical compatibility are critical.",
       "image": "/FZC Inmarco Product Shoot/PA 499/PA 499_Edited_1.JPG",
       "specifications": {
-        "Temperature Range": "-150°C to +320°C",
-        "Pressure Rating": "Up to 350 bar",
-        "pH Range": "0-14",
-        "Speed Limit": "25 m/s",
-        "Density": "1.5-1.7 g/cm³",
-        "temperature": "-150 to +260",
-        "pressure": "150",
-        "pH": "1-13"
+        "pH Range": "1 – 13",
+        "Temperature (°C)": "-150 to +260",
+        "Pressure (Bar)": "150",
+        "Velocity (m/s)": "15",
+        "Size": "5 sq mm to 50 sq mm"
       },
       "technicalData": {
         "Construction": "Advanced polyimide with specialty lubricant system",
@@ -1817,7 +1818,7 @@
         "/FZC Inmarco Product Shoot/PA 499/(12)_02_2.png",
         "/FZC Inmarco Product Shoot/PA 499/(12)_02_3.png"
       ],
-      "datasheet": "/datasheets/generated_html/PA_499.html"
+      "datasheet": "/datasheets/new_generated_html/STYLE_PA_499.html"
     },
     {
       "id": 35,
@@ -1830,14 +1831,11 @@
       "description": "HY 510 is a specially engineered packing for stern tube applications in the marine sector. Features balanced hybrid construction designed to handle the unique challenges of marine propulsion shaft sealing.",
       "image": "/FZC Inmarco Product Shoot/HY 105/HY 105_1.png",
       "specifications": {
-        "Temperature Range": "-70°C to +250°C",
-        "Pressure Rating": "Up to 140 bar",
-        "pH Range": "3-11",
-        "Speed Limit": "16 m/s",
-        "Density": "1.6-1.8 g/cm³",
-        "temperature": "-240°C to +280°C",
-        "pressure": "200 Bar",
-        "pH": "0 - 14"
+        "pH Range": "0 – 14",
+        "Temperature Range": "-240°C to +280°C",
+        "Maximum Pressure": "200 bar",
+        "Velocity": "25 m/s",
+        "Available Sizes": "12 mm² to 50 mm²"
       },
       "technicalData": {
         "Construction": "Standard hybrid fiber with PTFE and graphite coating",
@@ -1867,28 +1865,24 @@
         "/FZC Inmarco Product Shoot/HY 501/HY 501 - 27_07_2.png",
         "/FZC Inmarco Product Shoot/HY 501/HY 501 - 27_20_2.png"
       ],
-      "datasheet": "/datasheets/generated_html/HY_510.html",
+      "datasheet": "/datasheets/new_generated_html/HY_510.html",
       "elastomericCoreVariant": "HY 510EC"
     },
     {
       "id": 39,
       "subcategoryId": 4,
-      "name": "PA 104A",
-      "slug": "pa-104a",
+      "name": "PE 104A",
+      "slug": "pe-104a",
       "material": "POLYIMIDE",
       "apiCertified": true,
       "shortDescription": "Advanced polyimide packing",
-      "description": "PA 104A is designed for applications requiring ultra-low friction properties combined with high mechanical strength. Ideal for control valve applications demanding precise operation and exceptional durability.",
+      "description": "PE 104A is designed for applications requiring ultra-low friction properties combined with high mechanical strength. Ideal for control valve applications demanding precise operation and exceptional durability.",
       "image": "/FZC Inmarco Product Shoot/PA - 104A/PA 104A_Edited_1.png",
       "specifications": {
-        "Temperature Range": "-120°C to +320°C",
-        "Pressure Rating": "Up to 320 bar",
-        "pH Range": "0-14",
-        "Speed Limit": "25 m/s",
-        "Density": "1.5-1.7 g/cm³",
-        "temperature": "-240 to +260",
-        "pressure": "300",
-        "pH": "0-14"
+        "pH Range": "0 – 14",
+        "Temperature (°C)": "-240 to +260",
+        "Pressure (Bar)": "300",
+        "Size": "6.5 sq mm to 50 sq mm"
       },
       "technicalData": {
         "Construction": "Advanced polyimide with multi-layer construction",
@@ -1922,7 +1916,7 @@
         "/FZC Inmarco Product Shoot/PA - 104A/PA 104A_Edited_3.png",
         "/FZC Inmarco Product Shoot/PA - 104A/PA 104A_Edited_4.JPG"
       ],
-      "datasheet": "/datasheets/generated_html/PA_104A.html"
+      "datasheet": "/datasheets/new_generated_html/PE_104A.html"
     },
     {
       "id": 41,
@@ -1940,13 +1934,17 @@
         "/FZC Inmarco Product Shoot/Ultra FE 1002/Ultra FE 1002_3.png"
       ],
       "specifications": {
-        "pH Range": "0-14",
-        "Temperature Range": "-196°C to +600°C",
-        "Pressure Rating": "500 bar",
-        "Size Range": "3sq.mm - 25.4sq.mm",
-        "temperature": "-240 to +650°C",
-        "pressure": "500",
-        "pH": "0 - 14"
+        "Construction": "Braided expanded graphite packing with Inconel wire reinforcement and Inconel mesh jacketing",
+        "Material Composition": "High-purity expanded graphite + multiple Inconel wire reinforcement",
+        "Carbon Content": "99% min",
+        "pH Range": "0 – 14",
+        "Temperature Range": "-240°C to +650°C",
+        "Maximum Pressure": "Up to 500 bar",
+        "Size Range": "3 mm² to 50 mm²",
+        "Corrosion Protection": "Inorganic passive corrosion inhibitor incorporated",
+        "Friction Characteristics": "Low-friction lubricated construction",
+        "Chemical Compatibility": "Suitable for most non-oxidizing industrial media",
+        "Application Type": "Low-emission valve sealing applications"
       },
       "technicalData": {
         "Material": "Advanced synthetic fibers with graphite and PTFE",
@@ -1972,7 +1970,7 @@
         "/FZC Inmarco Product Shoot/Ultra FE 1002/Ultra FE 1002_2 (1).png",
         "/FZC Inmarco Product Shoot/Ultra FE 1002/Ultra FE 1002_3.png"
       ],
-      "datasheet": "/datasheets/generated_html/ULTRA_LE_1002.html"
+      "datasheet": "/datasheets/new_generated_html/ULTRA_LE_1002.html"
     },
     {
       "id": 42,
@@ -1985,15 +1983,16 @@
       "description": "ULTRA FE 1003 is a high-performance, ultra-low emission packing set engineered with exceptionally low friction and superior oxidation resistance. Designed to meet and exceed evolving industry environmental standards and future regulatory requirements.",
       "image": "/FZC Inmarco Product Shoot/Ultra FE 1003/Ultra FE 1003_1.png",
       "specifications": {
-        "Temperature Range": "-100°C to +290°C",
-        "Pressure Rating": "Up to 280 bar",
-        "pH Range": "0-14",
-        "Speed Limit": "22 m/s",
-        "Density": "1.9-2.1 g/cm³",
-        "Emission Level": "<100 ppm (near-zero emissions)",
-        "temperature": "-196 to +538°C",
-        "pressure": "300",
-        "pH": "0 - 14"
+        "Construction": "Combination packing set with expanded graphite Inconel wire mesh jacketed end rings and graphite foil molded intermediate rings",
+        "Material Composition": "Expanded graphite + Inconel wire mesh reinforcement",
+        "pH Range": "0 – 14",
+        "Temperature Range": "-196°C to +538°C",
+        "Maximum Pressure": "Up to 300 bar",
+        "Size Range": "3 mm² to 25 mm² (based on stuffing box design)",
+        "Friction Characteristics": "Virtually zero friction with tested friction factor of 0.1",
+        "Corrosion Resistance": "Corrosion-free performance under ambient and elevated temperature conditions",
+        "Chemical Compatibility": "Suitable for most industrial fluids compatible with graphite",
+        "Application Type": "Fugitive emission valve sealing applications"
       },
       "technicalData": {
         "Construction": "Advanced near-zero emission technology",
@@ -2027,7 +2026,7 @@
         "/FZC Inmarco Product Shoot/Ultra FE 1003/Ultra FE 1003_2.png",
         "/FZC Inmarco Product Shoot/Ultra FE 1003/Ultra FE 1003_3.png"
       ],
-      "datasheet": "/datasheets/generated_html/ULTRA_FE_1003.html"
+      "datasheet": "/datasheets/new_generated_html/ULTRA_FE_1003.html"
     },
     {
       "id": 43,
@@ -2040,15 +2039,17 @@
       "description": "ULTRA LT 1004 delivers exceptional sealing integrity with ultra-low emissions in cryogenic and low-temperature applications. Ideal for demanding LNG control valve service, engineered to maintain reliable performance in extreme cold while minimizing emissions.",
       "image": "/FZC Inmarco Product Shoot/Ultra LE 1004/Ultra LE 1004.png",
       "specifications": {
-        "Temperature Range": "-270°C to +260°C",
-        "Pressure Rating": "Up to 200 bar",
-        "pH Range": "0-14",
-        "Speed Limit": "18 m/s",
-        "Density": "1.7-1.9 g/cm³",
-        "Emission Level": "<500 ppm",
-        "temperature": "-246 to +260°C",
-        "pressure": "200",
-        "pH": "0 - 14"
+        "Construction": "PTFE filament braided intermediate rings + PTFE sintered end rings",
+        "Material Composition": "High-quality PTFE (Virgin Grade)",
+        "pH Range": "0 – 14",
+        "Temperature Range": "-246°C to +260°C",
+        "Maximum Pressure": "Up to 350 bar",
+        "Shaft Speed – Rotating": "Up to 20 m/s",
+        "Shaft Speed – Reciprocating": "Up to 5 m/s",
+        "Size Range": "6 mm² to 35 mm²",
+        "Friction Factor": "0.1 (Ultra-low friction)",
+        "Chemical Compatibility": "Suitable for cryogenic fluids, LNG, LPG, refrigerants, hydrocarbons, chemicals, and oxidizing media",
+        "Operational Characteristics": "Non-toxic, chemically inert, low friction, self-lubricating"
       },
       "technicalData": {
         "Construction": "Cryogenic-grade fugitive emission control design",
@@ -2080,7 +2081,7 @@
         "/FZC Inmarco Product Shoot/Ultra LE 1004/Ultra LE 1004_2.png",
         "/FZC Inmarco Product Shoot/Ultra LE 1004/Ultra LE 1004_3.png"
       ],
-      "datasheet": "/datasheets/generated_html/ULTRA_LT_1004.html"
+      "datasheet": "/datasheets/new_generated_html/ULTRA_LT_1004.html"
     },
     {
       "id": 44,
@@ -2093,16 +2094,19 @@
       "description": "ULTRA NE 1005 is an ultra-low emission braided packing available in both continuous rope and preformed ring configurations. Engineered to meet stringent emission standards with exceptional operational compliance and reliability.",
       "image": "/FZC Inmarco Product Shoot/Ultra LE 1005/Ultra LE 1005_1.png",
       "specifications": {
-        "Temperature Range": "-100°C to +300°C",
-        "Pressure Rating": "Up to 300 bar",
-        "pH Range": "0-14",
-        "Speed Limit": "20 m/s",
-        "Density": "1.8-2.0 g/cm³",
-        "Emission Level": "<250 ppm",
-        "Radiation Resistance": "High",
-        "temperature": "-196 to +538°C is the oxidizing media, in steam up to 650°C",
-        "pressure": "425",
-        "pH": "0-14"
+        "Construction": "All-braided expanded graphite with Inconel wire mesh reinforcement",
+        "Material Composition": "High-purity expanded flexible graphite + Inconel wire mesh",
+        "pH Range": "0 – 14",
+        "Temperature Range – Oxidizing Media": "-196°C to +538°C",
+        "Temperature Range – Steam Service": "Up to +650°C",
+        "Maximum Pressure – Rotating": "Up to 150 bar",
+        "Maximum Pressure – Reciprocating": "Up to 250 bar",
+        "Maximum Pressure – Static": "Up to 500 bar",
+        "Shaft Speed – Rotating": "Up to 20 m/s",
+        "Shaft Speed – Reciprocating": "Up to 5 m/s",
+        "Size Range": "3 mm² to 50 mm²",
+        "Chemical Compatibility": "Suitable for hydrocarbons, chemicals, acids, alkalis, solvents, gases, and steam (excluding strong oxidizers at elevated temperatures)",
+        "Fire Safety": "Fire-safe compliant"
       },
       "technicalData": {
         "Construction": "Nuclear-grade materials with radiation resistance",
@@ -2135,7 +2139,7 @@
         "/FZC Inmarco Product Shoot/Ultra LE 1005/Ultra LE 1005_2_1.png",
         "/FZC Inmarco Product Shoot/Ultra LE 1005/Ultra LE 1005_3_1.png"
       ],
-      "datasheet": "/datasheets/generated_html/ULTRA_NE_1005.html"
+      "datasheet": "/datasheets/new_generated_html/ULTRA_NE_1005.html"
     },
     {
       "id": 45,
@@ -2148,14 +2152,11 @@
       "description": "HY 105 HD is engineered for extreme service conditions with enhanced durability specifically for the fertilizer industry. Features heavy-duty construction preformed under load for optimal reciprocating motion performance.",
       "image": "/FZC Inmarco Product Shoot/HY 105 HD/HY 105 HD_1.png",
       "specifications": {
-        "Temperature Range": "-100°C to +290°C",
-        "Pressure Rating": "Up to 280 bar",
-        "pH Range": "1-13",
-        "Speed Limit": "22 m/s",
-        "Density": "1.9-2.1 g/cm³",
-        "temperature": "-200 to +300°C",
-        "pressure": "100 / 200 / 300",
-        "pH": "0-14"
+        "pH": "0-14",
+        "Temperature (°C)": "-200 to +300°C",
+        "Pressure (BAR)": "100",
+        "Velocity (m/s)": "25",
+        "Size": "3sq mm TO 35sq mm"
       },
       "technicalData": {
         "Construction": "Heavy-duty aramid and PTFE with reinforced graphite",
@@ -2187,7 +2188,7 @@
         "/FZC Inmarco Product Shoot/HY 105 HD/HY 105 HD_3.png",
         "/FZC Inmarco Product Shoot/HY 105 HD/HY 105 HD_4.png"
       ],
-      "datasheet": "/datasheets/generated_html/HY_105HD.html"
+      "datasheet": "/datasheets/new_generated_html/HY_105HD.html"
     },
     {
       "id": 46,
@@ -2200,14 +2201,10 @@
       "description": "HY 107 HD is engineered for extreme service conditions with enhanced durability specifically for the fertilizer industry. Specially developed for critical applications including ammonia and carbamate pump services.",
       "image": "/FZC Inmarco Product Shoot/HY 107 HD/HY 107 HD - 58_01.JPG",
       "specifications": {
-        "Temperature Range": "-100°C to +300°C",
-        "Pressure Rating": "Up to 320 bar",
-        "pH Range": "1-13",
-        "Speed Limit": "23 m/s",
-        "Density": "1.9-2.1 g/cm³",
-        "temperature": "-240 to +280",
-        "pressure": "500",
-        "pH": "0-14"
+        "pH Range": "0 – 14",
+        "Temperature Range": "-240°C to +280°C",
+        "Pressure Rating": "500 Bar",
+        "Size Range": "6 mm² to 50 mm²"
       },
       "technicalData": {
         "Construction": "Premium heavy-duty hybrid with reinforced construction",
@@ -2240,7 +2237,7 @@
         "/FZC Inmarco Product Shoot/HY 107 HD/HY 107 HD - 58_04_2.png",
         "/FZC Inmarco Product Shoot/HY 107 HD/HY 107 HD_1_2.png"
       ],
-      "datasheet": "/datasheets/generated_html/HY_107HD.html"
+      "datasheet": "/datasheets/new_generated_html/HY_107HD.html"
     },
     {
       "id": 47,
@@ -2292,7 +2289,7 @@
         "/FZC Inmarco Product Shoot/OR 125 SR/OR 125 SR_2.png",
         "/FZC Inmarco Product Shoot/OR 125 SR/OR 125 SR_3.png"
       ],
-      "datasheet": "/datasheets/generated_html/OR_125.html"
+      "datasheet": "/datasheets/new_generated_html/OR_125.html"
     },
     {
       "id": 49,
@@ -2305,16 +2302,19 @@
       "description": "GM 300Z is a precision-molded graphite ring engineered for static sealing applications with exceptional purity and performance. Features ultra-high purity graphite with built-in oxidation inhibitors for extended service life.",
       "image": "/FZC Inmarco Product Shoot/IN 140/IN 140_5.png",
       "specifications": {
-        "Temperature Range": "pH 0-14, up to 650°C",
-        "Pressure Rating": "Up to 250 bar",
+        "pH Range": "0 - 14 (Universal)",
+        "Maximum Temperature": "650°C",
+        "Maximum Pressure": "250 bar",
         "Graphite Purity": "≥99.85%",
-        "Sulfur Content": "<300 ppm (typical <50 ppm)",
-        "Chloride Content": "≤10 ppm",
-        "Fluoride Content": "≤10 ppm",
-        "Halogen Content": "≤40 ppm",
-        "temperature": "650°C",
-        "pressure": "250",
-        "pH": "0-14"
+        "Density": "1.4 to 1.8 g/cm³",
+        "Sulfur Content": "< 300 ppm",
+        "Chloride Content": "≤ 10 ppm",
+        "Fluoride Content": "≤ 10 ppm",
+        "Halogen Content": "≤ 40 ppm",
+        "Thermal Conductivity (Axial)": "400 W/mK",
+        "Thermal Conductivity (Radial)": "6 W/mK",
+        "Coefficient of Friction (to steel)": "0.05",
+        "Size": "According to chamber size"
       },
       "technicalData": {
         "Material": "High purity flexible graphite foil with oxidation inhibitor",
@@ -2352,7 +2352,7 @@
         "/FZC Inmarco Product Shoot/GM 300Z/GM 300 Z -28_12_2.png",
         "/FZC Inmarco Product Shoot/GM 300Z/GM 300 Z -28_19_2.png"
       ],
-      "datasheet": "/datasheets/generated_html/GM_300Z.html"
+      "datasheet": "/datasheets/new_generated_html/GM_300Z.html"
     },
     {
       "id": 50,
@@ -2365,13 +2365,14 @@
       "description": "GM 310C is a graphite pressure seal ring with anti-extrusion metallic end caps on top and bottom. Engineered for high-pressure applications requiring exceptional structural integrity and sealing reliability.",
       "image": "/FZC Inmarco Product Shoot/GM 300Z/GM 300 Z -28_01.JPG",
       "specifications": {
-        "Temperature Range": "pH 0-14, up to 670°C",
-        "Pressure Rating": "Up to 425 bar",
+        "pH Range": "0 - 14 (Universal)",
+        "Maximum Pressure": "425 bar",
+        "Size": "Based on valve design",
         "Graphite Purity": "≥99.85%",
-        "Oxidation Rate": "2.6% per hour weight loss at 670°C for 4 hours",
-        "temperature": "---",
-        "pressure": "425",
-        "pH": "0-14"
+        "Construction Types": "Rectangular, Angular (U-shape, I-shape)",
+        "End Cap Material": "Stainless Steel / Inconel",
+        "Oxidation Certification": "Shell MESC SPE 85/203 (2.6% per hour weight loss at 670°C for 4 hours)",
+        "Compatibility": "As per graphite (contact for details)"
       },
       "technicalData": {
         "Material": "Very high purity graphite ribbon without additives",
@@ -2407,7 +2408,7 @@
         "/FZC Inmarco Product Shoot/GM 310C/GM 310 C- 29_08.JPG",
         "/FZC Inmarco Product Shoot/GM 310C/GM 310 C- 29_08_2.png"
       ],
-      "datasheet": "/datasheets/generated_html/GM_310C.html"
+      "datasheet": "/datasheets/new_generated_html/GM_310C.html"
     },
     {
       "id": 51,
@@ -2420,13 +2421,18 @@
       "description": "INMATEX ePTFE sheet provides superior chemical resistance and exceptional sealing performance with very low seating stress in flange joint management. Ideal for critical flanged connections requiring reliable, long-term sealing.",
       "image": "/FZC Inmarco Product Shoot/Inmatex PTFE Gasket/Inmatex PTFE Gasket_2.png",
       "specifications": {
-        "Temperature Range": "-240°C to +260°C",
-        "Pressure Rating": "Up to 200 bar",
-        "pH Range": "0-14",
-        "Density": "0.7-0.9 g/cm³",
-        "temperature": "-232 to +315°C (Peak), -232 to +260°C (Service)",
-        "pressure": "Vacuum to 200 Kg/cm³",
-        "pH": "0-14"
+        "Temperature Range (Peak)": "-232°C to +315°C",
+        "Temperature Range (Service)": "-232°C to +260°C",
+        "Pressure": "Vacuum to 200 Kg/cm²",
+        "pH Range": "0-14 (Universal)",
+        "Colour": "White",
+        "Density": "0.8 gm/cc (±0.1)",
+        "Thickness": "0.5 mm to 6 mm",
+        "m-factor": "2.0",
+        "y-factor": "3730 PSI",
+        "Compressibility": "60 to 70%",
+        "Recovery": "12 to 20%",
+        "Residual Stress": "25.6 MPa"
       },
       "technicalData": {
         "Construction": "100% expanded PTFE multi-directional fibrils",
@@ -2458,7 +2464,7 @@
         "/FZC Inmarco Product Shoot/Inmatex PTFE Gasket/Inmatex PTFE Gasket_3.png",
         "/FZC Inmarco Product Shoot/Inmatex PTFE Gasket/Inmatex PTFE_1.png"
       ],
-      "datasheet": "/datasheets/generated_html/INMATEX_ePTFE.html"
+      "datasheet": "/datasheets/new_generated_html/INMATEX_ePTFE.html"
     },
     {
       "id": 52,
@@ -2504,7 +2510,7 @@
         "/FZC Inmarco Product Shoot/GM 310C/GM 310 C- 29_08.JPG",
         "/FZC Inmarco Product Shoot/GM 310C/GM 310 C- 29_08_2.png"
       ],
-      "datasheet": "/datasheets/generated_html/GM_310C.html"
+      "datasheet": "/datasheets/new_generated_html/GM_310C.html"
     },
     {
       "id": 53,
@@ -2517,13 +2523,16 @@
       "description": "Complete flange isolation gasket kit certified to API 6FB fire-safe standards for cathodic protection and electrical isolation. Engineered to provide reliable electrical isolation while maintaining sealing integrity in fire conditions.",
       "image": "/FZC Inmarco Product Shoot/Insulation Gasket Kit/IG_1.png",
       "specifications": {
-        "Temperature Range": "-40°C to +150°C",
-        "Pressure Rating": "ANSI Class 150-600",
-        "Voltage Isolation": "Up to 10,000V AC",
-        "Dielectric Strength": ">5000V",
-        "temperature": "-45 to +200 °C",
-        "pressure": "ANSI/ASME Class 2500",
-        "pH": "0-14"
+        "pH Range": "0 – 14 (full chemical compatibility range)",
+        "Temperature Range": "-45°C to +200°C",
+        "Maximum Pressure": "Up to ANSI/ASME Class 2500 (depending on flange and system design)",
+        "Carrier Material": "NEMA Grade G10/G11 epoxy reinforced composite",
+        "Core Material Options": "316L SS, Inconel 625/825, 6Mo, Duplex, other high-performance alloys",
+        "Primary Seal": "PTFE seal with internal spring energization",
+        "Secondary Seal": "Fire-safe sealing element",
+        "Electrical Isolation": "Prevents galvanic corrosion between flange faces",
+        "Fire Safety Compliance": "API 6FB Fire Safe Tested",
+        "Application Type": "Electrical insulation + flange isolation + sealing system"
       },
       "technicalData": {
         "Construction": "Complete kit with gasket, sleeves, washers",
@@ -2555,7 +2564,7 @@
         "/FZC Inmarco Product Shoot/Insulation Gasket Kit/IG_2_2.png",
         "/FZC Inmarco Product Shoot/Insulation Gasket Kit/IG_3_2.png"
       ],
-      "datasheet": "/datasheets/generated_html/Insulation_Gasket_Kit_1800_FS.html"
+      "datasheet": "/datasheets/new_generated_html/Insulation_Gasket_Kit_1800_FS.html"
     },
     {
       "id": 54,
@@ -2568,13 +2577,21 @@
       "description": "750SS provides reliable thermal protection for welding, grinding, and high-temperature insulation applications. Features heavy-duty construction with specially formulated treatments for exceptional thermal resistance.",
       "image": "/FZC Inmarco Product Shoot/Welding Blanket 750SS/Welding Gasket_1.png",
       "specifications": {
-        "Service Temperature": "1100°C continuous",
-        "Max Temperature": "1400°C short-term",
-        "Melting Temperature": "1800°C",
-        "SiO2 Content": "≥98%",
-        "Linear Shrinkage at 1000°C": "<7.10% (30 min)",
-        "Area Shrinkage at 1000°C": "<13% (30 min)",
-        "Weave": "Satin 8HS / 12HS"
+        "Weave": "Satin 8HS / 12HS",
+        "SiO₂ Content": "≥ 96%",
+        "Service Temperature": "1100°C (2000°F)",
+        "Maximum Temperature": "1400°C (2550°F)",
+        "Melting Temperature": "1800°C (3270°F)",
+        "Linear Shrinkage (1000°C, 30 Min)": "< 7.10% Max.",
+        "Area Shrinkage (1000°C, 30 Min)": "< 13% Max.",
+        "Weight": "600 g/m² (0.7 mm Thick) / 1150 g/m² (1.4 mm Thick)",
+        "Tensile Strength (Warp)": "≥ 800 N/Inch / 1100 N/Inch",
+        "Tensile Strength (Weft)": "≥ 600 N/Inch / 900 N/Inch",
+        "Thread Count (Warp)": "20 per cm",
+        "Thread Count (Weft)": "15 per cm",
+        "Color": "White / Golden",
+        "Available Sizes": "Width 900 to 1000 mm",
+        "Thickness Options": "0.7 mm & 1.4 mm"
       },
       "technicalData": {
         "Material": "Heavy duty fabric woven by high SiO2 content yarn with acid treatment",
@@ -2615,7 +2632,7 @@
         "/FZC Inmarco Product Shoot/Welding Blanket 750SS/Welding Gasket_2.png",
         "/FZC Inmarco Product Shoot/Welding Blanket 750SS/Welding Gasket_3.png"
       ],
-      "datasheet": "/datasheets/generated_html/750SS_WELDING_BLANKET.html"
+      "datasheet": "/datasheets/new_generated_html/750_SS_Welding_Blanket.html"
     },
     {
       "id": 55,
@@ -2628,9 +2645,16 @@
       "description": "High-performance metallic gasket engineered for extreme temperature and pressure applications with multi-layer construction. Provides exceptional resilience and sealing reliability in thermal cycling conditions.",
       "image": "/FZC Inmarco Product Shoot/Laminar Gasket/Laminar Gasket - 19_08.JPG",
       "specifications": {
-        "Temperature Range": "-200°C to +800°C",
-        "Pressure Rating": "Up to 600 bar",
-        "Material Options": "SS304, SS316, Inconel, Monel"
+        "Construction": "Metal–Filler–Metal Laminated Design",
+        "Operating Pressure": "Up to 100 Bar (1450 PSI)*",
+        "Temperature Range": "Cryogenic to +450°C*",
+        "Facing Materials": "Graphite, PTFE, Mica (Consult Factory)",
+        "Core Materials": "SS316L, SS304, Inconel®, and Other Alloys",
+        "Standard Sizes": "75 mm to 1100 mm (3\" to 42\")",
+        "Application Type": "Valve Seat Sealing",
+        "Flow Direction": "Bidirectional",
+        "Cycle Life": "Designed for >10,000 Operating Cycles*",
+        "Custom Profiles": "Available Upon Request"
       },
       "technicalData": {
         "Construction": "Multi-layer laminated metal with soft core",
@@ -2662,7 +2686,7 @@
         "/FZC Inmarco Product Shoot/Laminar Gasket/Laminar Gasket_2.png",
         "/FZC Inmarco Product Shoot/Laminar Gasket/Laminar Gasket_3.png"
       ],
-      "datasheet": "/datasheets/generated_html/Laminar_Gasket.html"
+      "datasheet": "/datasheets/new_generated_html/Laminar_Seal.html"
     },
     {
       "id": 56,
@@ -2675,9 +2699,16 @@
       "description": "High-performance serrated metal gasket combining the resilience of soft materials with the mechanical strength of metal for demanding applications. Ideal for heat exchangers and high-stress sealing requirements.",
       "image": "/FZC Inmarco Product Shoot/Kam Profile/Kam Profile - 20.JPG",
       "specifications": {
-        "Temperature Range": "-200°C to +700°C",
-        "Pressure Rating": "Up to 400 bar",
-        "Material Options": "SS304, SS316, Graphite facing, PTFE facing"
+        "Construction": "Serrated Metal Core with Soft Facing Layers",
+        "Pressure Rating": "Up to 250 bar (application dependent)",
+        "Temperature Range": "Cryogenic to +1000°C (depending on facing material)",
+        "Facing Materials": "Graphite, PTFE, Mica, Specialty Fillers",
+        "Core Materials": "SS304, SS316, SS321, SS347, Inconel, Monel, Titanium, Copper and Other Alloys",
+        "Flange Standards": "ASME B16.5, ASME B16.47, EN, DIN, Custom",
+        "Reusability": "Metal Core Reusable After Refacing",
+        "Blowout Resistance": "Excellent",
+        "Thermal Cycling Resistance": "Excellent",
+        "Radial Shear Resistance": "Excellent"
       },
       "technicalData": {
         "Construction": "Serrated metal core with soft facing layers",
@@ -2709,7 +2740,7 @@
         "/FZC Inmarco Product Shoot/Kam Profile/Kam Profile - 2.png",
         "/FZC Inmarco Product Shoot/Kam Profile/Kam Profile - 3.png"
       ],
-      "datasheet": "/datasheets/generated_html/Kammprofile_Gasket.html"
+      "datasheet": "/datasheets/new_generated_html/KAMMPROFILE_GASKET.html"
     },
     {
       "id": 57,
@@ -2722,9 +2753,15 @@
       "description": "Ultra-thin precision metal gaskets designed for applications requiring tight sealing with minimal compression. Provides precise thickness control and excellent dimensional stability.",
       "image": "",
       "specifications": {
-        "Temperature Range": "-200°C to +600°C",
-        "Pressure Rating": "Up to 300 bar",
-        "Material Options": "SS304, SS316, Copper, Brass"
+        "Construction": "Precision metallic shim gasket",
+        "Thickness Range": "0.05 mm to 3 mm",
+        "Standard Tolerance": "±0.01 mm to ±0.05 mm depending on thickness",
+        "Temperature Range": "-200°C to +500°C depending on material",
+        "Pressure Capability": "Up to 300 bar depending on application",
+        "Surface Finish": "Burr-free precision finish",
+        "Configuration Options": "Full sheet, custom profile, slotted, drilled, layered",
+        "Fabrication Method": "CNC laser cutting, die-punching, precision machining",
+        "Standards": "Custom manufactured to application requirements"
       },
       "technicalData": {
         "Construction": "Single or multi-layer precision shim",
@@ -2755,7 +2792,7 @@
         "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_2.png",
         "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_3.png"
       ],
-      "datasheet": "/datasheets/generated_html/Shim_Joint.html"
+      "datasheet": "/datasheets/new_generated_html/Shim_Gasket.html"
     },
     {
       "id": 58,
@@ -2768,9 +2805,13 @@
       "description": "Robust double-jacketed metal gaskets combining the chemical resistance of metal with the conformability of soft filler material. Protects filler from chemical attack while providing excellent sealing.",
       "image": "/FZC Inmarco Product Shoot/DJ/DJ - 18_19.JPG",
       "specifications": {
-        "Temperature Range": "-200°C to +800°C",
-        "Pressure Rating": "Up to 500 bar",
-        "Material Options": "SS304, SS316, Inconel jacket with ceramic/graphite filler"
+        "Operating Temperature": "-200°C to +550°C*",
+        "Pressure Range": "Vacuum to 150 bar*",
+        "Construction": "Double Jacketed",
+        "Gasket Type": "Semi-Metallic",
+        "Flange Surface Compatibility": "Rough, uneven, and narrow flange faces",
+        "Shape Options": "Round, Oval, Elliptical, Oblong, Segmental",
+        "Special Designs": "Ribbed, Partitioned, Corrugated Double Jacketed, Welded Types"
       },
       "technicalData": {
         "Construction": "Metal jacket with compressed filler material",
@@ -2801,7 +2842,7 @@
         "/FZC Inmarco Product Shoot/DJ/DJ Updated/DJ_2_2.png",
         "/FZC Inmarco Product Shoot/DJ/DJ Updated/DJ_3_2.png"
       ],
-      "datasheet": "/datasheets/generated_html/Double_Jacketed_Gasket.html"
+      "datasheet": "/datasheets/new_generated_html/Double_Jacketed_Gasket.html"
     },
     {
       "id": 59,
@@ -2814,9 +2855,14 @@
       "description": "Solid metal ring gaskets engineered for extreme pressure applications in oil and gas industries. Features self-energizing design for reliable metal-to-metal sealing in critical wellhead applications.",
       "image": "/FZC Inmarco Product Shoot/RTJ 3167/RTJ 3167-15_02.JPG",
       "specifications": {
-        "Temperature Range": "-200°C to +800°C",
-        "Pressure Rating": "Up to 1500 bar",
-        "Material Options": "Soft iron, SS304, SS316, Inconel, Monel"
+        "Construction": "Precision-machined solid metallic ring gasket",
+        "Pressure Range": "Up to 20,000 psi (1,380 bar) depending on profile and application",
+        "Temperature Range": "-200°C to +800°C depending on material selection",
+        "Profile Types": "Oval, Octagonal, RX, BX",
+        "Standards": "API 6A, ASME B16.20",
+        "Typical Sizes": "1/2\" to 24\" standard sizes, custom sizes available",
+        "Application Type": "High-pressure flange sealing applications",
+        "Groove Compatibility": "R, RX, BX flange groove configurations"
       },
       "technicalData": {
         "Construction": "Solid metal ring with octagonal or oval cross-section",
@@ -2846,7 +2892,7 @@
         "/FZC Inmarco Product Shoot/RTJ 3167/RTJ 3167_2.png",
         "/FZC Inmarco Product Shoot/RTJ 3167/RTJ 3167_3.png"
       ],
-      "datasheet": "/datasheets/generated_html/Ring_Type_Joint_Gasket.html"
+      "datasheet": "/datasheets/new_generated_html/Ring_Type_Joint.html"
     },
     {
       "id": 60,
@@ -2859,9 +2905,13 @@
       "description": "Flexible corrugated metal gaskets providing excellent resilience and adaptability to flange irregularities. Engineered to accommodate flange movement and thermal cycling while maintaining sealing integrity.",
       "image": "/FZC Inmarco Product Shoot/Corrugated Gasket/Corrugated Gasket.png",
       "specifications": {
-        "Temperature Range": "-200°C to +700°C",
-        "Pressure Rating": "Up to 250 bar",
-        "Material Options": "SS304, SS316 with graphite/PTFE filling"
+        "Operating Temperature": "Cryogenic to +550°C*",
+        "Maximum Temperature with Special Facing": "Up to +1000°C*",
+        "Pressure Range": "Vacuum to 100 bar*",
+        "Gasket Type": "Semi-Metallic",
+        "Construction": "Corrugated Metal Core with Soft Facing",
+        "Soft Facing Thickness": "0.5 mm to 3 mm per side",
+        "Compliance Standards": "ASME B16.20, DIN EN 1514-4, API 601"
       },
       "technicalData": {
         "Construction": "Corrugated metal core with soft filler",
@@ -2892,7 +2942,7 @@
         "/FZC Inmarco Product Shoot/Corrugated Gasket/Corrugated Gasket Updated/Corrugated Gasket_2_2.png",
         "/FZC Inmarco Product Shoot/Corrugated Gasket/Corrugated Gasket Updated/Corrugated Gasket_3_2.png"
       ],
-      "datasheet": "/datasheets/generated_html/Corrugated_Gasket.html"
+      "datasheet": "/datasheets/new_generated_html/Corrugated_Metal_Gasket.html"
     },
     {
       "id": 61,
@@ -2905,9 +2955,14 @@
       "description": "Premium soft iron ring gaskets designed for extreme pressure and temperature applications with excellent conformability. Cost-effective solution specifically engineered for iron flange sealing.",
       "image": "/FZC Inmarco Product Shoot/Soft Iron/Soft Iron - 17.JPG",
       "specifications": {
-        "Temperature Range": "-50°C to +400°C",
-        "Pressure Rating": "Up to 1000 bar",
-        "Material Options": "Soft iron (low carbon steel)"
+        "Pressure Rating": "Up to 450 bar (6,500 psi)*",
+        "Temperature Range": "-50°C to +600°C*",
+        "Material Options": "Soft Iron, Carbon Steel, Low Alloy Steel, SS304, SS316, Inconel®",
+        "Plating Options": "Silver, Nickel, Chrome, Zinc Phosphate",
+        "Seal Design": "Self-tightening pressure-activated metallic seal",
+        "Typical Sizes": "2\" to 36\" (DN50 to DN900)",
+        "Construction": "Precision Machined Metallic Ring",
+        "Applicable Standards": "ASME B16.34, API 600, API 602, MSS SP-144"
       },
       "technicalData": {
         "Construction": "Solid soft iron ring",
@@ -2938,7 +2993,7 @@
         "/FZC Inmarco Product Shoot/Soft Iron/Soft Iron_2.png",
         "/FZC Inmarco Product Shoot/Soft Iron/Soft Iron_3.png"
       ],
-      "datasheet": "/datasheets/generated_html/Soft_Iron_Ring.html"
+      "datasheet": "/datasheets/new_generated_html/Soft_Iron_Ring.html"
     },
     {
       "id": 62,
@@ -2977,8 +3032,7 @@
         "Chemical processing under extreme pressure"
       ],
       "gallery": [],
-      "images": [],
-      "datasheet": "/datasheets/generated_html/Pressure_Seal_Ring.html"
+      "images": []
     },
     {
       "id": 63,
@@ -2991,9 +3045,17 @@
       "description": "Premium spiral wound gaskets featuring alternating layers of V-shaped metal winding and soft filler material. The industry standard for high-temperature and high-pressure flange sealing, offering excellent resilience and recovery.",
       "image": "/FZC Inmarco Product Shoot/Spiral Wound Gasket/Spiral Gasket_1_1.png",
       "specifications": {
-        "Temperature Range": "-200°C to +1000°C",
-        "Pressure Rating": "Up to 600 bar",
-        "Material Options": "SS304, SS316, Inconel winding with Graphite/PTFE filler"
+        "Operating Pressure": "Full vacuum to 250 bar (depends on flange class and configuration)",
+        "Operating Temperature": "-200°C to +550°C (standard); up to +1000°C with special fillers",
+        "Construction": "Spiral wound V-shaped metallic strip with soft filler material",
+        "Winding Materials": "SS304, SS316/316L, SS321, SS347, Duplex SS, Inconel®, Monel®, Hastelloy®, Titanium",
+        "Filler Materials": "Graphite, PTFE, Mica, Ceramic (application dependent)",
+        "Gasket Types": "CGI, CG, R, RIR",
+        "Flange Compatibility": "Raised Face (RF), Flat Face (FF), Tongue & Groove (T&G), Male-Female",
+        "Size Range": "1/2\" to 60\" (standard); larger sizes on request",
+        "Standards": "ASME B16.20, API 601, DIN EN 1514-2, JIS (as applicable)",
+        "Ring Materials": "Carbon Steel, Stainless Steel, or equivalent as per requirement",
+        "Design Feature": "Controlled winding tension for uniform stress distribution and sealing performance"
       },
       "technicalData": {
         "Construction": "V-shaped metal winding with soft filler material",
@@ -3026,7 +3088,7 @@
         "/FZC Inmarco Product Shoot/Spiral Wound Gasket/Spiral Gasket_2_2.png",
         "/FZC Inmarco Product Shoot/Spiral Wound Gasket/Spiral Gasket_3_2.png"
       ],
-      "datasheet": "/datasheets/generated_html/Spiral_Wound_Gasket.html"
+      "datasheet": "/datasheets/new_generated_html/Spiral_WoundGasket.html"
     },
     {
       "id": 64,
@@ -3039,14 +3101,13 @@
       "description": "NA 432 is a premium compressed non-asbestos fiber (CNAF) gasket sheet designed for general industrial applications with excellent sealing properties. Features organic fiber construction bound with nitrile rubber for reliable performance.",
       "image": "/FZC Inmarco Product Shoot/Plain Graphite Gasket/96_01.JPG",
       "specifications": {
-        "Temperature Range": "-200°C to +150°C",
-        "Pressure Rating": "Up to 50 bar",
-        "Density": "1.69 - 1.9 g/cm³",
-        "Compressibility": "7 - 17%",
-        "Recovery": "≥40%",
-        "Tensile Strength": "≥7 N/sq.mm",
-        "temperature": "200°C",
-        "pressure": "50 bar"
+        "Density (g/cm³)": "ASTM F 1315",
+        "Compressibility (%)": "ASTM F 36 J",
+        "Recovery (%)": "ASTM F 36 J",
+        "Tensile Strength (N/mm²)": "ASTM F 152",
+        "Maximum Peak Temperature (°C)": "-",
+        "Maximum Operating Temperature (°C)": "-",
+        "Maximum Operating Pressure (bar)": "-"
       },
       "technicalData": {
         "Material": "Compressed Non-Asbestos Filled with NBR",
@@ -3078,7 +3139,7 @@
         "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_2.png",
         "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_3.png"
       ],
-      "datasheet": "/datasheets/generated_html/NA_432.html"
+      "datasheet": "/datasheets/new_generated_html/NA_432.html"
     },
     {
       "id": 63,
@@ -3091,14 +3152,13 @@
       "description": "NA 420 is a high-quality compressed non-asbestos fiber gasket sheet for moderate temperature and pressure applications. Features mineral and aramid fiber construction for enhanced performance.",
       "image": "/FZC Inmarco Product Shoot/Plain Graphite Gasket/96_01.JPG",
       "specifications": {
-        "Temperature Range": "-200°C to +220°C",
-        "Pressure Rating": "Up to 80 bar",
-        "Density": "1.60 - 1.90 g/cm³",
-        "Compressibility": "7 - 17%",
-        "Recovery": "≥50%",
-        "Tensile Strength": "≥9.50 N/sq.mm",
-        "temperature": "300°C",
-        "pressure": "80 bar"
+        "Density (g/cm³)": "ASTM F 1315",
+        "Compressibility (%)": "ASTM F 36 J",
+        "Recovery (%)": "ASTM F 36 J",
+        "Tensile Strength (N/mm²)": "ASTM F 152",
+        "Maximum Peak Temperature (°C)": "-",
+        "Maximum Operating Temperature (°C)": "-",
+        "Maximum Operating Pressure (bar)": "-"
       },
       "technicalData": {
         "Material": "High quality CNAF Sheet with Mineral fiber, Aramid fiber & Inorganic fillers with NBR binder",
@@ -3129,7 +3189,7 @@
         "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_2.png",
         "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_3.png"
       ],
-      "datasheet": "/datasheets/generated_html/NA_420.html"
+      "datasheet": "/datasheets/new_generated_html/NA_420.html"
     },
     {
       "id": 64,
@@ -3142,14 +3202,13 @@
       "description": "NA 450 is a premium CNAF gasket material engineered for high-temperature industrial applications. Features aramid fiber construction for superior tensile strength and thermal performance.",
       "image": "/FZC Inmarco Product Shoot/Plain Graphite Gasket/96_01.JPG",
       "specifications": {
-        "Temperature Range": "-200°C to +250°C",
-        "Pressure Rating": "Up to 100 bar",
-        "Density": "1.69 - 1.9 g/cm³",
-        "Compressibility": "6 - 14%",
-        "Recovery": "≥50%",
-        "Tensile Strength": "≥10.5 N/sq.mm",
-        "temperature": "350°C",
-        "pressure": "100 bar"
+        "Density (g/cm³)": "ASTM F 1315",
+        "Compressibility (%)": "ASTM F 36 J",
+        "Recovery (%)": "ASTM F 36 J",
+        "Tensile Strength (N/mm²)": "ASTM F 152",
+        "Maximum Peak Temperature": "—",
+        "Maximum Operating Temperature": "—",
+        "Maximum Operating Pressure": "—"
       },
       "technicalData": {
         "Material": "Compressed Non-Asbestos filled with Aramid fiber bound with NBR/Nitrile Butadiene Rubber and Mineral fiber",
@@ -3181,7 +3240,7 @@
         "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_2.png",
         "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_3.png"
       ],
-      "datasheet": "/datasheets/generated_html/NA_450.html"
+      "datasheet": "/datasheets/new_generated_html/NA_450.html"
     },
     {
       "id": 65,
@@ -3194,14 +3253,13 @@
       "description": "NA 452 GE is designed for general equipment applications with enhanced sealing performance. Features aramid and glass fiber construction for superior high-temperature and high-stress capabilities.",
       "image": "/FZC Inmarco Product Shoot/Plain Graphite Gasket/96_01.JPG",
       "specifications": {
-        "Temperature Range": "-200°C to +300°C",
-        "Pressure Rating": "Up to 120 bar",
-        "Density": "1.6 - 1.9 g/cm³",
-        "Compressibility": "5 - 15%",
-        "Recovery": "≥50%",
-        "Tensile Strength": "≥10.5 N/sq.mm",
-        "temperature": "450°C",
-        "pressure": "120 bar"
+        "Density (g/cm³)": "ASTM F 1315",
+        "Compressibility (%)": "ASTM F 36 J",
+        "Recovery (%)": "ASTM F 36 J",
+        "Tensile Strength (N/mm²)": "ASTM F 152",
+        "Maximum Peak Temperature": "—",
+        "Maximum Operating Temperature": "—",
+        "Maximum Operating Pressure": "—"
       },
       "technicalData": {
         "Material": "Compressed Non-Asbestos filled with Aramid fiber and Glass fiber bound with NBR/Nitrile Butadiene Rubber",
@@ -3233,7 +3291,7 @@
         "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_2.png",
         "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_3.png"
       ],
-      "datasheet": "/datasheets/generated_html/NA_452_GF.html"
+      "datasheet": "/datasheets/new_generated_html/NA_452_GF.html"
     },
     {
       "id": 66,
@@ -3246,14 +3304,13 @@
       "description": "NA 430 is a standard CNAF gasket material for general industrial sealing applications. Features stainless steel wire mesh reinforcement for enhanced mechanical strength and dimensional stability.",
       "image": "/FZC Inmarco Product Shoot/Plain Graphite Gasket/96_01.JPG",
       "specifications": {
-        "Temperature Range": "-200°C to +300°C",
-        "Pressure Rating": "Up to 120 bar",
-        "Density": "1.70 - 2.0 g/cm³",
-        "Compressibility": "7 - 17%",
-        "Recovery": "≥40%",
-        "Tensile Strength": "≥13.7 N/sq.mm",
-        "temperature": "400°C",
-        "pressure": "120 bar"
+        "Density (g/cm³)": "ASTM F 1315",
+        "Compressibility (%)": "ASTM F 36 I",
+        "Recovery (%)": "ASTM F 36 J",
+        "Tensile Strength (N/mm²)": "ASTM F 152",
+        "Maximum Peak Temperature (°C)": "-",
+        "Maximum Operating Temperature (°C)": "-",
+        "Maximum Operating Pressure (bar)": "-"
       },
       "technicalData": {
         "Material": "Non-Asbestos Compressed fibre reinforced with SS wire mesh, SS304 grade, Calendered on high performance calendaring machine",
@@ -3284,7 +3341,7 @@
         "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_2.png",
         "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_3.png"
       ],
-      "datasheet": "/datasheets/generated_html/NA_430.html"
+      "datasheet": "/datasheets/new_generated_html/NA_430.html"
     },
     {
       "id": 67,
@@ -3297,11 +3354,13 @@
       "description": "NA 442 is a high-quality CNAF material engineered for demanding industrial sealing applications. Features carbon fiber enhancement for superior performance characteristics.",
       "image": "/FZC Inmarco Product Shoot/Plain Graphite Gasket/96_01.JPG",
       "specifications": {
-        "Temperature Range": "-200°C to +450°C",
-        "Pressure Rating": "Up to 85 bar",
-        "Material": "Compressed aramid fiber",
-        "temperature": "440°C",
-        "pressure": "100 bar"
+        "Density (g/cm³)": "ASTM F 1315",
+        "Compressibility (%)": "ASTM F 36 J",
+        "Recovery (%)": "ASTM F 36 J",
+        "Tensile Strength (N/mm²)": "ASTM F 152",
+        "Maximum Peak Temperature": "—",
+        "Maximum Operating Temperature": "—",
+        "Maximum Operating Pressure": "—"
       },
       "technicalData": {
         "Thickness": "0.4mm to 6.0mm",
@@ -3333,7 +3392,7 @@
         "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_2.png",
         "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_3.png"
       ],
-      "datasheet": "/datasheets/generated_html/NA_442.html"
+      "datasheet": "/datasheets/new_generated_html/NA_442.html"
     },
     {
       "id": 68,
@@ -3346,12 +3405,16 @@
       "description": "SST 323 is a stainless steel reinforced compressed graphite sheet engineered for enhanced performance and durability. Combines the benefits of flexible graphite with stainless steel reinforcement.",
       "image": "/FZC Inmarco Product Shoot/SS Gasket/SS Gasket_1.png",
       "specifications": {
-        "Temperature Range": "-200°C to +400°C",
-        "Pressure Rating": "Up to 65 bar",
-        "Material": "SS reinforced aramid fiber",
-        "temperature": "Min -200 to max. 550",
-        "pressure": "300",
-        "pH": "0-14"
+        "Carbon Content": "99% min",
+        "Sulphur Content": "Less than 500 ppm",
+        "Chloride Content": "Less than 30 ppm",
+        "Ash Content": "Less than 1%",
+        "Bulk Density": "1.1 g/cc to 1.4 g/cc",
+        "Sheet Thickness": "1 mm to 6 mm",
+        "Reinforcement Thickness": "0.05 mm to 0.1 mm",
+        "Reinforcement Type": "SS316 / SS316L Tanged",
+        "pH Range": "0 – 14",
+        "Pressure Range": "Vacuum to 300 bar"
       },
       "technicalData": {
         "Thickness": "1.0mm to 3.0mm",
@@ -3382,7 +3445,7 @@
         "/FZC Inmarco Product Shoot/SS Gasket/SS Gasket_2_1.png",
         "/FZC Inmarco Product Shoot/SS Gasket/SS Gasket_3_1.png"
       ],
-      "datasheet": "/datasheets/generated_html/SST_323.html"
+      "datasheet": "/datasheets/new_generated_html/SST_323.html"
     },
     {
       "id": 69,
@@ -3395,11 +3458,14 @@
       "description": "600-grade sintered PTFE sheet gasket offering exceptional chemical resistance and sealing performance for aggressive media. Provides universal chemical compatibility with high-purity construction.",
       "image": "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_1.png",
       "specifications": {
-        "Temperature Range": "-240°C to +260°C",
-        "Pressure Rating": "Up to 150 bar",
-        "Material": "Virgin PTFE (sintered)",
-        "pressure": "-250 TO +260°C",
-        "pH": "-250 TO +260°C"
+        "Density": "2.1 – 2.2",
+        "Tensile Strength": "210 – 375",
+        "Elongation at Break": "250 – 400",
+        "Compressive Strength": "40 – 50",
+        "Compressive Modulus": "3500 – 4000",
+        "Hardness": "52 – 58",
+        "Continuous Service Temperature": "-250°C to +260°C",
+        "Thermal Conductivity (Max.)": "6"
       },
       "technicalData": {
         "Thickness": "1.0mm to 6.0mm",
@@ -3429,7 +3495,7 @@
         "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_2.png",
         "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_3.png"
       ],
-      "datasheet": "/datasheets/generated_html/Type_600.html"
+      "datasheet": "/datasheets/new_generated_html/Type_600.html"
     },
     {
       "id": 70,
@@ -3443,10 +3509,13 @@
       "description": "Specially designed aramid-based wiping pad for the wire drawing industry, providing exceptional strength and durability for high-speed continuous operations. Engineered to withstand extreme mechanical stress.",
       "image": "/FZC Inmarco Product Shoot/Yellow Wiping Pad/Yellow Wiping Pad_1.png",
       "specifications": {
+        "pH Range": "0 - 14 (Universal)",
         "Temperature Range": "-200°C to +450°C",
-        "pH Range": "0-14",
-        "Pressure": "500 BAR",
-        "Size Range": "6.5sq.mm to 50sq.mm"
+        "Maximum Pressure": "500 bar",
+        "Available Sizes": "6.5 sq mm to 50 sq mm",
+        "Material Composition": "Copolymer Yarn with Mineral Oil & Fluoropolymer Suspensoid",
+        "Reinforcement": "High-Tensile Inorganic Filaments",
+        "Construction": "Dense and Heavy, Specially Engineered Manufacturing"
       },
       "technicalData": {
         "Material": "Reinforced copolymer yarn with inorganic filaments",
@@ -3480,7 +3549,7 @@
         "/FZC Inmarco Product Shoot/Wiping Pad/Wiping Pad_1.png",
         "/FZC Inmarco Product Shoot/Wiping Pad/Wiping Pad_2.png"
       ],
-      "datasheet": "/datasheets/generated_html/Aramid_Wiping_Pad.html"
+      "datasheet": "/datasheets/new_generated_html/Aramid_Wiping_Pad.html"
     },
     {
       "id": 71,
@@ -3494,9 +3563,12 @@
       "description": "Specially designed high-temperature wiping pad for the wire drawing industry, providing exceptional thermal stability and durability for high-speed operations. Engineered for elevated temperature wire processing applications.",
       "image": "/FZC Inmarco Product Shoot/Yellow Wiping Pad/Yellow Wiping Pad_1.png",
       "specifications": {
+        "pH Range": "0 - 14 (Universal)",
         "Temperature Range": "-200°C to +650°C",
-        "pH Range": "0-14",
-        "Size Range": "6.5sq.mm to 50sq.mm"
+        "Available Sizes": "6.5 sq mm to 50 sq mm",
+        "Material Composition": "Carbon Fiber, Volcanic Rock Fiber, Alumino Silicate Fiber",
+        "Impregnation": "Special PTFE Suspensoid",
+        "Service Life vs Conventional": "3-4 times longer"
       },
       "technicalData": {
         "Material": "Hybrid blend of Carbon fiber, Volcanic rock fiber, and Alumino Silicate fiber",
@@ -3530,7 +3602,7 @@
         "/FZC Inmarco Product Shoot/Yellow Wiping Pad/Yellow Wiping Pad_2.png",
         "/FZC Inmarco Product Shoot/Yellow Wiping Pad/Yellow Wiping Pad_3.png"
       ],
-      "datasheet": "/datasheets/generated_html/High_Temperature_Wiping_Pad.html"
+      "datasheet": "/datasheets/new_generated_html/High_Temperature_Wiping_Pad.html"
     },
     {
       "id": 72,
@@ -3544,14 +3616,26 @@
       "description": "FG 320 is manufactured from exfoliated graphite through acid treatment with 100% acids washed out by DM water. The manufacturing process is mechanical without incorporation of any additives or bonding material, resulting in flexible pure graphite sheet with carbon content 99% to 99.9%. Highly resilient and easily adapts to irregularities of flange or surface to make perfect seal. Suitable for metallic, glass, and enamel flanges, designed for trouble-free change over which ultimately reduces maintenance cost. Dimensionally stable under extreme pressure surge and suitable for cryogenic services.",
       "image": "/FZC Inmarco Product Shoot/Plain Graphite Gasket/96_01.JPG",
       "specifications": {
-        "Temperature Range": "Min. -200°C to Max. 550°C",
-        "pH Range": "0-14",
-        "Pressure": "150 BAR",
-        "Thickness": "0.5mm to 6mm",
+        "pH Range": "0 - 14 (Universal)",
+        "Temperature (°C)": "Min -200 to max. 550",
+        "Pressure (BAR)": "Vacuum 28Hg to 150",
+        "Thickness (mm)": "0.5 to 6",
         "Carbon Content": "99% to 99.9%",
         "Sulphur Content": "Less than 750ppm",
         "Chloride Content": "Less than 45ppm",
-        "Ash Content": "Less than 1%"
+        "Ash Content": "Less than 1%",
+        "Tolerance on Density": "±0.05g/cc",
+        "Thickness of Sheet": "0.5mm ~ 6mm",
+        "Tolerance on Thickness": "±0.1mm ~ 0.25",
+        "Compressibility (ASTM F36)": "35-40 %",
+        "Recovery (ASTM F36)": "15-18%",
+        "\"m\" Factor (3mm thick)": "2.5",
+        "\"y\" Factor (psi)": "2176",
+        "Creep Relaxation (ASTM F38)": "5%",
+        "Ignition Loss %": "@ 850°F (454°C): 1@ 1022°F (550°C): 8",
+        "Sealability (ASTM F37)": "Fuel A, mL/hr: 0.5Nitrogen, mL/hr: 2.0",
+        "DIN 3535-Gas Permeability": "0.40",
+        "Temperature Range": "-200 to 3315 in reducing condition480 in oxidizing condition550 in steam"
       },
       "technicalData": {
         "Material": "Pure exfoliated graphite (99-99.9% carbon)",
@@ -3598,7 +3682,7 @@
         "/FZC Inmarco Product Shoot/Plain Graphite Gasket/Plain Graphite Gasket_02.JPG",
         "/FZC Inmarco Product Shoot/Plain Graphite Gasket/Plain Graphite Gasket_03.JPG"
       ],
-      "datasheet": "/datasheets/generated_html/FG_320.html"
+      "datasheet": "/datasheets/new_generated_html/FG_320.html"
     },
     {
       "id": 73,
@@ -3667,7 +3751,7 @@
         "/FZC Inmarco Product Shoot/SS Gasket/SS Gasket_2_1.png",
         "/FZC Inmarco Product Shoot/SS Gasket/SS Gasket_3_1.png"
       ],
-      "datasheet": "/datasheets/generated_html/SSF_321.html"
+      "datasheet": "/datasheets/new_generated_html/SSF_321.html"
     }
   ],
   "inactiveProducts": [
@@ -3717,7 +3801,7 @@
         "/FZC Inmarco Product Shoot/HY 107/HY 107_2_2.png",
         "/FZC Inmarco Product Shoot/HY 107/HY 107_3.png"
       ],
-      "datasheet": "/datasheets/generated_html/HY_107.html"
+      "datasheet": "/datasheets/new_generated_html/HY_107.html"
     },
     {
       "id": 14,
@@ -3768,7 +3852,7 @@
         "/FZC Inmarco Product Shoot/PE 504/PE 504_2.png",
         "/FZC Inmarco Product Shoot/PE 504/PE 504_3.png"
       ],
-      "datasheet": "/datasheets/generated_html/OR_125G.html"
+      "datasheet": "/datasheets/new_generated_html/OR_125G.html"
     },
     {
       "id": 29,
@@ -3815,7 +3899,7 @@
         "/FZC Inmarco Product Shoot/OR 120/OR 120_1.png",
         "/FZC Inmarco Product Shoot/OR 120/OR-120_3.JPG"
       ],
-      "datasheet": "/datasheets/generated_html/OR_151.html"
+      "datasheet": "/datasheets/new_generated_html/OR_151.html"
     },
     {
       "id": 30,
@@ -3863,7 +3947,7 @@
         "/FZC Inmarco Product Shoot/OR 120/OR 120_1.png",
         "/FZC Inmarco Product Shoot/OR 120/OR-120_3.JPG"
       ],
-      "datasheet": "/datasheets/generated_html/OR_151.html"
+      "datasheet": "/datasheets/new_generated_html/OR_151.html"
     },
     {
       "id": 36,
@@ -3914,7 +3998,7 @@
         "/FZC Inmarco Product Shoot/PE 104 C/PE 104 C_Edited_2.png",
         "/FZC Inmarco Product Shoot/PE 104 C/PE 140 C_5.png"
       ],
-      "datasheet": "/datasheets/generated_html/PE_104C.html"
+      "datasheet": "/datasheets/new_generated_html/STYLE_PE_104C.html"
     },
     {
       "id": 37,
@@ -3962,7 +4046,7 @@
         "/FZC Inmarco Product Shoot/PA 106/PA 106_2.png",
         "/FZC Inmarco Product Shoot/PA 106/PA 106_3.png"
       ],
-      "datasheet": "/datasheets/generated_html/PA_106.html"
+      "datasheet": "/datasheets/new_generated_html/PA_106.html"
     },
     {
       "id": 40,
@@ -4018,7 +4102,7 @@
         "/FZC Inmarco Product Shoot/PE 504/PE 504_2.png",
         "/FZC Inmarco Product Shoot/PE 504/PE 504_3.png"
       ],
-      "datasheet": "/datasheets/generated_html/PE_504.html"
+      "datasheet": "/datasheets/new_generated_html/PE_504.html"
     },
     {
       "id": 48,
@@ -4065,7 +4149,7 @@
         "/FZC Inmarco Product Shoot/IN 123/IN 123_1_2.png",
         "/FZC Inmarco Product Shoot/IN 123/IN 123_2_2.png"
       ],
-      "datasheet": "/datasheets/generated_html/IN_123.html"
+      "datasheet": "/datasheets/new_generated_html/IN_123.html"
     },
     {
       "id": 9,
@@ -4116,7 +4200,7 @@
         "/FZC Inmarco Product Shoot/HY 107/HY 107_2_2.png",
         "/FZC Inmarco Product Shoot/HY 107/HY 107_3.png"
       ],
-      "datasheet": "/datasheets/generated_html/HY_107.html"
+      "datasheet": "/datasheets/new_generated_html/HY_107.html"
     },
     {
       "id": 17,
@@ -4168,7 +4252,7 @@
         "/FZC Inmarco Product Shoot/CG 101/CG 101_2.png",
         "/FZC Inmarco Product Shoot/CG 101/CG 101_3.png"
       ],
-      "datasheet": "/datasheets/generated_html/CG_101.html"
+      "datasheet": "/datasheets/new_generated_html/CG_101.html"
     },
     {
       "id": 38,
@@ -4220,7 +4304,7 @@
         "/FZC Inmarco Product Shoot/PA 106/PA 106_2.png",
         "/FZC Inmarco Product Shoot/PA 106/PA 106_3.png"
       ],
-      "datasheet": "/datasheets/generated_html/PA_106.html"
+      "datasheet": "/datasheets/new_generated_html/PA_106.html"
     }
   ]
 }

@@ -6,42 +6,31 @@
     <title>Laminar Seal - Technical Datasheet</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
+        * { margin: 0; padding: 0; box-sizing: border-box; -webkit-print-color-adjust: exact; print-color-adjust: exact; color-adjust: exact; }
         @page { size: A4 portrait; margin: 0; }
-        @media print { body { margin: 0; padding: 0; } .product-image-container { box-shadow: none !important; } }
+        @media print { body { margin: 0; padding: 0; } }
         html { margin: 0; padding: 0; }
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; color: #2b2a29; background: white; width: 210mm; min-height: 290mm; margin: 0; padding: 0; }
         .page-1 { width: 210mm; height: 290mm; background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%); position: relative; overflow: hidden; page-break-after: always; }
         .header { padding: 20mm 15mm; display: flex; justify-content: center; align-items: center; }
-        .logo-section { color: white; }
+        .logo-section { color: white; text-align: center; }
         .logo-section img { height: 200px; width: auto; }
-        .hero-section { position: relative; margin-top: 10px; height: 100%; background-image: url('../../oil and gas.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; }
+        .hero-section { position: relative; margin-top: 10px; height: 100%; background-image: url('../../fertilizer.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; }
         .hero-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to right, rgba(43, 42, 41, 0.95) 0%, rgba(43, 42, 41, 0.7) 50%, transparent 100%); }
         .hero-content { position: relative; z-index: 10; padding: 35mm 15mm 0 15mm; max-width: 150mm; }
         .red-accent { width: 50mm; height: 4px; background: #e31e24; margin-bottom: 10mm; }
         .product-name { font-size: 52pt; font-weight: 700; color: white; margin-bottom: 6mm; letter-spacing: -1.5px; line-height: 1.1; }
-        .product-tagline { font-size: 16pt; color: #ffffff; max-width: 140mm; line-height: 1.5; font-weight: 300; }
+        .product-tagline { font-size: 15pt; color: #ffffff; max-width: 140mm; line-height: 1.5; font-weight: 300; }
         .page-2, .page-3, .page-4 { width: 210mm; height: 290mm; background: white; position: relative; page-break-after: always; }
         .page-4 { page-break-after: auto; }
         .page-2-header { background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%); padding: 12mm 15mm; color: white; display: flex; justify-content: space-between; align-items: center; }
         .page-2-title { font-size: 28pt; font-weight: bold; }
         .content-section { padding: 10mm 15mm; }
-        .description { font-size: 10pt; line-height: 1.5; color: #333; margin-bottom: 0; text-align: justify; }
-
-        .description-with-image {
-            margin-bottom: 10mm;
-        }
-
-        .description-text {
-            display: block;
-        }
-
+        .description { font-size: 10pt; line-height: 1.5; color: #333; margin-bottom: 5mm; text-align: justify; }
         .side-product-image {
             float: right;
-            margin-left: 5mm;
-            margin-bottom: 5mm;
-            margin-right: 0;
-            width: 85mm;
+            margin-left: 6mm;
+            margin-bottom: 4mm;
         }
 
         .product-image-container {
@@ -49,11 +38,13 @@
             border-radius: 5mm;
             box-shadow: 0 4px 15px rgba(0,0,0,0.3);
             border: 3px solid #e31e24;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
         }
 
         .product-image-small {
-            height: 55mm;
             width: 85mm;
+            height: 55mm;
             border-radius: 4mm;
             object-fit: cover;
             display: block;
@@ -63,7 +54,7 @@
         .features-grid { display: flex; gap: 10mm; margin-bottom: 0; }
         .features-column { flex: 1; }
         .features-column h3 { font-size: 12pt; color: #2b2a29; margin-bottom: 3mm; padding-bottom: 2mm; border-bottom: 2px solid #e31e24; font-weight: 600; }
-        .feature-item { display: flex; margin-bottom: 1mm; font-size: 8.5pt; line-height: 1.4; }
+        .feature-item { display: flex; margin-bottom: 3mm; font-size: 10pt; line-height: 1.8; }
         .bullet { color: #e31e24; font-weight: bold; margin-right: 3mm; font-size: 8pt; margin-top: 0.8mm; }
         .feature-text { flex: 1; color: #444; }
         .benefits-box { background: linear-gradient(135deg, #e31e24 0%, #c41a20 100%); color: white; padding: 8mm; border-radius: 3mm; margin-bottom: 8mm; }
@@ -84,6 +75,7 @@
         .company-name { font-size: 10pt; font-weight: bold; margin-bottom: 2mm; color: #e31e24; }
         .contact-info { color: #ccc; }
         .disclaimer { font-size: 6pt; color: #888; margin-top: 3mm; max-width: 160mm; }
+        .note-box { background: #f5f5f5; padding: 6mm; border-radius: 3mm; border-left: 4px solid #2b2a29; margin-top: 5mm; font-size: 9pt; line-height: 1.5; color: #444; }
     </style>
 </head>
 <body>
@@ -97,7 +89,7 @@
             <div class="hero-overlay"></div>
             <div class="hero-content">
                 <div class="red-accent"></div>
-                <h1 class="product-name">Laminar Seal</h1>
+                <h1 class="product-name">LAMINAR<br>SEAL</h1>
                 <p class="product-tagline">Precision Valve Seat Seal for Critical Shut-Off Applications</p>
             </div>
         </div>
@@ -107,221 +99,23 @@
         <div class="page-2-header">
             <div>
                 <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
-                <h2 class="page-2-title">Laminar Seal</h2>
+                <h2 class="page-2-title">LAMINAR SEAL</h2>
             </div>
         </div>
         <div class="content-section">
-            <div class="description-with-image">
-                <div class="side-product-image">
-                    <div class="product-image-container">
-                        <img src="../../FZC%20Inmarco%20Product%20Shoot/Laminar%20Gasket/Laminar%20Gasket_2.png" alt="Laminar Seal" class="product-image-small" onerror="this.style.display='none'">
-                    </div>
-                </div>
-
-                <div class="description-text">
-                    <p class="description">Inmarco Laminar Seal is a precision-engineered sealing solution specifically developed for demanding valve sealing environments, particularly Double Offset Butterfly Valves and Triple Offset Butterfly Valves.The seal utilizes a robust Metal–Filler–Metal laminated construction, minimizing internal leak paths while providing exceptional sealing integrity under high-cycle and bidirectional flow conditions.<br><br>Its pressure-activated design enhances sealing performance as system pressure increases, making it ideal for critical shut-off applications.The combination of metallic strength and resilient sealing materials ensures excellent resistance to fire, blowout, corrosion, and thermal cycling.<br><br>This design delivers long service life and reliable performance in severe operating conditions commonly encountered in the Oil & Gas, Power Generation, Nuclear, Marine, and Water Treatment industries.</p>
+            <div class="side-product-image">
+                <div class="product-image-container">
+                    <img src="../../FZC%20Inmarco%20Product%20Shoot/Laminar%20Gasket/Laminar%20Gasket_2.png" alt="Product Image" class="product-image-small" onerror="this.style.display='none'">
                 </div>
             </div>
+            <p class="description">Inmarco Laminar Seal is a precision-engineered sealing solution specifically developed for demanding valve sealing environments, particularly Double Offset Butterfly Valves and Triple Offset Butterfly Valves.</p>
+            
+            <p class="description">The seal utilizes a robust Metal–Filler–Metal laminated construction, minimizing internal leak paths while providing exceptional sealing integrity under high-cycle and bidirectional flow conditions. Its pressure-activated design enhances sealing performance as system pressure increases, making it ideal for critical shut-off applications.</p>
+            
+            <p class="description">The combination of metallic strength and resilient sealing materials ensures excellent resistance to fire, blowout, corrosion, and thermal cycling. This design delivers long service life and reliable performance in severe operating conditions commonly encountered in the Oil & Gas, Power Generation, Nuclear, Marine, and Water Treatment industries.</p>
+
             <div class="section-divider"></div>
-            <div class="features-grid">
-                <div class="features-column">
-                    <h3>Key Features</h3>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Optimized sealing performance for critical-service valves including double and triple offset butterfly valves</span></div>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Precision-engineered to interface accurately with valve hardware for enhanced seat conformity</span></div>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Supports reliable bidirectional sealing under changing flow conditions</span></div>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Metal–Filler–Metal construction provides excellent resistance to blowout, fire, and corrosion</span></div>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Low-friction sealing design minimizes wear and extends operational life</span></div>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Self-energizing and pressure-activated sealing mechanism improves performance as internal pressure increases</span></div>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Standard sizes available from 75 mm to 1100 mm (3" to 42")</span></div>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Custom profiles and dimensions available upon request</span></div>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Designed for demanding applications requiring reliable shut-off and long cycle life</span></div>
-                </div>
-                <div class="features-column">
-                    <h3>Applications</h3>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Product DescriptionInmarco Laminar Seal is a precision-engineered sealing solution specifically developed for demanding valve sealing environments, particularly Double Offset Butterfly Valves and Triple Offset Butterfly Valves.The seal utilizes a robust Metal–Filler–Metal laminated construction, minimizing internal leak paths while providing exceptional sealing integrity under high-cycle and bidirectional flow conditions. Its pressure-activated design enhances sealing performance as system pressure increases, making it ideal for critical shut-off applications.The combination of metallic strength and resilient sealing materials ensures excellent resistance to fire, blowout, corrosion, and thermal cycling. This design delivers long service life and reliable performance in severe operating conditions commonly encountered in the Oil & Gas, Power Generation, Nuclear, Marine, and Water Treatment industries.Key Features</span></div>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Optimized sealing performance for critical-service valves including double and triple offset butterfly valves</span></div>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Precision-engineered to interface accurately with valve hardware for enhanced seat conformity</span></div>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Supports reliable bidirectional sealing under changing flow conditions</span></div>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Metal–Filler–Metal construction provides excellent resistance to blowout, fire, and corrosion</span></div>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Low-friction sealing design minimizes wear and extends operational life</span></div>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Self-energizing and pressure-activated sealing mechanism improves performance as internal pressure increases</span></div>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Standard sizes available from 75 mm to 1100 mm (3" to 42")</span></div>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Custom profiles and dimensions available upon request</span></div>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Designed for demanding applications requiring reliable shut-off and long cycle lifeTypical ApplicationsValve Applications</span></div>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Double Offset Butterfly Valves</span></div>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Triple Offset Butterfly Valves</span></div>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">High-Integrity Shut-Off Valves</span></div>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Steam Isolation Valves</span></div>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Thermal Cycling ValvesIndustries Served</span></div>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Oil & Gas</span></div>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Power Generation</span></div>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Nuclear Power Plants</span></div>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Water Treatment & Desalination</span></div>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Marine & Offshore</span></div>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Petrochemical Processing</span></div>
-                </div>
-            </div>
-            <div class="features-column" style="margin-bottom: 10mm;">
-<div class="features-column">
-                    <h3>Industries Served</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Oil &amp; Gas</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Power Generation</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Nuclear Power Plants</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Water Treatment &amp; Desalination</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Marine &amp; Offshore</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Petrochemical Processing</span>
-                    </div>
-                </div>
-            </div>
 
-            <div class="features-column" style="margin-bottom: 10mm;">
-<div class="features-column">
-                    <h3>Engineering Notes</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Laminar Seals are designed for severe-service valve applications where reliable shut-off, thermal cycling resistance, and long cycle life are critical. Material selection should be based on process media, operating temperature, pressure conditions, and valve design requirements.</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">For specialized applications, custom material combinations and profiles are available upon consultation with INMARCO engineering.</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="benefits-box">
-                <h3>Performance Advantages</h3>
-                <div class="benefit-item"><span class="check-icon">✓</span><span>● Exceptional sealing performance in double and triple offset butterfly valves</span></div>
-                <div class="benefit-item"><span class="check-icon">✓</span><span>● Minimizes internal leak paths for enhanced shut-off capability</span></div>
-                <div class="benefit-item"><span class="check-icon">✓</span><span>● Reliable bidirectional sealing performance</span></div>
-                <div class="benefit-item"><span class="check-icon">✓</span><span>● Fire-safe construction suitable for critical applications</span></div>
-                <div class="benefit-item"><span class="check-icon">✓</span><span>● Excellent resistance to corrosion and aggressive media</span></div>
-                <div class="benefit-item"><span class="check-icon">✓</span><span>● Low operating friction reduces seat wear and maintenance requirements</span></div>
-                <div class="benefit-item"><span class="check-icon">✓</span><span>● Pressure-assisted sealing improves performance under increasing pressure</span></div>
-                <div class="benefit-item"><span class="check-icon">✓</span><span>● Resistant to thermal cycling and fluctuating operating conditions</span></div>
-                <div class="benefit-item"><span class="check-icon">✓</span><span>● Long service life in high-cycle applications</span></div>
-                <div class="benefit-item"><span class="check-icon">✓</span><span>● Designed for more than 10,000 operating cycles under dynamic conditions</span></div>
-                <div class="benefit-item"><span class="check-icon">✓</span><span>● Suitable for severe-service applications in Oil &amp; Gas and Nuclear industries</span></div>
-                <div class="benefit-item"><span class="check-icon">✓</span><span>● Customizable materials and profiles to suit specific valve designs</span></div>
-            </div>
-            <div class="benefits-box">
-                <h3>Performance Advantages</h3>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>● Exceptional sealing performance in double and triple offset butterfly valves</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>● Minimizes internal leak paths for enhanced shut-off capability</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>● Reliable bidirectional sealing performance</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>● Fire-safe construction suitable for critical applications</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>● Excellent resistance to corrosion and aggressive media</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>● Low operating friction reduces seat wear and maintenance requirements</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>● Pressure-assisted sealing improves performance under increasing pressure</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>● Resistant to thermal cycling and fluctuating operating conditions</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>● Long service life in high-cycle applications</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>● Designed for more than 10,000 operating cycles under dynamic conditions</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>● Suitable for severe-service applications in Oil &amp; Gas and Nuclear industries</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>● Customizable materials and profiles to suit specific valve designs</span>
-                </div>
-            </div>
-            <div class="benefits-box">
-                <h3>Performance Advantages</h3>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>● Exceptional sealing performance in double and triple offset butterfly valves</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>● Minimizes internal leak paths for enhanced shut-off capability</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>● Reliable bidirectional sealing performance</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>● Fire-safe construction suitable for critical applications</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>● Excellent resistance to corrosion and aggressive media</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>● Low operating friction reduces seat wear and maintenance requirements</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>● Pressure-assisted sealing improves performance under increasing pressure</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>● Resistant to thermal cycling and fluctuating operating conditions</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>● Long service life in high-cycle applications</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>● Designed for more than 10,000 operating cycles under dynamic conditions</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>● Suitable for severe-service applications in Oil &amp; Gas and Nuclear industries</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>● Customizable materials and profiles to suit specific valve designs</span>
-                </div>
-            </div>
             <div class="tech-specs-section">
                 <h3>Technical Properties</h3>
                 <table class="tech-table">
@@ -374,6 +168,7 @@
                         </tr>
                     </tbody>
                 </table>
+                <p style="font-size: 8pt; color: #666; margin-top: 3mm; font-style: italic;">* Depending on valve design, operating conditions, and material selection.</p>
             </div>
         </div>
     </div>
@@ -382,17 +177,79 @@
         <div class="page-2-header">
             <div>
                 <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
-                <h2 class="page-2-title">Laminar Seal</h2>
+                <h2 class="page-2-title">LAMINAR SEAL</h2>
             </div>
         </div>
         <div class="content-section">
-            <div class="tech-specs-section">
+            <div class="features-grid">
                 <div class="features-column">
-                    <h3>Material Options</h3>
+                    <h3>Key Features</h3>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Optimized sealing performance for critical-service valves including double and triple offset butterfly valves</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Precision-engineered to interface accurately with valve hardware for enhanced seat conformity</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Supports reliable bidirectional sealing under changing flow conditions</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Metal–Filler–Metal construction provides excellent resistance to blowout, fire, and corrosion</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Low-friction sealing design minimizes wear and extends operational life</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Self-energizing and pressure-activated sealing mechanism improves performance as internal pressure increases</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Standard sizes available from 75 mm to 1100 mm (3" to 42")</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Custom profiles and dimensions available upon request</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Designed for demanding applications requiring reliable shut-off and long cycle life</span></div>
+                </div>
+                <div class="features-column">
+                    <h3>Valve Applications</h3>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Double Offset Butterfly Valves</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Triple Offset Butterfly Valves</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">High-Integrity Shut-Off Valves</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Steam Isolation Valves</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Thermal Cycling Valves</span></div>
+
+                    <h3 style="margin-top: 10mm;">Industries Served</h3>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Oil & Gas</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Power Generation</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Nuclear Power Plants</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Water Treatment & Desalination</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Marine & Offshore</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Petrochemical Processing</span></div>
                 </div>
             </div>
+
+            <div class="tech-specs-section" style="margin-top: 8mm;">
+                <h3>Material Options</h3>
+                <table class="tech-table">
+                    <thead>
+                        <tr>
+                            <th>Component</th>
+                            <th>Available Materials</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Metal Layers</td>
+                            <td>SS304, SS316L, Inconel®, Other Specialty Alloys</td>
+                        </tr>
+                        <tr>
+                            <td>Filler Materials</td>
+                            <td>Flexible Graphite, PTFE, Mica</td>
+                        </tr>
+                        <tr>
+                            <td>Special Materials</td>
+                            <td>Available Upon Request</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-4">
+        <div class="page-2-header">
+            <div>
+                <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
+                <h2 class="page-2-title">LAMINAR SEAL</h2>
+            </div>
+        </div>
+        <div class="content-section">
             <div class="benefits-box">
-                <h3>Performance Benefits</h3>
+                <h3>Performance Advantages</h3>
                 <div class="benefit-item"><span class="check-icon">✓</span><span>Exceptional sealing performance in double and triple offset butterfly valves</span></div>
                 <div class="benefit-item"><span class="check-icon">✓</span><span>Minimizes internal leak paths for enhanced shut-off capability</span></div>
                 <div class="benefit-item"><span class="check-icon">✓</span><span>Reliable bidirectional sealing performance</span></div>
@@ -404,7 +261,12 @@
                 <div class="benefit-item"><span class="check-icon">✓</span><span>Long service life in high-cycle applications</span></div>
                 <div class="benefit-item"><span class="check-icon">✓</span><span>Designed for more than 10,000 operating cycles under dynamic conditions</span></div>
                 <div class="benefit-item"><span class="check-icon">✓</span><span>Suitable for severe-service applications in Oil & Gas and Nuclear industries</span></div>
-                <div class="benefit-item"><span class="check-icon">✓</span><span>Customizable materials and profiles to suit specific valve designsEngineering NotesLaminar Seals are designed for severe-service valve applications where reliable shut-off, thermal cycling resistance, and long cycle life are critical. Material selection should be based on process media, operating temperature, pressure conditions, and valve design requirements.For specialized applications, custom material combinations and profiles are available upon consultation with Inmarco engineering.DISCLAIMERAll technical information, recommendations, and performance data provided in this technical datasheet are based on current knowledge, laboratory testing, and industrial experience. Actual product performance may vary depending on operating conditions, equipment design, installation practices, process parameters. Final product selection and suitability should be determined by the user based on the specific service conditions and application requirements.</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Customizable materials and profiles to suit specific valve designs</span></div>
+            </div>
+
+            <div class="note-box">
+                <strong>Engineering Notes:</strong><br>
+                Laminar Seals are designed for severe-service valve applications where reliable shut-off, thermal cycling resistance, and long cycle life are critical. Material selection should be based on process media, operating temperature, pressure conditions, and valve design requirements. For specialized applications, custom material combinations and profiles are available upon consultation with Inmarco engineering.
             </div>
         </div>
         <div class="footer">
@@ -421,5 +283,6 @@
             </div>
         </div>
     </div>
+
 </body>
 </html>

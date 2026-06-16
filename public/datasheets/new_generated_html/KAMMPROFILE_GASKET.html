@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kammprofile Gasket - Technical Datasheet</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; -webkit-print-color-adjust: exact; print-color-adjust: exact; color-adjust: exact; }
+        @page { size: A4 portrait; margin: 0; }
+        @media print { body { margin: 0; padding: 0; } }
+        html { margin: 0; padding: 0; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; color: #2b2a29; background: white; width: 210mm; min-height: 290mm; margin: 0; padding: 0; }
+        .page-1 { width: 210mm; height: 290mm; background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%); position: relative; overflow: hidden; page-break-after: always; }
+        .header { padding: 20mm 15mm; display: flex; justify-content: center; align-items: center; }
+        .logo-section { color: white; text-align: center; }
+        .logo-section img { height: 200px; width: auto; }
+        .hero-section { position: relative; margin-top: 10px; height: 100%; background-image: url('../../fertilizer.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; }
+        .hero-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to right, rgba(43, 42, 41, 0.95) 0%, rgba(43, 42, 41, 0.7) 50%, transparent 100%); }
+        .hero-content { position: relative; z-index: 10; padding: 35mm 15mm 0 15mm; max-width: 150mm; }
+        .red-accent { width: 50mm; height: 4px; background: #e31e24; margin-bottom: 10mm; }
+        .product-name { font-size: 48pt; font-weight: 700; color: white; margin-bottom: 6mm; letter-spacing: -1.5px; line-height: 1.1; }
+        .product-tagline { font-size: 14pt; color: #ffffff; max-width: 140mm; line-height: 1.5; font-weight: 300; }
+        .page-2, .page-3, .page-4, .page-5 { width: 210mm; height: 290mm; background: white; position: relative; page-break-after: always; }
+        .page-5 { page-break-after: auto; }
+        .page-2-header { background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%); padding: 12mm 15mm; color: white; display: flex; justify-content: space-between; align-items: center; }
+        .page-2-title { font-size: 24pt; font-weight: bold; }
+        .content-section { padding: 10mm 15mm; }
+        .description { font-size: 10pt; line-height: 1.5; color: #333; margin-bottom: 5mm; text-align: justify; }
+        .side-product-image {
+            float: right;
+            margin-left: 6mm;
+            margin-bottom: 4mm;
+        }
+
+        .product-image-container {
+            background: white;
+            border-radius: 5mm;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            border: 3px solid #e31e24;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+
+        .product-image-small {
+            width: 85mm;
+            height: 55mm;
+            border-radius: 4mm;
+            object-fit: cover;
+            display: block;
+        }
+
+        .section-divider { height: 2px; background: #e31e24; margin: 5mm 0; }
+        .features-grid { display: flex; gap: 10mm; margin-bottom: 0; }
+        .features-column { flex: 1; }
+        .features-column h3 { font-size: 12pt; color: #2b2a29; margin-bottom: 3mm; padding-bottom: 2mm; border-bottom: 2px solid #e31e24; font-weight: 600; }
+        .feature-item { display: flex; margin-bottom: 3mm; font-size: 10pt; line-height: 1.8; }
+        .bullet { color: #e31e24; font-weight: bold; margin-right: 3mm; font-size: 8pt; margin-top: 0.8mm; }
+        .feature-text { flex: 1; color: #444; }
+        .benefits-box { background: linear-gradient(135deg, #e31e24 0%, #c41a20 100%); color: white; padding: 8mm; border-radius: 3mm; margin-bottom: 6mm; }
+        .benefits-box h3 { font-size: 14pt; margin-bottom: 4mm; }
+        .benefit-item { display: flex; align-items: flex-start; margin-bottom: 3mm; font-size: 9pt; line-height: 1.4; }
+        .benefit-item:last-child { margin-bottom: 0; }
+        .check-icon { color: white; font-weight: bold; margin-right: 3mm; font-size: 11pt; }
+        .tech-specs-section { margin-top: 5mm; }
+        .tech-specs-section h3 { font-size: 12pt; color: #2b2a29; margin-bottom: 3mm; padding-bottom: 2mm; border-bottom: 2px solid #e31e24; font-weight: 600; }
+        .tech-table { width: 100%; border-collapse: collapse; font-size: 9pt; }
+        .tech-table thead { background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%); color: white; }
+        .tech-table th { padding: 3mm; text-align: left; font-weight: 600; border: 1px solid #ddd; }
+        .tech-table td { padding: 2.5mm; border: 1px solid #ddd; color: #444; }
+        .tech-table tbody tr:nth-child(even) { background-color: #f9f9f9; }
+        .footer { position: absolute; bottom: 0; left: 0; right: 0; background: #2b2a29; color: white; padding: 8mm 15mm; }
+        .footer-content { display: flex; justify-content: space-between; align-items: center; }
+        .company-info { font-size: 7pt; line-height: 1.6; }
+        .company-name { font-size: 10pt; font-weight: bold; margin-bottom: 2mm; color: #e31e24; }
+        .contact-info { color: #ccc; }
+        .disclaimer { font-size: 6pt; color: #888; margin-top: 3mm; max-width: 160mm; }
+        .material-box { background: #f5f5f5; padding: 6mm; border-radius: 3mm; border-left: 4px solid #2b2a29; margin-top: 5mm; }
+        .material-box h4 { font-size: 11pt; color: #2b2a29; margin-bottom: 3mm; font-weight: 600; }
+        .material-box ul { list-style: none; padding: 0; margin: 0; column-count: 2; column-gap: 5mm; }
+        .material-box li { display: flex; align-items: flex-start; margin-bottom: 2mm; font-size: 9pt; line-height: 1.4; color: #444; break-inside: avoid; }
+        .material-box li:before { content: "•"; color: #2b2a29; font-weight: bold; margin-right: 3mm; font-size: 11pt; }
+        .service-media-box { background: #f5f5f5; padding: 6mm; border-radius: 3mm; border-left: 4px solid #e31e24; margin-top: 5mm; }
+        .service-media-box h4 { font-size: 11pt; color: #2b2a29; margin-bottom: 3mm; font-weight: 600; }
+        .service-media-box ul { list-style: none; padding: 0; margin: 0; column-count: 2; column-gap: 5mm; }
+        .service-media-box li { display: flex; align-items: flex-start; margin-bottom: 2mm; font-size: 9pt; line-height: 1.4; color: #444; break-inside: avoid; }
+        .service-media-box li:before { content: "✓"; color: #e31e24; font-weight: bold; margin-right: 3mm; font-size: 11pt; }
+    </style>
+</head>
+<body>
+    <div class="page-1">
+        <div class="header">
+            <div class="logo-section">
+                <img src="../../../src/assets/inmarco-tagline-logo1.png" alt="Inmarco - Innovations in Fluid Sealing">
+            </div>
+        </div>
+        <div class="hero-section">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <div class="red-accent"></div>
+                <h1 class="product-name">KAMMPROFILE<br>GASKET</h1>
+                <p class="product-tagline">High-Performance Serrated Metal Gasket for Demanding Industrial Applications</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-2">
+        <div class="page-2-header">
+            <div>
+                <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
+                <h2 class="page-2-title">KAMMPROFILE GASKET</h2>
+            </div>
+        </div>
+        <div class="content-section">
+            <div class="side-product-image">
+                <div class="product-image-container">
+                    <img src="../../FZC%20Inmarco%20Product%20Shoot/Kam%20Profile/Kam%20Profile%20-%203.png" alt="Product Image" class="product-image-small" onerror="this.style.display='none'">
+                </div>
+            </div>
+            <p class="description">Inmarco Kammprofile Gaskets are high-performance metallic gaskets designed with a precision-machined serrated metal core and soft sealing layers bonded to both sealing surfaces. This unique construction combines the mechanical strength of metal with the superior sealing characteristics of soft facing materials, delivering exceptional sealing reliability across a wide range of pressure and temperature conditions.</p>
+            
+            <p class="description">The concentric serrations concentrate gasket loading and create highly effective sealing barriers while minimizing flange stress and bolt load requirements. Kammprofile gaskets offer excellent resistance to blowout, thermal cycling, pressure fluctuations, and radial shear forces, making them ideal for critical industrial applications.</p>
+            
+            <p class="description">The reusable metal core allows refurbishment by replacing only the soft sealing layers, significantly reducing maintenance costs and extending service life.</p>
+
+            <div class="section-divider"></div>
+
+            <div class="tech-specs-section">
+                <h3>Technical Properties</h3>
+                <table class="tech-table">
+                    <thead>
+                        <tr>
+                            <th>Property</th>
+                            <th>Specification</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Construction</td>
+                            <td>Serrated Metal Core with Soft Facing Layers</td>
+                        </tr>
+                        <tr>
+                            <td>Pressure Rating</td>
+                            <td>Up to 250 bar (application dependent)</td>
+                        </tr>
+                        <tr>
+                            <td>Temperature Range</td>
+                            <td>Cryogenic to +1000°C (depending on facing material)</td>
+                        </tr>
+                        <tr>
+                            <td>Facing Materials</td>
+                            <td>Graphite, PTFE, Mica, Specialty Fillers</td>
+                        </tr>
+                        <tr>
+                            <td>Core Materials</td>
+                            <td>SS304, SS316, SS321, SS347, Inconel, Monel, Titanium, Copper and Other Alloys</td>
+                        </tr>
+                        <tr>
+                            <td>Flange Standards</td>
+                            <td>ASME B16.5, ASME B16.47, EN, DIN, Custom</td>
+                        </tr>
+                        <tr>
+                            <td>Reusability</td>
+                            <td>Metal Core Reusable After Refacing</td>
+                        </tr>
+                        <tr>
+                            <td>Blowout Resistance</td>
+                            <td>Excellent</td>
+                        </tr>
+                        <tr>
+                            <td>Thermal Cycling Resistance</td>
+                            <td>Excellent</td>
+                        </tr>
+                        <tr>
+                            <td>Radial Shear Resistance</td>
+                            <td>Excellent</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-3">
+        <div class="page-2-header">
+            <div>
+                <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
+                <h2 class="page-2-title">KAMMPROFILE GASKET</h2>
+            </div>
+        </div>
+        <div class="content-section">
+            <div class="features-grid">
+                <div class="features-column">
+                    <h3>Key Features</h3>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Precision-machined serrated metal core construction</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Soft sealing layers bonded to both sealing surfaces</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Excellent sealing performance under low seating loads</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">High resistance to blowout and pressure fluctuations</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Outstanding performance under thermal cycling conditions</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Reusable metal core reduces lifecycle costs</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Excellent resistance to radial shear forces</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Suitable for standard and custom flange configurations</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Available with graphite, PTFE, mica, and specialty facing materials</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Compatible with a wide range of metallic core materials</span></div>
+                </div>
+                <div class="features-column">
+                    <h3>Typical Applications</h3>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Heat Exchangers</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Pressure Vessels</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Pumps</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Valves</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Reactors</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Petrochemical Processing Equipment</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Refinery Applications</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Power Generation Facilities</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Nuclear Power Plants</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Marine Applications</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Chemical Processing Equipment</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">High-Pressure Piping Systems</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Custom Process Equipment</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-4">
+        <div class="page-2-header">
+            <div>
+                <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
+                <h2 class="page-2-title">KAMMPROFILE GASKET</h2>
+            </div>
+        </div>
+        <div class="content-section">
+            <div class="features-grid">
+                <div class="features-column">
+                    <h3>Core Materials</h3>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Stainless Steel 304</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Stainless Steel 316</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Stainless Steel 321</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Stainless Steel 347</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Inconel</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Monel</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Titanium</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Copper</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Other Special Alloys</span></div>
+                </div>
+                <div class="features-column">
+                    <h3>Facing Materials</h3>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Flexible Graphite</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">PTFE</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Mica</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Specialty Soft Sealing Materials</span></div>
+                </div>
+            </div>
+
+            <div class="tech-specs-section" style="margin-top: 5mm;">
+                <h3>Standards & Dimensions</h3>
+                <table class="tech-table">
+                    <thead>
+                        <tr>
+                            <th>Description</th>
+                            <th>Availability</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>ASME B16.5 Flanges</td>
+                            <td>Available</td>
+                        </tr>
+                        <tr>
+                            <td>ASME B16.47 Flanges</td>
+                            <td>Available</td>
+                        </tr>
+                        <tr>
+                            <td>DIN Flanges</td>
+                            <td>Available</td>
+                        </tr>
+                        <tr>
+                            <td>EN Flanges</td>
+                            <td>Available</td>
+                        </tr>
+                        <tr>
+                            <td>Heat Exchanger Gaskets</td>
+                            <td>Available</td>
+                        </tr>
+                        <tr>
+                            <td>Custom Profiles</td>
+                            <td>Available Upon Request</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-5">
+        <div class="page-2-header">
+            <div>
+                <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
+                <h2 class="page-2-title">KAMMPROFILE GASKET</h2>
+            </div>
+        </div>
+        <div class="content-section">
+            <div class="benefits-box">
+                <h3>Performance Benefits</h3>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Exceptional sealing performance under high pressure and temperature conditions</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Lower seating stress requirements compared to many metallic gasket designs</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Excellent resistance to thermal cycling and pressure fluctuations</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Superior blowout resistance for enhanced operational safety</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>High resistance to radial shear and mechanical loading</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Reusable metal core significantly reduces maintenance costs</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Wide range of metallic core and facing material combinations</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Suitable for both standard flanges and custom equipment</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Reliable sealing performance in critical industrial applications</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Long service life with reduced plant downtime</span></div>
+            </div>
+
+            <div class="service-media-box">
+                <h4>Service Media</h4>
+                <ul>
+                    <li>Steam</li>
+                    <li>Hydrocarbons</li>
+                    <li>Oils</li>
+                    <li>Process Chemicals</li>
+                    <li>Solvents</li>
+                    <li>Acids</li>
+                    <li>Alkalis</li>
+                    <li>Gases</li>
+                    <li>Thermal Fluids</li>
+                    <li>General Industrial Process Media</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-content">
+                <div class="company-info">
+                    <div class="company-name">Inmarco FZC</div>
+                    <div class="contact-info">
+                        P.O. Box 120284, Sharjah Airport International Free Zone (SAIF-Zone), Sharjah, UAE<br>
+                        Tel: +971 6 5578378 | Fax: +971 6 5578948<br>
+                        Email: sales@inmarco.ae | Web: www.inmarco.ae
+                    </div>
+                    <div class="disclaimer">All technical information, recommendations, and performance data provided in this technical datasheet are based on current knowledge, laboratory testing, and/or industrial experience. Actual product performance may vary depending on operating conditions, equipment design, installation practices, process parameters. Final product selection and suitability should be determined by the user based on the specific service conditions and application requirements.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

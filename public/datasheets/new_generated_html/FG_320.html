@@ -6,164 +6,25 @@
     <title>FG 320 - Technical Datasheet</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        @page {
-            size: A4;
-            margin: 0;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
-            color: #2b2a29;
-            background: white;
-            width: 210mm;
-            min-height: 297mm;
-            align-content: center;
-            margin: 0 auto;
-        }
-
-        /* Page 1 - Hero */
-        .page-1 {
-            width: 100%;
-            height: 290mm;
-            background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%);
-            position: relative;
-            overflow: hidden;
-            page-break-after: always;
-        }
-
-        .header {
-            padding: 20mm 15mm;
-            margin-bottom: 10mm;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .logo-section {
-            color: white;
-        }
-
-        .logo-section img {
-            height: 200px;
-            width: auto;
-        }
-
-        /* Hero section */
-        .hero-section {
-            position: relative;
-            margin-top: 10px;
-            height: 100%;
-            background-image: url('../../metallurgy.jpg');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-
-        .hero-overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(to right, rgba(43, 42, 41, 0.95) 0%, rgba(43, 42, 41, 0.7) 50%, transparent 100%);
-        }
-
-        .hero-content {
-            position: relative;
-            z-index: 10;
-            padding: 35mm 15mm 0 15mm;
-            max-width: 150mm;
-        }
-
-        .red-accent {
-            width: 50mm;
-            height: 4px;
-            background: #e31e24;
-            margin-bottom: 10mm;
-        }
-
-        .product-name {
-            font-size: 52pt;
-            font-weight: 700;
-            color: white;
-            margin-bottom: 6mm;
-            letter-spacing: -1.5px;
-            line-height: 1.1;
-        }
-
-        .product-tagline {
-            font-size: 16pt;
-            color: #ffffff;
-            max-width: 140mm;
-            line-height: 1.5;
-            font-weight: 300;
-        }
-
-        /* Page 2 - Technical Details */
-        .page-2 {
-            width: 100%;
-            height: 290mm;
-            background: white;
-            position: relative;
-            page-break-after: always;
-        }
-
-        /* Page 3 - Properties */
-        .page-3 {
-            width: 100%;
-            height: 290mm;
-            background: white;
-            position: relative;
-            page-break-after: always;
-        }
-
-        /* Page 4 - Performance Benefits */
-        .page-4 {
-            width: 100%;
-            height: 290mm;
-            background: white;
-            position: relative;
-        }
-
-        .page-2-header {
-            background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%);
-            padding: 15mm;
-            color: white;
-            margin-bottom: 10mm;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .page-2-title {
-            font-size: 28pt;
-            font-weight: bold;
-        }
-
-        .content-section {
-            padding: 12mm 15mm;
-        }
-
-        .description-with-image {
-            margin-bottom: 10mm;
-        }
-
-        .description-text {
-            text-align: justify;
-        }
-
-        .description {
-            font-size: 10pt;
-            line-height: 1.6;
-            color: #333;
-            margin-bottom: 10mm;
-            text-align: justify;
-        }
-
+        * { margin: 0; padding: 0; box-sizing: border-box; -webkit-print-color-adjust: exact; print-color-adjust: exact; color-adjust: exact; }
+        @page { size: A4 portrait; margin: 0; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; color: #2b2a29; background: white; width: 210mm; min-height: 290mm; margin: 0; padding: 0; }
+        .page-1 { width: 210mm; height: 290mm; background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%); position: relative; overflow: hidden; page-break-after: always; }
+        .header { padding: 20mm 15mm; display: flex; justify-content: center; align-items: center; }
+        .logo-section { color: white; text-align: center; }
+        .logo-section img { height: 200px; width: auto; }
+        .hero-section { position: relative; margin-top: 10px; height: 100%; background-image: url('../../metallurgy.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; }
+        .hero-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to right, rgba(43, 42, 41, 0.95) 0%, rgba(43, 42, 41, 0.7) 50%, transparent 100%); }
+        .hero-content { position: relative; z-index: 10; padding: 35mm 15mm 0 15mm; max-width: 150mm; }
+        .red-accent { width: 50mm; height: 4px; background: #e31e24; margin-bottom: 10mm; }
+        .product-name { font-size: 48pt; font-weight: 700; color: white; margin-bottom: 6mm; letter-spacing: -1.5px; line-height: 1.1; }
+        .product-tagline { font-size: 13pt; color: #ffffff; max-width: 140mm; line-height: 1.5; font-weight: 300; }
+        .page-2, .page-3, .page-4 { width: 210mm; height: 290mm; background: white; position: relative; page-break-after: always; }
+        .page-4 { page-break-after: auto; }
+        .page-2-header { background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%); padding: 12mm 15mm; color: white; }
+        .page-2-title { font-size: 28pt; font-weight: bold; }
+        .content-section { padding: 10mm 15mm; }
+        .description { font-size: 10pt; line-height: 1.5; color: #333; margin-bottom: 5mm; text-align: justify; }
         .side-product-image {
             float: right;
             margin-left: 6mm;
@@ -175,6 +36,8 @@
             border-radius: 5mm;
             box-shadow: 0 4px 15px rgba(0,0,0,0.3);
             border: 3px solid #e31e24;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
         }
 
         .product-image-small {
@@ -185,228 +48,49 @@
             display: block;
         }
 
-        .section-divider {
-            height: 2px;
-            background: #e31e24;
-            margin: 8mm 0;
-        }
-
-        .features-grid {
-            margin-bottom: 10mm;
-            /* removed gap */
-            margin-bottom: 10mm;
-        }
-
-        .features-column {
-            text-align: justify;
-        }
-
-        .features-column h3 {
-            font-size: 13pt;
-            color: #2b2a29;
-            margin-bottom: 5mm;
-            padding-bottom: 2mm;
-            border-bottom: 2px solid #e31e24;
-            font-weight: 600;
-        }
-
-        .feature-item {
-            margin-bottom: 10mm;
-            margin-bottom: 4mm;
-            font-size: 9pt;
-            line-height: 1.5;
-        }
-
-        .bullet {
-            color: #e31e24;
-            font-weight: bold;
-            margin-right: 3mm;
-            font-size: 12pt;
-        }
-
-        .feature-text {
-            text-align: justify;
-            color: #444;
-        }
-
-        /* Properties Table */
-        .properties-section {
-            background: #f5f5f5;
-            padding: 8mm;
-            border-radius: 3mm;
-            border-left: 4px solid #e31e24;
-            margin-bottom: 8mm;
-        }
-
-        .properties-section h3 {
-            font-size: 14pt;
-            color: #2b2a29;
-            margin-bottom: 5mm;
-        }
-
-        .properties-table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-
-        .properties-table th {
-            background: #2b2a29;
-            color: white;
-            padding: 3mm;
-            text-align: left;
-            font-size: 9pt;
-            font-weight: 600;
-        }
-
-        .properties-table td {
-            padding: 2.5mm 3mm;
-            border-bottom: 1px solid #ddd;
-            font-size: 9pt;
-            color: #333;
-        }
-
-        .properties-table tr:last-child td {
-            border-bottom: none;
-        }
-
-        .properties-table td:first-child {
-            font-weight: 600;
-            color: #2b2a29;
-        }
-
-        /* Benefits Box */
-        .benefits-box {
-            background: linear-gradient(135deg, #e31e24 0%, #c41a20 100%);
-            color: white;
-            padding: 8mm;
-            border-radius: 3mm;
-            margin-bottom: 8mm;
-        }
-
-        .benefits-box h3 {
-            font-size: 14pt;
-            margin-bottom: 4mm;
-        }
-
-        .benefit-item {
-            margin-bottom: 10mm;
-            /* removed align-items */
-            margin-bottom: 3mm;
-            font-size: 9pt;
-            line-height: 1.4;
-        }
-
-        .benefit-item:last-child {
-            margin-bottom: 0;
-        }
-
-        .check-icon {
-            color: white;
-            font-weight: bold;
-            margin-right: 3mm;
-            font-size: 11pt;
-        }
-
-        /* Footer */
-        .footer {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: #2b2a29;
-            color: white;
-            padding: 8mm 15mm;
-        }
-
-        .footer-content {
-            margin-bottom: 10mm;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .company-info {
-            font-size: 7pt;
-            line-height: 1.6;
-        }
-
-        .company-name {
-            font-size: 10pt;
-            font-weight: bold;
-            margin-bottom: 2mm;
-            color: #e31e24;
-        }
-
-        .contact-info {
-            color: #ccc;
-        }
-
-        .disclaimer {
-            font-size: 6pt;
-            color: #888;
-            margin-top: 3mm;
-            max-width: 160mm;
-        }
+        .section-divider { height: 2px; background: #e31e24; margin: 5mm 0; }
+        .features-grid { display: flex; gap: 10mm; }
+        .features-column { flex: 1; }
+        .features-column h3 { font-size: 12pt; color: #2b2a29; margin-bottom: 3mm; padding-bottom: 2mm; border-bottom: 2px solid #e31e24; font-weight: 600; }
+        .feature-item { display: flex; margin-bottom: 3mm; font-size: 10pt; line-height: 1.8; }
+        .bullet { color: #e31e24; font-weight: bold; margin-right: 3mm; font-size: 8pt; margin-top: 0.8mm; }
+        .feature-text { flex: 1; color: #444; }
+        .benefits-box { background: linear-gradient(135deg, #e31e24 0%, #c41a20 100%); color: white; padding: 8mm; border-radius: 3mm; margin-bottom: 8mm; }
+        .benefits-box h3 { font-size: 14pt; margin-bottom: 4mm; }
+        .benefit-item { display: flex; align-items: flex-start; margin-bottom: 3mm; font-size: 9pt; line-height: 1.4; }
+        .benefit-item:last-child { margin-bottom: 0; }
+        .check-icon { color: white; font-weight: bold; margin-right: 3mm; font-size: 11pt; }
+        .tech-specs-section { margin-top: 2mm; }
+        .tech-specs-section h3 { font-size: 12pt; color: #2b2a29; margin-bottom: 3mm; padding-bottom: 2mm; border-bottom: 2px solid #e31e24; font-weight: 600; }
+        .tech-table { width: 100%; border-collapse: collapse; font-size: 9pt; }
+        .tech-table thead { background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%); color: white; }
+        .tech-table th { padding: 3mm; text-align: left; font-weight: 600; border: 1px solid #ddd; }
+        .tech-table td { padding: 2mm; border: 1px solid #ddd; color: #444; }
+        .tech-table tbody tr:nth-child(even) { background-color: #f9f9f9; }
+        .footer { position: absolute; bottom: 0; left: 0; right: 0; background: #2b2a29; color: white; padding: 8mm 15mm; }
+        .company-info { font-size: 7pt; line-height: 1.6; }
+        .company-name { font-size: 10pt; font-weight: bold; margin-bottom: 2mm; color: #e31e24; }
+        .contact-info { color: #ccc; }
+        .disclaimer { font-size: 6pt; color: #888; margin-top: 3mm; max-width: 160mm; }
     </style>
 </head>
 <body>
-    <!-- Page 1 - Hero -->
     <div class="page-1">
         <div class="header">
             <div class="logo-section">
-                <img src="../../../src/assets/inmarco-tagline-logo1.png" alt="INMARCO - Innovations in Fluid Sealing">
+                <img src="../../../src/assets/inmarco-tagline-logo1.png" alt="Inmarco">
             </div>
         </div>
-
         <div class="hero-section">
             <div class="hero-overlay"></div>
             <div class="hero-content">
                 <div class="red-accent"></div>
                 <h1 class="product-name">FG 320</h1>
-                <p class="product-tagline">Pure Flexible Graphite Sheet for High Temperature and High Pressure Applications</p>
+                <p class="product-tagline">Flexible Pure Graphite Sheet for High-Temperature and High-Pressure Sealing</p>
             </div>
-                <div class="features-column">
-                    <h3>Service Media</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">● Superheated and saturated steam</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">● Non-oxidizing liquids and gases</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">● Hydrocarbons</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">● Oxygen service</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">● Cryogenic fluids</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">● Dyes and chemicals</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">● Acids (except hydrofluoric acid)</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">● Alkalis</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">● Fuel oils and lubricating oils</span>
-                    </div>
-                </div>
         </div>
-        </div>
+    </div>
 
-    <!-- Page 2 - Technical Details -->
     <div class="page-2">
         <div class="page-2-header">
             <div>
@@ -414,76 +98,21 @@
                 <h2 class="page-2-title">FG 320</h2>
             </div>
         </div>
-
         <div class="content-section">
-            <div class="description-with-image">
-                <div class="side-product-image">
-                    <div class="product-image-container">
-                        <img src="../../FZC%20Inmarco%20Product%20Shoot/Plain%20Graphite%20Gasket/Plain%20Graphite%20Gasket_01.JPG" alt="FG 320" class="product-image-small" onerror="this.style.display='none'">
-                    </div>
-                </div>
-
-                <div class="description-text">
-                    <p class="description" style="margin-bottom: 0;">
-                        INMARCO TYPE FG 320is manufactured from exfoliated graphite. During the initial process of exfoliation of graphite, acid treatment is done but 100% of acids are washed out by the DM water. After this, the whole process of manufacturing flexible graphite gasket sheet is mechanical, without incorporation of any additives, oils or bonding material.TYPE FG 320 flexible pure graphite sheet is having carbon content 99% to 99.9%. These are extremely suitable for high temperature and high pressure application. These gaskets are highly resilient and as such easily adopts to irregularities of flange or surface to make perfect seal. Inmarco flexible pure graphite gaskets are suitable for metallic, glass, enamel flanges and are designed for trouble free change over which ultimately reduces maintenance cost. They are dimensionally stable under extreme pressure surge. These are also suitable for cryogenic services.
-                    </p>
-
+            <div class="side-product-image">
+                <div class="product-image-container">
+                    <img src="../../FZC%20Inmarco%20Product%20Shoot/Plain%20Graphite%20Gasket/Plain%20Graphite%20Gasket_01.JPG" alt="FG 320" class="product-image-small" onerror="this.style.display='none'">
                 </div>
             </div>
-            </div>
+            <p class="description">FG 320 is manufactured from exfoliated graphite. During the initial exfoliation process, graphite undergoes acid treatment; however, all residual acids are thoroughly removed using demineralized (DM) water. The subsequent manufacturing process is entirely mechanical and does not involve the addition of binders, fillers, oils, or other additives.</p>
+            <p class="description">The sheet consists of 99% pure carbon graphite, providing exceptional sealing performance in demanding high-temperature and high-pressure applications. Its highly resilient structure enables it to conform to flange irregularities and surface imperfections, ensuring reliable sealing performance.</p>
+            <p class="description">FG 320 is suitable for use with metallic, glass, and enamel flanges and is designed to facilitate easy maintenance and gasket replacement. The material remains dimensionally stable under pressure fluctuations and is also suitable for cryogenic services.</p>
 
             <div class="section-divider"></div>
 
-            <div class="features-grid">
-                <div class="features-column">
-                    <h3>Key Features</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Ultra-High Purity GraphiteCarbon content 99% to 99.9% ensures exceptional chemical resistance and thermal performance</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">No Additives or Binders100% mechanical manufacturing without additives, oils, or bonding materials for superior purity</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Extreme Temperature RangeOperates from -200°C to +3315°C in reducing conditions for versatile applications</span>
-                    </div>
-                </div>
-
-                <div class="features-column">
-                    <h3>Performance Advantages</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">High Pressure CapabilityVacuum to 150 bar pressure range with exceptional dimensional stability</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Highly ResilientEasily adapts to irregularities of flange or surface for perfect sealing</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Cryogenic Service CompatibleSuitable for cryogenic applications with excellent low-temperature performance</span>
-                    </div>
-                </div>
-            </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Page 3 - Technical Properties and Performance Benefits -->
-    <div class="page-3">
-        <div class="page-2-header">
-            <div>
-                <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
-                <h2 class="page-2-title">Technical Specifications</h2>
-            </div>
-        </div>
-
-        <div class="content-section">
-            <div class="properties-section">
+            <div class="tech-specs-section">
                 <h3>Technical Properties</h3>
-                <table class="properties-table">
+                <table class="tech-table">
                     <thead>
                         <tr>
                             <th>Property</th>
@@ -512,64 +141,48 @@
                             <td>99% to 99.9%</td>
                         </tr>
                         <tr>
-                            <td>Sulphur Content</td>
-                            <td>Less than 750ppm</td>
+                            <td>Fixed Carbon (%)</td>
+                            <td>≥ 98</td>
                         </tr>
                         <tr>
-                            <td>Chloride Content</td>
-                            <td>Less than 45ppm</td>
+                            <td>Density (g/cm³)</td>
+                            <td>1.0 to 1.3</td>
                         </tr>
                         <tr>
-                            <td>Ash Content</td>
-                            <td>Less than 1%</td>
+                            <td>Tensile Strength (MPa)</td>
+                            <td>≥ 3.5</td>
                         </tr>
                         <tr>
-                            <td>Tolerance on Density</td>
-                            <td>±0.05g/cc</td>
+                            <td>Compressibility (%)</td>
+                            <td>15 to 30</td>
                         </tr>
                         <tr>
-                            <td>Thickness of Sheet</td>
-                            <td>0.5mm ~ 6mm</td>
+                            <td>Recovery (%)</td>
+                            <td>≥ 10</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="section-divider"></div>
+
+            <div class="tech-specs-section">
+                <h3>Standard Availability</h3>
+                <table class="tech-table">
+                    <thead>
+                        <tr>
+                            <th>Property</th>
+                            <th>Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Sheet Size</td>
+                            <td>1000 mm × 1000 mm, 1500 mm × 1500 mm</td>
                         </tr>
                         <tr>
-                            <td>Tolerance on Thickness</td>
-                            <td>±0.1mm ~ 0.25</td>
-                        </tr>
-                        <tr>
-                            <td>Compressibility (ASTM F36)</td>
-                            <td>35-40 %</td>
-                        </tr>
-                        <tr>
-                            <td>Recovery (ASTM F36)</td>
-                            <td>15-18%</td>
-                        </tr>
-                        <tr>
-                            <td>"m" Factor (3mm thick)</td>
-                            <td>2.5</td>
-                        </tr>
-                        <tr>
-                            <td>"y" Factor (psi)</td>
-                            <td>2176</td>
-                        </tr>
-                        <tr>
-                            <td>Creep Relaxation (ASTM F38)</td>
-                            <td>5%</td>
-                        </tr>
-                        <tr>
-                            <td>Ignition Loss %</td>
-                            <td>@ 850°F (454°C): 1@ 1022°F (550°C): 8</td>
-                        </tr>
-                        <tr>
-                            <td>Sealability (ASTM F37)</td>
-                            <td>Fuel A, mL/hr: 0.5Nitrogen, mL/hr: 2.0</td>
-                        </tr>
-                        <tr>
-                            <td>DIN 3535-Gas Permeability</td>
-                            <td>0.40</td>
-                        </tr>
-                        <tr>
-                            <td>Temperature Range</td>
-                            <td>-200 to 3315 in reducing condition480 in oxidizing condition550 in steam</td>
+                            <td>Thickness</td>
+                            <td>0.5 mm to 6 mm</td>
                         </tr>
                     </tbody>
                 </table>
@@ -577,274 +190,86 @@
         </div>
     </div>
 
-    <!-- Page 4 - Performance Benefits -->
+    <div class="page-3">
+        <div class="page-2-header">
+            <div>
+                <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
+                <h2 class="page-2-title">FG 320</h2>
+            </div>
+        </div>
+        <div class="content-section">
+            <div class="features-grid">
+                <div class="features-column">
+                    <h3>Key Features</h3>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Manufactured from high-purity exfoliated graphite with 99% carbon content</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Free from binders, fillers, oils, and other additives</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Excellent resistance to high temperatures and high pressures</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Highly resilient and adaptable to flange surface irregularities</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Dimensionally stable under extreme pressure surges</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Suitable for cryogenic as well as elevated temperature applications</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Excellent chemical resistance across a broad range of industrial media</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Compatible with metallic, glass, and enamel flanges</span></div>
+                </div>
+                <div class="features-column">
+                    <h3>Applications</h3>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Flange sealing in high-temperature and high-pressure systems</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Chemical processing and petrochemical industries</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Power generation facilities</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Oil and gas refineries</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Cryogenic sealing applications</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Steam and thermal fluid systems</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Industrial process equipment</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Heat exchangers and boilers</span></div>
+                </div>
+            </div>
+
+            <div class="section-divider"></div>
+
+            <div class="features-column">
+                <h3>Service Media</h3>
+                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Steam (saturated and superheated)</span></div>
+                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Acids (sulfuric, hydrochloric, nitric, phosphoric)</span></div>
+                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Alkalis (sodium hydroxide, potassium hydroxide)</span></div>
+                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Hydrocarbons (crude oil, gasoline, diesel, kerosene)</span></div>
+                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Solvents and chemicals</span></div>
+                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Thermal fluids and heat transfer oils</span></div>
+                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Cryogenic liquids (LNG, LPG, liquid nitrogen)</span></div>
+                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Industrial gases</span></div>
+            </div>
+        </div>
+    </div>
+
     <div class="page-4">
         <div class="page-2-header">
             <div>
                 <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
-                <h2 class="page-2-title">Performance Benefits</h2>
+                <h2 class="page-2-title">FG 320</h2>
             </div>
         </div>
-
         <div class="content-section">
-            <div class="features-column" style="margin-bottom: 10mm;">
-<div class="features-column">
-                    <h3>Flexible Pure Graphite Sheet for High-Temperature and High-Pressure Sealing</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">FG 320 is manufactured from exfoliated graphite. During the initial exfoliation process, graphite undergoes acid treatment; however, all residual acids are thoroughly removed using demineralized (DM) water. The subsequent manufacturing process is entirely mechanical and does not involve the addition of binders, fillers, oils, or other additives.</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">The sheet consists of 99% pure carbon graphite, providing exceptional sealing performance in demanding high-temperature and high-pressure applications. Its highly resilient structure enables it to conform to flange irregularities and surface imperfections, ensuring reliable sealing performance.</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">FG 320 is suitable for use with metallic, glass, and enamel flanges and is designed to facilitate easy maintenance and gasket replacement. The material remains dimensionally stable under pressure fluctuations and is also suitable for cryogenic services.</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="features-column" style="margin-bottom: 10mm;">
-<div class="features-column">
-                    <h3>Applications</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Pipe flanges</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Valve bonnets</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Heat exchangers</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">High-temperature process equipment</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Cryogenic systems</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Industrial sealing applications requiring high chemical resistance</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="features-column" style="margin-bottom: 10mm;">
-<div class="features-column">
-                    <h3>Operational Parameters</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Property | Value</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">pH Range | 0 – 14</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Temperature (°C) | -200 to +550</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Pressure (Bar) | 150</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Thickness (mm) | 0.5 – 6</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="features-column" style="margin-bottom: 10mm;">
-<div class="features-column">
-                    <h3>Material Properties</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Property | Value</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Carbon Content | 99%</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Sulphur Content | &lt; 750 ppm</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Chloride Content | &lt; 45 ppm</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Ash Content | &lt; 1%</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Density Tolerance | ±0.05 g/cc</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Sheet Thickness | 0.5 mm – 6 mm</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Thickness Tolerance | ±0.1 mm to ±0.25 mm</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="features-column" style="margin-bottom: 10mm;">
-<div class="features-column">
-                    <h3>ASTM F36</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Property | Value</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Compressibility | 35 – 40%</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Recovery | 15 – 18%</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">m Factor (3 mm Thick) | 2.5</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">y Factor | 2176 psi</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="features-column" style="margin-bottom: 10mm;">
-<div class="features-column">
-                    <h3>ASTM F38</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Property | Value</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Creep Relaxation | 5%</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="features-column" style="margin-bottom: 10mm;">
-<div class="features-column">
-                    <h3>Ignition Loss</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Temperature | Value</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">454°C (850°F) | 1%</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="features-column" style="margin-bottom: 10mm;">
-<div class="features-column">
-                    <h3>Extended Service Limits</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Property | Value</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Temperature (Reducing Atmosphere) | Up to 3000°C</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Temperature (Oxidizing Atmosphere) | Up to 480°C</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Temperature (Steam Service) | Up to 550°C</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Pressure | Vacuum to 150 Bar</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="features-column" style="margin-bottom: 10mm;">
-<div class="features-column">
-                    <h3>Sheet Sizes</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">1000 mm × 1000 mm</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">1500 mm × 1500 mm</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="features-column" style="margin-bottom: 10mm;">
-<div class="features-column">
-                    <h3>Thickness Range</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">0.5 mm to 6 mm</span>
-                    </div>
-                </div>
-            </div>
-
             <div class="benefits-box">
                 <h3>Performance Benefits</h3>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Unique construction with high structural carbon filament reinforcement increases strength and enhanced seal-ability</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Impregnated with proprietary high-therm graphite-based dispersion for superior performance</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Inorganic passive corrosion inhibitor protects equipment from galvanic corrosion</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Adapts easily to surface irregularities and conforms to stuffing box dimensions</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Excellent dry run capabilities with smooth performance in demanding applications</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Chemically inert, does not leach chemicals during operation maintaining safety standards</span>
-                </div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>High pressure capability from vacuum to 150 bar with exceptional dimensional stability</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Highly resilient structure easily adapts to flange irregularities for perfect sealing</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Cryogenic service compatible from -200°C to high-temperature 550°C</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Universal pH range (0-14) compatible with acids, alkalis, and neutral media</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Pure carbon graphite (99%) free from binders and additives ensures clean operation</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Easy maintenance and gasket replacement reduces downtime and operational costs</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Excellent compressibility (15-30%) and recovery (≥10%) for reliable sealing</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>High tensile strength (≥3.5 MPa) ensures mechanical integrity under pressure</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Compatible with metallic, glass, and enamel flanges for versatile applications</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Dimensionally stable under pressure fluctuations and thermal cycling</span></div>
             </div>
         </div>
-
         <div class="footer">
-            <div class="footer-content">
-                <div class="company-info">
-                    <div class="company-name">INMARCO FZC</div>
-                    <div class="contact-info">
-                        P.O. Box 120284, Sharjah Airport International Free Zone (SAIF-Zone), Sharjah, UAE<br>
-                        Tel: +971 6 5578378 | Fax: +971 6 5578948<br>
-                        Email: sales@inmarco.ae | Web: www.inmarco.ae
-                    </div>
-                    <div class="disclaimer">
-                        All information and recommendations given in this technical data sheet are correct to the best of our knowledge. However, because of the wide variety of application and operating conditions, we cannot derive the final conclusion. This above information can only serve as a guideline.
-                    </div>
+            <div class="company-info">
+                <div class="company-name">Inmarco FZC</div>
+                <div class="contact-info">
+                    P.O. Box 120284, Sharjah Airport International Free Zone (SAIF-Zone), Sharjah, UAE<br>
+                    Tel: +971 6 5578378 | Fax: +971 6 5578948<br>
+                    Email: sales@inmarco.ae | Web: www.inmarco.ae
                 </div>
+                <div class="disclaimer">All technical information, recommendations, and performance data provided in this technical datasheet are based on current knowledge, laboratory testing, and/or industrial experience. Actual product performance may vary depending on operating conditions, equipment design, installation practices, process parameters. Final product selection and suitability should be determined by the user based on the specific service conditions and application requirements.</div>
             </div>
         </div>
     </div>

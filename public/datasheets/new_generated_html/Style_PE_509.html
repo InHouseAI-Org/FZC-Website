@@ -3,45 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>STYLE PE 509 - Technical Datasheet</title>
+    <title>Style PE 509 - Technical Datasheet</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
+        * { margin: 0; padding: 0; box-sizing: border-box; -webkit-print-color-adjust: exact; print-color-adjust: exact; color-adjust: exact; }
         @page { size: A4 portrait; margin: 0; }
-        @media print { body { margin: 0; padding: 0; } .product-image-container { box-shadow: none !important; } }
+        @media print { body { margin: 0; padding: 0; } }
         html { margin: 0; padding: 0; }
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; color: #2b2a29; background: white; width: 210mm; min-height: 290mm; margin: 0; padding: 0; }
         .page-1 { width: 210mm; height: 290mm; background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%); position: relative; overflow: hidden; page-break-after: always; }
         .header { padding: 20mm 15mm; display: flex; justify-content: center; align-items: center; }
-        .logo-section { color: white; }
+        .logo-section { color: white; text-align: center; }
         .logo-section img { height: 200px; width: auto; }
-        .hero-section { position: relative; margin-top: 10px; height: 100%; background-image: url('../../oil and gas.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; }
+        .hero-section { position: relative; margin-top: 10px; height: 100%; background-size: cover; background-position: center; background-repeat: no-repeat; }
         .hero-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to right, rgba(43, 42, 41, 0.95) 0%, rgba(43, 42, 41, 0.7) 50%, transparent 100%); }
         .hero-content { position: relative; z-index: 10; padding: 35mm 15mm 0 15mm; max-width: 150mm; }
         .red-accent { width: 50mm; height: 4px; background: #e31e24; margin-bottom: 10mm; }
-        .product-name { font-size: 52pt; font-weight: 700; color: white; margin-bottom: 6mm; letter-spacing: -1.5px; line-height: 1.1; }
-        .product-tagline { font-size: 16pt; color: #ffffff; max-width: 140mm; line-height: 1.5; font-weight: 300; }
+        .product-name { font-size: 48pt; font-weight: 700; color: white; margin-bottom: 6mm; letter-spacing: -1.5px; line-height: 1.1; }
+        .product-tagline { font-size: 12pt; color: #ffffff; max-width: 140mm; line-height: 1.5; font-weight: 300; }
         .page-2, .page-3, .page-4 { width: 210mm; height: 290mm; background: white; position: relative; page-break-after: always; }
         .page-4 { page-break-after: auto; }
         .page-2-header { background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%); padding: 12mm 15mm; color: white; display: flex; justify-content: space-between; align-items: center; }
         .page-2-title { font-size: 28pt; font-weight: bold; }
         .content-section { padding: 10mm 15mm; }
-        .description { font-size: 10pt; line-height: 1.5; color: #333; margin-bottom: 0; text-align: justify; }
-
-        .description-with-image {
-            margin-bottom: 10mm;
-        }
-
-        .description-text {
-            display: block;
-        }
-
+        .description { font-size: 10pt; line-height: 1.5; color: #333; margin-bottom: 5mm; text-align: justify; }
         .side-product-image {
             float: right;
-            margin-left: 5mm;
-            margin-bottom: 5mm;
-            margin-right: 0;
-            width: 85mm;
+            margin-left: 6mm;
+            margin-bottom: 4mm;
         }
 
         .product-image-container {
@@ -49,11 +38,13 @@
             border-radius: 5mm;
             box-shadow: 0 4px 15px rgba(0,0,0,0.3);
             border: 3px solid #e31e24;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
         }
 
         .product-image-small {
-            height: 55mm;
             width: 85mm;
+            height: 55mm;
             border-radius: 4mm;
             object-fit: cover;
             display: block;
@@ -63,7 +54,7 @@
         .features-grid { display: flex; gap: 10mm; margin-bottom: 0; }
         .features-column { flex: 1; }
         .features-column h3 { font-size: 12pt; color: #2b2a29; margin-bottom: 3mm; padding-bottom: 2mm; border-bottom: 2px solid #e31e24; font-weight: 600; }
-        .feature-item { display: flex; margin-bottom: 1mm; font-size: 8.5pt; line-height: 1.4; }
+        .feature-item { display: flex; margin-bottom: 3mm; font-size: 10pt; line-height: 1.8; }
         .bullet { color: #e31e24; font-weight: bold; margin-right: 3mm; font-size: 8pt; margin-top: 0.8mm; }
         .feature-text { flex: 1; color: #444; }
         .benefits-box { background: linear-gradient(135deg, #e31e24 0%, #c41a20 100%); color: white; padding: 8mm; border-radius: 3mm; margin-bottom: 8mm; }
@@ -84,6 +75,9 @@
         .company-name { font-size: 10pt; font-weight: bold; margin-bottom: 2mm; color: #e31e24; }
         .contact-info { color: #ccc; }
         .disclaimer { font-size: 6pt; color: #888; margin-top: 3mm; max-width: 160mm; }
+        .certification-box { background: #f5f5f5; padding: 6mm; border-radius: 3mm; border-left: 4px solid #2b2a29; margin-top: 5mm; }
+        .certification-box h4 { font-size: 11pt; color: #2b2a29; margin-bottom: 3mm; font-weight: 600; }
+        .certification-box p { font-size: 9pt; line-height: 1.5; color: #444; margin: 0; }
     </style>
 </head>
 <body>
@@ -93,12 +87,12 @@
                 <img src="../../../src/assets/inmarco-tagline-logo1.png" alt="Inmarco - Innovations in Fluid Sealing">
             </div>
         </div>
-        <div class="hero-section">
+        <div class="hero-section" style="background-image: url('../../chemical.jpg');">
             <div class="hero-overlay"></div>
             <div class="hero-content">
                 <div class="red-accent"></div>
                 <h1 class="product-name">STYLE PE 509</h1>
-                <p class="product-tagline">Expanded PTFE with Carbon Fiber Reinforcement for Enhanced Durability</p>
+                <p class="product-tagline">Pure PTFE Packing for General Industrial Sealing Applications</p>
             </div>
         </div>
     </div>
@@ -111,127 +105,19 @@
             </div>
         </div>
         <div class="content-section">
-            <div class="description-with-image">
-                <div class="side-product-image">
-                    <div class="product-image-container">
-                        <img src="../../FZC%20Inmarco%20Product%20Shoot/PE%20509/PE%20509_2_2.png" alt="Style PE 509" class="product-image-small" onerror="this.style.display='none'">
-                    </div>
+            <div class="side-product-image">
+                <div class="product-image-container">
+                    <img src="../../FZC%20Inmarco%20Product%20Shoot/PE%20509/PE%20509_1.png" alt="Product Image" class="product-image-small" onerror="this.style.display='none'">
                 </div>
+            </div>
+            <p class="description">Inmarco Style PE 509 is a high-performance braided compression packing manufactured from 100% pure PTFE, designed for general industrial sealing applications requiring excellent chemical resistance, thermal stability, and clean operational performance. The packing provides reliable sealing under a broad range of operating conditions while maintaining low maintenance requirements and extended service life.</p>
+            
+            <p class="description">Its chemically inert and non-toxic composition makes it suitable for applications involving sensitive process media where contamination-free sealing is essential. The square braided structure ensures dimensional stability, uniform sealing pressure, and consistent operational reliability in both static and dynamic applications.</p>
+            
+            <p class="description">Style PE 509 offers excellent resistance to aggressive chemicals, thermal stress, and environmental degradation while maintaining flexibility and sealing integrity over extended operating periods. Its low dust generation and skin-friendly properties support safe handling and cleaner working environments. The packing is environmentally safe, recyclable, and suitable for a wide variety of industrial process applications requiring dependable sealing performance and operational safety.</p>
 
-                <div class="description-text">
-                    <p class="description">Inmarco Style PE 509 is a high-performance braided compression packing manufactured from 100% pure PTFE, designed for general industrial sealing applications requiring excellent chemical resistance, thermal stability, and clean operational performance.<br><br>The packing provides reliable sealing under a broad range of operating conditions while maintaining low maintenance requirements and extended service life.Its chemically inert and non-toxic composition makes it suitable for applications involving sensitive process media where contamination-free sealing is essential.<br><br>The square braided structure ensures dimensional stability, uniform sealing pressure, and consistent operational reliability in both static and dynamic applications.Style PE 509 offers excellent resistance to aggressive chemicals, thermal stress, and environmental degradation while maintaining flexibility and sealing integrity over extended operating periods. Its low dust generation and skin-friendly properties support safe handling and cleaner working environments.The packing is environmentally safe, recyclable, and suitable for a wide variety of industrial process applications requiring dependable sealing performance and operational safety.2.</p>
-                </div>
-            </div>
             <div class="section-divider"></div>
-            <div class="features-grid">
-                <div class="features-column">
-                    <h3>Key Features</h3>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Manufactured from 100% pure high-quality PTFE Excellent chemical resistance across a broad pH range High thermal stability under elevated operating temperatures Non-toxic, non-flammable, and chemically inert composition Square braided construction for dimensional stability and sealing integrity Low dust generation for cleaner operation and safer handling Suitable for both static and dynamic sealing applications Resistant to thermal stress and aggressive industrial environments Environmentally safe and recyclable material composition Provides reliable sealing performance with reduced maintenance requirements 3. PERFORMANCE ADVANTAGESExceptional resistance to chemically aggressive media and process fluids Stable sealing performance under elevated temperature conditions Low friction characteristics reduce wear on equipment components Supports clean and contamination-free industrial operations Maintains dimensional stability under pressure and thermal cycling Excellent durability for long-term industrial service life Minimizes leakage and operational downtime Suitable for sensitive applications requiring non-toxic sealing materials Safe handling characteristics improve operational safety Reliable performance across a wide range of industrial process conditions 4. TECHNICAL PROPERTIESPropertySpecificationConstructionBraided PTFE packingMaterial Composition100% Pure PTFEpH Range0 – 14Temperature Range-240°C to +260°CMaximum PressureUp to 300 barSize Range6.5 mm² to 50 mm²Chemical CompatibilitySuitable for most industrial chemicals and process mediaFriction CharacteristicsLow friction design for reduced wearOperational CharacteristicsNon-toxic, non-flammable, chemically inertApplication TypeStatic and dynamic sealing applications5.</span></div>
-                </div>
-                <div class="features-column">
-                    <h3>Applications</h3>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">General industrial pumps Valves and control valves Chemical processing systems Pharmaceutical and food processing equipment Water and wastewater treatment systems Petrochemical and refinery operations Reactors and process vessels Clean and sensitive process applications Equipment handling chemically aggressive media Static and low-to-medium dynamic sealing systems 6.</span></div>
-                </div>
-            </div>
-            <div class="benefits-box">
-                <h3>PERFORMANCE ADVANTAGES</h3>
-                <div class="benefit-item"><span class="check-icon">✓</span><span>Exceptional resistance to chemically aggressive media and process fluids</span></div>
-                <div class="benefit-item"><span class="check-icon">✓</span><span>Stable sealing performance under elevated temperature conditions</span></div>
-                <div class="benefit-item"><span class="check-icon">✓</span><span>Low friction characteristics reduce wear on equipment components</span></div>
-                <div class="benefit-item"><span class="check-icon">✓</span><span>Supports clean and contamination-free industrial operations</span></div>
-                <div class="benefit-item"><span class="check-icon">✓</span><span>Maintains dimensional stability under pressure and thermal cycling</span></div>
-                <div class="benefit-item"><span class="check-icon">✓</span><span>Excellent durability for long-term industrial service life</span></div>
-                <div class="benefit-item"><span class="check-icon">✓</span><span>Minimizes leakage and operational downtime</span></div>
-                <div class="benefit-item"><span class="check-icon">✓</span><span>Suitable for sensitive applications requiring non-toxic sealing materials</span></div>
-                <div class="benefit-item"><span class="check-icon">✓</span><span>Safe handling characteristics improve operational safety</span></div>
-                <div class="benefit-item"><span class="check-icon">✓</span><span>Reliable performance across a wide range of industrial process conditions</span></div>
-            </div>
-            <div class="benefits-box">
-                <h3>PERFORMANCE ADVANTAGES</h3>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Exceptional resistance to chemically aggressive media and process fluids</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Stable sealing performance under elevated temperature conditions</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Low friction characteristics reduce wear on equipment components</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Supports clean and contamination-free industrial operations</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Maintains dimensional stability under pressure and thermal cycling</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Excellent durability for long-term industrial service life</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Minimizes leakage and operational downtime</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Suitable for sensitive applications requiring non-toxic sealing materials</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Safe handling characteristics improve operational safety</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Reliable performance across a wide range of industrial process conditions</span>
-                </div>
-            </div>
-            <div class="benefits-box">
-                <h3>PERFORMANCE ADVANTAGES</h3>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Exceptional resistance to chemically aggressive media and process fluids</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Stable sealing performance under elevated temperature conditions</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Low friction characteristics reduce wear on equipment components</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Supports clean and contamination-free industrial operations</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Maintains dimensional stability under pressure and thermal cycling</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Excellent durability for long-term industrial service life</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Minimizes leakage and operational downtime</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Suitable for sensitive applications requiring non-toxic sealing materials</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Safe handling characteristics improve operational safety</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Reliable performance across a wide range of industrial process conditions</span>
-                </div>
-            </div>
+
             <div class="tech-specs-section">
                 <h3>Technical Properties</h3>
                 <table class="tech-table">
@@ -242,49 +128,20 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td>Construction</td>
-                            <td>Braided PTFE packing</td>
-                        </tr>
-                        <tr>
-                            <td>Material Composition</td>
-                            <td>100% Pure PTFE</td>
-                        </tr>
-                        <tr>
-                            <td>pH Range</td>
-                            <td>0 – 14</td>
-                        </tr>
-                        <tr>
-                            <td>Temperature Range</td>
-                            <td>-240°C to +260°C</td>
-                        </tr>
-                        <tr>
-                            <td>Maximum Pressure</td>
-                            <td>Up to 300 bar</td>
-                        </tr>
-                        <tr>
-                            <td>Size Range</td>
-                            <td>6.5 mm² to 50 mm²</td>
-                        </tr>
-                        <tr>
-                            <td>Chemical Compatibility</td>
-                            <td>Suitable for most industrial chemicals and process media</td>
-                        </tr>
-                        <tr>
-                            <td>Friction Characteristics</td>
-                            <td>Low friction design for reduced wear</td>
-                        </tr>
-                        <tr>
-                            <td>Operational Characteristics</td>
-                            <td>Non-toxic, non-flammable, chemically inert</td>
-                        </tr>
-                        <tr>
-                            <td>Application Type</td>
-                            <td>Static and dynamic sealing applications</td>
-                        </tr>
+                        <tr><td>Construction</td><td>Braided PTFE packing</td></tr>
+                        <tr><td>Material Composition</td><td>100% Pure PTFE</td></tr>
+                        <tr><td>pH Range</td><td>0 – 14</td></tr>
+                        <tr><td>Temperature Range</td><td>-240°C to +260°C</td></tr>
+                        <tr><td>Maximum Pressure</td><td>Up to 300 bar</td></tr>
+                        <tr><td>Size Range</td><td>6.5 mm² to 50 mm²</td></tr>
+                        <tr><td>Chemical Compatibility</td><td>Suitable for most industrial chemicals and process media</td></tr>
+                        <tr><td>Friction Characteristics</td><td>Low friction design for reduced wear</td></tr>
+                        <tr><td>Operational Characteristics</td><td>Non-toxic, non-flammable, chemically inert</td></tr>
+                        <tr><td>Application Type</td><td>Static and dynamic sealing applications</td></tr>
                     </tbody>
                 </table>
             </div>
+
         </div>
     </div>
 
@@ -296,27 +153,63 @@
             </div>
         </div>
         <div class="content-section">
-            <div class="features-column" style="margin-bottom: 10mm;">
-<div class="features-column">
-                    <h3>TESTING & COMPLIANCE</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Manufactured under controlled industrial quality standards</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Suitable for industrial sealing applications requiring chemical resistance, thermal stability, and operational reliability</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">FDA Certified</span>
-                    </div>
+            <div class="features-grid">
+                <div class="features-column">
+                    <h3>Key Features</h3>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Manufactured from 100% pure high-quality PTFE</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Excellent chemical resistance across a broad pH range</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">High thermal stability under elevated operating temperatures</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Non-toxic, non-flammable, and chemically inert composition</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Square braided construction for dimensional stability and sealing integrity</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Low dust generation for cleaner operation and safer handling</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Suitable for both static and dynamic sealing applications</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Resistant to thermal stress and aggressive industrial environments</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Environmentally safe and recyclable material composition</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Provides reliable sealing performance with reduced maintenance requirements</span></div>
+                </div>
+                <div class="features-column">
+                    <h3>Applications</h3>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">General industrial pumps</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Valves and control valves</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Chemical processing systems</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Pharmaceutical and food processing equipment</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Water and wastewater treatment systems</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Petrochemical and refinery operations</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Reactors and process vessels</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Clean and sensitive process applications</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Equipment handling chemically aggressive media</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Static and low-to-medium dynamic sealing systems</span></div>
                 </div>
             </div>
+            <div class="certification-box">
+                <h4>Testing & Compliance</h4>
+                <p>● Manufactured under controlled industrial quality standards</p>
+                <p>● Suitable for industrial sealing applications requiring chemical resistance, thermal stability, and operational reliability</p>
+                <p>● FDA Certified</p>
+            </div>
+        </div>
+    </div>
 
+    <div class="page-4">
+        <div class="page-2-header">
+            <div>
+                <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
+                <h2 class="page-2-title">STYLE PE 509</h2>
+            </div>
+        </div>
+        <div class="content-section">
             <div class="benefits-box">
                 <h3>Performance Benefits</h3>
-                <div class="benefit-item"><span class="check-icon">✓</span><span>ADVANTAGESExceptional resistance to chemically aggressive media and process fluids Stable sealing performance under elevated temperature conditions Low friction characteristics reduce wear on equipment components Supports clean and contamination-free industrial operations Maintains dimensional stability under pressure and thermal cycling Excellent durability for long-term industrial service life Minimizes leakage and operational downtime Suitable for sensitive applications requiring non-toxic sealing materials Safe handling characteristics improve operational safety Reliable performance across a wide range of industrial process conditions 4.</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Exceptional resistance to chemically aggressive media and process fluids</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Stable sealing performance under elevated temperature conditions</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Low friction characteristics reduce wear on equipment components</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Supports clean and contamination-free industrial operations</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Maintains dimensional stability under pressure and thermal cycling</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Excellent durability for long-term industrial service life</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Minimizes leakage and operational downtime</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Suitable for sensitive applications requiring non-toxic sealing materials</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Safe handling characteristics improve operational safety</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Reliable performance across a wide range of industrial process conditions</span></div>
             </div>
         </div>
         <div class="footer">
@@ -333,5 +226,6 @@
             </div>
         </div>
     </div>
+
 </body>
 </html>

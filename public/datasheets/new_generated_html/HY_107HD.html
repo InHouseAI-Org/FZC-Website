@@ -6,667 +6,212 @@
     <title>HY 107HD - Technical Datasheet</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        @page {
-            size: A4;
-            margin: 0;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
-            color: #2b2a29;
-            background: white;
-            width: 210mm;
-            min-height: 297mm;
-            align-content: center;
-            margin: 0 auto;
-        }
-
-        /* Page 1 - Hero */
-        .page-1 {
-            width: 100%;
-            height: 290mm;
-            background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%);
-            position: relative;
-            overflow: hidden;
-            page-break-after: always;
-        }
-
-        .header {
-            padding: 20mm 15mm;
-            margin-bottom: 10mm;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .logo-section {
-            color: white;
-        }
-
-        .logo-section img {
-            height: 200px;
-            width: auto;
-        }
-
-        /* Hero section */
-        .hero-section {
-            position: relative;
-            margin-top: 10px;
-            height: 100%;
-            background-image: url('../../fertilizer.jpg');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-
-        .hero-overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(to right, rgba(43, 42, 41, 0.95) 0%, rgba(43, 42, 41, 0.7) 50%, transparent 100%);
-        }
-
-        .hero-content {
-            position: relative;
-            z-index: 10;
-            padding: 35mm 15mm 0 15mm;
-            max-width: 150mm;
-        }
-
-        .red-accent {
-            width: 50mm;
-            height: 4px;
-            background: #e31e24;
-            margin-bottom: 10mm;
-        }
-
-        .product-name {
-            font-size: 52pt;
-            font-weight: 700;
-            color: white;
-            margin-bottom: 6mm;
-            letter-spacing: -1.5px;
-            line-height: 1.1;
-        }
-
-        .product-tagline {
-            font-size: 16pt;
-            color: #ffffff;
-            max-width: 140mm;
-            line-height: 1.5;
-            font-weight: 300;
-        }
-
-        /* Page 2 - Technical Details */
-        .page-2 {
-            width: 100%;
-            height: 290mm;
-            background: white;
-            position: relative;
-            page-break-after: always;
-        }
-
-        /* Page 3 - Properties */
-        .page-3 {
-            width: 100%;
-            height: 290mm;
-            background: white;
-            position: relative;
-            page-break-after: always;
-        }
-
-        /* Page 4 - Performance Benefits */
-        .page-4 {
-            width: 100%;
-            height: 290mm;
-            background: white;
-            position: relative;
-        }
-
-        .page-2-header {
-            background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%);
-            padding: 15mm;
-            color: white;
-            margin-bottom: 10mm;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .page-2-title {
-            font-size: 28pt;
-            font-weight: bold;
-        }
-
-        .content-section {
-            padding: 12mm 15mm;
-        }
-
-        .description-with-image {
-            margin-bottom: 10mm;
-        }
-
-        .description-text {
-            text-align: justify;
-        }
-
-        .description {
-            font-size: 10pt;
-            line-height: 1.6;
-            color: #333;
-            margin-bottom: 10mm;
-            text-align: justify;
-        }
-
-        .side-product-image {
-            float: right;
-            margin-left: 6mm;
-            margin-bottom: 4mm;
-        }
-
-        .product-image-container {
+        * { margin: 0; padding: 0; box-sizing: border-box; -webkit-print-color-adjust: exact; print-color-adjust: exact; color-adjust: exact; }
+        @page { size: A4 portrait; margin: 0; }
+        @media print { body { margin: 0; padding: 0; } .product-image-container {
             background: white;
             border-radius: 5mm;
             box-shadow: 0 4px 15px rgba(0,0,0,0.3);
             border: 3px solid #e31e24;
-        }
-
-        .product-image-small {
-            width: 85mm;
-            height: 55mm;
-            border-radius: 4mm;
-            object-fit: cover;
-            display: block;
-        }
-
-        .section-divider {
-            height: 2px;
-            background: #e31e24;
-            margin: 8mm 0;
-        }
-
-        .features-grid {
-            margin-bottom: 10mm;
-            /* removed gap */
-            margin-bottom: 10mm;
-        }
-
-        .features-column {
-            text-align: justify;
-        }
-
-        .features-column h3 {
-            font-size: 13pt;
-            color: #2b2a29;
-            margin-bottom: 5mm;
-            padding-bottom: 2mm;
-            border-bottom: 2px solid #e31e24;
-            font-weight: 600;
-        }
-
-        .feature-item {
-            margin-bottom: 10mm;
-            margin-bottom: 4mm;
-            font-size: 9pt;
-            line-height: 1.5;
-        }
-
-        .bullet {
-            color: #e31e24;
-            font-weight: bold;
-            margin-right: 3mm;
-            font-size: 12pt;
-        }
-
-        .feature-text {
-            text-align: justify;
-            color: #444;
-        }
-
-        /* Properties Table */
-        .properties-section {
-            background: #f5f5f5;
-            padding: 8mm;
-            border-radius: 3mm;
-            border-left: 4px solid #e31e24;
-            margin-bottom: 8mm;
-        }
-
-        .properties-section h3 {
-            font-size: 14pt;
-            color: #2b2a29;
-            margin-bottom: 5mm;
-        }
-
-        .properties-table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-
-        .properties-table th {
-            background: #2b2a29;
-            color: white;
-            padding: 3mm;
-            text-align: left;
-            font-size: 9pt;
-            font-weight: 600;
-        }
-
-        .properties-table td {
-            padding: 2.5mm 3mm;
-            border-bottom: 1px solid #ddd;
-            font-size: 9pt;
-            color: #333;
-        }
-
-        .properties-table tr:last-child td {
-            border-bottom: none;
-        }
-
-        .properties-table td:first-child {
-            font-weight: 600;
-            color: #2b2a29;
-        }
-
-        /* Benefits Box */
-        .benefits-box {
-            background: linear-gradient(135deg, #e31e24 0%, #c41a20 100%);
-            color: white;
-            padding: 8mm;
-            border-radius: 3mm;
-            margin-bottom: 8mm;
-        }
-
-        .benefits-box h3 {
-            font-size: 14pt;
-            margin-bottom: 4mm;
-        }
-
-        .benefit-item {
-            margin-bottom: 10mm;
-            /* removed align-items */
-            margin-bottom: 3mm;
-            font-size: 9pt;
-            line-height: 1.4;
-        }
-
-        .benefit-item:last-child {
-            margin-bottom: 0;
-        }
-
-        .check-icon {
-            color: white;
-            font-weight: bold;
-            margin-right: 3mm;
-            font-size: 11pt;
-        }
-
-        /* Footer */
-        .footer {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: #2b2a29;
-            color: white;
-            padding: 8mm 15mm;
-        }
-
-        .footer-content {
-            margin-bottom: 10mm;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .company-info {
-            font-size: 7pt;
-            line-height: 1.6;
-        }
-
-        .company-name {
-            font-size: 10pt;
-            font-weight: bold;
-            margin-bottom: 2mm;
-            color: #e31e24;
-        }
-
-        .contact-info {
-            color: #ccc;
-        }
-
-        .disclaimer {
-            font-size: 6pt;
-            color: #888;
-            margin-top: 3mm;
-            max-width: 160mm;
-        }
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        } }
+        html { margin: 0; padding: 0; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; color: #2b2a29; background: white; width: 210mm; min-height: 290mm; margin: 0; padding: 0; }
+        .page-1 { width: 210mm; height: 290mm; background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%); position: relative; overflow: hidden; page-break-after: always; }
+        .header { padding: 20mm 15mm; display: flex; justify-content: center; align-items: center; }
+        .logo-section { color: white; text-align: center; }
+        .logo-section img { height: 200px; width: auto; }
+        .hero-section { position: relative; margin-top: 10px; height: 100%; background-image: url('../../fertilizer.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; }
+        .hero-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to right, rgba(43, 42, 41, 0.95) 0%, rgba(43, 42, 41, 0.7) 50%, transparent 100%); }
+        .hero-content { position: relative; z-index: 10; padding: 35mm 15mm 0 15mm; max-width: 150mm; }
+        .red-accent { width: 50mm; height: 4px; background: #e31e24; margin-bottom: 10mm; }
+        .product-name { font-size: 52pt; font-weight: 700; color: white; margin-bottom: 6mm; letter-spacing: -1.5px; line-height: 1.1; }
+        .product-tagline { font-size: 16pt; color: #ffffff; max-width: 140mm; line-height: 1.5; font-weight: 300; }
+        .page-2, .page-3, .page-4 { width: 210mm; height: 290mm; background: white; position: relative; page-break-after: always; }
+        .page-4 { page-break-after: auto; }
+        .page-2-header { background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%); padding: 12mm 15mm; color: white; display: flex; justify-content: space-between; align-items: center; }
+        .page-2-title { font-size: 28pt; font-weight: bold; }
+        .content-section { padding: 10mm 15mm; }
+        .description { font-size: 10pt; line-height: 1.5; color: #333; margin-bottom: 0; text-align: justify; }
+        .description-with-image { margin-bottom: 10mm; }
+        .description-text { display: block; }
+        .side-product-image { float: right; margin-left: 5mm; margin-bottom: 5mm; margin-right: 0; width: 85mm; }
+        .product-image-container { background: white; border-radius: 5mm; box-shadow: 0 4px 15px rgba(0,0,0,0.3); border: 3px solid #e31e24; }
+        .product-image-small { width: 85mm; height: 55mm; border-radius: 4mm; object-fit: cover; display: block; }
+        .section-divider { height: 2px; background: #e31e24; margin: 5mm 0; }
+        .features-grid { display: flex; gap: 10mm; margin-bottom: 0; }
+        .features-column { flex: 1; }
+        .features-column h3 { font-size: 12pt; color: #2b2a29; margin-bottom: 3mm; padding-bottom: 2mm; border-bottom: 2px solid #e31e24; font-weight: 600; }
+        .feature-item { display: flex; margin-bottom: 3mm; font-size: 10pt; line-height: 1.8; }
+        .bullet { color: #e31e24; font-weight: bold; margin-right: 3mm; font-size: 8pt; margin-top: 0.8mm; }
+        .feature-text { flex: 1; color: #444; }
+        .benefits-box { background: linear-gradient(135deg, #e31e24 0%, #c41a20 100%); color: white; padding: 8mm; border-radius: 3mm; margin-bottom: 8mm; }
+        .benefits-box h3 { font-size: 14pt; margin-bottom: 4mm; }
+        .benefit-item { display: flex; align-items: flex-start; margin-bottom: 3mm; font-size: 9pt; line-height: 1.4; }
+        .benefit-item:last-child { margin-bottom: 0; }
+        .check-icon { color: white; font-weight: bold; margin-right: 3mm; font-size: 11pt; }
+        .tech-specs-section { margin-top: 5mm; }
+        .tech-specs-section h3 { font-size: 12pt; color: #2b2a29; margin-bottom: 3mm; padding-bottom: 2mm; border-bottom: 2px solid #e31e24; font-weight: 600; }
+        .tech-table { width: 100%; border-collapse: collapse; font-size: 9pt; }
+        .tech-table thead { background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%); color: white; }
+        .tech-table th { padding: 3mm; text-align: left; font-weight: 600; border: 1px solid #ddd; }
+        .tech-table td { padding: 2.5mm; border: 1px solid #ddd; color: #444; }
+        .tech-table tbody tr:nth-child(even) { background-color: #f9f9f9; }
+        .footer { position: absolute; bottom: 0; left: 0; right: 0; background: #2b2a29; color: white; padding: 8mm 15mm; }
+        .footer-content { display: flex; justify-content: space-between; align-items: center; }
+        .company-info { font-size: 7pt; line-height: 1.6; }
+        .company-name { font-size: 10pt; font-weight: bold; margin-bottom: 2mm; color: #e31e24; }
+        .contact-info { color: #ccc; }
+        .disclaimer { font-size: 6pt; color: #888; margin-top: 3mm; max-width: 160mm; }
     </style>
 </head>
 <body>
-    <!-- Page 1 - Hero -->
     <div class="page-1">
         <div class="header">
             <div class="logo-section">
-                <img src="../../../src/assets/inmarco-tagline-logo1.png" alt="INMARCO - Innovations in Fluid Sealing">
+                <img src="../../../src/assets/inmarco-tagline-logo1.png" alt="Inmarco - Innovations in Fluid Sealing">
             </div>
         </div>
-
         <div class="hero-section">
             <div class="hero-overlay"></div>
             <div class="hero-content">
                 <div class="red-accent"></div>
-                <h1 class="product-name">Style HY 107HD</h1>
-                <p class="product-tagline">High-Density Aramid-PTFE Packing for Aggressive Chemical Media</p>
+                <h1 class="product-name">HY 107HD</h1>
+                <p class="product-tagline">High-Density Aramid & PTFE Packing for Fertilizer Plant Applications</p>
             </div>
         </div>
     </div>
 
-    <!-- Page 2 - Technical Details -->
     <div class="page-2">
         <div class="page-2-header">
             <div>
                 <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
-                <h2 class="page-2-title">Style HY 107HD</h2>
+                <h2 class="page-2-title">HY 107HD</h2>
             </div>
         </div>
-
         <div class="content-section">
             <div class="description-with-image">
                 <div class="side-product-image">
                     <div class="product-image-container">
-                        <img src="../../FZC%20Inmarco%20Product%20Shoot/HY%20107%20HD/HY%20107%20HD%20-%2058_03_2.png" alt="HY 107 HD" class="product-image-small" onerror="this.style.display='none'">
+                        <img src="../../FZC%20Inmarco%20Product%20Shoot/HY%20107%20HD/HY%20107%20HD_1_2.png" alt="HY 107HD" class="product-image-small" onerror="this.style.display='none'">
                     </div>
                 </div>
 
                 <div class="description-text">
-                    <p class="description">
-                        HY 107HD is a high-density combination packing made with Aramid Fibre Yarn at the corners and PTFE Graphite Yarn at the faces, reinforced with an Aramid core. It is treated with antifrictional fluoropolymer dispersion and a special break-in lubricant. This design ensures excellent chemical resistance, dimensional stability, and thermal control.
-                    </p>
-
-                    <p class="description" style="margin-bottom: 0;">
-                        The graphite-faced surface promotes efficient heat dissipation, while the Aramid corners enhance structural integrity under pressure. Its compact construction supports long-term sealing performance in high-pressure, high-temperature environments. Specifically engineered for use in fertilizer plants, especially in carbamate and urea pump systems.
-                    </p>
+                    <p class="description">Inmarco HY 107HD is a high-density combination packing manufactured using Aramid Fibre Yarn at the corners and PTFE Graphite Yarn at the sealing faces, reinforced with a strong Aramid core. The packing is performed under heavy load according to plunger dimensions to ensure excusive shock and extrusion in challenging application. The packing is impregnated with an anti-friction fluoropolymer dispersion and a special break-in lubricant to provide excellent chemical resistance, dimensional stability, and thermal control.<br><br>The graphite-faced construction promotes efficient heat dissipation, while the Aramid reinforced corners provide exceptional structural strength and resistance to deformation under high pressure and dynamic loading conditions. Its dense braided construction delivers superior sealability and long-term sealing reliability in aggressive chemical services.<br><br>Specifically developed for critical fertilizer plant operations, HY 107HD performs exceptionally well in carbamate and urea pump applications where chemical resistance, mechanical strength, and operational reliability are essential.</p>
                 </div>
-            </div>
             </div>
 
             <div class="section-divider"></div>
 
-            <div class="features-grid">
-                <div class="features-column">
-                    <h3>Key Features</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">High-density construction with dense braiding for superior sealability and structural integrity</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Designed for critical fertilizer applications, specifically engineered for carbamate and urea pump systems</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Dual-yarn design with Aramid Fibre Yarn at corners for mechanical strength and PTFE Graphite Yarn at faces for thermal control</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Impregnated with antifrictional fluoropolymer dispersion and break-in lubricant to minimize startup wear</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Withstands harsh chemicals and abrasive media, ensuring long-term durability</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Graphite-faced surfaces enhance heat dissipation, allowing cooler operation and reducing thermal stress</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Aramid corners prevent deformation and failure in reciprocating motion</span>
-                    </div>
-                </div>
-
-                <div class="features-column">
-                    <h3>Performance Advantages</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Exceptional high-density construction for reliable sealing under high pressure</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Engineered for critical operations in fertilizer plants</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Low wear during startup due to antifrictional fluoropolymer treatment</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Excellent resistance to chemical attack and abrasive media</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Maintains consistent sealing under dynamic loads</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Extended service life with minimal maintenance requirements</span>
-                    </div>
-                </div>
-
-                <div class="features-column">
-                    <h3>Service Media</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Carbamate solutions</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Urea solutions</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Fertilizer chemicals</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Aggressive chemical media</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Abrasive process fluids</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Industrial chemicals</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Corrosive media</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Process liquids requiring high-performance sealing</span>
-                    </div>
-                </div>
+            <div class="tech-specs-section">
+                <h3>Technical Properties</h3>
+                <table class="tech-table">
+                    <thead>
+                        <tr>
+                            <th>Property</th>
+                            <th>Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>pH Range</td>
+                            <td>0 – 14</td>
+                        </tr>
+                        <tr>
+                            <td>Temperature Range</td>
+                            <td>-240°C to +280°C</td>
+                        </tr>
+                        <tr>
+                            <td>Pressure Rating</td>
+                            <td>500 Bar</td>
+                        </tr>
+                        <tr>
+                            <td>Size Range</td>
+                            <td>6 mm² to 50 mm²</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
-            <div class="benefits-box">
-                <h3>PERFORMANCE ADVANTAGES</h3>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Exceptional sealing performance under high pressure conditions</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Superior resistance to chemical attack and abrasive media</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Reduced startup wear and friction</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Enhanced heat dissipation for cooler operating temperatures</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Excellent structural stability under dynamic loading</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Aramid corners resist deformation and extrusion</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Reliable performance in carbamate and urea services</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Extended service life with reduced maintenance requirements</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Excellent dimensional stability during operation</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Maintains sealing integrity under severe operating conditions</span>
-                </div>
-            </div>
-        </div>
+    </div>
 
-        <!-- Page 3) - Technical Properties and Performance Benefits -->
     <div class="page-3">
         <div class="page-2-header">
             <div>
                 <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
-                <h2 class="page-2-title">Technical Specifications</h2>
+                <h2 class="page-2-title">HY 107HD</h2>
             </div>
         </div>
-
         <div class="content-section">
-            <div class="features-column" style="margin-bottom: 10mm;">
-<div class="features-column">
-                    <h3>TYPICAL APPLICATIONS</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Carbamate pumps</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Urea pumps</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Fertilizer plant equipment</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Chemical processing pumps</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">High-pressure industrial pumps</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Process industry sealing systems</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Equipment handling abrasive media</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Dynamic sealing applications</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Heavy-duty industrial services</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">High-temperature process equipment</span>
-                    </div>
+            <div class="features-grid">
+                <div class="features-column">
+                    <h3>Key Features</h3>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">High-density braided construction for superior sealability and structural integrity</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Manufactured with Aramid Fibre Yarn corners and PTFE Graphite Yarn faces</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Reinforced with high-strength Aramid core</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Treated with anti-friction fluoropolymer dispersion</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Contains special break-in lubricant to minimize startup wear</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Excellent chemical resistance and dimensional stability</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Graphite-faced construction promotes efficient heat dissipation</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Designed for demanding high-pressure and high-temperature applications</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Exceptional resistance to abrasive media and harsh chemicals</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Specifically engineered for fertilizer plant applications</span></div>
+                </div>
+                <div class="features-column">
+                    <h3>Applications</h3>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Carbamate pumps</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Urea pumps</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Fertilizer plant equipment</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Chemical processing pumps</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">High-pressure industrial pumps</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Process industry sealing systems</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Equipment handling abrasive media</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Dynamic sealing applications</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Heavy-duty industrial services</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">High-temperature process equipment</span></div>
                 </div>
             </div>
+        </div>
+    </div>
 
-            <div class="properties-section">
-                <h3>Technical Properties</h3>
-                <table class="properties-table">
-                    <tr>
-                        <th>Properties</th>
-                        <th>Values</th>
-                    </tr>
-                    <tr>
-                        <td>pH</td>
-                        <td>0 - 14</td>
-                    </tr>
-                    <tr>
-                        <td>Temperature (°C)</td>
-                        <td>-240 to +280°C</td>
-                    </tr>
-                    <tr>
-                        <td>Pressure (BAR)</td>
-                        <td>500</td>
-                    </tr>
-                    <tr>
-                        <td>Size</td>
-                        <td>6sq mm TO 50sq mm</td>
-                    </tr>
-                </table>
+    <div class="page-4">
+        <div class="page-2-header">
+            <div>
+                <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
+                <h2 class="page-2-title">HY 107HD</h2>
             </div>
-
+        </div>
+        <div class="content-section">
             <div class="benefits-box">
                 <h3>Performance Benefits</h3>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Densely braided construction provides superior sealability and structural integrity for high-pressure environments</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Dual-yarn design combines mechanical strength of Aramid with smooth operation and thermal control of PTFE Graphite</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Special break-in lubricant minimizes startup wear and extends service life significantly</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Graphite-faced surfaces promote efficient heat dissipation for cooler operation and reduced thermal stress</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Aramid corners enhance structural integrity and prevent deformation under dynamic loads and reciprocating motion</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Ideal for critical fertilizer plant operations including carbamate and urea pump systems where reliability is essential</span>
-                </div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Densely braided construction provides exceptional sealability and structural integrity</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Combines the mechanical strength of Aramid with the low-friction characteristics of PTFE Graphite</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Special break-in lubricant significantly reduces startup wear</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Graphite-faced surfaces improve heat transfer and reduce thermal stress</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Aramid reinforcement enhances resistance to pressure and extrusion</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Maintains reliable sealing performance under dynamic operating conditions</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Excellent durability in chemically aggressive environments</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Reduces downtime and maintenance costs</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Long operational service life in critical applications</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Ideal solution for demanding fertilizer industry operations</span></div>
             </div>
         </div>
-
         <div class="footer">
             <div class="footer-content">
                 <div class="company-info">
-                    <div class="company-name">INMARCO FZC</div>
+                    <div class="company-name">Inmarco FZC</div>
                     <div class="contact-info">
                         P.O. Box 120284, Sharjah Airport International Free Zone (SAIF-Zone), Sharjah, UAE<br>
                         Tel: +971 6 5578378 | Fax: +971 6 5578948<br>
                         Email: sales@inmarco.ae | Web: www.inmarco.ae
                     </div>
-                    <div class="disclaimer">
-                        All information and recommendations given in this technical data sheet are correct to the best of our knowledge. However, because of the wide variety of application and operating conditions, we cannot derive the final conclusion. This above information can only serve as a guideline.
-                    </div>
+                    <div class="disclaimer">All technical information, recommendations, and performance data provided in this technical datasheet are based on current knowledge, laboratory testing, and/or industrial experience. Actual product performance may vary depending on operating conditions, equipment design, installation practices, process parameters. Final product selection and suitability should be determined by the user based on the specific service conditions and application requirements.</div>
                 </div>
             </div>
         </div>
     </div>
+
 </body>
 </html>

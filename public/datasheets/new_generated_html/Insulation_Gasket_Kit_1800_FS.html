@@ -6,183 +6,38 @@
     <title>Insulation Gasket Kit 1800 FS - Technical Datasheet</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        @page {
-            size: A4 portrait;
-            margin: 0;
-        }
-
-        @media print {
-            body {
-                margin: 0;
-                padding: 0;
-            }
-            .product-image-container {
-                box-shadow: none !important;
-            }
-        }
-
-        html {
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
-            color: #2b2a29;
+        * { margin: 0; padding: 0; box-sizing: border-box; -webkit-print-color-adjust: exact; print-color-adjust: exact; color-adjust: exact; }
+        @page { size: A4 portrait; margin: 0; }
+        @media print { body { margin: 0; padding: 0; } .product-image-container {
             background: white;
-            width: 210mm;
-            min-height: 297mm;
-            margin: 0;
-            padding: 0;
-        }
-
-        /* Page 1 - Hero */
-        .page-1 {
-            width: 210mm;
-            height: 297mm;
-            background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%);
-            position: relative;
-            overflow: hidden;
-            page-break-after: always;
-        }
-
-        .header {
-            padding: 20mm 15mm;
-            margin-bottom: 10mm;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .logo-section {
-            color: white;
-        }
-
-        .logo-section img {
-            height: 200px;
-            width: auto;
-        }
-
-        /* Hero section */
-        .hero-section {
-            position: relative;
-            margin-top: 10px;
-            height: 100%;
-            background-image: url('../../oil and gas.jpg');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-
-        .hero-overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(to right, rgba(43, 42, 41, 0.95) 0%, rgba(43, 42, 41, 0.7) 50%, transparent 100%);
-        }
-
-        .hero-content {
-            position: relative;
-            z-index: 10;
-            padding: 35mm 15mm 0 15mm;
-            max-width: 150mm;
-        }
-
-        .red-accent {
-            width: 50mm;
-            height: 4px;
-            background: #e31e24;
-            margin-bottom: 10mm;
-        }
-
-        .product-name {
-            font-size: 52pt;
-            font-weight: 700;
-            color: white;
-            margin-bottom: 6mm;
-            letter-spacing: -1.5px;
-            line-height: 1.1;
-        }
-
-        .product-tagline {
-            font-size: 16pt;
-            color: #ffffff;
-            max-width: 140mm;
-            line-height: 1.5;
-            font-weight: 300;
-        }
-
-        /* Page 2 - Technical Details */
-        .page-2 {
-            width: 210mm;
-            height: 297mm;
-            background: white;
-            position: relative;
-            page-break-after: always;
-        }
-
-        /* Page 3 - Properties */
-        .page-3 {
-            width: 210mm;
-            height: 297mm;
-            background: white;
-            position: relative;
-            page-break-after: always;
-        }
-
-        /* Page 4 - Performance Benefits */
-        .page-4 {
-            width: 210mm;
-            height: 297mm;
-            background: white;
-            position: relative;
-        }
-
-        .page-2-header {
-            background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%);
-            padding: 12mm 15mm;
-            color: white;
-            margin-bottom: 10mm;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .page-2-title {
-            font-size: 28pt;
-            font-weight: bold;
-        }
-
-        .content-section {
-            padding: 10mm 15mm;
-        }
-
-        .description-with-image {
-            margin-bottom: 10mm;
-        }
-
-        .description-text {
-            display: block;
-        }
-
-        .description {
-            font-size: 10pt;
-            line-height: 1.5;
-            color: #333;
-            margin-bottom: 0;
-            text-align: justify;
-        }
-
+            border-radius: 5mm;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            border: 3px solid #e31e24;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        } }
+        html { margin: 0; padding: 0; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; color: #2b2a29; background: white; width: 210mm; min-height: 290mm; margin: 0; padding: 0; }
+        .page-1 { width: 210mm; height: 290mm; background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%); position: relative; overflow: hidden; page-break-after: always; }
+        .header { padding: 20mm 15mm; display: flex; justify-content: center; align-items: center; }
+        .logo-section { color: white; text-align: center; }
+        .logo-section img { height: 200px; width: auto; }
+        .hero-section { position: relative; margin-top: 10px; height: 100%; background-image: url('../../fertilizer.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; }
+        .hero-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to right, rgba(43, 42, 41, 0.95) 0%, rgba(43, 42, 41, 0.7) 50%, transparent 100%); }
+        .hero-content { position: relative; z-index: 10; padding: 35mm 15mm 0 15mm; max-width: 150mm; }
+        .red-accent { width: 50mm; height: 4px; background: #e31e24; margin-bottom: 10mm; }
+        .product-name { font-size: 42pt; font-weight: 700; color: white; margin-bottom: 6mm; letter-spacing: -1.5px; line-height: 1.1; }
+        .product-tagline { font-size: 15pt; color: #ffffff; max-width: 140mm; line-height: 1.5; font-weight: 300; }
+        .page-2, .page-3, .page-4 { width: 210mm; height: 290mm; background: white; position: relative; page-break-after: always; }
+        .page-4 { page-break-after: auto; }
+        .page-2-header { background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%); padding: 12mm 15mm; color: white; display: flex; justify-content: space-between; align-items: center; }
+        .page-2-title { font-size: 24pt; font-weight: bold; }
+        .content-section { padding: 10mm 15mm; }
+        .description { font-size: 10pt; line-height: 1.5; color: #333; margin-bottom: 5mm; text-align: justify; }
         .side-product-image {
             float: right;
-            margin-left: 5mm;
-            margin-bottom: 5mm;
+            margin-left: 6mm;
+            margin-bottom: 4mm;
         }
 
         .product-image-container {
@@ -200,372 +55,83 @@
             display: block;
         }
 
-        .section-divider {
-            height: 2px;
-            background: #e31e24;
-            margin: 5mm 0;
-        }
-
-        .features-grid {
-            margin-bottom: 10mm;
-            /* removed gap */
-            margin-bottom: 0;
-        }
-
-        .features-column {
-            text-align: justify;
-        }
-
-        .features-column h3 {
-            font-size: 12pt;
-            color: #2b2a29;
-            margin-bottom: 3mm;
-            padding-bottom: 2mm;
-            border-bottom: 2px solid #e31e24;
-            font-weight: 600;
-        }
-
-        .feature-item {
-            margin-bottom: 10mm;
-            margin-bottom: 1mm;
-            font-size: 8.5pt;
-            line-height: 1.4;
-        }
-
-        .bullet {
-            color: #e31e24;
-            font-weight: bold;
-            margin-right: 3mm;
-            font-size: 8pt;
-            margin-top: 0.8mm;
-        }
-
-        .feature-text {
-            text-align: justify;
-            color: #444;
-        }
-
-        /* Properties Table */
-        .properties-section {
-            background: #f5f5f5;
-            padding: 8mm;
-            border-radius: 3mm;
-            border-left: 4px solid #e31e24;
-            margin-bottom: 8mm;
-        }
-
-        .properties-section h3 {
-            font-size: 14pt;
-            color: #2b2a29;
-            margin-bottom: 5mm;
-        }
-
-        .properties-table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-
-        .properties-table th {
-            background: #2b2a29;
-            color: white;
-            padding: 3mm;
-            text-align: left;
-            font-size: 9pt;
-            font-weight: 600;
-        }
-
-        .properties-table td {
-            padding: 2.5mm 3mm;
-            border-bottom: 1px solid #ddd;
-            font-size: 9pt;
-            color: #333;
-        }
-
-        .properties-table tr:last-child td {
-            border-bottom: none;
-        }
-
-        .properties-table td:first-child {
-            font-weight: 600;
-            color: #2b2a29;
-        }
-
-        /* Benefits Box */
-        .benefits-box {
-            background: linear-gradient(135deg, #e31e24 0%, #c41a20 100%);
-            color: white;
-            padding: 8mm;
-            border-radius: 3mm;
-            margin-bottom: 8mm;
-        }
-
-        .benefits-box h3 {
-            font-size: 14pt;
-            margin-bottom: 4mm;
-        }
-
-        .benefit-item {
-            margin-bottom: 10mm;
-            /* removed align-items */
-            margin-bottom: 3mm;
-            font-size: 9pt;
-            line-height: 1.4;
-        }
-
-        .benefit-item:last-child {
-            margin-bottom: 0;
-        }
-
-        .check-icon {
-            color: white;
-            font-weight: bold;
-            margin-right: 3mm;
-            font-size: 11pt;
-        }
-
-        /* Footer */
-        .footer {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: #2b2a29;
-            color: white;
-            padding: 8mm 15mm;
-        }
-
-        .footer-content {
-            margin-bottom: 10mm;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .company-info {
-            font-size: 7pt;
-            line-height: 1.6;
-        }
-
-        .company-name {
-            font-size: 10pt;
-            font-weight: bold;
-            margin-bottom: 2mm;
-            color: #e31e24;
-        }
-
-        .contact-info {
-            color: #ccc;
-        }
-
-        .disclaimer {
-            font-size: 6pt;
-            color: #888;
-            margin-top: 3mm;
-            max-width: 160mm;
-        }
+        .section-divider { height: 2px; background: #e31e24; margin: 5mm 0; }
+        .features-grid { display: flex; gap: 10mm; margin-bottom: 0; }
+        .features-column { flex: 1; }
+        .features-column h3 { font-size: 12pt; color: #2b2a29; margin-bottom: 3mm; padding-bottom: 2mm; border-bottom: 2px solid #e31e24; font-weight: 600; }
+        .feature-item { display: flex; margin-bottom: 3mm; font-size: 10pt; line-height: 1.8; }
+        .bullet { color: #e31e24; font-weight: bold; margin-right: 3mm; font-size: 8pt; margin-top: 0.8mm; }
+        .feature-text { flex: 1; color: #444; }
+        .benefits-box { background: linear-gradient(135deg, #e31e24 0%, #c41a20 100%); color: white; padding: 8mm; border-radius: 3mm; margin-bottom: 8mm; }
+        .benefits-box h3 { font-size: 14pt; margin-bottom: 4mm; }
+        .benefit-item { display: flex; align-items: flex-start; margin-bottom: 3mm; font-size: 9pt; line-height: 1.4; }
+        .benefit-item:last-child { margin-bottom: 0; }
+        .check-icon { color: white; font-weight: bold; margin-right: 3mm; font-size: 11pt; }
+        .tech-specs-section { margin-top: 5mm; }
+        .tech-specs-section h3 { font-size: 12pt; color: #2b2a29; margin-bottom: 3mm; padding-bottom: 2mm; border-bottom: 2px solid #e31e24; font-weight: 600; }
+        .tech-table { width: 100%; border-collapse: collapse; font-size: 8.5pt; }
+        .tech-table thead { background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%); color: white; }
+        .tech-table th { padding: 3mm; text-align: left; font-weight: 600; border: 1px solid #ddd; }
+        .tech-table td { padding: 2.5mm; border: 1px solid #ddd; color: #444; }
+        .tech-table tbody tr:nth-child(even) { background-color: #f9f9f9; }
+        .footer { position: absolute; bottom: 0; left: 0; right: 0; background: #2b2a29; color: white; padding: 8mm 15mm; }
+        .footer-content { display: flex; justify-content: space-between; align-items: center; }
+        .company-info { font-size: 7pt; line-height: 1.6; }
+        .company-name { font-size: 10pt; font-weight: bold; margin-bottom: 2mm; color: #e31e24; }
+        .contact-info { color: #ccc; }
+        .disclaimer { font-size: 6pt; color: #888; margin-top: 3mm; max-width: 160mm; }
+        .certification-box { background: #f5f5f5; padding: 6mm; border-radius: 3mm; border-left: 4px solid #2b2a29; margin-top: 5mm; }
+        .certification-box h4 { font-size: 11pt; color: #2b2a29; margin-bottom: 3mm; font-weight: 600; }
+        .certification-box ul { list-style: none; padding: 0; margin: 0; }
+        .certification-box li { display: flex; align-items: flex-start; margin-bottom: 2mm; font-size: 9pt; line-height: 1.4; color: #444; }
+        .certification-box li:before { content: "✓"; color: #2b2a29; font-weight: bold; margin-right: 3mm; font-size: 11pt; }
     </style>
 </head>
 <body>
-    <!-- Page 1 - Hero -->
     <div class="page-1">
         <div class="header">
             <div class="logo-section">
-                <img src="../../../src/assets/inmarco-tagline-logo1.png" alt="INMARCO - Innovations in Fluid Sealing">
+                <img src="../../../src/assets/inmarco-tagline-logo1.png" alt="Inmarco - Innovations in Fluid Sealing">
             </div>
         </div>
-
         <div class="hero-section">
             <div class="hero-overlay"></div>
             <div class="hero-content">
                 <div class="red-accent"></div>
-                <h1 class="product-name">Insulation Gasket Kit 1800 FS</h1>
-                <p class="product-tagline">High-integrity flange isolation and sealing system for critical fire-safe applications</p>
+                <h1 class="product-name">INSULATION<br>GASKET KIT<br>1800 FS</h1>
+                <p class="product-tagline">High-Integrity Flange Isolation and Fire-Safe Sealing System</p>
             </div>
         </div>
     </div>
 
-    <!-- Page 2 - Technical Details -->
     <div class="page-2">
         <div class="page-2-header">
             <div>
                 <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
-                <h2 class="page-2-title">Insulation Gasket Kit 1800 FS</h2>
+                <h2 class="page-2-title">INSULATION GASKET KIT 1800 FS</h2>
             </div>
         </div>
-
         <div class="content-section">
-            <div class="description-with-image">
-                <div class="side-product-image">
-                    <div class="product-image-container">
-                        <img src="../../FZC%20Inmarco%20Product%20Shoot/Insulation%20Gasket%20Kit/IG_1_2.png" alt="INSULATION GASKET KIT 1800 FS" class="product-image-small" onerror="this.style.display='none'">
-                    </div>
-                </div>
-
-                <div class="description-text">
-                    <p class="description" style="margin-bottom: 0;">
-                        INMARCO Insulation Gasket Kit 1800 FS is a high-integrity flange isolation and sealing system designed for critical applications where fire safety, fluid containment, and electrical insulation are essential. It is specifically engineered for offshore, petrochemical, refinery, and high-pressure industrial environments where prevention of leakage and galvanic corrosion is critical to operational safety.
-                        <br><br>
-                        The kit features a metal-reinforced epoxy composite carrier plate combined with a dual sealing system that ensures reliable performance under both normal operating conditions and fire-exposure scenarios. The design effectively isolates flange faces electrically while maintaining high-pressure sealing integrity.
-                        <br><br>
-                        The advanced construction prevents galvanic corrosion between dissimilar flange materials and minimizes the risk of secondary system damage caused by leakage, fire exposure, or electrical continuity failure.
-                    </p>
+            <div class="side-product-image">
+                <div class="product-image-container">
+                    <img src="../../FZC%20Inmarco%20Product%20Shoot/Insulation%20Gasket%20Kit/IG_1_2.png" alt="Product Image" class="product-image-small" onerror="this.style.display='none'">
                 </div>
             </div>
+            <p class="description">Inmarco Insulation Gasket Kit 1800 FS is a high-integrity flange isolation and sealing system designed for critical applications where fire safety, fluid containment, and electrical insulation are essential. It is specifically engineered for offshore, petrochemical, refinery, and high-pressure industrial environments where prevention of leakage and galvanic corrosion is critical to operational safety.</p>
+            
+            <p class="description">The kit features a metal-reinforced epoxy composite carrier plate combined with a dual sealing system that ensures reliable performance under both normal operating conditions and fire-exposure scenarios. The design effectively isolates flange faces electrically while maintaining high-pressure sealing integrity.</p>
+            
+            <p class="description">The advanced construction prevents galvanic corrosion between dissimilar flange materials and minimizes the risk of secondary system damage caused by leakage, fire exposure, or electrical continuity failure.</p>
 
             <div class="section-divider"></div>
 
-            <div class="features-grid">
-                <div class="features-column">
-                    <h3>Key Features</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Dual sealing system with primary PTFE seal and internal spring energization</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Secondary fire-safe sealing element for enhanced protection under fire conditions</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">High-strength NEMA Grade G10/G11 epoxy composite carrier plate</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Provides effective electrical isolation between flange surfaces</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">API 6FB fire-safe tested and certified design</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Suitable for high-pressure and critical isolation applications</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Excellent compressive strength and dimensional stability</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Broad compatibility with industrial flange materials</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Designed for ease of installation and maintenance</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Reliable performance in offshore and corrosive environments</span>
-                    </div>
-                </div>
-
-                <div class="features-column">
-                    <h3>Performance Advantages</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Prevents galvanic corrosion between dissimilar metal flanges</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Maintains sealing integrity under high pressure and temperature variations</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Ensures fire-safe performance under direct flame exposure conditions</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">High resistance to chemical attack and process fluid exposure</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Stable electrical insulation under moisture and thermal conditions</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Reduces maintenance frequency and improves system uptime</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Suitable for continuous operation in harsh industrial environments</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Excellent structural integrity under bolt load compression</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Enhances safety in critical process isolation systems</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Long service life under properly selected installation conditions</span>
-                    </div>
-                </div>
-            </div>
-            </div>
-        </div>
-            <div class="benefits-box">
-                <h3>PERFORMANCE ADVANTAGES</h3>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Prevents galvanic corrosion between dissimilar metal flanges</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Maintains sealing integrity under high pressure and temperature variations</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Ensures fire-safe performance under direct flame exposure conditions</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>High resistance to chemical attack and process fluid exposure</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Stable electrical insulation under moisture and thermal conditions</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Reduces maintenance frequency and improves system uptime</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Suitable for continuous operation in harsh industrial environments</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Excellent structural integrity under bolt load compression</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Enhances safety in critical process isolation systems</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Long service life under properly selected installation conditions</span>
-                </div>
-            </div>
-        </div>
-
-        <!-- Page 3) - Technical Properties and Performance Benefits -->
-    <div class="page-3">
-        <div class="page-2-header">
-            <div>
-                <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
-                <h2 class="page-2-title">Insulation Gasket Kit 1800 FS</h2>
-            </div>
-        </div>
-
-        <div class="content-section">
-            <div class="properties-section">
+            <div class="tech-specs-section">
                 <h3>Technical Properties</h3>
-                <table class="properties-table">
+                <table class="tech-table">
                     <thead>
                         <tr>
                             <th>Property</th>
-                            <th>Value</th>
+                            <th>Specification</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -612,135 +178,94 @@
                     </tbody>
                 </table>
             </div>
-            <div class="features-column">
-                <h3>Applications</h3>
-                <div class="feature-item">
-                    <span class="bullet">●</span>
-                    <span class="feature-text">Offshore oil & gas platforms</span>
+        </div>
+    </div>
+
+    <div class="page-3">
+        <div class="page-2-header">
+            <div>
+                <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
+                <h2 class="page-2-title">INSULATION GASKET KIT 1800 FS</h2>
+            </div>
+        </div>
+        <div class="content-section">
+            <div class="features-grid">
+                <div class="features-column">
+                    <h3>Key Features</h3>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Dual sealing system with primary PTFE seal and internal spring energization</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Secondary fire-safe sealing element for enhanced protection under fire conditions</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">High-strength NEMA Grade G10/G11 epoxy composite carrier plate</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Provides effective electrical isolation between flange surfaces</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">API 6FB fire-safe tested and certified design</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Suitable for high-pressure and critical isolation applications</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Excellent compressive strength and dimensional stability</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Broad compatibility with industrial flange materials</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Designed for ease of installation and maintenance</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Reliable performance in offshore and corrosive environments</span></div>
                 </div>
-                <div class="feature-item">
-                    <span class="bullet">●</span>
-                    <span class="feature-text">Refineries and petrochemical plants</span>
-                </div>
-                <div class="feature-item">
-                    <span class="bullet">●</span>
-                    <span class="feature-text">LNG and gas processing facilities</span>
-                </div>
-                <div class="feature-item">
-                    <span class="bullet">●</span>
-                    <span class="feature-text">Chemical processing industries</span>
-                </div>
-                <div class="feature-item">
-                    <span class="bullet">●</span>
-                    <span class="feature-text">Pipeline flange isolation systems</span>
-                </div>
-                <div class="feature-item">
-                    <span class="bullet">●</span>
-                    <span class="feature-text">Power generation plants</span>
-                </div>
-                <div class="feature-item">
-                    <span class="bullet">●</span>
-                    <span class="feature-text">Marine and shipbuilding applications</span>
-                </div>
-                <div class="feature-item">
-                    <span class="bullet">●</span>
-                    <span class="feature-text">Process industries requiring galvanic isolation</span>
-                </div>
-                <div class="feature-item">
-                    <span class="bullet">●</span>
-                    <span class="feature-text">High-pressure fluid handling systems</span>
-                </div>
-                <div class="feature-item">
-                    <span class="bullet">●</span>
-                    <span class="feature-text">Safety-critical flange sealing and isolation points</span>
+                <div class="features-column">
+                    <h3>Applications</h3>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Offshore oil & gas platforms</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Refineries and petrochemical plants</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">LNG and gas processing facilities</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Chemical processing industries</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Pipeline flange isolation systems</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Power generation plants</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Marine and shipbuilding applications</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Process industries requiring galvanic isolation</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">High-pressure fluid handling systems</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Safety-critical flange sealing and isolation points</span></div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Page 4 - Performance Benefits -->
     <div class="page-4">
         <div class="page-2-header">
             <div>
                 <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
-                <h2 class="page-2-title">Insulation Gasket Kit 1800 FS</h2>
+                <h2 class="page-2-title">INSULATION GASKET KIT 1800 FS</h2>
             </div>
         </div>
-
         <div class="content-section">
             <div class="benefits-box">
                 <h3>Performance Benefits</h3>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>High structural strength due to reinforced composite construction</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Excellent resistance to thermal and mechanical stress</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Superior sealing adaptability to flange surface conditions</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Chemically inert system with no contamination or leaching</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Maintains insulation efficiency under heat and moisture exposure</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Long-term dimensional stability under compression loading</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Reliable performance in cyclic pressure and temperature conditions</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Ensures system integrity in corrosive industrial environments</span>
-                </div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Prevents galvanic corrosion between dissimilar metal flanges</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Maintains sealing integrity under high pressure and temperature variations</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Ensures fire-safe performance under direct flame exposure conditions</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>High resistance to chemical attack and process fluid exposure</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Stable electrical insulation under moisture and thermal conditions</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Reduces maintenance frequency and improves system uptime</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Suitable for continuous operation in harsh industrial environments</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Excellent structural integrity under bolt load compression</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Enhances safety in critical process isolation systems</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Long service life under properly selected installation conditions</span></div>
             </div>
 
-
-            <div class="features-column">
-                <h3>Certification & Testing</h3>
-                <div class="feature-item">
-                    <span class="bullet">●</span>
-                    <span class="feature-text">API 6FB Fire Safe Test Certified</span>
-                </div>
-                <div class="feature-item">
-                    <span class="bullet">●</span>
-                    <span class="feature-text">Salt Spray Testing (as per ADNOC Specification)</span>
-                </div>
-                <div class="feature-item">
-                    <span class="bullet">●</span>
-                    <span class="feature-text">Nitrogen-Helium Leak Testing (as per ADNOC Specification)</span>
-                </div>
-                <div class="feature-item">
-                    <span class="bullet">●</span>
-                    <span class="feature-text">Material compliance verification for G10/G11 and alloy components</span>
-                </div>
+            <div class="certification-box">
+                <h4>Certification & Testing</h4>
+                <ul>
+                    <li>API 6FB Fire Safe Test Certified</li>
+                    <li>Salt Spray Testing (as per ADNOC Specification)</li>
+                    <li>Nitrogen-Helium Leak Testing (as per ADNOC Specification)</li>
+                    <li>Material compliance verification for G10/G11 and alloy components</li>
+                </ul>
             </div>
         </div>
-
         <div class="footer">
             <div class="footer-content">
                 <div class="company-info">
-                    <div class="company-name">INMARCO FZC</div>
+                    <div class="company-name">Inmarco FZC</div>
                     <div class="contact-info">
                         P.O. Box 120284, Sharjah Airport International Free Zone (SAIF-Zone), Sharjah, UAE<br>
                         Tel: +971 6 5578378 | Fax: +971 6 5578948<br>
                         Email: sales@inmarco.ae | Web: www.inmarco.ae
                     </div>
-                    <div class="disclaimer">
-                        The information provided in this datasheet is intended as a general engineering guideline. Final selection and suitability must be confirmed based on actual operating conditions, flange design, pressure class, temperature, and application requirements.
-                    </div>
+                    <div class="disclaimer">All technical information, recommendations, and performance data provided in this technical datasheet are based on current knowledge, laboratory testing, and/or industrial experience. Actual product performance may vary depending on operating conditions, equipment design, installation practices, process parameters. Final product selection and suitability should be determined by the user based on the specific service conditions and application requirements.</div>
                 </div>
             </div>
         </div>
     </div>
+
 </body>
 </html>

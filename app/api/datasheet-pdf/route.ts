@@ -1,13 +1,16 @@
 import { NextRequest, NextResponse } from 'next/server';
-import puppeteer from 'puppeteer-core';
+import puppeteerCore from 'puppeteer-core';
+import puppeteer from 'puppeteer';
 import chromium from '@sparticuz/chromium';
 import fs from 'fs';
 import path from 'path';
 
 export async function GET(request: NextRequest) {
+  let datasheetPath: string | null = null;
+
   try {
     const searchParams = request.nextUrl.searchParams;
-    const datasheetPath = searchParams.get('path');
+    datasheetPath = searchParams.get('path');
 
     if (!datasheetPath) {
       return NextResponse.json(
@@ -92,15 +95,28 @@ export async function GET(request: NextRequest) {
       }
     });
 
-    // Launch Puppeteer with @sparticuz/chromium (optimized for containers)
+    // Launch Puppeteer with different configs for dev vs production
     console.log('Launching browser for PDF generation...');
-    const browser = await puppeteer.launch({
-      args: chromium.args,
-      defaultViewport: chromium.defaultViewport,
-      executablePath: await chromium.executablePath(),
-      headless: chromium.headless,
-      ignoreHTTPSErrors: true,
-    });
+    const isDev = process.env.NODE_ENV === 'development';
+
+    let browser;
+    if (isDev) {
+      // In development, use regular puppeteer with bundled Chromium
+      browser = await puppeteer.launch({
+        headless: true,
+        args: ['--no-sandbox', '--disable-setuid-sandbox'],
+        ignoreHTTPSErrors: true,
+      });
+    } else {
+      // In production, use puppeteer-core with @sparticuz/chromium for serverless environments
+      browser = await puppeteerCore.launch({
+        args: chromium.args,
+        defaultViewport: chromium.defaultViewport,
+        executablePath: await chromium.executablePath(),
+        headless: chromium.headless,
+        ignoreHTTPSErrors: true,
+      });
+    }
 
     const page = await browser.newPage();
 

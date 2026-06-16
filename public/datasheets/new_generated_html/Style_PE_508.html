@@ -3,45 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>STYLE PE 508 - Technical Datasheet</title>
+    <title>PE 508 - Technical Datasheet</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
+        * { margin: 0; padding: 0; box-sizing: border-box; -webkit-print-color-adjust: exact; print-color-adjust: exact; color-adjust: exact; }
         @page { size: A4 portrait; margin: 0; }
-        @media print { body { margin: 0; padding: 0; } .product-image-container { box-shadow: none !important; } }
+        @media print { body { margin: 0; padding: 0; } }
         html { margin: 0; padding: 0; }
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; color: #2b2a29; background: white; width: 210mm; min-height: 290mm; margin: 0; padding: 0; }
         .page-1 { width: 210mm; height: 290mm; background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%); position: relative; overflow: hidden; page-break-after: always; }
         .header { padding: 20mm 15mm; display: flex; justify-content: center; align-items: center; }
-        .logo-section { color: white; }
+        .logo-section { color: white; text-align: center; }
         .logo-section img { height: 200px; width: auto; }
-        .hero-section { position: relative; margin-top: 10px; height: 100%; background-image: url('../../oil and gas.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; }
+        .hero-section { position: relative; margin-top: 10px; height: 100%; background-size: cover; background-position: center; background-repeat: no-repeat; }
         .hero-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to right, rgba(43, 42, 41, 0.95) 0%, rgba(43, 42, 41, 0.7) 50%, transparent 100%); }
         .hero-content { position: relative; z-index: 10; padding: 35mm 15mm 0 15mm; max-width: 150mm; }
         .red-accent { width: 50mm; height: 4px; background: #e31e24; margin-bottom: 10mm; }
-        .product-name { font-size: 52pt; font-weight: 700; color: white; margin-bottom: 6mm; letter-spacing: -1.5px; line-height: 1.1; }
-        .product-tagline { font-size: 16pt; color: #ffffff; max-width: 140mm; line-height: 1.5; font-weight: 300; }
+        .product-name { font-size: 48pt; font-weight: 700; color: white; margin-bottom: 6mm; letter-spacing: -1.5px; line-height: 1.1; }
+        .product-tagline { font-size: 12pt; color: #ffffff; max-width: 140mm; line-height: 1.5; font-weight: 300; }
         .page-2, .page-3, .page-4 { width: 210mm; height: 290mm; background: white; position: relative; page-break-after: always; }
         .page-4 { page-break-after: auto; }
         .page-2-header { background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%); padding: 12mm 15mm; color: white; display: flex; justify-content: space-between; align-items: center; }
         .page-2-title { font-size: 28pt; font-weight: bold; }
         .content-section { padding: 10mm 15mm; }
-        .description { font-size: 10pt; line-height: 1.5; color: #333; margin-bottom: 0; text-align: justify; }
-
-        .description-with-image {
-            margin-bottom: 10mm;
-        }
-
-        .description-text {
-            display: block;
-        }
-
+        .description { font-size: 10pt; line-height: 1.5; color: #333; margin-bottom: 5mm; text-align: justify; }
         .side-product-image {
             float: right;
-            margin-left: 5mm;
-            margin-bottom: 5mm;
-            margin-right: 0;
-            width: 85mm;
+            margin-left: 6mm;
+            margin-bottom: 4mm;
         }
 
         .product-image-container {
@@ -49,11 +38,13 @@
             border-radius: 5mm;
             box-shadow: 0 4px 15px rgba(0,0,0,0.3);
             border: 3px solid #e31e24;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
         }
 
         .product-image-small {
-            height: 55mm;
             width: 85mm;
+            height: 55mm;
             border-radius: 4mm;
             object-fit: cover;
             display: block;
@@ -63,7 +54,7 @@
         .features-grid { display: flex; gap: 10mm; margin-bottom: 0; }
         .features-column { flex: 1; }
         .features-column h3 { font-size: 12pt; color: #2b2a29; margin-bottom: 3mm; padding-bottom: 2mm; border-bottom: 2px solid #e31e24; font-weight: 600; }
-        .feature-item { display: flex; margin-bottom: 1mm; font-size: 8.5pt; line-height: 1.4; }
+        .feature-item { display: flex; margin-bottom: 3mm; font-size: 10pt; line-height: 1.8; }
         .bullet { color: #e31e24; font-weight: bold; margin-right: 3mm; font-size: 8pt; margin-top: 0.8mm; }
         .feature-text { flex: 1; color: #444; }
         .benefits-box { background: linear-gradient(135deg, #e31e24 0%, #c41a20 100%); color: white; padding: 8mm; border-radius: 3mm; margin-bottom: 8mm; }
@@ -93,11 +84,11 @@
                 <img src="../../../src/assets/inmarco-tagline-logo1.png" alt="Inmarco - Innovations in Fluid Sealing">
             </div>
         </div>
-        <div class="hero-section">
+        <div class="hero-section" style="background-image: url('../../chemical.jpg');">
             <div class="hero-overlay"></div>
             <div class="hero-content">
                 <div class="red-accent"></div>
-                <h1 class="product-name">STYLE PE 508</h1>
+                <h1 class="product-name">PE 508</h1>
                 <p class="product-tagline">Versatile Packing for Dynamic and Static Applications</p>
             </div>
         </div>
@@ -107,52 +98,21 @@
         <div class="page-2-header">
             <div>
                 <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
-                <h2 class="page-2-title">STYLE PE 508</h2>
+                <h2 class="page-2-title">PE 508</h2>
             </div>
         </div>
         <div class="content-section">
-            <div class="description-with-image">
-                <div class="side-product-image">
-                    <div class="product-image-container">
-                        <img src="../../FZC%20Inmarco%20Product%20Shoot/PE%20508/PE%20508_2.png" alt="Style PE 508" class="product-image-small" onerror="this.style.display='none'">
-                    </div>
+            <div class="side-product-image">
+                <div class="product-image-container">
+                    <img src="../../FZC%20Inmarco%20Product%20Shoot/PE%20508/PE%20508_2.png" alt="Product Image" class="product-image-small" onerror="this.style.display='none'">
                 </div>
+            </div>
+            <p class="description">Inmarco Style PE 508 is a high-performance diagonally braided packing manufactured from pure PTFE filament yarn and impregnated with a proprietary break-in lubricant. This combination provides smooth start-up characteristics, enhanced pressure resistance, and reliable long-term sealing performance.</p>
+            
+            <p class="description">The packing is chemically inert, non-toxic, and dimensionally stable, ensuring safe operation and consistent sealing efficiency across a wide range of industrial applications. Its low-friction design minimizes equipment wear, reduces maintenance requirements, and delivers dependable performance in both dynamic and static sealing environments.</p>
 
-                <div class="description-text">
-                    <p class="description">Style PE 508 is a high-performance diagonally braided packing manufactured from pure PTFE filament yarn and impregnated with a proprietary break-in lubricant.<br><br>This combination provides smooth start-up characteristics, enhanced pressure resistance, and reliable long-term sealing performance.The packing is chemically inert, non-toxic, and dimensionally stable, ensuring safe operation and consistent sealing efficiency across a wide range of industrial applications.<br><br>Its low-friction design minimizes equipment wear, reduces maintenance requirements, and delivers dependable performance in both dynamic and static sealing environments.</p>
-                </div>
-            </div>
             <div class="section-divider"></div>
-            <div class="features-grid">
-                <div class="features-column">
-                    <h3>Key Features</h3>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Manufactured from high-quality pure PTFE filament yarn for exceptional chemical resistance.</span></div>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Diagonal braided construction enhances structural integrity and ensures uniform sealing pressure.</span></div>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Proprietary break-in lubricant reduces start-up friction and minimizes wear during initial operation.</span></div>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Suitable for a wide temperature range and aggressive chemical environments.</span></div>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Withstands pressures up to 350 bar for demanding industrial sealing applications.</span></div>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Dimensionally stable construction minimizes leakage and maintains sealing integrity over extended service periods.</span></div>
-                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Non-toxic and chemically inert, making it suitable for handling sensitive and corrosive media.</span></div>
-                </div>
-                <div class="features-column">
-                    <h3>Applications</h3>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">PE 508Inmarco Style PE 508 is a high-performance diagonally braided packing manufactured from pure PTFE filament yarn and impregnated with a proprietary break-in lubricant. This combination provides smooth start-up characteristics, enhanced pressure resistance, and reliable long-term sealing performance.The packing is chemically inert, non-toxic, and dimensionally stable, ensuring safe operation and consistent sealing efficiency across a wide range of industrial applications. Its low-friction design minimizes equipment wear, reduces maintenance requirements, and delivers dependable performance in both dynamic and static sealing environments.Key Features</span></div>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Manufactured from high-quality pure PTFE filament yarn for exceptional chemical resistance.</span></div>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Diagonal braided construction enhances structural integrity and ensures uniform sealing pressure.</span></div>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Proprietary break-in lubricant reduces start-up friction and minimizes wear during initial operation.</span></div>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Suitable for a wide temperature range and aggressive chemical environments.</span></div>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Withstands pressures up to 350 bar for demanding industrial sealing applications.</span></div>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Dimensionally stable construction minimizes leakage and maintains sealing integrity over extended service periods.</span></div>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Non-toxic and chemically inert, making it suitable for handling sensitive and corrosive media.Typical Applications</span></div>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Pumps</span></div>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Agitators</span></div>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Mixers</span></div>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Reactors</span></div>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Static and Dynamic Sealing Equipment</span></div>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Chemical Processing Industries</span></div>
-                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Water Treatment Systems</span></div>
-                </div>
-            </div>
+
             <div class="tech-specs-section">
                 <h3>Technical Properties</h3>
                 <table class="tech-table">
@@ -163,30 +123,12 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td>pH Range</td>
-                            <td>0 – 14</td>
-                        </tr>
-                        <tr>
-                            <td>Temperature Range</td>
-                            <td>-240°C to +280°C</td>
-                        </tr>
-                        <tr>
-                            <td>Maximum Pressure</td>
-                            <td>350 Bar</td>
-                        </tr>
-                        <tr>
-                            <td>Available Sizes</td>
-                            <td>3 sq mm to 35 sq mm</td>
-                        </tr>
-                        <tr>
-                            <td>Construction</td>
-                            <td>Diagonally Braided Pure PTFE Filament Yarn</td>
-                        </tr>
-                        <tr>
-                            <td>Lubrication</td>
-                            <td>Proprietary Break-In Lubricant</td>
-                        </tr>
+                        <tr><td>pH Range</td><td>0 – 14</td></tr>
+                        <tr><td>Temperature Range</td><td>-240°C to +280°C</td></tr>
+                        <tr><td>Maximum Pressure</td><td>350 Bar</td></tr>
+                        <tr><td>Available Sizes</td><td>3 sq mm to 35 sq mm</td></tr>
+                        <tr><td>Construction</td><td>Diagonally Braided Pure PTFE Filament Yarn</td></tr>
+                        <tr><td>Lubrication</td><td>Proprietary Break-In Lubricant</td></tr>
                     </tbody>
                 </table>
             </div>
@@ -197,34 +139,53 @@
         <div class="page-2-header">
             <div>
                 <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
-                <h2 class="page-2-title">STYLE PE 508</h2>
+                <h2 class="page-2-title">PE 508</h2>
             </div>
         </div>
         <div class="content-section">
-            <div class="features-column" style="margin-bottom: 10mm;">
-<div class="features-column">
-                    <h3>PE 508</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">INMARCO Style PE 508 is a high-performance diagonally braided packing manufactured from pure PTFE filament yarn and impregnated with a proprietary break-in lubricant. This combination provides smooth start-up characteristics, enhanced pressure resistance, and reliable long-term sealing performance.</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">The packing is chemically inert, non-toxic, and dimensionally stable, ensuring safe operation and consistent sealing efficiency across a wide range of industrial applications. Its low-friction design minimizes equipment wear, reduces maintenance requirements, and delivers dependable performance in both dynamic and static sealing environments.</span>
-                    </div>
+            <div class="features-grid">
+                <div class="features-column">
+                    <h3>Key Features</h3>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Manufactured from high-quality pure PTFE filament yarn for exceptional chemical resistance</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Diagonal braided construction enhances structural integrity and ensures uniform sealing pressure</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Proprietary break-in lubricant reduces start-up friction and minimizes wear during initial operation</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Suitable for a wide temperature range and aggressive chemical environments</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Withstands pressures up to 350 bar for demanding industrial sealing applications</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Dimensionally stable construction minimizes leakage and maintains sealing integrity over extended service periods</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Non-toxic and chemically inert, making it suitable for handling sensitive and corrosive media</span></div>
+                </div>
+                <div class="features-column">
+                    <h3>Typical Applications</h3>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Pumps</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Agitators</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Mixers</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Reactors</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Static and Dynamic Sealing Equipment</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Chemical Processing Industries</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Water Treatment Systems</span></div>
                 </div>
             </div>
+        </div>
+    </div>
 
+    <div class="page-4">
+        <div class="page-2-header">
+            <div>
+                <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
+                <h2 class="page-2-title">PE 508</h2>
+            </div>
+        </div>
+        <div class="content-section">
             <div class="benefits-box">
                 <h3>Performance Benefits</h3>
-                <div class="benefit-item"><span class="check-icon">✓</span><span>Exceptional resistance to high pressure and mechanical stress.</span></div>
-                <div class="benefit-item"><span class="check-icon">✓</span><span>Dimensionally stable construction ensures consistent sealing performance and extended service life.</span></div>
-                <div class="benefit-item"><span class="check-icon">✓</span><span>Integrated break-in lubricant enables smooth start-up and reduces equipment wear.</span></div>
-                <div class="benefit-item"><span class="check-icon">✓</span><span>Suitable for both dynamic and static sealing applications.</span></div>
-                <div class="benefit-item"><span class="check-icon">✓</span><span>Chemically inert and non-toxic composition ensures safe and clean operation.</span></div>
-                <div class="benefit-item"><span class="check-icon">✓</span><span>Low friction characteristics help protect shafts, sleeves, and equipment surfaces.</span></div>
-                <div class="benefit-item"><span class="check-icon">✓</span><span>Reduces maintenance requirements and minimizes operational downtime.</span></div>
-                <div class="benefit-item"><span class="check-icon">✓</span><span>Delivers reliable sealing performance in demanding industrial environments.</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Exceptional resistance to high pressure and mechanical stress</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Dimensionally stable construction ensures consistent sealing performance and extended service life</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Integrated break-in lubricant enables smooth start-up and reduces equipment wear</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Suitable for both dynamic and static sealing applications</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Chemically inert and non-toxic composition ensures safe and clean operation</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Low friction characteristics help protect shafts, sleeves, and equipment surfaces</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Reduces maintenance requirements and minimizes operational downtime</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Delivers reliable sealing performance in demanding industrial environments</span></div>
             </div>
         </div>
         <div class="footer">
@@ -241,5 +202,6 @@
             </div>
         </div>
     </div>
+
 </body>
 </html>

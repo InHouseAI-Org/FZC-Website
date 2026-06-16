@@ -3,167 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>120 - Technical Datasheet</title>
+    <title>OR 120 - Technical Datasheet</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        @page {
-            size: A4;
-            margin: 0;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
-            color: #2b2a29;
-            background: white;
-            width: 210mm;
-            min-height: 297mm;
-            align-content: center;
-            margin: 0 auto;
-        }
-
-        /* Page 1 - Hero */
-        .page-1 {
-            width: 100%;
-            height: 290mm;
-            background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%);
-            position: relative;
-            overflow: hidden;
-            page-break-after: always;
-        }
-
-        .header {
-            padding: 20mm 15mm;
-            margin-bottom: 10mm;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .logo-section {
-            color: white;
-        }
-
-        .logo-section img {
-            height: 200px;
-            width: auto;
-        }
-
-        /* Hero section */
-        .hero-section {
-            position: relative;
-            margin-top: 10px;
-            height: 100%;
-            background-image: url('../../water.jpg');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-
-        .hero-overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(to right, rgba(43, 42, 41, 0.95) 0%, rgba(43, 42, 41, 0.7) 50%, transparent 100%);
-        }
-
-        .hero-content {
-            position: relative;
-            z-index: 10;
-            padding: 35mm 15mm 0 15mm;
-            max-width: 150mm;
-        }
-
-        .red-accent {
-            width: 50mm;
-            height: 4px;
-            background: #e31e24;
-            margin-bottom: 10mm;
-        }
-
-        .product-name {
-            font-size: 52pt;
-            font-weight: 700;
-            color: white;
-            margin-bottom: 6mm;
-            letter-spacing: -1.5px;
-            line-height: 1.1;
-        }
-
-        .product-tagline {
-            font-size: 16pt;
-            color: #ffffff;
-            max-width: 140mm;
-            line-height: 1.5;
-            font-weight: 300;
-        }
-
-        /* Page 2 - Technical Details */
-        .page-2 {
-            width: 100%;
-            height: 290mm;
-            background: white;
-            position: relative;
-            page-break-after: always;
-        }
-
-        /* Page 3 - Properties */
-        .page-3 {
-            width: 100%;
-            height: 290mm;
-            background: white;
-            position: relative;
-            page-break-after: always;
-        }
-
-        /* Page 4 - Performance Benefits */
-        .page-4 {
-            width: 100%;
-            height: 290mm;
-            background: white;
-            position: relative;
-        }
-
-        .page-2-header {
-            background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%);
-            padding: 15mm;
-            color: white;
-            margin-bottom: 10mm;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .page-2-title {
-            font-size: 28pt;
-            font-weight: bold;
-        }
-
-        .content-section {
-            padding: 12mm 15mm;
-        }
-
-        .description-with-image {
-            margin-bottom: 10mm;
-        }
-
-        .description-text {
-            text-align: justify;
-        }
-
-        .description {
-            font-size: 10pt;
-            line-height: 1.6;
-            color: #333;
-            margin-bottom: 10mm;
-            text-align: justify;
-        }
-
+        * { margin: 0; padding: 0; box-sizing: border-box; -webkit-print-color-adjust: exact; print-color-adjust: exact; color-adjust: exact; }
+        @page { size: A4 portrait; margin: 0; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; color: #2b2a29; background: white; width: 210mm; min-height: 290mm; margin: 0; padding: 0; }
+        .page-1 { width: 210mm; height: 290mm; background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%); position: relative; overflow: hidden; page-break-after: always; }
+        .header { padding: 20mm 15mm; display: flex; justify-content: center; align-items: center; }
+        .logo-section { color: white; text-align: center; }
+        .logo-section img { height: 200px; width: auto; }
+        .hero-section { position: relative; margin-top: 10px; height: 100%; background-image: url('../../water.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; }
+        .hero-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to right, rgba(43, 42, 41, 0.95) 0%, rgba(43, 42, 41, 0.7) 50%, transparent 100%); }
+        .hero-content { position: relative; z-index: 10; padding: 35mm 15mm 0 15mm; max-width: 150mm; }
+        .red-accent { width: 50mm; height: 4px; background: #e31e24; margin-bottom: 10mm; }
+        .product-name { font-size: 48pt; font-weight: 700; color: white; margin-bottom: 6mm; letter-spacing: -1.5px; line-height: 1.1; }
+        .product-tagline { font-size: 13pt; color: #ffffff; max-width: 140mm; line-height: 1.5; font-weight: 300; }
+        .page-2, .page-3, .page-4 { width: 210mm; height: 290mm; background: white; position: relative; page-break-after: always; }
+        .page-4 { page-break-after: auto; }
+        .page-2-header { background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%); padding: 12mm 15mm; color: white; }
+        .page-2-title { font-size: 28pt; font-weight: bold; }
+        .content-section { padding: 10mm 15mm; }
+        .description { font-size: 10pt; line-height: 1.5; color: #333; margin-bottom: 5mm; text-align: justify; }
         .side-product-image {
             float: right;
             margin-left: 6mm;
@@ -175,6 +36,8 @@
             border-radius: 5mm;
             box-shadow: 0 4px 15px rgba(0,0,0,0.3);
             border: 3px solid #e31e24;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
         }
 
         .product-image-small {
@@ -185,216 +48,49 @@
             display: block;
         }
 
-        .section-divider {
-            height: 2px;
-            background: #e31e24;
-            margin: 8mm 0;
-        }
-
-        .features-grid {
-            margin-bottom: 10mm;
-            /* removed gap */
-            margin-bottom: 10mm;
-        }
-
-        .features-column {
-            text-align: justify;
-        }
-
-        .features-column h3 {
-            font-size: 13pt;
-            color: #2b2a29;
-            margin-bottom: 5mm;
-            padding-bottom: 2mm;
-            border-bottom: 2px solid #e31e24;
-            font-weight: 600;
-        }
-
-        .feature-item {
-            margin-bottom: 10mm;
-            margin-bottom: 4mm;
-            font-size: 9pt;
-            line-height: 1.5;
-        }
-
-        .bullet {
-            color: #e31e24;
-            font-weight: bold;
-            margin-right: 3mm;
-            font-size: 12pt;
-        }
-
-        .feature-text {
-            text-align: justify;
-            color: #444;
-        }
-
-        /* Properties Table */
-        .properties-section {
-            background: #f5f5f5;
-            padding: 8mm;
-            border-radius: 3mm;
-            border-left: 4px solid #e31e24;
-            margin-bottom: 8mm;
-        }
-
-        .properties-section h3 {
-            font-size: 14pt;
-            color: #2b2a29;
-            margin-bottom: 5mm;
-        }
-
-        .properties-table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-
-        .properties-table th {
-            background: #2b2a29;
-            color: white;
-            padding: 3mm;
-            text-align: left;
-            font-size: 9pt;
-            font-weight: 600;
-        }
-
-        .properties-table td {
-            padding: 2.5mm 3mm;
-            border-bottom: 1px solid #ddd;
-            font-size: 9pt;
-            color: #333;
-        }
-
-        .properties-table tr:last-child td {
-            border-bottom: none;
-        }
-
-        .properties-table td:first-child {
-            font-weight: 600;
-            color: #2b2a29;
-        }
-
-        /* Benefits Box */
-        .benefits-box {
-            background: linear-gradient(135deg, #e31e24 0%, #c41a20 100%);
-            color: white;
-            padding: 8mm;
-            border-radius: 3mm;
-            margin-bottom: 8mm;
-        }
-
-        .benefits-box h3 {
-            font-size: 14pt;
-            margin-bottom: 4mm;
-        }
-
-        .benefit-item {
-            margin-bottom: 10mm;
-            /* removed align-items */
-            margin-bottom: 3mm;
-            font-size: 9pt;
-            line-height: 1.4;
-        }
-
-        .benefit-item:last-child {
-            margin-bottom: 0;
-        }
-
-        .check-icon {
-            color: white;
-            font-weight: bold;
-            margin-right: 3mm;
-            font-size: 11pt;
-        }
-
-        /* Footer */
-        .footer {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: #2b2a29;
-            color: white;
-            padding: 8mm 15mm;
-        }
-
-        .footer-content {
-            margin-bottom: 10mm;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .company-info {
-            font-size: 7pt;
-            line-height: 1.6;
-        }
-
-        .company-name {
-            font-size: 10pt;
-            font-weight: bold;
-            margin-bottom: 2mm;
-            color: #e31e24;
-        }
-
-        .contact-info {
-            color: #ccc;
-        }
-
-        .disclaimer {
-            font-size: 6pt;
-            color: #888;
-            margin-top: 3mm;
-            max-width: 160mm;
-        }
+        .section-divider { height: 2px; background: #e31e24; margin: 5mm 0; }
+        .features-grid { display: flex; gap: 10mm; }
+        .features-column { flex: 1; }
+        .features-column h3 { font-size: 12pt; color: #2b2a29; margin-bottom: 3mm; padding-bottom: 2mm; border-bottom: 2px solid #e31e24; font-weight: 600; }
+        .feature-item { display: flex; margin-bottom: 3mm; font-size: 10pt; line-height: 1.8; }
+        .bullet { color: #e31e24; font-weight: bold; margin-right: 3mm; font-size: 8pt; margin-top: 0.8mm; }
+        .feature-text { flex: 1; color: #444; }
+        .benefits-box { background: linear-gradient(135deg, #e31e24 0%, #c41a20 100%); color: white; padding: 8mm; border-radius: 3mm; margin-bottom: 8mm; }
+        .benefits-box h3 { font-size: 14pt; margin-bottom: 4mm; }
+        .benefit-item { display: flex; align-items: flex-start; margin-bottom: 3mm; font-size: 9pt; line-height: 1.4; }
+        .benefit-item:last-child { margin-bottom: 0; }
+        .check-icon { color: white; font-weight: bold; margin-right: 3mm; font-size: 11pt; }
+        .tech-specs-section { margin-top: 2mm; }
+        .tech-specs-section h3 { font-size: 12pt; color: #2b2a29; margin-bottom: 3mm; padding-bottom: 2mm; border-bottom: 2px solid #e31e24; font-weight: 600; }
+        .tech-table { width: 100%; border-collapse: collapse; font-size: 9pt; }
+        .tech-table thead { background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%); color: white; }
+        .tech-table th { padding: 3mm; text-align: left; font-weight: 600; border: 1px solid #ddd; }
+        .tech-table td { padding: 2mm; border: 1px solid #ddd; color: #444; }
+        .tech-table tbody tr:nth-child(even) { background-color: #f9f9f9; }
+        .footer { position: absolute; bottom: 0; left: 0; right: 0; background: #2b2a29; color: white; padding: 8mm 15mm; }
+        .company-info { font-size: 7pt; line-height: 1.6; }
+        .company-name { font-size: 10pt; font-weight: bold; margin-bottom: 2mm; color: #e31e24; }
+        .contact-info { color: #ccc; }
+        .disclaimer { font-size: 6pt; color: #888; margin-top: 3mm; max-width: 160mm; }
     </style>
 </head>
 <body>
-    <!-- Page 1 - Hero -->
     <div class="page-1">
         <div class="header">
             <div class="logo-section">
-                <img src="../../../src/assets/inmarco-tagline-logo1.png" alt="INMARCO - Innovations in Fluid Sealing">
+                <img src="../../../src/assets/inmarco-tagline-logo1.png" alt="Inmarco">
             </div>
         </div>
-
         <div class="hero-section">
             <div class="hero-overlay"></div>
             <div class="hero-content">
                 <div class="red-accent"></div>
                 <h1 class="product-name">OR 120</h1>
-                <p class="product-tagline">Premium Ramie Fibre Packing</p>
+                <p class="product-tagline">Economical Ramie Fibre Packing with PTFE Dispersion for Enhanced Chemical Resistance</p>
             </div>
-                <div class="features-column">
-                    <h3>Service Media</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">● Fresh water</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">● Sewage water</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">● Saline water</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">● Turbid water</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">● Demineralized (DM) water</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">● Mild aqueous solutions</span>
-                    </div>
-                </div>
         </div>
-        </div>
+    </div>
 
-    <!-- Page 2 - Technical Details -->
     <div class="page-2">
         <div class="page-2-header">
             <div>
@@ -402,226 +98,131 @@
                 <h2 class="page-2-title">OR 120</h2>
             </div>
         </div>
-
         <div class="content-section">
-            <div class="description-with-image">
-                <div class="side-product-image">
-                    <div class="product-image-container">
-                        <img src="../../FZC%20Inmarco%20Product%20Shoot/OR%20120/OR%20120.png" alt="OR 120" class="product-image-small" onerror="this.style.display='none'">
-                    </div>
-                </div>
-
-                <div class="description-text">
-                    <p class="description">
-                        120 is a special developed ramie fibre packing with a highly tenacious synthetic reinforcement which enhances the tensile strength, increases operational life of packing. This packing is dispersed with pure PTFE and does excellent sealing in stern tubes.
-                    </p>
-
-                    <p class="description" style="margin-bottom: 0;">
-                        The highest quality Ramie Fibre with Aramid reinforcement provides comparatively better mechanical strength and excellent lubrication leading to minimal shaft wear. Special water absorption capabilities of Ramie fibre enhance the sealing capabilities, making it ideal for marine and water handling applications.
-                    </p>
+            <div class="side-product-image">
+                <div class="product-image-container">
+                    <img src="../../FZC%20Inmarco%20Product%20Shoot/OR%20120/OR%20120_1.png" alt="OR 120" class="product-image-small" onerror="this.style.display='none'">
                 </div>
             </div>
-            </div>
+            <p class="description">Inmarco Style OR 120 is a premium-grade economical packing braided from extremely strong Ramie fibre and impregnated with proprietary PTFE dispersion to enhance chemical resistance and sealing performance. The packing combines the natural strength of Ramie fibre with the lubricating and sealing properties of PTFE, making it a reliable and cost-effective solution for a wide range of industrial applications.</p>
+            <p class="description">Its dense construction allows optimum retention of the PTFE dispersion, resulting in improved sealing efficiency, reduced leakage, and extended service life. OR 120 provides excellent abrasion resistance and mechanical durability while maintaining low friction during operation.</p>
 
             <div class="section-divider"></div>
 
-            <div class="features-grid">
-                <div class="features-column">
-                    <h3>Key Features & Advantages</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Proprietary Inflon dispersion enhances the density and the sealing ability</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Safe & stays clean under operation for hygienic applications</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Highest quality Ramie Fibre with Aramid reinforcement</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Comparatively better mechanical strength than conventional fiber packings</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Excellent lubrication leading to minimal shaft wear</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Special water absorption capabilities of Ramie fibre enhance the sealing capabilities</span>
-                    </div>
-                </div>
-
-                <div class="features-column">
-                    <h3>Applications</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Stern tubes in marine applications</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Water handling equipment</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Marine propulsion systems</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Water pumps and valves</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">General water service applications</span>
-                    </div>
-                </div>
+            <div class="tech-specs-section">
+                <h3>Technical Properties</h3>
+                <table class="tech-table">
+                    <thead>
+                        <tr>
+                            <th>Properties</th>
+                            <th style="text-align: center;"><i class="fas fa-sync-alt"></i><br><span style="font-size: 7pt; font-weight: normal;">Rotating</span></th>
+                            <th style="text-align: center;"><i class="fas fa-arrows-alt-h"></i><br><span style="font-size: 7pt; font-weight: normal;">Reciprocating</span></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>pH Range</td>
+                            <td colspan="2" style="text-align: center;">6 – 11</td>
+                        </tr>
+                        <tr>
+                            <td>Temperature (°C)</td>
+                            <td colspan="2" style="text-align: center;">-40 to +150</td>
+                        </tr>
+                        <tr>
+                            <td>Pressure (Bar)</td>
+                            <td style="text-align: center;">50</td>
+                            <td style="text-align: center;">65</td>
+                        </tr>
+                        <tr>
+                            <td>Velocity (m/s)</td>
+                            <td colspan="2" style="text-align: center;">10</td>
+                        </tr>
+                        <tr>
+                            <td>Size Range</td>
+                            <td colspan="2" style="text-align: center;">3 sq mm to 35 sq mm</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
 
-    <!-- Page 3 - Technical Properties and Performance Benefits -->
     <div class="page-3">
         <div class="page-2-header">
             <div>
                 <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
-                <h2 class="page-2-title">Technical Specifications</h2>
+                <h2 class="page-2-title">OR 120</h2>
             </div>
         </div>
-
         <div class="content-section">
-            <div class="features-column" style="margin-bottom: 10mm;">
-<div class="features-column">
-                    <h3>Economical Ramie Fibre Packing with PTFE Dispersion for Enhanced Chemical Resistance</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">INMARCO Style OR 120 is a premium-grade economical packing braided from extremely strong Ramie fibre and impregnated with proprietary PTFE dispersion to enhance chemical resistance and sealing performance. The packing combines the natural strength of Ramie fibre with the lubricating and sealing properties of PTFE, making it a reliable and cost-effective solution for a wide range of industrial applications.</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Its dense construction allows optimum retention of the PTFE dispersion, resulting in improved sealing efficiency, reduced leakage, and extended service life. OR 120 provides excellent abrasion resistance and mechanical durability while maintaining low friction during operation.</span>
-                    </div>
+            <div class="features-grid">
+                <div class="features-column">
+                    <h3>Key Features</h3>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Braided from high-strength Ramie fibre for excellent mechanical strength and durability</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Impregnated with proprietary PTFE dispersion for enhanced chemical resistance</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Better resistance to mechanical wear compared to conventional cotton fibre packings</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Low friction characteristics reduce shaft and sleeve wear significantly</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">High-density construction improves sealing efficiency and minimizes leakage</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Excellent penetration and abrasion resistance for demanding applications</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Cost-effective alternative to synthetic fibre packings</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Suitable for a variety of water handling and marine applications</span></div>
+                </div>
+                <div class="features-column">
+                    <h3>Applications</h3>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Equipment handling crystallizing fluids</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Marine stern tubes and propeller shafts</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Rudder posts and marine equipment</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Bilge pumps and water pumps</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Water wheel glands</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Water treatment equipment and facilities</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">General utility pumps</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Industrial water handling systems</span></div>
                 </div>
             </div>
 
-            <div class="features-column" style="margin-bottom: 10mm;">
-<div class="features-column">
-                    <h3>Technical Specifications</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Properties | Rotating</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">pH Range | 6 – 11</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Temperature (°C) | -40 to +150</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Pressure (Bar) | 50</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Velocity (m/s) | 10</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Size | 3 sq mm to 35 sq mm</span>
-                    </div>
-                </div>
-            </div>
+            <div class="section-divider"></div>
 
-            <div class="properties-section">
-                <h3>Technical Properties</h3>
-                <table class="properties-table">
-                    <tr>
-                        <th>Properties</th>
-                        <th style="text-align: center;">
-                            <i class="fas fa-sync-alt" style="font-size: 14pt;"></i>
-                            <br><span style="font-size: 7pt; font-weight: normal;">Rotating</span>
-                        </th>
-                        <th style="text-align: center;">
-                            <i class="fas fa-arrows-alt-h" style="font-size: 14pt;"></i>
-                            <br><span style="font-size: 7pt; font-weight: normal;">Reciprocating</span>
-                        </th>
-                        <th style="text-align: center;">
-                            <i class="fas fa-circle" style="font-size: 14pt;"></i>
-                            <br><span style="font-size: 7pt; font-weight: normal;">Static</span>
-                        </th>
-                    </tr>
-                    <tr>
-                        <td>pH</td>
-                        <td colspan="3" style="text-align: center;">4-10</td>
-                    </tr>
-                    <tr>
-                        <td>Temperature (°C)</td>
-                        <td colspan="3" style="text-align: center;">Ambient to 80°C</td>
-                    </tr>
-                    <tr>
-                        <td>Pressure (BAR)</td>
-                        <td style="text-align: center;">---</td>
-                        <td style="text-align: center;">65</td>
-                        <td style="text-align: center;">---</td>
-                    </tr>
-                    <tr>
-                        <td>Velocity (m/s)</td>
-                        <td style="text-align: center;">---</td>
-                        <td style="text-align: center;">10</td>
-                        <td style="text-align: center;">---</td>
-                    </tr>
-                    <tr>
-                        <td>Size</td>
-                        <td colspan="3" style="text-align: center;">5sq mm to 50sq mm</td>
-                    </tr>
-                </table>
+            <div class="features-column">
+                <h3>Service Media</h3>
+                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Fresh water and potable water systems</span></div>
+                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Sewage water and wastewater treatment</span></div>
+                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Saline water and seawater applications</span></div>
+                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Turbid water and industrial effluent</span></div>
+                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Demineralized (DM) water</span></div>
+                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Mild aqueous solutions and process water</span></div>
             </div>
+        </div>
+    </div>
 
+    <div class="page-4">
+        <div class="page-2-header">
+            <div>
+                <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
+                <h2 class="page-2-title">OR 120</h2>
+            </div>
+        </div>
+        <div class="content-section">
             <div class="benefits-box">
                 <h3>Performance Benefits</h3>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Special developed ramie fibre with highly tenacious synthetic reinforcement for enhanced tensile strength</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Dispersed with pure PTFE for excellent sealing performance in stern tubes and marine applications</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Proprietary Inflon dispersion enhances density and sealing ability while staying safe and clean</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Highest quality Ramie Fibre with Aramid reinforcement for superior mechanical strength</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Special water absorption capabilities enhance sealing capabilities for water service applications</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Excellent lubrication properties lead to minimal shaft wear and increased operational life</span>
-                </div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Special developed Ramie fibre with highly tenacious synthetic reinforcement for enhanced tensile strength</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Dispersed with pure PTFE for excellent sealing performance in stern tubes and marine applications</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Proprietary Inflon dispersion enhances density and sealing ability while staying safe and clean</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Highest quality Ramie Fibre with Aramid reinforcement for superior mechanical strength</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Special water absorption capabilities enhance sealing capabilities for water service applications</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Excellent lubrication properties lead to minimal shaft wear and increased operational life</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Cost-effective solution with reliable long-term sealing performance</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Easy installation and maintenance reduces downtime and operational costs</span></div>
             </div>
         </div>
-
         <div class="footer">
-            <div class="footer-content">
-                <div class="company-info">
-                    <div class="company-name">INMARCO FZC</div>
-                    <div class="contact-info">
-                        P.O. Box 120284, Sharjah Airport International Free Zone (SAIF-Zone), Sharjah, UAE<br>
-                        Tel: +971 6 5578378 | Fax: +971 6 5578948<br>
-                        Email: sales@inmarco.ae | Web: www.inmarco.ae
-                    </div>
-                    <div class="disclaimer">
-                        All information and recommendations given in this technical data sheet are correct to the best of our knowledge. However, because of the wide variety of application and operating conditions, we cannot derive the final conclusion. This above information can only serve as a guideline.
-                    </div>
+            <div class="company-info">
+                <div class="company-name">Inmarco FZC</div>
+                <div class="contact-info">
+                    P.O. Box 120284, Sharjah Airport International Free Zone (SAIF-Zone), Sharjah, UAE<br>
+                    Tel: +971 6 5578378 | Fax: +971 6 5578948<br>
+                    Email: sales@inmarco.ae | Web: www.inmarco.ae
                 </div>
+                <div class="disclaimer">All technical information, recommendations, and performance data provided in this technical datasheet are based on current knowledge, laboratory testing, and/or industrial experience. Actual product performance may vary depending on operating conditions, equipment design, installation practices, process parameters. Final product selection and suitability should be determined by the user based on the specific service conditions and application requirements.</div>
             </div>
         </div>
     </div>

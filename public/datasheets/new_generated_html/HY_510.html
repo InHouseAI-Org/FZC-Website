@@ -1,16 +1,13 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HY 510EC - Technical Datasheet</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>HY 510 EC - High-Performance Hybrid Packing - Inmarco</title>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet"/>
+<style>
+        * { margin: 0; padding: 0; box-sizing: border-box; -webkit-print-color-adjust: exact; print-color-adjust: exact; color-adjust: exact; }
 
         @page {
             size: A4;
@@ -39,7 +36,7 @@
 
         .header {
             padding: 20mm 15mm;
-            margin-bottom: 10mm;
+            display: flex;
             justify-content: center;
             align-items: center;
         }
@@ -53,15 +50,24 @@
             width: auto;
         }
 
+        .version {
+            font-size: 8pt;
+            color: #888;
+        }
+
         /* Hero section */
         .hero-section {
             position: relative;
             margin-top: 10px;
             height: 100%;
-            background-image: url('../../marine.jpg');
+            background-image: url('../../fertilizer.jpg');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
+        }
+
+        .industry-image {
+            display: none;
         }
 
         .hero-overlay {
@@ -104,6 +110,41 @@
             font-weight: 300;
         }
 
+        /* Product images section */
+        .product-images {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(43, 42, 41, 0.95);
+            padding: 12mm 15mm;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8mm;
+        }
+
+        .product-image-box {
+            background: white;
+            padding: 6mm;
+            border-radius: 2mm;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.4);
+            border-top: 2px solid #e31e24;
+            text-align: center;
+            max-width: 55mm;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 55mm;
+        }
+
+        .product-image-box img {
+            width: 100%;
+            height: auto;
+            max-height: 45mm;
+            object-fit: cover;
+        }
+
         /* Page 2 - Technical Details */
         .page-2 {
             width: 100%;
@@ -134,7 +175,7 @@
             background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%);
             padding: 15mm;
             color: white;
-            margin-bottom: 10mm;
+            display: flex;
             justify-content: space-between;
             align-items: center;
         }
@@ -142,6 +183,23 @@
         .page-2-title {
             font-size: 28pt;
             font-weight: bold;
+        }
+
+        .product-image-container {
+            background: white;
+            border-radius: 5mm;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            border: 3px solid #e31e24;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+
+        .product-image-small {
+            width: 85mm;
+            height: 55mm;
+            border-radius: 4mm;
+            object-fit: cover;
+            display: block;
         }
 
         .content-section {
@@ -170,35 +228,20 @@
             margin-bottom: 4mm;
         }
 
-        .product-image-container {
-            background: white;
-            border-radius: 5mm;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-            border: 3px solid #e31e24;
-        }
-
-        .product-image-small {
-            width: 85mm;
-            height: 55mm;
-            border-radius: 4mm;
-            object-fit: cover;
-            display: block;
-        }
-
         .section-divider {
             height: 2px;
             background: #e31e24;
-            margin: 8mm 0;
+            margin: 5mm 0;
         }
 
         .features-grid {
-            margin-bottom: 10mm;
-            /* removed gap */
-            margin-bottom: 10mm;
+            display: flex;
+            gap: 10mm;
+            margin-bottom: 0mm;
         }
 
         .features-column {
-            text-align: justify;
+            flex: 1;
         }
 
         .features-column h3 {
@@ -211,8 +254,8 @@
         }
 
         .feature-item {
-            margin-bottom: 10mm;
-            margin-bottom: 4mm;
+            display: flex;
+            margin-bottom: 2mm;
             font-size: 9pt;
             line-height: 1.5;
         }
@@ -225,53 +268,50 @@
         }
 
         .feature-text {
-            text-align: justify;
+            flex: 1;
             color: #444;
         }
 
-        /* Properties Table */
-        .properties-section {
-            background: #f5f5f5;
-            padding: 8mm;
-            border-radius: 3mm;
-            border-left: 4px solid #e31e24;
-            margin-bottom: 8mm;
+        /* Technical Properties Table */
+        .tech-specs-section {
+            margin-top: 5mm;
         }
 
-        .properties-section h3 {
-            font-size: 14pt;
+        .tech-specs-section h3 {
+            font-size: 12pt;
             color: #2b2a29;
-            margin-bottom: 5mm;
+            margin-bottom: 3mm;
+            padding-bottom: 2mm;
+            border-bottom: 2px solid #e31e24;
+            font-weight: 600;
         }
 
-        .properties-table {
+        .tech-table {
             width: 100%;
             border-collapse: collapse;
+            font-size: 9pt;
         }
 
-        .properties-table th {
-            background: #2b2a29;
+        .tech-table thead {
+            background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%);
             color: white;
+        }
+
+        .tech-table th {
             padding: 3mm;
             text-align: left;
-            font-size: 9pt;
             font-weight: 600;
+            border: 1px solid #ddd;
         }
 
-        .properties-table td {
-            padding: 2.5mm 3mm;
-            border-bottom: 1px solid #ddd;
-            font-size: 9pt;
-            color: #333;
+        .tech-table td {
+            padding: 2.5mm;
+            border: 1px solid #ddd;
+            color: #444;
         }
 
-        .properties-table tr:last-child td {
-            border-bottom: none;
-        }
-
-        .properties-table td:first-child {
-            font-weight: 600;
-            color: #2b2a29;
+        .tech-table tbody tr:nth-child(even) {
+            background-color: #f9f9f9;
         }
 
         /* Benefits Box */
@@ -289,8 +329,8 @@
         }
 
         .benefit-item {
-            margin-bottom: 10mm;
-            /* removed align-items */
+            display: flex;
+            align-items: flex-start;
             margin-bottom: 3mm;
             font-size: 9pt;
             line-height: 1.4;
@@ -319,7 +359,7 @@
         }
 
         .footer-content {
-            margin-bottom: 10mm;
+            display: flex;
             justify-content: space-between;
             align-items: center;
         }
@@ -346,368 +386,180 @@
             margin-top: 3mm;
             max-width: 160mm;
         }
+
+        .economical-notice {
+            background: linear-gradient(135deg, #f8f8f8 0%, #ffffff 100%);
+            border-left: 4px solid #e31e24;
+            padding: 4mm 6mm;
+            margin: 6mm 0;
+            border-radius: 2mm;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .economical-notice-title {
+            color: #e31e24;
+            font-size: 10pt;
+            font-weight: 600;
+            margin-bottom: 2mm;
+            display: flex;
+            align-items: center;
+            gap: 2mm;
+        }
+
+        .economical-notice-text {
+            color: #555;
+            font-size: 9pt;
+            line-height: 1.5;
+        }
     </style>
 </head>
 <body>
-    <!-- Page 1 - Hero -->
-    <div class="page-1">
-        <div class="header">
-            <div class="logo-section">
-                <img src="../../../src/assets/inmarco-tagline-logo1.png" alt="INMARCO - Innovations in Fluid Sealing">
-            </div>
-        </div>
+<!-- Page 1 - Hero -->
+<div class="page-1">
+<div class="header">
+<div class="logo-section">
+<img alt="Inmarco - Innovations in Fluid Sealing" src="../../../src/assets/inmarco-tagline-logo1.png"/>
+</div>
+</div>
+<div class="hero-section">
+<div class="hero-overlay"></div>
+<div class="hero-content">
+<div class="red-accent"></div>
+<h1 class="product-name">HY 510 EC</h1>
+<p class="product-tagline">High-Performance Hybrid Packing for Marine and Industrial Applications</p>
+</div>
+<!-- <div class="product-images">
+                <div class="product-image-box">
+                    <img src="../../public/FZC%20Inmarco%20Product%20Shoot/HY%20105/HY%20105_1.png" alt="HY 105 Product" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22200%22 height=%22200%22%3E%3Crect fill=%22%23f0f0f0%22 width=%22200%22 height=%22200%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 dy=%22.3em%22 fill=%22%23999%22%3EHY 105%3C/text%3E%3C/svg%3E'">
+                </div>
+                <div class="product-image-box">
+                    <img src="../../public/FZC%20Inmarco%20Product%20Shoot/HY%20105/HY%20105_2.png" alt="HY 105 Detail" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22200%22 height=%22200%22%3E%3Crect fill=%22%23f0f0f0%22 width=%22200%22 height=%22200%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 dy=%22.3em%22 fill=%22%23999%22%3EHY 105%3C/text%3E%3C/svg%3E'">
+                </div>
+                <div class="product-image-box">
+                    <img src="../../public/FZC%20Inmarco%20Product%20Shoot/HY%20105/HY%20105_3.png" alt="HY 105 Application" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22200%22 height=%22200%22%3E%3Crect fill=%22%23f0f0f0%22 width=%22200%22 height=%22200%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 dy=%22.3em%22 fill=%22%23999%22%3EHY 105%3C/text%3E%3C/svg%3E'">
+                </div>
+            </div> -->
+</div>
+</div>
+<!-- Page 2 - Technical Details -->
+<div class="page-2">
+<div class="page-2-header">
+<div>
+<div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
+<h2 class="page-2-title">HY 510 EC</h2>
+</div>
+</div>
+<div class="content-section">
+<div class="description-with-image">
 
-        <div class="hero-section">
-            <div class="hero-overlay"></div>
-            <div class="hero-content">
-                <div class="red-accent"></div>
-                <h1 class="product-name">Style HY 510EC</h1>
-                <p class="product-tagline">High-Performance Hybrid Packing for Marine and Industrial Applications</p>
-            </div>
-                <div class="features-column">
-                    <h3>SERVICE MEDIA</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">• Organic acids</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">• Inorganic acids</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">• Alkalis</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">• Organic chemicals</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">• Hot water</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">• Cold water</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">• DM water</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">• Seawater</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">• Condensate</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">• Solvents</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">• Alcohols</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">• Aldehydes</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">• Ketones</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">• Dyes</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">• General industrial chemicals</span>
-                    </div>
-                </div>
-        </div>
-        </div>
-
-    <!-- Page 2 - Technical Details -->
-    <div class="page-2">
-        <div class="page-2-header">
-            <div>
-                <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
-                <h2 class="page-2-title">Style HY 510EC</h2>
-            </div>
-        </div>
-
-        <div class="content-section">
-            <div class="description-with-image">
-                <div class="side-product-image">
-                    <div class="product-image-container">
-                        <img src="../../FZC%20Inmarco%20Product%20Shoot/HY%20501/HY%20175_Edited_3_2.png" alt="HY 510" class="product-image-small" onerror="this.style.display='none'">
-                    </div>
-                </div>
-
-                <div class="description-text">
-                    <p class="description">
-                        HY 510EC is a high-performance hybrid packing designed for demanding industrial and marine applications. It is made from PTFE-based fibers with graphite in the molecular structure and Aramid reinforcement, and features a hollow elastomer core that provides enhanced resiliency. This advanced construction ensures reliable sealing and a long service life, particularly in seawater applications.
-                    </p>
-
-                    <p class="description" style="margin-bottom: 0;">
-                        The packing offers excellent sealing performance and an optimized mechanical design for marine service conditions. Its specialized structure supports consistent operation under harsh environments, delivering durability, stability, and dependable leak-free performance in critical applications. Tested and qualified as per EN 16752 (Centrifugal pumps test procedure for seal packing), Tightness Class T2.
-                    </p>
-                </div>
-            </div>
-            </div>
-
-            <div class="section-divider"></div>
-
-            <div class="features-grid">
-                <div class="features-column">
-                    <h3>Key Features & Advantages</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Tested and qualified as per EN 16752 (Centrifugal pumps test procedure for seal packing), Tightness Class T2</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Adequate lubrication for low friction runs ensuring smooth operation</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">No embrittlement or abrasion to parent equipment for extended equipment life</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Graphite Inblend controls the thermal expansion of PTFE by around 20%, eliminating chances of overheating and extrusion</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Excellent heat dissipation to ensure cool run and guarantee excellent sealing performance</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Hollow elastomer core ensures excellent resiliency for consistent sealing</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Optimized mechanical design for marine service conditions</span>
-                    </div>
-                </div>
-
-                <div class="features-column">
-                    <h3>Applications & Service Media</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Pumps, agitators, dryers, mixers, reactor shafts</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Stern tubes and similar rotating equipment</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Organic and inorganic acids, alkalis</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Hot and cold water, DM water, seawater, condensate</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Solvents, alcohols, aldehydes, ketones, dyes</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">General chemicals and organic chemicals</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-            <div class="benefits-box">
-                <h3>PERFORMANCE ADVANTAGES</h3>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>● Reliable sealing performance under demanding operating conditions.</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>● Excellent chemical resistance across a broad range of industrial media.</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>● Superior dimensional stability during continuous operation.</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>● Reduced friction resulting in lower shaft and sleeve wear.</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>● Enhanced resiliency ensures consistent sealing performance.</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>● Excellent thermal management for cooler operating temperatures.</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>● Particularly suitable for seawater applications.</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>● Long service life with reduced maintenance requirements.</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>● Dependable leak-free performance in critical applications.</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>● Optimized for rotating equipment operating in harsh environments.</span>
-                </div>
-            </div>
-        </div>
-
-        <!-- Page 3) - Technical Properties and Performance Benefits -->
-    <div class="page-3">
-        <div class="page-2-header">
-            <div>
-                <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
-                <h2 class="page-2-title">Technical Specifications</h2>
-            </div>
-        </div>
-
-        <div class="content-section">
-            <div class="features-column" style="margin-bottom: 10mm;">
+<div class="description-text"><p class="description">Inmarco HY 510EC is a high-performance hybrid packing designed for demanding industrial and marine applications. It is manufactured from PTFE-based fibers with graphite incorporated into the molecular structure and reinforced with Aramid yarn with a hollow elastomer core.</p><p class="description">This advanced construction delivers reliable sealing, dimensional stability, and extended service life, particularly in seawater and other demanding process media. Its optimized mechanical design ensures dependable leak-free operation under harsh operating conditions while protecting equipment from wear and thermal damage.</p><p class="description" style="margin-bottom: 0;">HY 510EC is tested and qualified as per EN 16752 (Centrifugal Pumps Test Procedure for Seal Packing), Tightness Class T2.</p></div>
+</div>
+<div class="section-divider"></div>
+<div class="features-grid">
 <div class="features-column">
-                    <h3>TYPICAL APPLICATIONS</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Pumps</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Agitators</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Dryers</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Mixers</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Reactor shafts</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Stern tubes</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Marine rotating equipment</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Industrial rotating equipment</span>
-                    </div>
-                </div>
-            </div>
+<h3>Service Media</h3>
 
-            <div class="features-column" style="margin-bottom: 10mm;">
+
+
+
+
+
+
+
+
+
+<div class="feature-item"><span class="bullet">●</span><span class="feature-text">Organic acids</span></div><div class="feature-item"><span class="bullet">●</span><span class="feature-text">Inorganic acids</span></div><div class="feature-item"><span class="bullet">●</span><span class="feature-text">Alkalis</span></div><div class="feature-item"><span class="bullet">●</span><span class="feature-text">Organic chemicals</span></div><div class="feature-item"><span class="bullet">●</span><span class="feature-text">Hot water</span></div><div class="feature-item"><span class="bullet">●</span><span class="feature-text">Cold water</span></div><div class="feature-item"><span class="bullet">●</span><span class="feature-text">DM water</span></div><div class="feature-item"><span class="bullet">●</span><span class="feature-text">Seawater</span></div><div class="feature-item"><span class="bullet">●</span><span class="feature-text">Condensate</span></div><div class="feature-item"><span class="bullet">●</span><span class="feature-text">Solvents</span></div><div class="feature-item"><span class="bullet">●</span><span class="feature-text">Alcohols</span></div><div class="feature-item"><span class="bullet">●</span><span class="feature-text">Aldehydes</span></div><div class="feature-item"><span class="bullet">●</span><span class="feature-text">Ketones</span></div><div class="feature-item"><span class="bullet">●</span><span class="feature-text">Dyes</span></div><div class="feature-item"><span class="bullet">●</span><span class="feature-text">General industrial chemicals</span></div></div>
 <div class="features-column">
-                    <h3>COMPLIANCE</h3>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Test Standard: EN 16752</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Application: Centrifugal Pumps Test Procedure for Seal Packing</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="bullet">●</span>
-                        <span class="feature-text">Tightness Class: T2</span>
-                    </div>
-                </div>
-            </div>
+<h3>Compliance</h3>
 
-            <div class="properties-section">
-                <h3>Technical Properties</h3>
-                <table class="properties-table">
-                    <tr>
-                        <th>Properties</th>
-                        <th>Values</th>
-                    </tr>
-                    <tr>
-                        <td>pH</td>
-                        <td>0 - 14</td>
-                    </tr>
-                    <tr>
-                        <td>Temperature (°C)</td>
-                        <td>-240°C to +280°C</td>
-                    </tr>
-                    <tr>
-                        <td>Pressure (BAR)</td>
-                        <td>200 Bar</td>
-                    </tr>
-                    <tr>
-                        <td>Velocity (m/s)</td>
-                        <td>25 m/s</td>
-                    </tr>
-                    <tr>
-                        <td>Size</td>
-                        <td>12 to 50 mm sq.</td>
-                    </tr>
-                </table>
-            </div>
+<div class="feature-item"><span class="bullet">●</span><span class="feature-text"><strong>EN 16752 Tightness Class T2</strong></span></div></div>
+</div>
+</div>
+</div>
+<!-- Page 3 - Key Features and Applications -->
+<div class="page-3">
+<div class="page-2-header">
+<div>
+<div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
+<h2 class="page-2-title">HY 510 EC</h2>
+</div>
+</div>
+<div class="content-section">
+<div class="features-grid">
+<div class="features-column">
+<h3>Key Features</h3>
 
-            <div class="benefits-box">
-                <h3>Performance Benefits</h3>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>PTFE-based fibers with graphite in molecular structure provide excellent chemical resistance</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Aramid reinforcement enhances mechanical strength and dimensional stability</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Hollow elastomer core provides enhanced resiliency for reliable sealing</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Graphite controls thermal expansion of PTFE by around 20%, preventing overheating and extrusion</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Particularly effective in seawater applications with long service life</span>
-                </div>
-                <div class="benefit-item">
-                    <span class="check-icon">✓</span>
-                    <span>Delivers durability, stability, and dependable leak-free performance in critical applications</span>
-                </div>
-            </div>
-        </div>
 
-        <div class="footer">
-            <div class="footer-content">
-                <div class="company-info">
-                    <div class="company-name">INMARCO FZC</div>
-                    <div class="contact-info">
-                        P.O. Box 120284, Sharjah Airport International Free Zone (SAIF-Zone), Sharjah, UAE<br>
-                        Tel: +971 6 5578378 | Fax: +971 6 5578948<br>
+
+
+
+
+
+
+
+
+<div class="feature-item"><span class="bullet">●</span><span class="feature-text">Manufactured from PTFE-based fibers with graphite incorporated into the molecular structure</span></div><div class="feature-item"><span class="bullet">●</span><span class="feature-text">Reinforced with Aramid yarn for enhanced mechanical strength and durability</span></div><div class="feature-item"><span class="bullet">●</span><span class="feature-text">Hollow elastomer core provides excellent resiliency and sealing performance</span></div><div class="feature-item"><span class="bullet">●</span><span class="feature-text">Adequate lubrication ensures low-friction operation and reduced equipment wear</span></div><div class="feature-item"><span class="bullet">●</span><span class="feature-text">Graphite content controls PTFE thermal expansion by approximately 20%, reducing the risk of overheating and extrusion</span></div><div class="feature-item"><span class="bullet">●</span><span class="feature-text">Excellent heat dissipation promotes cooler running and extended packing life</span></div><div class="feature-item"><span class="bullet">●</span><span class="feature-text">Does not cause embrittlement, abrasion, or erosion of shafts and sleeves</span></div><div class="feature-item"><span class="bullet">●</span><span class="feature-text">Specifically engineered for marine and industrial sealing applications</span></div><div class="feature-item"><span class="bullet">●</span><span class="feature-text">Tested and qualified according to EN 16752 Tightness Class T2</span></div></div>
+<div class="features-column">
+<h3>Applications</h3>
+
+
+
+
+
+
+
+
+
+
+
+<div class="feature-item"><span class="bullet">●</span><span class="feature-text">Pumps</span></div><div class="feature-item"><span class="bullet">●</span><span class="feature-text">Agitators</span></div><div class="feature-item"><span class="bullet">●</span><span class="feature-text">Dryers</span></div><div class="feature-item"><span class="bullet">●</span><span class="feature-text">Mixers</span></div><div class="feature-item"><span class="bullet">●</span><span class="feature-text">Reactor shafts</span></div><div class="feature-item"><span class="bullet">●</span><span class="feature-text">Stern tubes</span></div><div class="feature-item"><span class="bullet">●</span><span class="feature-text">Marine rotating equipment</span></div><div class="feature-item"><span class="bullet">●</span><span class="feature-text">Industrial rotating equipment</span></div></div>
+</div>
+<div class="section-divider"></div>
+<div class="tech-specs-section">
+<h3>Technical Properties</h3>
+<table class="tech-table">
+<thead><tr><th>Property</th><th style="text-align: center;">Value</th></tr></thead>
+<tbody><tr><td>pH Range</td><td style="text-align: center;">0 – 14</td></tr><tr><td>Temperature Range</td><td style="text-align: center;">-240°C to +280°C</td></tr><tr><td>Maximum Pressure</td><td style="text-align: center;">200 bar</td></tr><tr><td>Velocity</td><td style="text-align: center;">25 m/s</td></tr><tr><td>Available Sizes</td><td style="text-align: center;">12 mm² to 50 mm²</td></tr></tbody>
+</table>
+</div>
+</div>
+</div>
+<!-- Page 4 - Performance Benefits -->
+<div class="page-4">
+<div class="page-2-header">
+<div>
+<div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
+<h2 class="page-2-title">HY 510 EC</h2>
+</div>
+</div>
+<div class="content-section">
+<div class="benefits-box">
+<h3>Performance Benefits</h3><div class="benefit-item"><span class="check-icon">✓</span><span>PTFE-based fibers with graphite provide excellent chemical resistance and low friction characteristics</span></div><div class="benefit-item"><span class="check-icon">✓</span><span>Aramid reinforcement enhances mechanical strength and dimensional stability</span></div><div class="benefit-item"><span class="check-icon">✓</span><span>Hollow elastomer core improves resiliency and sealing efficiency</span></div><div class="benefit-item"><span class="check-icon">✓</span><span>Graphite controls PTFE thermal expansion, reducing overheating and extrusion risks</span></div><div class="benefit-item"><span class="check-icon">✓</span><span>Excellent heat dissipation promotes cooler operation and longer packing life</span></div><div class="benefit-item"><span class="check-icon">✓</span><span>Protects shafts and sleeves from abrasion and wear</span></div><div class="benefit-item"><span class="check-icon">✓</span><span>Delivers reliable performance in marine and seawater applications</span></div><div class="benefit-item"><span class="check-icon">✓</span><span>Supports extended service life with reduced maintenance requirements</span></div><div class="benefit-item"><span class="check-icon">✓</span><span>Provides dependable leak-free sealing in critical industrial services</span></div><div class="benefit-item"><span class="check-icon">✓</span><span>Ideal for demanding rotating equipment applications</span></div>
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+<div class="footer">
+<div class="footer-content">
+<div class="company-info">
+<div class="company-name">Inmarco FZC</div>
+<div class="contact-info">
+                        P.O. Box 120284, Sharjah Airport International Free Zone (SAIF-Zone), Sharjah, UAE<br/>
+                        Tel: +971 6 5578378 | Fax: +971 6 5578948<br/>
                         Email: sales@inmarco.ae | Web: www.inmarco.ae
                     </div>
-                    <div class="disclaimer">
-                        All information and recommendations given in this technical data sheet are correct to the best of our knowledge. However, because of the wide variety of application and operating conditions, we cannot derive the final conclusion. This above information can only serve as a guideline.
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<div class="disclaimer">All technical information, recommendations, and performance data provided in this technical datasheet are based on current knowledge, laboratory testing, and/or industrial experience. Actual product performance may vary depending on operating conditions, equipment design, installation practices, process parameters. Final product selection and suitability should be determined by the user based on the specific service conditions and application requirements.</div>
+</div>
+</div>
+</div>
+</div>
 </body>
 </html>
