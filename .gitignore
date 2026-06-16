@@ -63,6 +63,23 @@ public/FZC Inmarco Product Shoot/Videos/
 
 #pdf datasheets
 public/datasheets/pdf_output
+public/datasheets/pdf_exports
+public/Datasheet lot
+
+# Static assets (served from S3/CloudFront)
+public/FZC Inmarco Product Shoot/
+public/worldwide-global-map-outline-black-background/
+
+# Industry images (served from S3/CloudFront)
+public/*.jpg
+public/*.jpeg
+public/*.png
+public/*.webp
+
+# Keep essential assets
+!public/inmarco-tagline-logo1.png
+!public/favicon.svg
+
 /src/generated/prisma
 
 fzc-website.pemtest.pdf
