@@ -72,7 +72,7 @@ export function Sustainability() {
     <section id="sustainability" className="relative py-32 overflow-hidden bg-[#2b2a29]">
       {/* Background Video/Image with Green Gradient Overlay */}
       <div className="absolute inset-0">
-        <div className="absolute inset-0 bg-[url('/Sustainability.jpg')] bg-cover bg-center"></div>
+        <div className="absolute inset-0 bg-[url('https://d24gq0kplkhyxr.cloudfront.net/assets/images/Sustainability.jpg')] bg-cover bg-center"></div>
         <div className="absolute inset-0 bg-gradient-to-br from-[#2b2a29]/70 via-green-900/10 to-[#2b2a29]/50"></div>
         <div className="absolute inset-0 bg-gradient-to-t from-[#2b2a29]/80 via-transparent to-[#2b2a29]/60"></div>
       </div>

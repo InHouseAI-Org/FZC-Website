@@ -22,6 +22,10 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'images.unsplash.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'd24gq0kplkhyxr.cloudfront.net',
+      },
     ],
     // Automatically optimize images to WebP/AVIF format
     formats: ['image/avif', 'image/webp'],

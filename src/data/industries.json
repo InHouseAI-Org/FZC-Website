@@ -6,7 +6,7 @@
       "slug": "oil-gas",
       "href": "/industries/oil-gas",
       "description": "Engineered sealing solutions for lethal, high-pressure, high-temperature applications handling toxic hydrocarbons across midstream and downstream operations",
-      "image": "public/oil and gas.jpg",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/images/oil and gas.jpg",
       "fullDescription": "The oil and gas industry demands sealing solutions that can withstand extreme pressures, temperatures, and corrosive environments. Inmarco provides comprehensive sealing products for midstream transportation and storage, and downstream refining operations.",
       "challenges": [
         "Extreme Operating Conditions",
@@ -54,7 +54,7 @@
       "href": "/industries/power-generation",
       "subtitle": "",
       "description": "Low-downtime sealing solutions for steam turbines, boiler feed systems, and critical power generation equipment operating under extreme thermal cycling",
-      "image": "public/power.jpg",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/images/power.jpg",
       "fullDescription": "Power generation facilities require sealing solutions that deliver uninterrupted performance under extreme thermal and mechanical stress. From coal-fired plants to combined-cycle gas turbines and nuclear facilities, Inmarco offers proven sealing technologies for critical rotating and static equipment.",
       "challenges": [
         "Extreme thermal cycling (ambient to 600°C) during startups and shutdowns",
@@ -105,7 +105,7 @@
       "href": "/industries/chemical",
       "subtitle": "",
       "description": "Chemical-inert sealing solutions engineered for extreme pH environments, handling concentrated sulfuric acid, caustic soda, chlorine, and volatile organic compounds with zero compatibility failure",
-      "image": "public/chemical.jpg",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/images/chemical.jpg",
       "fullDescription": "Chemical processing facilities require sealing materials with exceptional chemical resistance and reliability. Inmarco delivers comprehensive sealing solutions for handling acids, bases, solvents, and aggressive chemicals across batch and continuous process operations.",
       "challenges": [
         "Wide range of chemical compatibility requirements",
@@ -148,7 +148,7 @@
       "href": "/industries/water-wastewater-treatment",
       "subtitle": "",
       "description": "Reliable sealing solutions for water treatment and wastewater management systems",
-      "image": "public/water.jpg",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/images/water.jpg",
       "fullDescription": "Water and wastewater treatment facilities require sealing solutions that resist chemical exposure, maintain hygiene standards, and deliver long-term reliability. Inmarco provides comprehensive sealing products for pumps, valves, filtration systems, and treatment equipment.",
       "challenges": [
         "Chemical resistance to treatment agents",
@@ -189,7 +189,7 @@
       "href": "/industries/marine",
       "subtitle": "",
       "description": "High-performance sealing solutions for stern tubes, rudder posts, and critical seawater applications in marine vessels",
-      "image": "public/marine.jpg",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/images/marine.jpg",
       "fullDescription": "Marine environments present unique sealing challenges with constant exposure to saltwater, humidity, and demanding operational conditions. Inmarco provides corrosion-resistant sealing solutions for naval vessels, commercial ships, offshore platforms, and marine infrastructure.",
       "challenges": [
         "Saltwater corrosion",
@@ -235,7 +235,7 @@
       "href": "/industries/cement",
       "subtitle": "",
       "description": "Heavy-duty, abrasion-resistant sealing solutions engineered for extreme kiln temperatures and harsh cement manufacturing environments",
-      "image": "public/cement.jpg",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/images/cement.jpg",
       "fullDescription": "Cement manufacturing involves extreme temperatures, abrasive materials, and dusty environments that challenge sealing performance. Inmarco offers robust sealing solutions designed for kiln operations, grinding mills, conveyor systems, and processing equipment in cement plants.",
       "challenges": [
         "High kiln temperatures",
@@ -280,7 +280,7 @@
       "href": "/industries/fertilizers",
       "subtitle": "",
       "description": "Specialized sealing solutions for high-pressure ammonia synthesis reactors, corrosive acid handling, and aggressive urea production environments",
-      "image": "public/fertilizer.jpg",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/images/fertilizer.jpg",
       "fullDescription": "Fertilizer production involves handling ammonia synthesis, urea synthesis, nitric acid, phosphoric acid, sulfuric acid and NPK fertilizer production facilities.",
       "challenges": [
         "Extreme pressure, temperature, and thermal cycling conditions",
@@ -322,7 +322,7 @@
       "href": "/industries/metallurgy",
       "subtitle": "",
       "description": "Durable sealing and thermal insulation solutions for blast furnaces, molten metal handling, and extreme high-temperature steel production environments",
-      "image": "public/metallurgy.jpg",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/images/metallurgy.jpg",
       "fullDescription": "Metallurgical operations expose sealing materials to some of the harshest conditions in industrial processing. Inmarco specializes in sealing solutions engineered to withstand molten metals, extreme temperatures, abrasive materials, and corrosive atmospheres in steel mills, foundries, and metal processing facilities.",
       "challenges": [
         "Temperatures exceeding 1000°C in furnaces and casting",
@@ -362,7 +362,7 @@
       "href": "/industries/pulp-paper",
       "subtitle": "",
       "description": "High-performance sealing solutions for abrasive chemical slurries, corrosive bleach applications, and harsh pulp production environments",
-      "image": "public/paper.jpg",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/images/paper.jpg",
       "fullDescription": "Pulp and paper mills require sealing solutions that resist aggressive chemicals, handle high temperatures, and perform reliably in wet, humid conditions. Inmarco delivers sealing products for digesters, bleaching systems, papermaking machines, and auxiliary equipment.",
       "challenges": [
         "Aggressive chemical exposure (chlorine dioxide, caustic soda, sulfuric acid)",
@@ -417,7 +417,7 @@
       "href": "/industries/food-pharmaceutical",
       "subtitle": "",
       "description": "FDA-compliant, sealing solutions ensuring zero product contamination - for sterile pharmaceutical and food-grade processing applications",
-      "image": "public/food and pahrma.jpg",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/images/food and pahrma.jpg",
       "fullDescription": "Food processing and pharmaceutical manufacturing demand the highest standards of hygiene, product purity, and regulatory compliance. Inmarco delivers FDA and EU compliant sealing solutions for processing, mixing, filling, and packaging equipment in both industries.",
       "challenges": [
         "Zero-tolerance product contamination and cross-contamination prevention",
@@ -459,7 +459,7 @@
       "href": "/industries/sugar",
       "subtitle": "",
       "description": "High-performance, abrasion-resistant, non-contaminating food-grade sealing solutions for demanding sugar crushing, extraction, and refining operations",
-      "image": "public/sugar.jpg",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/images/sugar.jpg",
       "fullDescription": "Sugar processing and refining require food-safe sealing materials that maintain product purity while handling high temperatures, steam, and sugar solutions. Inmarco provides FDA-compliant sealing solutions for crushing, extraction, clarification, evaporation, and crystallization processes.",
       "challenges": [
         "Food-grade material compliance and zero contamination requirements",
@@ -504,7 +504,7 @@
       "href": "/industries/oem",
       "subtitle": "",
       "description": "Next-generation fugitive emission packing and gasketing solutions, custom-engineered for original equipment manufacturers, exceeding international regulatory requirements",
-      "image": "public/OEM.jpeg",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/images/OEM.jpeg",
       "fullDescription": "Original Equipment Manufacturers require reliable sealing partners who understand design integration, performance specifications, and supply chain demands. Inmarco collaborates with OEMs to develop custom sealing solutions that enhance equipment performance and reliability.",
       "challenges": [
         "Evolving industry standards requiring continuous compliance updates",

@@ -15,7 +15,7 @@
         "Hybrid"
       ],
       "diagram": "CompressionPackingDiagram",
-      "image": "/FZC Inmarco Product Shoot/Renders/WEBM/Ultra FE 1003_Render.webm"
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Renders/WEBM/Ultra FE 1003_Render.webm"
     },
     {
       "id": 2,
@@ -30,7 +30,7 @@
         "Laminated Graphite"
       ],
       "diagram": "CompressionPackingDiagram",
-      "image": "/FZC Inmarco Product Shoot/Renders/WEBM/GM 310C_Render_2.webm"
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Renders/WEBM/GM 310C_Render_2.webm"
     },
     {
       "id": 3,
@@ -46,7 +46,7 @@
         "Expanded PTFE"
       ],
       "diagram": "CompressionPackingDiagram",
-      "image": "/FZC Inmarco Product Shoot/Renders/WEBM/PTFE_Render_1.webm"
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Renders/WEBM/PTFE_Render_1.webm"
     },
     {
       "id": 4,
@@ -62,7 +62,7 @@
         "Helium Nitrogen Leak Compliance"
       ],
       "diagram": "CompressionPackingDiagram",
-      "image": "/FZC Inmarco Product Shoot/Renders/WEBM/IG Kit_Render_3.webm"
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Renders/WEBM/IG Kit_Render_3.webm"
     },
     {
       "id": 5,
@@ -78,7 +78,7 @@
         "Corrugated Metal"
       ],
       "diagram": "CompressionPackingDiagram",
-      "image": "/FZC Inmarco Product Shoot/Renders/WEBM/RTJ 3167_Render_2.webm"
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Renders/WEBM/RTJ 3167_Render_2.webm"
     },
     {
       "id": 6,
@@ -94,7 +94,7 @@
         "Welding Blanket"
       ],
       "diagram": "ThermalInsulationDiagram",
-      "image": "/FZC Inmarco Product Shoot/Renders/WEBM/IN 123_Render_1.webm"
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Renders/WEBM/IN 123_Render_1.webm"
     },
     {
       "id": 7,
@@ -108,7 +108,7 @@
         "High temperature wiping pad"
       ],
       "diagram": "ThermalInsulationDiagram",
-      "image": "/FZC Inmarco Product Shoot/Renders/WEBM/Yellow Wiping Pad_Render_1.webm"
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Renders/WEBM/Yellow Wiping Pad_Render_1.webm"
     }
   ],
   "subcategories": [
@@ -256,7 +256,7 @@
       "apiCertified": true,
       "shortDescription": "PTFE compression packing for pumps and valves",
       "description": "PE 505 is a high-performance PTFE compression packing engineered for demanding industrial applications. Suitable for pumps, valves, and rotating equipment across diverse industries requiring reliable sealing solutions.",
-      "image": "/FZC Inmarco Product Shoot/PE 505/PE 505 - 50(14)_05.JPG",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 505/PE 505 - 50(14)_05.JPG",
       "specifications": {
         "byEquipmentType": {
           "rotating": {
@@ -313,14 +313,14 @@
         "Systems excluding fluorine compounds"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/PE 505/PE 505_1.png",
-        "/FZC Inmarco Product Shoot/PE 505/PE 505_2.png",
-        "/FZC Inmarco Product Shoot/PE 505/PE 505_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 505/PE 505_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 505/PE 505_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 505/PE 505_3.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/PE 505/PE 505_1.png",
-        "/FZC Inmarco Product Shoot/PE 505/PE 505_2.png",
-        "/FZC Inmarco Product Shoot/PE 505/PE 505_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 505/PE 505_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 505/PE 505_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 505/PE 505_3.png"
       ],
       "datasheet": "/datasheets/new_generated_html/Style_PE_505.html"
     },
@@ -333,7 +333,7 @@
       "apiCertified": false,
       "shortDescription": "Standard PTFE compression packing",
       "description": "PE 504 offers dependable PTFE sealing for general-purpose industrial applications. Features excellent chemical resistance and operates effectively across a wide temperature range, making it an ideal choice for standard pump and valve applications.",
-      "image": "/FZC Inmarco Product Shoot/PE 504/PE 504 - 48(23)_04.JPG",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 504/PE 504 - 48(23)_04.JPG",
       "specifications": {
         "pH Range": "0 – 14",
         "Temperature (°C)": "-200 to +300",
@@ -361,14 +361,14 @@
         "Municipal water distribution"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/PE 504/PE 504_1(1).png",
-        "/FZC Inmarco Product Shoot/PE 504/PE 504_2.png",
-        "/FZC Inmarco Product Shoot/PE 504/PE 504_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 504/PE 504_1(1).png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 504/PE 504_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 504/PE 504_3.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/PE 504/PE 504_1(1).png",
-        "/FZC Inmarco Product Shoot/PE 504/PE 504_2.png",
-        "/FZC Inmarco Product Shoot/PE 504/PE 504_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 504/PE 504_1(1).png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 504/PE 504_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 504/PE 504_3.png"
       ],
       "datasheet": "/datasheets/new_generated_html/PE_504.html"
     },
@@ -381,7 +381,7 @@
       "apiCertified": false,
       "shortDescription": "Hybrid compression packing for versatile applications",
       "description": "HY 504 combines multiple high-performance materials in a hybrid construction to deliver superior sealing across various service conditions. Its unique structural design provides exceptional reliability in demanding industrial environments.",
-      "image": "/FZC Inmarco Product Shoot/HY 504/HY 504 - 51(24)_01.JPG",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 504/HY 504 - 51(24)_01.JPG",
       "specifications": {
         "byEquipmentType": {
           "rotating": {
@@ -427,14 +427,14 @@
         "Pulp and paper industry equipment"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/HY 504/HY 504 - 51(24)_20_2.png",
-        "/FZC Inmarco Product Shoot/HY 504/HY 504_1_2.png",
-        "/FZC Inmarco Product Shoot/HY 504/HY 504_3_2.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 504/HY 504 - 51(24)_20_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 504/HY 504_1_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 504/HY 504_3_2.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/HY 504/HY 504 - 51(24)_20_2.png",
-        "/FZC Inmarco Product Shoot/HY 504/HY 504_1_2.png",
-        "/FZC Inmarco Product Shoot/HY 504/HY 504_3_2.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 504/HY 504 - 51(24)_20_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 504/HY 504_1_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 504/HY 504_3_2.png"
       ],
       "datasheet": "/datasheets/new_generated_html/HY_504.html"
     },
@@ -447,7 +447,7 @@
       "apiCertified": true,
       "shortDescription": "API certified PTFE packing",
       "description": "PE 508 is a premium PTFE compression packing engineered for critical service applications requiring superior sealing performance. Ideal for high-purity processes where contamination must be eliminated.",
-      "image": "/FZC Inmarco Product Shoot/PE 508/PE 508_1.png",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 508/PE 508_1.png",
       "specifications": {
         "pH Range": "0 – 14",
         "Temperature Range": "-240°C to +280°C",
@@ -476,14 +476,14 @@
         "Environmentally sensitive installations"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/PE 508/PE 508_2.png",
-        "/FZC Inmarco Product Shoot/PE 508/PE 508_3.png",
-        "/FZC Inmarco Product Shoot/PE 508/PE 508_4.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 508/PE 508_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 508/PE 508_3.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 508/PE 508_4.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/PE 508/PE 508_2.png",
-        "/FZC Inmarco Product Shoot/PE 508/PE 508_3.png",
-        "/FZC Inmarco Product Shoot/PE 508/PE 508_4.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 508/PE 508_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 508/PE 508_3.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 508/PE 508_4.png"
       ],
       "datasheet": "/datasheets/new_generated_html/Style_PE_508.html"
     },
@@ -496,7 +496,7 @@
       "apiCertified": true,
       "shortDescription": "High-performance PTFE packing",
       "description": "PE 509 delivers superior sealing performance in extreme service conditions utilizing advanced PTFE technology with integrated self-lubrication. Engineered for applications where contamination control is paramount.",
-      "image": "/FZC Inmarco Product Shoot/PE 509/PE 509_1.png",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 509/PE 509_1.png",
       "specifications": {
         "Construction": "Braided PTFE packing",
         "Material Composition": "100% Pure PTFE",
@@ -529,14 +529,14 @@
         "Aggressive chemical handling systems"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/PE 509/PE 509_1.png",
-        "/FZC Inmarco Product Shoot/PE 509/PE 509_2.png",
-        "/FZC Inmarco Product Shoot/PE 509/PE 509_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 509/PE 509_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 509/PE 509_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 509/PE 509_3.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/PE 509/PE 509_1.png",
-        "/FZC Inmarco Product Shoot/PE 509/PE 509_2.png",
-        "/FZC Inmarco Product Shoot/PE 509/PE 509_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 509/PE 509_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 509/PE 509_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 509/PE 509_3.png"
       ],
       "datasheet": "/datasheets/new_generated_html/Style_PE_509.html"
     },
@@ -549,7 +549,7 @@
       "apiCertified": true,
       "shortDescription": "API certified hybrid packing",
       "description": "HY 105 is a premium hybrid compression packing engineered to deliver exceptional sealing performance in harsh service conditions. Ideal for pumps and reciprocating equipment operating in demanding industrial environments.",
-      "image": "/FZC Inmarco Product Shoot/HY 105/HY 105_1.png",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 105/HY 105_1.png",
       "specifications": {
         "byEquipmentType": {
           "rotating": {
@@ -603,14 +603,14 @@
         "Pigment and synthetic compound processing"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/HY 105/HY 105_1.png",
-        "/FZC Inmarco Product Shoot/HY 105/HY 105_1_2.png",
-        "/FZC Inmarco Product Shoot/HY 105/HY 105_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 105/HY 105_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 105/HY 105_1_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 105/HY 105_3.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/HY 105/HY 105_1.png",
-        "/FZC Inmarco Product Shoot/HY 105/HY 105_1_2.png",
-        "/FZC Inmarco Product Shoot/HY 105/HY 105_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 105/HY 105_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 105/HY 105_1_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 105/HY 105_3.png"
       ],
       "datasheet": "/datasheets/new_generated_html/HY_105.html",
       "economicalVariant": "HY 105E"
@@ -624,7 +624,7 @@
       "apiCertified": true,
       "shortDescription": "Hybrid packing with enhanced temperature resistance",
       "description": "HY 105T offers improved thermal performance through advanced hybrid construction, specifically engineered for demanding high-temperature applications where standard packings may fail.",
-      "image": "/FZC Inmarco Product Shoot/HY 105T/HY 105T_1.png",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 105T/HY 105T_1.png",
       "specifications": {
         "pH Range": "0 – 14",
         "Temperature Range": "-200°C to +280°C",
@@ -651,14 +651,14 @@
         "Heat transfer equipment"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/HY 105T/HY 105T_2.png",
-        "/FZC Inmarco Product Shoot/HY 105T/HY 105T_3.png",
-        "/FZC Inmarco Product Shoot/HY 105T/HY 105T_4.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 105T/HY 105T_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 105T/HY 105T_3.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 105T/HY 105T_4.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/HY 105T/HY 105T_2.png",
-        "/FZC Inmarco Product Shoot/HY 105T/HY 105T_3.png",
-        "/FZC Inmarco Product Shoot/HY 105T/HY 105T_4.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 105T/HY 105T_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 105T/HY 105T_3.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 105T/HY 105T_4.png"
       ],
       "datasheet": "/datasheets/new_generated_html/HY_105T.html"
     },
@@ -671,7 +671,7 @@
       "apiCertified": true,
       "shortDescription": "Premium hybrid compression packing",
       "description": "HY 107 provides exceptional sealing performance with advanced hybrid construction engineered for the most demanding reciprocating applications. Particularly effective in fertilizer industry service conditions.",
-      "image": "/FZC Inmarco Product Shoot/HY 107/HY 107_1.png",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 107/HY 107_1.png",
       "specifications": {
         "byEquipmentType": {
           "rotating": {
@@ -718,14 +718,14 @@
         "Power plant rotating equipment"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/HY 107/HY 107_1_2.png",
-        "/FZC Inmarco Product Shoot/HY 107/HY 107_2_2.png",
-        "/FZC Inmarco Product Shoot/HY 107/HY 107_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 107/HY 107_1_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 107/HY 107_2_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 107/HY 107_3.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/HY 107/HY 107_1_2.png",
-        "/FZC Inmarco Product Shoot/HY 107/HY 107_2_2.png",
-        "/FZC Inmarco Product Shoot/HY 107/HY 107_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 107/HY 107_1_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 107/HY 107_2_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 107/HY 107_3.png"
       ],
       "datasheet": "/datasheets/new_generated_html/HY_107.html",
       "economicalVariant": "HY 107E"
@@ -739,7 +739,7 @@
       "apiCertified": false,
       "shortDescription": "General purpose hybrid packing",
       "description": "HY 175 is designed for standard industrial sealing applications, offering balanced performance and cost-effectiveness. An economical solution for general-purpose sealing requirements across various industries.",
-      "image": "/FZC Inmarco Product Shoot/HY 175/HY 175 - 64(13)_13.JPG",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 175/HY 175 - 64(13)_13.JPG",
       "specifications": {
         "byEquipmentType": {
           "rotating": {
@@ -785,14 +785,14 @@
         "Light industrial applications"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/HY 175/HY 175_5_2.png",
-        "/FZC Inmarco Product Shoot/HY 175/HY 175_Edited_1_2.png",
-        "/FZC Inmarco Product Shoot/HY 175/HY 175_Edited_3_2.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 175/HY 175_5_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 175/HY 175_Edited_1_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 175/HY 175_Edited_3_2.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/HY 175/HY 175_5_2.png",
-        "/FZC Inmarco Product Shoot/HY 175/HY 175_Edited_1_2.png",
-        "/FZC Inmarco Product Shoot/HY 175/HY 175_Edited_3_2.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 175/HY 175_5_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 175/HY 175_Edited_1_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 175/HY 175_Edited_3_2.png"
       ],
       "datasheet": "/datasheets/new_generated_html/HY_175.html"
     },
@@ -805,7 +805,7 @@
       "apiCertified": true,
       "shortDescription": "API certified polyimide packing",
       "description": "PA 106 offers high-strength polyimide fiber packing for demanding applications requiring exceptional mechanical properties. Engineered to withstand aggressive environments and highly abrasive media.",
-      "image": "/FZC Inmarco Product Shoot/PA 106/PA 106-11_15.JPG",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA 106/PA 106-11_15.JPG",
       "specifications": {
         "pH Range": "0-14",
         "Temperature (°C)": "-200 to +300",
@@ -833,14 +833,14 @@
         "Aerospace and defense equipment"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/PA 106/PA 106_1.png",
-        "/FZC Inmarco Product Shoot/PA 106/PA 106_2.png",
-        "/FZC Inmarco Product Shoot/PA 106/PA 106_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA 106/PA 106_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA 106/PA 106_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA 106/PA 106_3.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/PA 106/PA 106_1.png",
-        "/FZC Inmarco Product Shoot/PA 106/PA 106_2.png",
-        "/FZC Inmarco Product Shoot/PA 106/PA 106_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA 106/PA 106_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA 106/PA 106_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA 106/PA 106_3.png"
       ],
       "datasheet": "/datasheets/new_generated_html/PA_106.html",
       "economicalVariant": "PA 106E",
@@ -855,7 +855,7 @@
       "apiCertified": true,
       "shortDescription": "FDA approved organic fiber packing",
       "description": "OR 125 is a general-purpose organic fiber packing specifically engineered for clean water applications. Non-toxic and non-contaminating, making it ideal for potable water and food processing industries.",
-      "image": "/FZC Inmarco Product Shoot/HY 120 AR/HY 120 AR_Edited_1.png",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 120 AR/HY 120 AR_Edited_1.png",
       "specifications": {
         "pH Range": "4 – 10",
         "Temperature (°C)": "Ambient to +260",
@@ -882,14 +882,14 @@
         "Cosmetics and personal care manufacturing"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/OR 125 SR/OR 125 SR_1.png",
-        "/FZC Inmarco Product Shoot/OR 125 SR/OR 125 SR_2.png",
-        "/FZC Inmarco Product Shoot/OR 125 SR/OR 125 SR_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/OR 125 SR/OR 125 SR_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/OR 125 SR/OR 125 SR_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/OR 125 SR/OR 125 SR_3.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/OR 125 SR/OR 125 SR_1.png",
-        "/FZC Inmarco Product Shoot/OR 125 SR/OR 125 SR_2.png",
-        "/FZC Inmarco Product Shoot/OR 125 SR/OR 125 SR_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/OR 125 SR/OR 125 SR_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/OR 125 SR/OR 125 SR_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/OR 125 SR/OR 125 SR_3.png"
       ],
       "datasheet": "/datasheets/new_generated_html/OR_125.html",
       "elastomericCoreVariant": "OR 125EC"
@@ -903,7 +903,7 @@
       "apiCertified": true,
       "shortDescription": "API certified carbon graphite packing",
       "description": "CG 101 is a premium carbon fiber packing engineered for high-temperature service with exceptional thermal stability. Provides reliable sealing in the most demanding thermal environments.",
-      "image": "/FZC Inmarco Product Shoot/CG 101/CG 101 - 56(25)_03.JPG",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG 101/CG 101 - 56(25)_03.JPG",
       "specifications": {
         "pH Range": "0 – 14",
         "Temperature Range": "-200°C to +650°C",
@@ -939,14 +939,14 @@
         "Equipment requiring corrosion resistance"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/CG 101/CG 101_1.png",
-        "/FZC Inmarco Product Shoot/CG 101/CG 101_2.png",
-        "/FZC Inmarco Product Shoot/CG 101/CG 101_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG 101/CG 101_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG 101/CG 101_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG 101/CG 101_3.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/CG 101/CG 101_1.png",
-        "/FZC Inmarco Product Shoot/CG 101/CG 101_2.png",
-        "/FZC Inmarco Product Shoot/CG 101/CG 101_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG 101/CG 101_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG 101/CG 101_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG 101/CG 101_3.png"
       ],
       "datasheet": "/datasheets/new_generated_html/CG_101.html",
       "economicalVariant": "CG 101E"
@@ -960,7 +960,7 @@
       "apiCertified": true,
       "shortDescription": "High-performance polyimide compression packing",
       "description": "PE 102 delivers exceptional mechanical strength and chemical resistance for the most demanding industrial applications. Engineered to withstand severe operating conditions and aggressive media.",
-      "image": "/FZC Inmarco Product Shoot/PE 102/PE 102 - 54 (22).JPG",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 102/PE 102 - 54 (22).JPG",
       "specifications": {
         "pH Range": "0 – 14",
         "Temperature (°C)": "-240 to +300",
@@ -988,14 +988,14 @@
         "Aerospace fluid handling systems"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/PE 102/PE 102_1.JPG",
-        "/FZC Inmarco Product Shoot/PE 102/PE 102_2.JPG",
-        "/FZC Inmarco Product Shoot/PE 102/PE 102_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 102/PE 102_1.JPG",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 102/PE 102_2.JPG",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 102/PE 102_3.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/PE 102/PE 102_1.JPG",
-        "/FZC Inmarco Product Shoot/PE 102/PE 102_2.JPG",
-        "/FZC Inmarco Product Shoot/PE 102/PE 102_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 102/PE 102_1.JPG",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 102/PE 102_2.JPG",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 102/PE 102_3.png"
       ],
       "datasheet": "/datasheets/new_generated_html/STYLE_PE_102.html"
     },
@@ -1008,7 +1008,7 @@
       "apiCertified": false,
       "shortDescription": "Standard carbon graphite packing",
       "description": "CG 100 is designed for general-purpose graphite sealing in standard industrial environments. Offers balanced performance and cost for routine sealing applications across various industries.",
-      "image": "/FZC Inmarco Product Shoot/CG 100/CG 100 - 52(26)_01.JPG",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG 100/CG 100 - 52(26)_01.JPG",
       "specifications": {
         "byEquipmentType": {
           "rotating": {
@@ -1055,15 +1055,15 @@
         "Refinery utility services"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/CG 100/CG 100 - 52(26)_19_2.png",
-        "/FZC Inmarco Product Shoot/CG 100/CG 100-26_02_2.png",
-        "/FZC Inmarco Product Shoot/CG 100/CG 100-26_20_2.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG 100/CG 100 - 52(26)_19_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG 100/CG 100-26_02_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG 100/CG 100-26_20_2.png"
       ],
       "datasheet": "/datasheets/new_generated_html/CG_100.html",
       "images": [
-        "/FZC Inmarco Product Shoot/CG 100/CG 100 - 52(26)_19_2.png",
-        "/FZC Inmarco Product Shoot/CG 100/CG 100-26_02_2.png",
-        "/FZC Inmarco Product Shoot/CG 100/CG 100-26_20_2.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG 100/CG 100 - 52(26)_19_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG 100/CG 100-26_02_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG 100/CG 100-26_20_2.png"
       ]
     },
     {
@@ -1075,7 +1075,7 @@
       "apiCertified": true,
       "shortDescription": "Premium carbon graphite packing",
       "description": "CG 102 offers superior thermal conductivity and sealing performance in valve applications for critical services. Features Inconel reinforcement for enhanced mechanical strength and reliability.",
-      "image": "/FZC Inmarco Product Shoot/CG 102/CG 102 - 31_05.JPG",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG 102/CG 102 - 31_05.JPG",
       "specifications": {
         "pH Range": "0 – 14",
         "Temperature Range": "-240°C to +538°C",
@@ -1104,14 +1104,14 @@
         "Thermal cracking units"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/CG 102/CG 102 - 31_05_2.png",
-        "/FZC Inmarco Product Shoot/CG 102/CG 102_1.png",
-        "/FZC Inmarco Product Shoot/CG 102/CG 102_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG 102/CG 102 - 31_05_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG 102/CG 102_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG 102/CG 102_3.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/CG 102/CG 102 - 31_05_2.png",
-        "/FZC Inmarco Product Shoot/CG 102/CG 102_1.png",
-        "/FZC Inmarco Product Shoot/CG 102/CG 102_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG 102/CG 102 - 31_05_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG 102/CG 102_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG 102/CG 102_3.png"
       ],
       "datasheet": "/datasheets/new_generated_html/CG_102.html"
     },
@@ -1124,7 +1124,7 @@
       "apiCertified": true,
       "shortDescription": "E-Glass insulation material",
       "description": "IN 123 provides reliable ceramic fiber thermal insulation for high-temperature applications. Features e-glass fiber reinforcement for enhanced mechanical properties and thermal protection up to 1260°C.",
-      "image": "/FZC Inmarco Product Shoot/IN 123/IN 123 - 45 _29.JPG",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/IN 123/IN 123 - 45 _29.JPG",
       "specifications": {
         "pH Range": "2 - 12",
         "Maximum Temperature": "1260°C",
@@ -1161,14 +1161,14 @@
         "Static sealing in high-temperature industrial environments"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/IN 123/IN 123 - 45 _29_2.png",
-        "/FZC Inmarco Product Shoot/IN 123/IN 123_1_2.png",
-        "/FZC Inmarco Product Shoot/IN 123/IN 123_2_2.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/IN 123/IN 123 - 45 _29_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/IN 123/IN 123_1_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/IN 123/IN 123_2_2.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/IN 123/IN 123 - 45 _29_2.png",
-        "/FZC Inmarco Product Shoot/IN 123/IN 123_1_2.png",
-        "/FZC Inmarco Product Shoot/IN 123/IN 123_2_2.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/IN 123/IN 123 - 45 _29_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/IN 123/IN 123_1_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/IN 123/IN 123_2_2.png"
       ],
       "datasheet": "/datasheets/new_generated_html/IN_123.html"
     },
@@ -1181,7 +1181,7 @@
       "apiCertified": false,
       "shortDescription": "Standard E-Glass insulation",
       "description": "IN 123I provides reliable ceramic fiber thermal insulation with Inconel wire reinforcement for enhanced mechanical strength. Engineered for high-temperature applications requiring superior durability and mechanical properties.",
-      "image": "/FZC Inmarco Product Shoot/IN 123/IN 123 - 45 _29.JPG",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/IN 123/IN 123 - 45 _29.JPG",
       "specifications": {
         "pH Range": "0 - 14 (Universal)",
         "Temperature Range": "-240°C to +260°C",
@@ -1218,14 +1218,14 @@
         "Applications where standard ceramic rope needs reinforcement"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/IN 123/IN 123 - 45 _29_2.png",
-        "/FZC Inmarco Product Shoot/IN 123/IN 123_1_2.png",
-        "/FZC Inmarco Product Shoot/IN 123/IN 123_2_2.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/IN 123/IN 123 - 45 _29_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/IN 123/IN 123_1_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/IN 123/IN 123_2_2.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/IN 123/IN 123 - 45 _29_2.png",
-        "/FZC Inmarco Product Shoot/IN 123/IN 123_1_2.png",
-        "/FZC Inmarco Product Shoot/IN 123/IN 123_2_2.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/IN 123/IN 123 - 45 _29_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/IN 123/IN 123_1_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/IN 123/IN 123_2_2.png"
       ],
       "datasheet": "/datasheets/new_generated_html/IN_123I.html"
     },
@@ -1238,7 +1238,7 @@
       "apiCertified": false,
       "shortDescription": "Organic fiber compression packing",
       "description": "OR 120 is a vegetable fiber packing that provides reliable sealing for general industrial applications. An economical solution for low-pressure water services and standard operating conditions.",
-      "image": "/FZC Inmarco Product Shoot/OR 120/OR 120.png",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/OR 120/OR 120.png",
       "specifications": {
         "pH Range": "6 – 11",
         "Temperature (°C)": "-40 to +150",
@@ -1266,14 +1266,14 @@
         "Low-pressure general service"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/OR 120/OR 120.png",
-        "/FZC Inmarco Product Shoot/OR 120/OR 120_1.png",
-        "/FZC Inmarco Product Shoot/OR 120/OR-120_3.JPG"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/OR 120/OR 120.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/OR 120/OR 120_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/OR 120/OR-120_3.JPG"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/OR 120/OR 120.png",
-        "/FZC Inmarco Product Shoot/OR 120/OR 120_1.png",
-        "/FZC Inmarco Product Shoot/OR 120/OR-120_3.JPG"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/OR 120/OR 120.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/OR 120/OR 120_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/OR 120/OR-120_3.JPG"
       ],
       "datasheet": "/datasheets/new_generated_html/OR_120.html"
     },
@@ -1286,7 +1286,7 @@
       "apiCertified": false,
       "shortDescription": "Aramid reinforced hybrid packing",
       "description": "HY 120AR is an aramid-reinforced vegetable fiber packing offering superior mechanical strength and abrasion resistance. Engineered for demanding services requiring enhanced durability and load-bearing capacity.",
-      "image": "/FZC Inmarco Product Shoot/HY 120AR/HY 120AR.png",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 120AR/HY 120AR.png",
       "specifications": {
         "byEquipmentType": {
           "rotating": {
@@ -1329,14 +1329,14 @@
         "Severe duty rotating equipment"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/HY 120 AR/HY 120AR.png",
-        "/FZC Inmarco Product Shoot/HY 120 AR/HY 120AR_3.png",
-        "/FZC Inmarco Product Shoot/HY 120 AR/HY 12O AR_4_2.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 120 AR/HY 120AR.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 120 AR/HY 120AR_3.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 120 AR/HY 12O AR_4_2.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/HY 120 AR/HY 120AR.png",
-        "/FZC Inmarco Product Shoot/HY 120 AR/HY 120AR_3.png",
-        "/FZC Inmarco Product Shoot/HY 120 AR/HY 12O AR_4_2.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 120 AR/HY 120AR.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 120 AR/HY 120AR_3.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 120 AR/HY 12O AR_4_2.png"
       ],
       "datasheet": "/datasheets/new_generated_html/HY_120_AR.html"
     },
@@ -1349,7 +1349,7 @@
       "apiCertified": false,
       "shortDescription": "Ceramic fiber insulation",
       "description": "IN 140 offers high-temperature glass fiber insulation designed for thermal resistance applications. Provides exceptional fire retardancy and thermal protection up to 550°C for industrial equipment.",
-      "image": "/FZC Inmarco Product Shoot/IN 140/IN 140_5.png",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/IN 140/IN 140_5.png",
       "specifications": {
         "Max. Working Temperature": "°C",
         "Loss on Ignition (@ 850°C)": "%",
@@ -1377,14 +1377,14 @@
         "Refractory backup insulation"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/IN 140/IN 140_5_2.png",
-        "/FZC Inmarco Product Shoot/IN 140/IN 140_6_2.png",
-        "/FZC Inmarco Product Shoot/IN 140/IN140-4_06_2.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/IN 140/IN 140_5_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/IN 140/IN 140_6_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/IN 140/IN140-4_06_2.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/IN 140/IN 140_5_2.png",
-        "/FZC Inmarco Product Shoot/IN 140/IN 140_6_2.png",
-        "/FZC Inmarco Product Shoot/IN 140/IN140-4_06_2.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/IN 140/IN 140_5_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/IN 140/IN 140_6_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/IN 140/IN140-4_06_2.png"
       ],
       "datasheet": "/datasheets/new_generated_html/IN_140.html"
     },
@@ -1397,7 +1397,7 @@
       "apiCertified": true,
       "shortDescription": "Premium flexible graphite packing",
       "description": "CG 900 delivers exceptional performance in extreme operating conditions utilizing advanced flexible graphite technology. Engineered for high-temperature, high-pressure applications requiring the ultimate in sealing reliability.",
-      "image": "/FZC Inmarco Product Shoot/CG 900/CG 900 - 32_16.JPG",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG 900/CG 900 - 32_16.JPG",
       "specifications": {
         "pH Range": "0 – 14",
         "Temperature Range": "-200°C to +650°C",
@@ -1429,14 +1429,14 @@
         "Severe duty valve and pump applications"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/CG 900/CG 900 - 57(32)_05_2(1).png",
-        "/FZC Inmarco Product Shoot/CG 900/CG 900 - 57(32)_05_2.png",
-        "/FZC Inmarco Product Shoot/CG 900/CG 900 - 57(32)_10_2.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG 900/CG 900 - 57(32)_05_2(1).png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG 900/CG 900 - 57(32)_05_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG 900/CG 900 - 57(32)_10_2.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/CG 900/CG 900 - 57(32)_05_2(1).png",
-        "/FZC Inmarco Product Shoot/CG 900/CG 900 - 57(32)_05_2.png",
-        "/FZC Inmarco Product Shoot/CG 900/CG 900 - 57(32)_10_2.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG 900/CG 900 - 57(32)_05_2(1).png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG 900/CG 900 - 57(32)_05_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG 900/CG 900 - 57(32)_10_2.png"
       ],
       "datasheet": "/datasheets/new_generated_html/Style_CG_900.html"
     },
@@ -1449,7 +1449,7 @@
       "apiCertified": true,
       "shortDescription": "Hybrid packing for pump applications",
       "description": "HY 501 is optimized for centrifugal and rotary pump sealing with superior performance characteristics. Features highly engineered carbon graphite construction for demanding pump applications.",
-      "image": "/FZC Inmarco Product Shoot/HY 501/HY 501 - 27_07.JPG",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 501/HY 501 - 27_07.JPG",
       "specifications": {
         "pH Range": "0 – 14",
         "Temperature Range": "-200°C to +650°C*",
@@ -1477,14 +1477,14 @@
         "Boiler feed water pumps"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/HY 501/HY 175_Edited_3_2.png",
-        "/FZC Inmarco Product Shoot/HY 501/HY 501 - 27_07_2.png",
-        "/FZC Inmarco Product Shoot/HY 501/HY 501 - 27_20_2.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 501/HY 175_Edited_3_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 501/HY 501 - 27_07_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 501/HY 501 - 27_20_2.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/HY 501/HY 175_Edited_3_2.png",
-        "/FZC Inmarco Product Shoot/HY 501/HY 501 - 27_07_2.png",
-        "/FZC Inmarco Product Shoot/HY 501/HY 501 - 27_20_2.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 501/HY 175_Edited_3_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 501/HY 501 - 27_07_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 501/HY 501 - 27_20_2.png"
       ],
       "datasheet": "/datasheets/new_generated_html/HY_501.html"
     },
@@ -1497,7 +1497,7 @@
       "apiCertified": true,
       "shortDescription": "High-purity carbon graphite packing",
       "description": "CG 503 provides clean, low-friction carbon graphite sealing specifically engineered for control valve applications. High-purity grade ensures minimal contamination in sensitive processes.",
-      "image": "/FZC Inmarco Product Shoot/CG 503/91(34)_03.JPG",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG 503/91(34)_03.JPG",
       "specifications": {
         "byEquipmentType": {
           "rotating": {
@@ -1545,14 +1545,14 @@
         "Semiconductor manufacturing systems"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/CG 503/CG 503 Updated/CG 503 - 34_19_2.png",
-        "/FZC Inmarco Product Shoot/CG 503/CG 503 Updated/CG 503 - 53(34)_03_2.png",
-        "/FZC Inmarco Product Shoot/CG 503/CG 503 Updated/CG 503 - 53(34)_08_2.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG 503/CG 503 Updated/CG 503 - 34_19_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG 503/CG 503 Updated/CG 503 - 53(34)_03_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG 503/CG 503 Updated/CG 503 - 53(34)_08_2.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/CG 503/CG 503 Updated/CG 503 - 34_19_2.png",
-        "/FZC Inmarco Product Shoot/CG 503/CG 503 Updated/CG 503 - 53(34)_03_2.png",
-        "/FZC Inmarco Product Shoot/CG 503/CG 503 Updated/CG 503 - 53(34)_08_2.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG 503/CG 503 Updated/CG 503 - 34_19_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG 503/CG 503 Updated/CG 503 - 53(34)_03_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG 503/CG 503 Updated/CG 503 - 53(34)_08_2.png"
       ],
       "datasheet": "/datasheets/new_generated_html/Style_CG_503.html"
     },
@@ -1565,7 +1565,7 @@
       "apiCertified": true,
       "shortDescription": "Universal PTFE compression packing",
       "description": "PE 104 is suitable for pumps, valves, and rotating equipment, offering a versatile PTFE sealing solution. Provides universal application capability across diverse industrial equipment and services.",
-      "image": "/FZC Inmarco Product Shoot/PE 104/PE 104_3.png",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 104/PE 104_3.png",
       "specifications": {
         "pH Range": "0 – 14",
         "Temperature (°C)": "-240 to +260",
@@ -1592,14 +1592,14 @@
         "Pulp and paper industry"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/PE 104/PE 104_3.png",
-        "/FZC Inmarco Product Shoot/PE 104/PE 104_Edited_1.png",
-        "/FZC Inmarco Product Shoot/PE 104/PE 104_Edited_2.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 104/PE 104_3.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 104/PE 104_Edited_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 104/PE 104_Edited_2.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/PE 104/PE 104_3.png",
-        "/FZC Inmarco Product Shoot/PE 104/PE 104_Edited_1.png",
-        "/FZC Inmarco Product Shoot/PE 104/PE 104_Edited_2.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 104/PE 104_3.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 104/PE 104_Edited_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 104/PE 104_Edited_2.png"
       ],
       "datasheet": "/datasheets/new_generated_html/STYLE_PE_104.html"
     },
@@ -1612,7 +1612,7 @@
       "apiCertified": true,
       "shortDescription": "Heavy-duty hybrid packing",
       "description": "HY 606 is engineered for severe service conditions with enhanced mechanical strength and exceptional durability. Features heavy-duty construction with flexible Inmalon core for superior load-bearing capacity.",
-      "image": "/FZC Inmarco Product Shoot/HY 105/HY 105_1.png",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 105/HY 105_1.png",
       "specifications": {
         "pH Range": "0 – 14",
         "Temperature Range": "-200°C to +300°C",
@@ -1639,14 +1639,14 @@
         "Extreme service petrochemical pumps"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/HY 501/HY 175_Edited_3_2.png",
-        "/FZC Inmarco Product Shoot/HY 501/HY 501 - 27_07_2.png",
-        "/FZC Inmarco Product Shoot/HY 501/HY 501 - 27_20_2.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 501/HY 175_Edited_3_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 501/HY 501 - 27_07_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 501/HY 501 - 27_20_2.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/HY 501/HY 175_Edited_3_2.png",
-        "/FZC Inmarco Product Shoot/HY 501/HY 501 - 27_07_2.png",
-        "/FZC Inmarco Product Shoot/HY 501/HY 501 - 27_20_2.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 501/HY 175_Edited_3_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 501/HY 501 - 27_07_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 501/HY 501 - 27_20_2.png"
       ],
       "datasheet": "/datasheets/new_generated_html/HY_606.html"
     },
@@ -1659,7 +1659,7 @@
       "apiCertified": false,
       "shortDescription": "Clean service carbon graphite packing",
       "description": "CG 501C is a premium carbon graphite packing optimized for centrifugal and rotary pump sealing applications. Engineered to deliver superior performance with minimal product contamination for sensitive processes.",
-      "image": "/FZC Inmarco Product Shoot/CG 503/91(34)_03.JPG",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG 503/91(34)_03.JPG",
       "specifications": {
         "byEquipmentType": {
           "rotating": {
@@ -1706,14 +1706,14 @@
         "Biotechnology equipment"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/HY 501/HY 175_Edited_3_2.png",
-        "/FZC Inmarco Product Shoot/HY 501/HY 501 - 27_07_2.png",
-        "/FZC Inmarco Product Shoot/HY 501/HY 501 - 27_20_2.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 501/HY 175_Edited_3_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 501/HY 501 - 27_07_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 501/HY 501 - 27_20_2.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/HY 501/HY 175_Edited_3_2.png",
-        "/FZC Inmarco Product Shoot/HY 501/HY 501 - 27_07_2.png",
-        "/FZC Inmarco Product Shoot/HY 501/HY 501 - 27_20_2.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 501/HY 175_Edited_3_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 501/HY 501 - 27_07_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 501/HY 501 - 27_20_2.png"
       ],
       "datasheet": "/datasheets/new_generated_html/HY_501.html"
     },
@@ -1726,7 +1726,7 @@
       "apiCertified": true,
       "shortDescription": "Premium hybrid valve packing",
       "description": "HY 801 is a premium carbon graphite packing optimized for centrifugal and rotary pump sealing in the most demanding applications. Specifically engineered for challenging conditions including congealing media services.",
-      "image": "/FZC Inmarco Product Shoot/HY 801/HY 801_1.png",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 801/HY 801_1.png",
       "specifications": {
         "pH Range": "0 – 14",
         "Temperature (°C)": "-200 to +650",
@@ -1760,14 +1760,14 @@
         "Petrochemical emergency isolation systems"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/HY 801/HY 801_1_2.png",
-        "/FZC Inmarco Product Shoot/HY 801/HY 801_2_2.png",
-        "/FZC Inmarco Product Shoot/HY 801/HY 801_3_2.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 801/HY 801_1_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 801/HY 801_2_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 801/HY 801_3_2.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/HY 801/HY 801_1_2.png",
-        "/FZC Inmarco Product Shoot/HY 801/HY 801_2_2.png",
-        "/FZC Inmarco Product Shoot/HY 801/HY 801_3_2.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 801/HY 801_1_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 801/HY 801_2_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 801/HY 801_3_2.png"
       ],
       "datasheet": "/datasheets/new_generated_html/HY_801.html"
     },
@@ -1780,7 +1780,7 @@
       "apiCertified": true,
       "shortDescription": "Advanced polyimide packing",
       "description": "PA 499 offers exceptional mechanical properties and chemical resistance for the most demanding applications. Engineered with advanced polyimide technology for extreme conditions where both abrasion resistance and chemical compatibility are critical.",
-      "image": "/FZC Inmarco Product Shoot/PA 499/PA 499_Edited_1.JPG",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA 499/PA 499_Edited_1.JPG",
       "specifications": {
         "pH Range": "1 – 13",
         "Temperature (°C)": "-150 to +260",
@@ -1809,14 +1809,14 @@
         "Defense and military equipment"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/PA 499/(12)_02_1.png",
-        "/FZC Inmarco Product Shoot/PA 499/(12)_02_2.png",
-        "/FZC Inmarco Product Shoot/PA 499/(12)_02_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA 499/(12)_02_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA 499/(12)_02_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA 499/(12)_02_3.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/PA 499/(12)_02_1.png",
-        "/FZC Inmarco Product Shoot/PA 499/(12)_02_2.png",
-        "/FZC Inmarco Product Shoot/PA 499/(12)_02_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA 499/(12)_02_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA 499/(12)_02_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA 499/(12)_02_3.png"
       ],
       "datasheet": "/datasheets/new_generated_html/STYLE_PA_499.html"
     },
@@ -1829,7 +1829,7 @@
       "apiCertified": false,
       "shortDescription": "Standard hybrid compression packing",
       "description": "HY 510 is a specially engineered packing for stern tube applications in the marine sector. Features balanced hybrid construction designed to handle the unique challenges of marine propulsion shaft sealing.",
-      "image": "/FZC Inmarco Product Shoot/HY 105/HY 105_1.png",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 105/HY 105_1.png",
       "specifications": {
         "pH Range": "0 – 14",
         "Temperature Range": "-240°C to +280°C",
@@ -1856,14 +1856,14 @@
         "Building services applications"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/HY 501/HY 175_Edited_3_2.png",
-        "/FZC Inmarco Product Shoot/HY 501/HY 501 - 27_07_2.png",
-        "/FZC Inmarco Product Shoot/HY 501/HY 501 - 27_20_2.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 501/HY 175_Edited_3_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 501/HY 501 - 27_07_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 501/HY 501 - 27_20_2.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/HY 501/HY 175_Edited_3_2.png",
-        "/FZC Inmarco Product Shoot/HY 501/HY 501 - 27_07_2.png",
-        "/FZC Inmarco Product Shoot/HY 501/HY 501 - 27_20_2.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 501/HY 175_Edited_3_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 501/HY 501 - 27_07_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 501/HY 501 - 27_20_2.png"
       ],
       "datasheet": "/datasheets/new_generated_html/HY_510.html",
       "elastomericCoreVariant": "HY 510EC"
@@ -1877,7 +1877,7 @@
       "apiCertified": true,
       "shortDescription": "Advanced polyimide packing",
       "description": "PE 104A is designed for applications requiring ultra-low friction properties combined with high mechanical strength. Ideal for control valve applications demanding precise operation and exceptional durability.",
-      "image": "/FZC Inmarco Product Shoot/PA - 104A/PA 104A_Edited_1.png",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA - 104A/PA 104A_Edited_1.png",
       "specifications": {
         "pH Range": "0 – 14",
         "Temperature (°C)": "-240 to +260",
@@ -1907,14 +1907,14 @@
         "Critical safety systems"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/PA - 104A/PA 104A_Edited_2.png",
-        "/FZC Inmarco Product Shoot/PA - 104A/PA 104A_Edited_3.png",
-        "/FZC Inmarco Product Shoot/PA - 104A/PA 104A_Edited_4.JPG"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA - 104A/PA 104A_Edited_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA - 104A/PA 104A_Edited_3.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA - 104A/PA 104A_Edited_4.JPG"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/PA - 104A/PA 104A_Edited_2.png",
-        "/FZC Inmarco Product Shoot/PA - 104A/PA 104A_Edited_3.png",
-        "/FZC Inmarco Product Shoot/PA - 104A/PA 104A_Edited_4.JPG"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA - 104A/PA 104A_Edited_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA - 104A/PA 104A_Edited_3.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA - 104A/PA 104A_Edited_4.JPG"
       ],
       "datasheet": "/datasheets/new_generated_html/PE_104A.html"
     },
@@ -1927,11 +1927,11 @@
       "apiCertified": true,
       "shortDescription": "API 622 & API 607 certified low-emission, fire-safe compression packing",
       "description": "ULTRA LE 1002 is an API-certified graphite-based low-emission packing engineered for extreme conditions. Delivers exceptional temperature and pressure capabilities with certified fugitive emission control performance.",
-      "image": "/FZC Inmarco Product Shoot/Ultra FE 1002/Ultra FE 1002 - 30_04.JPG",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Ultra FE 1002/Ultra FE 1002 - 30_04.JPG",
       "gallery": [
-        "/FZC Inmarco Product Shoot/Ultra FE 1002/Ultra FE 1002_1 (1).png",
-        "/FZC Inmarco Product Shoot/Ultra FE 1002/Ultra FE 1002_2 (1).png",
-        "/FZC Inmarco Product Shoot/Ultra FE 1002/Ultra FE 1002_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Ultra FE 1002/Ultra FE 1002_1 (1).png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Ultra FE 1002/Ultra FE 1002_2 (1).png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Ultra FE 1002/Ultra FE 1002_3.png"
       ],
       "specifications": {
         "Construction": "Braided expanded graphite packing with Inconel wire reinforcement and Inconel mesh jacketing",
@@ -1966,9 +1966,9 @@
         "Regulatory compliance applications"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/Ultra FE 1002/Ultra FE 1002_1 (1).png",
-        "/FZC Inmarco Product Shoot/Ultra FE 1002/Ultra FE 1002_2 (1).png",
-        "/FZC Inmarco Product Shoot/Ultra FE 1002/Ultra FE 1002_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Ultra FE 1002/Ultra FE 1002_1 (1).png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Ultra FE 1002/Ultra FE 1002_2 (1).png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Ultra FE 1002/Ultra FE 1002_3.png"
       ],
       "datasheet": "/datasheets/new_generated_html/ULTRA_LE_1002.html"
     },
@@ -1981,7 +1981,7 @@
       "apiCertified": true,
       "shortDescription": "Near-zero emission packing",
       "description": "ULTRA FE 1003 is a high-performance, ultra-low emission packing set engineered with exceptionally low friction and superior oxidation resistance. Designed to meet and exceed evolving industry environmental standards and future regulatory requirements.",
-      "image": "/FZC Inmarco Product Shoot/Ultra FE 1003/Ultra FE 1003_1.png",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Ultra FE 1003/Ultra FE 1003_1.png",
       "specifications": {
         "Construction": "Combination packing set with expanded graphite Inconel wire mesh jacketed end rings and graphite foil molded intermediate rings",
         "Material Composition": "Expanded graphite + Inconel wire mesh reinforcement",
@@ -2017,14 +2017,14 @@
         "European TA-Luft compliant facilities"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/Ultra FE 1003/Ultra FE 1003_1.png",
-        "/FZC Inmarco Product Shoot/Ultra FE 1003/Ultra FE 1003_2.png",
-        "/FZC Inmarco Product Shoot/Ultra FE 1003/Ultra FE 1003_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Ultra FE 1003/Ultra FE 1003_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Ultra FE 1003/Ultra FE 1003_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Ultra FE 1003/Ultra FE 1003_3.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/Ultra FE 1003/Ultra FE 1003_1.png",
-        "/FZC Inmarco Product Shoot/Ultra FE 1003/Ultra FE 1003_2.png",
-        "/FZC Inmarco Product Shoot/Ultra FE 1003/Ultra FE 1003_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Ultra FE 1003/Ultra FE 1003_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Ultra FE 1003/Ultra FE 1003_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Ultra FE 1003/Ultra FE 1003_3.png"
       ],
       "datasheet": "/datasheets/new_generated_html/ULTRA_FE_1003.html"
     },
@@ -2037,7 +2037,7 @@
       "apiCertified": true,
       "shortDescription": "Low temperature fugitive emission packing",
       "description": "ULTRA LT 1004 delivers exceptional sealing integrity with ultra-low emissions in cryogenic and low-temperature applications. Ideal for demanding LNG control valve service, engineered to maintain reliable performance in extreme cold while minimizing emissions.",
-      "image": "/FZC Inmarco Product Shoot/Ultra LE 1004/Ultra LE 1004.png",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Ultra LE 1004/Ultra LE 1004.png",
       "specifications": {
         "Construction": "PTFE filament braided intermediate rings + PTFE sintered end rings",
         "Material Composition": "High-quality PTFE (Virgin Grade)",
@@ -2072,14 +2072,14 @@
         "Cryogenic transport equipment"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/Ultra LE 1004/Ultra LE 1004.png",
-        "/FZC Inmarco Product Shoot/Ultra LE 1004/Ultra LE 1004_2.png",
-        "/FZC Inmarco Product Shoot/Ultra LE 1004/Ultra LE 1004_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Ultra LE 1004/Ultra LE 1004.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Ultra LE 1004/Ultra LE 1004_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Ultra LE 1004/Ultra LE 1004_3.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/Ultra LE 1004/Ultra LE 1004.png",
-        "/FZC Inmarco Product Shoot/Ultra LE 1004/Ultra LE 1004_2.png",
-        "/FZC Inmarco Product Shoot/Ultra LE 1004/Ultra LE 1004_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Ultra LE 1004/Ultra LE 1004.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Ultra LE 1004/Ultra LE 1004_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Ultra LE 1004/Ultra LE 1004_3.png"
       ],
       "datasheet": "/datasheets/new_generated_html/ULTRA_LT_1004.html"
     },
@@ -2092,7 +2092,7 @@
       "apiCertified": true,
       "shortDescription": "Nuclear grade fugitive emission packing",
       "description": "ULTRA NE 1005 is an ultra-low emission braided packing available in both continuous rope and preformed ring configurations. Engineered to meet stringent emission standards with exceptional operational compliance and reliability.",
-      "image": "/FZC Inmarco Product Shoot/Ultra LE 1005/Ultra LE 1005_1.png",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Ultra LE 1005/Ultra LE 1005_1.png",
       "specifications": {
         "Construction": "All-braided expanded graphite with Inconel wire mesh reinforcement",
         "Material Composition": "High-purity expanded flexible graphite + Inconel wire mesh",
@@ -2130,14 +2130,14 @@
         "Nuclear research facilities"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/Ultra LE 1005/Ultra LE 1005_1_1.png",
-        "/FZC Inmarco Product Shoot/Ultra LE 1005/Ultra LE 1005_2_1.png",
-        "/FZC Inmarco Product Shoot/Ultra LE 1005/Ultra LE 1005_3_1.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Ultra LE 1005/Ultra LE 1005_1_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Ultra LE 1005/Ultra LE 1005_2_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Ultra LE 1005/Ultra LE 1005_3_1.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/Ultra LE 1005/Ultra LE 1005_1_1.png",
-        "/FZC Inmarco Product Shoot/Ultra LE 1005/Ultra LE 1005_2_1.png",
-        "/FZC Inmarco Product Shoot/Ultra LE 1005/Ultra LE 1005_3_1.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Ultra LE 1005/Ultra LE 1005_1_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Ultra LE 1005/Ultra LE 1005_2_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Ultra LE 1005/Ultra LE 1005_3_1.png"
       ],
       "datasheet": "/datasheets/new_generated_html/ULTRA_NE_1005.html"
     },
@@ -2150,7 +2150,7 @@
       "apiCertified": true,
       "shortDescription": "Heavy-duty hybrid packing",
       "description": "HY 105 HD is engineered for extreme service conditions with enhanced durability specifically for the fertilizer industry. Features heavy-duty construction preformed under load for optimal reciprocating motion performance.",
-      "image": "/FZC Inmarco Product Shoot/HY 105 HD/HY 105 HD_1.png",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 105 HD/HY 105 HD_1.png",
       "specifications": {
         "pH": "0-14",
         "Temperature (°C)": "-200 to +300°C",
@@ -2179,14 +2179,14 @@
         "Heavy industrial process equipment"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/HY 105 HD/HY 105 HD_2_2.png",
-        "/FZC Inmarco Product Shoot/HY 105 HD/HY 105 HD_3.png",
-        "/FZC Inmarco Product Shoot/HY 105 HD/HY 105 HD_4.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 105 HD/HY 105 HD_2_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 105 HD/HY 105 HD_3.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 105 HD/HY 105 HD_4.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/HY 105 HD/HY 105 HD_2_2.png",
-        "/FZC Inmarco Product Shoot/HY 105 HD/HY 105 HD_3.png",
-        "/FZC Inmarco Product Shoot/HY 105 HD/HY 105 HD_4.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 105 HD/HY 105 HD_2_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 105 HD/HY 105 HD_3.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 105 HD/HY 105 HD_4.png"
       ],
       "datasheet": "/datasheets/new_generated_html/HY_105HD.html"
     },
@@ -2199,7 +2199,7 @@
       "apiCertified": true,
       "shortDescription": "Heavy-duty premium hybrid packing",
       "description": "HY 107 HD is engineered for extreme service conditions with enhanced durability specifically for the fertilizer industry. Specially developed for critical applications including ammonia and carbamate pump services.",
-      "image": "/FZC Inmarco Product Shoot/HY 107 HD/HY 107 HD - 58_01.JPG",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 107 HD/HY 107 HD - 58_01.JPG",
       "specifications": {
         "pH Range": "0 – 14",
         "Temperature Range": "-240°C to +280°C",
@@ -2228,14 +2228,14 @@
         "Offshore platform critical pumps"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/HY 107 HD/HY 107 HD - 58_03_2.png",
-        "/FZC Inmarco Product Shoot/HY 107 HD/HY 107 HD - 58_04_2.png",
-        "/FZC Inmarco Product Shoot/HY 107 HD/HY 107 HD_1_2.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 107 HD/HY 107 HD - 58_03_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 107 HD/HY 107 HD - 58_04_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 107 HD/HY 107 HD_1_2.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/HY 107 HD/HY 107 HD - 58_03_2.png",
-        "/FZC Inmarco Product Shoot/HY 107 HD/HY 107 HD - 58_04_2.png",
-        "/FZC Inmarco Product Shoot/HY 107 HD/HY 107 HD_1_2.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 107 HD/HY 107 HD - 58_03_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 107 HD/HY 107 HD - 58_04_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 107 HD/HY 107 HD_1_2.png"
       ],
       "datasheet": "/datasheets/new_generated_html/HY_107HD.html"
     },
@@ -2248,7 +2248,7 @@
       "apiCertified": true,
       "shortDescription": "Steam resistant organic packing",
       "description": "OR 125SR is a general-purpose organic fiber packing with a resilient elastomeric core to enhance sealing performance. Designed to counter shaft eccentricity in older equipment while maintaining hygienic properties.",
-      "image": "/FZC Inmarco Product Shoot/OR 125 SR/OR 125 SR_1.png",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/OR 125 SR/OR 125 SR_1.png",
       "specifications": {
         "Temperature Range": "-30°C to +200°C",
         "Pressure Rating": "Up to 150 bar",
@@ -2280,14 +2280,14 @@
         "Power plant steam services"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/OR 125 SR/OR 125 SR_1.png",
-        "/FZC Inmarco Product Shoot/OR 125 SR/OR 125 SR_2.png",
-        "/FZC Inmarco Product Shoot/OR 125 SR/OR 125 SR_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/OR 125 SR/OR 125 SR_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/OR 125 SR/OR 125 SR_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/OR 125 SR/OR 125 SR_3.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/OR 125 SR/OR 125 SR_1.png",
-        "/FZC Inmarco Product Shoot/OR 125 SR/OR 125 SR_2.png",
-        "/FZC Inmarco Product Shoot/OR 125 SR/OR 125 SR_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/OR 125 SR/OR 125 SR_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/OR 125 SR/OR 125 SR_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/OR 125 SR/OR 125 SR_3.png"
       ],
       "datasheet": "/datasheets/new_generated_html/OR_125.html"
     },
@@ -2300,7 +2300,7 @@
       "apiCertified": true,
       "shortDescription": "Grafoil moulded ring",
       "description": "GM 300Z is a precision-molded graphite ring engineered for static sealing applications with exceptional purity and performance. Features ultra-high purity graphite with built-in oxidation inhibitors for extended service life.",
-      "image": "/FZC Inmarco Product Shoot/IN 140/IN 140_5.png",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/IN 140/IN 140_5.png",
       "specifications": {
         "pH Range": "0 - 14 (Universal)",
         "Maximum Temperature": "650°C",
@@ -2343,14 +2343,14 @@
         "Fire-rated valve applications"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/GM 300Z/GM 300 Z -28_10_2.png",
-        "/FZC Inmarco Product Shoot/GM 300Z/GM 300 Z -28_12_2.png",
-        "/FZC Inmarco Product Shoot/GM 300Z/GM 300 Z -28_19_2.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/GM 300Z/GM 300 Z -28_10_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/GM 300Z/GM 300 Z -28_12_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/GM 300Z/GM 300 Z -28_19_2.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/GM 300Z/GM 300 Z -28_10_2.png",
-        "/FZC Inmarco Product Shoot/GM 300Z/GM 300 Z -28_12_2.png",
-        "/FZC Inmarco Product Shoot/GM 300Z/GM 300 Z -28_19_2.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/GM 300Z/GM 300 Z -28_10_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/GM 300Z/GM 300 Z -28_12_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/GM 300Z/GM 300 Z -28_19_2.png"
       ],
       "datasheet": "/datasheets/new_generated_html/GM_300Z.html"
     },
@@ -2363,7 +2363,7 @@
       "apiCertified": true,
       "shortDescription": "Clean service grafoil moulded ring",
       "description": "GM 310C is a graphite pressure seal ring with anti-extrusion metallic end caps on top and bottom. Engineered for high-pressure applications requiring exceptional structural integrity and sealing reliability.",
-      "image": "/FZC Inmarco Product Shoot/GM 300Z/GM 300 Z -28_01.JPG",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/GM 300Z/GM 300 Z -28_01.JPG",
       "specifications": {
         "pH Range": "0 - 14 (Universal)",
         "Maximum Pressure": "425 bar",
@@ -2399,14 +2399,14 @@
         "Hydrocarbon processing under extreme conditions"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/GM 310C/GM 310 C- 29_05.png",
-        "/FZC Inmarco Product Shoot/GM 310C/GM 310 C- 29_08.JPG",
-        "/FZC Inmarco Product Shoot/GM 310C/GM 310 C- 29_08_2.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/GM 310C/GM 310 C- 29_05.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/GM 310C/GM 310 C- 29_08.JPG",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/GM 310C/GM 310 C- 29_08_2.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/GM 310C/GM 310 C- 29_05.png",
-        "/FZC Inmarco Product Shoot/GM 310C/GM 310 C- 29_08.JPG",
-        "/FZC Inmarco Product Shoot/GM 310C/GM 310 C- 29_08_2.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/GM 310C/GM 310 C- 29_05.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/GM 310C/GM 310 C- 29_08.JPG",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/GM 310C/GM 310 C- 29_08_2.png"
       ],
       "datasheet": "/datasheets/new_generated_html/GM_310C.html"
     },
@@ -2419,7 +2419,7 @@
       "apiCertified": true,
       "shortDescription": "Expanded PTFE gasket sheet",
       "description": "INMATEX ePTFE sheet provides superior chemical resistance and exceptional sealing performance with very low seating stress in flange joint management. Ideal for critical flanged connections requiring reliable, long-term sealing.",
-      "image": "/FZC Inmarco Product Shoot/Inmatex PTFE Gasket/Inmatex PTFE Gasket_2.png",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Inmatex PTFE Gasket/Inmatex PTFE Gasket_2.png",
       "specifications": {
         "Temperature Range (Peak)": "-232°C to +315°C",
         "Temperature Range (Service)": "-232°C to +260°C",
@@ -2455,14 +2455,14 @@
         "High-purity process systems"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/Inmatex PTFE Gasket/Inmatex PTFE Gasket_2.png",
-        "/FZC Inmarco Product Shoot/Inmatex PTFE Gasket/Inmatex PTFE Gasket_3.png",
-        "/FZC Inmarco Product Shoot/Inmatex PTFE Gasket/Inmatex PTFE_1.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Inmatex PTFE Gasket/Inmatex PTFE Gasket_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Inmatex PTFE Gasket/Inmatex PTFE Gasket_3.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Inmatex PTFE Gasket/Inmatex PTFE_1.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/Inmatex PTFE Gasket/Inmatex PTFE Gasket_2.png",
-        "/FZC Inmarco Product Shoot/Inmatex PTFE Gasket/Inmatex PTFE Gasket_3.png",
-        "/FZC Inmarco Product Shoot/Inmatex PTFE Gasket/Inmatex PTFE_1.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Inmatex PTFE Gasket/Inmatex PTFE Gasket_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Inmatex PTFE Gasket/Inmatex PTFE Gasket_3.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Inmatex PTFE Gasket/Inmatex PTFE_1.png"
       ],
       "datasheet": "/datasheets/new_generated_html/INMATEX_ePTFE.html"
     },
@@ -2475,7 +2475,7 @@
       "apiCertified": false,
       "shortDescription": "Laminated graphite ring gasket for high-temperature applications",
       "description": "GM 360 is a premium laminated graphite ring gasket engineered for extreme temperature and pressure sealing applications. Features multiple layers of flexible graphite for superior conformability and sealing performance.",
-      "image": "/FZC Inmarco Product Shoot/S 360/95_01.JPG",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/S 360/95_01.JPG",
       "specifications": {
         "Temperature Range": "-200°C to +360°C",
         "Pressure Rating": "Up to 200 bar",
@@ -2501,14 +2501,14 @@
         "Power generation systems"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/GM 310C/GM 310 C- 29_05.png",
-        "/FZC Inmarco Product Shoot/GM 310C/GM 310 C- 29_08.JPG",
-        "/FZC Inmarco Product Shoot/GM 310C/GM 310 C- 29_08_2.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/GM 310C/GM 310 C- 29_05.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/GM 310C/GM 310 C- 29_08.JPG",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/GM 310C/GM 310 C- 29_08_2.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/GM 310C/GM 310 C- 29_05.png",
-        "/FZC Inmarco Product Shoot/GM 310C/GM 310 C- 29_08.JPG",
-        "/FZC Inmarco Product Shoot/GM 310C/GM 310 C- 29_08_2.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/GM 310C/GM 310 C- 29_05.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/GM 310C/GM 310 C- 29_08.JPG",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/GM 310C/GM 310 C- 29_08_2.png"
       ],
       "datasheet": "/datasheets/new_generated_html/GM_310C.html"
     },
@@ -2521,7 +2521,7 @@
       "apiCertified": true,
       "shortDescription": "API 6FB fire safe isolation gasket kit",
       "description": "Complete flange isolation gasket kit certified to API 6FB fire-safe standards for cathodic protection and electrical isolation. Engineered to provide reliable electrical isolation while maintaining sealing integrity in fire conditions.",
-      "image": "/FZC Inmarco Product Shoot/Insulation Gasket Kit/IG_1.png",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Insulation Gasket Kit/IG_1.png",
       "specifications": {
         "pH Range": "0 – 14 (full chemical compatibility range)",
         "Temperature Range": "-45°C to +200°C",
@@ -2555,14 +2555,14 @@
         "Corrosive and coastal environments"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/Insulation Gasket Kit/IG_1_2.png",
-        "/FZC Inmarco Product Shoot/Insulation Gasket Kit/IG_2_2.png",
-        "/FZC Inmarco Product Shoot/Insulation Gasket Kit/IG_3_2.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Insulation Gasket Kit/IG_1_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Insulation Gasket Kit/IG_2_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Insulation Gasket Kit/IG_3_2.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/Insulation Gasket Kit/IG_1_2.png",
-        "/FZC Inmarco Product Shoot/Insulation Gasket Kit/IG_2_2.png",
-        "/FZC Inmarco Product Shoot/Insulation Gasket Kit/IG_3_2.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Insulation Gasket Kit/IG_1_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Insulation Gasket Kit/IG_2_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Insulation Gasket Kit/IG_3_2.png"
       ],
       "datasheet": "/datasheets/new_generated_html/Insulation_Gasket_Kit_1800_FS.html"
     },
@@ -2575,7 +2575,7 @@
       "apiCertified": true,
       "shortDescription": "Heavy-duty welding blanket",
       "description": "750SS provides reliable thermal protection for welding, grinding, and high-temperature insulation applications. Features heavy-duty construction with specially formulated treatments for exceptional thermal resistance.",
-      "image": "/FZC Inmarco Product Shoot/Welding Blanket 750SS/Welding Gasket_1.png",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Welding Blanket 750SS/Welding Gasket_1.png",
       "specifications": {
         "Weave": "Satin 8HS / 12HS",
         "SiO₂ Content": "≥ 96%",
@@ -2623,14 +2623,14 @@
         "Manufacturing of filters for corrosive medium cleaning"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/Welding Blanket 750SS/Welding Gasket_1.png",
-        "/FZC Inmarco Product Shoot/Welding Blanket 750SS/Welding Gasket_2.png",
-        "/FZC Inmarco Product Shoot/Welding Blanket 750SS/Welding Gasket_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Welding Blanket 750SS/Welding Gasket_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Welding Blanket 750SS/Welding Gasket_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Welding Blanket 750SS/Welding Gasket_3.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/Welding Blanket 750SS/Welding Gasket_1.png",
-        "/FZC Inmarco Product Shoot/Welding Blanket 750SS/Welding Gasket_2.png",
-        "/FZC Inmarco Product Shoot/Welding Blanket 750SS/Welding Gasket_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Welding Blanket 750SS/Welding Gasket_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Welding Blanket 750SS/Welding Gasket_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Welding Blanket 750SS/Welding Gasket_3.png"
       ],
       "datasheet": "/datasheets/new_generated_html/750_SS_Welding_Blanket.html"
     },
@@ -2643,7 +2643,7 @@
       "apiCertified": false,
       "shortDescription": "Multi-layer laminar metallic gasket",
       "description": "High-performance metallic gasket engineered for extreme temperature and pressure applications with multi-layer construction. Provides exceptional resilience and sealing reliability in thermal cycling conditions.",
-      "image": "/FZC Inmarco Product Shoot/Laminar Gasket/Laminar Gasket - 19_08.JPG",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Laminar Gasket/Laminar Gasket - 19_08.JPG",
       "specifications": {
         "Construction": "Metal–Filler–Metal Laminated Design",
         "Operating Pressure": "Up to 100 Bar (1450 PSI)*",
@@ -2677,14 +2677,14 @@
         "Extreme pressure and temperature applications"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/Laminar Gasket/Laminar Gasket_1 (1).png",
-        "/FZC Inmarco Product Shoot/Laminar Gasket/Laminar Gasket_2.png",
-        "/FZC Inmarco Product Shoot/Laminar Gasket/Laminar Gasket_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Laminar Gasket/Laminar Gasket_1 (1).png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Laminar Gasket/Laminar Gasket_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Laminar Gasket/Laminar Gasket_3.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/Laminar Gasket/Laminar Gasket_1 (1).png",
-        "/FZC Inmarco Product Shoot/Laminar Gasket/Laminar Gasket_2.png",
-        "/FZC Inmarco Product Shoot/Laminar Gasket/Laminar Gasket_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Laminar Gasket/Laminar Gasket_1 (1).png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Laminar Gasket/Laminar Gasket_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Laminar Gasket/Laminar Gasket_3.png"
       ],
       "datasheet": "/datasheets/new_generated_html/Laminar_Seal.html"
     },
@@ -2697,7 +2697,7 @@
       "apiCertified": false,
       "shortDescription": "Serrated metal core gaskets with flexible facing",
       "description": "High-performance serrated metal gasket combining the resilience of soft materials with the mechanical strength of metal for demanding applications. Ideal for heat exchangers and high-stress sealing requirements.",
-      "image": "/FZC Inmarco Product Shoot/Kam Profile/Kam Profile - 20.JPG",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Kam Profile/Kam Profile - 20.JPG",
       "specifications": {
         "Construction": "Serrated Metal Core with Soft Facing Layers",
         "Pressure Rating": "Up to 250 bar (application dependent)",
@@ -2731,14 +2731,14 @@
         "Oil and gas applications"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/Kam Profile/Kam Profile - 1.png",
-        "/FZC Inmarco Product Shoot/Kam Profile/Kam Profile - 2.png",
-        "/FZC Inmarco Product Shoot/Kam Profile/Kam Profile - 3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Kam Profile/Kam Profile - 1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Kam Profile/Kam Profile - 2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Kam Profile/Kam Profile - 3.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/Kam Profile/Kam Profile - 1.png",
-        "/FZC Inmarco Product Shoot/Kam Profile/Kam Profile - 2.png",
-        "/FZC Inmarco Product Shoot/Kam Profile/Kam Profile - 3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Kam Profile/Kam Profile - 1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Kam Profile/Kam Profile - 2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Kam Profile/Kam Profile - 3.png"
       ],
       "datasheet": "/datasheets/new_generated_html/KAMMPROFILE_GASKET.html"
     },
@@ -2783,14 +2783,14 @@
         "Aerospace applications"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_1.png",
-        "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_2.png",
-        "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Rigid FTFE/Rigid FTFE_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Rigid FTFE/Rigid FTFE_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Rigid FTFE/Rigid FTFE_3.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_1.png",
-        "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_2.png",
-        "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Rigid FTFE/Rigid FTFE_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Rigid FTFE/Rigid FTFE_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Rigid FTFE/Rigid FTFE_3.png"
       ],
       "datasheet": "/datasheets/new_generated_html/Shim_Gasket.html"
     },
@@ -2803,7 +2803,7 @@
       "apiCertified": false,
       "shortDescription": "Metal jacketed gaskets with soft filler core",
       "description": "Robust double-jacketed metal gaskets combining the chemical resistance of metal with the conformability of soft filler material. Protects filler from chemical attack while providing excellent sealing.",
-      "image": "/FZC Inmarco Product Shoot/DJ/DJ - 18_19.JPG",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/DJ/DJ - 18_19.JPG",
       "specifications": {
         "Operating Temperature": "-200°C to +550°C*",
         "Pressure Range": "Vacuum to 150 bar*",
@@ -2833,14 +2833,14 @@
         "Damaged or irregular flanges"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/DJ/DJ Updated/DJ_1_2.png",
-        "/FZC Inmarco Product Shoot/DJ/DJ Updated/DJ_2_2.png",
-        "/FZC Inmarco Product Shoot/DJ/DJ Updated/DJ_3_2.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/DJ/DJ Updated/DJ_1_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/DJ/DJ Updated/DJ_2_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/DJ/DJ Updated/DJ_3_2.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/DJ/DJ Updated/DJ_1_2.png",
-        "/FZC Inmarco Product Shoot/DJ/DJ Updated/DJ_2_2.png",
-        "/FZC Inmarco Product Shoot/DJ/DJ Updated/DJ_3_2.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/DJ/DJ Updated/DJ_1_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/DJ/DJ Updated/DJ_2_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/DJ/DJ Updated/DJ_3_2.png"
       ],
       "datasheet": "/datasheets/new_generated_html/Double_Jacketed_Gasket.html"
     },
@@ -2853,7 +2853,7 @@
       "apiCertified": true,
       "shortDescription": "RTJ ring gaskets for high-pressure applications",
       "description": "Solid metal ring gaskets engineered for extreme pressure applications in oil and gas industries. Features self-energizing design for reliable metal-to-metal sealing in critical wellhead applications.",
-      "image": "/FZC Inmarco Product Shoot/RTJ 3167/RTJ 3167-15_02.JPG",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/RTJ 3167/RTJ 3167-15_02.JPG",
       "specifications": {
         "Construction": "Precision-machined solid metallic ring gasket",
         "Pressure Range": "Up to 20,000 psi (1,380 bar) depending on profile and application",
@@ -2883,14 +2883,14 @@
         "Critical oil and gas flanges"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/RTJ 3167/RTJ 3167_1.png",
-        "/FZC Inmarco Product Shoot/RTJ 3167/RTJ 3167_2.png",
-        "/FZC Inmarco Product Shoot/RTJ 3167/RTJ 3167_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/RTJ 3167/RTJ 3167_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/RTJ 3167/RTJ 3167_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/RTJ 3167/RTJ 3167_3.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/RTJ 3167/RTJ 3167_1.png",
-        "/FZC Inmarco Product Shoot/RTJ 3167/RTJ 3167_2.png",
-        "/FZC Inmarco Product Shoot/RTJ 3167/RTJ 3167_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/RTJ 3167/RTJ 3167_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/RTJ 3167/RTJ 3167_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/RTJ 3167/RTJ 3167_3.png"
       ],
       "datasheet": "/datasheets/new_generated_html/Ring_Type_Joint.html"
     },
@@ -2903,7 +2903,7 @@
       "apiCertified": false,
       "shortDescription": "Corrugated metal gaskets for flexible sealing",
       "description": "Flexible corrugated metal gaskets providing excellent resilience and adaptability to flange irregularities. Engineered to accommodate flange movement and thermal cycling while maintaining sealing integrity.",
-      "image": "/FZC Inmarco Product Shoot/Corrugated Gasket/Corrugated Gasket.png",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Corrugated Gasket/Corrugated Gasket.png",
       "specifications": {
         "Operating Temperature": "Cryogenic to +550°C*",
         "Maximum Temperature with Special Facing": "Up to +1000°C*",
@@ -2933,14 +2933,14 @@
         "Thermal cycling applications"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/Corrugated Gasket/Corrugated Gasket Updated/Corrugated Gasket_1_2.png",
-        "/FZC Inmarco Product Shoot/Corrugated Gasket/Corrugated Gasket Updated/Corrugated Gasket_2_2.png",
-        "/FZC Inmarco Product Shoot/Corrugated Gasket/Corrugated Gasket Updated/Corrugated Gasket_3_2.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Corrugated Gasket/Corrugated Gasket Updated/Corrugated Gasket_1_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Corrugated Gasket/Corrugated Gasket Updated/Corrugated Gasket_2_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Corrugated Gasket/Corrugated Gasket Updated/Corrugated Gasket_3_2.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/Corrugated Gasket/Corrugated Gasket Updated/Corrugated Gasket_1_2.png",
-        "/FZC Inmarco Product Shoot/Corrugated Gasket/Corrugated Gasket Updated/Corrugated Gasket_2_2.png",
-        "/FZC Inmarco Product Shoot/Corrugated Gasket/Corrugated Gasket Updated/Corrugated Gasket_3_2.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Corrugated Gasket/Corrugated Gasket Updated/Corrugated Gasket_1_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Corrugated Gasket/Corrugated Gasket Updated/Corrugated Gasket_2_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Corrugated Gasket/Corrugated Gasket Updated/Corrugated Gasket_3_2.png"
       ],
       "datasheet": "/datasheets/new_generated_html/Corrugated_Metal_Gasket.html"
     },
@@ -2953,7 +2953,7 @@
       "apiCertified": false,
       "shortDescription": "Soft iron ring gaskets for extreme pressure",
       "description": "Premium soft iron ring gaskets designed for extreme pressure and temperature applications with excellent conformability. Cost-effective solution specifically engineered for iron flange sealing.",
-      "image": "/FZC Inmarco Product Shoot/Soft Iron/Soft Iron - 17.JPG",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Soft Iron/Soft Iron - 17.JPG",
       "specifications": {
         "Pressure Rating": "Up to 450 bar (6,500 psi)*",
         "Temperature Range": "-50°C to +600°C*",
@@ -2984,14 +2984,14 @@
         "Extreme pressure services"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/Soft Iron/Soft Iron_1.png",
-        "/FZC Inmarco Product Shoot/Soft Iron/Soft Iron_2.png",
-        "/FZC Inmarco Product Shoot/Soft Iron/Soft Iron_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Soft Iron/Soft Iron_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Soft Iron/Soft Iron_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Soft Iron/Soft Iron_3.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/Soft Iron/Soft Iron_1.png",
-        "/FZC Inmarco Product Shoot/Soft Iron/Soft Iron_2.png",
-        "/FZC Inmarco Product Shoot/Soft Iron/Soft Iron_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Soft Iron/Soft Iron_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Soft Iron/Soft Iron_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Soft Iron/Soft Iron_3.png"
       ],
       "datasheet": "/datasheets/new_generated_html/Soft_Iron_Ring.html"
     },
@@ -3004,7 +3004,7 @@
       "apiCertified": false,
       "shortDescription": "Self-energizing metal gaskets for extreme pressure",
       "description": "High-performance pressure seal ring gaskets designed for extreme pressure applications. The unique self-energizing design uses internal pressure to enhance sealing capability, making them ideal for valve bonnets and pressure vessels.",
-      "image": "/FZC Inmarco Product Shoot/Pressure Seal Ring/pressure-seal-metal-gasket-857-gigapixel-standard-scale-2_00x.jpg",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Pressure Seal Ring/pressure-seal-metal-gasket-857-gigapixel-standard-scale-2_00x.jpg",
       "specifications": {
         "Temperature Range": "-200°C to +600°C",
         "Pressure Rating": "Up to 1500 bar",
@@ -3043,7 +3043,7 @@
       "apiCertified": false,
       "shortDescription": "Industry-standard spiral wound gaskets with excellent resilience",
       "description": "Premium spiral wound gaskets featuring alternating layers of V-shaped metal winding and soft filler material. The industry standard for high-temperature and high-pressure flange sealing, offering excellent resilience and recovery.",
-      "image": "/FZC Inmarco Product Shoot/Spiral Wound Gasket/Spiral Gasket_1_1.png",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Spiral Wound Gasket/Spiral Gasket_1_1.png",
       "specifications": {
         "Operating Pressure": "Full vacuum to 250 bar (depends on flange class and configuration)",
         "Operating Temperature": "-200°C to +550°C (standard); up to +1000°C with special fillers",
@@ -3079,14 +3079,14 @@
         "High-temperature steam systems"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/Spiral Wound Gasket/Spiral Gasket_1_1.png",
-        "/FZC Inmarco Product Shoot/Spiral Wound Gasket/Spiral Gasket_2_2.png",
-        "/FZC Inmarco Product Shoot/Spiral Wound Gasket/Spiral Gasket_3_2.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Spiral Wound Gasket/Spiral Gasket_1_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Spiral Wound Gasket/Spiral Gasket_2_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Spiral Wound Gasket/Spiral Gasket_3_2.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/Spiral Wound Gasket/Spiral Gasket_1_1.png",
-        "/FZC Inmarco Product Shoot/Spiral Wound Gasket/Spiral Gasket_2_2.png",
-        "/FZC Inmarco Product Shoot/Spiral Wound Gasket/Spiral Gasket_3_2.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Spiral Wound Gasket/Spiral Gasket_1_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Spiral Wound Gasket/Spiral Gasket_2_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Spiral Wound Gasket/Spiral Gasket_3_2.png"
       ],
       "datasheet": "/datasheets/new_generated_html/Spiral_WoundGasket.html"
     },
@@ -3099,7 +3099,7 @@
       "apiCertified": false,
       "shortDescription": "Compressed non-asbestos fiber gasket material",
       "description": "NA 432 is a premium compressed non-asbestos fiber (CNAF) gasket sheet designed for general industrial applications with excellent sealing properties. Features organic fiber construction bound with nitrile rubber for reliable performance.",
-      "image": "/FZC Inmarco Product Shoot/Plain Graphite Gasket/96_01.JPG",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Plain Graphite Gasket/96_01.JPG",
       "specifications": {
         "Density (g/cm³)": "ASTM F 1315",
         "Compressibility (%)": "ASTM F 36 J",
@@ -3130,14 +3130,14 @@
         "Municipal services"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_1.png",
-        "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_2.png",
-        "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Rigid FTFE/Rigid FTFE_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Rigid FTFE/Rigid FTFE_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Rigid FTFE/Rigid FTFE_3.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_1.png",
-        "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_2.png",
-        "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Rigid FTFE/Rigid FTFE_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Rigid FTFE/Rigid FTFE_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Rigid FTFE/Rigid FTFE_3.png"
       ],
       "datasheet": "/datasheets/new_generated_html/NA_432.html"
     },
@@ -3150,7 +3150,7 @@
       "apiCertified": false,
       "shortDescription": "High-performance compressed non-asbestos fiber gasket",
       "description": "NA 420 is a high-quality compressed non-asbestos fiber gasket sheet for moderate temperature and pressure applications. Features mineral and aramid fiber construction for enhanced performance.",
-      "image": "/FZC Inmarco Product Shoot/Plain Graphite Gasket/96_01.JPG",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Plain Graphite Gasket/96_01.JPG",
       "specifications": {
         "Density (g/cm³)": "ASTM F 1315",
         "Compressibility (%)": "ASTM F 36 J",
@@ -3180,14 +3180,14 @@
         "Most diluted acids and alkalies for medium stress conditions"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_1.png",
-        "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_2.png",
-        "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Rigid FTFE/Rigid FTFE_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Rigid FTFE/Rigid FTFE_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Rigid FTFE/Rigid FTFE_3.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_1.png",
-        "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_2.png",
-        "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Rigid FTFE/Rigid FTFE_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Rigid FTFE/Rigid FTFE_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Rigid FTFE/Rigid FTFE_3.png"
       ],
       "datasheet": "/datasheets/new_generated_html/NA_420.html"
     },
@@ -3200,7 +3200,7 @@
       "apiCertified": false,
       "shortDescription": "Premium compressed non-asbestos fiber gasket",
       "description": "NA 450 is a premium CNAF gasket material engineered for high-temperature industrial applications. Features aramid fiber construction for superior tensile strength and thermal performance.",
-      "image": "/FZC Inmarco Product Shoot/Plain Graphite Gasket/96_01.JPG",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Plain Graphite Gasket/96_01.JPG",
       "specifications": {
         "Density (g/cm³)": "ASTM F 1315",
         "Compressibility (%)": "ASTM F 36 J",
@@ -3231,14 +3231,14 @@
         "Most diluted acids and alkalies"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_1.png",
-        "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_2.png",
-        "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Rigid FTFE/Rigid FTFE_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Rigid FTFE/Rigid FTFE_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Rigid FTFE/Rigid FTFE_3.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_1.png",
-        "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_2.png",
-        "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Rigid FTFE/Rigid FTFE_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Rigid FTFE/Rigid FTFE_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Rigid FTFE/Rigid FTFE_3.png"
       ],
       "datasheet": "/datasheets/new_generated_html/NA_450.html"
     },
@@ -3251,7 +3251,7 @@
       "apiCertified": false,
       "shortDescription": "General equipment compressed non-asbestos fiber gasket",
       "description": "NA 452 GE is designed for general equipment applications with enhanced sealing performance. Features aramid and glass fiber construction for superior high-temperature and high-stress capabilities.",
-      "image": "/FZC Inmarco Product Shoot/Plain Graphite Gasket/96_01.JPG",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Plain Graphite Gasket/96_01.JPG",
       "specifications": {
         "Density (g/cm³)": "ASTM F 1315",
         "Compressibility (%)": "ASTM F 36 J",
@@ -3282,14 +3282,14 @@
         "High temperature industrial applications"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_1.png",
-        "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_2.png",
-        "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Rigid FTFE/Rigid FTFE_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Rigid FTFE/Rigid FTFE_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Rigid FTFE/Rigid FTFE_3.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_1.png",
-        "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_2.png",
-        "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Rigid FTFE/Rigid FTFE_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Rigid FTFE/Rigid FTFE_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Rigid FTFE/Rigid FTFE_3.png"
       ],
       "datasheet": "/datasheets/new_generated_html/NA_452_GF.html"
     },
@@ -3302,7 +3302,7 @@
       "apiCertified": false,
       "shortDescription": "Standard compressed non-asbestos fiber gasket",
       "description": "NA 430 is a standard CNAF gasket material for general industrial sealing applications. Features stainless steel wire mesh reinforcement for enhanced mechanical strength and dimensional stability.",
-      "image": "/FZC Inmarco Product Shoot/Plain Graphite Gasket/96_01.JPG",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Plain Graphite Gasket/96_01.JPG",
       "specifications": {
         "Density (g/cm³)": "ASTM F 1315",
         "Compressibility (%)": "ASTM F 36 I",
@@ -3332,14 +3332,14 @@
         "Medium stress industrial conditions"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_1.png",
-        "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_2.png",
-        "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Rigid FTFE/Rigid FTFE_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Rigid FTFE/Rigid FTFE_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Rigid FTFE/Rigid FTFE_3.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_1.png",
-        "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_2.png",
-        "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Rigid FTFE/Rigid FTFE_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Rigid FTFE/Rigid FTFE_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Rigid FTFE/Rigid FTFE_3.png"
       ],
       "datasheet": "/datasheets/new_generated_html/NA_430.html"
     },
@@ -3352,7 +3352,7 @@
       "apiCertified": false,
       "shortDescription": "High-quality compressed non-asbestos fiber gasket",
       "description": "NA 442 is a high-quality CNAF material engineered for demanding industrial sealing applications. Features carbon fiber enhancement for superior performance characteristics.",
-      "image": "/FZC Inmarco Product Shoot/Plain Graphite Gasket/96_01.JPG",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Plain Graphite Gasket/96_01.JPG",
       "specifications": {
         "Density (g/cm³)": "ASTM F 1315",
         "Compressibility (%)": "ASTM F 36 J",
@@ -3383,14 +3383,14 @@
         "Process equipment"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_1.png",
-        "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_2.png",
-        "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Rigid FTFE/Rigid FTFE_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Rigid FTFE/Rigid FTFE_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Rigid FTFE/Rigid FTFE_3.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_1.png",
-        "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_2.png",
-        "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Rigid FTFE/Rigid FTFE_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Rigid FTFE/Rigid FTFE_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Rigid FTFE/Rigid FTFE_3.png"
       ],
       "datasheet": "/datasheets/new_generated_html/NA_442.html"
     },
@@ -3403,7 +3403,7 @@
       "apiCertified": false,
       "shortDescription": "Stainless steel reinforced CNAF gasket",
       "description": "SST 323 is a stainless steel reinforced compressed graphite sheet engineered for enhanced performance and durability. Combines the benefits of flexible graphite with stainless steel reinforcement.",
-      "image": "/FZC Inmarco Product Shoot/SS Gasket/SS Gasket_1.png",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/SS Gasket/SS Gasket_1.png",
       "specifications": {
         "Carbon Content": "99% min",
         "Sulphur Content": "Less than 500 ppm",
@@ -3436,14 +3436,14 @@
         "Pharmaceutical equipment"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/SS Gasket/SS Gasket_1_1.png",
-        "/FZC Inmarco Product Shoot/SS Gasket/SS Gasket_2_1.png",
-        "/FZC Inmarco Product Shoot/SS Gasket/SS Gasket_3_1.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/SS Gasket/SS Gasket_1_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/SS Gasket/SS Gasket_2_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/SS Gasket/SS Gasket_3_1.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/SS Gasket/SS Gasket_1_1.png",
-        "/FZC Inmarco Product Shoot/SS Gasket/SS Gasket_2_1.png",
-        "/FZC Inmarco Product Shoot/SS Gasket/SS Gasket_3_1.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/SS Gasket/SS Gasket_1_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/SS Gasket/SS Gasket_2_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/SS Gasket/SS Gasket_3_1.png"
       ],
       "datasheet": "/datasheets/new_generated_html/SST_323.html"
     },
@@ -3456,7 +3456,7 @@
       "apiCertified": false,
       "shortDescription": "Premium sintered PTFE gasket sheet",
       "description": "600-grade sintered PTFE sheet gasket offering exceptional chemical resistance and sealing performance for aggressive media. Provides universal chemical compatibility with high-purity construction.",
-      "image": "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_1.png",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Rigid FTFE/Rigid FTFE_1.png",
       "specifications": {
         "Density": "2.1 – 2.2",
         "Tensile Strength": "210 – 375",
@@ -3486,14 +3486,14 @@
         "Chemical processing"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_1.png",
-        "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_2.png",
-        "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Rigid FTFE/Rigid FTFE_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Rigid FTFE/Rigid FTFE_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Rigid FTFE/Rigid FTFE_3.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_1.png",
-        "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_2.png",
-        "/FZC Inmarco Product Shoot/Rigid FTFE/Rigid FTFE_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Rigid FTFE/Rigid FTFE_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Rigid FTFE/Rigid FTFE_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Rigid FTFE/Rigid FTFE_3.png"
       ],
       "datasheet": "/datasheets/new_generated_html/Type_600.html"
     },
@@ -3507,7 +3507,7 @@
       "apiCertified": true,
       "shortDescription": "High-performance wiping pad made from copolymer yarn for wire drawing and galvanizing industries",
       "description": "Specially designed aramid-based wiping pad for the wire drawing industry, providing exceptional strength and durability for high-speed continuous operations. Engineered to withstand extreme mechanical stress.",
-      "image": "/FZC Inmarco Product Shoot/Yellow Wiping Pad/Yellow Wiping Pad_1.png",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Yellow Wiping Pad/Yellow Wiping Pad_1.png",
       "specifications": {
         "pH Range": "0 - 14 (Universal)",
         "Temperature Range": "-200°C to +450°C",
@@ -3540,14 +3540,14 @@
         "High-pressure industrial wiping applications"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/Wiping Pad/(1)_02.JPG",
-        "/FZC Inmarco Product Shoot/Wiping Pad/Wiping Pad_1.png",
-        "/FZC Inmarco Product Shoot/Wiping Pad/Wiping Pad_2.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Wiping Pad/(1)_02.JPG",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Wiping Pad/Wiping Pad_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Wiping Pad/Wiping Pad_2.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/Wiping Pad/(1)_02.JPG",
-        "/FZC Inmarco Product Shoot/Wiping Pad/Wiping Pad_1.png",
-        "/FZC Inmarco Product Shoot/Wiping Pad/Wiping Pad_2.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Wiping Pad/(1)_02.JPG",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Wiping Pad/Wiping Pad_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Wiping Pad/Wiping Pad_2.png"
       ],
       "datasheet": "/datasheets/new_generated_html/Aramid_Wiping_Pad.html"
     },
@@ -3561,7 +3561,7 @@
       "apiCertified": true,
       "shortDescription": "Extreme temperature resistant wiping pad crafted from hybrid fiber blend for demanding industrial environments",
       "description": "Specially designed high-temperature wiping pad for the wire drawing industry, providing exceptional thermal stability and durability for high-speed operations. Engineered for elevated temperature wire processing applications.",
-      "image": "/FZC Inmarco Product Shoot/Yellow Wiping Pad/Yellow Wiping Pad_1.png",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Yellow Wiping Pad/Yellow Wiping Pad_1.png",
       "specifications": {
         "pH Range": "0 - 14 (Universal)",
         "Temperature Range": "-200°C to +650°C",
@@ -3593,14 +3593,14 @@
         "Industrial applications requiring fire-resistant materials"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/Yellow Wiping Pad/Yellow Wiping Pad_1.png",
-        "/FZC Inmarco Product Shoot/Yellow Wiping Pad/Yellow Wiping Pad_2.png",
-        "/FZC Inmarco Product Shoot/Yellow Wiping Pad/Yellow Wiping Pad_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Yellow Wiping Pad/Yellow Wiping Pad_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Yellow Wiping Pad/Yellow Wiping Pad_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Yellow Wiping Pad/Yellow Wiping Pad_3.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/Yellow Wiping Pad/Yellow Wiping Pad_1.png",
-        "/FZC Inmarco Product Shoot/Yellow Wiping Pad/Yellow Wiping Pad_2.png",
-        "/FZC Inmarco Product Shoot/Yellow Wiping Pad/Yellow Wiping Pad_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Yellow Wiping Pad/Yellow Wiping Pad_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Yellow Wiping Pad/Yellow Wiping Pad_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Yellow Wiping Pad/Yellow Wiping Pad_3.png"
       ],
       "datasheet": "/datasheets/new_generated_html/High_Temperature_Wiping_Pad.html"
     },
@@ -3614,7 +3614,7 @@
       "apiCertified": false,
       "shortDescription": "High-purity flexible graphite sheet with 99% to 99.9% carbon content for extreme temperature and pressure applications",
       "description": "FG 320 is manufactured from exfoliated graphite through acid treatment with 100% acids washed out by DM water. The manufacturing process is mechanical without incorporation of any additives or bonding material, resulting in flexible pure graphite sheet with carbon content 99% to 99.9%. Highly resilient and easily adapts to irregularities of flange or surface to make perfect seal. Suitable for metallic, glass, and enamel flanges, designed for trouble-free change over which ultimately reduces maintenance cost. Dimensionally stable under extreme pressure surge and suitable for cryogenic services.",
-      "image": "/FZC Inmarco Product Shoot/Plain Graphite Gasket/96_01.JPG",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Plain Graphite Gasket/96_01.JPG",
       "specifications": {
         "pH Range": "0 - 14 (Universal)",
         "Temperature (°C)": "Min -200 to max. 550",
@@ -3673,14 +3673,14 @@
         "Lube oil and general industrial sealing"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/Plain Graphite Gasket/Plain Graphite Gasket_01.JPG",
-        "/FZC Inmarco Product Shoot/Plain Graphite Gasket/Plain Graphite Gasket_02.JPG",
-        "/FZC Inmarco Product Shoot/Plain Graphite Gasket/Plain Graphite Gasket_03.JPG"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Plain Graphite Gasket/Plain Graphite Gasket_01.JPG",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Plain Graphite Gasket/Plain Graphite Gasket_02.JPG",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Plain Graphite Gasket/Plain Graphite Gasket_03.JPG"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/Plain Graphite Gasket/Plain Graphite Gasket_01.JPG",
-        "/FZC Inmarco Product Shoot/Plain Graphite Gasket/Plain Graphite Gasket_02.JPG",
-        "/FZC Inmarco Product Shoot/Plain Graphite Gasket/Plain Graphite Gasket_03.JPG"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Plain Graphite Gasket/Plain Graphite Gasket_01.JPG",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Plain Graphite Gasket/Plain Graphite Gasket_02.JPG",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Plain Graphite Gasket/Plain Graphite Gasket_03.JPG"
       ],
       "datasheet": "/datasheets/new_generated_html/FG_320.html"
     },
@@ -3694,7 +3694,7 @@
       "apiCertified": false,
       "shortDescription": "Flexible pure graphite sheet with plain stainless steel foil insert for enhanced mechanical strength in high-pressure applications",
       "description": "SSF 321 sheet is manufactured from plain SS sheet sandwich between two layers of flexible pure graphite sheet. The manufacturing process is mechanical without incorporation of any additives on bonding materials. SS sheet insert graphite gaskets are suitable for metallic, glass, enamel flanges and are designed for trouble-free change over which ultimately reduces maintenance cost. Dimensionally stable under extreme pressure surge and suitable for cryogenic services.",
-      "image": "/FZC Inmarco Product Shoot/Tangent Graphite Gasket/97_02.JPG",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Tangent Graphite Gasket/97_02.JPG",
       "specifications": {
         "Temperature Range": "Min. -200°C to Max. +650°C",
         "pH Range": "0-14",
@@ -3742,14 +3742,14 @@
         "High-pressure industrial sealing applications"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/SS Gasket/SS Gasket_1_1.png",
-        "/FZC Inmarco Product Shoot/SS Gasket/SS Gasket_2_1.png",
-        "/FZC Inmarco Product Shoot/SS Gasket/SS Gasket_3_1.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/SS Gasket/SS Gasket_1_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/SS Gasket/SS Gasket_2_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/SS Gasket/SS Gasket_3_1.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/SS Gasket/SS Gasket_1_1.png",
-        "/FZC Inmarco Product Shoot/SS Gasket/SS Gasket_2_1.png",
-        "/FZC Inmarco Product Shoot/SS Gasket/SS Gasket_3_1.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/SS Gasket/SS Gasket_1_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/SS Gasket/SS Gasket_2_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/SS Gasket/SS Gasket_3_1.png"
       ],
       "datasheet": "/datasheets/new_generated_html/SSF_321.html"
     }
@@ -3764,7 +3764,7 @@
       "apiCertified": false,
       "shortDescription": "EPDM reinforced hybrid packing",
       "description": "HY 107 EPT features soft fluoropolymer reinforcement for enhanced flexibility and superior sealing performance. Engineered to provide exceptional resilience in severe reciprocating service conditions.",
-      "image": "/FZC Inmarco Product Shoot/HY 107/HY 107_1.png",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 107/HY 107_1.png",
       "specifications": {
         "Temperature Range": "-50°C to +150°C",
         "Pressure Rating": "Up to 120 bar",
@@ -3792,14 +3792,14 @@
         "Industrial wastewater handling"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/HY 107/HY 107_1_2.png",
-        "/FZC Inmarco Product Shoot/HY 107/HY 107_2_2.png",
-        "/FZC Inmarco Product Shoot/HY 107/HY 107_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 107/HY 107_1_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 107/HY 107_2_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 107/HY 107_3.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/HY 107/HY 107_1_2.png",
-        "/FZC Inmarco Product Shoot/HY 107/HY 107_2_2.png",
-        "/FZC Inmarco Product Shoot/HY 107/HY 107_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 107/HY 107_1_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 107/HY 107_2_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 107/HY 107_3.png"
       ],
       "datasheet": "/datasheets/new_generated_html/HY_107.html"
     },
@@ -3812,7 +3812,7 @@
       "apiCertified": false,
       "shortDescription": "Graphite reinforced organic packing",
       "description": "OR 125G combines organic fibers with graphite particles for enhanced thermal performance and lubrication. Offers improved temperature resistance over standard organic packings for moderate service conditions.",
-      "image": "/FZC Inmarco Product Shoot/PE 504/PE 504_1(1).png",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 504/PE 504_1(1).png",
       "specifications": {
         "Temperature Range": "-30°C to +180°C",
         "Pressure Rating": "Up to 120 bar",
@@ -3843,14 +3843,14 @@
         "Mining dewatering pumps"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/PE 504/PE 504_1(1).png",
-        "/FZC Inmarco Product Shoot/PE 504/PE 504_2.png",
-        "/FZC Inmarco Product Shoot/PE 504/PE 504_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 504/PE 504_1(1).png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 504/PE 504_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 504/PE 504_3.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/PE 504/PE 504_1(1).png",
-        "/FZC Inmarco Product Shoot/PE 504/PE 504_2.png",
-        "/FZC Inmarco Product Shoot/PE 504/PE 504_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 504/PE 504_1(1).png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 504/PE 504_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 504/PE 504_3.png"
       ],
       "datasheet": "/datasheets/new_generated_html/OR_125G.html"
     },
@@ -3863,7 +3863,7 @@
       "apiCertified": false,
       "shortDescription": "Economical organic fiber packing",
       "description": "OR 151 provides basic sealing for general applications with cost-effective organic fiber construction. Features graphite-based lubrication for improved performance in low-pressure water services.",
-      "image": "/FZC Inmarco Product Shoot/PE 504/PE 504 - 48(23)_04.JPG",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 504/PE 504 - 48(23)_04.JPG",
       "specifications": {
         "Temperature Range": "-10°C to +100°C",
         "Pressure Rating": "Up to 60 bar",
@@ -3890,14 +3890,14 @@
         "Low-duty cooling systems"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/OR 120/OR 120.png",
-        "/FZC Inmarco Product Shoot/OR 120/OR 120_1.png",
-        "/FZC Inmarco Product Shoot/OR 120/OR-120_3.JPG"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/OR 120/OR 120.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/OR 120/OR 120_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/OR 120/OR-120_3.JPG"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/OR 120/OR 120.png",
-        "/FZC Inmarco Product Shoot/OR 120/OR 120_1.png",
-        "/FZC Inmarco Product Shoot/OR 120/OR-120_3.JPG"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/OR 120/OR 120.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/OR 120/OR 120_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/OR 120/OR-120_3.JPG"
       ],
       "datasheet": "/datasheets/new_generated_html/OR_151.html"
     },
@@ -3938,14 +3938,14 @@
         "Food processing water systems"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/OR 120/OR 120.png",
-        "/FZC Inmarco Product Shoot/OR 120/OR 120_1.png",
-        "/FZC Inmarco Product Shoot/OR 120/OR-120_3.JPG"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/OR 120/OR 120.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/OR 120/OR 120_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/OR 120/OR-120_3.JPG"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/OR 120/OR 120.png",
-        "/FZC Inmarco Product Shoot/OR 120/OR 120_1.png",
-        "/FZC Inmarco Product Shoot/OR 120/OR-120_3.JPG"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/OR 120/OR 120.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/OR 120/OR 120_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/OR 120/OR-120_3.JPG"
       ],
       "datasheet": "/datasheets/new_generated_html/OR_151.html"
     },
@@ -3958,7 +3958,7 @@
       "apiCertified": true,
       "shortDescription": "Clean service PTFE packing",
       "description": "PE 104C is designed for applications requiring ultra-low friction properties combined with high mechanical strength. Ideal for control valve applications where precise operation and minimal stem friction are essential.",
-      "image": "/FZC Inmarco Product Shoot/PE 104 C/PE 104 C_Edited_1.png",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 104 C/PE 104 C_Edited_1.png",
       "specifications": {
         "Temperature Range": "-200°C to +260°C",
         "Pressure Rating": "Up to 200 bar",
@@ -3989,14 +3989,14 @@
         "Biotechnology applications"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/PE 104 C/PE 104 C_Edited_1.png",
-        "/FZC Inmarco Product Shoot/PE 104 C/PE 104 C_Edited_2.png",
-        "/FZC Inmarco Product Shoot/PE 104 C/PE 140 C_5.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 104 C/PE 104 C_Edited_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 104 C/PE 104 C_Edited_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 104 C/PE 140 C_5.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/PE 104 C/PE 104 C_Edited_1.png",
-        "/FZC Inmarco Product Shoot/PE 104 C/PE 104 C_Edited_2.png",
-        "/FZC Inmarco Product Shoot/PE 104 C/PE 140 C_5.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 104 C/PE 104 C_Edited_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 104 C/PE 104 C_Edited_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 104 C/PE 140 C_5.png"
       ],
       "datasheet": "/datasheets/new_generated_html/STYLE_PE_104C.html"
     },
@@ -4009,7 +4009,7 @@
       "apiCertified": false,
       "shortDescription": "Graphite enhanced polyimide packing",
       "description": "PA 106G combines polyimide mechanical strength with graphite lubrication for enhanced thermal performance. Engineered to deliver superior heat dissipation and extended service life in high-temperature applications.",
-      "image": "/FZC Inmarco Product Shoot/PA 106G/PA_106G_1.png",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA 106G/PA_106G_1.png",
       "specifications": {
         "Temperature Range": "-100°C to +320°C",
         "Pressure Rating": "Up to 280 bar",
@@ -4037,14 +4037,14 @@
         "Power plant equipment"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/PA 106/PA 106_1.png",
-        "/FZC Inmarco Product Shoot/PA 106/PA 106_2.png",
-        "/FZC Inmarco Product Shoot/PA 106/PA 106_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA 106/PA 106_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA 106/PA 106_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA 106/PA 106_3.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/PA 106/PA 106_1.png",
-        "/FZC Inmarco Product Shoot/PA 106/PA 106_2.png",
-        "/FZC Inmarco Product Shoot/PA 106/PA 106_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA 106/PA 106_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA 106/PA 106_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA 106/PA 106_3.png"
       ],
       "datasheet": "/datasheets/new_generated_html/PA_106.html"
     },
@@ -4057,7 +4057,7 @@
       "apiCertified": true,
       "shortDescription": "Premium PTFE compression packing",
       "description": "PE 504P is a premium-grade fluoropolymer packing engineered for high-speed centrifugal pumps with very low leakage requirements. Offers reliable sealing with excellent chemical resistance across a wide temperature range.",
-      "image": "/FZC Inmarco Product Shoot/PE 504/PE 504 - 48(23)_04.JPG",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 504/PE 504 - 48(23)_04.JPG",
       "specifications": {
         "Temperature Range": "-200°C to +260°C",
         "Pressure Rating": "Up to 180 bar",
@@ -4093,14 +4093,14 @@
         "Environmental compliance installations"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/PE 504/PE 504_1(1).png",
-        "/FZC Inmarco Product Shoot/PE 504/PE 504_2.png",
-        "/FZC Inmarco Product Shoot/PE 504/PE 504_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 504/PE 504_1(1).png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 504/PE 504_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 504/PE 504_3.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/PE 504/PE 504_1(1).png",
-        "/FZC Inmarco Product Shoot/PE 504/PE 504_2.png",
-        "/FZC Inmarco Product Shoot/PE 504/PE 504_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 504/PE 504_1(1).png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 504/PE 504_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE 504/PE 504_3.png"
       ],
       "datasheet": "/datasheets/new_generated_html/PE_504.html"
     },
@@ -4113,7 +4113,7 @@
       "apiCertified": true,
       "shortDescription": "Premium silica insulation",
       "description": "IN 126S offers superior thermal insulation for demanding high-temperature applications with premium silica fiber construction. Engineered to deliver exceptional temperature stability and energy efficiency.",
-      "image": "/FZC Inmarco Product Shoot/IN 140/IN 140_5.png",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/IN 140/IN 140_5.png",
       "specifications": {
         "Temperature Range": "-100°C to +1050°C",
         "Density": "0.1-0.3 g/cm³",
@@ -4140,14 +4140,14 @@
         "Aerospace and defense thermal protection"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/IN 123/IN 123 - 45 _29_2.png",
-        "/FZC Inmarco Product Shoot/IN 123/IN 123_1_2.png",
-        "/FZC Inmarco Product Shoot/IN 123/IN 123_2_2.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/IN 123/IN 123 - 45 _29_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/IN 123/IN 123_1_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/IN 123/IN 123_2_2.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/IN 123/IN 123 - 45 _29_2.png",
-        "/FZC Inmarco Product Shoot/IN 123/IN 123_1_2.png",
-        "/FZC Inmarco Product Shoot/IN 123/IN 123_2_2.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/IN 123/IN 123 - 45 _29_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/IN 123/IN 123_1_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/IN 123/IN 123_2_2.png"
       ],
       "datasheet": "/datasheets/new_generated_html/IN_123.html"
     },
@@ -4160,7 +4160,7 @@
       "apiCertified": false,
       "shortDescription": "Economic hybrid packing solution",
       "description": "HY 107E offers cost-effective hybrid packing performance for standard industrial applications, providing reliable sealing without premium pricing for less demanding service conditions.",
-      "image": "/FZC Inmarco Product Shoot/HY 107/HY 107_1.png",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 107/HY 107_1.png",
       "specifications": {
         "Temperature Range": "-80°C to +260°C",
         "Pressure Rating": "Up to 150 bar",
@@ -4191,14 +4191,14 @@
         "Municipal infrastructure"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/HY 107/HY 107_1_2.png",
-        "/FZC Inmarco Product Shoot/HY 107/HY 107_2_2.png",
-        "/FZC Inmarco Product Shoot/HY 107/HY 107_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 107/HY 107_1_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 107/HY 107_2_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 107/HY 107_3.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/HY 107/HY 107_1_2.png",
-        "/FZC Inmarco Product Shoot/HY 107/HY 107_2_2.png",
-        "/FZC Inmarco Product Shoot/HY 107/HY 107_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 107/HY 107_1_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 107/HY 107_2_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY 107/HY 107_3.png"
       ],
       "datasheet": "/datasheets/new_generated_html/HY_107.html"
     },
@@ -4211,7 +4211,7 @@
       "apiCertified": false,
       "shortDescription": "Economic carbon graphite packing",
       "description": "CG 101E provides cost-effective carbon fiber sealing solutions for moderate temperature applications. Delivers reliable performance at an economical price point for budget-conscious operations.",
-      "image": "/FZC Inmarco Product Shoot/CG 101/CG 101 - 56(25)_03.JPG",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG 101/CG 101 - 56(25)_03.JPG",
       "specifications": {
         "Temperature Range": "-150°C to +500°C",
         "Pressure Rating": "Up to 200 bar",
@@ -4243,14 +4243,14 @@
         "Standard valve applications"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/CG 101/CG 101_1.png",
-        "/FZC Inmarco Product Shoot/CG 101/CG 101_2.png",
-        "/FZC Inmarco Product Shoot/CG 101/CG 101_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG 101/CG 101_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG 101/CG 101_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG 101/CG 101_3.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/CG 101/CG 101_1.png",
-        "/FZC Inmarco Product Shoot/CG 101/CG 101_2.png",
-        "/FZC Inmarco Product Shoot/CG 101/CG 101_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG 101/CG 101_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG 101/CG 101_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG 101/CG 101_3.png"
       ],
       "datasheet": "/datasheets/new_generated_html/CG_101.html"
     },
@@ -4263,7 +4263,7 @@
       "apiCertified": true,
       "shortDescription": "Enhanced polyimide compression packing",
       "description": "PA 106E is a cost-effective polyimide packing offering exceptional abrasion resistance for demanding applications. Provides reliable sealing with minimal shaft wear at an economical price point.",
-      "image": "/FZC Inmarco Product Shoot/PA 106/PA 106-11_15.JPG",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA 106/PA 106-11_15.JPG",
       "specifications": {
         "Temperature Range": "-100°C to +320°C",
         "Pressure Rating": "Up to 300 bar",
@@ -4295,14 +4295,14 @@
         "Aerospace fluid handling"
       ],
       "gallery": [
-        "/FZC Inmarco Product Shoot/PA 106/PA 106_1.png",
-        "/FZC Inmarco Product Shoot/PA 106/PA 106_2.png",
-        "/FZC Inmarco Product Shoot/PA 106/PA 106_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA 106/PA 106_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA 106/PA 106_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA 106/PA 106_3.png"
       ],
       "images": [
-        "/FZC Inmarco Product Shoot/PA 106/PA 106_1.png",
-        "/FZC Inmarco Product Shoot/PA 106/PA 106_2.png",
-        "/FZC Inmarco Product Shoot/PA 106/PA 106_3.png"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA 106/PA 106_1.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA 106/PA 106_2.png",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA 106/PA 106_3.png"
       ],
       "datasheet": "/datasheets/new_generated_html/PA_106.html"
     }

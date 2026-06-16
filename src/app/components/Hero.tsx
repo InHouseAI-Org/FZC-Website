@@ -8,7 +8,7 @@ import { useState, useEffect, useRef } from 'react';
 
 export function Hero() {
   const [mousePosition, setMousePosition] = useState({ x: -9999, y: -9999 });
-  const [heroImage, setHeroImage] = useState('Hero.webp');
+  const [heroImage, setHeroImage] = useState('https://d24gq0kplkhyxr.cloudfront.net/assets/images/Hero.webp');
   const containerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -35,13 +35,13 @@ export function Hero() {
       const width = window.innerWidth;
       if (width < 768) {
         // Mobile
-        setHeroImage('Hero_mob.webp');
+        setHeroImage('https://d24gq0kplkhyxr.cloudfront.net/assets/images/Hero_mob.webp');
       } else if (width < 1024) {
         // Tablet
-        setHeroImage('Hero_tab.webp');
+        setHeroImage('https://d24gq0kplkhyxr.cloudfront.net/assets/images/Hero_tab.webp');
       } else {
         // Desktop
-        setHeroImage('Hero.webp');
+        setHeroImage('https://d24gq0kplkhyxr.cloudfront.net/assets/images/Hero.webp');
       }
     };
 
