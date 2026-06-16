@@ -10,7 +10,8 @@
     "start": "next start -p 4001",
     "lint": "next lint",
     "server": "node server/index.js",
-    "postinstall": "prisma generate || true"
+    "postinstall": "prisma generate || true",
+    "export:datasheets": "node scripts/export-all-datasheets.cjs"
   },
   "dependencies": {
     "@azure/identity": "^4.13.1",
