@@ -1,0 +1,7 @@
+{
+  "buildCommand": "pnpm build",
+  "installCommand": "pnpm install",
+  "env": {
+    "DATABASE_URL": "postgresql://dummy:dummy@localhost:5432/dummy"
+  }
+}
