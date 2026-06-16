@@ -80,13 +80,12 @@ export function Header() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link href="/" className="relative flex items-center space-x-4">
-            <div className="relative overflow-hidden" style={{ width: '180px', height: '64px' }}>
+            <div className="relative overflow-hidden w-[120px] h-[43px] sm:w-[140px] sm:h-[50px] md:w-[160px] md:h-[57px] lg:w-[180px] lg:h-[64px]">
               <img
                 src={inmarcoLogo}
                 alt="INMARCO"
-                className="absolute"
+                className="absolute h-[51px] sm:h-[60px] md:h-[69px] lg:h-[77px]"
                 style={{
-                  height: '77px',
                   top: '0px',
                   left: '0',
                   borderRadius: '0px'

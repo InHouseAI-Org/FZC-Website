@@ -16,6 +16,13 @@ export default function ProductDetail() {
 
   const category = productsData.categories.find(c => c.slug === categorySlug);
 
+  // Helper function to convert HTML datasheet path to CloudFront PDF URL
+  const getDatasheetPdfUrl = (datasheetPath: string) => {
+    // Extract filename from path (e.g., "datasheets/new_generated_html/ULTRA_FE_1003.html" -> "ULTRA_FE_1003")
+    const filename = datasheetPath.split('/').pop()?.replace('.html', '') || '';
+    return `https://d24gq0kplkhyxr.cloudfront.net/datasheets/pdf/${filename}.pdf`;
+  };
+
   // Handle both URL patterns: with and without subcategory
   let subcategory = null;
   let product = null;
@@ -167,8 +174,9 @@ export default function ProductDetail() {
                 </Link>
                 {product.datasheet && (
                   <a
-                    href={`/api/datasheet-pdf?path=${encodeURIComponent(product.datasheet)}`}
-                    download
+                    href={getDatasheetPdfUrl(product.datasheet)}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="inline-flex items-center space-x-2 px-6 py-3 bg-transparent border-2 border-[#e31e24] text-[#e31e24] rounded-lg hover:bg-[#e31e24] hover:text-white transition-colors duration-300 font-medium"
                   >
                     <Download className="w-4 h-4" />
