@@ -1,6 +1,6 @@
 {
   "buildCommand": "npm run build:vercel",
-  "installCommand": "npm install --legacy-peer-deps --omit=optional",
+  "installCommand": "npm install --legacy-peer-deps",
   "framework": "nextjs",
   "functions": {
     "app/api/**/route.ts": {
