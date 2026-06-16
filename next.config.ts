@@ -4,7 +4,7 @@ const nextConfig: NextConfig = {
   // Output standalone for Docker deployment
   output: 'standalone',
   // Allow cross-origin dev requests from specific IPs
-  allowedDevOrigins: ['192.168.1.174'],
+  allowedDevOrigins: ['192.168.1.174', '192.168.1.36'],
   typescript: {
     // !! WARN !!
     // Dangerously allow production builds to successfully complete even if

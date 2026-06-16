@@ -58,6 +58,21 @@ public/FZC Inmarco Product Shoot/Videos/
 /Products/
 /src/generated/prisma
 
+# CloudFront assets (now served from S3/CloudFront - exclude from Docker image)
+public/FZC Inmarco Product Shoot/
+public/datasheets/
+public/worldwide-global-map-outline-black-background/
+
+# Industry images (now served from CloudFront)
+public/*.jpg
+public/*.jpeg
+public/*.png
+public/*.webp
+
+# Keep essential files (override the wildcards above)
+!public/inmarco-tagline-logo1.png
+!public/favicon.svg
+
 # SSH keys
 *.pem
 fzc-website.pem
