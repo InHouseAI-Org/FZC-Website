@@ -207,8 +207,7 @@ export async function deleteSession(): Promise<void> {
     }
 
     // Remove cookie
-    const cookieStore = await cookies();
-    cookieStore.delete(SESSION_COOKIE_NAME);
+    (await cookies()).delete(SESSION_COOKIE_NAME);
   } catch (error) {
     console.error('Error deleting session:', error);
   }
