@@ -49,6 +49,7 @@ lerna-debug.log*
 *.tmp
 *.temp
 .cache/
+~$*
 
 # OS files
 .DS_Store
