@@ -5,7 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { Menu, X, Play } from 'lucide-react';
-import inmarcoLogo from '@/assets/inmarco-tagline-logo.png';
+import inmarcoLogo from '@/assets/inmarco-tagline-logo.webp';
 
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false);

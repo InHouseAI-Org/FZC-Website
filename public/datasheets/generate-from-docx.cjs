@@ -545,7 +545,7 @@ function generateHTML(productName, sections) {
     <div class="page-1">
         <div class="header">
             <div class="logo-section">
-                <img src="../../../src/assets/inmarco-tagline-logo1.png" alt="INMARCO - Innovations in Fluid Sealing">
+                <img src="../../../src/assets/inmarco-tagline-logo1.webp" alt="INMARCO - Innovations in Fluid Sealing">
             </div>
         </div>
 

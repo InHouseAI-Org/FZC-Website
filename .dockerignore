@@ -70,7 +70,7 @@ public/*.png
 public/*.webp
 
 # Keep essential files (override the wildcards above)
-!public/inmarco-tagline-logo1.png
+!public/inmarco-tagline-logo1.webp
 !public/favicon.svg
 
 # SSH keys

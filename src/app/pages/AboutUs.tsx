@@ -3,7 +3,7 @@
 import { motion } from 'motion/react';
 import { ImageWithFallback } from '@/app/components/figma/ImageWithFallback';
 import { CheckCircle2, Target, Eye, Lightbulb, Users, Recycle, TrendingUp, Shield, Award } from 'lucide-react';
-import inmarcoLogo from '@/assets/inmarco-tagline-logo1.png';
+import inmarcoLogo from '@/assets/inmarco-tagline-logo1.webp';
 
 export default function AboutUs() {
   const coreValues = [
@@ -520,7 +520,7 @@ export default function AboutUs() {
               {/* World Map */}
               <div className="w-full h-[400px] rounded-lg overflow-hidden relative">
                 <img
-                  src="https://d24gq0kplkhyxr.cloudfront.net/assets/images/worldwide-global-map-outline-black-background/sl_070722_51460_20.jpg"
+                  src="https://d24gq0kplkhyxr.cloudfront.net/assets/images/worldwide-global-map-outline-black-background/sl_070722_51460_20.webp"
                   alt="World Map"
                   className="w-full h-full object-contain"
                   style={{

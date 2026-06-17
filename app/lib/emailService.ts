@@ -10,14 +10,14 @@ import path from 'path';
  */
 function getLogoBase64(): string {
   try {
-    const logoPath = path.join(process.cwd(), 'public', 'inmarco-tagline-logo1.png');
+    const logoPath = path.join(process.cwd(), 'public', 'inmarco-tagline-logo1.webp');
     const logoBuffer = fs.readFileSync(logoPath);
     const logoBase64 = logoBuffer.toString('base64');
-    return `data:image/png;base64,${logoBase64}`;
+    return `data:image/webp;base64,${logoBase64}`;
   } catch (error) {
     console.error('Error reading logo file:', error);
     // Fallback to external URL if file read fails
-    return 'https://inmarco.ae/inmarco-tagline-logo1.png';
+    return 'https://inmarco.ae/inmarco-tagline-logo1.webp';
   }
 }
 

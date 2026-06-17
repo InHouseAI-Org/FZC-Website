@@ -38,7 +38,7 @@ export async function GET(request: NextRequest) {
     const publicDir = path.join(process.cwd(), 'public');
 
     // Replace relative image paths with base64 data URLs
-    const logoPath = path.join(process.cwd(), 'public', 'inmarco-tagline-logo1.png');
+    const logoPath = path.join(process.cwd(), 'public', 'inmarco-tagline-logo1.webp');
     if (fs.existsSync(logoPath)) {
       const logoBuffer = fs.readFileSync(logoPath);
       const logoBase64 = logoBuffer.toString('base64');

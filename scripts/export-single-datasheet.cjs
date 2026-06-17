@@ -30,7 +30,7 @@ async function convertHtmlToPdf(htmlFilePath, outputPdfPath) {
         const publicDir = path.join(__dirname, '../public');
 
         // Replace logo path
-        const logoPath = path.join(publicDir, 'inmarco-tagline-logo1.png');
+        const logoPath = path.join(publicDir, 'inmarco-tagline-logo1.webp');
         if (fs.existsSync(logoPath)) {
             const logoBuffer = fs.readFileSync(logoPath);
             const logoBase64 = logoBuffer.toString('base64');
