@@ -385,11 +385,22 @@ export default function ProductCategoryLanding() {
                     transition={{ duration: 0.5, delay: index * 0.1 }}
                     className="group relative h-[300px] overflow-hidden cursor-pointer"
                   >
-                    <ImageWithFallback
-                      src={otherCategory.image}
-                      alt={otherCategory.name}
-                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                    />
+                    {otherCategory.image?.endsWith('.webm') ? (
+                      <video
+                        src={otherCategory.image}
+                        autoPlay
+                        loop
+                        muted
+                        playsInline
+                        className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                      />
+                    ) : (
+                      <ImageWithFallback
+                        src={otherCategory.image}
+                        alt={otherCategory.name}
+                        className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                      />
+                    )}
                     <div className="absolute inset-0 bg-gradient-to-t from-[#2b2a29] via-[#2b2a29]/60 to-transparent opacity-80 group-hover:opacity-90 transition-opacity duration-300"></div>
 
                     <div className="absolute inset-0 flex flex-col justify-end p-6">

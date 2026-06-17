@@ -88,18 +88,18 @@ export default function IndustryDetail() {
 
   // Map industry slugs to their product images
   const industryImages: Record<string, string> = {
-    'oil-gas': '/FZC Inmarco Product Shoot/Industries/Oil & Gas.png',
-    'power-generation': '/FZC Inmarco Product Shoot/Industries/Power.png',
-    'chemical': '/FZC Inmarco Product Shoot/Industries/Chemical.png',
-    'water-wastewater-treatment': '/FZC Inmarco Product Shoot/Industries/Waste.png',
-    'marine': '/FZC Inmarco Product Shoot/Industries/Marine.png',
-    'cement': '/FZC Inmarco Product Shoot/Industries/Cement.png',
-    'fertilizers': '/FZC Inmarco Product Shoot/Industries/Fertilisers.png',
-    'metallurgy': '/FZC Inmarco Product Shoot/Industries/Metallurgy.png',
-    'pulp-paper': '/FZC Inmarco Product Shoot/Industries/Pulp.png',
-    'food-pharmaceutical': '/FZC Inmarco Product Shoot/Industries/Food.png',
-    'sugar': '/FZC Inmarco Product Shoot/Industries/Sugar.png',
-    'oem': '/FZC Inmarco Product Shoot/Industries/OEM.png',
+    'oil-gas': 'https://d24gq0kplkhyxr.cloudfront.net/assets/products/Industries/Oil%20%26%20Gas.png',
+    'power-generation': 'https://d24gq0kplkhyxr.cloudfront.net/assets/products/Industries/Power.png',
+    'chemical': 'https://d24gq0kplkhyxr.cloudfront.net/assets/products/Industries/Chemical.png',
+    'water-wastewater-treatment': 'https://d24gq0kplkhyxr.cloudfront.net/assets/products/Industries/Waste.png',
+    'marine': 'https://d24gq0kplkhyxr.cloudfront.net/assets/products/Industries/Marine.png',
+    'cement': 'https://d24gq0kplkhyxr.cloudfront.net/assets/products/Industries/Cement.png',
+    'fertilizers': 'https://d24gq0kplkhyxr.cloudfront.net/assets/products/Industries/Fertilisers.png',
+    'metallurgy': 'https://d24gq0kplkhyxr.cloudfront.net/assets/products/Industries/Metallurgy.png',
+    'pulp-paper': 'https://d24gq0kplkhyxr.cloudfront.net/assets/products/Industries/Pulp.png',
+    'food-pharmaceutical': 'https://d24gq0kplkhyxr.cloudfront.net/assets/products/Industries/Food.png',
+    'sugar': 'https://d24gq0kplkhyxr.cloudfront.net/assets/products/Industries/Sugar.png',
+    'oem': 'https://d24gq0kplkhyxr.cloudfront.net/assets/products/Industries/OEM.png',
   };
 
   const scrollToCTA = () => {

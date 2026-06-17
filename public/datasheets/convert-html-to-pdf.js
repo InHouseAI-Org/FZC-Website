@@ -13,8 +13,8 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const INPUT_DIR = path.join(__dirname, 'generated_html');
-const OUTPUT_DIR = path.join(__dirname, 'pdf_output');
+const INPUT_DIR = path.join(__dirname, 'new_generated_html');
+const OUTPUT_DIR = path.join(__dirname, 'pdf_exports');
 
 // Create output directory if it doesn't exist
 if (!fs.existsSync(OUTPUT_DIR)) {

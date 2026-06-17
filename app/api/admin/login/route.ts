@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { verifyCredentials, createSession } from '../../../lib/auth';
+import { verifyCredentials, createSession, SESSION_COOKIE_NAME, SESSION_DURATION } from '../../../lib/auth';
 
 export async function POST(request: NextRequest) {
   try {
@@ -22,13 +22,32 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Create session with username
-    await createSession(username);
+    // Get client info from request
+    const ipAddress = request.headers.get('x-forwarded-for')?.split(',')[0] ||
+                      request.headers.get('x-real-ip') ||
+                      request.ip ||
+                      undefined;
+    const userAgent = request.headers.get('user-agent') || undefined;
 
-    return NextResponse.json(
+    // Create session in database (pass client info, returns token)
+    const token = await createSession(username, ipAddress, userAgent);
+
+    // Create response with session cookie (using Response.cookies API - robust approach)
+    const response = NextResponse.json(
       { success: true, message: 'Login successful' },
       { status: 200 }
     );
+
+    // Set cookie using Response API (avoids Next.js 16 cookies() compilation bug)
+    response.cookies.set(SESSION_COOKIE_NAME, token, {
+      httpOnly: true,
+      secure: process.env.NODE_ENV === 'production',
+      sameSite: 'lax',
+      maxAge: SESSION_DURATION / 1000,
+      path: '/',
+    });
+
+    return response;
   } catch (error) {
     console.error('Login error:', error);
     return NextResponse.json(

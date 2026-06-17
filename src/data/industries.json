@@ -6,7 +6,7 @@
       "slug": "oil-gas",
       "href": "/industries/oil-gas",
       "description": "Engineered sealing solutions for lethal, high-pressure, high-temperature applications handling toxic hydrocarbons across midstream and downstream operations",
-      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/images/oil and gas.jpg",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/images/oil%20and%20gas.jpg",
       "fullDescription": "The oil and gas industry demands sealing solutions that can withstand extreme pressures, temperatures, and corrosive environments. Inmarco provides comprehensive sealing products for midstream transportation and storage, and downstream refining operations.",
       "challenges": [
         "Extreme Operating Conditions",
@@ -417,7 +417,7 @@
       "href": "/industries/food-pharmaceutical",
       "subtitle": "",
       "description": "FDA-compliant, sealing solutions ensuring zero product contamination - for sterile pharmaceutical and food-grade processing applications",
-      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/images/food and pahrma.jpg",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/images/food%20and%20pahrma.jpg",
       "fullDescription": "Food processing and pharmaceutical manufacturing demand the highest standards of hygiene, product purity, and regulatory compliance. Inmarco delivers FDA and EU compliant sealing solutions for processing, mixing, filling, and packaging equipment in both industries.",
       "challenges": [
         "Zero-tolerance product contamination and cross-contamination prevention",
@@ -552,8 +552,7 @@
       "Check valves (swing, lift, tilting disc)",
       "Safety relief valves and pressure relief valves"
     ],
-    "oem_centrifugal_pumps": [
-    ],
+    "oem_centrifugal_pumps": [],
     "oem_reciprocating_pumps": [
       "Piston pumps",
       "Plunger pumps",

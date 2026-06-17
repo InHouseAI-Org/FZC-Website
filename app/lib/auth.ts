@@ -4,7 +4,7 @@ import bcrypt from 'bcryptjs';
 import prisma from './prisma';
 
 export const SESSION_COOKIE_NAME = 'admin_session';
-const SESSION_DURATION = 7 * 24 * 60 * 60 * 1000; // 7 days in milliseconds
+export const SESSION_DURATION = 7 * 24 * 60 * 60 * 1000; // 7 days in milliseconds
 
 // ============================================
 // Password Hashing
@@ -97,9 +97,16 @@ export async function verifyCredentials(username: string, password: string): Pro
 }
 
 /**
- * Create a new session in database and set cookie
+ * Create a new session in database (returns token, cookie must be set by route handler)
+ * @param username - Username to create session for
+ * @param ipAddress - Client IP address (from route handler)
+ * @param userAgent - Client user agent (from route handler)
  */
-export async function createSession(username: string): Promise<string> {
+export async function createSession(
+  username: string,
+  ipAddress?: string,
+  userAgent?: string
+): Promise<string> {
   try {
     // Find the user
     const user = await prisma.adminUser.findUnique({
@@ -113,8 +120,6 @@ export async function createSession(username: string): Promise<string> {
     // Generate session token
     const token = generateSessionToken();
     const expiresAt = new Date(Date.now() + SESSION_DURATION);
-    const ipAddress = getClientIp();
-    const userAgent = getUserAgent();
 
     // Create session in database
     await prisma.session.create({
@@ -127,15 +132,7 @@ export async function createSession(username: string): Promise<string> {
       },
     });
 
-    // Set cookie
-    (await cookies()).set(SESSION_COOKIE_NAME, token, {
-      httpOnly: true,
-      secure: process.env.NODE_ENV === 'production',
-      sameSite: 'lax',
-      maxAge: SESSION_DURATION / 1000, // in seconds
-      path: '/',
-    });
-
+    // Return token - caller must set cookie
     return token;
   } catch (error) {
     console.error('Error creating session:', error);

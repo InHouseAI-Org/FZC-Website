@@ -1,6 +1,7 @@
 import { MetadataRoute } from 'next';
 import productsData from '@/data/productsData.json';
 import industriesData from '@/data/industries.json';
+import fluidSealingContent from '@/data/fluidSealingContent.json';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://www.inmarco.com'; // Replace with your actual domain
@@ -98,5 +99,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   });
 
-  return [...staticPages, ...industryPages, ...categoryPages, ...productPages];
+  // Fluid Sealing Simplified blog posts
+  const blogPages: MetadataRoute.Sitemap = fluidSealingContent.posts.map((post) => ({
+    url: `${baseUrl}/fluid-sealing-simplified/${post.id}`,
+    lastModified: new Date(post.date),
+    changeFrequency: 'monthly' as const,
+    priority: 0.6,
+  }));
+
+  return [...staticPages, ...industryPages, ...categoryPages, ...productPages, ...blogPages];
 }

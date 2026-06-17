@@ -520,7 +520,7 @@ export default function AboutUs() {
               {/* World Map */}
               <div className="w-full h-[400px] rounded-lg overflow-hidden relative">
                 <img
-                  src="/worldwide-global-map-outline-black-background/sl_070722_51460_20.jpg"
+                  src="https://d24gq0kplkhyxr.cloudfront.net/assets/images/worldwide-global-map-outline-black-background/sl_070722_51460_20.jpg"
                   alt="World Map"
                   className="w-full h-full object-contain"
                   style={{
