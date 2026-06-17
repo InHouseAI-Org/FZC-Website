@@ -62,7 +62,7 @@ export function CompanyOverview() {
       {/* Background Video with Gradient Overlay */}
       <div className="absolute inset-0">
         <LazyVideo
-          src="/FZC Inmarco Product Shoot/GB2.webm"
+          src="https://d24gq0kplkhyxr.cloudfront.net/assets/products/GB2.webm"
           autoPlay
           loop
           muted
@@ -155,16 +155,16 @@ export function CompanyOverview() {
             </div>
 
             {/* Key Milestones */}
-            <div className="grid grid-cols-3 gap-4">
+            <div className="flex justify-center sm:justify-start">
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: 0.5 }}
-                className="text-center p-4 bg-[#1a1918]/40 backdrop-blur-sm border border-[#e31e24] rounded"
+                className="text-center p-6 bg-[#1a1918]/40 backdrop-blur-sm border border-[#e31e24] rounded w-full sm:w-auto min-w-[200px]"
               >
-                <div className="text-2xl text-white mb-1 font-light">Since 1982</div>
-                <div className="text-xs text-[#e31e24] uppercase tracking-wider">Established</div>
+                <div className="text-3xl md:text-2xl text-white mb-2 font-light">Since 1982</div>
+                <div className="text-sm md:text-xs text-[#e31e24] uppercase tracking-wider">Established</div>
               </motion.div>
 
 

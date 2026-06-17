@@ -98,7 +98,7 @@ export function Hero() {
         </div> */}
 
         {/* Gradient Overlay - below content but above images */}
-        {/* <div className="absolute inset-0 bg-gradient-to-r from-[#2b2a29]/95 via-[#2b2a29]/45 to-[#2b2a29]/2 pointer-events-none"></div> */}
+        <div className="absolute inset-0 bg-gradient-to-b from-[#2b2a29]/90 via-[#2b2a29]/60 to-[#2b2a29]/90 md:bg-gradient-to-r md:from-[#2b2a29]/95 md:via-[#2b2a29]/45 md:to-[#2b2a29]/2 pointer-events-none"></div>
       </div>
 
 
@@ -111,7 +111,7 @@ export function Hero() {
       />
 
       {/* Content */}
-      <div className="relative z-10 max-w-[1400px] mx-auto px-6 lg:px-12 py-20 w-full">
+      <div className="relative z-10 max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-12 py-24 md:py-20 w-full">
         <div className="max-w-4xl">
           {/* Label */}
 
@@ -123,7 +123,7 @@ export function Hero() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="mb-6 text-white"
             style={{
-              fontSize: 'clamp(2.5rem, 6vw, 5rem)',
+              fontSize: 'clamp(2rem, 6vw, 5rem)',
               lineHeight: '1.1',
               letterSpacing: '-0.02em'
             }}
@@ -148,8 +148,8 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="text-gray-300 mb-10"
-            style={{ fontSize: 'clamp(1.1rem, 2vw, 1.3rem)', lineHeight: '1.6', width: '60%' }}
+            className="text-gray-200 mb-10 w-full md:w-[60%]"
+            style={{ fontSize: 'clamp(1rem, 2vw, 1.3rem)', lineHeight: '1.6' }}
           >
             Advanced fluid sealing solutions designed for extreme pressure, temperature, and performance.
           </motion.p>
@@ -159,14 +159,14 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
-            className="flex flex-wrap gap-4"
+            className="flex flex-col sm:flex-row gap-4"
           >
-            <Link href="/contact" className="group px-8 py-4 bg-[#e31e24] text-white tracking-wide hover:bg-[#c41a20] transition-all duration-300 flex items-center space-x-2">
+            <Link href="/contact" className="group inline-flex items-center justify-center space-x-2 px-8 py-4 bg-[#e31e24] text-white tracking-wide hover:bg-[#c41a20] transition-all duration-300">
               <span>Talk to an Engineer</span>
               <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Link>
 
-            <Link href="/products" className="group px-8 py-4 border-2 border-white text-white tracking-wide hover:bg-white hover:text-[#2b2a29] transition-all duration-300 flex items-center space-x-2">
+            <Link href="/products" className="group inline-flex items-center justify-center space-x-2 px-8 py-4 border-2 border-white text-white tracking-wide hover:bg-white hover:text-[#2b2a29] transition-all duration-300">
               <Play className="w-4 h-4" />
               <span>Explore Solutions</span>
             </Link>
@@ -177,7 +177,7 @@ export function Hero() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 1.2 }}
-            className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8"
+            className="mt-10 md:mt-16 grid grid-cols-2 md:grid-cols-4 gap-8"
           >
             {[
               { value: '30+', label: 'Years Experience' },
@@ -185,7 +185,7 @@ export function Hero() {
             ].map((stat, index) => (
               <div key={index} className="border-l-2 border-[#e31e24] pl-4">
                 <div className="text-3xl text-white mb-1">{stat.value}</div>
-                <div className="text-sm text-gray-400 tracking-wide uppercase">{stat.label}</div>
+                <div className="text-sm text-gray-300 tracking-wide uppercase">{stat.label}</div>
               </div>
             ))}
           </motion.div>
@@ -194,7 +194,7 @@ export function Hero() {
 
       {/* Scroll Indicator */}
       <motion.div
-        className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center space-y-2 z-20"
+        className="absolute bottom-8 left-1/2 transform -translate-x-1/2 hidden md:flex flex-col items-center space-y-2 z-20"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 1.5 }}

@@ -76,18 +76,16 @@ export function Header() {
       {isInSustainability && (
         <div className="absolute inset-0 bg-gradient-to-b from-green-500/5 to-transparent pointer-events-none"></div>
       )}
-      <div className="relative z-10 max-w-[1400px] mx-auto px-6 lg:px-12">
-        <div className="flex items-center justify-between h-20">
+      <div className="relative z-10 max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-12">
+        <div className="flex items-center justify-between h-[70px] sm:h-[90px] lg:h-20">
           {/* Logo */}
           <Link href="/" className="relative flex items-center space-x-4">
-            <div className="relative overflow-hidden w-[120px] h-[43px] sm:w-[140px] sm:h-[50px] md:w-[160px] md:h-[57px] lg:w-[180px] lg:h-[64px]">
+            <div className="relative overflow-hidden w-[100px] h-[30px] sm:w-[140px] sm:h-[42px] md:w-[160px] md:h-[48px] lg:w-[180px] lg:h-[54px]">
               <img
                 src={inmarcoLogo}
                 alt="INMARCO"
-                className="absolute h-[51px] sm:h-[60px] md:h-[69px] lg:h-[77px]"
+                className="absolute w-full h-auto top-0 left-0 object-cover object-top"
                 style={{
-                  top: '0px',
-                  left: '0',
                   borderRadius: '0px'
                 }}
               />
@@ -165,7 +163,7 @@ export function Header() {
 
       {/* Mobile Menu */}
       <div
-        className={`lg:hidden absolute top-20 left-0 right-0 backdrop-blur-sm border-t transition-all duration-500 ${
+        className={`lg:hidden absolute top-[70px] sm:top-[90px] left-0 right-0 backdrop-blur-sm border-t transition-all duration-500 ${
           isInSustainability ? 'bg-[#1f2e1f]/95 border-green-500/30' : 'bg-[#2b2a29]/95 border-gray-700'
         } ${isMobileMenuOpen ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0 overflow-hidden'}`}
       >

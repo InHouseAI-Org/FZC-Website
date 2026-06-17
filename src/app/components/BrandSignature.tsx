@@ -38,7 +38,7 @@ export function BrandSignature() {
   };
 
   return (
-    <section className="relative bg-[#252423] py-32 overflow-hidden">
+    <section className="relative bg-[#252423] py-16 md:py-24 lg:py-32 overflow-hidden">
       {/* Animated Background */}
       <div className="absolute inset-0 opacity-20">
         <motion.div
@@ -68,9 +68,9 @@ export function BrandSignature() {
         />
       </div>
 
-      <div className="relative max-w-[1400px] mx-auto px-6 lg:px-12">
+      <div className="relative max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-12">
         {/* Section Header */}
-        <div className="text-center max-w-3xl mx-auto mb-16">
+        <div className="text-center max-w-3xl mx-auto mb-8 md:mb-12 lg:mb-16">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -112,7 +112,7 @@ export function BrandSignature() {
         </div>
 
         {/* Video Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mb-8 md:mb-12 lg:mb-16">
           {videoSeries.map((video, index) => (
             <Link key={video.id} href={`/fluid-sealing-simplified/${video.id}`} className="h-full">
               <motion.div
@@ -213,13 +213,13 @@ export function BrandSignature() {
           {/* Glow Background */}
           <div className="absolute inset-0 bg-gradient-to-r from-[#e31e24]/20 via-blue-500/20 to-purple-500/20 blur-2xl opacity-30"></div>
 
-          <div className="relative bg-gradient-to-br from-[#1a1918] via-[#0f0f0f] to-[#1a1918] border-2 border-[#e31e24]/30 rounded-2xl p-10 lg:p-14 shadow-2xl">
+          <div className="relative bg-gradient-to-br from-[#1a1918] via-[#0f0f0f] to-[#1a1918] border-2 border-[#e31e24]/30 rounded-2xl p-6 md:p-10 lg:p-14 shadow-2xl">
             {/* Accent line at top */}
             <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[#e31e24] to-transparent"></div>
 
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 lg:gap-16 items-center">
               {/* Left: Stats */}
-              <div className="grid grid-cols-3 gap-6">
+              <div className="grid grid-cols-3 gap-3 sm:gap-6">
                 {[
                   { icon: Video, value: '6', label: 'Videos', color: 'from-red-500 to-red-600' },
                   { icon: Users, value: '10K+', label: 'Learners', color: 'from-blue-500 to-blue-600' },
@@ -237,14 +237,14 @@ export function BrandSignature() {
                     {/* Background glow */}
                     <div className={`absolute inset-0 bg-gradient-to-br  opacity-0 group-hover:opacity-20 blur-xl transition-opacity duration-500 rounded-lg`}></div>
 
-                    <div className="relative bg-[#2b2a29]/50 backdrop-blur-sm border border-gray-800 group-hover:border-[#e31e24]/50 rounded-lg p-6 text-center transition-all duration-300">
+                    <div className="relative bg-[#2b2a29]/50 backdrop-blur-sm border border-gray-800 group-hover:border-[#e31e24]/50 rounded-lg p-3 sm:p-6 text-center transition-all duration-300">
                       <motion.div
                         transition={{ duration: 0 }}
                       >
-                        <stat.icon className="w-10 h-10 text-[#e31e24] mx-auto mb-4" />
+                        <stat.icon className="w-6 h-6 sm:w-10 sm:h-10 text-[#e31e24] mx-auto mb-2 sm:mb-4" />
                       </motion.div>
-                      <div className="text-4xl text-white mb-2 font-light">{stat.value}</div>
-                      <div className="text-xs text-gray-500 uppercase tracking-widest">{stat.label}</div>
+                      <div className="text-2xl sm:text-4xl text-white mb-1 sm:mb-2 font-light">{stat.value}</div>
+                      <div className="text-[10px] sm:text-xs text-gray-500 uppercase tracking-widest">{stat.label}</div>
                     </div>
                   </motion.div>
                 ))}
@@ -257,7 +257,7 @@ export function BrandSignature() {
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.6, delay: 1 }}
-                  className="text-3xl text-white mb-4 font-light leading-tight"
+                  className="text-xl sm:text-2xl md:text-3xl text-white mb-3 md:mb-4 font-light leading-tight"
                 >
                   Ready to master <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#e31e24] to-purple-500">fluid sealing</span>?
                 </motion.h3>
@@ -266,7 +266,7 @@ export function BrandSignature() {
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.6, delay: 1.1 }}
-                  className="text-gray-400 mb-8 leading-relaxed"
+                  className="text-gray-400 text-sm sm:text-base mb-6 md:mb-8 leading-relaxed"
                 >
                   Access our complete library of educational videos and become an expert
                 </motion.p>
@@ -278,7 +278,7 @@ export function BrandSignature() {
                     transition={{ duration: 0.6, delay: 1.2 }}
                     whileHover={{ scale: 1.05, boxShadow: "0 0 40px rgba(227, 30, 36, 0.6)" }}
                     whileTap={{ scale: 0.95 }}
-                    className="relative px-10 py-5 bg-gradient-to-r from-[#e31e24] to-[#c41a20] text-white font-medium tracking-wide overflow-hidden flex items-center space-x-3 mx-auto lg:mx-0 group shadow-lg shadow-[#e31e24]/20"
+                    className="relative px-6 py-3 sm:px-8 sm:py-4 md:px-10 md:py-5 bg-gradient-to-r from-[#e31e24] to-[#c41a20] text-white font-medium tracking-wide overflow-hidden inline-flex items-center space-x-2 sm:space-x-3 mx-auto lg:mx-0 group shadow-lg shadow-[#e31e24]/20"
                   >
                     {/* Animated shine effect */}
                     <motion.div
@@ -292,8 +292,8 @@ export function BrandSignature() {
                         repeatDelay: 1,
                       }}
                     />
-                    <Play className="w-6 h-6 relative z-10 group-hover:scale-110 transition-transform" />
-                    <span className="relative z-10 text-lg">Watch Now</span>
+                    <Play className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 relative z-10 group-hover:scale-110 transition-transform" />
+                    <span className="relative z-10 text-base sm:text-lg">Watch Now</span>
                   </motion.button>
                 </Link>
               </div>

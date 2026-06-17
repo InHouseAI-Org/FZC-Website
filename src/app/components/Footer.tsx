@@ -26,11 +26,11 @@ export function Footer() {
 
   return (
     <footer className="bg-[#2b2a29]">
-      <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
+      <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-12">
         {/* Main Footer Content */}
-        <div className="py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12">
+        <div className="py-12 md:py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 md:gap-12">
           {/* Brand Column */}
-          <div className="lg:col-span-2">
+          <div className="lg:col-span-2 text-center md:text-left flex flex-col items-center md:items-start">
             <Link
               href="/"
               className="relative flex items-center mb-6"
@@ -39,13 +39,12 @@ export function Footer() {
                 window.scrollTo({ top: 0, behavior: 'smooth' });
               }}
             >
-              <div className="relative overflow-hidden" style={{ width: '230px', height: '180px' }}>
+              <div className="relative overflow-hidden w-[180px] h-[140px] sm:w-[230px] sm:h-[180px]">
                 <img
                   src={typeof inmarcoLogo === 'string' ? inmarcoLogo : inmarcoLogo.src}
                   alt="INMARCO"
-                  className="absolute"
+                  className="absolute h-full object-contain object-center md:object-left"
                   style={{
-                    height: '100%',
                     top: '0px',
                     left: '0',
                     borderRadius: '0px'
@@ -54,12 +53,12 @@ export function Footer() {
                 {/* <span className="absolute text-white" style={{ fontSize: '18px', top: '-2px', right: '60px' }}>®</span> */}
               </div>
             </Link>
-            <p className="text-gray-400 mb-6 leading-relaxed max-w-sm">
+            <p className="text-gray-400 text-sm sm:text-base mb-4 sm:mb-6 leading-relaxed max-w-sm">
               Engineering precision fluid sealing solutions for the world's most demanding industrial applications.
             </p>
-            
+
             {/* Social Links */}
-            <div className="flex items-center space-x-4">
+            <div className="flex items-center justify-center md:justify-start space-x-4">
               <a
                 href="https://www.linkedin.com/company/inmarco/posts/?feedView=all"
                 target="_blank"
@@ -82,8 +81,8 @@ export function Footer() {
           </div>
 
           {/* Company Links */}
-          <div>
-            <h3 className="text-white text-sm tracking-widest uppercase mb-6">Company</h3>
+          <div className="text-center md:text-left">
+            <h3 className="text-white text-sm tracking-widest uppercase mb-4 sm:mb-6">Company</h3>
             <ul className="space-y-3">
               {footerLinks.company.map((link, index) => (
                 <li key={index}>
@@ -99,8 +98,8 @@ export function Footer() {
           </div>
 
           {/* Products Links */}
-          <div>
-            <h3 className="text-white text-sm tracking-widest uppercase mb-6">Products</h3>
+          <div className="text-center md:text-left">
+            <h3 className="text-white text-sm tracking-widest uppercase mb-4 sm:mb-6">Products</h3>
             <ul className="space-y-3">
               {footerLinks.products.map((link, index) => (
                 <li key={index}>
@@ -116,8 +115,8 @@ export function Footer() {
           </div>
 
           {/* Industries Links */}
-          <div>
-            <h3 className="text-white text-sm tracking-widest uppercase mb-6">Industries</h3>
+          <div className="text-center md:text-left">
+            <h3 className="text-white text-sm tracking-widest uppercase mb-4 sm:mb-6">Industries</h3>
             <ul className="space-y-3">
               {footerLinks.industries.map((link, index) => (
                 <li key={index}>
@@ -134,21 +133,21 @@ export function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-gray-500 py-8">
+        <div className="border-t border-gray-500 py-6 md:py-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <div className="text-gray-500 text-sm">
+            <div className="text-gray-500 text-xs sm:text-sm text-center md:text-left">
               © {currentYear} Inmarco FZC. All rights reserved.
             </div>
-            
-            <div className="flex items-center space-x-6 text-sm">
+
+            <div className="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-6 text-xs sm:text-sm">
               <Link href="/privacy-policy" className="text-gray-500 hover:text-white transition-colors duration-200">
                 Privacy Policy
               </Link>
-              <span className="text-gray-700">|</span>
+              <span className="text-gray-700 hidden sm:inline">|</span>
               <Link href="/terms-of-service" className="text-gray-500 hover:text-white transition-colors duration-200">
                 Terms of Service
               </Link>
-              <span className="text-gray-700">|</span>
+              <span className="text-gray-700 hidden sm:inline">|</span>
               <Link href="/cookie-policy" className="text-gray-500 hover:text-white transition-colors duration-200">
                 Cookie Policy
               </Link>

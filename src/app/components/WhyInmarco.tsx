@@ -238,14 +238,14 @@ export function WhyInmarco() {
           {/* Glow Effect */}
           <div className="absolute inset-0 bg-gradient-to-br from-[#e31e24]/20 via-transparent to-[#e31e24]/10"></div>
 
-          <div className="relative bg-[#2b2a29] border-l-4 border-[#e31e24] p-8 lg:p-12 flex flex-col lg:flex-row items-center justify-between">
+          <div className="relative bg-[#2b2a29] border-l-4 border-[#e31e24] p-6 md:p-8 lg:p-12 flex flex-col lg:flex-row items-center justify-between text-center lg:text-left">
             <div className="mb-6 lg:mb-0">
               <motion.h3
                 initial={{ opacity: 0, x: -20 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: 0.8 }}
-                className="text-3xl text-white mb-2 font-light"
+                className="text-xl sm:text-2xl md:text-3xl text-white mb-3 md:mb-2 font-light"
               >
                 Ready to discuss your sealing challenge?
               </motion.h3>
@@ -254,7 +254,7 @@ export function WhyInmarco() {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: 0.9 }}
-                className="text-gray-400 flex items-center space-x-2"
+                className="text-gray-400 text-sm sm:text-base flex items-center justify-center lg:justify-start space-x-2"
               >
                 <span className="inline-block w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
                 <span>Our engineering team is standing by to help.</span>
@@ -269,7 +269,7 @@ export function WhyInmarco() {
                 transition={{ duration: 0.1, delay: 0 }}
                 whileHover={{ scale: 1.05, boxShadow: "0 0 30px rgba(227, 30, 36, 0.5)" }}
                 whileTap={{ scale: 0.95 }}
-                className="relative px-10 py-4 bg-[#e31e24] text-white tracking-wide overflow-hidden whitespace-nowrap group"
+                className="relative px-6 py-3 sm:px-8 sm:py-3.5 md:px-10 md:py-4 bg-[#e31e24] text-white text-sm sm:text-base tracking-wide overflow-hidden whitespace-nowrap group"
               >
                 {/* Button shine effect */}
                 <motion.div
