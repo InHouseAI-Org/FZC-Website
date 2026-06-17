@@ -11,7 +11,7 @@ export default function IndustriesPage() {
   return (
     <main className="bg-[#2b2a29]">
       {/* Hero Section */}
-      <section className="relative h-[500px] overflow-hidden">
+      <section className="relative h-[400px] md:h-[450px] lg:h-[500px] overflow-hidden">
         <ImageWithFallback
           src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1920"
           alt="Industrial Background"
@@ -26,11 +26,11 @@ export default function IndustriesPage() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
             >
-              <div className="h-[2px] mt-4 w-12 bg-[#e31e24] mb-6"></div>
-              <h1 className="text-white mb-6" style={{ fontSize: '4rem', lineHeight: '1.1', letterSpacing: '-0.02em', maxWidth: '900px' }}>
+              <div className="h-[2px] w-12 bg-[#e31e24] mb-4 md:mb-6"></div>
+              <h1 className="text-white mb-4 md:mb-6" style={{ fontSize: 'clamp(2rem, 5vw, 4rem)', lineHeight: '1.1', letterSpacing: '-0.02em', maxWidth: '900px' }}>
                 Providing Engineering Precision Across Critical Sectors
               </h1>
-              <p className="text-gray-300 text-xl max-w-2xl">
+              <p className="text-gray-300 text-base md:text-lg lg:text-xl max-w-2xl">
                 Trusted by industry leaders worldwide for mission-critical sealing applications in the most demanding environments.
               </p>
             </motion.div>

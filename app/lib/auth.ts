@@ -128,8 +128,7 @@ export async function createSession(username: string): Promise<string> {
     });
 
     // Set cookie
-    const cookieStore = await cookies();
-    cookieStore.set(SESSION_COOKIE_NAME, token, {
+    (await cookies()).set(SESSION_COOKIE_NAME, token, {
       httpOnly: true,
       secure: process.env.NODE_ENV === 'production',
       sameSite: 'lax',
@@ -148,8 +147,7 @@ export async function createSession(username: string): Promise<string> {
  * Get current session token from cookie
  */
 export async function getSessionToken(): Promise<string | undefined> {
-  const cookieStore = await cookies();
-  return cookieStore.get(SESSION_COOKIE_NAME)?.value;
+  return (await cookies()).get(SESSION_COOKIE_NAME)?.value;
 }
 
 /**

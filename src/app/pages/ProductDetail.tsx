@@ -203,59 +203,61 @@ export default function ProductDetail() {
               >
                 {product.specifications && Object.keys(product.specifications).length > 0 && (
                   <>
-                    <div className="flex items-center space-x-3 mb-6">
-                      <div className="h-[2px] w-12 bg-[#e31e24]"></div>
-                      <span className="text-sm tracking-widest text-gray-400 uppercase">Technical Data</span>
+                    <div className="flex items-center space-x-2 sm:space-x-3 mb-4 sm:mb-6">
+                      <div className="h-[2px] w-8 sm:w-12 bg-[#e31e24]"></div>
+                      <span className="text-xs sm:text-sm tracking-widest text-gray-400 uppercase">Technical Data</span>
                     </div>
-                    <h2 className="text-white text-3xl mb-6 tracking-tight">Specifications</h2>
+                    <h2 className="text-white text-xl sm:text-2xl md:text-3xl mb-4 sm:mb-6 tracking-tight">Specifications</h2>
 
                     {/* Equipment-Specific Specifications Table */}
                     {(product.specifications as any).byEquipmentType ? (
-                      <div className="space-y-6">
+                      <div className="space-y-4 sm:space-y-6">
                         {/* Equipment Type Table */}
-                        <div className="overflow-x-auto">
-                          <table className="w-full bg-[#2b2a29] border border-gray-800 rounded-lg overflow-hidden">
-                            <thead>
-                              <tr className="bg-[#1a1918]">
-                                <th className="px-4 py-3 text-left text-gray-400 text-sm font-medium border-b border-gray-800">Equipment Type</th>
-                                <th className="px-4 py-3 text-left text-gray-400 text-sm font-medium border-b border-gray-800">Pressure</th>
-                                <th className="px-4 py-3 text-left text-gray-400 text-sm font-medium border-b border-gray-800">Velocity</th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              {(product.specifications as any).byEquipmentType.rotating && (
-                                <tr className="border-b border-gray-800">
-                                  <td className="px-4 py-3 text-white font-medium">Rotating</td>
-                                  <td className="px-4 py-3 text-gray-300">{(product.specifications as any).byEquipmentType.rotating.pressure || '---'}</td>
-                                  <td className="px-4 py-3 text-gray-300">{(product.specifications as any).byEquipmentType.rotating.velocity || '---'}</td>
+                        <div className="overflow-x-auto -mx-4 sm:mx-0">
+                          <div className="inline-block min-w-full align-middle px-4 sm:px-0">
+                            <table className="min-w-full bg-[#2b2a29] border border-gray-800 rounded-lg overflow-hidden">
+                              <thead>
+                                <tr className="bg-[#1a1918]">
+                                  <th className="px-2 sm:px-4 py-2 sm:py-3 text-left text-gray-400 text-xs sm:text-sm font-medium border-b border-gray-800 whitespace-nowrap">Equipment Type</th>
+                                  <th className="px-2 sm:px-4 py-2 sm:py-3 text-left text-gray-400 text-xs sm:text-sm font-medium border-b border-gray-800 whitespace-nowrap">Pressure</th>
+                                  <th className="px-2 sm:px-4 py-2 sm:py-3 text-left text-gray-400 text-xs sm:text-sm font-medium border-b border-gray-800 whitespace-nowrap">Velocity</th>
                                 </tr>
-                              )}
-                              {(product.specifications as any).byEquipmentType.reciprocating && (
-                                <tr className="border-b border-gray-800">
-                                  <td className="px-4 py-3 text-white font-medium">Reciprocating</td>
-                                  <td className="px-4 py-3 text-gray-300">{(product.specifications as any).byEquipmentType.reciprocating.pressure || '---'}</td>
-                                  <td className="px-4 py-3 text-gray-300">{(product.specifications as any).byEquipmentType.reciprocating.velocity || '---'}</td>
-                                </tr>
-                              )}
-                              {(product.specifications as any).byEquipmentType.static && (
-                                <tr>
-                                  <td className="px-4 py-3 text-white font-medium">Static</td>
-                                  <td className="px-4 py-3 text-gray-300">{(product.specifications as any).byEquipmentType.static.pressure || '---'}</td>
-                                  <td className="px-4 py-3 text-gray-300">{(product.specifications as any).byEquipmentType.static.velocity || '---'}</td>
-                                </tr>
-                              )}
-                            </tbody>
-                          </table>
+                              </thead>
+                              <tbody>
+                                {(product.specifications as any).byEquipmentType.rotating && (
+                                  <tr className="border-b border-gray-800">
+                                    <td className="px-2 sm:px-4 py-2 sm:py-3 text-white text-xs sm:text-base font-medium whitespace-nowrap">Rotating</td>
+                                    <td className="px-2 sm:px-4 py-2 sm:py-3 text-gray-300 text-xs sm:text-base">{(product.specifications as any).byEquipmentType.rotating.pressure || '---'}</td>
+                                    <td className="px-2 sm:px-4 py-2 sm:py-3 text-gray-300 text-xs sm:text-base">{(product.specifications as any).byEquipmentType.rotating.velocity || '---'}</td>
+                                  </tr>
+                                )}
+                                {(product.specifications as any).byEquipmentType.reciprocating && (
+                                  <tr className="border-b border-gray-800">
+                                    <td className="px-2 sm:px-4 py-2 sm:py-3 text-white text-xs sm:text-base font-medium whitespace-nowrap">Reciprocating</td>
+                                    <td className="px-2 sm:px-4 py-2 sm:py-3 text-gray-300 text-xs sm:text-base">{(product.specifications as any).byEquipmentType.reciprocating.pressure || '---'}</td>
+                                    <td className="px-2 sm:px-4 py-2 sm:py-3 text-gray-300 text-xs sm:text-base">{(product.specifications as any).byEquipmentType.reciprocating.velocity || '---'}</td>
+                                  </tr>
+                                )}
+                                {(product.specifications as any).byEquipmentType.static && (
+                                  <tr>
+                                    <td className="px-2 sm:px-4 py-2 sm:py-3 text-white text-xs sm:text-base font-medium whitespace-nowrap">Static</td>
+                                    <td className="px-2 sm:px-4 py-2 sm:py-3 text-gray-300 text-xs sm:text-base">{(product.specifications as any).byEquipmentType.static.pressure || '---'}</td>
+                                    <td className="px-2 sm:px-4 py-2 sm:py-3 text-gray-300 text-xs sm:text-base">{(product.specifications as any).byEquipmentType.static.velocity || '---'}</td>
+                                  </tr>
+                                )}
+                              </tbody>
+                            </table>
+                          </div>
                         </div>
 
                         {/* Common Specifications */}
                         {(product.specifications as any).common && Object.keys((product.specifications as any).common).length > 0 && (
-                          <div className="space-y-4 pt-4">
-                            <h3 className="text-white text-lg mb-4 tracking-tight">Common Specifications</h3>
+                          <div className="space-y-3 sm:space-y-4 pt-4">
+                            <h3 className="text-white text-base sm:text-lg mb-3 sm:mb-4 tracking-tight">Common Specifications</h3>
                             {Object.entries((product.specifications as any).common).map(([key, value]) => (
-                              <div key={key} className="flex justify-between py-3 border-b border-gray-800">
-                                <span className="text-gray-400">{key}</span>
-                                <span className="text-white font-medium">{value as string}</span>
+                              <div key={key} className="flex flex-col sm:grid sm:grid-cols-2 gap-1 sm:gap-4 py-2 sm:py-3 border-b border-gray-800">
+                                <span className="text-gray-400 text-xs sm:text-base break-words">{key}</span>
+                                <span className="text-white text-sm sm:text-base font-medium break-words sm:text-right">{value as string}</span>
                               </div>
                             ))}
                           </div>
@@ -263,11 +265,11 @@ export default function ProductDetail() {
                       </div>
                     ) : (
                       /* Standard Specifications Display */
-                      <div className="space-y-4">
+                      <div className="space-y-3 sm:space-y-4">
                         {Object.entries(product.specifications).map(([key, value]) => (
-                          <div key={key} className="flex justify-between py-3 border-b border-gray-800">
-                            <span className="text-gray-400">{key}</span>
-                            <span className="text-white font-medium">{value as string}</span>
+                          <div key={key} className="flex flex-col sm:grid sm:grid-cols-2 gap-1 sm:gap-4 py-2 sm:py-3 border-b border-gray-800">
+                            <span className="text-gray-400 text-xs sm:text-base break-words">{key}</span>
+                            <span className="text-white text-sm sm:text-base font-medium break-words sm:text-right">{value as string}</span>
                           </div>
                         ))}
                       </div>
@@ -276,13 +278,13 @@ export default function ProductDetail() {
                 )}
 
                 {product.technicalData && Object.keys(product.technicalData).length > 0 && (
-                  <div className="mt-8 bg-[#2b2a29] p-6 rounded-lg">
-                    <h3 className="text-white text-lg mb-4 tracking-tight">Additional Technical Data</h3>
-                    <div className="space-y-3">
+                  <div className="mt-6 sm:mt-8 bg-[#2b2a29] p-4 sm:p-6 rounded-lg">
+                    <h3 className="text-white text-base sm:text-lg mb-3 sm:mb-4 tracking-tight">Additional Technical Data</h3>
+                    <div className="space-y-2 sm:space-y-3">
                       {Object.entries(product.technicalData).map(([key, value]) => (
-                        <div key={key} className="flex justify-between">
-                          <span className="text-gray-400 text-sm">{key}</span>
-                          <span className="text-white text-sm font-medium">{value as string}</span>
+                        <div key={key} className="flex flex-col sm:grid sm:grid-cols-2 gap-1 sm:gap-4">
+                          <span className="text-gray-400 text-xs sm:text-sm break-words">{key}</span>
+                          <span className="text-white text-sm font-medium break-words sm:text-right">{value as string}</span>
                         </div>
                       ))}
                     </div>
@@ -300,18 +302,18 @@ export default function ProductDetail() {
             >
               {/* Key Features */}
               {product.features && product.features.length > 0 && (
-                <div className="mb-12">
-                  <div className="flex items-center space-x-3 mb-6">
-                    <div className="h-[2px] w-12 bg-[#e31e24]"></div>
-                    <span className="text-sm tracking-widest text-gray-400 uppercase">Benefits</span>
+                <div className="mb-8 sm:mb-12">
+                  <div className="flex items-center space-x-2 sm:space-x-3 mb-4 sm:mb-6">
+                    <div className="h-[2px] w-8 sm:w-12 bg-[#e31e24]"></div>
+                    <span className="text-xs sm:text-sm tracking-widest text-gray-400 uppercase">Benefits</span>
                   </div>
-                  <h2 className="text-white text-3xl mb-6 tracking-tight">Key Features</h2>
+                  <h2 className="text-white text-xl sm:text-2xl md:text-3xl mb-4 sm:mb-6 tracking-tight">Key Features</h2>
 
-                  <div className="space-y-3">
+                  <div className="space-y-2 sm:space-y-3">
                     {product.features.map((feature, idx) => (
-                      <div key={idx} className="flex items-start space-x-3">
-                        <CheckCircle2 className="w-5 h-5 text-[#e31e24] flex-shrink-0 mt-0.5" />
-                        <span className="text-gray-300">{feature}</span>
+                      <div key={idx} className="flex items-start space-x-2 sm:space-x-3">
+                        <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#e31e24] flex-shrink-0 mt-0.5" />
+                        <span className="text-gray-300 text-sm sm:text-base">{feature}</span>
                       </div>
                     ))}
                   </div>
@@ -321,17 +323,17 @@ export default function ProductDetail() {
               {/* Applications */}
               {product.applications && product.applications.length > 0 && (
                 <div>
-                  <div className="flex items-center space-x-3 mb-6">
-                    <div className="h-[2px] w-12 bg-[#e31e24]"></div>
-                    <span className="text-sm tracking-widest text-gray-400 uppercase">Use Cases</span>
+                  <div className="flex items-center space-x-2 sm:space-x-3 mb-4 sm:mb-6">
+                    <div className="h-[2px] w-8 sm:w-12 bg-[#e31e24]"></div>
+                    <span className="text-xs sm:text-sm tracking-widest text-gray-400 uppercase">Use Cases</span>
                   </div>
-                  <h2 className="text-white text-3xl mb-6 tracking-tight">Applications</h2>
+                  <h2 className="text-white text-xl sm:text-2xl md:text-3xl mb-4 sm:mb-6 tracking-tight">Applications</h2>
 
-                  <div className="space-y-3">
+                  <div className="space-y-2 sm:space-y-3">
                     {product.applications.map((application, idx) => (
-                      <div key={idx} className="flex items-start space-x-3">
-                        <CheckCircle2 className="w-5 h-5 text-[#e31e24] flex-shrink-0 mt-0.5" />
-                        <span className="text-gray-300">{application}</span>
+                      <div key={idx} className="flex items-start space-x-2 sm:space-x-3">
+                        <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#e31e24] flex-shrink-0 mt-0.5" />
+                        <span className="text-gray-300 text-sm sm:text-base">{application}</span>
                       </div>
                     ))}
                   </div>

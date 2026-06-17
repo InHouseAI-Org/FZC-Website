@@ -557,7 +557,7 @@ export default function AboutUs() {
                 {/* Overlay text */}
 
                 {/* Legend */}
-                <div className="absolute bottom-15 left-1 bg-transparent rounded-lg p-4">
+                <div className="absolute bottom-[90px] md:bottom-15 left-1 bg-transparent rounded-lg p-4">
                   <div className="flex items-center gap-3 mb-2">
                     <div className="w-4 h-4 bg-[#e31e24] rounded-full"></div>
                     <span className="text-white text-[12px] font-semibold">Headquarters - UAE</span>
