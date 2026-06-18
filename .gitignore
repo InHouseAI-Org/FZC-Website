@@ -70,6 +70,7 @@ public/Datasheet lot
 # Static assets (served from S3/CloudFront)
 public/FZC Inmarco Product Shoot/
 public/worldwide-global-map-outline-black-background/
+s3-upload-staging/
 
 # Industry images (served from S3/CloudFront)
 public/*.jpg

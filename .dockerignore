@@ -62,6 +62,7 @@ public/FZC Inmarco Product Shoot/Videos/
 public/FZC Inmarco Product Shoot/
 public/datasheets/
 public/worldwide-global-map-outline-black-background/
+s3-upload-staging/
 
 # Industry images (now served from CloudFront)
 public/*.jpg
