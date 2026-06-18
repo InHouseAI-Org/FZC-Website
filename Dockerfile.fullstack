@@ -1,0 +1,18 @@
+# Multi-stage build that includes Nginx and configs
+FROM manav27/inmarco-website:latest AS app
+
+# Build nginx stage with configs
+FROM nginx:alpine AS nginx-configured
+
+# Copy nginx config
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+
+# Copy setup scripts
+COPY init-letsencrypt.sh /usr/local/bin/
+RUN chmod +x /usr/local/bin/init-letsencrypt.sh
+
+# Copy docker-compose
+COPY docker-compose.prod.yml /config/
+COPY .env.production.example /config/.env.example
+
+FROM app
