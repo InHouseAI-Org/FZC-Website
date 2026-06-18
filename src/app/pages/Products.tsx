@@ -288,7 +288,7 @@ export default function Products() {
                                 loop
                                 muted
                                 playsInline
-                                preload="none"
+                                preload="metadata"
                                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                               />
                             ) : (
@@ -366,7 +366,7 @@ export default function Products() {
                           loop
                           muted
                           playsInline
-                          preload="none"
+                          preload="metadata"
                           className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                         />
                       ) : (

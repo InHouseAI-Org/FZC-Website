@@ -249,7 +249,7 @@
   "products": [
     {
       "id": 27,
-      "subcategoryId": 3,
+      "subcategoryId": 10,
       "name": "PE 505",
       "slug": "pe-505",
       "material": "PTFE",
@@ -326,7 +326,7 @@
     },
     {
       "id": 28,
-      "subcategoryId": 3,
+      "subcategoryId": 10,
       "name": "PE 504",
       "slug": "pe-504",
       "material": "PTFE",
@@ -374,7 +374,7 @@
     },
     {
       "id": 29,
-      "subcategoryId": 5,
+      "subcategoryId": 12,
       "name": "HY 504",
       "slug": "hy-504",
       "material": "HYBRID",
@@ -440,7 +440,7 @@
     },
     {
       "id": 30,
-      "subcategoryId": 3,
+      "subcategoryId": 10,
       "name": "PE 508",
       "slug": "pe-508",
       "material": "PTFE",
@@ -489,7 +489,7 @@
     },
     {
       "id": 31,
-      "subcategoryId": 3,
+      "subcategoryId": 10,
       "name": "PE 509",
       "slug": "pe-509",
       "material": "PTFE",
@@ -542,7 +542,7 @@
     },
     {
       "id": 32,
-      "subcategoryId": 5,
+      "subcategoryId": 12,
       "name": "HY 105",
       "slug": "hy-105",
       "material": "HYBRID",
@@ -617,7 +617,7 @@
     },
     {
       "id": 33,
-      "subcategoryId": 5,
+      "subcategoryId": 12,
       "name": "HY 105T",
       "slug": "hy-105t",
       "material": "HYBRID",
@@ -664,7 +664,7 @@
     },
     {
       "id": 34,
-      "subcategoryId": 5,
+      "subcategoryId": 12,
       "name": "HY 107",
       "slug": "hy-107",
       "material": "HYBRID",
@@ -732,7 +732,7 @@
     },
     {
       "id": 35,
-      "subcategoryId": 5,
+      "subcategoryId": 12,
       "name": "HY 175",
       "slug": "hy-175",
       "material": "HYBRID",
@@ -798,7 +798,7 @@
     },
     {
       "id": 36,
-      "subcategoryId": 4,
+      "subcategoryId": 11,
       "name": "PA 106",
       "slug": "pa-106",
       "material": "POLYIMIDE",
@@ -848,7 +848,7 @@
     },
     {
       "id": 37,
-      "subcategoryId": 30,
+      "subcategoryId": 13,
       "name": "OR 125",
       "slug": "or-125",
       "material": "ORGANIC",
@@ -896,7 +896,7 @@
     },
     {
       "id": 38,
-      "subcategoryId": 2,
+      "subcategoryId": 9,
       "name": "CG 101",
       "slug": "cg-101",
       "material": "CARBON/GRAPHITE",
@@ -953,7 +953,7 @@
     },
     {
       "id": 39,
-      "subcategoryId": 3,
+      "subcategoryId": 10,
       "name": "PE 102",
       "slug": "pe-102",
       "material": "PTFE",
@@ -1001,7 +1001,7 @@
     },
     {
       "id": 40,
-      "subcategoryId": 2,
+      "subcategoryId": 9,
       "name": "CG 100",
       "slug": "cg-100",
       "material": "CARBON/GRAPHITE",
@@ -1068,7 +1068,7 @@
     },
     {
       "id": 41,
-      "subcategoryId": 2,
+      "subcategoryId": 9,
       "name": "CG 102",
       "slug": "cg-102",
       "material": "CARBON/GRAPHITE",
@@ -1117,7 +1117,7 @@
     },
     {
       "id": 42,
-      "subcategoryId": 25,
+      "subcategoryId": 22,
       "name": "IN 123",
       "slug": "in-123",
       "material": "INSULATION",
@@ -1174,7 +1174,7 @@
     },
     {
       "id": 43,
-      "subcategoryId": 25,
+      "subcategoryId": 22,
       "name": "IN 123I",
       "slug": "in-123i",
       "material": "INSULATION",
@@ -1231,7 +1231,7 @@
     },
     {
       "id": 44,
-      "subcategoryId": 30,
+      "subcategoryId": 13,
       "name": "OR 120",
       "slug": "or-120",
       "material": "ORGANIC",
@@ -1279,7 +1279,7 @@
     },
     {
       "id": 45,
-      "subcategoryId": 5,
+      "subcategoryId": 12,
       "name": "HY 120AR",
       "slug": "hy-120ar",
       "material": "HYBRID",
@@ -1342,7 +1342,7 @@
     },
     {
       "id": 46,
-      "subcategoryId": 24,
+      "subcategoryId": 21,
       "name": "IN 140",
       "slug": "in-140",
       "material": "INSULATION",
@@ -1390,7 +1390,7 @@
     },
     {
       "id": 47,
-      "subcategoryId": 2,
+      "subcategoryId": 9,
       "name": "CG 900",
       "slug": "cg-900",
       "material": "CARBON/GRAPHITE",
@@ -1442,7 +1442,7 @@
     },
     {
       "id": 48,
-      "subcategoryId": 5,
+      "subcategoryId": 12,
       "name": "HY 501",
       "slug": "hy-501",
       "material": "HYBRID",
@@ -1490,7 +1490,7 @@
     },
     {
       "id": 49,
-      "subcategoryId": 2,
+      "subcategoryId": 9,
       "name": "CG 503",
       "slug": "cg-503",
       "material": "CARBON/GRAPHITE",
@@ -1545,20 +1545,20 @@
         "Semiconductor manufacturing systems"
       ],
       "gallery": [
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG%20503/CG%20503%20Updated/CG%20503%20-%2034_19_2.webp",
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG%20503/CG%20503%20Updated/CG%20503%20-%2053(34)_03_2.webp",
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG%20503/CG%20503%20Updated/CG%20503%20-%2053(34)_08_2.webp"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG%20503/CG%20503%20-%2034_19_2.webp",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG%20503/CG%20503%20-%2053(34)_03_2.webp",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG%20503/CG%20503%20-%2053(34)_08_2.webp"
       ],
       "images": [
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG%20503/CG%20503%20Updated/CG%20503%20-%2034_19_2.webp",
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG%20503/CG%20503%20Updated/CG%20503%20-%2053(34)_03_2.webp",
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG%20503/CG%20503%20Updated/CG%20503%20-%2053(34)_08_2.webp"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG%20503/CG%20503%20-%2034_19_2.webp",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG%20503/CG%20503%20-%2053(34)_03_2.webp",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG%20503/CG%20503%20-%2053(34)_08_2.webp"
       ],
       "datasheet": "/datasheets/new_generated_html/Style_CG_503.html"
     },
     {
       "id": 50,
-      "subcategoryId": 3,
+      "subcategoryId": 10,
       "name": "PE 104",
       "slug": "pe-104",
       "material": "PTFE",
@@ -1605,7 +1605,7 @@
     },
     {
       "id": 51,
-      "subcategoryId": 5,
+      "subcategoryId": 12,
       "name": "HY 606",
       "slug": "hy-606",
       "material": "HYBRID",
@@ -1652,7 +1652,7 @@
     },
     {
       "id": 52,
-      "subcategoryId": 2,
+      "subcategoryId": 9,
       "name": "CG 501C",
       "slug": "cg-501c",
       "material": "CARBON/GRAPHITE",
@@ -1719,7 +1719,7 @@
     },
     {
       "id": 53,
-      "subcategoryId": 5,
+      "subcategoryId": 12,
       "name": "HY 801",
       "slug": "hy-801",
       "material": "HYBRID",
@@ -1773,7 +1773,7 @@
     },
     {
       "id": 54,
-      "subcategoryId": 4,
+      "subcategoryId": 11,
       "name": "PA 499",
       "slug": "pa-499",
       "material": "POLYIMIDE",
@@ -1822,7 +1822,7 @@
     },
     {
       "id": 55,
-      "subcategoryId": 5,
+      "subcategoryId": 12,
       "name": "HY 510",
       "slug": "hy-510",
       "material": "HYBRID",
@@ -1870,7 +1870,7 @@
     },
     {
       "id": 56,
-      "subcategoryId": 4,
+      "subcategoryId": 11,
       "name": "PE 104A",
       "slug": "pe-104a",
       "material": "POLYIMIDE",
@@ -1920,7 +1920,7 @@
     },
     {
       "id": 57,
-      "subcategoryId": 1,
+      "subcategoryId": 8,
       "name": "ULTRA LE 1002",
       "slug": "ultra-le-1002",
       "material": "FUGITIVE EMISSION",
@@ -1974,7 +1974,7 @@
     },
     {
       "id": 58,
-      "subcategoryId": 1,
+      "subcategoryId": 8,
       "name": "ULTRA FE 1003",
       "slug": "ultra-fe-1003",
       "material": "FUGITIVE EMISSION",
@@ -2030,7 +2030,7 @@
     },
     {
       "id": 59,
-      "subcategoryId": 1,
+      "subcategoryId": 8,
       "name": "ULTRA LT 1004",
       "slug": "ultra-lt-1004",
       "material": "FUGITIVE EMISSION",
@@ -2085,7 +2085,7 @@
     },
     {
       "id": 60,
-      "subcategoryId": 1,
+      "subcategoryId": 8,
       "name": "ULTRA NE 1005",
       "slug": "ultra-ne-1005",
       "material": "FUGITIVE EMISSION",
@@ -2143,7 +2143,7 @@
     },
     {
       "id": 61,
-      "subcategoryId": 5,
+      "subcategoryId": 12,
       "name": "HY 105 HD",
       "slug": "hy-105-hd",
       "material": "HYBRID",
@@ -2192,7 +2192,7 @@
     },
     {
       "id": 62,
-      "subcategoryId": 5,
+      "subcategoryId": 12,
       "name": "HY 107 HD",
       "slug": "hy-107-hd",
       "material": "HYBRID",
@@ -2241,7 +2241,7 @@
     },
     {
       "id": 63,
-      "subcategoryId": 30,
+      "subcategoryId": 13,
       "name": "OR 125SR",
       "slug": "or-125sr",
       "material": "ORGANIC",
@@ -2293,7 +2293,7 @@
     },
     {
       "id": 64,
-      "subcategoryId": 6,
+      "subcategoryId": 14,
       "name": "GM 300 / GM 300Z",
       "slug": "gm-300z",
       "material": "GRAPHITE MOULDED",
@@ -2356,7 +2356,7 @@
     },
     {
       "id": 65,
-      "subcategoryId": 7,
+      "subcategoryId": 15,
       "name": "GM 310 / GM 310C",
       "slug": "gm-310c",
       "material": "GRAPHITE MOULDED",
@@ -2412,7 +2412,7 @@
     },
     {
       "id": 66,
-      "subcategoryId": 12,
+      "subcategoryId": 20,
       "name": "INMATEX EPTFE SHEET/GASKET",
       "slug": "inmatex-eptfe-sheet-gasket",
       "material": "EXPANDED PTFE",
@@ -2468,7 +2468,7 @@
     },
     {
       "id": 67,
-      "subcategoryId": 8,
+      "subcategoryId": 16,
       "name": "GM 360",
       "slug": "gm-360",
       "material": "LAMINATED GRAPHITE",
@@ -2568,7 +2568,7 @@
     },
     {
       "id": 69,
-      "subcategoryId": 27,
+      "subcategoryId": 24,
       "name": "750SS WELDING BLANKET",
       "slug": "750ss-welding-blanket",
       "material": "THERMAL PROTECTION",
@@ -2782,16 +2782,6 @@
         "Hydraulic systems",
         "Aerospace applications"
       ],
-      "gallery": [
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Rigid%20FTFE/Rigid%20FTFE_1.webp",
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Rigid%20FTFE/Rigid%20FTFE_2.webp",
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Rigid%20FTFE/Rigid%20FTFE_3.webp"
-      ],
-      "images": [
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Rigid%20FTFE/Rigid%20FTFE_1.webp",
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Rigid%20FTFE/Rigid%20FTFE_2.webp",
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Rigid%20FTFE/Rigid%20FTFE_3.webp"
-      ],
       "datasheet": "/datasheets/new_generated_html/Shim_Gasket.html"
     },
     {
@@ -2803,7 +2793,7 @@
       "apiCertified": false,
       "shortDescription": "Metal jacketed gaskets with soft filler core",
       "description": "Robust double-jacketed metal gaskets combining the chemical resistance of metal with the conformability of soft filler material. Protects filler from chemical attack while providing excellent sealing.",
-      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/DJ/DJ%20-%2018_19.webp",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/DJ/DJ_1_2.webp",
       "specifications": {
         "Operating Temperature": "-200°C to +550°C*",
         "Pressure Range": "Vacuum to 150 bar*",
@@ -2833,14 +2823,14 @@
         "Damaged or irregular flanges"
       ],
       "gallery": [
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/DJ/DJ%20Updated/DJ_1_2.webp",
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/DJ/DJ%20Updated/DJ_2_2.webp",
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/DJ/DJ%20Updated/DJ_3_2.webp"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/DJ/DJ_1_2.webp",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/DJ/DJ_2_2.webp",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/DJ/DJ_3_2.webp"
       ],
       "images": [
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/DJ/DJ%20Updated/DJ_1_2.webp",
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/DJ/DJ%20Updated/DJ_2_2.webp",
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/DJ/DJ%20Updated/DJ_3_2.webp"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/DJ/DJ_1_2.webp",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/DJ/DJ_2_2.webp",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/DJ/DJ_3_2.webp"
       ],
       "datasheet": "/datasheets/new_generated_html/Double_Jacketed_Gasket.html"
     },
@@ -2903,7 +2893,7 @@
       "apiCertified": false,
       "shortDescription": "Corrugated metal gaskets for flexible sealing",
       "description": "Flexible corrugated metal gaskets providing excellent resilience and adaptability to flange irregularities. Engineered to accommodate flange movement and thermal cycling while maintaining sealing integrity.",
-      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Corrugated%20Gasket/Corrugated%20Gasket.webp",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Corrugated%20Gasket/Corrugated%20Gasket_1_2.webp",
       "specifications": {
         "Operating Temperature": "Cryogenic to +550°C*",
         "Maximum Temperature with Special Facing": "Up to +1000°C*",
@@ -2933,14 +2923,14 @@
         "Thermal cycling applications"
       ],
       "gallery": [
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Corrugated%20Gasket/Corrugated%20Gasket%20Updated/Corrugated%20Gasket_1_2.webp",
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Corrugated%20Gasket/Corrugated%20Gasket%20Updated/Corrugated%20Gasket_2_2.webp",
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Corrugated%20Gasket/Corrugated%20Gasket%20Updated/Corrugated%20Gasket_3_2.webp"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Corrugated%20Gasket/Corrugated%20Gasket_1_2.webp",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Corrugated%20Gasket/Corrugated%20Gasket_2_2.webp",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Corrugated%20Gasket/Corrugated%20Gasket_3_2.webp"
       ],
       "images": [
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Corrugated%20Gasket/Corrugated%20Gasket%20Updated/Corrugated%20Gasket_1_2.webp",
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Corrugated%20Gasket/Corrugated%20Gasket%20Updated/Corrugated%20Gasket_2_2.webp",
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Corrugated%20Gasket/Corrugated%20Gasket%20Updated/Corrugated%20Gasket_3_2.webp"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Corrugated%20Gasket/Corrugated%20Gasket_1_2.webp",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Corrugated%20Gasket/Corrugated%20Gasket_2_2.webp",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Corrugated%20Gasket/Corrugated%20Gasket_3_2.webp"
       ],
       "datasheet": "/datasheets/new_generated_html/Corrugated_Metal_Gasket.html"
     },
@@ -3092,7 +3082,7 @@
     },
     {
       "id": 79,
-      "subcategoryId": 9,
+      "subcategoryId": 17,
       "name": "NA 432",
       "slug": "na-432",
       "material": "CNAF",
@@ -3143,7 +3133,7 @@
     },
     {
       "id": 80,
-      "subcategoryId": 9,
+      "subcategoryId": 17,
       "name": "NA 420",
       "slug": "na-420",
       "material": "CNAF",
@@ -3193,7 +3183,7 @@
     },
     {
       "id": 81,
-      "subcategoryId": 9,
+      "subcategoryId": 17,
       "name": "NA 450",
       "slug": "na-450",
       "material": "CNAF",
@@ -3244,7 +3234,7 @@
     },
     {
       "id": 82,
-      "subcategoryId": 9,
+      "subcategoryId": 17,
       "name": "NA 452 GE",
       "slug": "na-452-ge",
       "material": "CNAF",
@@ -3295,7 +3285,7 @@
     },
     {
       "id": 83,
-      "subcategoryId": 9,
+      "subcategoryId": 17,
       "name": "NA 430",
       "slug": "na-430",
       "material": "CNAF",
@@ -3345,7 +3335,7 @@
     },
     {
       "id": 84,
-      "subcategoryId": 9,
+      "subcategoryId": 17,
       "name": "NA 442",
       "slug": "na-442",
       "material": "CNAF",
@@ -3396,7 +3386,7 @@
     },
     {
       "id": 85,
-      "subcategoryId": 9,
+      "subcategoryId": 17,
       "name": "SST 323",
       "slug": "sst-323",
       "material": "CNAF",
@@ -3449,7 +3439,7 @@
     },
     {
       "id": 86,
-      "subcategoryId": 11,
+      "subcategoryId": 19,
       "name": "600 Sintered PTFE Sheet",
       "slug": "600-sintered-ptfe-sheet",
       "material": "PTFE",
@@ -3500,14 +3490,14 @@
     {
       "id": 87,
       "categoryId": 7,
-      "subcategoryId": 31,
+      "subcategoryId": 25,
       "name": "Aramid Based Wiping Pad",
       "slug": "aramid-based-wiping-pad",
       "material": "Copolymer Yarn with High-Tensile Inorganic Filaments",
       "apiCertified": true,
       "shortDescription": "High-performance wiping pad made from copolymer yarn for wire drawing and galvanizing industries",
       "description": "Specially designed aramid-based wiping pad for the wire drawing industry, providing exceptional strength and durability for high-speed continuous operations. Engineered to withstand extreme mechanical stress.",
-      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Yellow%20Wiping%20Pad/Yellow%20Wiping%20Pad_1.webp",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Wiping+Pad/(1)_02.JPG.webp",
       "specifications": {
         "pH Range": "0 - 14 (Universal)",
         "Temperature Range": "-200°C to +450°C",
@@ -3540,21 +3530,21 @@
         "High-pressure industrial wiping applications"
       ],
       "gallery": [
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Wiping%20Pad/(1)_02.webp",
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Wiping%20Pad/Wiping%20Pad_1.webp",
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Wiping%20Pad/Wiping%20Pad_2.webp"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Wiping+Pad/(1)_02.JPG.webp",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Wiping+Pad/Wiping+Pad_1.webp",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Wiping+Pad/Wiping+Pad_2.webp"
       ],
       "images": [
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Wiping%20Pad/(1)_02.webp",
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Wiping%20Pad/Wiping%20Pad_1.webp",
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Wiping%20Pad/Wiping%20Pad_2.webp"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Wiping+Pad/(1)_02.JPG.webp",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Wiping+Pad/Wiping+Pad_1.webp",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Wiping+Pad/Wiping+Pad_2.webp"
       ],
       "datasheet": "/datasheets/new_generated_html/Aramid_Wiping_Pad.html"
     },
     {
       "id": 88,
       "categoryId": 7,
-      "subcategoryId": 32,
+      "subcategoryId": 26,
       "name": "High Temperature Wiping Pad",
       "slug": "high-temperature-wiping-pad",
       "material": "Hybrid Blend of Carbon Fiber, Volcanic Rock Fiber, and Alumino Silicate Fiber",
@@ -3607,14 +3597,14 @@
     {
       "id": 89,
       "categoryId": 3,
-      "subcategoryId": 10,
+      "subcategoryId": 18,
       "name": "FG 320",
       "slug": "fg-320",
       "material": "INGRAF Plain Sheet - Pure Flexible Graphite",
       "apiCertified": false,
       "shortDescription": "High-purity flexible graphite sheet with 99% to 99.9% carbon content for extreme temperature and pressure applications",
       "description": "FG 320 is manufactured from exfoliated graphite through acid treatment with 100% acids washed out by DM water. The manufacturing process is mechanical without incorporation of any additives or bonding material, resulting in flexible pure graphite sheet with carbon content 99% to 99.9%. Highly resilient and easily adapts to irregularities of flange or surface to make perfect seal. Suitable for metallic, glass, and enamel flanges, designed for trouble-free change over which ultimately reduces maintenance cost. Dimensionally stable under extreme pressure surge and suitable for cryogenic services.",
-      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Plain%20Graphite%20Gasket/96_01.webp",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Plain%20Graphite%20Gasket/Plain%20Graphite%20Gasket_01.JPG.webp",
       "specifications": {
         "pH Range": "0 - 14 (Universal)",
         "Temperature (°C)": "Min -200 to max. 550",
@@ -3673,21 +3663,21 @@
         "Lube oil and general industrial sealing"
       ],
       "gallery": [
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Plain%20Graphite%20Gasket/Plain%20Graphite%20Gasket_01.webp",
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Plain%20Graphite%20Gasket/Plain%20Graphite%20Gasket_02.webp",
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Plain%20Graphite%20Gasket/Plain%20Graphite%20Gasket_03.webp"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Plain%20Graphite%20Gasket/Plain%20Graphite%20Gasket_01.JPG.webp",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Plain%20Graphite%20Gasket/Plain%20Graphite%20Gasket_02.JPG.webp",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Plain%20Graphite%20Gasket/Plain%20Graphite%20Gasket_03.JPG.webp"
       ],
       "images": [
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Plain%20Graphite%20Gasket/Plain%20Graphite%20Gasket_01.webp",
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Plain%20Graphite%20Gasket/Plain%20Graphite%20Gasket_02.webp",
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Plain%20Graphite%20Gasket/Plain%20Graphite%20Gasket_03.webp"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Plain%20Graphite%20Gasket/Plain%20Graphite%20Gasket_01.JPG.webp",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Plain%20Graphite%20Gasket/Plain%20Graphite%20Gasket_02.JPG.webp",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Plain%20Graphite%20Gasket/Plain%20Graphite%20Gasket_03.JPG.webp"
       ],
       "datasheet": "/datasheets/new_generated_html/FG_320.html"
     },
     {
       "id": 90,
       "categoryId": 3,
-      "subcategoryId": 10,
+      "subcategoryId": 18,
       "name": "SSF 321",
       "slug": "ssf-321",
       "material": "INGRAF Plain with SS Foil Insert - Graphite with Stainless Steel Reinforcement",

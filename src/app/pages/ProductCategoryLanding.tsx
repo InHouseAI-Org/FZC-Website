@@ -65,7 +65,7 @@ export default function ProductCategoryLanding() {
             loop
             muted
             playsInline
-            preload="none"
+            preload="metadata"
             onEnded={(e) => {
               const video = e.target as HTMLVideoElement;
               video.currentTime = 0;
