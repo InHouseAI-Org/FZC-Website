@@ -88,18 +88,18 @@ export default function IndustryDetail() {
 
   // Map industry slugs to their product images
   const industryImages: Record<string, string> = {
-    'oil-gas': 'https://d24gq0kplkhyxr.cloudfront.net/assets/products/Industries/Oil%20%26%20Gas.png',
-    'power-generation': 'https://d24gq0kplkhyxr.cloudfront.net/assets/products/Industries/Power.png',
-    'chemical': 'https://d24gq0kplkhyxr.cloudfront.net/assets/products/Industries/Chemical.png',
-    'water-wastewater-treatment': 'https://d24gq0kplkhyxr.cloudfront.net/assets/products/Industries/Waste.png',
-    'marine': 'https://d24gq0kplkhyxr.cloudfront.net/assets/products/Industries/Marine.png',
-    'cement': 'https://d24gq0kplkhyxr.cloudfront.net/assets/products/Industries/Cement.png',
-    'fertilizers': 'https://d24gq0kplkhyxr.cloudfront.net/assets/products/Industries/Fertilisers.png',
-    'metallurgy': 'https://d24gq0kplkhyxr.cloudfront.net/assets/products/Industries/Metallurgy.png',
-    'pulp-paper': 'https://d24gq0kplkhyxr.cloudfront.net/assets/products/Industries/Pulp.png',
-    'food-pharmaceutical': 'https://d24gq0kplkhyxr.cloudfront.net/assets/products/Industries/Food.png',
-    'sugar': 'https://d24gq0kplkhyxr.cloudfront.net/assets/products/Industries/Sugar.png',
-    'oem': 'https://d24gq0kplkhyxr.cloudfront.net/assets/products/Industries/OEM.png',
+    'oil-gas': 'https://d24gq0kplkhyxr.cloudfront.net/assets/products/Industries/Oil%20%26%20Gas.webp',
+    'power-generation': 'https://d24gq0kplkhyxr.cloudfront.net/assets/products/Industries/Power.webp',
+    'chemical': 'https://d24gq0kplkhyxr.cloudfront.net/assets/products/Industries/Chemical.webp',
+    'water-wastewater-treatment': 'https://d24gq0kplkhyxr.cloudfront.net/assets/products/Industries/Waste.webp',
+    'marine': 'https://d24gq0kplkhyxr.cloudfront.net/assets/products/Industries/Marine.webp',
+    'cement': 'https://d24gq0kplkhyxr.cloudfront.net/assets/products/Industries/Cement.webp',
+    'fertilizers': 'https://d24gq0kplkhyxr.cloudfront.net/assets/products/Industries/Fertilisers.webp',
+    'metallurgy': 'https://d24gq0kplkhyxr.cloudfront.net/assets/products/Industries/Metallurgy.webp',
+    'pulp-paper': 'https://d24gq0kplkhyxr.cloudfront.net/assets/products/Industries/Pulp.webp',
+    'food-pharmaceutical': 'https://d24gq0kplkhyxr.cloudfront.net/assets/products/Industries/Food.webp',
+    'sugar': 'https://d24gq0kplkhyxr.cloudfront.net/assets/products/Industries/Sugar.webp',
+    'oem': 'https://d24gq0kplkhyxr.cloudfront.net/assets/products/Industries/OEM.webp',
   };
 
   const scrollToCTA = () => {

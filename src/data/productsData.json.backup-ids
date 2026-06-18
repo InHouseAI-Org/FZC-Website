@@ -113,133 +113,133 @@
   ],
   "subcategories": [
     {
-      "id": 8,
+      "id": 1,
       "categoryId": 1,
       "name": "Fugitive Emission",
       "slug": "fugitive-emission",
       "description": "Low emission certified compression packing for environmental compliance"
     },
     {
-      "id": 9,
+      "id": 2,
       "categoryId": 1,
       "name": "Carbon / Graphite",
       "slug": "carbon-graphite",
       "description": "High-temperature graphite-based compression packing"
     },
     {
-      "id": 10,
+      "id": 3,
       "categoryId": 1,
       "name": "PTFE",
       "slug": "ptfe",
       "description": "PTFE compression packing for chemical resistance"
     },
     {
-      "id": 11,
+      "id": 4,
       "categoryId": 1,
       "name": "Polyimide",
       "slug": "polyimide",
       "description": "High-strength polyimide compression packing"
     },
     {
-      "id": 12,
+      "id": 5,
       "categoryId": 1,
       "name": "Hybrid",
       "slug": "hybrid",
       "description": "Hybrid material compression packing for versatile applications"
     },
     {
-      "id": 13,
+      "id": 30,
       "categoryId": 1,
       "name": "Organic",
       "slug": "organic",
       "description": "Natural organic fiber compression packing for general service"
     },
     {
-      "id": 14,
+      "id": 6,
       "categoryId": 2,
       "name": "Grafoil Moulded Ring",
       "slug": "grafoil-moulded-ring",
       "description": "Precision moulded graphite rings for static sealing"
     },
     {
-      "id": 15,
+      "id": 7,
       "categoryId": 2,
       "name": "Pressure Seal Gasket",
       "slug": "pressure-seal-gasket",
       "description": "High-pressure graphite seal gaskets"
     },
     {
-      "id": 16,
+      "id": 8,
       "categoryId": 2,
       "name": "Laminated Graphite",
       "slug": "laminated-graphite",
       "description": "Laminated graphite sheets for critical sealing"
     },
     {
-      "id": 17,
+      "id": 9,
       "categoryId": 3,
       "name": "CNAF",
       "slug": "cnaf",
       "description": "Compressed non-asbestos fiber sheet gaskets"
     },
     {
-      "id": 18,
+      "id": 10,
       "categoryId": 3,
       "name": "Graphite",
       "slug": "graphite",
       "description": "Flexible graphite sheet gaskets"
     },
     {
-      "id": 19,
+      "id": 11,
       "categoryId": 3,
       "name": "PTFE",
       "slug": "ptfe-gasket",
       "description": "PTFE sheet gaskets for chemical resistance"
     },
     {
-      "id": 20,
+      "id": 12,
       "categoryId": 3,
       "name": "Expanded PTFE",
       "slug": "expanded-ptfe",
       "description": "Expanded PTFE gasket material"
     },
     {
-      "id": 21,
+      "id": 24,
       "categoryId": 6,
       "name": "E-Glass",
       "slug": "e-glass",
       "description": "E-Glass fiber thermal insulation materials"
     },
     {
-      "id": 22,
+      "id": 25,
       "categoryId": 6,
       "name": "Ceramic",
       "slug": "ceramic",
       "description": "Ceramic fiber insulation for extreme temperatures"
     },
     {
-      "id": 23,
+      "id": 26,
       "categoryId": 6,
       "name": "Silica",
       "slug": "silica",
       "description": "Silica-based thermal insulation products"
     },
     {
-      "id": 24,
+      "id": 27,
       "categoryId": 6,
       "name": "Welding Blanket",
       "slug": "welding-blanket",
       "description": "Heat-resistant welding blankets"
     },
     {
-      "id": 25,
+      "id": 31,
       "categoryId": 7,
       "name": "Aramid Based Wiping Pad",
       "slug": "aramid-based-wiping-pad",
       "description": "High-performance wiping pads made from copolymer yarn reinforced with high-tensile inorganic filaments for wire drawing and galvanizing operations"
     },
     {
-      "id": 26,
+      "id": 32,
       "categoryId": 7,
       "name": "High Temperature Wiping Pad",
       "slug": "high-temperature-wiping-pad",
@@ -248,7 +248,7 @@
   ],
   "products": [
     {
-      "id": 27,
+      "id": 1,
       "subcategoryId": 3,
       "name": "PE 505",
       "slug": "pe-505",
@@ -325,7 +325,7 @@
       "datasheet": "/datasheets/new_generated_html/Style_PE_505.html"
     },
     {
-      "id": 28,
+      "id": 2,
       "subcategoryId": 3,
       "name": "PE 504",
       "slug": "pe-504",
@@ -373,7 +373,7 @@
       "datasheet": "/datasheets/new_generated_html/PE_504.html"
     },
     {
-      "id": 29,
+      "id": 3,
       "subcategoryId": 5,
       "name": "HY 504",
       "slug": "hy-504",
@@ -439,7 +439,7 @@
       "datasheet": "/datasheets/new_generated_html/HY_504.html"
     },
     {
-      "id": 30,
+      "id": 4,
       "subcategoryId": 3,
       "name": "PE 508",
       "slug": "pe-508",
@@ -488,7 +488,7 @@
       "datasheet": "/datasheets/new_generated_html/Style_PE_508.html"
     },
     {
-      "id": 31,
+      "id": 5,
       "subcategoryId": 3,
       "name": "PE 509",
       "slug": "pe-509",
@@ -541,7 +541,7 @@
       "datasheet": "/datasheets/new_generated_html/Style_PE_509.html"
     },
     {
-      "id": 32,
+      "id": 6,
       "subcategoryId": 5,
       "name": "HY 105",
       "slug": "hy-105",
@@ -616,7 +616,7 @@
       "economicalVariant": "HY 105E"
     },
     {
-      "id": 33,
+      "id": 7,
       "subcategoryId": 5,
       "name": "HY 105T",
       "slug": "hy-105t",
@@ -663,7 +663,7 @@
       "datasheet": "/datasheets/new_generated_html/HY_105T.html"
     },
     {
-      "id": 34,
+      "id": 8,
       "subcategoryId": 5,
       "name": "HY 107",
       "slug": "hy-107",
@@ -731,7 +731,7 @@
       "economicalVariant": "HY 107E"
     },
     {
-      "id": 35,
+      "id": 11,
       "subcategoryId": 5,
       "name": "HY 175",
       "slug": "hy-175",
@@ -797,7 +797,7 @@
       "datasheet": "/datasheets/new_generated_html/HY_175.html"
     },
     {
-      "id": 36,
+      "id": 12,
       "subcategoryId": 4,
       "name": "PA 106",
       "slug": "pa-106",
@@ -847,7 +847,7 @@
       "elastomericCoreVariant": "PA 106EC"
     },
     {
-      "id": 37,
+      "id": 13,
       "subcategoryId": 30,
       "name": "OR 125",
       "slug": "or-125",
@@ -895,7 +895,7 @@
       "elastomericCoreVariant": "OR 125EC"
     },
     {
-      "id": 38,
+      "id": 15,
       "subcategoryId": 2,
       "name": "CG 101",
       "slug": "cg-101",
@@ -952,7 +952,7 @@
       "economicalVariant": "CG 101E"
     },
     {
-      "id": 39,
+      "id": 16,
       "subcategoryId": 3,
       "name": "PE 102",
       "slug": "pe-102",
@@ -1000,7 +1000,7 @@
       "datasheet": "/datasheets/new_generated_html/STYLE_PE_102.html"
     },
     {
-      "id": 40,
+      "id": 18,
       "subcategoryId": 2,
       "name": "CG 100",
       "slug": "cg-100",
@@ -1067,7 +1067,7 @@
       ]
     },
     {
-      "id": 41,
+      "id": 19,
       "subcategoryId": 2,
       "name": "CG 102",
       "slug": "cg-102",
@@ -1116,7 +1116,7 @@
       "datasheet": "/datasheets/new_generated_html/CG_102.html"
     },
     {
-      "id": 42,
+      "id": 20,
       "subcategoryId": 25,
       "name": "IN 123",
       "slug": "in-123",
@@ -1173,7 +1173,7 @@
       "datasheet": "/datasheets/new_generated_html/IN_123.html"
     },
     {
-      "id": 43,
+      "id": 21,
       "subcategoryId": 25,
       "name": "IN 123I",
       "slug": "in-123i",
@@ -1230,7 +1230,7 @@
       "datasheet": "/datasheets/new_generated_html/IN_123I.html"
     },
     {
-      "id": 44,
+      "id": 22,
       "subcategoryId": 30,
       "name": "OR 120",
       "slug": "or-120",
@@ -1278,7 +1278,7 @@
       "datasheet": "/datasheets/new_generated_html/OR_120.html"
     },
     {
-      "id": 45,
+      "id": 23,
       "subcategoryId": 5,
       "name": "HY 120AR",
       "slug": "hy-120ar",
@@ -1341,7 +1341,7 @@
       "datasheet": "/datasheets/new_generated_html/HY_120_AR.html"
     },
     {
-      "id": 46,
+      "id": 24,
       "subcategoryId": 24,
       "name": "IN 140",
       "slug": "in-140",
@@ -1389,7 +1389,7 @@
       "datasheet": "/datasheets/new_generated_html/IN_140.html"
     },
     {
-      "id": 47,
+      "id": 25,
       "subcategoryId": 2,
       "name": "CG 900",
       "slug": "cg-900",
@@ -1441,7 +1441,7 @@
       "datasheet": "/datasheets/new_generated_html/Style_CG_900.html"
     },
     {
-      "id": 48,
+      "id": 26,
       "subcategoryId": 5,
       "name": "HY 501",
       "slug": "hy-501",
@@ -1489,7 +1489,7 @@
       "datasheet": "/datasheets/new_generated_html/HY_501.html"
     },
     {
-      "id": 49,
+      "id": 27,
       "subcategoryId": 2,
       "name": "CG 503",
       "slug": "cg-503",
@@ -1557,7 +1557,7 @@
       "datasheet": "/datasheets/new_generated_html/Style_CG_503.html"
     },
     {
-      "id": 50,
+      "id": 28,
       "subcategoryId": 3,
       "name": "PE 104",
       "slug": "pe-104",
@@ -1604,7 +1604,7 @@
       "datasheet": "/datasheets/new_generated_html/STYLE_PE_104.html"
     },
     {
-      "id": 51,
+      "id": 31,
       "subcategoryId": 5,
       "name": "HY 606",
       "slug": "hy-606",
@@ -1651,7 +1651,7 @@
       "datasheet": "/datasheets/new_generated_html/HY_606.html"
     },
     {
-      "id": 52,
+      "id": 32,
       "subcategoryId": 2,
       "name": "CG 501C",
       "slug": "cg-501c",
@@ -1718,7 +1718,7 @@
       "datasheet": "/datasheets/new_generated_html/HY_501.html"
     },
     {
-      "id": 53,
+      "id": 33,
       "subcategoryId": 5,
       "name": "HY 801",
       "slug": "hy-801",
@@ -1772,7 +1772,7 @@
       "datasheet": "/datasheets/new_generated_html/HY_801.html"
     },
     {
-      "id": 54,
+      "id": 34,
       "subcategoryId": 4,
       "name": "PA 499",
       "slug": "pa-499",
@@ -1821,7 +1821,7 @@
       "datasheet": "/datasheets/new_generated_html/STYLE_PA_499.html"
     },
     {
-      "id": 55,
+      "id": 35,
       "subcategoryId": 5,
       "name": "HY 510",
       "slug": "hy-510",
@@ -1869,7 +1869,7 @@
       "elastomericCoreVariant": "HY 510EC"
     },
     {
-      "id": 56,
+      "id": 39,
       "subcategoryId": 4,
       "name": "PE 104A",
       "slug": "pe-104a",
@@ -1919,7 +1919,7 @@
       "datasheet": "/datasheets/new_generated_html/PE_104A.html"
     },
     {
-      "id": 57,
+      "id": 41,
       "subcategoryId": 1,
       "name": "ULTRA LE 1002",
       "slug": "ultra-le-1002",
@@ -1973,7 +1973,7 @@
       "datasheet": "/datasheets/new_generated_html/ULTRA_LE_1002.html"
     },
     {
-      "id": 58,
+      "id": 42,
       "subcategoryId": 1,
       "name": "ULTRA FE 1003",
       "slug": "ultra-fe-1003",
@@ -2029,7 +2029,7 @@
       "datasheet": "/datasheets/new_generated_html/ULTRA_FE_1003.html"
     },
     {
-      "id": 59,
+      "id": 43,
       "subcategoryId": 1,
       "name": "ULTRA LT 1004",
       "slug": "ultra-lt-1004",
@@ -2084,7 +2084,7 @@
       "datasheet": "/datasheets/new_generated_html/ULTRA_LT_1004.html"
     },
     {
-      "id": 60,
+      "id": 44,
       "subcategoryId": 1,
       "name": "ULTRA NE 1005",
       "slug": "ultra-ne-1005",
@@ -2142,7 +2142,7 @@
       "datasheet": "/datasheets/new_generated_html/ULTRA_NE_1005.html"
     },
     {
-      "id": 61,
+      "id": 45,
       "subcategoryId": 5,
       "name": "HY 105 HD",
       "slug": "hy-105-hd",
@@ -2191,7 +2191,7 @@
       "datasheet": "/datasheets/new_generated_html/HY_105HD.html"
     },
     {
-      "id": 62,
+      "id": 46,
       "subcategoryId": 5,
       "name": "HY 107 HD",
       "slug": "hy-107-hd",
@@ -2240,7 +2240,7 @@
       "datasheet": "/datasheets/new_generated_html/HY_107HD.html"
     },
     {
-      "id": 63,
+      "id": 47,
       "subcategoryId": 30,
       "name": "OR 125SR",
       "slug": "or-125sr",
@@ -2292,7 +2292,7 @@
       "datasheet": "/datasheets/new_generated_html/OR_125.html"
     },
     {
-      "id": 64,
+      "id": 49,
       "subcategoryId": 6,
       "name": "GM 300 / GM 300Z",
       "slug": "gm-300z",
@@ -2355,7 +2355,7 @@
       "datasheet": "/datasheets/new_generated_html/GM_300Z.html"
     },
     {
-      "id": 65,
+      "id": 50,
       "subcategoryId": 7,
       "name": "GM 310 / GM 310C",
       "slug": "gm-310c",
@@ -2411,7 +2411,7 @@
       "datasheet": "/datasheets/new_generated_html/GM_310C.html"
     },
     {
-      "id": 66,
+      "id": 51,
       "subcategoryId": 12,
       "name": "INMATEX EPTFE SHEET/GASKET",
       "slug": "inmatex-eptfe-sheet-gasket",
@@ -2467,7 +2467,7 @@
       "datasheet": "/datasheets/new_generated_html/INMATEX_ePTFE.html"
     },
     {
-      "id": 67,
+      "id": 52,
       "subcategoryId": 8,
       "name": "GM 360",
       "slug": "gm-360",
@@ -2513,7 +2513,7 @@
       "datasheet": "/datasheets/new_generated_html/GM_310C.html"
     },
     {
-      "id": 68,
+      "id": 53,
       "categoryId": 4,
       "name": "INSULATION GASKET KIT 1800 FS",
       "slug": "insulation-gasket-kit-1800-fs",
@@ -2567,7 +2567,7 @@
       "datasheet": "/datasheets/new_generated_html/Insulation_Gasket_Kit_1800_FS.html"
     },
     {
-      "id": 69,
+      "id": 54,
       "subcategoryId": 27,
       "name": "750SS WELDING BLANKET",
       "slug": "750ss-welding-blanket",
@@ -2635,7 +2635,7 @@
       "datasheet": "/datasheets/new_generated_html/750_SS_Welding_Blanket.html"
     },
     {
-      "id": 70,
+      "id": 55,
       "categoryId": 5,
       "name": "Laminar Gasket",
       "slug": "laminar-gasket",
@@ -2689,7 +2689,7 @@
       "datasheet": "/datasheets/new_generated_html/Laminar_Seal.html"
     },
     {
-      "id": 71,
+      "id": 56,
       "categoryId": 5,
       "name": "Kammprofile Gasket",
       "slug": "kammprofile-gasket",
@@ -2743,7 +2743,7 @@
       "datasheet": "/datasheets/new_generated_html/KAMMPROFILE_GASKET.html"
     },
     {
-      "id": 72,
+      "id": 57,
       "categoryId": 5,
       "name": "Shim Joint",
       "slug": "shim-joint",
@@ -2795,7 +2795,7 @@
       "datasheet": "/datasheets/new_generated_html/Shim_Gasket.html"
     },
     {
-      "id": 73,
+      "id": 58,
       "categoryId": 5,
       "name": "Double Jacketed Gasket",
       "slug": "double-jacketed-gasket",
@@ -2845,7 +2845,7 @@
       "datasheet": "/datasheets/new_generated_html/Double_Jacketed_Gasket.html"
     },
     {
-      "id": 74,
+      "id": 59,
       "categoryId": 5,
       "name": "Ring Type Joint Gasket",
       "slug": "ring-type-joint-gasket",
@@ -2895,7 +2895,7 @@
       "datasheet": "/datasheets/new_generated_html/Ring_Type_Joint.html"
     },
     {
-      "id": 75,
+      "id": 60,
       "categoryId": 5,
       "name": "Corrugated Gasket",
       "slug": "corrugated-gasket",
@@ -2945,7 +2945,7 @@
       "datasheet": "/datasheets/new_generated_html/Corrugated_Metal_Gasket.html"
     },
     {
-      "id": 76,
+      "id": 61,
       "categoryId": 5,
       "name": "Soft Iron Ring",
       "slug": "soft-iron-ring",
@@ -2996,7 +2996,7 @@
       "datasheet": "/datasheets/new_generated_html/Soft_Iron_Ring.html"
     },
     {
-      "id": 77,
+      "id": 62,
       "categoryId": 5,
       "name": "Pressure Seal Ring",
       "slug": "pressure-seal-ring",
@@ -3035,7 +3035,7 @@
       "images": []
     },
     {
-      "id": 78,
+      "id": 63,
       "categoryId": 5,
       "name": "Spiral Wound Gasket",
       "slug": "spiral-wound-gasket",
@@ -3091,7 +3091,7 @@
       "datasheet": "/datasheets/new_generated_html/Spiral_WoundGasket.html"
     },
     {
-      "id": 79,
+      "id": 64,
       "subcategoryId": 9,
       "name": "NA 432",
       "slug": "na-432",
@@ -3142,7 +3142,7 @@
       "datasheet": "/datasheets/new_generated_html/NA_432.html"
     },
     {
-      "id": 80,
+      "id": 63,
       "subcategoryId": 9,
       "name": "NA 420",
       "slug": "na-420",
@@ -3192,7 +3192,7 @@
       "datasheet": "/datasheets/new_generated_html/NA_420.html"
     },
     {
-      "id": 81,
+      "id": 64,
       "subcategoryId": 9,
       "name": "NA 450",
       "slug": "na-450",
@@ -3243,7 +3243,7 @@
       "datasheet": "/datasheets/new_generated_html/NA_450.html"
     },
     {
-      "id": 82,
+      "id": 65,
       "subcategoryId": 9,
       "name": "NA 452 GE",
       "slug": "na-452-ge",
@@ -3294,7 +3294,7 @@
       "datasheet": "/datasheets/new_generated_html/NA_452_GF.html"
     },
     {
-      "id": 83,
+      "id": 66,
       "subcategoryId": 9,
       "name": "NA 430",
       "slug": "na-430",
@@ -3344,7 +3344,7 @@
       "datasheet": "/datasheets/new_generated_html/NA_430.html"
     },
     {
-      "id": 84,
+      "id": 67,
       "subcategoryId": 9,
       "name": "NA 442",
       "slug": "na-442",
@@ -3395,7 +3395,7 @@
       "datasheet": "/datasheets/new_generated_html/NA_442.html"
     },
     {
-      "id": 85,
+      "id": 68,
       "subcategoryId": 9,
       "name": "SST 323",
       "slug": "sst-323",
@@ -3448,7 +3448,7 @@
       "datasheet": "/datasheets/new_generated_html/SST_323.html"
     },
     {
-      "id": 86,
+      "id": 69,
       "subcategoryId": 11,
       "name": "600 Sintered PTFE Sheet",
       "slug": "600-sintered-ptfe-sheet",
@@ -3498,7 +3498,7 @@
       "datasheet": "/datasheets/new_generated_html/Type_600.html"
     },
     {
-      "id": 87,
+      "id": 70,
       "categoryId": 7,
       "subcategoryId": 31,
       "name": "Aramid Based Wiping Pad",
@@ -3552,7 +3552,7 @@
       "datasheet": "/datasheets/new_generated_html/Aramid_Wiping_Pad.html"
     },
     {
-      "id": 88,
+      "id": 71,
       "categoryId": 7,
       "subcategoryId": 32,
       "name": "High Temperature Wiping Pad",
@@ -3605,7 +3605,7 @@
       "datasheet": "/datasheets/new_generated_html/High_Temperature_Wiping_Pad.html"
     },
     {
-      "id": 89,
+      "id": 72,
       "categoryId": 3,
       "subcategoryId": 10,
       "name": "FG 320",
@@ -3685,7 +3685,7 @@
       "datasheet": "/datasheets/new_generated_html/FG_320.html"
     },
     {
-      "id": 90,
+      "id": 73,
       "categoryId": 3,
       "subcategoryId": 10,
       "name": "SSF 321",
@@ -3756,7 +3756,7 @@
   ],
   "inactiveProducts": [
     {
-      "id": 91,
+      "id": 10,
       "subcategoryId": 5,
       "name": "HY 107 EPT",
       "slug": "hy-107-ept",
@@ -3804,7 +3804,7 @@
       "datasheet": "/datasheets/new_generated_html/HY_107.html"
     },
     {
-      "id": 92,
+      "id": 14,
       "subcategoryId": 30,
       "name": "OR 125G",
       "slug": "or-125g",
@@ -3855,7 +3855,7 @@
       "datasheet": "/datasheets/new_generated_html/OR_125G.html"
     },
     {
-      "id": 93,
+      "id": 29,
       "subcategoryId": 30,
       "name": "OR 151",
       "slug": "or-151",
@@ -3902,7 +3902,7 @@
       "datasheet": "/datasheets/new_generated_html/OR_151.html"
     },
     {
-      "id": 94,
+      "id": 30,
       "subcategoryId": 30,
       "name": "OR 156",
       "slug": "or-156",
@@ -3950,7 +3950,7 @@
       "datasheet": "/datasheets/new_generated_html/OR_151.html"
     },
     {
-      "id": 95,
+      "id": 36,
       "subcategoryId": 3,
       "name": "PE 104C",
       "slug": "pe-104c",
@@ -4001,7 +4001,7 @@
       "datasheet": "/datasheets/new_generated_html/STYLE_PE_104C.html"
     },
     {
-      "id": 96,
+      "id": 37,
       "subcategoryId": 4,
       "name": "PA 106G",
       "slug": "pa-106g",
@@ -4049,7 +4049,7 @@
       "datasheet": "/datasheets/new_generated_html/PA_106.html"
     },
     {
-      "id": 97,
+      "id": 40,
       "subcategoryId": 3,
       "name": "PE 504P",
       "slug": "pe-504p",
@@ -4105,7 +4105,7 @@
       "datasheet": "/datasheets/new_generated_html/PE_504.html"
     },
     {
-      "id": 98,
+      "id": 48,
       "subcategoryId": 26,
       "name": "IN 126S",
       "slug": "in-126s",
@@ -4152,7 +4152,7 @@
       "datasheet": "/datasheets/new_generated_html/IN_123.html"
     },
     {
-      "id": 99,
+      "id": 9,
       "subcategoryId": 5,
       "name": "HY 107E",
       "slug": "hy-107e",
@@ -4203,7 +4203,7 @@
       "datasheet": "/datasheets/new_generated_html/HY_107.html"
     },
     {
-      "id": 100,
+      "id": 17,
       "subcategoryId": 2,
       "name": "CG 101E",
       "slug": "cg-101e",
@@ -4255,7 +4255,7 @@
       "datasheet": "/datasheets/new_generated_html/CG_101.html"
     },
     {
-      "id": 101,
+      "id": 38,
       "subcategoryId": 4,
       "name": "PA 106E",
       "slug": "pa-106e",

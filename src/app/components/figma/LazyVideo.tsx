@@ -44,8 +44,8 @@ export function LazyVideo({
         });
       },
       {
-        rootMargin: '50px', // Start loading 50px before video enters viewport
-        threshold: 0.1,
+        rootMargin: '200px', // Start loading earlier for smoother experience
+        threshold: 0.01, // Load as soon as barely visible
       }
     );
 
@@ -61,9 +61,13 @@ export function LazyVideo({
   // Auto-play when video is loaded and in view
   useEffect(() => {
     if (isInView && autoPlay && videoRef.current) {
-      videoRef.current.play().catch((err) => {
-        console.log('Video autoplay prevented:', err);
-      });
+      // Small delay to ensure video has started loading
+      const timer = setTimeout(() => {
+        videoRef.current?.play().catch((err) => {
+          console.log('Video autoplay prevented:', err);
+        });
+      }, 100);
+      return () => clearTimeout(timer);
     }
   }, [isInView, autoPlay]);
 
@@ -77,7 +81,9 @@ export function LazyVideo({
       className={className}
       onEnded={onEnded}
       onLoadedMetadata={onLoadedMetadata}
-      preload="none"
+      preload="metadata"
+      // Enable streaming - browser can start playing before full download
+      crossOrigin="anonymous"
     >
       {isInView && <source src={src} type="video/webm" />}
     </video>

@@ -77,7 +77,6 @@ export function Sustainability() {
           src="https://d24gq0kplkhyxr.cloudfront.net/assets/images/Sustainability.webp"
           alt="Sustainability background"
           fill
-          priority
           className="object-cover"
           sizes="100vw"
         />

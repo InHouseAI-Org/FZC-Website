@@ -55,6 +55,7 @@ export function ImageWithFallback(props: ImageWithFallbackProps) {
       style={style}
       onError={handleError}
       priority={priority}
+      loading={priority ? 'eager' : 'lazy'}
       sizes={sizes || '100vw'}
       quality={85}
       {...(rest as any)}
@@ -69,6 +70,7 @@ export function ImageWithFallback(props: ImageWithFallbackProps) {
       style={style}
       onError={handleError}
       priority={priority}
+      loading={priority ? 'eager' : 'lazy'}
       sizes={sizes}
       quality={85}
       {...(rest as any)}

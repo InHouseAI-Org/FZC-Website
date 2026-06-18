@@ -62,6 +62,7 @@ export function Hero() {
             fill
             className="object-cover"
             priority
+            fetchPriority="high"
             sizes="100vw"
           />
 

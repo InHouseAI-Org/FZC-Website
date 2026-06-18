@@ -137,6 +137,29 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* Resource Hints for Performance */}
+        <link rel="dns-prefetch" href="https://d24gq0kplkhyxr.cloudfront.net" />
+        <link rel="preconnect" href="https://d24gq0kplkhyxr.cloudfront.net" crossOrigin="anonymous" />
+
+        {/* Preload Critical Font */}
+        <link
+          rel="preload"
+          href="/fonts/SwitzerlandCondBlack.ttf"
+          as="font"
+          type="font/ttf"
+          crossOrigin="anonymous"
+        />
+
+        {/* Note: GB2.webm is NOT preloaded - it's a background video that lazy loads */}
+
+        {/* Preload Hero Images */}
+        <link
+          rel="preload"
+          href="https://d24gq0kplkhyxr.cloudfront.net/assets/images/Hero.webp"
+          as="image"
+          type="image/webp"
+        />
+
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}

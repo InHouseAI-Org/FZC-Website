@@ -123,6 +123,7 @@ export function Header() {
                 <Link
                   key={item.label}
                   href={item.href}
+                  prefetch={item.href === '/products' || item.href === '/industries'}
                   className="text-sm tracking-wide text-white hover: transition-colors duration-200 relative group"
                 >
                   {item.label}
