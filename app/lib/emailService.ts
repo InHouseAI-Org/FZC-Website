@@ -57,8 +57,8 @@ async function sendCustomerConfirmation(client: any, formData: {
   const customerEmailBody = `
     <html>
       <body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: 0 auto;">
-        <div style="background-color: #1a1918; padding: 30px; text-align: center;">
-          <img src="${logoSrc}" alt="Inmarco FZC Logo" style="max-width: 200px; height: auto; margin-bottom: 10px;" />
+        <div style="background-color: transparent; padding: 30px; text-align: center; border-bottom: 3px solid #e31e24;">
+          <img src="${logoSrc}" alt="Inmarco FZC Logo" style="max-width: 200px; height: auto;" />
         </div>
 
         <div style="padding: 40px 30px; background-color: #ffffff;">
@@ -307,8 +307,8 @@ export async function sendDatasheetEmail(formData: {
     const emailBody = `
       <html>
         <body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: 0 auto;">
-          <div style="background-color: #1a1918; padding: 30px; text-align: center;">
-            <img src="${logoSrc}" alt="Inmarco FZC Logo" style="max-width: 200px; height: auto; margin-bottom: 10px;" />
+          <div style="background-color: transparent; padding: 30px; text-align: center; border-bottom: 3px solid #e31e24;">
+            <img src="${logoSrc}" alt="Inmarco FZC Logo" style="max-width: 200px; height: auto;" />
           </div>
 
           <div style="padding: 40px 30px; background-color: #ffffff;">
