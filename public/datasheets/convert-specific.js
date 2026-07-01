@@ -5,18 +5,20 @@
  */
 
 import puppeteer from 'puppeteer';
+import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const INPUT_DIR = path.join(__dirname, 'generated_html');
-const OUTPUT_DIR = path.join(__dirname, 'pdf_output');
+const INPUT_DIR = path.join(__dirname, 'new_generated_html');
+const OUTPUT_DIR = path.join(__dirname, 'pdf_exports');
 
 const FILES_TO_CONVERT = [
-  'Insulation_Gasket_Kit_1800_FS.html',
-  'Spiral_Wound_Gasket.html'
+  'Aramid_Wiping_Pad.html',
+  'HY_606.html',
+  'High_Temperature_Wiping_Pad.html'
 ];
 
 async function convertHTMLtoPDF(htmlPath, pdfPath) {
@@ -68,6 +70,12 @@ async function main() {
   console.log('================================================');
   console.log('Converting Specific Datasheets to PDF');
   console.log('================================================\n');
+
+  // Create output directory if it doesn't exist
+  if (!fs.existsSync(OUTPUT_DIR)) {
+    fs.mkdirSync(OUTPUT_DIR, { recursive: true });
+    console.log(`✓ Created output directory: ${OUTPUT_DIR}\n`);
+  }
 
   let successCount = 0;
   let failCount = 0;

@@ -41,7 +41,7 @@ export default function FluidSealingSimplified() {
     <main className="bg-[#2b2a29]">
       {/* Hero Section */}
       <section className="relative py-24 bg-[#1a1918]">
-        <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
+        <div className="max-w-[1400px] mx-auto px-6 py-12 lg:px-12">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -53,7 +53,7 @@ export default function FluidSealingSimplified() {
               Fluid Sealing Simplified
             </h1>
             <p className="text-gray-300 text-xl">
-              Expert insights, technical guides, and industry knowledge to help you understand and optimize your industrial sealing solutions.
+              Explore in-depth articles, technical guides, and practical insights to master industrial sealing solutions and optimize your operations.
             </p>
           </motion.div>
         </div>
@@ -151,7 +151,7 @@ export default function FluidSealingSimplified() {
                     </p>
 
                     <div className="flex items-center space-x-2 text-[#e31e24] text-sm font-medium group-hover:space-x-3 transition-all">
-                      <span>Read More & Watch</span>
+                      <span>Explore Article</span>
                       <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                     </div>
                   </div>

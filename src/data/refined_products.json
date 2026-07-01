@@ -735,8 +735,8 @@
       ]
     },
     "65": {
-      "name": "NA 452 GE",
-      "description": "NA 452 GE is designed for general equipment applications with enhanced sealing performance. Features aramid and glass fiber construction for superior high-temperature and high-stress capabilities.",
+      "name": "NA 452 GF",
+      "description": "NA 452 GF is designed for general equipment applications with enhanced sealing performance. Features aramid and glass fiber construction for superior high-temperature and high-stress capabilities.",
       "features": [
         "High-quality CNAF sheet with aramid and glass fiber blend",
         "Excellent high-temperature performance up to 300°C",
@@ -790,8 +790,8 @@
       ]
     },
     "70": {
-      "name": "Aramid Based Wiping Pad",
-      "description": "Specially designed aramid-based wiping pad for the wire drawing industry, providing exceptional strength and durability for high-speed continuous operations. Engineered to withstand extreme mechanical stress.",
+      "name": "Wiping Pad",
+      "description": "Specially designed wiping pad for the wire drawing industry, providing exceptional strength and durability for high-speed continuous operations. Engineered to withstand extreme mechanical stress.",
       "features": [
         "Dense construction ensures extended service life",
         "Low wear rate under continuous high-stress operations",

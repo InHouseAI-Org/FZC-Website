@@ -271,3 +271,175 @@ export async function sendContactEmail(formData: {
     throw new Error(`Failed to send email: ${error.message}`);
   }
 }
+
+/**
+ * Sends a datasheet email to the recipient with PDF attachment
+ */
+export async function sendDatasheetEmail(formData: {
+  recipientEmail: string;
+  senderEmail?: string;
+  productName: string;
+  productSlug: string;
+  datasheetUrl: string;
+}) {
+  try {
+    // Validate required environment variables
+    if (!process.env.AZURE_TENANT_ID || !process.env.AZURE_CLIENT_ID || !process.env.AZURE_CLIENT_SECRET) {
+      throw new Error('Azure credentials not configured. Please set AZURE_TENANT_ID, AZURE_CLIENT_ID, and AZURE_CLIENT_SECRET.');
+    }
+
+    const client = getGraphClient();
+
+    const { recipientEmail, senderEmail, productName, productSlug, datasheetUrl } = formData;
+
+    // Fetch the PDF from CloudFront
+    let pdfBase64 = '';
+    let pdfFilename = '';
+    try {
+      const pdfResponse = await fetch(datasheetUrl);
+      if (!pdfResponse.ok) {
+        throw new Error(`Failed to fetch PDF: ${pdfResponse.statusText}`);
+      }
+      const pdfBuffer = await pdfResponse.arrayBuffer();
+      pdfBase64 = Buffer.from(pdfBuffer).toString('base64');
+      // Extract filename from URL (e.g., "HY_606.pdf")
+      pdfFilename = datasheetUrl.split('/').pop() || 'datasheet.pdf';
+    } catch (fetchError) {
+      console.error('Error fetching PDF for attachment:', fetchError);
+      // Continue without attachment if fetch fails
+    }
+
+    // Get logo as base64 for email embedding
+    const logoSrc = getLogoBase64();
+
+    // Format the datasheet email body
+    const emailBody = `
+      <html>
+        <body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: 0 auto;">
+          <div style="background-color: #1a1918; padding: 30px; text-align: center;">
+            <img src="${logoSrc}" alt="Inmarco FZC Logo" style="max-width: 200px; height: auto; margin-bottom: 10px;" />
+          </div>
+
+          <div style="padding: 40px 30px; background-color: #ffffff;">
+            <h2 style="color: #1a1918; margin-top: 0; font-size: 24px;">Product Datasheet${senderEmail ? ' Shared With You' : ''}</h2>
+
+            ${senderEmail ? `
+              <p style="color: #333; font-size: 16px; line-height: 1.8;">
+                Someone has shared a product datasheet with you from Inmarco FZC.
+              </p>
+            ` : `
+              <p style="color: #333; font-size: 16px; line-height: 1.8;">
+                Thank you for your interest in our products!
+              </p>
+            `}
+
+            <div style="background-color: #f5f5f5; border-left: 4px solid #e31e24; padding: 20px; margin: 30px 0; border-radius: 4px;">
+              <h3 style="color: #1a1918; margin-top: 0; font-size: 18px;">${productName}</h3>
+              <p style="color: #666; font-size: 14px; margin-bottom: 20px;">
+                ${pdfBase64 ? 'The complete technical datasheet is attached to this email. You can also access it online using the button below.' : 'Access the complete technical specifications and product details by clicking the button below.'}
+              </p>
+              <a href="${datasheetUrl}"
+                 style="display: inline-block; padding: 12px 30px; background-color: #e31e24; color: white; text-decoration: none; border-radius: 6px; font-weight: bold; font-size: 16px;">
+                Download Datasheet (PDF)
+              </a>
+            </div>
+
+            <div style="background-color: #f9f9f9; padding: 20px; border-radius: 6px; margin: 30px 0;">
+              <h4 style="color: #1a1918; margin-top: 0; font-size: 16px;">Why Choose Inmarco?</h4>
+              <ul style="color: #666; font-size: 14px; line-height: 1.8; padding-left: 20px;">
+                <li>Quality sealing solutions for demanding applications</li>
+                <li>Expert technical support and consultation</li>
+                <li>Comprehensive product range</li>
+                <li>Fast delivery across the UAE and beyond</li>
+              </ul>
+            </div>
+
+            <p style="color: #333; font-size: 16px; line-height: 1.8;">
+              Need help choosing the right product or have questions about specifications?
+            </p>
+
+            <div style="margin: 20px 0;">
+              <p style="color: #666; font-size: 14px; margin: 8px 0;">
+                <strong>Phone:</strong> <a href="tel:+971559487218" style="color: #e31e24; text-decoration: none;">+971 55 948 7218</a>
+              </p>
+              <p style="color: #666; font-size: 14px; margin: 8px 0;">
+                <strong>Email:</strong> <a href="mailto:techsupport@inmarco.ae" style="color: #e31e24; text-decoration: none;">techsupport@inmarco.ae</a>
+              </p>
+              <p style="color: #666; font-size: 14px; margin: 8px 0;">
+                <strong>Website:</strong> <a href="https://inmarco.ae/products/${productSlug}" style="color: #e31e24; text-decoration: none;">View Product Online</a>
+              </p>
+            </div>
+
+            <p style="color: #333; font-size: 16px; line-height: 1.8; margin-top: 30px;">
+              Best regards,<br>
+              <strong style="color: #e31e24;">Inmarco FZC Team</strong>
+            </p>
+          </div>
+
+          <div style="background-color: #1a1918; padding: 20px 30px; text-align: center;">
+            <p style="color: #999; font-size: 12px; margin: 5px 0;">
+              © ${new Date().getFullYear()} Inmarco FZC. All rights reserved.
+            </p>
+            <p style="color: #999; font-size: 12px; margin: 5px 0;">
+              P.O. Box 120284, SAIF-Zone, Sharjah, UAE
+            </p>
+            <p style="color: #999; font-size: 12px; margin: 5px 0;">
+              Working Hours: Monday - Saturday, 8:30 AM - 5:30 PM GST
+            </p>
+          </div>
+        </body>
+      </html>
+    `;
+
+    const mail: any = {
+      message: {
+        subject: `${productName} - Technical Datasheet from Inmarco FZC`,
+        body: {
+          contentType: 'HTML',
+          content: emailBody,
+        },
+        toRecipients: [
+          {
+            emailAddress: {
+              address: recipientEmail,
+            },
+          },
+        ],
+        ...(senderEmail && {
+          replyTo: [
+            {
+              emailAddress: {
+                address: senderEmail,
+              },
+            },
+          ],
+        }),
+        // Add PDF attachment if fetched successfully
+        ...(pdfBase64 && {
+          attachments: [
+            {
+              '@odata.type': '#microsoft.graph.fileAttachment',
+              name: pdfFilename,
+              contentType: 'application/pdf',
+              contentBytes: pdfBase64,
+            },
+          ],
+        }),
+      },
+      saveToSentItems: true,
+    };
+
+    // Send the datasheet email
+    await client
+      .api(`/users/${process.env.AZURE_EMAIL_FROM}/sendMail`)
+      .post(mail);
+
+    return {
+      success: true,
+      message: 'Datasheet email sent successfully',
+    };
+  } catch (error: any) {
+    console.error('Error sending datasheet email:', error);
+    throw new Error(`Failed to send datasheet email: ${error.message}`);
+  }
+}

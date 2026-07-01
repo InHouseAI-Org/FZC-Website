@@ -9,8 +9,8 @@ import { headers } from 'next/headers';
 /**
  * Get client IP address
  */
-function getClientIp(): string | undefined {
-  const headersList = headers();
+async function getClientIp(): Promise<string | undefined> {
+  const headersList = await headers();
   return (
     headersList.get('x-forwarded-for')?.split(',')[0] ||
     headersList.get('x-real-ip') ||
@@ -21,8 +21,8 @@ function getClientIp(): string | undefined {
 /**
  * Get user agent string
  */
-function getUserAgent(): string | undefined {
-  const headersList = headers();
+async function getUserAgent(): Promise<string | undefined> {
+  const headersList = await headers();
   return headersList.get('user-agent') || undefined;
 }
 
@@ -66,8 +66,8 @@ export async function trackPageView(data: {
   loadTime?: number;
 }) {
   try {
-    const ipAddress = getClientIp();
-    const userAgent = getUserAgent();
+    const ipAddress = await getClientIp();
+    const userAgent = await getUserAgent();
     const device = getDeviceType(userAgent);
     const visitorId = await getOrCreateVisitor(data.sessionId);
 
@@ -188,8 +188,8 @@ export async function trackEvent(data: {
   metadata?: any;
 }) {
   try {
-    const ipAddress = getClientIp();
-    const userAgent = getUserAgent();
+    const ipAddress = await getClientIp();
+    const userAgent = await getUserAgent();
     const visitorId = await getOrCreateVisitor(data.sessionId);
 
     await prisma.analyticsEvent.create({
@@ -229,8 +229,8 @@ export async function trackContactSubmission(data: {
   referrer?: string;
 }) {
   try {
-    const ipAddress = getClientIp();
-    const userAgent = getUserAgent();
+    const ipAddress = await getClientIp();
+    const userAgent = await getUserAgent();
 
     await prisma.contactSubmission.create({
       data: {
@@ -276,7 +276,7 @@ export async function trackDownload(data: {
   sessionId?: string;
 }) {
   try {
-    const ipAddress = getClientIp();
+    const ipAddress = await getClientIp();
     const visitorId = await getOrCreateVisitor(data.sessionId);
 
     await prisma.downloadEvent.create({
@@ -303,6 +303,113 @@ export async function trackDownload(data: {
     return { success: true };
   } catch (error) {
     console.error('Error tracking download:', error);
+    return { success: false, error };
+  }
+}
+
+// ============================================
+// Datasheet Download Tracking
+// ============================================
+
+export async function trackDatasheetDownload(data: {
+  email: string;
+  productName: string;
+  productSlug: string;
+  datasheetUrl: string;
+  sessionId?: string;
+  userAgent?: string;
+  referrer?: string;
+}) {
+  try {
+    const ipAddress = await getClientIp();
+    const visitorId = await getOrCreateVisitor(data.sessionId);
+
+    await prisma.datasheetDownload.create({
+      data: {
+        email: data.email,
+        productName: data.productName,
+        productSlug: data.productSlug,
+        datasheetUrl: data.datasheetUrl,
+        sessionId: data.sessionId,
+        visitorId,
+        ipAddress,
+        userAgent: data.userAgent,
+        referrer: data.referrer,
+      },
+    });
+
+    // Also create an analytics event
+    await trackEvent({
+      eventType: 'datasheet_download',
+      category: 'Datasheet',
+      action: 'download',
+      label: data.productName,
+      sessionId: data.sessionId,
+      metadata: {
+        email: data.email,
+        productSlug: data.productSlug,
+        datasheetUrl: data.datasheetUrl,
+      },
+    });
+
+    return { success: true };
+  } catch (error) {
+    console.error('Error tracking datasheet download:', error);
+    return { success: false, error };
+  }
+}
+
+// ============================================
+// Datasheet Share Tracking
+// ============================================
+
+export async function trackDatasheetShare(data: {
+  senderEmail?: string;
+  recipientEmail: string;
+  productName: string;
+  productSlug: string;
+  datasheetUrl: string;
+  sessionId?: string;
+  userAgent?: string;
+  referrer?: string;
+}) {
+  try {
+    const ipAddress = await getClientIp();
+    const visitorId = await getOrCreateVisitor(data.sessionId);
+
+    await prisma.datasheetShare.create({
+      data: {
+        senderEmail: data.senderEmail,
+        recipientEmail: data.recipientEmail,
+        productName: data.productName,
+        productSlug: data.productSlug,
+        datasheetUrl: data.datasheetUrl,
+        sessionId: data.sessionId,
+        visitorId,
+        ipAddress,
+        userAgent: data.userAgent,
+        referrer: data.referrer,
+      },
+    });
+
+    // Also create an analytics event
+    await trackEvent({
+      eventType: 'datasheet_share',
+      category: 'Datasheet',
+      action: 'share',
+      label: data.productName,
+      sessionId: data.sessionId,
+      metadata: {
+        senderEmail: data.senderEmail,
+        recipientEmail: data.recipientEmail,
+        productSlug: data.productSlug,
+        datasheetUrl: data.datasheetUrl,
+      },
+    });
+
+    return { success: true };
+  } catch (error) {
+    console.error('Error tracking datasheet share:', error);
     return { success: false, error };
   }
 }

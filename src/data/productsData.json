@@ -104,7 +104,7 @@
       "href": "/products/wiping-pad",
       "description": "Exceptionally strong and durable wiping pads for Wire Drawing Industry",
       "specs": [
-        "Aramid based wiping pad",
+        "Wiping pad",
         "High temperature wiping pad"
       ],
       "diagram": "ThermalInsulationDiagram",
@@ -234,7 +234,7 @@
     {
       "id": 25,
       "categoryId": 7,
-      "name": "Aramid Based Wiping Pad",
+      "name": "Wiping Pad",
       "slug": "aramid-based-wiping-pad",
       "description": "High-performance wiping pads made from copolymer yarn reinforced with high-tensile inorganic filaments for wire drawing and galvanizing operations"
     },
@@ -805,7 +805,7 @@
       "apiCertified": true,
       "shortDescription": "API certified polyimide packing",
       "description": "PA 106 offers high-strength polyimide fiber packing for demanding applications requiring exceptional mechanical properties. Engineered to withstand aggressive environments and highly abrasive media.",
-      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA%20106/PA%20106-11_15.webp",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA%20106/PA%20106_1.webp",
       "specifications": {
         "pH Range": "0-14",
         "Temperature (°C)": "-200 to +300",
@@ -1612,7 +1612,7 @@
       "apiCertified": true,
       "shortDescription": "Heavy-duty hybrid packing",
       "description": "HY 606 is engineered for severe service conditions with enhanced mechanical strength and exceptional durability. Features heavy-duty construction with flexible Inmalon core for superior load-bearing capacity.",
-      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY%20105/HY%20105_1.webp",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA%20106/PA%20106_1.webp",
       "specifications": {
         "pH Range": "0 – 14",
         "Temperature Range": "-200°C to +300°C",
@@ -1639,14 +1639,14 @@
         "Extreme service petrochemical pumps"
       ],
       "gallery": [
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY%20501/HY%20175_Edited_3_2.webp",
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY%20501/HY%20501%20-%2027_07_2.webp",
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY%20501/HY%20501%20-%2027_20_2.webp"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA%20106/PA%20106_1.webp",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA%20106/PA%20106_2.webp",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA%20106/PA%20106_3.webp"
       ],
       "images": [
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY%20501/HY%20175_Edited_3_2.webp",
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY%20501/HY%20501%20-%2027_07_2.webp",
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY%20501/HY%20501%20-%2027_20_2.webp"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA%20106/PA%20106_1.webp",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA%20106/PA%20106_2.webp",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA%20106/PA%20106_3.webp"
       ],
       "datasheet": "/datasheets/new_generated_html/HY_606.html"
     },
@@ -3205,12 +3205,12 @@
     {
       "id": 82,
       "subcategoryId": 17,
-      "name": "NA 452 GE",
+      "name": "NA 452 GF",
       "slug": "na-452-ge",
       "material": "CNAF",
       "apiCertified": false,
       "shortDescription": "General equipment compressed non-asbestos fiber gasket",
-      "description": "NA 452 GE is designed for general equipment applications with enhanced sealing performance. Features aramid and glass fiber construction for superior high-temperature and high-stress capabilities.",
+      "description": "NA 452 GF is designed for general equipment applications with enhanced sealing performance. Features aramid and glass fiber construction for superior high-temperature and high-stress capabilities.",
       "image": "",
       "specifications": {
         "Density (g/cm³)": "ASTM F 1315",
@@ -3329,7 +3329,7 @@
       "subcategoryId": 17,
       "name": "SST 323",
       "slug": "sst-323",
-      "material": "CNAF",
+      "material": "Graphite",
       "apiCertified": false,
       "shortDescription": "Stainless steel reinforced CNAF gasket",
       "description": "SST 323 is a stainless steel reinforced compressed graphite sheet engineered for enhanced performance and durability. Combines the benefits of flexible graphite with stainless steel reinforcement.",
@@ -3421,12 +3421,12 @@
       "id": 87,
       "categoryId": 7,
       "subcategoryId": 25,
-      "name": "Aramid Based Wiping Pad",
+      "name": "Wiping Pad",
       "slug": "aramid-based-wiping-pad",
       "material": "Copolymer Yarn with High-Tensile Inorganic Filaments",
       "apiCertified": true,
       "shortDescription": "High-performance wiping pad made from copolymer yarn for wire drawing and galvanizing industries",
-      "description": "Specially designed aramid-based wiping pad for the wire drawing industry, providing exceptional strength and durability for high-speed continuous operations. Engineered to withstand extreme mechanical stress.",
+      "description": "Specially designed wiping pad for the wire drawing industry, providing exceptional strength and durability for high-speed continuous operations. Engineered to withstand extreme mechanical stress.",
       "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Wiping+Pad/(1)_02.JPG.webp",
       "specifications": {
         "pH Range": "0 - 14 (Universal)",
@@ -3460,14 +3460,14 @@
         "High-pressure industrial wiping applications"
       ],
       "gallery": [
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Wiping+Pad/(1)_02.JPG.webp",
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Wiping+Pad/Wiping+Pad_1.webp",
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Wiping+Pad/Wiping+Pad_2.webp"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Yellow%20Wiping%20Pad/Yellow%20Wiping%20Pad_1.webp",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Yellow%20Wiping%20Pad/Yellow%20Wiping%20Pad_2.webp",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Yellow%20Wiping%20Pad/Yellow%20Wiping%20Pad_3.webp"
       ],
       "images": [
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Wiping+Pad/(1)_02.JPG.webp",
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Wiping+Pad/Wiping+Pad_1.webp",
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Wiping+Pad/Wiping+Pad_2.webp"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Yellow%20Wiping%20Pad/Yellow%20Wiping%20Pad_1.webp",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Yellow%20Wiping%20Pad/Yellow%20Wiping%20Pad_2.webp",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Yellow%20Wiping%20Pad/Yellow%20Wiping%20Pad_3.webp"
       ],
       "datasheet": "/datasheets/new_generated_html/Aramid_Wiping_Pad.html"
     },
@@ -3513,14 +3513,14 @@
         "Industrial applications requiring fire-resistant materials"
       ],
       "gallery": [
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Yellow%20Wiping%20Pad/Yellow%20Wiping%20Pad_1.webp",
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Yellow%20Wiping%20Pad/Yellow%20Wiping%20Pad_2.webp",
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Yellow%20Wiping%20Pad/Yellow%20Wiping%20Pad_3.webp"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Wiping+Pad/(1)_02.JPG.webp",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Wiping+Pad/Wiping+Pad_1.webp",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Wiping+Pad/Wiping+Pad_2.webp"
       ],
       "images": [
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Yellow%20Wiping%20Pad/Yellow%20Wiping%20Pad_1.webp",
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Yellow%20Wiping%20Pad/Yellow%20Wiping%20Pad_2.webp",
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Yellow%20Wiping%20Pad/Yellow%20Wiping%20Pad_3.webp"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Wiping+Pad/(1)_02.JPG.webp",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Wiping+Pad/Wiping+Pad_1.webp",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Wiping+Pad/Wiping+Pad_2.webp"
       ],
       "datasheet": "/datasheets/new_generated_html/High_Temperature_Wiping_Pad.html"
     },

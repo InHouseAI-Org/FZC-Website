@@ -77,7 +77,7 @@ export default function FluidSealingPost() {
         </div>
       </section>
 
-      {/* Video Section */}
+      {/* Content Media Section */}
       <section className="py-12 bg-[#2b2a29]">
         <div className="max-w-[1200px] mx-auto px-6 lg:px-12">
           <motion.div
@@ -117,7 +117,7 @@ export default function FluidSealingPost() {
                 </div>
               </div>
             ) : (
-              /* YouTube Embed - fallback */
+              /* Embedded Content - fallback */
               <div className="relative bg-black rounded-lg overflow-hidden aspect-video shadow-2xl">
                 <iframe
                   src={post.youtubeLink}

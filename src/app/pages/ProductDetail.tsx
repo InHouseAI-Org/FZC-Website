@@ -1,11 +1,13 @@
 'use client';
 
+import { useState } from 'react';
 import { motion } from 'motion/react';
 import Link from 'next/link';
 import { useParams } from 'next/navigation';
-import { ArrowLeft, CheckCircle2, FileText, Download, Info } from 'lucide-react';
+import { ArrowLeft, CheckCircle2, FileText, Download, Info, Share2 } from 'lucide-react';
 import { ImageWithFallback } from '@/app/components/figma/ImageWithFallback';
 import { ProductImageGallery } from '@/app/components/ProductImageGallery';
+import EmailModal from '@/app/components/EmailModal';
 import productsData from '@/data/productsData.json';
 
 export default function ProductDetail() {
@@ -13,6 +15,12 @@ export default function ProductDetail() {
   const categorySlug = params.categorySlug;
   const subcategorySlug = params.subcategorySlug || params.secondParam;
   const productSlug = params.productSlug;
+
+  // Email modal state
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [modalMode, setModalMode] = useState<'download' | 'share'>('download');
+  const [isLoading, setIsLoading] = useState(false);
+  const [notification, setNotification] = useState<{ type: 'success' | 'error'; message: string } | null>(null);
 
   const category = productsData.categories.find(c => c.slug === categorySlug);
 
@@ -49,6 +57,105 @@ export default function ProductDetail() {
       </main>
     );
   }
+
+  // Handle download datasheet
+  const handleDownload = async (email: string) => {
+    if (!product.datasheet) return;
+
+    setIsLoading(true);
+    const datasheetUrl = getDatasheetPdfUrl(product.datasheet);
+
+    try {
+      // Track the download
+      const response = await fetch('/api/datasheet/download', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          email,
+          productName: product.name,
+          productSlug: product.slug,
+          datasheetUrl,
+        }),
+      });
+
+      const data = await response.json();
+
+      if (data.success) {
+        // Open the datasheet in a new tab
+        window.open(datasheetUrl, '_blank');
+        setNotification({ type: 'success', message: 'Datasheet download started!' });
+        setIsModalOpen(false);
+      } else {
+        setNotification({ type: 'error', message: data.message || 'Failed to process download' });
+      }
+    } catch (error) {
+      console.error('Download error:', error);
+      setNotification({ type: 'error', message: 'An error occurred. Please try again.' });
+    } finally {
+      setIsLoading(false);
+      // Clear notification after 5 seconds
+      setTimeout(() => setNotification(null), 5000);
+    }
+  };
+
+  // Handle share datasheet
+  const handleShare = async (email: string) => {
+    if (!product.datasheet) return;
+
+    setIsLoading(true);
+    const datasheetUrl = getDatasheetPdfUrl(product.datasheet);
+
+    try {
+      // Send the datasheet via email
+      const response = await fetch('/api/datasheet/share', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          recipientEmail: email,
+          productName: product.name,
+          productSlug: product.slug,
+          datasheetUrl,
+        }),
+      });
+
+      const data = await response.json();
+
+      if (data.success) {
+        setNotification({ type: 'success', message: 'Datasheet shared successfully!' });
+        setIsModalOpen(false);
+      } else {
+        setNotification({ type: 'error', message: data.message || 'Failed to share datasheet' });
+      }
+    } catch (error) {
+      console.error('Share error:', error);
+      setNotification({ type: 'error', message: 'An error occurred. Please try again.' });
+    } finally {
+      setIsLoading(false);
+      // Clear notification after 5 seconds
+      setTimeout(() => setNotification(null), 5000);
+    }
+  };
+
+  // Handle modal submit based on mode
+  const handleModalSubmit = (email: string) => {
+    if (modalMode === 'download') {
+      handleDownload(email);
+    } else {
+      handleShare(email);
+    }
+  };
+
+  // Open download modal
+  const openDownloadModal = () => {
+    setModalMode('download');
+    setIsModalOpen(true);
+  };
+
+  // Open share modal
+  const openShareModal = () => {
+    setModalMode('share');
+    setIsModalOpen(true);
+  };
 
   return (
     <main className="bg-[#2b2a29]">
@@ -173,21 +280,49 @@ export default function ProductDetail() {
                   Request Quote
                 </Link>
                 {product.datasheet && (
-                  <a
-                    href={getDatasheetPdfUrl(product.datasheet)}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center space-x-2 px-6 py-3 bg-transparent border-2 border-[#e31e24] text-[#e31e24] rounded-lg hover:bg-[#e31e24] hover:text-white transition-colors duration-300 font-medium"
-                  >
-                    <Download className="w-4 h-4" />
-                    <span>Download Datasheet</span>
-                  </a>
+                  <>
+                    <button
+                      onClick={openDownloadModal}
+                      className="inline-flex items-center space-x-2 px-6 py-3 bg-transparent border-2 border-[#e31e24] text-[#e31e24] rounded-lg hover:bg-[#e31e24] hover:text-white transition-colors duration-300 font-medium"
+                    >
+                      <Download className="w-4 h-4" />
+                      <span>Download Datasheet</span>
+                    </button>
+                    <button
+                      onClick={openShareModal}
+                      className="inline-flex items-center space-x-2 px-6 py-3 bg-transparent border-2 border-gray-600 text-gray-300 rounded-lg hover:bg-gray-700 hover:border-gray-500 transition-colors duration-300 font-medium"
+                    >
+                      <Share2 className="w-4 h-4" />
+                      <span>Share Datasheet</span>
+                    </button>
+                  </>
                 )}
               </div>
             </motion.div>
           </div>
         </div>
       </section>
+
+      {/* Notification Toast */}
+      {notification && (
+        <div className="fixed top-24 right-6 z-50 animate-fadeIn">
+          <div className={`px-6 py-4 rounded-lg shadow-lg ${
+            notification.type === 'success' ? 'bg-green-600' : 'bg-red-600'
+          } text-white`}>
+            <p className="font-medium">{notification.message}</p>
+          </div>
+        </div>
+      )}
+
+      {/* Email Modal */}
+      <EmailModal
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+        onSubmit={handleModalSubmit}
+        mode={modalMode}
+        productName={product.name}
+        isLoading={isLoading}
+      />
 
       {/* Detailed Specifications */}
       <section className="py-12 bg-[#1a1918]">
@@ -428,7 +563,7 @@ export default function ProductDetail() {
               transition={{ duration: 0.6 }}
             >
               <h2 className="text-white text-3xl lg:text-4xl mb-6 tracking-tight">
-                Ready to Order?
+                Additional Support?
               </h2>
               <p className="text-gray-400 text-lg mb-8">
                 Contact our sales team for pricing, availability, and technical specifications.

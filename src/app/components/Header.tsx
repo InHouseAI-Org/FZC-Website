@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Play } from 'lucide-react';
+import { Menu, X, BookOpen } from 'lucide-react';
 import inmarcoLogo from '@/assets/inmarco-tagline-logo.png';
 
 export function Header() {
@@ -141,7 +141,7 @@ export function Header() {
                 : `text-white ${accentTextColor}`
             }`}
           >
-            <Play className={`w-4 h-4 transition-all duration-500 ${showTransitionAnimation ? 'scale-110' : 'group-hover:scale-110'}`} />
+            <BookOpen className={`w-4 h-4 transition-all duration-500 ${showTransitionAnimation ? 'scale-110' : 'group-hover:scale-110'}`} />
             <span>Fluid Sealing Simplified</span>
           </Link>
 

@@ -196,6 +196,51 @@ model DownloadEvent {
   @@map("download_events")
 }
 
+model DatasheetDownload {
+  id            String   @id @default(cuid())
+  email         String
+  productName   String
+  productSlug   String
+  datasheetUrl  String
+
+  // User tracking
+  sessionId     String?
+  visitorId     String?
+  ipAddress     String?
+  userAgent     String?
+  referrer      String?
+
+  createdAt     DateTime @default(now())
+
+  @@index([email])
+  @@index([productSlug])
+  @@index([createdAt])
+  @@map("datasheet_downloads")
+}
+
+model DatasheetShare {
+  id             String   @id @default(cuid())
+  senderEmail    String?
+  recipientEmail String
+  productName    String
+  productSlug    String
+  datasheetUrl   String
+
+  // User tracking
+  sessionId      String?
+  visitorId      String?
+  ipAddress      String?
+  userAgent      String?
+  referrer       String?
+
+  createdAt      DateTime @default(now())
+
+  @@index([recipientEmail])
+  @@index([productSlug])
+  @@index([createdAt])
+  @@map("datasheet_shares")
+}
+
 // ============================================
 // VISITOR SESSIONS
 // ============================================

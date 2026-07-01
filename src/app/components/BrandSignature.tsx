@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'motion/react';
-import { Play, BookOpen, Video, Users } from 'lucide-react';
+import { ArrowRight, BookOpen, FileText, Users } from 'lucide-react';
 import Link from 'next/link';
 import fluidSealingContent from '@/data/fluidSealingContent.json';
 
@@ -17,7 +17,7 @@ interface Post {
 
 export function BrandSignature() {
   // Get the first 3 posts for display on home page
-  const videoSeries: Post[] = fluidSealingContent.posts.slice(0, 3);
+  const featuredPosts: Post[] = fluidSealingContent.posts.slice(0, 3);
 
   // Function to extract YouTube video ID and construct thumbnail URL
   const getYouTubeThumbnail = (youtubeLink: string) => {
@@ -96,7 +96,7 @@ export function BrandSignature() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-gray-400 text-lg mb-4"
           >
-            Free educational video series breaking down complex fluid sealing concepts into simple, actionable knowledge
+            Free educational resource library breaking down complex fluid sealing concepts into simple, actionable knowledge
           </motion.p>
 
           <motion.div
@@ -111,10 +111,10 @@ export function BrandSignature() {
           </motion.div>
         </div>
 
-        {/* Video Grid */}
+        {/* Content Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mb-8 md:mb-12 lg:mb-16">
-          {videoSeries.map((video, index) => (
-            <Link key={video.id} href={`/fluid-sealing-simplified/${video.id}`} className="h-full">
+          {featuredPosts.map((post, index) => (
+            <Link key={post.id} href={`/fluid-sealing-simplified/${post.id}`} className="h-full">
               <motion.div
                 initial={{ opacity: 0, y: 40 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -123,74 +123,74 @@ export function BrandSignature() {
                 whileHover={{ y: -10 }}
                 className="group relative bg-[#1a1918] rounded-xl overflow-hidden border border-gray-800 hover:border-[#e31e24]/50 transition-all duration-500 cursor-pointer h-full flex flex-col"
               >
-                {/* Video Thumbnail */}
+                {/* Content Thumbnail */}
                 <div className="relative h-48 overflow-hidden bg-gray-900">
-                  {video.linkedInEmbedUrl ? (
+                  {post.linkedInEmbedUrl ? (
                     /* LinkedIn Embed Preview */
                     <>
                       <iframe
-                        src={`${video.linkedInEmbedUrl}?compact=1`}
+                        src={`${post.linkedInEmbedUrl}?compact=1`}
                         className="absolute inset-0 w-full h-full pointer-events-none object-cover"
-                        title={video.title}
+                        title={post.title}
                         style={{ transform: 'scale(1)', transformOrigin: 'top left' }}
                       />
                       {/* Overlay to prevent interaction */}
                       <div className="absolute inset-0 bg-black/40 group-hover:bg-black/60 transition-colors pointer-events-auto"></div>
 
-                      {/* Play Button Overlay */}
+                      {/* Read Icon Overlay */}
                       <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
                         <motion.div
                           className="w-16 h-16 rounded-full bg-[#e31e24] flex items-center justify-center"
                           whileHover={{ scale: 1.1 }}
                           whileTap={{ scale: 0.9 }}
                         >
-                          <Play className="w-8 h-8 text-white ml-1" fill="white" />
+                          <BookOpen className="w-8 h-8 text-white" />
                         </motion.div>
                       </div>
                     </>
                   ) : (
-                    /* YouTube Thumbnail */
+                    /* Content Thumbnail */
                     <>
                       <img
-                        src={getYouTubeThumbnail(video.youtubeLink)}
-                        alt={video.title}
+                        src={getYouTubeThumbnail(post.youtubeLink)}
+                        alt={post.title}
                         className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                       />
-                      {/* Play Button Overlay */}
+                      {/* Read Icon Overlay */}
                       <div className="absolute inset-0 flex items-center justify-center bg-black/40 group-hover:bg-black/60 transition-colors">
                         <motion.div
                           className="w-16 h-16 rounded-full bg-[#e31e24] flex items-center justify-center"
                           whileHover={{ scale: 1.1 }}
                           whileTap={{ scale: 0.9 }}
                         >
-                          <Play className="w-8 h-8 text-white ml-1" fill="white" />
+                          <BookOpen className="w-8 h-8 text-white" />
                         </motion.div>
                       </div>
                     </>
                   )}
                 </div>
 
-                {/* Video Info */}
+                {/* Post Info */}
                 <div className="p-6 flex flex-col flex-1">
                   <div className="flex items-center justify-between mb-2">
                     <h3 className="text-white text-lg font-light group-hover:text-[#e31e24] transition-colors">
-                      {video.title}
+                      {post.title}
                     </h3>
                   </div>
                   <p className="text-gray-400 text-sm leading-relaxed mb-4 flex-1">
-                    {truncateDescription(video.description)}
+                    {truncateDescription(post.description)}
                   </p>
 
-                  {/* Date and Watch More Button */}
+                  {/* Date and Read More Button */}
                   <div className="flex items-center justify-between pt-4 border-t border-gray-800 mt-auto">
-                    <span className="text-xs text-gray-500">{formatDate(video.date)}</span>
+                    <span className="text-xs text-gray-500">{formatDate(post.date)}</span>
                     <motion.button
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       className="flex items-center space-x-1 text-[#e31e24] text-sm hover:text-white transition-colors"
                     >
-                      <span>Watch</span>
-                      <Play className="w-3 h-3" fill="currentColor" />
+                      <span>Read More</span>
+                      <ArrowRight className="w-3 h-3" />
                     </motion.button>
                   </div>
                 </div>
@@ -221,7 +221,7 @@ export function BrandSignature() {
               {/* Left: Stats */}
               <div className="grid grid-cols-3 gap-3 sm:gap-6">
                 {[
-                  { icon: Video, value: '6', label: 'Videos', color: 'from-red-500 to-red-600' },
+                  { icon: FileText, value: '6+', label: 'Articles', color: 'from-red-500 to-red-600' },
                   { icon: Users, value: '10K+', label: 'Learners', color: 'from-blue-500 to-blue-600' },
                   { icon: BookOpen, value: 'Free', label: 'Always', color: 'from-purple-500 to-purple-600' },
                 ].map((stat, index) => (
@@ -268,7 +268,7 @@ export function BrandSignature() {
                   transition={{ duration: 0.6, delay: 1.1 }}
                   className="text-gray-400 text-sm sm:text-base mb-6 md:mb-8 leading-relaxed"
                 >
-                  Access our complete library of educational videos and become an expert
+                  Access our complete library of educational articles and technical guides to become an expert
                 </motion.p>
                 <Link href="/fluid-sealing-simplified">
                   <motion.button
@@ -292,8 +292,8 @@ export function BrandSignature() {
                         repeatDelay: 1,
                       }}
                     />
-                    <Play className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 relative z-10 group-hover:scale-110 transition-transform" />
-                    <span className="relative z-10 text-base sm:text-lg">Watch Now</span>
+                    <BookOpen className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 relative z-10 group-hover:scale-110 transition-transform" />
+                    <span className="relative z-10 text-base sm:text-lg">Explore Now</span>
                   </motion.button>
                 </Link>
               </div>

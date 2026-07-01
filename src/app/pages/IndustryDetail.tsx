@@ -95,9 +95,9 @@ export default function IndustryDetail() {
     'marine': 'https://d24gq0kplkhyxr.cloudfront.net/assets/products/Industries/Marine.webp',
     'cement': 'https://d24gq0kplkhyxr.cloudfront.net/assets/products/Industries/Cement.webp',
     'fertilizers': 'https://d24gq0kplkhyxr.cloudfront.net/assets/products/Industries/Fertilisers.webp',
-    'metallurgy': 'https://d24gq0kplkhyxr.cloudfront.net/assets/products/Industries/Metallurgy.webp',
+    'metallurgy': 'https://d24gq0kplkhyxr.cloudfront.net/assets/products/Industries/Metallurgy.jpg',
     'pulp-paper': 'https://d24gq0kplkhyxr.cloudfront.net/assets/products/Industries/Pulp.webp',
-    'food-pharmaceutical': 'https://d24gq0kplkhyxr.cloudfront.net/assets/products/Industries/Food.webp',
+    'food-pharmaceutical': 'https://d24gq0kplkhyxr.cloudfront.net/assets/products/Industries/Food.jpg',
     'sugar': 'https://d24gq0kplkhyxr.cloudfront.net/assets/products/Industries/Sugar.webp',
     'oem': 'https://d24gq0kplkhyxr.cloudfront.net/assets/products/Industries/OEM.webp',
   };

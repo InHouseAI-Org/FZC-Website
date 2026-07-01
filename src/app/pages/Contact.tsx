@@ -129,7 +129,7 @@ export default function Contact() {
     <main className="bg-[#2b2a29]">
       {/* Hero Section */}
       <section className="relative py-24 bg-[#1a1918]">
-        <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
+        <div className="max-w-[1400px] mx-auto px-6 py-12 lg:px-12">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}

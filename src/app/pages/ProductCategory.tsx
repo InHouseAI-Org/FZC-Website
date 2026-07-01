@@ -68,7 +68,7 @@ export default function ProductCategory() {
           >
             <Link
               href="/products"
-              className="inline-flex items-center space-x-2 text-gray-400 hover:text-[#e31e24] transition-colors mt-32 mb-8"
+              className="inline-flex items-center space-x-2 text-gray-400 hover:text-[#e31e24] transition-colors mt-10 mb-8"
             >
               <ArrowLeft className="w-5 h-5" />
               <span>Back to All Products</span>

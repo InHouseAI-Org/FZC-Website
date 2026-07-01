@@ -796,7 +796,7 @@ export default function DesignDeck() {
                   { step: '03', section: 'Industries Served', goal: 'Build credibility via social proof', metric: '11 industries' },
                   { step: '04', section: 'Why Inmarco', goal: 'Differentiation + trust signals', metric: '25+ years' },
                   { step: '05', section: 'Sustainability', goal: 'Modern values alignment', metric: 'Environmental commitment' },
-                  { step: '06', section: 'Fluid Sealing Simplified', goal: 'Thought leadership + education', metric: 'Video content' },
+                  { step: '06', section: 'Fluid Sealing Simplified', goal: 'Thought leadership + education', metric: 'Educational articles' },
                   { step: '07', section: 'CTA Section', goal: 'Final conversion opportunity', metric: 'Phone + form' },
                 ].map((item, i) => (
                   <motion.div
