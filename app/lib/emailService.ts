@@ -2,23 +2,14 @@
 // Next.js compatible version
 import { Client } from '@microsoft/microsoft-graph-client';
 import { ClientSecretCredential } from '@azure/identity';
-import fs from 'fs';
-import path from 'path';
 
 /**
- * Gets the logo as base64 data URL for embedding in emails
+ * Gets the logo URL from CloudFront/S3 for email embedding
  */
-function getLogoBase64(): string {
-  try {
-    const logoPath = path.join(process.cwd(), 'public', 'inmarco-tagline-logo1.webp');
-    const logoBuffer = fs.readFileSync(logoPath);
-    const logoBase64 = logoBuffer.toString('base64');
-    return `data:image/webp;base64,${logoBase64}`;
-  } catch (error) {
-    console.error('Error reading logo file:', error);
-    // Fallback to external URL if file read fails
-    return 'https://inmarco.ae/inmarco-tagline-logo1.webp';
-  }
+function getLogoUrl(): string {
+  // Use CloudFront CDN URL for better email deliverability and faster loading
+  const cdnDomain = process.env.NEXT_PUBLIC_CDN_DOMAIN || 'd24gq0kplkhyxr.cloudfront.net';
+  return `https://${cdnDomain}/assets/images/inmarco-tagline-logo1.webp`;
 }
 
 /**
@@ -60,8 +51,8 @@ async function sendCustomerConfirmation(client: any, formData: {
     partnership: 'Partnership Opportunities'
   };
 
-  // Get logo as base64 for email embedding
-  const logoSrc = getLogoBase64();
+  // Get logo URL from CloudFront/S3 for email embedding
+  const logoSrc = getLogoUrl();
 
   const customerEmailBody = `
     <html>
@@ -309,8 +300,8 @@ export async function sendDatasheetEmail(formData: {
       // Continue without attachment if fetch fails
     }
 
-    // Get logo as base64 for email embedding
-    const logoSrc = getLogoBase64();
+    // Get logo URL from CloudFront/S3 for email embedding
+    const logoSrc = getLogoUrl();
 
     // Format the datasheet email body
     const emailBody = `
