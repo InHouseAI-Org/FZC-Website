@@ -47,8 +47,8 @@ function getDeviceType(userAgent?: string): string {
 async function getOrCreateVisitor(sessionId?: string): Promise<string> {
   // In production, you'd get this from a cookie
   // For now, generate a simple visitor ID based on IP + user agent
-  const ipAddress = getClientIp();
-  const userAgent = getUserAgent();
+  const ipAddress = await getClientIp();
+  const userAgent = await getUserAgent();
   const visitorId = `${ipAddress}-${userAgent ? userAgent.substring(0, 50) : 'unknown'}`;
 
   return visitorId;
