@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { trackDatasheetDownload } from '../../../lib/analyticsTracking';
+import { sendDatasheetNotification } from '../../../lib/emailService';
 
 export async function POST(request: NextRequest) {
   try {
@@ -38,6 +39,13 @@ export async function POST(request: NextRequest) {
       userAgent: request.headers.get('user-agent') || undefined,
       referrer: request.headers.get('referer') || undefined,
     }).catch(err => console.error('Failed to track datasheet download:', err));
+
+    // Send notification email to techsupport@inmarco.ae (don't wait for it)
+    sendDatasheetNotification({
+      visitorEmail: email,
+      productName,
+      action: 'download',
+    }).catch(err => console.error('Failed to send notification email:', err));
 
     return NextResponse.json(
       {

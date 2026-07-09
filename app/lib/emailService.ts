@@ -57,8 +57,10 @@ async function sendCustomerConfirmation(client: any, formData: {
   const customerEmailBody = `
     <html>
       <body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: 0 auto;">
-        <div style="background-color: transparent; padding: 30px; text-align: center; border-bottom: 3px solid #e31e24;">
-          <img src="${logoSrc}" alt="Inmarco FZC Logo" style="max-width: 200px; height: auto;" />
+        <div style="background-color: #1a1918; padding: 30px; text-align: center;">
+          <div style="background-color: #ffffff; display: inline-block; padding: 20px; border-radius: 8px;">
+            <img src="${logoSrc}" alt="Inmarco FZC Logo" style="max-width: 200px; height: auto; display: block;" />
+          </div>
         </div>
 
         <div style="padding: 40px 30px; background-color: #ffffff;">
@@ -264,6 +266,116 @@ export async function sendContactEmail(formData: {
 }
 
 /**
+ * Sends a notification email to techsupport@inmarco.ae when a datasheet is downloaded or shared
+ */
+export async function sendDatasheetNotification(formData: {
+  visitorEmail: string;
+  productName: string;
+  action: 'download' | 'share';
+  recipientEmail?: string; // Only for share action
+}) {
+  try {
+    // Validate required environment variables
+    if (!process.env.AZURE_TENANT_ID || !process.env.AZURE_CLIENT_ID || !process.env.AZURE_CLIENT_SECRET) {
+      throw new Error('Azure credentials not configured. Please set AZURE_TENANT_ID, AZURE_CLIENT_ID, and AZURE_CLIENT_SECRET.');
+    }
+
+    const client = getGraphClient();
+
+    const { visitorEmail, productName, action, recipientEmail } = formData;
+
+    // Format the notification email body
+    const emailBody = `
+      <html>
+        <body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
+          <h2 style="color: #e31e24; border-bottom: 2px solid #e31e24; padding-bottom: 10px;">
+            Datasheet ${action === 'download' ? 'Download' : 'Share'} Notification
+          </h2>
+
+          <div style="margin: 20px 0;">
+            <p style="color: #333; font-size: 16px; line-height: 1.8;">
+              A visitor has ${action === 'download' ? 'downloaded' : 'shared'} a product datasheet from the website.
+            </p>
+          </div>
+
+          <div style="margin: 20px 0;">
+            <h3 style="color: #1a1918; margin-bottom: 15px;">Details</h3>
+            <table style="width: 100%; border-collapse: collapse;">
+              <tr>
+                <td style="padding: 8px; border-bottom: 1px solid #ddd; font-weight: bold; width: 150px;">Product:</td>
+                <td style="padding: 8px; border-bottom: 1px solid #ddd;">${productName}</td>
+              </tr>
+              <tr>
+                <td style="padding: 8px; border-bottom: 1px solid #ddd; font-weight: bold;">Visitor Email:</td>
+                <td style="padding: 8px; border-bottom: 1px solid #ddd;">
+                  <a href="mailto:${visitorEmail}" style="color: #e31e24; text-decoration: none;">${visitorEmail}</a>
+                </td>
+              </tr>
+              ${recipientEmail ? `
+                <tr>
+                  <td style="padding: 8px; border-bottom: 1px solid #ddd; font-weight: bold;">Shared With:</td>
+                  <td style="padding: 8px; border-bottom: 1px solid #ddd;">
+                    <a href="mailto:${recipientEmail}" style="color: #e31e24; text-decoration: none;">${recipientEmail}</a>
+                  </td>
+                </tr>
+              ` : ''}
+              <tr>
+                <td style="padding: 8px; border-bottom: 1px solid #ddd; font-weight: bold;">Action:</td>
+                <td style="padding: 8px; border-bottom: 1px solid #ddd;">
+                  <span style="background-color: #e31e24; color: white; padding: 4px 12px; border-radius: 4px; font-size: 12px;">
+                    ${action.toUpperCase()}
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+
+          <div style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #ddd; color: #666; font-size: 12px;">
+            <p>This is an automated notification from the Inmarco website.</p>
+            <p>Timestamp: ${new Date().toLocaleString('en-US', { timeZone: 'Asia/Dubai' })} GST</p>
+          </div>
+        </body>
+      </html>
+    `;
+
+    const mail = {
+      message: {
+        subject: `Datasheet ${action === 'download' ? 'Downloaded' : 'Shared'}: ${productName} - ${visitorEmail}`,
+        body: {
+          contentType: 'HTML',
+          content: emailBody,
+        },
+        toRecipients: [
+          {
+            emailAddress: {
+              address: 'techsupport@inmarco.ae',
+            },
+          },
+        ],
+      },
+      saveToSentItems: true,
+    };
+
+    // Send the notification email
+    await client
+      .api(`/users/${process.env.AZURE_EMAIL_FROM}/sendMail`)
+      .post(mail);
+
+    return {
+      success: true,
+      message: 'Notification email sent successfully',
+    };
+  } catch (error: any) {
+    console.error('Error sending notification email:', error);
+    // Don't throw error - we don't want to fail the main operation if notification fails
+    return {
+      success: false,
+      message: `Failed to send notification email: ${error.message}`,
+    };
+  }
+}
+
+/**
  * Sends a datasheet email to the recipient with PDF attachment
  */
 export async function sendDatasheetEmail(formData: {
@@ -307,8 +419,10 @@ export async function sendDatasheetEmail(formData: {
     const emailBody = `
       <html>
         <body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: 0 auto;">
-          <div style="background-color: transparent; padding: 30px; text-align: center; border-bottom: 3px solid #e31e24;">
-            <img src="${logoSrc}" alt="Inmarco FZC Logo" style="max-width: 200px; height: auto;" />
+          <div style="background-color: #1a1918; padding: 30px; text-align: center;">
+            <div style="background-color: #ffffff; display: inline-block; padding: 20px; border-radius: 8px;">
+              <img src="${logoSrc}" alt="Inmarco FZC Logo" style="max-width: 200px; height: auto; display: block;" />
+            </div>
           </div>
 
           <div style="padding: 40px 30px; background-color: #ffffff;">

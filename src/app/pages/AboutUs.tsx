@@ -81,7 +81,6 @@ export default function AboutUs() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
             >
-              <div className="h-[2px] w-12 bg-[#e31e24] mb-6"></div>
               <h1 className="text-white mb-6" style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)', lineHeight: '1.1', letterSpacing: '-0.02em', maxWidth: '800px' }}>
                 Engineering Reliability. <span className="text-[#e31e24]">Delivering Precision.</span>
               </h1>
@@ -110,7 +109,7 @@ export default function AboutUs() {
                 Inmarco FZC is an engineering-led manufacturer and solution provider specializing in industrial fluid sealing systems - from compression packings and gaskets to custom-engineered sealing materials for pumps, valves, and other critical process equipment.
               </p>
               <p className="text-gray-300 text-lg mb-6 leading-relaxed">
-                Headquartered in the UAE, we serve a broad spectrum of industries including Oil & Gas, Petrochemical, Power Generation, Chemical Porcessing, Fertilizer, Mining and other process industries and utilities, providing performance-driven sealing solutions designed to meet the challenges of heat, pressure, chemical compatibility, and emission control.
+                Headquartered in the UAE, we serve a broad spectrum of industries including Oil & Gas, Petrochemical, Power Generation, Chemical Processing, Fertilizer, Mining and other process industries and utilities, providing performance-driven sealing solutions designed for extreme pressure, temperature, chemical compatibility, and emission control.
               </p>
               <div className="space-y-3">
                 {[

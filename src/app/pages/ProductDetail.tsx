@@ -28,7 +28,7 @@ export default function ProductDetail() {
   const getDatasheetPdfUrl = (datasheetPath: string) => {
     // Extract filename from path (e.g., "datasheets/new_generated_html/ULTRA_FE_1003.html" -> "ULTRA_FE_1003")
     const filename = datasheetPath.split('/').pop()?.replace('.html', '') || '';
-    return `https://d24gq0kplkhyxr.cloudfront.net/datasheets/pdf/${filename}.pdf`;
+    return `https://d24gq0kplkhyxr.cloudfront.net/datasheets/${filename}.pdf`;
   };
 
   // Handle both URL patterns: with and without subcategory

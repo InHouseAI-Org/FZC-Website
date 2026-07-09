@@ -275,8 +275,7 @@
         "common": {
           "Temperature Range": "-200°C to +300°C",
           "pH Range": "0 – 14",
-          "Size Range": "3 mm² to 35 mm²",
-          "Construction": "Duplex braided packing",
+          "Size Range": "3 mm² to 25 mm²",
           "Material Composition": "Expanded PTFE + Graphite + MoS₂",
           "Pressure – Rotating": "Up to 100 bar",
           "Pressure – Reciprocating": "Up to 200 bar",
@@ -289,9 +288,7 @@
       },
       "technicalData": {
         "Material": "Duplex braided packing from Expanded PTFE, Graphite, and MoS₂",
-        "Construction": "Molecular level bonding for superior integration",
-        "Certification": "EN16752 qualified (tightness class T1)",
-        "Standard": "Centrifugal pumps test procedure for seal packing"
+        "Certification": "Tested as per EN16752 – Tightness Class T1"
       },
       "features": [
         "Crafted from a unique blend of expanded PTFE, graphite, and MoS₂ for superior performance",
@@ -304,13 +301,16 @@
         "Compatible with a wide range of industrial media and applications"
       ],
       "applications": [
-        "High-speed pumps and rotating equipment",
-        "Control valves in demanding service",
-        "Agitators and mixers in chemical plants",
-        "Reactors handling corrosive media",
-        "Industrial applications excluding strong oxidizers",
-        "Process equipment excluding molten alkali metals",
-        "Systems excluding fluorine compounds"
+        "Centrifugal and rotary pumps",
+        "Valves and control valves",
+        "Agitators and mixers",
+        "Reactors and process vessels",
+        "High-speed rotating equipment",
+        "Chemical processing industries",
+        "Petrochemical and refinery applications",
+        "Power generation systems",
+        "Water and wastewater treatment systems",
+        "General industrial sealing applications requiring low-friction performance"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE%20505/PE%20505_1.webp",
@@ -339,12 +339,10 @@
         "Temperature (°C)": "-200 to +300",
         "Pressure (Bar)": "100",
         "Velocity (m/s)": "25",
-        "Size": "3 sq mm to 35 sq mm"
+        "Size": "3 mm² to 25 mm²"
       },
       "technicalData": {
-        "Construction": "PTFE filament yarn with lubricant impregnation",
-        "Size Range": "4mm to 45mm cross-section",
-        "Standard": "ISO 15848-1"
+        "Certification": "Tested and qualified as per EN 16752 (Centrifugal Pumps – Test Procedure for Seal Packing), Tightness Class T1"
       },
       "features": [
         "Universal chemical resistance across the full pH spectrum (0-14)",
@@ -354,11 +352,15 @@
         "Easy installation with minimal break-in period required"
       ],
       "applications": [
-        "General purpose pumps and valves",
-        "Water treatment facilities",
-        "Chemical processing equipment",
-        "Industrial cooling systems",
-        "Municipal water distribution"
+        "Centrifugal pumps",
+        "Rotary pumps",
+        "Agitators",
+        "Mixers",
+        "Reactors",
+        "Process equipment",
+        "High-speed rotary systems",
+        "Chemical processing industries",
+        "General industrial sealing applications"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE%20504/PE%20504_1(1).webp",
@@ -400,17 +402,13 @@
         "common": {
           "Temperature Range": "-200°C to +300°C",
           "pH Range": "0 – 14",
-          "Size Range": "3 sq.mm to 35 sq.mm",
-          "Density": "1.6-1.8 g/cm³",
+          "Size Range": "3 mm² to 25 mm²",
           "Maximum Pressure": "100 bar",
-          "Velocity": "25 m/s",
-          "Available Sizes": "3 mm² to 35 mm²"
+          "Velocity": "25 m/s"
         }
       },
       "technicalData": {
-        "Construction": "Hybrid fiber blend with PTFE and graphite lubrication",
-        "Size Range": "3mm to 50mm cross-section",
-        "Standard": "ISO 15848-1"
+        "Certification": "EN 16752 (Centrifugal Pumps Test Procedure for Seal Packing), Tightness Class T1"
       },
       "features": [
         "Combines benefits of multiple material technologies for enhanced performance",
@@ -420,11 +418,16 @@
         "Reduced break-in time simplifies installation and commissioning"
       ],
       "applications": [
-        "Multi-stage centrifugal pumps",
-        "High-speed rotating equipment",
-        "Chemical industry valve applications",
-        "Mining and mineral processing",
-        "Pulp and paper industry equipment"
+        "Centrifugal pumps",
+        "Process pumps",
+        "Valves",
+        "Agitators",
+        "Mixers",
+        "Reactors",
+        "Rotary equipment",
+        "Chemical processing equipment",
+        "Petrochemical installations",
+        "General industrial services"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY%20504/HY%20504%20-%2051(24)_20_2.webp",
@@ -452,15 +455,12 @@
         "pH Range": "0 – 14",
         "Temperature Range": "-240°C to +280°C",
         "Maximum Pressure": "350 Bar",
-        "Available Sizes": "3 sq mm to 35 sq mm",
-        "Construction": "Diagonally Braided Pure PTFE Filament Yarn",
+        "Available Sizes": "3 mm² to 25 mm²",
         "Lubrication": "Proprietary Break-In Lubricant"
       },
       "technicalData": {
-        "Construction": "Pure PTFE yarn with special lubricant package",
-        "Certification": "API 622 Type Test Qualified",
-        "Size Range": "3mm to 50mm cross-section",
-        "Standard": "ISO 15848-1, TA-Luft"
+        "Certification": "",
+        "Standard": ""
       },
       "features": [
         "Exceptional performance in high-speed rotating applications",
@@ -469,11 +469,13 @@
         "Outstanding chemical resistance with non-reactive properties in process media"
       ],
       "applications": [
-        "Refinery process pumps",
-        "Petrochemical valve applications",
-        "Critical pharmaceutical equipment",
-        "High-purity chemical processing",
-        "Environmentally sensitive installations"
+        "Pumps",
+        "Agitators",
+        "Mixers",
+        "Reactors",
+        "Static and Dynamic Sealing Equipment",
+        "Chemical Processing Industries",
+        "Water Treatment Systems"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE%20508/PE%20508_2.webp",
@@ -498,22 +500,18 @@
       "description": "PE 509 delivers superior sealing performance in extreme service conditions utilizing advanced PTFE technology with integrated self-lubrication. Engineered for applications where contamination control is paramount.",
       "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE%20509/PE%20509_1.webp",
       "specifications": {
-        "Construction": "Braided PTFE packing",
         "Material Composition": "100% Pure PTFE",
         "pH Range": "0 – 14",
         "Temperature Range": "-240°C to +260°C",
         "Maximum Pressure": "Up to 300 bar",
-        "Size Range": "6.5 mm² to 50 mm²",
+        "Size Range": "3 mm² to 25 mm²",
         "Chemical Compatibility": "Suitable for most industrial chemicals and process media",
         "Friction Characteristics": "Low friction design for reduced wear",
         "Operational Characteristics": "Non-toxic, non-flammable, chemically inert",
         "Application Type": "Static and dynamic sealing applications"
       },
       "technicalData": {
-        "Construction": "Premium PTFE filament with advanced lubricant system",
-        "Certification": "API 622 Type Test Qualified",
-        "Size Range": "3mm to 50mm cross-section",
-        "Standard": "ISO 15848-1, TA-Luft, MESC SPE 77/312"
+        "Certification": "● Manufactured under controlled industrial quality standards"
       },
       "features": [
         "Exceptional chemical resistance in aggressive media environments",
@@ -522,11 +520,16 @@
         "FDA compliant for food and pharmaceutical applications"
       ],
       "applications": [
-        "High-speed centrifugal pumps",
-        "Critical refinery applications",
-        "Offshore platform equipment",
-        "LNG and cryogenic services",
-        "Aggressive chemical handling systems"
+        "General industrial pumps",
+        "Valves and control valves",
+        "Chemical processing systems",
+        "Pharmaceutical and food processing equipment",
+        "Water and wastewater treatment systems",
+        "Petrochemical and refinery operations",
+        "Reactors and process vessels",
+        "Clean and sensitive process applications",
+        "Equipment handling chemically aggressive media",
+        "Static and low-to-medium dynamic sealing systems"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE%20509/PE%20509_1.webp",
@@ -568,19 +571,19 @@
         "common": {
           "Temperature Range": "-200°C to +300°C",
           "pH Range": "0-14",
-          "Size Range": "3 sq.mm to 35 sq.mm",
+          "Size Range": "3 mm² to 25 mm²",
           "pH": "0-14",
           "Temperature (°C)": "-200 to +300°C",
           "Pressure (BAR)": "100",
           "Velocity (m/s)": "25",
-          "Size": "3sq mm TO 35sq mm"
+          "Size": "3mm² TO 25mm²"
         }
       },
       "technicalData": {
         "Material": "Dense braid of Aramid Yarn corners and PTFE Yarn faces with Aramid fiber core",
-        "Construction": "Duplex braid with high-tensile reinforcement",
         "Lubrication": "Advanced lubricants for reduced friction and enhanced thermal resistance",
-        "Core": "Resilient Aramid fiber core for mechanical strength"
+        "Core": "Resilient Aramid fiber core for mechanical strength",
+        "Certification": "FDA Certified"
       },
       "features": [
         "Unique combination of aramid yarn corners and PTFE yarn faces for superior performance",
@@ -594,13 +597,17 @@
         "FDA compliant for food and pharmaceutical industry applications"
       ],
       "applications": [
-        "Centrifugal pumps in chemical processing",
-        "Reciprocating pumps and plunger systems",
-        "Valves handling aggressive chemicals",
-        "Mixers and agitators in process industries",
-        "Reactors in chemical and fertilizer plants",
-        "Slurry handling equipment",
-        "Pigment and synthetic compound processing"
+        "Centrifugal pumps",
+        "Reciprocating pumps",
+        "Plunger pumps",
+        "Valves",
+        "Mixers",
+        "Agitators",
+        "Reactors",
+        "Chemical processing equipment",
+        "Fertilizer production facilities",
+        "Process industry applications",
+        "Applications involving slurries, pigments, and synthetic compounds"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY%20105/HY%20105_1.webp",
@@ -629,13 +636,10 @@
         "pH Range": "0 – 14",
         "Temperature Range": "-200°C to +280°C",
         "Maximum Pressure": "500 bar",
-        "Available Sizes": "5 sq mm to 35 sq mm"
+        "Available Sizes": "3 mm² to 25 mm²"
       },
       "technicalData": {
-        "Construction": "High-temperature hybrid blend with enhanced lubricants",
-        "Certification": "API 622 Type Test Qualified",
-        "Size Range": "4mm to 50mm cross-section",
-        "Standard": "ISO 15848-1"
+        "Certification": "FDA Certified"
       },
       "features": [
         "Extended service life in demanding high-temperature applications",
@@ -644,11 +648,17 @@
         "Excellent chemical compatibility across diverse industrial media"
       ],
       "applications": [
-        "High-temperature pump applications",
-        "Steam service valves and equipment",
-        "Thermal fluid systems",
-        "Hot oil circulation pumps",
-        "Heat transfer equipment"
+        "Centrifugal pumps",
+        "Reciprocating pumps",
+        "Plunger pumps",
+        "Valves",
+        "Agitators",
+        "Mixers",
+        "Extruders",
+        "Reactors",
+        "Fertilizer process equipment",
+        "Chemical processing equipment",
+        "Paint manufacturing systems"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY%20105T/HY%20105T_2.webp",
@@ -691,17 +701,13 @@
           "Temperature Range": "-240°C to +260°C",
           "pH Range": "1 – 13",
           "Size Range": "6 mm² to 28 mm²",
-          "Density": "1.8-2.0 g/cm³",
           "Temperature (°C)": "-240 to +260",
           "Pressure (Bar)": "25",
           "Velocity (m/s)": "20"
         }
       },
       "technicalData": {
-        "Construction": "Premium hybrid fiber blend with PTFE and graphite",
-        "Certification": "API 622 Type Test Qualified",
-        "Size Range": "3mm to 50mm cross-section",
-        "Standard": "ISO 15848-1, TA-Luft, MESC SPE 77/312"
+        "Certification": "EN 16752"
       },
       "features": [
         "Premium performance in severe service conditions requiring reciprocating motion",
@@ -711,11 +717,16 @@
         "Ideal sealing solution specifically for fertilizer industry applications"
       ],
       "applications": [
-        "Severe duty refinery pumps",
-        "High-pressure chemical process valves",
-        "Critical petrochemical applications",
-        "Offshore oil and gas equipment",
-        "Power plant rotating equipment"
+        "Centrifugal pumps",
+        "Process pumps",
+        "Industrial valves",
+        "Agitators and mixers",
+        "Chemical processing equipment",
+        "Ammonia service applications",
+        "Carbamate service applications",
+        "General industrial rotating equipment",
+        "Dynamic sealing applications",
+        "Equipment handling abrasive media"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY%20107/HY%20107_1_2.webp",
@@ -759,16 +770,13 @@
           "Temperature Range": "-200°C to 280°C",
           "pH Range": "3 – 14",
           "Size Range": "5 mm² to 50 mm²",
-          "Density": "1.5-1.7 g/cm³",
           "Temperature": "-200°C to +280°C",
           "Pressure (BAR)": "150",
           "Velocity (m/s)": "25"
         }
       },
       "technicalData": {
-        "Construction": "Balanced hybrid fiber blend with standard lubricants",
-        "Size Range": "5mm to 40mm cross-section",
-        "Standard": "ISO 15848-1"
+        "Certification": "Graphite Enhanced Performance:"
       },
       "features": [
         "Economical sealing solution for general industrial applications",
@@ -778,11 +786,14 @@
         "Reliable service performance in standard operating conditions"
       ],
       "applications": [
-        "General industrial equipment",
-        "Building services pumps",
-        "Standard process valves",
-        "Commercial HVAC systems",
-        "Light industrial applications"
+        "Centrifugal Pumps",
+        "Process Pumps",
+        "Mixers",
+        "Agitators",
+        "Reactors",
+        "Chemical Processing Equipment",
+        "General Industrial Rotating Equipment",
+        "Static Sealing Applications"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY%20175/HY%20175_5_2.webp",
@@ -810,13 +821,10 @@
         "pH Range": "0-14",
         "Temperature (°C)": "-200 to +300",
         "Pressure (BAR)": "500",
-        "Size Range": "6sq mm to 50sq mm"
+        "Size Range": "3 mm² to 25 mm²"
       },
       "technicalData": {
-        "Construction": "High-performance polyimide fiber with PTFE coating",
-        "Certification": "API 622 Type Test Qualified",
-        "Size Range": "3mm to 50mm cross-section",
-        "Standard": "ISO 15848-1, TA-Luft"
+        "Certification": "API 622 Type Test Qualified, ISO 15848-1, TA-Luft"
       },
       "features": [
         "Exceptional mechanical strength and durability in harsh conditions",
@@ -826,11 +834,14 @@
         "Ideal sealing solution for highly abrasive media applications"
       ],
       "applications": [
-        "High-temperature refinery services",
-        "High-pressure chemical pumps",
-        "Steam turbine applications",
-        "Severe duty valve applications",
-        "Aerospace and defense equipment"
+        "Pumps handling abrasive slurries and corrosive chemicals",
+        "Valves in chemical processing and industrial utility systems",
+        "Mixers, agitators, and reactors with aggressive process media",
+        "Marine and desalination equipment handling brine and seawater",
+        "Chemical processing plants and mining operations",
+        "Wastewater treatment facilities",
+        "Power generation systems",
+        "Industrial process fluid sealing applications"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA%20106/PA%20106_1.webp",
@@ -860,13 +871,10 @@
         "pH Range": "4 – 10",
         "Temperature (°C)": "Ambient to +260",
         "Pressure (Bar)": "150",
-        "Size": "3 sq mm to 35 sq mm"
+        "Size": "3 mm² to 35 mm²"
       },
       "technicalData": {
-        "Construction": "FDA compliant organic fiber with food-grade lubricant",
-        "Certification": "FDA 21 CFR 177.2600, API 622",
-        "Size Range": "5mm to 40mm cross-section",
-        "Standard": "ISO 15848-1, FDA regulations"
+        "Certification": "FDA 21 CFR 177.2600, API 622, ISO 15848-1, FDA regulations"
       },
       "features": [
         "Non-toxic and non-contaminating for safe water contact applications",
@@ -875,11 +883,12 @@
         "Easy to clean and sanitize for hygienic applications"
       ],
       "applications": [
-        "Food processing equipment",
-        "Pharmaceutical manufacturing pumps",
-        "Beverage production systems",
-        "Dairy industry equipment",
-        "Cosmetics and personal care manufacturing"
+        "Pumps handling clean water and mild chemical solutions",
+        "Water treatment and wastewater treatment facilities",
+        "General-purpose industrial sealing applications",
+        "Utility services requiring economical and reliable packing solutions",
+        "Equipment operating in environments where contamination must be minimized",
+        "Applications requiring good chemical resistance and low shaft wear"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/OR%20125%20SR/OR%20125%20SR_1.webp",
@@ -907,15 +916,14 @@
       "specifications": {
         "pH Range": "0 – 14",
         "Temperature Range": "-200°C to +650°C",
-        "Maximum Pressure": "35 Bar",
+        "Maximum Pressure": "250 Bar",
         "Maximum Velocity": "25 m/s",
-        "Available Sizes": "3 sq mm to 50 sq mm"
+        "Available Sizes": "3 mm² to 25 mm²"
       },
       "technicalData": {
         "Material": "Carbon filament yarn with graphite-based in-therm dispersion",
         "Impregnation": "Thermally cured graphite-based blocking agent",
-        "Corrosion Protection": "Passive corrosion inhibitor to prevent galvanic corrosion",
-        "Construction": "High-performance braided packing"
+        "Corrosion Protection": "Passive corrosion inhibitor to prevent galvanic corrosion"
       },
       "features": [
         "Impregnated with graphite-based dispersion to minimize voids and improve density",
@@ -929,14 +937,12 @@
         "Low oxidation rate ensures extended service life"
       ],
       "applications": [
-        "Pumps and valves in chemical processing",
-        "Steam service applications",
-        "Thermic fluid systems",
-        "Organic chemical processing",
-        "Gas handling equipment",
-        "High-temperature industrial applications",
-        "Both dynamic and static sealing applications",
-        "Equipment requiring corrosion resistance"
+        "Suitable for both dynamic and static sealing applications.",
+        "Ideal for pumps, valves, mixers, agitators, and other rotating equipment.",
+        "Compatible with acids, alkalis, solvents, organic chemicals, gases, steam, and thermic fluids.",
+        "Performs effectively in demanding industrial environments requiring reliable high-temperature sealing.",
+        "Conforms well to irregular sealing surfaces, improving sealing performance and reducing leakage risk.",
+        "Fire-safe design makes it suitable for applications involving combustible or flammable media."
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG%20101/CG%20101_1.webp",
@@ -965,13 +971,11 @@
         "pH Range": "0 – 14",
         "Temperature (°C)": "-240 to +300",
         "Pressure (Bar)": "300",
-        "Size": "3 sq mm to 35 sq mm"
+        "Size": "3 mm² to 25 mm²"
       },
       "technicalData": {
-        "Construction": "Polyimide fiber with graphite and PTFE dispersion",
-        "Certification": "API 622 Type Test Qualified",
-        "Size Range": "3mm to 50mm cross-section",
-        "Standard": "ISO 15848-1, TA-Luft"
+        "Certification": "",
+        "Standard": ""
       },
       "features": [
         "Excellent chemical resistance across a wide range of industrial media",
@@ -981,11 +985,15 @@
         "Extended service life in severe operating conditions"
       ],
       "applications": [
-        "Chemical reactor agitators",
-        "High-pressure process pumps",
-        "Extreme temperature valve applications",
-        "Nuclear power plant equipment",
-        "Aerospace fluid handling systems"
+        "Centrifugal and rotary pumps",
+        "Control valves and process valves",
+        "Reactors and agitators",
+        "Chemical processing equipment",
+        "Petrochemical and refinery services",
+        "Power generation facilities",
+        "Water treatment and industrial process systems",
+        "Applications involving acids, alkalis, hydrocarbons, solvents, and aggressive chemicals",
+        "Dynamic and static sealing applications requiring low friction and long service life"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE%20102/PE%20102_1.webp",
@@ -1027,18 +1035,15 @@
         "common": {
           "Temperature Range": "-200°C to +650°C (2700°C in non oxidizing media)",
           "pH Range": "0 – 14",
-          "Size Range": "3 sq.mm to 50 sq.mm",
-          "Density": "1.1-1.3 g/cm³",
+          "Size Range": "3 mm² to 25 mm²",
           "Temperature (°C)": "-200 to +650°C (3000°C in Non-Oxidizing Media)",
           "Pressure (Bar)": "100",
           "Velocity (m/s)": "20",
-          "Size": "3 sq mm to 50 sq mm"
+          "Size": "3 mm² to 25 mm²"
         }
       },
       "technicalData": {
-        "Construction": "Flexible graphite with carbon fiber reinforcement",
-        "Size Range": "4mm to 50mm cross-section",
-        "Standard": "ISO 15848-1"
+        "Certification": "ISO 15848-1"
       },
       "features": [
         "Balanced performance and cost for standard industrial applications",
@@ -1048,11 +1053,16 @@
         "Wide temperature operating range for versatile applications"
       ],
       "applications": [
-        "Industrial boiler feed pumps",
-        "Hot water and steam systems",
-        "Chemical transfer pumps",
-        "Power plant auxiliary equipment",
-        "Refinery utility services"
+        "Rotary valves.",
+        "Rising stem valves.",
+        "Pumps and process equipment.",
+        "Steam service applications.",
+        "Hydrocarbon processing systems.",
+        "Chemical and petrochemical plants.",
+        "Refinery operations.",
+        "Solvent handling systems.",
+        "Acid and alkali service.",
+        "General industrial fluid sealing applications."
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG%20100/CG%20100%20-%2052(26)_19_2.webp",
@@ -1080,15 +1090,11 @@
         "pH Range": "0 – 14",
         "Temperature Range": "-240°C to +538°C",
         "Pressure Rating": "300 bar",
-        "Available Sizes": "6.5 sq mm to 50 sq mm",
-        "Construction": "Expanded Graphite Yarn with Inconel Wire Reinforcement",
+        "Available Sizes": "3 mm² to 25 mm²",
         "Carbon Content": "Minimum 98%"
       },
       "technicalData": {
-        "Construction": "Premium flexible graphite with inconel wire reinforcement",
-        "Certification": "API 622 Type Test Qualified",
-        "Size Range": "3mm to 50mm cross-section",
-        "Standard": "ISO 15848-1, TA-Luft, MESC SPE 77/312"
+        "Certification": "API 622 Type Test Qualified, ISO 15848-1, TA-Luft, MESC SPE 77/312"
       },
       "features": [
         "Premium performance for the most demanding valve applications",
@@ -1097,11 +1103,15 @@
         "Outstanding dimensional stability at elevated temperatures"
       ],
       "applications": [
-        "Superheated steam turbines",
-        "High-temperature refinery services",
-        "Critical petrochemical equipment",
-        "Power generation main steam valves",
-        "Thermal cracking units"
+        "Industrial valves.",
+        "Autoclaves.",
+        "Rotary kilns.",
+        "Steam systems.",
+        "Hydrocarbon processing equipment.",
+        "Thermic fluid systems.",
+        "Hot oil applications.",
+        "Cooling water systems.",
+        "Rotary and rising-stem valve applications."
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG%20102/CG%20102%20-%2031_05_2.webp",
@@ -1128,7 +1138,7 @@
       "specifications": {
         "pH Range": "2 - 12",
         "Maximum Temperature": "1260°C",
-        "Available Sizes": "3 sq mm to 50 sq mm",
+        "Available Sizes": "3 mm² to 50 mm²",
         "Material Composition": "Alumina and Silica-based Refractory Oxides",
         "Application Type": "Static Sealing",
         "Electrical Conductivity": "Non-Conductive",
@@ -1137,7 +1147,6 @@
       },
       "technicalData": {
         "Material": "Ceramic fibre made from alumina and silica-based refractory oxides",
-        "Construction": "Packing rope for static applications",
         "Electrical Properties": "Electrically non-conductive",
         "Safety": "Non-toxic, non-combustible, environmentally friendly",
         "Performance": "Low ignition loss for long-term insulation"
@@ -1152,13 +1161,14 @@
         "Low ignition loss ensures long-term insulation performance"
       ],
       "applications": [
-        "Furnace door seals and gaskets",
-        "Coke oven door sealing",
-        "Boiler seals and insulation",
-        "Power generation facilities",
-        "Steel and aluminium manufacturing",
-        "Cement industry high-temperature sealing",
-        "Static sealing in high-temperature industrial environments"
+        "Furnace door sealing",
+        "Coke oven sealing systems",
+        "Boiler door and inspection hatch seals",
+        "Kiln and oven sealing applications",
+        "Steel manufacturing plants",
+        "Aluminium processing facilities",
+        "Cement production plants",
+        "Power generation facilities"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/IN%20123/IN%20123%20-%2045%20_29_2.webp",
@@ -1186,7 +1196,7 @@
         "pH Range": "0 - 14 (Universal)",
         "Temperature Range": "-240°C to +260°C",
         "Maximum Pressure": "300 bar",
-        "Available Sizes": "6.5 sq mm to 50 sq mm",
+        "Available Sizes": "6.5mm² to 50 mm²",
         "Material Composition": "Alumina and Silica-based Refractory Oxides",
         "Reinforcement": "Inconel Wire",
         "Application Type": "Static Sealing",
@@ -1196,7 +1206,6 @@
       },
       "technicalData": {
         "Material": "Ceramic fibre made from alumina and silica-based refractory oxides with inconel wire reinforcement",
-        "Construction": "Packing rope with inconel wire core for enhanced durability",
         "Electrical Properties": "Electrically non-conductive",
         "Safety": "Non-toxic, non-combustible, environmentally friendly"
       },
@@ -1210,12 +1219,14 @@
         "Suitable for applications requiring higher mechanical strength"
       ],
       "applications": [
-        "High-stress furnace door seals",
-        "Industrial oven gaskets",
-        "Boiler door sealing with movement",
-        "High-temperature applications requiring reinforcement",
-        "Power generation and steel industry",
-        "Applications where standard ceramic rope needs reinforcement"
+        "Furnace door seals",
+        "Coke oven sealing systems",
+        "Boiler door seals and inspection hatches",
+        "Kiln sealing systems",
+        "Expansion joints",
+        "Thermal insulation barriers",
+        "Heat treatment equipment",
+        "Steel manufacturing plants"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/IN%20123/IN%20123%20-%2045%20_29_2.webp",
@@ -1244,12 +1255,10 @@
         "Temperature (°C)": "-40 to +150",
         "Pressure (Bar)": "50",
         "Velocity (m/s)": "10",
-        "Size Range": "3 sq mm to 35 sq mm"
+        "Size Range": "3mm² to 35 mm²"
       },
       "technicalData": {
-        "Construction": "Organic fiber blend with mineral oil lubricant",
-        "Size Range": "6mm to 40mm cross-section",
-        "Standard": "ISO 15848-1"
+        "Certification": "ISO 15848-1"
       },
       "features": [
         "Economical sealing solution for low-pressure applications",
@@ -1259,11 +1268,14 @@
         "Cost-effective solution for standard operating conditions"
       ],
       "applications": [
-        "Water supply pumps",
-        "Cooling tower equipment",
-        "Agricultural irrigation systems",
-        "Municipal water utilities",
-        "Low-pressure general service"
+        "Equipment handling crystallizing fluids",
+        "Marine stern tubes and propeller shafts",
+        "Rudder posts and marine equipment",
+        "Bilge pumps and water pumps",
+        "Water wheel glands",
+        "Water treatment equipment and facilities",
+        "General utility pumps",
+        "Industrial water handling systems"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/OR%20120/OR%20120.webp",
@@ -1305,14 +1317,11 @@
         "common": {
           "Temperature Range": "-40°C to +150°C",
           "pH Range": "6 – 11",
-          "Size Range": "3 mm² to 35 mm²",
-          "Density": "1.6-1.8 g/cm³"
+          "Size Range": "3 mm² to 25 mm²"
         }
       },
       "technicalData": {
-        "Construction": "Aramid fiber core with PTFE and graphite coating",
-        "Size Range": "4mm to 50mm cross-section",
-        "Standard": "ISO 15848-1"
+        "Certification": "ISO 15848-1"
       },
       "features": [
         "Exceptional mechanical strength from aramid fiber reinforcement",
@@ -1322,11 +1331,14 @@
         "Excellent dimensional stability under pressure and load"
       ],
       "applications": [
-        "Abrasive slurry pumps",
-        "Mining and dredging equipment",
-        "High-pressure industrial pumps",
-        "Paper stock pumps",
-        "Severe duty rotating equipment"
+        "Equipment handling crystallizing fluids",
+        "Marine stern tubes",
+        "Rudder posts",
+        "Bilge pumps",
+        "Water wheel glands",
+        "General water handling equipment",
+        "Industrial pumps",
+        "Marine service equipment"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY%20120%20AR/HY%20120AR.webp",
@@ -1358,9 +1370,7 @@
         "Standard Length": "Mtr."
       },
       "technicalData": {
-        "Construction": "Alumina-silica ceramic fiber blanket",
-        "Size Range": "Blankets, boards, papers - various thicknesses",
-        "Standard": "ASTM C1728, ISO 9001"
+        "Certification": "IS 11871"
       },
       "features": [
         "High-temperature resistance up to 550°C for demanding applications",
@@ -1370,11 +1380,13 @@
         "Lightweight and flexible for easy installation"
       ],
       "applications": [
-        "Furnace and kiln lining",
-        "High-temperature gasket applications",
-        "Expansion joint filling",
-        "Fire protection barriers",
-        "Refractory backup insulation"
+        "Furnace doors and high-temperature industrial furnaces",
+        "Fill glass flange and kiln cover sealing",
+        "Chemical glass flanges in exhaust and chimneys",
+        "Equipment handling highly corrosive chemicals",
+        "Alcohol and solvent processing equipment",
+        "Thermal insulation in high-temperature environments",
+        "Not suitable for HFHCL and hot phosphoric acid applications"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/IN%20140/IN%20140_5_2.webp",
@@ -1402,17 +1414,14 @@
         "pH Range": "0 – 14",
         "Temperature Range": "-200°C to +650°C",
         "Maximum Pressure": "500 bar",
-        "Available Sizes": "3 sq mm to 50 sq mm",
+        "Available Sizes": "3 mm² to 25 mm²",
         "Reinforcement": "Multiple Inconel Wires",
         "Lubrication": "Proprietary THERMOLUBE Dispersion",
         "Corrosion Protection": "Inorganic Passive Corrosion Inhibitor",
         "Certification": "SHELL MESC SPEC 77/312"
       },
       "technicalData": {
-        "Construction": "Ultra-pure flexible graphite with specialty alloy reinforcement",
-        "Certification": "API 622 Type Test Qualified, API 624",
-        "Size Range": "3mm to 50mm cross-section",
-        "Standard": "ISO 15848-1, TA-Luft, MESC SPE 77/312"
+        "Certification": "● Tested and certified as per SHELL MESC SPEC 77/312 for fugitive emission requirements"
       },
       "features": [
         "Premium-grade construction for the most severe service conditions",
@@ -1422,11 +1431,11 @@
         "Exceptional chemical inertness and thermal shock resistance"
       ],
       "applications": [
-        "LNG cryogenic services",
-        "Critical nuclear power applications",
-        "Extreme temperature petrochemical processes",
-        "High-pressure hydrogen service",
-        "Severe duty valve and pump applications"
+        "Industrial valves operating under severe pressure and temperature conditions",
+        "Steam service and hydrocarbon processing equipment",
+        "Power generation and petrochemical facilities",
+        "Refinery and process industry applications requiring fugitive emission control",
+        "Equipment subjected to thermal cycling and pressure fluctuations"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG%20900/CG%20900%20-%2057(32)_05_2(1).webp",
@@ -1458,10 +1467,7 @@
         "Available Sizes": "6 mm² to 50 mm²"
       },
       "technicalData": {
-        "Construction": "Aramid and PTFE hybrid with graphite dispersion",
-        "Certification": "API 622 Type Test Qualified",
-        "Size Range": "4mm to 50mm cross-section",
-        "Standard": "ISO 15848-1, TA-Luft"
+        "Certification": "API 622 Type Test Qualified, ISO 15848-1, TA-Luft"
       },
       "features": [
         "Highly engineered carbon graphite sealing for pump applications",
@@ -1470,11 +1476,16 @@
         "Easy installation with minimal break-in period required"
       ],
       "applications": [
-        "Centrifugal process pumps",
-        "Rotary vane and gear pumps",
-        "Cooling water circulation pumps",
-        "Chemical transfer pumps",
-        "Boiler feed water pumps"
+        "Centrifugal pumps",
+        "Process pumps",
+        "Reciprocating pumps",
+        "Industrial valves",
+        "Refinery equipment",
+        "Petrochemical processing systems",
+        "Power generation facilities",
+        "Chemical processing plants",
+        "General industrial sealing applications",
+        "Anti-extrusion ring applications"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY%20501/HY%20175_Edited_3_2.webp",
@@ -1501,35 +1512,27 @@
       "specifications": {
         "byEquipmentType": {
           "rotating": {
-            "pressure": "500 bar",
-            "velocity": "---"
+            "pressure": "500 bar"
           },
           "reciprocating": {
-            "pressure": "500 bar",
-            "velocity": "---"
+            "pressure": "500 bar"
           },
           "static": {
-            "pressure": "500 bar",
-            "velocity": "---"
+            "pressure": "500 bar"
           }
         },
         "common": {
           "Temperature Range": "-250°C to +650°C",
           "pH Range": "0 – 14",
-          "Size Range": "3 sq.mm to 50 sq.mm",
-          "Density": "1.2-1.4 g/cm³",
+          "Size Range": "3 mm² to 25 mm² cross-section",
           "Maximum Pressure": "500 bar",
-          "Available Sizes": "3 sq mm to 50 sq mm",
+          "Available Sizes": "3 mm² to 25 mm²",
           "Reinforcement": "Inconel Wire with Fine Mesh Jacket",
-          "Construction": "Expanded Graphite & Carbon Fibre Yarn",
           "Corrosion Protection": "Inorganic Passive Corrosion Inhibitor"
         }
       },
       "technicalData": {
-        "Construction": "High-purity expanded graphite with corrosion-resistant wire",
-        "Certification": "API 622 Type Test Qualified",
-        "Size Range": "3mm to 50mm cross-section",
-        "Standard": "ISO 15848-1, TA-Luft"
+        "Certification": "● Suitable for valve applications from Class 150 to Class 1500."
       },
       "features": [
         "High-purity grade designed for clean service applications",
@@ -1538,11 +1541,15 @@
         "Excellent thermal conductivity for heat dissipation"
       ],
       "applications": [
-        "Pharmaceutical manufacturing equipment",
-        "High-purity chemical processing",
-        "Food and beverage high-temperature services",
-        "Clean steam applications",
-        "Semiconductor manufacturing systems"
+        "Control valves",
+        "Soot blower systems",
+        "High-temperature and high-pressure valve services",
+        "Steam systems",
+        "Hydrocarbon processing applications",
+        "Chemical processing industries",
+        "Ammonia service",
+        "Thermal fluid systems",
+        "Dynamic and static sealing applications"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG%20503/CG%20503%20-%2034_19_2.webp",
@@ -1570,13 +1577,10 @@
         "pH Range": "0 – 14",
         "Temperature (°C)": "-240 to +260",
         "Pressure (Bar)": "300",
-        "Size": "6.5 sq mm to 50 sq mm"
+        "Size": "3 mm² to 25 mm² cross-section"
       },
       "technicalData": {
-        "Construction": "PTFE fiber with enhanced lubricant package",
-        "Certification": "API 622 Type Test Qualified",
-        "Size Range": "3mm to 50mm cross-section",
-        "Standard": "ISO 15848-1, TA-Luft"
+        "Certification": "Tested and certified in accordance with EN 16752 (Centrifugal Pumps Test Procedure for Seal Packing), Tightness Class T1"
       },
       "features": [
         "Universal application across pumps, valves, and rotating equipment",
@@ -1585,11 +1589,15 @@
         "Easy installation and adjustment simplifies commissioning"
       ],
       "applications": [
-        "General purpose chemical pumps",
-        "Control and isolation valves",
-        "Water treatment equipment",
-        "Pharmaceutical process equipment",
-        "Pulp and paper industry"
+        "Centrifugal and rotary pumps",
+        "Control valves and process valves",
+        "Mixers and agitators",
+        "Chemical processing equipment",
+        "Pharmaceutical and food processing systems",
+        "Water treatment and wastewater facilities",
+        "Petrochemical and refinery applications",
+        "Clean service applications requiring contamination-free sealing",
+        "Dynamic and static sealing applications across multiple industries"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE%20104/PE%20104_3.webp",
@@ -1617,13 +1625,10 @@
         "pH Range": "0 – 14",
         "Temperature Range": "-200°C to +300°C",
         "Pressure Rating": "Up to 300 Bar",
-        "Size Range": "6 mm² to 50 mm²"
+        "Size Range": "3 mm² to 25 mm²"
       },
       "technicalData": {
-        "Construction": "Heavy-duty aramid and PTFE with enhanced graphite",
-        "Certification": "API 622 Type Test Qualified",
-        "Size Range": "3mm to 50mm cross-section",
-        "Standard": "ISO 15848-1, TA-Luft"
+        "Certification": "API 622 Type Test Qualified, ISO 15848-1, TA-Luft"
       },
       "features": [
         "Heavy-duty construction specifically for severe industrial applications",
@@ -1632,11 +1637,16 @@
         "Extended service life in the most demanding operating conditions"
       ],
       "applications": [
-        "Abrasive slurry services",
-        "High-pressure mining pumps",
-        "Severe duty refinery equipment",
-        "Heavy industrial valve applications",
-        "Extreme service petrochemical pumps"
+        "Centrifugal pumps",
+        "Reciprocating pumps",
+        "Industrial valves",
+        "Mixers and agitators",
+        "Chemical processing equipment",
+        "Reactors and process vessels",
+        "Slurry handling systems",
+        "Mining and mineral processing equipment",
+        "Water and wastewater treatment plants",
+        "General industrial sealing applications"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA%20106/PA%20106_1.webp",
@@ -1678,14 +1688,11 @@
         "common": {
           "Temperature Range": "-200°C to +650°C (2750°C in Non Oxidizing media)",
           "pH Range": "0-14",
-          "Size Range": "6 sq.mm to 50 sq.mm",
-          "Density": "1.1-1.3 g/cm³"
+          "Size Range": "3 mm² to 25 mm² cross-section"
         }
       },
       "technicalData": {
-        "Construction": "Clean-service flexible graphite with minimal binder",
-        "Size Range": "4mm to 50mm cross-section",
-        "Standard": "ISO 15848-1"
+        "Certification": "ISO 15848-1"
       },
       "features": [
         "High-performance premium-grade carbon graphite for pump sealing",
@@ -1699,11 +1706,16 @@
         "Low particulate generation for clean applications"
       ],
       "applications": [
-        "Clean steam generation",
-        "Pharmaceutical steam systems",
-        "Food processing high-temperature services",
-        "Clean chemical manufacturing",
-        "Biotechnology equipment"
+        "Centrifugal pumps",
+        "Process pumps",
+        "Reciprocating pumps",
+        "Industrial valves",
+        "Refinery equipment",
+        "Petrochemical processing systems",
+        "Power generation facilities",
+        "Chemical processing plants",
+        "General industrial sealing applications",
+        "Anti-extrusion ring applications"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY%20501/HY%20175_Edited_3_2.webp",
@@ -1733,13 +1745,10 @@
         "Temperature (Non-Oxidizing Media)": "Up to 2750°C",
         "Pressure (Bar)": "150",
         "Velocity (m/s)": "25",
-        "Size Range": "6 mm² to 50 mm²"
+        "Size Range": "3 mm² to 25 mm²"
       },
       "technicalData": {
-        "Construction": "Premium hybrid blend optimized for valve applications",
-        "Certification": "API 622 Type Test Qualified, API 624",
-        "Size Range": "3mm to 50mm cross-section",
-        "Standard": "ISO 15848-1, ISO 15848-2, TA-Luft"
+        "Certification": "Tested and certified as per API 607 Fire Safe Test"
       },
       "features": [
         "Specifically engineered for challenging applications such as congealing media",
@@ -1753,11 +1762,11 @@
         "Low particulate generation maintains process purity"
       ],
       "applications": [
-        "Critical control valves",
-        "High-pressure isolation valves",
-        "Refinery safety shut-off valves",
-        "Severe service gate and globe valves",
-        "Petrochemical emergency isolation systems"
+        "Pumps",
+        "Mixers",
+        "Agitators",
+        "Reactors",
+        "General industrial sealing services"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY%20801/HY%20801_1_2.webp",
@@ -1786,13 +1795,10 @@
         "Temperature (°C)": "-150 to +260",
         "Pressure (Bar)": "150",
         "Velocity (m/s)": "15",
-        "Size": "5 sq mm to 50 sq mm"
+        "Size": "3 mm² to 25 mm² cross-section"
       },
       "technicalData": {
-        "Construction": "Advanced polyimide with specialty lubricant system",
-        "Certification": "API 622 Type Test Qualified",
-        "Size Range": "3mm to 50mm cross-section",
-        "Standard": "ISO 15848-1, TA-Luft, MESC SPE 77/312"
+        "Certification": "Tested and qualified according to EN 16752 (Centrifugal Pumps Test Procedure for Seal Packing), Tightness Class T2"
       },
       "features": [
         "Advanced polyimide technology engineered for extreme operating conditions",
@@ -1802,11 +1808,14 @@
         "Superior dimensional stability under load and pressure"
       ],
       "applications": [
-        "Aerospace hydraulic systems",
-        "Nuclear power critical applications",
-        "High-temperature chemical reactors",
-        "Extreme pressure pump applications",
-        "Defense and military equipment"
+        "Centrifugal pumps handling abrasive or chemically aggressive media",
+        "Process pumps in chemical, petrochemical, and industrial plants",
+        "Water treatment and wastewater handling equipment",
+        "Slurry transfer systems",
+        "Mixers, agitators, and rotating equipment",
+        "Applications requiring low shaft wear and excellent extrusion resistance",
+        "Services involving abrasive particles combined with chemical exposure",
+        "General industrial sealing applications requiring long service life and minimal maintenance"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA%20499/(12)_02_1.webp",
@@ -1835,12 +1844,10 @@
         "Temperature Range": "-240°C to +280°C",
         "Maximum Pressure": "200 bar",
         "Velocity": "25 m/s",
-        "Available Sizes": "12 mm² to 50 mm²"
+        "Available Sizes": "3 mm² to 25 mm²"
       },
       "technicalData": {
-        "Construction": "Standard hybrid fiber with PTFE and graphite coating",
-        "Size Range": "4mm to 50mm cross-section",
-        "Standard": "ISO 15848-1"
+        "Certification": "EN 16752 (Centrifugal Pumps Test Procedure for Seal Packing), Tightness Class T2"
       },
       "features": [
         "Excellent resiliency counters shaft eccentricity common in stern tube applications",
@@ -1849,11 +1856,14 @@
         "Easy installation and commissioning for marine applications"
       ],
       "applications": [
-        "General industrial pumps",
-        "Standard process equipment",
-        "Water and utility systems",
-        "Manufacturing equipment",
-        "Building services applications"
+        "Pumps",
+        "Agitators",
+        "Dryers",
+        "Mixers",
+        "Reactor shafts",
+        "Stern tubes",
+        "Marine rotating equipment",
+        "Industrial rotating equipment"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY%20501/HY%20175_Edited_3_2.webp",
@@ -1882,13 +1892,10 @@
         "pH Range": "0 – 14",
         "Temperature (°C)": "-240 to +260",
         "Pressure (Bar)": "300",
-        "Size": "6.5 sq mm to 50 sq mm"
+        "Size": "3 mm² to 25 mm²"
       },
       "technicalData": {
-        "Construction": "Advanced polyimide with multi-layer construction",
-        "Certification": "API 622 Type Test Qualified",
-        "Size Range": "3mm to 50mm cross-section",
-        "Standard": "ISO 15848-1, TA-Luft, MESC SPE 77/312"
+        "Certification": "API 622 Type Test Qualified, ISO 15848-1, TA-Luft, MESC SPE 77/312"
       },
       "features": [
         "Clean service design for minimal product contamination",
@@ -1900,11 +1907,14 @@
         "Outstanding dimensional stability in demanding services"
       ],
       "applications": [
-        "Nuclear power plant critical equipment",
-        "Aerospace and defense applications",
-        "Extreme high-pressure services",
-        "High-temperature chemical reactors",
-        "Critical safety systems"
+        "Control valves",
+        "Plug valves",
+        "Process valves",
+        "Hydrocarbon processing",
+        "Chemical processing equipment",
+        "Pharmaceutical plants",
+        "Food processing industries",
+        "Refineries and petrochemical plants"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA%20-%20104A/PA%20104A_Edited_2.webp",
@@ -1934,36 +1944,40 @@
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Ultra%20FE%201002/Ultra%20FE%201002_3.webp"
       ],
       "specifications": {
-        "Construction": "Braided expanded graphite packing with Inconel wire reinforcement and Inconel mesh jacketing",
         "Material Composition": "High-purity expanded graphite + multiple Inconel wire reinforcement",
         "Carbon Content": "99% min",
         "pH Range": "0 – 14",
         "Temperature Range": "-240°C to +650°C",
         "Maximum Pressure": "Up to 500 bar",
-        "Size Range": "3 mm² to 50 mm²",
+        "Size Range": "3 mm² to 25 mm²",
         "Corrosion Protection": "Inorganic passive corrosion inhibitor incorporated",
         "Friction Characteristics": "Low-friction lubricated construction",
-        "Chemical Compatibility": "Suitable for most non-oxidizing industrial media",
+        "Chemical Compatibility": "Wide Chemical Compatibility, for details contact Product Engineering",
         "Application Type": "Low-emission valve sealing applications"
       },
       "technicalData": {
-        "Material": "Advanced synthetic fibers with graphite and PTFE",
-        "Construction": "Multi-layer braided design with emission barrier",
-        "Certifications": "API 622, API 607, ISO 15848-1, TA-Luft",
-        "Applications": "Pumps, valves, mixers, agitators"
+        "Material": "Advanced expanded graphite with Inconel wire reinforcement and jacketing",
+        "Certifications": "API 622",
+        "Applications": "Valves",
+        "Certification": "● Passed API 622 2nd Edition fugitive emission valve packing qualification testing"
       },
       "features": [
         "API 622 certified for fugitive emission control compliance",
-        "API 607 fire-safe performance certification",
         "Low friction characteristics minimize shaft wear",
         "Available in both continuous length and preformed ring configurations"
       ],
       "applications": [
-        "Environmentally sensitive installations",
-        "Refinery emission control systems",
-        "Petrochemical VOC reduction",
-        "Offshore platform equipment",
-        "Regulatory compliance applications"
+        "Industrial valve sealing systems",
+        "Steam valves and high-temperature valve applications",
+        "Hydrocarbon processing systems",
+        "Petrochemical and refinery plants",
+        "Thermal fluid systems",
+        "Fuel oil and lubricating oil services",
+        "Hot dry ash and flue gas systems",
+        "Chemical and dye processing industries",
+        "Screw conveyors and dryers",
+        "General low-emission industrial sealing applications",
+        "Available continuous rope packing as well as preformed rings"
       ],
       "images": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Ultra%20FE%201002/Ultra%20FE%201002_1%20(1).webp",
@@ -1983,22 +1997,18 @@
       "description": "ULTRA FE 1003 is a high-performance, ultra-low emission packing set engineered with exceptionally low friction and superior oxidation resistance. Designed to meet and exceed evolving industry environmental standards and future regulatory requirements.",
       "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Ultra%20FE%201003/Ultra%20FE%201003_1.webp",
       "specifications": {
-        "Construction": "Combination packing set with expanded graphite Inconel wire mesh jacketed end rings and graphite foil molded intermediate rings",
         "Material Composition": "Expanded graphite + Inconel wire mesh reinforcement",
         "pH Range": "0 – 14",
         "Temperature Range": "-196°C to +538°C",
         "Maximum Pressure": "Up to 300 bar",
-        "Size Range": "3 mm² to 25 mm² (based on stuffing box design)",
+        "Size Range": "According to stuffing box design",
         "Friction Characteristics": "Virtually zero friction with tested friction factor of 0.1",
         "Corrosion Resistance": "Corrosion-free performance under ambient and elevated temperature conditions",
-        "Chemical Compatibility": "Suitable for most industrial fluids compatible with graphite",
+        "Chemical Compatibility": "Wide Chemical Compatibility, for details contact Product Engineering",
         "Application Type": "Fugitive emission valve sealing applications"
       },
       "technicalData": {
-        "Construction": "Advanced near-zero emission technology",
-        "Certification": "API 622 Type Test Qualified, TA-Luft, MESC",
-        "Size Range": "3mm to 50mm cross-section",
-        "Standard": "ISO 15848-1, EPA Method 21"
+        "Certification": "● Tested and certified by Yarmouth Research and Technology, USA"
       },
       "features": [
         "API 622 certified with ultra-low emission performance below 20 ppm",
@@ -2010,11 +2020,17 @@
         "Several value additions enhance overall valve performance"
       ],
       "applications": [
-        "Critical environmental compliance installations",
-        "Zero-emission facility requirements",
-        "LNG and natural gas processing",
-        "Refineries with strict emission limits",
-        "European TA-Luft compliant facilities"
+        "Fugitive emission control valves",
+        "Hydrocarbon processing systems",
+        "Superheated and saturated steam services",
+        "Refinery and petrochemical plants",
+        "LNG and gas processing facilities",
+        "Thermic fluid systems",
+        "Fuel oil and lubricating oil applications",
+        "Dyes and chemical processing industries",
+        "Hot dry ash and flue gas handling systems",
+        "Supercritical CO₂ service applications",
+        "High-temperature and high-pressure industrial valves"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Ultra%20FE%201003/Ultra%20FE%201003_1.webp",
@@ -2039,23 +2055,16 @@
       "description": "ULTRA LT 1004 delivers exceptional sealing integrity with ultra-low emissions in cryogenic and low-temperature applications. Ideal for demanding LNG control valve service, engineered to maintain reliable performance in extreme cold while minimizing emissions.",
       "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Ultra%20LE%201004/Ultra%20LE%201004.webp",
       "specifications": {
-        "Construction": "PTFE filament braided intermediate rings + PTFE sintered end rings",
         "Material Composition": "High-quality PTFE (Virgin Grade)",
         "pH Range": "0 – 14",
         "Temperature Range": "-246°C to +260°C",
         "Maximum Pressure": "Up to 350 bar",
-        "Shaft Speed – Rotating": "Up to 20 m/s",
-        "Shaft Speed – Reciprocating": "Up to 5 m/s",
-        "Size Range": "6 mm² to 35 mm²",
-        "Friction Factor": "0.1 (Ultra-low friction)",
-        "Chemical Compatibility": "Suitable for cryogenic fluids, LNG, LPG, refrigerants, hydrocarbons, chemicals, and oxidizing media",
+        "Size Range": "According to stuffing box design",
+        "Chemical Compatibility": "Wide Chemical Compatibility, for details contact Product Engineering",
         "Operational Characteristics": "Non-toxic, chemically inert, low friction, self-lubricating"
       },
       "technicalData": {
-        "Construction": "Cryogenic-grade fugitive emission control design",
-        "Certification": "API 622 Type Test Qualified, cryogenic service",
-        "Size Range": "3mm to 50mm cross-section",
-        "Standard": "ISO 15848-1, cryogenic standards"
+        "Certification": "ISO 15848"
       },
       "features": [
         "Designed for high endurance up to 100,000 cycles with highest tightness class",
@@ -2065,11 +2074,16 @@
         "Suitable for LNG and cryogenic control valve applications"
       ],
       "applications": [
-        "LNG processing and storage",
-        "Cryogenic pumps and valves",
-        "Liquid nitrogen and oxygen systems",
-        "Air separation plants",
-        "Cryogenic transport equipment"
+        "Cryogenic valves handling LNG, LPG, liquid nitrogen, and other cryogenic fluids",
+        "Low-temperature pumps and compressors in refrigeration and gas processing systems",
+        "Control valves in cryogenic storage and transfer systems",
+        "Liquefied gas handling equipment in petrochemical and refinery operations",
+        "Fugitive emission-controlled equipment in chemical processing industries",
+        "Rotating and reciprocating equipment requiring ultra-low friction sealing performance",
+        "Industrial refrigeration systems and cold storage facilities",
+        "Pharmaceutical and food processing equipment operating at low temperatures",
+        "Aerospace and industrial gas handling systems",
+        "Critical service applications requiring compliance with ISO 15848 and TA-Luft standards"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Ultra%20LE%201004/Ultra%20LE%201004.webp",
@@ -2094,25 +2108,17 @@
       "description": "ULTRA NE 1005 is an ultra-low emission braided packing available in both continuous rope and preformed ring configurations. Engineered to meet stringent emission standards with exceptional operational compliance and reliability.",
       "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Ultra%20LE%201005/Ultra%20LE%201005_1.webp",
       "specifications": {
-        "Construction": "All-braided expanded graphite with Inconel wire mesh reinforcement",
         "Material Composition": "High-purity expanded flexible graphite + Inconel wire mesh",
         "pH Range": "0 – 14",
         "Temperature Range – Oxidizing Media": "-196°C to +538°C",
         "Temperature Range – Steam Service": "Up to +650°C",
-        "Maximum Pressure – Rotating": "Up to 150 bar",
-        "Maximum Pressure – Reciprocating": "Up to 250 bar",
-        "Maximum Pressure – Static": "Up to 500 bar",
-        "Shaft Speed – Rotating": "Up to 20 m/s",
-        "Shaft Speed – Reciprocating": "Up to 5 m/s",
-        "Size Range": "3 mm² to 50 mm²",
-        "Chemical Compatibility": "Suitable for hydrocarbons, chemicals, acids, alkalis, solvents, gases, and steam (excluding strong oxidizers at elevated temperatures)",
+        "Maximum Pressure": "Up to 500 bar",
+        "Size Range": "3 mm² to 25 mm²",
+        "Chemical Compatibility": "Wide Chemical Compatibility, for details contact Product Engineering",
         "Fire Safety": "Fire-safe compliant"
       },
       "technicalData": {
-        "Construction": "Nuclear-grade materials with radiation resistance",
-        "Certification": "API 622, Nuclear QA1, ASME Section III",
-        "Size Range": "3mm to 50mm cross-section",
-        "Standard": "ISO 15848-1, nuclear industry standards"
+        "Certification": "API 622 (Latest Edition)"
       },
       "features": [
         "High-purity graphite with exclusive impregnation technology and thermal stability",
@@ -2123,11 +2129,17 @@
         "Ideal choice for several control valve brands for emission compliance"
       ],
       "applications": [
-        "Nuclear power plant primary systems",
-        "Reactor coolant pumps",
-        "Safety-critical nuclear applications",
-        "Radioactive fluid handling",
-        "Nuclear research facilities"
+        "Critical service valves in petrochemical and refinery operations",
+        "High-pressure pumps handling hydrocarbons, chemicals, and aggressive process fluids",
+        "Steam turbines and power generation equipment",
+        "Chemical processing reactors and vessels",
+        "Fugitive emission-controlled equipment requiring API 622 and ISO 15848 compliance",
+        "High-temperature and high-pressure rotating and reciprocating equipment",
+        "Oil and gas production and processing facilities",
+        "Industrial boilers and heat exchangers",
+        "Compressors and expanders in gas processing applications",
+        "Environmental compliance-driven sealing applications in refineries and chemical plants",
+        "Fire-safe service applications requiring reliable sealing performance under emergency conditions"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Ultra%20LE%201005/Ultra%20LE%201005_1_1.webp",
@@ -2156,13 +2168,10 @@
         "Temperature (°C)": "-200 to +300°C",
         "Pressure (BAR)": "100",
         "Velocity (m/s)": "25",
-        "Size": "3sq mm TO 35sq mm"
+        "Size": "3 mm² to 25 mm²"
       },
       "technicalData": {
-        "Construction": "Heavy-duty aramid and PTFE with reinforced graphite",
-        "Certification": "API 622 Type Test Qualified",
-        "Size Range": "3mm to 50mm cross-section",
-        "Standard": "ISO 15848-1, TA-Luft"
+        "Certification": "FDA Certified"
       },
       "features": [
         "Heavy-duty construction for severe industrial applications",
@@ -2172,11 +2181,16 @@
         "Extended service life in harsh fertilizer industry conditions"
       ],
       "applications": [
-        "Severe duty mining pumps",
-        "Abrasive chemical services",
-        "High-pressure refinery equipment",
-        "Slurry and particulate handling",
-        "Heavy industrial process equipment"
+        "Reciprocating pumps",
+        "Plunger pumps",
+        "Agitators",
+        "Mixers",
+        "Extruders",
+        "Reactors",
+        "Fertilizer plants",
+        "Urea processing units",
+        "Ammonia handling systems",
+        "Carbamate processing equipment"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY%20105%20HD/HY%20105%20HD_2_2.webp",
@@ -2207,10 +2221,7 @@
         "Size Range": "6 mm² to 50 mm²"
       },
       "technicalData": {
-        "Construction": "Premium heavy-duty hybrid with reinforced construction",
-        "Certification": "API 622 Type Test Qualified",
-        "Size Range": "3mm to 50mm cross-section",
-        "Standard": "ISO 15848-1, TA-Luft, MESC SPE 77/312"
+        "Certification": "API 622 Type Test Qualified, ISO 15848-1, TA-Luft, MESC SPE 77/312"
       },
       "features": [
         "Specially developed for critical applications like ammonia and carbamate pumps",
@@ -2221,11 +2232,16 @@
         "Extended service life in harsh fertilizer production environments"
       ],
       "applications": [
-        "Extreme duty mining and mineral processing",
-        "Heavy abrasive slurry applications",
-        "Critical refinery severe service",
-        "High-pressure petrochemical equipment",
-        "Offshore platform critical pumps"
+        "Carbamate pumps",
+        "Urea pumps",
+        "Fertilizer plant equipment",
+        "Chemical processing pumps",
+        "High-pressure industrial pumps",
+        "Process industry sealing systems",
+        "Equipment handling abrasive media",
+        "Dynamic sealing applications",
+        "Heavy-duty industrial services",
+        "High-temperature process equipment"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY%20107%20HD/HY%20107%20HD%20-%2058_03_2.webp",
@@ -2254,16 +2270,12 @@
         "Pressure Rating": "Up to 150 bar",
         "pH Range": "4-10",
         "Speed Limit": "14 m/s",
-        "Density": "1.4-1.6 g/cm³",
         "temperature": "Ambient to +260",
         "pressure": "150",
         "pH": "4-10"
       },
       "technicalData": {
-        "Construction": "Steam-resistant organic fiber with high-temp lubricant",
-        "Certification": "API 622 Type Test Qualified",
-        "Size Range": "5mm to 45mm cross-section",
-        "Standard": "ISO 15848-1"
+        "Certification": "API 622 Type Test Qualified, ISO 15848-1"
       },
       "features": [
         "Non-toxic and non-contaminating for safe applications",
@@ -2273,11 +2285,12 @@
         "Easy to clean and sanitize for hygienic applications"
       ],
       "applications": [
-        "Steam turbine gland sealing",
-        "Boiler feed water pumps",
-        "Steam condensate systems",
-        "Industrial steam distribution",
-        "Power plant steam services"
+        "Pumps handling clean water and mild chemical solutions",
+        "Water treatment and wastewater treatment facilities",
+        "General-purpose industrial sealing applications",
+        "Utility services requiring economical and reliable packing solutions",
+        "Equipment operating in environments where contamination must be minimized",
+        "Applications requiring good chemical resistance and low shaft wear"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/OR%20125%20SR/OR%20125%20SR_1.webp",
@@ -2306,7 +2319,6 @@
         "Maximum Temperature": "650°C",
         "Maximum Pressure": "250 bar",
         "Graphite Purity": "≥99.85%",
-        "Density": "1.4 to 1.8 g/cm³",
         "Sulfur Content": "< 300 ppm",
         "Chloride Content": "≤ 10 ppm",
         "Fluoride Content": "≤ 10 ppm",
@@ -2318,11 +2330,9 @@
       },
       "technicalData": {
         "Material": "High purity flexible graphite foil with oxidation inhibitor",
-        "Construction": "Moulded graphite ring without binders, elastomers or fillers",
         "Thermal Conductivity": "Axial: 400W/mK, Radial: 6W/mK (at density 1.4g/cm³)",
         "Coefficient of Friction": "0.05 to steel",
-        "Certification": "EN 10204 2.2 material certificate available",
-        "Standard": "Shell MESC SPE 85/203 certified for oxidation"
+        "Certification": "Shell MESC SPE 85/203"
       },
       "features": [
         "Ultra-high purity graphite (≥99.85%) with exceptionally low halogen content",
@@ -2334,13 +2344,14 @@
         "Low coefficient of friction reduces operational wear"
       ],
       "applications": [
-        "Nuclear power generation valve sealing",
-        "High-temperature steam applications",
-        "Heat transfer media systems",
-        "Hydrocarbon processing valves",
-        "Valve Class 150-1500 (consult for Class 2500)",
-        "Demanding valve operating conditions requiring high purity",
-        "Fire-rated valve applications"
+        "Valve stem sealing systems",
+        "Valve seat sealing systems",
+        "Rising stem valves",
+        "Rotary valves",
+        "Class 150–1500 valves",
+        "Higher pressure classes (upon technical review)",
+        "Nuclear power generation applications",
+        "High-temperature industrial valve systems"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/GM%20300Z/GM%20300%20Z%20-28_10_2.webp",
@@ -2376,10 +2387,8 @@
       },
       "technicalData": {
         "Material": "Very high purity graphite ribbon without additives",
-        "Construction": "Pressure seal ring with SS/Inconel end caps for extrusion resistance",
         "Design Variations": "Rectangular, angular (U-shape, I-shape) constructions",
-        "Certification": "Shell MESC SPE 85/203 certified",
-        "Standard": "Tested in Thermo Gravimetric Analyser"
+        "Certification": "Shell MESC SPE 85/203"
       },
       "features": [
         "Available with different graphite purity levels depending on application requirements",
@@ -2390,13 +2399,14 @@
         "Multiple construction types available for varied industrial needs"
       ],
       "applications": [
-        "Pressure seal valves in demanding service",
-        "Superheated and saturated steam systems",
-        "Hot dry ash and flue gas applications",
-        "Dyes and chemical processing",
-        "Fuel oil and lube oil systems",
-        "Thermal fluid applications",
-        "Hydrocarbon processing under extreme conditions"
+        "Pressure seal valves",
+        "High-pressure steam systems",
+        "Power generation facilities",
+        "Petrochemical plants",
+        "Refining operations",
+        "High-temperature process equipment",
+        "Industrial valve sealing applications",
+        "Severe service conditions requiring high extrusion resistance"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/GM%20310C/GM%20310%20C-%2029_05.webp",
@@ -2426,7 +2436,6 @@
         "Pressure": "Vacuum to 200 Kg/cm²",
         "pH Range": "0-14 (Universal)",
         "Colour": "White",
-        "Density": "0.8 gm/cc (±0.1)",
         "Thickness": "0.5 mm to 6 mm",
         "m-factor": "2.0",
         "y-factor": "3730 PSI",
@@ -2435,10 +2444,7 @@
         "Residual Stress": "25.6 MPa"
       },
       "technicalData": {
-        "Construction": "100% expanded PTFE multi-directional fibrils",
-        "Certification": "API 6FB, TA-Luft, FDA 21 CFR 177.1550",
-        "Size Range": "Sheets: 1500x1500mm, thickness 0.5-6mm",
-        "Standard": "ASTM F3369, DIN 28091"
+        "Certification": "API 6FB, TA-Luft, FDA 21 CFR 177.1550, ASTM F3369, DIN 28091"
       },
       "features": [
         "Universal chemical resistance across the full pH spectrum (0-14)",
@@ -2448,11 +2454,16 @@
         "Low-emission compliance for environmental requirements"
       ],
       "applications": [
-        "Aggressive chemical flange sealing",
-        "Pharmaceutical and food processing",
-        "Glass-lined equipment gaskets",
-        "Severe chemical pump seals",
-        "High-purity process systems"
+        "Flange joints",
+        "Chemical process piping",
+        "Fume duct systems",
+        "Heat exchangers",
+        "Glass-lined equipment",
+        "Fiberglass reinforced plastic (FRP) vessels",
+        "Pump housing flanges",
+        "Compressor housing flanges",
+        "Steam vessel flanges",
+        "Hydraulic and pneumatic systems"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Inmatex%20PTFE%20Gasket/Inmatex%20PTFE%20Gasket_2.webp",
@@ -2482,9 +2493,9 @@
         "Material": "Multi-layer flexible graphite"
       },
       "technicalData": {
-        "Construction": "Laminated flexible graphite layers",
         "Thickness": "Available in various thicknesses",
-        "Size Range": "DN15 to DN600"
+        "Size Range": "DN15 to DN600",
+        "Certification": "Shell MESC SPE 85/203"
       },
       "features": [
         "Exceptional temperature resistance for high-heat applications",
@@ -2494,11 +2505,14 @@
         "Outstanding thermal stability in demanding conditions"
       ],
       "applications": [
-        "High-temperature piping",
-        "Heat exchangers",
-        "Boilers and pressure vessels",
-        "Chemical processing equipment",
-        "Power generation systems"
+        "Pressure seal valves",
+        "High-pressure steam systems",
+        "Power generation facilities",
+        "Petrochemical plants",
+        "Refining operations",
+        "High-temperature process equipment",
+        "Industrial valve sealing applications",
+        "Severe service conditions requiring high extrusion resistance"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/GM%20310C/GM%20310%20C-%2029_05.webp",
@@ -2535,10 +2549,8 @@
         "Application Type": "Electrical insulation + flange isolation + sealing system"
       },
       "technicalData": {
-        "Construction": "Complete kit with gasket, sleeves, washers",
-        "Certification": "API 6FB Fire Safe, ASTM B117 salt spray",
-        "Size Range": "1/2\" to 48\" all ANSI classes",
-        "Standard": "API 6FB, ASME B16.5, ISO 14692"
+        "Certification": "API 6FB Fire Safe Test Certified",
+        "Size Range": "1/2\" to 48\" all ANSI classes"
       },
       "features": [
         "API 6FB fire-safe certified design for critical safety compliance",
@@ -2548,11 +2560,16 @@
         "Extended service life in harsh environmental conditions"
       ],
       "applications": [
-        "Pipeline cathodic protection systems",
-        "Oil and gas transmission pipelines",
-        "Marine and offshore installations",
-        "Tank farm and terminal connections",
-        "Corrosive and coastal environments"
+        "Offshore oil & gas platforms",
+        "Refineries and petrochemical plants",
+        "LNG and gas processing facilities",
+        "Chemical processing industries",
+        "Pipeline flange isolation systems",
+        "Power generation plants",
+        "Marine and shipbuilding applications",
+        "Process industries requiring galvanic isolation",
+        "High-pressure fluid handling systems",
+        "Safety-critical flange sealing and isolation points"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Insulation%20Gasket%20Kit/IG_1_2.webp",
@@ -2599,8 +2616,7 @@
         "Tensile Strength Warp": "≥800 N/Inch / 1100 N/Inch",
         "Tensile Strength Weft": "≥600 N/Inch / 900 N/Inch",
         "Thread Count": "Warp 20/cm, Weft 15/cm",
-        "Size": "Width 900-1000mm, Thickness 0.7mm & 1.4mm",
-        "Certification": "UL-94 Class V0, ISO 15025"
+        "Size": "Width 900-1000mm, Thickness 0.7mm & 1.4mm"
       },
       "features": [
         "Heavy-duty insulation fabric with specially formulated acid treatment",
@@ -2612,15 +2628,12 @@
         "No flashing and no after-glow during fire testing"
       ],
       "applications": [
-        "Welding spark and cutting spatter protection",
-        "High temperature insulation applications",
-        "Molten metal splash protection",
-        "Valve covers and curtain materials",
-        "Thermal protection for different technique branches",
-        "Refractory mouldings and gasket blankets",
-        "Fire curtains and firefighting equipment",
-        "Filtration of high temperature liquid metal",
-        "Manufacturing of filters for corrosive medium cleaning"
+        "Welding blankets and welding curtains.",
+        "Fire curtains and fireproof safety equipment.",
+        "Fireproof garments and thermal protection systems.",
+        "Heat preservation and insulation applications.",
+        "High-temperature dust collection and filtration systems.",
+        "Molten metal filtration and industrial heat shielding applications."
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Welding%20Blanket%20750SS/Welding%20Gasket_1.webp",
@@ -2645,7 +2658,6 @@
       "description": "High-performance metallic gasket engineered for extreme temperature and pressure applications with multi-layer construction. Provides exceptional resilience and sealing reliability in thermal cycling conditions.",
       "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Laminar%20Gasket/Laminar%20Gasket%20-%2019_08.webp",
       "specifications": {
-        "Construction": "Metal–Filler–Metal Laminated Design",
         "Operating Pressure": "Up to 100 Bar (1450 PSI)*",
         "Temperature Range": "Cryogenic to +450°C*",
         "Facing Materials": "Graphite, PTFE, Mica (Consult Factory)",
@@ -2657,9 +2669,8 @@
         "Custom Profiles": "Available Upon Request"
       },
       "technicalData": {
-        "Construction": "Multi-layer laminated metal with soft core",
         "Size Range": "1/2\" to 96\" all ANSI/DIN classes",
-        "Standard": "ASME B16.20, DIN 2696, BS standards"
+        "Certification": "Engineering Notes:"
       },
       "features": [
         "Multi-layer construction delivers superior sealing performance",
@@ -2670,11 +2681,11 @@
         "High cycle life with leak-tight performance"
       ],
       "applications": [
-        "High-pressure steam systems",
-        "Petrochemical heat exchangers",
-        "Power plant critical flanges",
-        "Refinery high-temperature services",
-        "Extreme pressure and temperature applications"
+        "Double Offset Butterfly Valves",
+        "Triple Offset Butterfly Valves",
+        "High-Integrity Shut-Off Valves",
+        "Steam Isolation Valves",
+        "Thermal Cycling Valves"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Laminar%20Gasket/Laminar%20Gasket_1%20(1).webp",
@@ -2699,7 +2710,6 @@
       "description": "High-performance serrated metal gasket combining the resilience of soft materials with the mechanical strength of metal for demanding applications. Ideal for heat exchangers and high-stress sealing requirements.",
       "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Kam%20Profile/Kam%20Profile%20-%2020.webp",
       "specifications": {
-        "Construction": "Serrated Metal Core with Soft Facing Layers",
         "Pressure Rating": "Up to 250 bar (application dependent)",
         "Temperature Range": "Cryogenic to +1000°C (depending on facing material)",
         "Facing Materials": "Graphite, PTFE, Mica, Specialty Fillers",
@@ -2711,9 +2721,8 @@
         "Radial Shear Resistance": "Excellent"
       },
       "technicalData": {
-        "Construction": "Serrated metal core with soft facing layers",
         "Size Range": "1/2\" to 120\" all ANSI/DIN classes",
-        "Standard": "ASME B16.20, DIN 2697"
+        "Certification": "ASME B16.20, DIN 2697"
       },
       "features": [
         "Serrated core provides excellent sealing capability",
@@ -2724,11 +2733,19 @@
         "Ideal for high-stress sealing applications"
       ],
       "applications": [
-        "Heat exchangers",
-        "Pressure vessels",
-        "Pipeline flanges",
-        "Chemical processing equipment",
-        "Oil and gas applications"
+        "Heat Exchangers",
+        "Pressure Vessels",
+        "Pumps",
+        "Valves",
+        "Reactors",
+        "Petrochemical Processing Equipment",
+        "Refinery Applications",
+        "Power Generation Facilities",
+        "Nuclear Power Plants",
+        "Marine Applications",
+        "Chemical Processing Equipment",
+        "High-Pressure Piping Systems",
+        "Custom Process Equipment"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Kam%20Profile/Kam%20Profile%20-%201.webp",
@@ -2753,7 +2770,6 @@
       "description": "Ultra-thin precision metal gaskets designed for applications requiring tight sealing with minimal compression. Provides precise thickness control and excellent dimensional stability.",
       "image": "",
       "specifications": {
-        "Construction": "Precision metallic shim gasket",
         "Thickness Range": "0.05 mm to 3 mm",
         "Standard Tolerance": "±0.01 mm to ±0.05 mm depending on thickness",
         "Temperature Range": "-200°C to +500°C depending on material",
@@ -2764,9 +2780,7 @@
         "Standards": "Custom manufactured to application requirements"
       },
       "technicalData": {
-        "Construction": "Single or multi-layer precision shim",
-        "Thickness Range": "0.1mm to 3mm",
-        "Standard": "Custom to application"
+        "Certification": "Custom to application"
       },
       "features": [
         "Precise thickness control for critical applications",
@@ -2776,11 +2790,16 @@
         "Available in multiple materials and custom sizes"
       ],
       "applications": [
-        "Precision machinery",
-        "Instrumentation flanges",
-        "Small bore piping",
-        "Hydraulic systems",
-        "Aerospace applications"
+        "Flange gap adjustment in oil & gas and chemical plants",
+        "Precision machinery alignment systems",
+        "Aerospace structural and engine assemblies",
+        "Marine propulsion and shaft alignment systems",
+        "Automotive engine, brake, and suspension assemblies",
+        "Pharmaceutical processing equipment",
+        "Packaging and manufacturing machinery",
+        "Compressor and pump alignment systems",
+        "Instrumentation and calibration assemblies",
+        "OEM precision engineering applications"
       ],
       "datasheet": "/datasheets/new_generated_html/Shim_Gasket.html"
     },
@@ -2797,16 +2816,14 @@
       "specifications": {
         "Operating Temperature": "-200°C to +550°C*",
         "Pressure Range": "Vacuum to 150 bar*",
-        "Construction": "Double Jacketed",
         "Gasket Type": "Semi-Metallic",
         "Flange Surface Compatibility": "Rough, uneven, and narrow flange faces",
         "Shape Options": "Round, Oval, Elliptical, Oblong, Segmental",
         "Special Designs": "Ribbed, Partitioned, Corrugated Double Jacketed, Welded Types"
       },
       "technicalData": {
-        "Construction": "Metal jacket with compressed filler material",
         "Size Range": "1/2\" to 96\" all ANSI/DIN classes",
-        "Standard": "ASME B16.20"
+        "Certification": "ASME B16.20, DIN EN 1514-6, API 601"
       },
       "features": [
         "Superior chemical resistance from metal jacketing",
@@ -2816,11 +2833,23 @@
         "Suitable for damaged or irregular flanges"
       ],
       "applications": [
+        "Heat exchangers",
+        "Pressure vessels",
+        "Boilers",
+        "Autoclaves",
+        "Pumps",
+        "Valve bonnets",
+        "Blast furnaces",
+        "Steam lines",
+        "Gas mains",
+        "Process piping systems",
+        "Petrochemical industry",
+        "Oil & gas industry",
         "Chemical processing",
-        "Refineries",
-        "High-temperature services",
-        "Corrosive media applications",
-        "Damaged or irregular flanges"
+        "Power generation",
+        "Food processing",
+        "Pharmaceutical manufacturing",
+        "General industrial services"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/DJ/DJ_1_2.webp",
@@ -2845,7 +2874,6 @@
       "description": "Solid metal ring gaskets engineered for extreme pressure applications in oil and gas industries. Features self-energizing design for reliable metal-to-metal sealing in critical wellhead applications.",
       "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/RTJ%203167/RTJ%203167-15_02.webp",
       "specifications": {
-        "Construction": "Precision-machined solid metallic ring gasket",
         "Pressure Range": "Up to 20,000 psi (1,380 bar) depending on profile and application",
         "Temperature Range": "-200°C to +800°C depending on material selection",
         "Profile Types": "Oval, Octagonal, RX, BX",
@@ -2854,11 +2882,6 @@
         "Application Type": "High-pressure flange sealing applications",
         "Groove Compatibility": "R, RX, BX flange groove configurations"
       },
-      "technicalData": {
-        "Construction": "Solid metal ring with octagonal or oval cross-section",
-        "Size Range": "1/2\" to 24\" API 6A rated",
-        "Standard": "API 6A, ASME B16.20"
-      },
       "features": [
         "Extreme pressure capability for demanding services",
         "Metal-to-metal sealing for reliable performance",
@@ -2866,11 +2889,17 @@
         "Specifically suitable for wellhead applications"
       ],
       "applications": [
-        "Wellhead equipment",
-        "High-pressure pipelines",
-        "Subsea connections",
-        "Pressure vessels",
-        "Critical oil and gas flanges"
+        "Offshore oil & gas platforms",
+        "Wellhead and Christmas tree equipment",
+        "Subsea pipeline systems",
+        "High-pressure refinery piping systems",
+        "Petrochemical processing plants",
+        "Pressure vessels and reactor systems",
+        "High-pressure steam services",
+        "LNG and gas processing facilities",
+        "Critical hydrocarbon flange connections",
+        "Power generation plants",
+        "Safety-critical industrial process systems"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/RTJ%203167/RTJ%203167_1.webp",
@@ -2899,14 +2928,12 @@
         "Maximum Temperature with Special Facing": "Up to +1000°C*",
         "Pressure Range": "Vacuum to 100 bar*",
         "Gasket Type": "Semi-Metallic",
-        "Construction": "Corrugated Metal Core with Soft Facing",
         "Soft Facing Thickness": "0.5 mm to 3 mm per side",
         "Compliance Standards": "ASME B16.20, DIN EN 1514-4, API 601"
       },
       "technicalData": {
-        "Construction": "Corrugated metal core with soft filler",
         "Size Range": "1/2\" to 60\" all ANSI/DIN classes",
-        "Standard": "ASME B16.20, DIN standards"
+        "Certification": "ASME B16.20, DIN EN 1514-6, API 601"
       },
       "features": [
         "High flexibility and resilience accommodate flange movement",
@@ -2917,10 +2944,17 @@
       ],
       "applications": [
         "Heat exchangers",
-        "Expansion joints",
-        "Exhaust systems",
-        "High vibration equipment",
-        "Thermal cycling applications"
+        "Pressure vessels",
+        "Valves and actuators",
+        "Process piping systems",
+        "Steam lines",
+        "Reactor nozzles",
+        "Flanged joints",
+        "Chemical processing plants",
+        "Petrochemical facilities",
+        "Oil & gas operations",
+        "Refineries",
+        "Power generation plants"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Corrugated%20Gasket/Corrugated%20Gasket_1_2.webp",
@@ -2951,13 +2985,10 @@
         "Plating Options": "Silver, Nickel, Chrome, Zinc Phosphate",
         "Seal Design": "Self-tightening pressure-activated metallic seal",
         "Typical Sizes": "2\" to 36\" (DN50 to DN900)",
-        "Construction": "Precision Machined Metallic Ring",
         "Applicable Standards": "ASME B16.34, API 600, API 602, MSS SP-144"
       },
       "technicalData": {
-        "Construction": "Solid soft iron ring",
-        "Size Range": "1/2\" to 24\" API rated",
-        "Standard": "API 6A"
+        "Certification": "API 6A"
       },
       "features": [
         "Excellent conformability to flange surfaces",
@@ -2967,11 +2998,16 @@
         "Reliable sealing performance in demanding services"
       ],
       "applications": [
-        "High-pressure steam",
-        "Oil and gas equipment",
-        "Heavy industrial applications",
-        "Iron and steel flanges",
-        "Extreme pressure services"
+        "Pressure seal gate valves",
+        "Pressure seal globe valves",
+        "High-pressure steam systems",
+        "Power generation facilities",
+        "Main steam and feedwater systems",
+        "Nuclear power plant valves",
+        "Refineries and petrochemical plants",
+        "Oil & gas production facilities",
+        "High-pressure pipelines",
+        "Pressure vessels and process equipment"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Soft%20Iron/Soft%20Iron_1.webp",
@@ -3001,9 +3037,8 @@
         "Material Options": "SS304, SS316, Inconel, Monel"
       },
       "technicalData": {
-        "Construction": "Solid metal ring with pressure-energized design",
         "Size Range": "1/2\" to 48\" all ANSI/DIN classes",
-        "Standard": "ASME B16.20, API 6A"
+        "Certification": "ASME B16.20, API 6A"
       },
       "features": [
         "Self-energizing design increases sealing with pressure",
@@ -3037,7 +3072,6 @@
       "specifications": {
         "Operating Pressure": "Full vacuum to 250 bar (depends on flange class and configuration)",
         "Operating Temperature": "-200°C to +550°C (standard); up to +1000°C with special fillers",
-        "Construction": "Spiral wound V-shaped metallic strip with soft filler material",
         "Winding Materials": "SS304, SS316/316L, SS321, SS347, Duplex SS, Inconel®, Monel®, Hastelloy®, Titanium",
         "Filler Materials": "Graphite, PTFE, Mica, Ceramic (application dependent)",
         "Gasket Types": "CGI, CG, R, RIR",
@@ -3048,9 +3082,7 @@
         "Design Feature": "Controlled winding tension for uniform stress distribution and sealing performance"
       },
       "technicalData": {
-        "Construction": "V-shaped metal winding with soft filler material",
-        "Size Range": "1/2\" to 120\" all ANSI/DIN classes",
-        "Standard": "ASME B16.20"
+        "Certification": "ASME B16.20"
       },
       "features": [
         "Excellent resilience and recovery properties",
@@ -3061,12 +3093,16 @@
         "Wide range of winding and filler material combinations"
       ],
       "applications": [
-        "Oil and gas pipeline flanges",
-        "Chemical processing equipment",
-        "Refineries and petrochemical plants",
-        "Power generation equipment",
-        "Heat exchangers",
-        "High-temperature steam systems"
+        "Oil & Gas processing plants (upstream, midstream, downstream)",
+        "Petrochemical and chemical processing industries",
+        "Power generation plants (thermal, nuclear, combined cycle)",
+        "Steam lines, boilers, and high-pressure piping systems",
+        "Heat exchangers and pressure vessels",
+        "Refinery process units",
+        "Fertilizer and ammonia/urea plants",
+        "Marine and offshore installations",
+        "Water treatment and desalination plants",
+        "General industrial piping, pumps, and valve systems"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Spiral%20Wound%20Gasket/Spiral%20Gasket_1_1.webp",
@@ -3103,7 +3139,7 @@
         "Material": "Compressed Non-Asbestos Filled with NBR",
         "Compliance": "BS 7531 Grade Z",
         "Gas Sealability": "≤1.0 ml/hour",
-        "Standard": "ASTM F 152, ASTM F 36 J, DIN 52913"
+        "Certification": "BS 7531"
       },
       "features": [
         "Suitable for general-purpose industrial applications with organic fibers",
@@ -3113,11 +3149,13 @@
         "Good compressibility and recovery properties"
       ],
       "applications": [
-        "Medium like oil, steam, fuel, water applications",
-        "General industrial piping",
-        "Water treatment systems",
-        "HVAC systems",
-        "Municipal services"
+        "General industrial gasket applications",
+        "Pumps, compressors, and pipe flanges",
+        "Oil and fuel systems",
+        "Steam and hot water services",
+        "Water treatment and utility systems",
+        "Low- to medium-pressure industrial equipment",
+        "General sealing applications requiring reliable and economical gasket materials"
       ],
       "datasheet": "/datasheets/new_generated_html/NA_432.html"
     },
@@ -3143,7 +3181,7 @@
       "technicalData": {
         "Material": "High quality CNAF Sheet with Mineral fiber, Aramid fiber & Inorganic fillers with NBR binder",
         "Gas Sealability": "≤1.0 ml/hour",
-        "Standard": "ASTM F 152, ASTM F 36 J, DIN 52913"
+        "Certification": "ASTM F 152, ASTM F 36 J, DIN 52913"
       },
       "features": [
         "High-quality CNAF sheet with mineral and aramid fiber blend",
@@ -3153,11 +3191,14 @@
         "Suitable for medium-stress sealing conditions"
       ],
       "applications": [
-        "Oils, fuels, lubricants",
-        "Alcohols and gases",
-        "Hydrocarbons and steam",
-        "Water and cooling liquids",
-        "Most diluted acids and alkalies for medium stress conditions"
+        "General industrial gasket applications",
+        "Pumps, compressors, and pipe flanges",
+        "Oil and fuel handling systems",
+        "Steam and water service applications",
+        "Cooling water systems",
+        "Hydrocarbon processing equipment",
+        "Chemical processing systems handling diluted acids and alkalis",
+        "Industrial equipment requiring reliable sealing under medium pressure and temperature conditions"
       ],
       "datasheet": "/datasheets/new_generated_html/NA_420.html"
     },
@@ -3184,7 +3225,7 @@
         "Material": "Compressed Non-Asbestos filled with Aramid fiber bound with NBR/Nitrile Butadiene Rubber and Mineral fiber",
         "Compliance": "BS 7531 Grade Y",
         "Gas Sealability": "≤1.0 ml/hour",
-        "Standard": "ASTM F 152, ASTM F 36 J, DIN 52913"
+        "Certification": "ASTM F 152, ASTM F 36 J, DIN 52913"
       },
       "features": [
         "High-quality CNAF sheet with aramid fiber reinforcement",
@@ -3194,11 +3235,15 @@
         "Good performance with oils, fuels, and lubricants"
       ],
       "applications": [
-        "Oils, fuels, lubricants",
-        "Alcohols and gases",
-        "Hydrocarbons, steam, water",
-        "Cooling liquids",
-        "Most diluted acids and alkalies"
+        "Oils and Lubricants",
+        "Fuels and Hydrocarbons",
+        "Steam and Water Systems",
+        "Cooling Liquids",
+        "Alcohols and Solvents",
+        "Industrial Gases",
+        "Diluted Acids and Alkalis",
+        "Pumps, Compressors, and Pipe Flanges",
+        "Petrochemical, Chemical Processing, and General Industrial Applications"
       ],
       "datasheet": "/datasheets/new_generated_html/NA_450.html"
     },
@@ -3225,7 +3270,7 @@
         "Material": "Compressed Non-Asbestos filled with Aramid fiber and Glass fiber bound with NBR/Nitrile Butadiene Rubber",
         "Compliance": "BS 7531 Grade X",
         "Gas Sealability": "≤1.0 ml/hour",
-        "Standard": "ASTM F 152, ASTM F 36 J, DIN 52913"
+        "Certification": "ASTM F 152, ASTM F 36 J, DIN 52913"
       },
       "features": [
         "High-quality CNAF sheet with aramid and glass fiber blend",
@@ -3235,11 +3280,17 @@
         "Good chemical resistance to acids and alkalis"
       ],
       "applications": [
-        "Oils, fuels, lubricants, alcohols, gases",
-        "Hydrocarbons, steam, water",
-        "Cooling liquids",
-        "Most diluted acids and high stress conditions",
-        "High temperature industrial applications"
+        "Oils and Lubricants",
+        "Fuels and Hydrocarbons",
+        "Steam and Water Systems",
+        "Cooling Liquids",
+        "Alcohols and Solvents",
+        "Industrial Gases",
+        "Diluted Acids and Alkalis",
+        "Pumps, Compressors and Flanged Connections",
+        "Petrochemical and Chemical Processing Plants",
+        "Power Generation Facilities",
+        "High-Stress Industrial Sealing Applications"
       ],
       "datasheet": "/datasheets/new_generated_html/NA_452_GF.html"
     },
@@ -3265,7 +3316,7 @@
       "technicalData": {
         "Material": "Non-Asbestos Compressed fibre reinforced with SS wire mesh, SS304 grade, Calendered on high performance calendaring machine",
         "Gas Sealability": "≤1.0 ml/hour",
-        "Standard": "ASTM F 152, ASTM F 36 J, DIN 52913"
+        "Certification": "ASTM F 152, ASTM F 36 J, DIN 52913"
       },
       "features": [
         "Premium metallic grade with SS wire mesh reinforcement",
@@ -3275,11 +3326,14 @@
         "Suitable for medium-stress sealing conditions"
       ],
       "applications": [
-        "Oils, fuels, lubricants, alcohols",
-        "Hydrocarbons, steam water",
-        "Cooling liquids",
-        "Most diluted acid and alkalies",
-        "Medium stress industrial conditions"
+        "Pumps, compressors, and pipe flange connections",
+        "Oil and fuel processing systems",
+        "Steam and hot water applications",
+        "Petrochemical and chemical processing equipment",
+        "Hydrocarbon handling systems",
+        "Cooling water circuits and utility services",
+        "Industrial machinery requiring high-performance gasket materials",
+        "Applications involving diluted acids, alkalis, lubricants, and industrial fluids"
       ],
       "datasheet": "/datasheets/new_generated_html/NA_430.html"
     },
@@ -3304,8 +3358,7 @@
       },
       "technicalData": {
         "Thickness": "0.4mm to 6.0mm",
-        "Density": "1.85 g/cm³",
-        "Standard": "ASME B16.21"
+        "Certification": "BS 7531"
       },
       "features": [
         "High-performance construction for demanding applications",
@@ -3316,11 +3369,15 @@
         "Carbon fibers enhance overall performance of sheet material"
       ],
       "applications": [
-        "Chemical plants",
-        "Oil refineries",
-        "Power plants",
-        "Industrial piping",
-        "Process equipment"
+        "Hydrocarbons",
+        "Steam and Water Systems",
+        "Lubricants and Industrial Oils",
+        "Mild Acids and Alkalis",
+        "Alcohols and Solvents",
+        "Industrial Gases",
+        "Petrochemical and Chemical Processing Plants",
+        "Power Generation Facilities",
+        "General Industrial Flanged Connections"
       ],
       "datasheet": "/datasheets/new_generated_html/NA_442.html"
     },
@@ -3339,7 +3396,6 @@
         "Sulphur Content": "Less than 500 ppm",
         "Chloride Content": "Less than 30 ppm",
         "Ash Content": "Less than 1%",
-        "Bulk Density": "1.1 g/cc to 1.4 g/cc",
         "Sheet Thickness": "1 mm to 6 mm",
         "Reinforcement Thickness": "0.05 mm to 0.1 mm",
         "Reinforcement Type": "SS316 / SS316L Tanged",
@@ -3348,7 +3404,6 @@
       },
       "technicalData": {
         "Thickness": "1.0mm to 3.0mm",
-        "Density": "2.0 g/cm³",
         "Reinforcement": "Stainless steel insert"
       },
       "features": [
@@ -3359,11 +3414,16 @@
         "Extended service life in harsh environments"
       ],
       "applications": [
-        "Corrosive services",
-        "Chemical processing",
-        "Marine applications",
-        "Food industry",
-        "Pharmaceutical equipment"
+        "Pipe flange gasket fabrication",
+        "Valve bonnet sealing applications",
+        "Heat exchanger gasket manufacturing",
+        "Metallic flange sealing systems",
+        "Glass-lined and enamel equipment flanges",
+        "High-pressure steam systems",
+        "Cryogenic sealing applications",
+        "Refinery and petrochemical process systems",
+        "Hydrocarbon processing units",
+        "Chemical and dye processing industries"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/SS%20Gasket/SS%20Gasket_1_1.webp",
@@ -3388,7 +3448,6 @@
       "description": "600-grade sintered PTFE sheet gasket offering exceptional chemical resistance and sealing performance for aggressive media. Provides universal chemical compatibility with high-purity construction.",
       "image": "",
       "specifications": {
-        "Density": "2.1 – 2.2",
         "Tensile Strength": "210 – 375",
         "Elongation at Break": "250 – 400",
         "Compressive Strength": "40 – 50",
@@ -3399,7 +3458,6 @@
       },
       "technicalData": {
         "Thickness": "1.0mm to 6.0mm",
-        "Density": "2.15 g/cm³",
         "Grade": "600 series"
       },
       "features": [
@@ -3409,11 +3467,16 @@
         "Non-contaminating for clean processes"
       ],
       "applications": [
-        "Aggressive chemicals",
-        "Pharmaceutical industry",
-        "Food processing",
-        "Semiconductor manufacturing",
-        "Chemical processing"
+        "Chemical processing equipment",
+        "Gasket and sealing systems",
+        "Electrical insulation components",
+        "Pharmaceutical and food processing equipment",
+        "Valve seats and bearing pads",
+        "Corrosion-resistant liners and components",
+        "Cryogenic sealing applications",
+        "Semiconductor and clean process industries",
+        "Pump and compressor components",
+        "OEM industrial engineering applications"
       ],
       "datasheet": "/datasheets/new_generated_html/Type_600.html"
     },
@@ -3432,15 +3495,13 @@
         "pH Range": "0 - 14 (Universal)",
         "Temperature Range": "-200°C to +450°C",
         "Maximum Pressure": "500 bar",
-        "Available Sizes": "6.5 sq mm to 50 sq mm",
+        "Available Sizes": "6.5 mm² to 50 mm²",
         "Material Composition": "Copolymer Yarn with Mineral Oil & Fluoropolymer Suspensoid",
-        "Reinforcement": "High-Tensile Inorganic Filaments",
-        "Construction": "Dense and Heavy, Specially Engineered Manufacturing"
+        "Reinforcement": "High-Tensile Inorganic Filaments"
       },
       "technicalData": {
         "Material": "Reinforced copolymer yarn with inorganic filaments",
         "Lubrication": "Mineral oil and fluoropolymer suspensoid",
-        "Construction": "Dense and heavy construction produced on tailor-made machine",
         "Service Life": "Longer working life than conventional wiping pads"
       },
       "features": [
@@ -3452,12 +3513,16 @@
         "Superior abrasion resistance compared to conventional wiping pads"
       ],
       "applications": [
-        "Wire drawing operations",
-        "Wire galvanizing processes",
-        "Paired wiping systems for uniform coating",
-        "Continuous wire processing lines",
-        "High-temperature wire processing stages",
-        "High-pressure industrial wiping applications"
+        "Wire galvanizing lines.",
+        "Wire drawing operations.",
+        "Continuous wire processing plants.",
+        "Coating control applications.",
+        "Surface finishing operations.",
+        "Steel wire manufacturing.",
+        "Non-ferrous wire processing.",
+        "Industrial wire treatment systems.",
+        "Paired-pad wiping assemblies.",
+        "High-speed wire production lines."
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Yellow%20Wiping%20Pad/Yellow%20Wiping%20Pad_1.webp",
@@ -3485,7 +3550,7 @@
       "specifications": {
         "pH Range": "0 - 14 (Universal)",
         "Temperature Range": "-200°C to +650°C",
-        "Available Sizes": "6.5 sq mm to 50 sq mm",
+        "Available Sizes": "6.5 mm² to 50 mm²",
         "Material Composition": "Carbon Fiber, Volcanic Rock Fiber, Alumino Silicate Fiber",
         "Impregnation": "Special PTFE Suspensoid",
         "Service Life vs Conventional": "3-4 times longer"
@@ -3493,7 +3558,6 @@
       "technicalData": {
         "Material": "Hybrid blend of Carbon fiber, Volcanic rock fiber, and Alumino Silicate fiber",
         "Impregnation": "Special PTFE Suspensoid for consistent performance",
-        "Construction": "Braided through specialized process for exceptional density",
         "Service Life": "3-4 times longer than conventional co-polymer yarn pads"
       },
       "features": [
@@ -3505,12 +3569,11 @@
         "Superior abrasion resistance compared to conventional wiping pads"
       ],
       "applications": [
-        "High-temperature wire drawing operations",
-        "Wire galvanizing processes in extreme conditions",
-        "Demanding industrial wiping environments",
-        "Continuous wire production lines with high-heat exposure",
-        "Metal surface treatment operations",
-        "Industrial applications requiring fire-resistant materials"
+        "Wire Drawing Operations",
+        "Hot-Dip Galvanizing Lines",
+        "Wire Manufacturing Plants",
+        "Metal Coating Processes",
+        "High-Temperature Industrial Wiping Applications"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Wiping+Pad/(1)_02.JPG.webp",
@@ -3582,15 +3645,14 @@
         "Low permeability (0.40 nitrogen cc/min)"
       ],
       "applications": [
-        "Pipe flanges in high-temperature services",
-        "Valve bonnets and heat exchangers",
-        "Super heated and saturated steam applications",
-        "Non-oxidising liquids and gases",
-        "Hydrocarbon and oxygen services",
-        "Cryogenic services and dye applications",
-        "Chemical processing (acids except hydrofluoric)",
-        "Alkalies and fuel systems",
-        "Lube oil and general industrial sealing"
+        "Flange sealing in high-temperature and high-pressure systems",
+        "Chemical processing and petrochemical industries",
+        "Power generation facilities",
+        "Oil and gas refineries",
+        "Cryogenic sealing applications",
+        "Steam and thermal fluid systems",
+        "Industrial process equipment",
+        "Heat exchangers and boilers"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/Plain%20Graphite%20Gasket/Plain%20Graphite%20Gasket_01.JPG.webp",
@@ -3651,15 +3713,18 @@
         "Superior m-factor (2.8) and y-factor (4700 psi)"
       ],
       "applications": [
-        "Pipe flanges in extreme pressure applications",
-        "Valve bonnets and heat exchangers",
-        "Super heated and saturated steam services",
-        "Non-oxidising liquids and gases",
-        "Hydrocarbon and oxygen services",
-        "Cryogenic services and chemical processing",
-        "Dyes and chemicals (except certain acids)",
-        "Fuel and lube oil systems",
-        "High-pressure industrial sealing applications"
+        "Pipe flange gasket applications",
+        "Valve bonnet sealing systems",
+        "Heat exchanger gasket systems",
+        "Metallic, glass-lined, and enamel flange assemblies",
+        "Refinery and petrochemical process plants",
+        "Power generation facilities",
+        "Steam distribution systems",
+        "Hydrocarbon processing systems",
+        "Cryogenic process applications",
+        "Chemical processing industries",
+        "Fuel and lubricating oil systems",
+        "Gas and fluid handling equipment"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/SS%20Gasket/SS%20Gasket_1_1.webp",
@@ -3688,14 +3753,12 @@
       "specifications": {
         "Temperature Range": "-50°C to +150°C",
         "Pressure Rating": "Up to 120 bar",
+        "Size Range": "3 mm² to 25 mm²",
         "pH Range": "4-12",
-        "Speed Limit": "15 m/s",
-        "Density": "1.5-1.7 g/cm³"
+        "Speed Limit": "15 m/s"
       },
       "technicalData": {
-        "Construction": "Hybrid fibers with EPDM rubber reinforcement",
-        "Size Range": "5mm to 40mm cross-section",
-        "Standard": "ISO 15848-1"
+        "Certification": "EN 16752"
       },
       "features": [
         "Soft fluoropolymer reinforcement provides enhanced resilience and flexibility",
@@ -3705,11 +3768,16 @@
         "Outstanding compression recovery properties maintain sealing effectiveness"
       ],
       "applications": [
-        "Water treatment plants",
-        "Steam condensate systems",
-        "Cooling water pumps",
-        "Municipal water distribution",
-        "Industrial wastewater handling"
+        "Centrifugal pumps",
+        "Process pumps",
+        "Industrial valves",
+        "Agitators and mixers",
+        "Chemical processing equipment",
+        "Ammonia service applications",
+        "Carbamate service applications",
+        "General industrial rotating equipment",
+        "Dynamic sealing applications",
+        "Equipment handling abrasive media"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY%20107/HY%20107_1_2.webp",
@@ -3738,15 +3806,13 @@
         "Pressure Rating": "Up to 120 bar",
         "pH Range": "3-11",
         "Speed Limit": "14 m/s",
-        "Density": "1.4-1.6 g/cm³",
         "temperature": "Ambient to +260",
         "pressure": "50",
         "pH": "4-10"
       },
       "technicalData": {
-        "Construction": "Organic fiber reinforced with graphite particles",
-        "Size Range": "5mm to 45mm cross-section",
-        "Standard": "ISO 15848-1"
+        "Size Range": "5 mm² to 45 mm²",
+        "Certification": "ISO 15848-1"
       },
       "features": [
         "Enhanced thermal conductivity from graphite integration",
@@ -3756,11 +3822,13 @@
         "Reduced friction and heat generation extend equipment life"
       ],
       "applications": [
-        "Paper and pulp industry pumps",
-        "Hot water circulation systems",
-        "Food processing with elevated temperatures",
-        "General industrial equipment",
-        "Mining dewatering pumps"
+        "Centrifugal pumps",
+        "Rotary pumps",
+        "Agitators",
+        "Water treatment equipment",
+        "Utility services",
+        "Mild chemical processing",
+        "General industrial sealing applications"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE%20504/PE%20504_1(1).webp",
@@ -3788,13 +3856,11 @@
         "Temperature Range": "-10°C to +100°C",
         "Pressure Rating": "Up to 60 bar",
         "pH Range": "5-9",
-        "Speed Limit": "8 m/s",
-        "Density": "1.1-1.3 g/cm³"
+        "Speed Limit": "8 m/s"
       },
       "technicalData": {
-        "Construction": "Standard organic fiber with basic lubrication",
-        "Size Range": "6mm to 40mm cross-section",
-        "Standard": "ISO 15848-1"
+        "Size Range": "6 mm² to 40 mm²",
+        "Certification": "ISO 15848-1"
       },
       "features": [
         "Most economical packing solution for budget-conscious applications",
@@ -3803,11 +3869,14 @@
         "Good conformability to stuffing boxes ensures reliable sealing"
       ],
       "applications": [
-        "Residential water pumps",
-        "Agricultural equipment",
-        "Light industrial services",
-        "Building maintenance applications",
-        "Low-duty cooling systems"
+        "Water pumps and centrifugal pumps",
+        "Water wheel glands",
+        "Marine stern glands",
+        "Rudder posts and propeller shafts",
+        "Marine equipment and shipboard applications",
+        "Water handling and treatment systems",
+        "Utility service equipment",
+        "Industrial water circulation systems"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/OR%20120/OR%20120.webp",
@@ -3835,13 +3904,11 @@
         "Temperature Range": "-20°C to +130°C",
         "Pressure Rating": "Up to 90 bar",
         "pH Range": "4-10",
-        "Speed Limit": "12 m/s",
-        "Density": "1.3-1.5 g/cm³"
+        "Speed Limit": "12 m/s"
       },
       "technicalData": {
-        "Construction": "Enhanced organic fiber with improved lubricant system",
-        "Size Range": "5mm to 45mm cross-section",
-        "Standard": "ISO 15848-1"
+        "Size Range": "5 mm² to 45 mm²",
+        "Certification": "ISO 15848-1"
       },
       "features": [
         "Enhanced performance over standard organic fiber packings",
@@ -3851,11 +3918,14 @@
         "Longer service life than economy-grade packings"
       ],
       "applications": [
-        "Industrial water pumps",
-        "Condensate return systems",
-        "Light chemical services",
-        "Commercial HVAC equipment",
-        "Food processing water systems"
+        "Water pumps and centrifugal pumps",
+        "Water wheel glands",
+        "Marine stern glands",
+        "Rudder posts and propeller shafts",
+        "Marine equipment and shipboard applications",
+        "Water handling and treatment systems",
+        "Utility service equipment",
+        "Industrial water circulation systems"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/OR%20120/OR%20120.webp",
@@ -3884,16 +3954,13 @@
         "Pressure Rating": "Up to 200 bar",
         "pH Range": "0-14",
         "Speed Limit": "20 m/s",
-        "Density": "1.8-2.0 g/cm³",
         "temperature": "-240 to +260",
         "pressure": "300",
         "pH": "0-14"
       },
       "technicalData": {
-        "Construction": "Clean-service PTFE with minimal binder content",
-        "Certification": "API 622 Type Test Qualified, FDA compliant",
-        "Size Range": "3mm to 50mm cross-section",
-        "Standard": "ISO 15848-1, FDA 21 CFR 177.2600"
+        "Certification": "Certified in accordance with ISO 15848 – CO2 – BH – SSA0 – t for valve fugitive emission performance",
+        "Size Range": "3 mm² to 25 mm² cross-section"
       },
       "features": [
         "Clean service design minimizes product contamination",
@@ -3902,11 +3969,15 @@
         "Excellent chemical resistance across diverse media"
       ],
       "applications": [
-        "Pharmaceutical manufacturing pumps",
-        "Food processing equipment",
-        "High-purity chemical production",
-        "Clean steam services",
-        "Biotechnology applications"
+        "Control valves",
+        "High-pressure valve systems",
+        "Steam service applications",
+        "Hydrocarbon processing systems",
+        "Chemical processing plants",
+        "Petrochemical and refinery operations",
+        "Acid and alkali handling systems",
+        "Solvent processing equipment",
+        "Dynamic and static sealing applications requiring superior leakage control"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE%20104%20C/PE%20104%20C_Edited_1.webp",
@@ -3934,13 +4005,11 @@
         "Temperature Range": "-100°C to +320°C",
         "Pressure Rating": "Up to 280 bar",
         "pH Range": "1-13",
-        "Speed Limit": "23 m/s",
-        "Density": "1.5-1.7 g/cm³"
+        "Speed Limit": "23 m/s"
       },
       "technicalData": {
-        "Construction": "Polyimide fiber with graphite dispersion and PTFE coating",
-        "Size Range": "3mm to 50mm cross-section",
-        "Standard": "ISO 15848-1"
+        "Size Range": "3 mm² to 25 mm² cross-section",
+        "Certification": "ISO 15848-1"
       },
       "features": [
         "Combines polyimide strength with graphite lubrication technology",
@@ -3950,11 +4019,14 @@
         "Extended service life in high-temperature applications"
       ],
       "applications": [
-        "High-temperature chemical pumps",
-        "Steam turbine gland sealing",
-        "Thermal oil circulation systems",
-        "High-pressure valve applications",
-        "Power plant equipment"
+        "Pumps handling abrasive slurries and corrosive chemicals",
+        "Valves in chemical processing and industrial utility systems",
+        "Mixers, agitators, and reactors with aggressive process media",
+        "Marine and desalination equipment handling brine and seawater",
+        "Chemical processing plants and mining operations",
+        "Wastewater treatment facilities",
+        "Power generation systems",
+        "Industrial process fluid sealing applications"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA%20106/PA%20106_1.webp",
@@ -3983,16 +4055,13 @@
         "Pressure Rating": "Up to 180 bar",
         "pH Range": "0-14",
         "Speed Limit": "20 m/s",
-        "Density": "1.9-2.1 g/cm³",
         "temperature": "-200 to +300°C",
         "pressure": "200",
         "pH": "0-14"
       },
       "technicalData": {
-        "Construction": "Premium pure PTFE with advanced lubricant package",
-        "Certification": "API 622 Type Test Qualified",
-        "Size Range": "3mm to 50mm cross-section",
-        "Standard": "ISO 15848-1, TA-Luft"
+        "Certification": "Tested and qualified as per EN 16752 (Centrifugal Pumps – Test Procedure for Seal Packing), Tightness Class T1",
+        "Size Range": "3 mm² to 25 mm² cross-section"
       },
       "features": [
         "Universal chemical resistance across the full pH spectrum",
@@ -4006,11 +4075,15 @@
         "Excellent resilience and recovery properties"
       ],
       "applications": [
-        "Premium chemical processing equipment",
-        "Pharmaceutical critical applications",
-        "High-purity manufacturing systems",
-        "Aggressive chemical services",
-        "Environmental compliance installations"
+        "Centrifugal pumps",
+        "Rotary pumps",
+        "Agitators",
+        "Mixers",
+        "Reactors",
+        "Process equipment",
+        "High-speed rotary systems",
+        "Chemical processing industries",
+        "General industrial sealing applications"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PE%20504/PE%20504_1(1).webp",
@@ -4036,14 +4109,11 @@
       "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/IN%20140/IN%20140_5.webp",
       "specifications": {
         "Temperature Range": "-100°C to +1050°C",
-        "Density": "0.1-0.3 g/cm³",
         "Thermal Conductivity": "0.02-0.04 W/mK"
       },
       "technicalData": {
-        "Construction": "Premium grade silica fiber with enhanced binder",
-        "Certification": "ASTM C1728, ISO 9001, UL listed",
-        "Size Range": "Custom sizes and forms available",
-        "Standard": "ASTM E84, international fire codes"
+        "Certification": "ASTM C1728, ISO 9001, UL listed, ASTM E84, international fire codes",
+        "Size Range": "Custom sizes and forms available"
       },
       "features": [
         "Premium performance for the most demanding thermal applications",
@@ -4053,11 +4123,14 @@
         "Extended service life with minimal degradation over time"
       ],
       "applications": [
-        "Premium furnace and kiln insulation",
-        "High-performance industrial equipment",
-        "Specialty fire protection applications",
-        "High-temperature gasket materials",
-        "Aerospace and defense thermal protection"
+        "Furnace door sealing",
+        "Coke oven sealing systems",
+        "Boiler door and inspection hatch seals",
+        "Kiln and oven sealing applications",
+        "Steel manufacturing plants",
+        "Aluminium processing facilities",
+        "Cement production plants",
+        "Power generation facilities"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/IN%20123/IN%20123%20-%2045%20_29_2.webp",
@@ -4086,15 +4159,13 @@
         "Pressure Rating": "Up to 150 bar",
         "pH Range": "3-11",
         "Speed Limit": "18 m/s",
-        "Density": "1.6-1.8 g/cm³",
         "temperature": "-240 to +260",
         "pressure": "25 / 100 / 250",
         "pH": "1-13"
       },
       "technicalData": {
-        "Construction": "Economic hybrid fiber with standard lubrication",
-        "Size Range": "4mm to 45mm cross-section",
-        "Standard": "ISO 15848-1"
+        "Size Range": "4 mm² to 45 mm²",
+        "Certification": "EN 16752"
       },
       "features": [
         "Cost-effective sealing solution for general industrial applications",
@@ -4104,11 +4175,16 @@
         "Wide range of media compatibility for versatile applications"
       ],
       "applications": [
-        "General industrial pumps",
-        "Water and wastewater equipment",
-        "HVAC systems",
-        "Standard valve applications",
-        "Municipal infrastructure"
+        "Centrifugal pumps",
+        "Process pumps",
+        "Industrial valves",
+        "Agitators and mixers",
+        "Chemical processing equipment",
+        "Ammonia service applications",
+        "Carbamate service applications",
+        "General industrial rotating equipment",
+        "Dynamic sealing applications",
+        "Equipment handling abrasive media"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/HY%20107/HY%20107_1_2.webp",
@@ -4136,13 +4212,11 @@
         "Temperature Range": "-150°C to +500°C",
         "Pressure Rating": "Up to 200 bar",
         "pH Range": "0-14",
-        "Speed Limit": "15 m/s",
-        "Density": "1.0-1.2 g/cm³"
+        "Speed Limit": "15 m/s"
       },
       "technicalData": {
-        "Construction": "Flexible graphite ribbon with standard yarn reinforcement",
-        "Size Range": "5mm to 45mm cross-section",
-        "Standard": "ISO 15848-1"
+        "Size Range": "5 mm² to 45 mm²",
+        "Certification": "ISO 15848-1"
       },
       "features": [
         "Economical carbon fiber packing for budget-conscious applications",
@@ -4156,11 +4230,12 @@
         "Suitable for moderate temperature service applications"
       ],
       "applications": [
-        "Steam service up to 500°C",
-        "General industrial pumps",
-        "Utility plant equipment",
-        "Municipal heating systems",
-        "Standard valve applications"
+        "Suitable for both dynamic and static sealing applications.",
+        "Ideal for pumps, valves, mixers, agitators, and other rotating equipment.",
+        "Compatible with acids, alkalis, solvents, organic chemicals, gases, steam, and thermic fluids.",
+        "Performs effectively in demanding industrial environments requiring reliable high-temperature sealing.",
+        "Conforms well to irregular sealing surfaces, improving sealing performance and reducing leakage risk.",
+        "Fire-safe design makes it suitable for applications involving combustible or flammable media."
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/CG%20101/CG%20101_1.webp",
@@ -4189,16 +4264,11 @@
         "Pressure Rating": "Up to 300 bar",
         "pH Range": "0-14",
         "Speed Limit": "25 m/s",
-        "Density": "1.4-1.6 g/cm³",
-        "temperature": "-200 to +300",
-        "pressure": "350",
         "pH": "1-13"
       },
       "technicalData": {
-        "Construction": "Enhanced polyimide with advanced lubricant system",
-        "Certification": "API 622 Type Test Qualified",
-        "Size Range": "3mm to 50mm cross-section",
-        "Standard": "ISO 15848-1, TA-Luft"
+        "Certification": "API 622 Type Test Qualified, ISO 15848-1, TA-Luft",
+        "Size Range": "3 mm² to 25 mm² cross-section"
       },
       "features": [
         "Exceptional mechanical strength and durability with minimal shaft wear",
@@ -4208,11 +4278,14 @@
         "Low coefficient of friction extends equipment service life"
       ],
       "applications": [
-        "Critical refinery pumps and valves",
-        "High-temperature chemical processing",
-        "Severe duty petrochemical equipment",
-        "Power generation critical services",
-        "Aerospace fluid handling"
+        "Pumps handling abrasive slurries and corrosive chemicals",
+        "Valves in chemical processing and industrial utility systems",
+        "Mixers, agitators, and reactors with aggressive process media",
+        "Marine and desalination equipment handling brine and seawater",
+        "Chemical processing plants and mining operations",
+        "Wastewater treatment facilities",
+        "Power generation systems",
+        "Industrial process fluid sealing applications"
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA%20106/PA%20106_1.webp",

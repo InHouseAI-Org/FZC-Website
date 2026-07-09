@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { sendDatasheetEmail } from '../../../lib/emailService';
+import { sendDatasheetEmail, sendDatasheetNotification } from '../../../lib/emailService';
 import { trackDatasheetShare } from '../../../lib/analyticsTracking';
 
 export async function POST(request: NextRequest) {
@@ -60,6 +60,13 @@ export async function POST(request: NextRequest) {
         productSlug,
         datasheetUrl,
       });
+
+      // Send notification email to techsupport@inmarco.ae (don't wait for it)
+      sendDatasheetNotification({
+        visitorEmail: recipientEmail,
+        productName,
+        action: 'share',
+      }).catch(err => console.error('Failed to send notification email:', err));
 
       return NextResponse.json(
         {
