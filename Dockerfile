@@ -2,28 +2,29 @@
 FROM node:20-slim AS deps
 RUN apt-get update && apt-get install -y openssl ca-certificates && rm -rf /var/lib/apt/lists/*
 
-# Install pnpm
-RUN npm install -g pnpm
-
 WORKDIR /app
 
-# Install dependencies based on the preferred package manager
-COPY package.json pnpm-lock.yaml* ./
-RUN pnpm install --no-frozen-lockfile
+# Install dependencies using npm
+COPY package.json package-lock.json ./
+RUN npm ci --omit=dev --legacy-peer-deps
 
 # Copy Prisma schema and generate client
 COPY prisma ./prisma/
-RUN pnpm prisma generate
+RUN npx prisma generate
 
 # Stage 2: Builder
 FROM node:20-slim AS builder
-
-# Install pnpm
-RUN npm install -g pnpm
+RUN apt-get update && apt-get install -y openssl ca-certificates && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
 
+# Copy production node_modules from deps
 COPY --from=deps /app/node_modules ./node_modules
+COPY package.json package-lock.json ./
+
+# Install ALL dependencies (including dev dependencies for build)
+RUN npm install --legacy-peer-deps
+
 COPY . .
 
 # Set environment variables for build
@@ -31,8 +32,11 @@ ENV NEXT_TELEMETRY_DISABLED=1
 ENV NODE_ENV=production
 ENV DATABASE_URL="postgresql://dummy:dummy@localhost:5432/dummy"
 
+# Generate Prisma client again with all dependencies
+RUN npx prisma generate
+
 # Build Next.js application
-RUN pnpm build
+RUN npm run build
 
 # Stage 3: Runner
 FROM node:20-slim AS runner
@@ -46,7 +50,10 @@ RUN addgroup --system --gid 1001 nodejs
 RUN adduser --system --uid 1001 nextjs
 
 # Install Chromium and dependencies for Puppeteer PDF generation
-RUN apt-get update && apt-get install -y \
+# Split ca-certificates installation to avoid cross-compilation issues on ARM hosts
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends ca-certificates openssl && \
+    apt-get install -y --no-install-recommends \
     chromium \
     chromium-sandbox \
     fonts-liberation \
@@ -66,10 +73,7 @@ RUN apt-get update && apt-get install -y \
     libxkbcommon0 \
     libxrandr2 \
     libx11-xcb1 \
-    openssl \
-    ca-certificates \
     xdg-utils \
-    --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
 # Configure Puppeteer to use installed Chromium

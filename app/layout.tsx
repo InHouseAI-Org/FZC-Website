@@ -152,14 +152,6 @@ export default function RootLayout({
 
         {/* Note: GB2.webm is NOT preloaded - it's a background video that lazy loads */}
 
-        {/* Preload Hero Images */}
-        <link
-          rel="preload"
-          href="https://d24gq0kplkhyxr.cloudfront.net/assets/images/Hero.webp"
-          as="image"
-          type="image/webp"
-        />
-
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}

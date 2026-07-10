@@ -823,9 +823,6 @@
         "Pressure (BAR)": "500",
         "Size Range": "3 mm² to 25 mm²"
       },
-      "technicalData": {
-        "Certification": "API 622 Type Test Qualified, ISO 15848-1, TA-Luft"
-      },
       "features": [
         "Exceptional mechanical strength and durability in harsh conditions",
         "Superior temperature resistance up to 300°C for high-temperature services",
@@ -872,9 +869,6 @@
         "Temperature (°C)": "Ambient to +260",
         "Pressure (Bar)": "150",
         "Size": "3 mm² to 35 mm²"
-      },
-      "technicalData": {
-        "Certification": "FDA 21 CFR 177.2600, API 622, ISO 15848-1, FDA regulations"
       },
       "features": [
         "Non-toxic and non-contaminating for safe water contact applications",
@@ -1092,9 +1086,6 @@
         "Pressure Rating": "300 bar",
         "Available Sizes": "3 mm² to 25 mm²",
         "Carbon Content": "Minimum 98%"
-      },
-      "technicalData": {
-        "Certification": "API 622 Type Test Qualified, ISO 15848-1, TA-Luft, MESC SPE 77/312"
       },
       "features": [
         "Premium performance for the most demanding valve applications",
@@ -1466,9 +1457,6 @@
         "Velocity": "25 m/s",
         "Available Sizes": "6 mm² to 50 mm²"
       },
-      "technicalData": {
-        "Certification": "API 622 Type Test Qualified, ISO 15848-1, TA-Luft"
-      },
       "features": [
         "Highly engineered carbon graphite sealing for pump applications",
         "Excellent resilience and recovery properties maintain effectiveness",
@@ -1626,9 +1614,6 @@
         "Temperature Range": "-200°C to +300°C",
         "Pressure Rating": "Up to 300 Bar",
         "Size Range": "3 mm² to 25 mm²"
-      },
-      "technicalData": {
-        "Certification": "API 622 Type Test Qualified, ISO 15848-1, TA-Luft"
       },
       "features": [
         "Heavy-duty construction specifically for severe industrial applications",
@@ -1894,9 +1879,6 @@
         "Pressure (Bar)": "300",
         "Size": "3 mm² to 25 mm²"
       },
-      "technicalData": {
-        "Certification": "API 622 Type Test Qualified, ISO 15848-1, TA-Luft, MESC SPE 77/312"
-      },
       "features": [
         "Clean service design for minimal product contamination",
         "Advanced construction engineered for extreme operating conditions",
@@ -1959,7 +1941,7 @@
         "Material": "Advanced expanded graphite with Inconel wire reinforcement and jacketing",
         "Certifications": "API 622",
         "Applications": "Valves",
-        "Certification": "● Passed API 622 2nd Edition fugitive emission valve packing qualification testing"
+        "Certification": "Passed API 622 2nd Edition fugitive emission valve packing qualification testing"
       },
       "features": [
         "API 622 certified for fugitive emission control compliance",
@@ -2220,9 +2202,6 @@
         "Pressure Rating": "500 Bar",
         "Size Range": "6 mm² to 50 mm²"
       },
-      "technicalData": {
-        "Certification": "API 622 Type Test Qualified, ISO 15848-1, TA-Luft, MESC SPE 77/312"
-      },
       "features": [
         "Specially developed for critical applications like ammonia and carbamate pumps",
         "Heavy-duty construction for severe fertilizer industry service",
@@ -2273,9 +2252,6 @@
         "temperature": "Ambient to +260",
         "pressure": "150",
         "pH": "4-10"
-      },
-      "technicalData": {
-        "Certification": "API 622 Type Test Qualified, ISO 15848-1"
       },
       "features": [
         "Non-toxic and non-contaminating for safe applications",
@@ -2410,12 +2386,12 @@
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/GM%20310C/GM%20310%20C-%2029_05.webp",
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/GM%20310C/GM%20310%20C-%2029_08.webp",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/GM%20310C/GM%20310%20C-%2029_08.JPG.webp",
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/GM%20310C/GM%20310%20C-%2029_08_2.webp"
       ],
       "images": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/GM%20310C/GM%20310%20C-%2029_05.webp",
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/GM%20310C/GM%20310%20C-%2029_08.webp",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/GM%20310C/GM%20310%20C-%2029_08.JPG.webp",
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/GM%20310C/GM%20310%20C-%2029_08_2.webp"
       ],
       "datasheet": "/datasheets/new_generated_html/GM_310C.html"
@@ -2516,12 +2492,12 @@
       ],
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/GM%20310C/GM%20310%20C-%2029_05.webp",
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/GM%20310C/GM%20310%20C-%2029_08.webp",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/GM%20310C/GM%20310%20C-%2029_08.JPG.webp",
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/GM%20310C/GM%20310%20C-%2029_08_2.webp"
       ],
       "images": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/GM%20310C/GM%20310%20C-%2029_05.webp",
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/GM%20310C/GM%20310%20C-%2029_08.webp",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/GM%20310C/GM%20310%20C-%2029_08.JPG.webp",
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/GM%20310C/GM%20310%20C-%2029_08_2.webp"
       ],
       "datasheet": "/datasheets/new_generated_html/GM_310C.html"
@@ -4267,7 +4243,6 @@
         "pH": "1-13"
       },
       "technicalData": {
-        "Certification": "API 622 Type Test Qualified, ISO 15848-1, TA-Luft",
         "Size Range": "3 mm² to 25 mm² cross-section"
       },
       "features": [

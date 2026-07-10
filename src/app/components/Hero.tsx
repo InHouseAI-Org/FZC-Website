@@ -32,16 +32,20 @@ export function Hero() {
 
   useEffect(() => {
     const updateImage = () => {
-      const width = window.innerWidth;
-      if (width < 768) {
-        // Mobile
-        setHeroImage('https://d24gq0kplkhyxr.cloudfront.net/assets/images/Hero_mob.webp');
-      } else if (width < 1024) {
-        // Tablet
-        setHeroImage('https://d24gq0kplkhyxr.cloudfront.net/assets/images/Hero_tab.webp');
-      } else {
-        // Desktop
-        setHeroImage('https://d24gq0kplkhyxr.cloudfront.net/assets/images/Hero.webp');
+      try {
+        const width = window.innerWidth;
+        if (width < 768) {
+          // Mobile
+          setHeroImage('https://d24gq0kplkhyxr.cloudfront.net/assets/images/Hero_mob.webp');
+        } else if (width < 1024) {
+          // Tablet
+          setHeroImage('https://d24gq0kplkhyxr.cloudfront.net/assets/images/Hero_tab.webp');
+        } else {
+          // Desktop
+          setHeroImage('https://d24gq0kplkhyxr.cloudfront.net/assets/images/Hero.webp');
+        }
+      } catch (error) {
+        console.error('Error updating hero image:', error);
       }
     };
 
@@ -99,7 +103,7 @@ export function Hero() {
         </div> */}
 
         {/* Gradient Overlay - below content but above images */}
-        <div className="absolute inset-0 bg-gradient-to-b from-[#2b2a29]/90 via-[#2b2a29]/60 to-[#2b2a29]/90 md:bg-gradient-to-r md:from-[#2b2a29]/95 md:via-[#2b2a29]/45 md:to-[#2b2a29]/2 pointer-events-none"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-[#2b2a29]/85 via-transparent to-[#2b2a29]/60 md:bg-gradient-to-r md:from-[#2b2a29]/95 md:via-transparent md:to-transparent pointer-events-none"></div>
       </div>
 
 
@@ -112,8 +116,8 @@ export function Hero() {
       />
 
       {/* Content */}
-      <div className="relative z-10 max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-12 py-24 md:py-20 w-full">
-        <div className="max-w-4xl">
+      <div className="relative z-10 max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-12 py-16 md:py-20 w-full">
+        <div className="max-w-xl md:max-w-2xl">
           {/* Label */}
 
 
@@ -122,9 +126,9 @@ export function Hero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="mb-6 text-white"
+            className="mb-4 md:mb-6 text-white"
             style={{
-              fontSize: 'clamp(2rem, 6vw, 5rem)',
+              fontSize: 'clamp(1.75rem, 5.5vw, 4.5rem)',
               lineHeight: '1.1',
               letterSpacing: '-0.02em'
             }}
@@ -149,8 +153,8 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="text-gray-200 mb-10 w-full md:w-[60%]"
-            style={{ fontSize: 'clamp(1rem, 2vw, 1.3rem)', lineHeight: '1.6' }}
+            className="text-gray-200 mb-12 sm:mb-10 w-full"
+            style={{ fontSize: 'clamp(0.875rem, 1.8vw, 1.2rem)', lineHeight: '1.5' }}
           >
             Advanced fluid sealing solutions designed for extreme pressure, temperature, and performance.
           </motion.p>
@@ -160,15 +164,15 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
-            className="flex flex-col sm:flex-row gap-4"
+            className="flex flex-col sm:flex-row gap-4 mt-[280px] sm:mt-0"
           >
             <Link href="/contact" className="group inline-flex items-center justify-center space-x-2 px-8 py-4 bg-[#e31e24] text-white tracking-wide hover:bg-[#c41a20] transition-all duration-300">
               <span>Talk to an Engineer</span>
-              <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform"/>
             </Link>
 
             <Link href="/products" className="group inline-flex items-center justify-center space-x-2 px-8 py-4 border-2 border-white text-white tracking-wide hover:bg-white hover:text-[#2b2a29] transition-all duration-300">
-              <Play className="w-4 h-4" />
+              <Play className="w-4 h-4"/>
               <span>Explore Solutions</span>
             </Link>
           </motion.div>
@@ -178,15 +182,15 @@ export function Hero() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 1.2 }}
-            className="mt-10 md:mt-16 grid grid-cols-2 md:grid-cols-4 gap-8"
+            className="mt-8 md:mt-16 grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8"
           >
             {[
               { value: '30+', label: 'Years Experience' },
               { value: '12', label: 'Core Industries' },
             ].map((stat, index) => (
               <div key={index} className="border-l-2 border-[#e31e24] pl-4">
-                <div className="text-3xl text-white mb-1">{stat.value}</div>
-                <div className="text-sm text-gray-300 tracking-wide uppercase">{stat.label}</div>
+                <div className="text-xl md:text-2xl text-white mb-1">{stat.value}</div>
+                <div className="text-[0.65rem] md:text-xs text-gray-300 tracking-wide uppercase">{stat.label}</div>
               </div>
             ))}
           </motion.div>

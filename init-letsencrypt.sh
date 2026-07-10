@@ -69,6 +69,7 @@ docker-compose -f docker-compose.prod.yml run --rm --entrypoint "\
     certbot certonly --webroot -w /var/www/certbot \
     --email $EMAIL \
     -d $DOMAIN \
+    -d www.$DOMAIN \
     --rsa-key-size 4096 \
     --agree-tos \
     --force-renewal" certbot
