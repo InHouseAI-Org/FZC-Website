@@ -1865,10 +1865,10 @@
     },
     {
       "id": 56,
-      "subcategoryId": 11,
+      "subcategoryId": 10,
       "name": "PE 104A",
       "slug": "pe-104a",
-      "material": "POLYIMIDE",
+      "material": "PTFE",
       "apiCertified": true,
       "shortDescription": "Advanced polyimide packing",
       "description": "PE 104A is designed for applications requiring ultra-low friction properties combined with high mechanical strength. Ideal for control valve applications demanding precise operation and exceptional durability.",
@@ -1901,12 +1901,12 @@
       "gallery": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA%20-%20104A/PA%20104A_Edited_2.webp",
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA%20-%20104A/PA%20104A_Edited_3.webp",
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA%20-%20104A/PA%20104A_Edited_4.webp"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA%20-%20104A/PA%20104A_Edited_4.JPG.webp"
       ],
       "images": [
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA%20-%20104A/PA%20104A_Edited_2.webp",
         "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA%20-%20104A/PA%20104A_Edited_3.webp",
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA%20-%20104A/PA%20104A_Edited_4.webp"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/PA%20-%20104A/PA%20104A_Edited_4.JPG.webp"
       ],
       "datasheet": "/datasheets/new_generated_html/PE_104A.html"
     },
@@ -2460,13 +2460,15 @@
       "slug": "gm-360",
       "material": "LAMINATED GRAPHITE",
       "apiCertified": false,
-      "shortDescription": "Laminated graphite ring gasket for high-temperature applications",
-      "description": "GM 360 is a premium laminated graphite ring gasket engineered for extreme temperature and pressure sealing applications. Features multiple layers of flexible graphite for superior conformability and sealing performance.",
-      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/S%20360/95_01.webp",
+      "shortDescription": "Stack gasket with graphite and stainless steel foils for superior sealing",
+      "description": "GM 360 Stack gasket are die formed rings manufactured from alternating Graphite foils & Stainless-Steel foils in circular cross section. The horizontal reinforcement of SS foil increases pressure resistance as well as mechanical strength. These gaskets have high Thermal and Dimensional stability, extremely low gas/liquid permeability, and are chemically inert.",
+      "image": "https://d24gq0kplkhyxr.cloudfront.net/assets/products/S%20360/Stack_Gasket_58_40_15_copy1.jpg",
       "specifications": {
-        "Temperature Range": "-200°C to +360°C",
-        "Pressure Rating": "Up to 200 bar",
-        "Material": "Multi-layer flexible graphite"
+        "pH Range": "0 ~ 14 (Universal)",
+        "Temperature (Oxidizing)": "650°C",
+        "Temperature (Reducing)": "2700°C",
+        "Pressure Rating": "50 bar",
+        "Material": "Graphite Foil + Stainless Steel Foil"
       },
       "technicalData": {
         "Thickness": "Available in various thicknesses",
@@ -2474,33 +2476,37 @@
         "Certification": "Shell MESC SPE 85/203"
       },
       "features": [
-        "Exceptional temperature resistance for high-heat applications",
-        "Multi-layer construction provides superior sealing capability",
-        "Excellent conformability to flange surfaces",
-        "Broad chemical resistance across diverse media",
-        "Outstanding thermal stability in demanding conditions"
+        "High Thermal Stability - Withstands extreme temperature ranges",
+        "Dimensional Stability - Maintains shape under pressure and temperature",
+        "Low Permeability - Extremely low gas/liquid permeability",
+        "Chemical Resistance - Resistant to acids, alkalis, and solvents",
+        "Pressure Surge Resistant - Handles sudden pressure changes",
+        "Thermal Shock Resistant - Withstands rapid temperature fluctuations",
+        "Chemically Inert - Non-reactive with most media",
+        "SS Reinforcement - Horizontal stainless steel foil for enhanced strength",
+        "Contamination Free - Pure materials ensure clean sealing"
       ],
       "applications": [
-        "Pressure seal valves",
-        "High-pressure steam systems",
-        "Power generation facilities",
-        "Petrochemical plants",
-        "Refining operations",
-        "High-temperature process equipment",
-        "Industrial valve sealing applications",
-        "Severe service conditions requiring high extrusion resistance"
+        "All types of Valves",
+        "Flanged connections",
+        "High-temperature equipment",
+        "Chemical processing equipment",
+        "Power generation systems",
+        "Oil & Gas applications",
+        "Steam systems",
+        "Hydrocarbon processing"
       ],
       "gallery": [
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/GM%20310C/GM%20310%20C-%2029_05.webp",
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/GM%20310C/GM%20310%20C-%2029_08.JPG.webp",
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/GM%20310C/GM%20310%20C-%2029_08_2.webp"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/S%20360/Stack_Gasket_58_40_15_copy1.jpg",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/S%20360/Stack_Gasket_18_10_6_copy1.jpg",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/S%20360/Stack_Gasket_58_40_15_copy2.jpg"
       ],
       "images": [
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/GM%20310C/GM%20310%20C-%2029_05.webp",
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/GM%20310C/GM%20310%20C-%2029_08.JPG.webp",
-        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/GM%20310C/GM%20310%20C-%2029_08_2.webp"
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/S%20360/Stack_Gasket_58_40_15_copy1.jpg",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/S%20360/Stack_Gasket_18_10_6_copy1.jpg",
+        "https://d24gq0kplkhyxr.cloudfront.net/assets/products/S%20360/Stack_Gasket_58_40_15_copy2.jpg"
       ],
-      "datasheet": "/datasheets/new_generated_html/GM_310C.html"
+      "datasheet": "/datasheets/new_generated_html/GM_360.html"
     },
     {
       "id": 68,

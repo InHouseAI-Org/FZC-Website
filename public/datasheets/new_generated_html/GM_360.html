@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GM 360 - Technical Datasheet</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; -webkit-print-color-adjust: exact; print-color-adjust: exact; color-adjust: exact; }
+        @page { size: A4 portrait; margin: 0; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; color: #2b2a29; background: white; width: 210mm; min-height: 290mm; margin: 0; padding: 0; }
+        .page-1 { width: 210mm; height: 290mm; background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%); position: relative; overflow: hidden; page-break-after: always; }
+        .header { padding: 20mm 15mm; display: flex; justify-content: center; align-items: center; }
+        .logo-section { color: white; text-align: center; }
+        .logo-section img { height: 200px; width: auto; }
+        .hero-section { position: relative; margin-top: 10px; height: 100%; background-image: url('../../power.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; }
+        .hero-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to right, rgba(43, 42, 41, 0.95) 0%, rgba(43, 42, 41, 0.7) 50%, transparent 100%); }
+        .hero-content { position: relative; z-index: 10; padding: 35mm 15mm 0 15mm; max-width: 150mm; }
+        .red-accent { width: 50mm; height: 4px; background: #e31e24; margin-bottom: 10mm; }
+        .product-name { font-size: 48pt; font-weight: 700; color: white; margin-bottom: 6mm; letter-spacing: -1.5px; line-height: 1.1; }
+        .product-tagline { font-size: 13pt; color: #ffffff; max-width: 140mm; line-height: 1.5; font-weight: 300; }
+        .page-2, .page-3, .page-4 { width: 210mm; height: 290mm; background: white; position: relative; page-break-after: always; }
+        .page-4 { page-break-after: auto; }
+        .page-2-header { background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%); padding: 12mm 15mm; color: white; }
+        .page-2-title { font-size: 28pt; font-weight: bold; }
+        .content-section { padding: 10mm 15mm; }
+        .description { font-size: 10pt; line-height: 1.5; color: #333; margin-bottom: 5mm; text-align: justify; }
+        .side-product-image {
+            float: right;
+            margin-left: 6mm;
+            margin-bottom: 4mm;
+        }
+
+        .product-image-container {
+            background: white;
+            border-radius: 5mm;
+
+            border: 3px solid #e31e24;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+
+        .product-image-small {
+            width: 85mm;
+            height: 55mm;
+            border-radius: 4mm;
+            object-fit: cover;
+            display: block;
+        }
+
+        .section-divider { height: 2px; background: #e31e24; margin: 5mm 0; }
+        .features-grid { display: flex; gap: 10mm; }
+        .features-column { flex: 1; }
+        .features-column h3 { font-size: 12pt; color: #2b2a29; margin-bottom: 3mm; padding-bottom: 2mm; border-bottom: 2px solid #e31e24; font-weight: 600; }
+        .feature-item { display: flex; margin-bottom: 3mm; font-size: 10pt; line-height: 1.8; }
+        .bullet { color: #e31e24; font-weight: bold; margin-right: 3mm; font-size: 8pt; margin-top: 0.8mm; }
+        .feature-text { flex: 1; color: #444; }
+        .benefits-box { background: linear-gradient(135deg, #e31e24 0%, #c41a20 100%); color: white; padding: 8mm; border-radius: 3mm; margin-bottom: 8mm; }
+        .benefits-box h3 { font-size: 14pt; margin-bottom: 4mm; }
+        .benefit-item { display: flex; align-items: flex-start; margin-bottom: 3mm; font-size: 9pt; line-height: 1.4; }
+        .benefit-item:last-child { margin-bottom: 0; }
+        .check-icon { color: white; font-weight: bold; margin-right: 3mm; font-size: 11pt; }
+        .tech-specs-section { margin-top: 2mm; }
+        .tech-specs-section h3 { font-size: 12pt; color: #2b2a29; margin-bottom: 3mm; padding-bottom: 2mm; border-bottom: 2px solid #e31e24; font-weight: 600; }
+        .tech-table { width: 100%; border-collapse: collapse; font-size: 9pt; }
+        .tech-table thead { background: linear-gradient(135deg, #2b2a29 0%, #1a1918 100%); color: white; }
+        .tech-table th { padding: 3mm; text-align: left; font-weight: 600; border: 1px solid #ddd; }
+        .tech-table td { padding: 2mm; border: 1px solid #ddd; color: #444; }
+        .tech-table tbody tr:nth-child(even) { background-color: #f9f9f9; }
+        .footer { position: absolute; bottom: 0; left: 0; right: 0; background: #2b2a29; color: white; padding: 8mm 15mm; }
+        .company-info { font-size: 7pt; line-height: 1.6; }
+        .company-name { font-size: 10pt; font-weight: bold; margin-bottom: 2mm; color: #e31e24; }
+        .contact-info { color: #ccc; }
+        .disclaimer { font-size: 6pt; color: #888; margin-top: 3mm; max-width: 160mm; }
+    </style>
+</head>
+<body>
+    <div class="page-1">
+        <div class="header">
+            <div class="logo-section">
+                <img src="../../../src/assets/inmarco-tagline-logo1.webp" alt="Inmarco">
+            </div>
+        </div>
+        <div class="hero-section">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <div class="red-accent"></div>
+                <h1 class="product-name">GM 360</h1>
+                <p class="product-tagline">Stack Gasket - Die Formed Graphite & Stainless Steel Rings for Superior Sealing Performance</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-2">
+        <div class="page-2-header">
+            <div>
+                <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
+                <h2 class="page-2-title">GM 360 Stack Gasket</h2>
+            </div>
+        </div>
+        <div class="content-section">
+            <div class="side-product-image">
+                <div class="product-image-container">
+                    <img src="../../FZC%20Inmarco%20Product%20Shoot/S%20360/Stack_Gasket_58_40_15_copy1.jpg" alt="GM 360 Stack Gasket" class="product-image-small" onerror="this.style.display='none'">
+                </div>
+            </div>
+            <p class="description">GM 360 Stack gasket are die formed rings manufactured from alternative Graphite foils & Stainless-Steel foils in circular cross section. The horizontal reinforcement of SS foil increases pressure resistance as well as mechanical strength.</p>
+            <p class="description">GM 360 Stack gasket is totally free from any kind of contamination. These gaskets are having high Thermal and Dimensional stability and extremely low gas/liquid permeability, very low Thermal Expansion and extremely high Chemical resistance.</p>
+            <p class="description">GM 360 Stack gasket adjusts to any irregularities under Moderate pressure and has resistance to Pressure Surge and Thermal shock. These packing rings are Chemically Inert and suitable for demanding industrial applications.</p>
+
+            <div class="section-divider"></div>
+
+            <div class="tech-specs-section">
+                <h3>Technical Properties</h3>
+                <table class="tech-table">
+                    <thead>
+                        <tr>
+                            <th>Property</th>
+                            <th>Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>pH Range</td>
+                            <td>0 ~ 14 (Universal)</td>
+                        </tr>
+                        <tr>
+                            <td>Temperature (Oxidizing Atmosphere)</td>
+                            <td>650°C</td>
+                        </tr>
+                        <tr>
+                            <td>Temperature (Reducing Atmosphere)</td>
+                            <td>2700°C</td>
+                        </tr>
+                        <tr>
+                            <td>Maximum Pressure</td>
+                            <td>50 bar</td>
+                        </tr>
+                        <tr>
+                            <td>Material Construction</td>
+                            <td>Graphite Foil + Stainless Steel Foil</td>
+                        </tr>
+                        <tr>
+                            <td>Cross Section</td>
+                            <td>Circular</td>
+                        </tr>
+                        <tr>
+                            <td>Manufacturing Process</td>
+                            <td>Die-formed stacked rings</td>
+                        </tr>
+                        <tr>
+                            <td>Contamination</td>
+                            <td>Free from contamination</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-3">
+        <div class="page-2-header">
+            <div>
+                <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
+                <h2 class="page-2-title">GM 360 Stack Gasket</h2>
+            </div>
+        </div>
+        <div class="content-section">
+            <div class="features-grid">
+                <div class="features-column">
+                    <h3>Key Features</h3>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">High Thermal Stability - Withstands extreme temperature ranges</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Dimensional Stability - Maintains shape under pressure and temperature</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Low Permeability - Extremely low gas/liquid permeability</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Chemical Resistance - Resistant to acids, alkalis, and solvents</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Pressure Surge Resistant - Handles sudden pressure changes</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Thermal Shock Resistant - Withstands rapid temperature fluctuations</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Chemically Inert - Non-reactive with most media</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Low Thermal Expansion - Minimal dimensional change with temperature</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Contamination Free - Pure materials ensure clean sealing</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">SS Reinforcement - Horizontal stainless steel foil for enhanced strength</span></div>
+                </div>
+                <div class="features-column">
+                    <h3>Applications</h3>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">All types of Valves</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Flanged connections</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">High-temperature equipment</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Chemical processing equipment</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Power generation systems</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Oil & Gas applications</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Steam systems</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Hydrocarbon processing</span></div>
+                </div>
+            </div>
+
+            <div class="section-divider"></div>
+
+            <h3 style="font-size: 12pt; color: #2b2a29; margin-bottom: 3mm; padding-bottom: 2mm; border-bottom: 2px solid #e31e24; font-weight: 600;">Service Media</h3>
+            <div class="features-grid">
+                <div class="features-column">
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Gas & Hot Air</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Water & Boiler Feed Water</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Super-Heated & Saturated Steam</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Hydrocarbons</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Thermic Fluid & Heat Transfer Fluids</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Acids & Alkalis</span></div>
+                </div>
+                <div class="features-column">
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Abrasive Media</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Grease & Lubricants</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Solvents & Chemicals</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Bitumen, Cement & Paints</span></div>
+                    <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Lube Oil & Fuel Oil</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-4">
+        <div class="page-2-header">
+            <div>
+                <div style="font-size: 11pt; color: #e31e24; margin-bottom: 3mm;">TECHNICAL DATASHEET</div>
+                <h2 class="page-2-title">GM 360 Stack Gasket</h2>
+            </div>
+        </div>
+        <div class="content-section">
+            <div class="benefits-box">
+                <h3>Performance Benefits</h3>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Die-formed construction from alternating graphite and stainless steel foils ensures superior sealing performance</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Horizontal SS foil reinforcement provides exceptional pressure resistance and mechanical strength</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Completely contamination-free design for critical applications requiring purity</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>High thermal and dimensional stability maintains sealing integrity under extreme conditions</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Extremely low gas and liquid permeability prevents fugitive emissions</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Very low thermal expansion ensures consistent sealing across temperature cycles</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Extremely high chemical resistance enables use with aggressive media</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Adjusts to flange irregularities under moderate pressure for reliable sealing</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Resistant to pressure surges and thermal shocks in dynamic operating conditions</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Chemically inert construction compatible with universal pH range (0-14)</span></div>
+                <div class="benefit-item"><span class="check-icon">✓</span><span>Suitable for use in oxidizing atmospheres up to 650°C and reducing atmospheres up to 2700°C</span></div>
+            </div>
+
+            <div class="section-divider"></div>
+
+            <div class="features-column">
+                <h3>Installation Guidelines</h3>
+                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Ensure flange faces are clean and smooth before installation</span></div>
+                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Center gasket properly on flange to ensure even compression</span></div>
+                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Apply uniform bolt torque in a cross-pattern sequence</span></div>
+                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Follow recommended torque specifications for your application</span></div>
+                <div class="feature-item"><span class="bullet">●</span><span class="feature-text">Re-torque after initial heat-up if required by application</span></div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="company-info">
+                <div class="company-name">Inmarco FZC</div>
+                <div class="contact-info">
+                    P.O. Box 120284, Sharjah Airport International Free Zone (SAIF-Zone), Sharjah, UAE<br>
+                    Tel: +971 6 5578378 | Fax: +971 6 5578948<br>
+                    Email: sales@inmarco.ae | Web: www.inmarco.ae
+                </div>
+                <div class="disclaimer">All technical information, recommendations, and performance data provided in this technical datasheet are based on current knowledge, laboratory testing, and/or industrial experience. Actual product performance may vary depending on operating conditions, equipment design, installation practices, process parameters. Final product selection and suitability should be determined by the user based on the specific service conditions and application requirements.</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
