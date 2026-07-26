@@ -7,6 +7,10 @@ const nextConfig: NextConfig = {
   allowedDevOrigins: ['192.168.1.174', '192.168.1.36'],
   // Enable gzip compression
   compress: true,
+  // Expose environment variables to the client
+  env: {
+    NEXT_PUBLIC_TURNSTILE_SITE_KEY: process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY,
+  },
   typescript: {
     // !! WARN !!
     // Dangerously allow production builds to successfully complete even if
