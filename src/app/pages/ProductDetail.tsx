@@ -59,7 +59,7 @@ export default function ProductDetail() {
   }
 
   // Handle download datasheet
-  const handleDownload = async (email: string) => {
+  const handleDownload = async (email: string, captchaToken?: string, honeypot?: string) => {
     if (!product.datasheet) return;
 
     setIsLoading(true);
@@ -75,6 +75,8 @@ export default function ProductDetail() {
           productName: product.name,
           productSlug: product.slug,
           datasheetUrl,
+          captchaToken,
+          honeypot,
         }),
       });
 
@@ -99,7 +101,7 @@ export default function ProductDetail() {
   };
 
   // Handle share datasheet
-  const handleShare = async (email: string) => {
+  const handleShare = async (email: string, captchaToken?: string, honeypot?: string) => {
     if (!product.datasheet) return;
 
     setIsLoading(true);
@@ -115,6 +117,8 @@ export default function ProductDetail() {
           productName: product.name,
           productSlug: product.slug,
           datasheetUrl,
+          captchaToken,
+          honeypot,
         }),
       });
 
@@ -137,11 +141,11 @@ export default function ProductDetail() {
   };
 
   // Handle modal submit based on mode
-  const handleModalSubmit = (email: string) => {
+  const handleModalSubmit = (email: string, captchaToken?: string, honeypot?: string) => {
     if (modalMode === 'download') {
-      handleDownload(email);
+      handleDownload(email, captchaToken, honeypot);
     } else {
-      handleShare(email);
+      handleShare(email, captchaToken, honeypot);
     }
   };
 

@@ -1,15 +1,23 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { X, Mail, Download, Share2 } from 'lucide-react';
+import Script from 'next/script';
 
 interface EmailModalProps {
   isOpen: boolean;
   onClose: () => void;
-  onSubmit: (email: string) => void;
+  onSubmit: (email: string, captchaToken?: string, honeypot?: string) => void;
   mode: 'download' | 'share';
   productName: string;
   isLoading?: boolean;
+}
+
+// Declare Turnstile on window
+declare global {
+  interface Window {
+    turnstile?: any;
+  }
 }
 
 export default function EmailModal({
@@ -22,6 +30,55 @@ export default function EmailModal({
 }: EmailModalProps) {
   const [email, setEmail] = useState('');
   const [error, setError] = useState('');
+  const [honeypot, setHoneypot] = useState('');
+  const [captchaToken, setCaptchaToken] = useState<string>('');
+  const [turnstileReady, setTurnstileReady] = useState(false);
+  const turnstileContainerRef = useRef<HTMLDivElement>(null);
+  const widgetIdRef = useRef<string | null>(null);
+
+  // Get site key from environment
+  const siteKey = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY;
+
+  // Reset Turnstile when modal opens/closes
+  useEffect(() => {
+    if (isOpen && turnstileReady && window.turnstile && siteKey && turnstileContainerRef.current) {
+      // Render Turnstile widget
+      try {
+        if (widgetIdRef.current) {
+          window.turnstile.remove(widgetIdRef.current);
+          widgetIdRef.current = null;
+        }
+
+        widgetIdRef.current = window.turnstile.render(turnstileContainerRef.current, {
+          sitekey: siteKey,
+          callback: (token: string) => {
+            setCaptchaToken(token);
+          },
+          'error-callback': () => {
+            setError('CAPTCHA failed. Please try again.');
+            setCaptchaToken('');
+          },
+          'expired-callback': () => {
+            setCaptchaToken('');
+          },
+        });
+      } catch (err) {
+        console.error('Failed to render Turnstile:', err);
+      }
+    }
+
+    return () => {
+      // Cleanup on unmount or when modal closes
+      if (widgetIdRef.current && window.turnstile) {
+        try {
+          window.turnstile.remove(widgetIdRef.current);
+          widgetIdRef.current = null;
+        } catch (err) {
+          console.error('Failed to remove Turnstile:', err);
+        }
+      }
+    };
+  }, [isOpen, turnstileReady, siteKey]);
 
   if (!isOpen) return null;
 
@@ -44,47 +101,65 @@ export default function EmailModal({
       return;
     }
 
-    onSubmit(email);
+    // Check CAPTCHA (only if configured)
+    if (siteKey && !captchaToken) {
+      setError('Please complete the security check');
+      return;
+    }
+
+    onSubmit(email, captchaToken, honeypot);
   };
 
   const handleClose = () => {
     if (!isLoading) {
       setEmail('');
       setError('');
+      setHoneypot('');
+      setCaptchaToken('');
       onClose();
     }
   };
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50 p-4">
-      <div className="bg-white rounded-lg shadow-2xl max-w-md w-full animate-fadeIn">
-        {/* Header */}
-        <div className="flex items-center justify-between p-6 border-b border-gray-200">
-          <div className="flex items-center space-x-3">
-            {mode === 'download' ? (
-              <div className="p-2 bg-red-50 rounded-lg">
-                <Download className="w-5 h-5 text-[#e31e24]" />
-              </div>
-            ) : (
-              <div className="p-2 bg-red-50 rounded-lg">
-                <Share2 className="w-5 h-5 text-[#e31e24]" />
-              </div>
-            )}
-            <h2 className="text-xl font-semibold text-gray-900">
-              {mode === 'download' ? 'Download Datasheet' : 'Share Datasheet'}
-            </h2>
-          </div>
-          <button
-            onClick={handleClose}
-            disabled={isLoading}
-            className="text-gray-400 hover:text-gray-600 transition-colors disabled:opacity-50"
-          >
-            <X className="w-5 h-5" />
-          </button>
-        </div>
+    <>
+      {/* Load Cloudflare Turnstile script */}
+      {siteKey && (
+        <Script
+          src="https://challenges.cloudflare.com/turnstile/v0/api.js"
+          onLoad={() => setTurnstileReady(true)}
+          strategy="lazyOnload"
+        />
+      )}
 
-        {/* Body */}
-        <form onSubmit={handleSubmit} className="p-6">
+      <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50 p-4">
+        <div className="bg-white rounded-lg shadow-2xl max-w-md w-full animate-fadeIn">
+          {/* Header */}
+          <div className="flex items-center justify-between p-6 border-b border-gray-200">
+            <div className="flex items-center space-x-3">
+              {mode === 'download' ? (
+                <div className="p-2 bg-red-50 rounded-lg">
+                  <Download className="w-5 h-5 text-[#e31e24]" />
+                </div>
+              ) : (
+                <div className="p-2 bg-red-50 rounded-lg">
+                  <Share2 className="w-5 h-5 text-[#e31e24]" />
+                </div>
+              )}
+              <h2 className="text-xl font-semibold text-gray-900">
+                {mode === 'download' ? 'Download Datasheet' : 'Share Datasheet'}
+              </h2>
+            </div>
+            <button
+              onClick={handleClose}
+              disabled={isLoading}
+              className="text-gray-400 hover:text-gray-600 transition-colors disabled:opacity-50"
+            >
+              <X className="w-5 h-5" />
+            </button>
+          </div>
+
+          {/* Body */}
+          <form onSubmit={handleSubmit} className="p-6">
           <div className="mb-4">
             <p className="text-sm text-gray-600 mb-4">
               {mode === 'download'
@@ -121,6 +196,27 @@ export default function EmailModal({
               <p className="mt-2 text-sm text-red-600">{error}</p>
             )}
           </div>
+
+          {/* Honeypot field - hidden from real users, visible to bots */}
+          <div style={{ position: 'absolute', left: '-9999px', opacity: 0, pointerEvents: 'none' }} aria-hidden="true">
+            <label htmlFor="website_url">Website (leave blank)</label>
+            <input
+              type="text"
+              id="website_url"
+              name="website_url"
+              value={honeypot}
+              onChange={(e) => setHoneypot(e.target.value)}
+              tabIndex={-1}
+              autoComplete="off"
+            />
+          </div>
+
+          {/* Cloudflare Turnstile CAPTCHA */}
+          {siteKey && (
+            <div className="mb-4">
+              <div ref={turnstileContainerRef} className="flex justify-center" />
+            </div>
+          )}
 
           <div className="bg-gray-50 rounded-lg p-4 mb-6">
             <p className="text-xs text-gray-600">
@@ -163,7 +259,8 @@ export default function EmailModal({
             </button>
           </div>
         </form>
+        </div>
       </div>
-    </div>
+    </>
   );
 }
