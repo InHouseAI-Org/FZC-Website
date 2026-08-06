@@ -3,6 +3,14 @@
 import { motion, AnimatePresence } from 'motion/react';
 import { MapPin, Phone, Mail, Clock, ChevronDown } from 'lucide-react';
 import { useState, useRef, useEffect } from 'react';
+import Script from 'next/script';
+
+// Declare Turnstile on window
+declare global {
+  interface Window {
+    turnstile?: any;
+  }
+}
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -19,7 +27,15 @@ export default function Contact() {
     type: 'success' | 'error' | null;
     message: string;
   }>({ type: null, message: '' });
+  const [honeypot, setHoneypot] = useState('');
+  const [captchaToken, setCaptchaToken] = useState<string>('');
+  const [turnstileReady, setTurnstileReady] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
+  const turnstileContainerRef = useRef<HTMLDivElement>(null);
+  const widgetIdRef = useRef<string | null>(null);
+
+  // Get site key from environment
+  const siteKey = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY;
 
   const enquiryTypes = [
     { value: 'sales', label: 'Sales Enquiry' },
@@ -33,13 +49,27 @@ export default function Contact() {
     setIsSubmitting(true);
     setSubmitStatus({ type: null, message: '' });
 
+    // Check CAPTCHA (only if configured)
+    if (siteKey && !captchaToken) {
+      setSubmitStatus({
+        type: 'error',
+        message: 'Please complete the security check below.',
+      });
+      setIsSubmitting(false);
+      return;
+    }
+
     try {
       const response = await fetch('/api/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify(formData),
+        body: JSON.stringify({
+          ...formData,
+          captchaToken,
+          honeypot,
+        }),
       });
 
       const data = await response.json();
@@ -58,6 +88,12 @@ export default function Contact() {
           enquiryType: 'sales',
           message: '',
         });
+        setHoneypot('');
+        setCaptchaToken('');
+        // Reset Turnstile widget
+        if (widgetIdRef.current && window.turnstile) {
+          window.turnstile.reset(widgetIdRef.current);
+        }
       } else {
         setSubmitStatus({
           type: 'error',
@@ -102,6 +138,50 @@ export default function Contact() {
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
+  // Initialize Turnstile CAPTCHA
+  useEffect(() => {
+    if (turnstileReady && window.turnstile && siteKey && turnstileContainerRef.current) {
+      // Render Turnstile widget
+      try {
+        if (widgetIdRef.current) {
+          window.turnstile.remove(widgetIdRef.current);
+          widgetIdRef.current = null;
+        }
+
+        widgetIdRef.current = window.turnstile.render(turnstileContainerRef.current, {
+          sitekey: siteKey,
+          callback: (token: string) => {
+            setCaptchaToken(token);
+          },
+          'error-callback': () => {
+            setSubmitStatus({
+              type: 'error',
+              message: 'CAPTCHA failed. Please refresh the page and try again.',
+            });
+            setCaptchaToken('');
+          },
+          'expired-callback': () => {
+            setCaptchaToken('');
+          },
+        });
+      } catch (err) {
+        console.error('Failed to render Turnstile:', err);
+      }
+    }
+
+    return () => {
+      // Cleanup on unmount
+      if (widgetIdRef.current && window.turnstile) {
+        try {
+          window.turnstile.remove(widgetIdRef.current);
+          widgetIdRef.current = null;
+        } catch (err) {
+          console.error('Failed to remove Turnstile:', err);
+        }
+      }
+    };
+  }, [turnstileReady, siteKey]);
+
   const contactInfo = [
     {
       icon: MapPin,
@@ -126,8 +206,18 @@ export default function Contact() {
   ];
 
   return (
-    <main className="bg-[#2b2a29]">
-      {/* Hero Section */}
+    <>
+      {/* Load Cloudflare Turnstile script */}
+      {siteKey && (
+        <Script
+          src="https://challenges.cloudflare.com/turnstile/v0/api.js"
+          onLoad={() => setTurnstileReady(true)}
+          strategy="lazyOnload"
+        />
+      )}
+
+      <main className="bg-[#2b2a29]">
+        {/* Hero Section */}
       <section className="relative py-24 bg-[#1a1918]">
         <div className="max-w-[1400px] mx-auto px-6 py-12 lg:px-12">
           <motion.div
@@ -293,6 +383,27 @@ export default function Contact() {
                   />
                 </div>
 
+                {/* Honeypot field - hidden from real users, visible to bots */}
+                <div style={{ position: 'absolute', left: '-9999px', opacity: 0, pointerEvents: 'none' }} aria-hidden="true">
+                  <label htmlFor="website_url">Website (leave blank)</label>
+                  <input
+                    type="text"
+                    id="website_url"
+                    name="website_url"
+                    value={honeypot}
+                    onChange={(e) => setHoneypot(e.target.value)}
+                    tabIndex={-1}
+                    autoComplete="off"
+                  />
+                </div>
+
+                {/* Cloudflare Turnstile CAPTCHA */}
+                {siteKey && (
+                  <div className="flex justify-center">
+                    <div ref={turnstileContainerRef} />
+                  </div>
+                )}
+
                 {/* Status Message */}
                 <AnimatePresence>
                   {submitStatus.type && (
@@ -415,5 +526,6 @@ export default function Contact() {
         </div>
       </section>
     </main>
+    </>
   );
 }
