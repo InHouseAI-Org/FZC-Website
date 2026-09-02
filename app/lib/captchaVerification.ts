@@ -44,23 +44,32 @@ export async function verifyTurnstileToken(
   }
 
   try {
-    const formData = new URLSearchParams();
-    formData.append('secret', secretKey);
-    formData.append('response', token);
-
-    if (remoteIp) {
-      formData.append('remoteip', remoteIp);
-    }
+    console.log('[DEBUG] Turnstile verification attempt:', {
+      tokenLength: token.length,
+      tokenPrefix: token.substring(0, 20),
+      remoteIp: remoteIp || 'none',
+      secretKeyPrefix: secretKey.substring(0, 15),
+    });
 
     const response = await fetch('https://challenges.cloudflare.com/turnstile/v0/siteverify', {
       method: 'POST',
       headers: {
-        'Content-Type': 'application/x-www-form-urlencoded',
+        'Content-Type': 'application/json',
       },
-      body: formData.toString(),
+      body: JSON.stringify({
+        secret: secretKey,
+        response: token,
+        remoteip: remoteIp,
+      }),
     });
 
     const data: TurnstileVerificationResult = await response.json();
+
+    console.log('[DEBUG] Turnstile verification result:', {
+      success: data.success,
+      errorCodes: data['error-codes'],
+      hostname: data.hostname,
+    });
 
     if (!data.success) {
       console.error('Turnstile verification failed:', data['error-codes']);
