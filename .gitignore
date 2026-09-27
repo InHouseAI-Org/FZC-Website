@@ -87,3 +87,6 @@ public/*.webp
 fzc-website.pemtest.pdf
 *.pem
 public/datasheets/pdfs
+public/datasheets/pdf/Insulation_Gasket_Kit_1800_FS.pdf
+public/datasheets/pdf/ULTRA_FE_1003.pdf
+.gitignore
