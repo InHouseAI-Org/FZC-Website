@@ -1990,10 +1990,10 @@
         "Application Type": "Fugitive emission valve sealing applications"
       },
       "technicalData": {
-        "Certification": "● Tested and certified by Yarmouth Research and Technology, USA"
+        "Certification": "● Tested and certified as per API 622 3rd edition"
       },
       "features": [
-        "API 622 certified with ultra-low emission performance below 20 ppm",
+        "API 622 certified with ultra-low emission performance",
         "API 607 compliant with zero leakage during and after fire exposure",
         "Minimizes equipment maintenance while delivering exceptional performance",
         "Ultra-low oxidation ensures superior resistance to thermal cycling",
@@ -2100,11 +2100,11 @@
         "Fire Safety": "Fire-safe compliant"
       },
       "technicalData": {
-        "Certification": "API 622 (Latest Edition)"
+        "Certification": "API 622 3rd edition, ISO 15848"
       },
       "features": [
         "High-purity graphite with exclusive impregnation technology and thermal stability",
-        "Low detrimental material content provides virtually zero loss at elevated temperatures",
+        "API 622 3rd edition certified with ultra-low emission performance",
         "Proprietary impregnation technology ensures friction-free performance even at high endurance",
         "Flexible ring configuration suitable for shallow stuffing box applications",
         "Supports evolving environmental compliance and ambitious Net Zero emission targets",
@@ -2511,7 +2511,7 @@
     {
       "id": 68,
       "categoryId": 4,
-      "name": "INSULATION GASKET KIT 1800 FS",
+      "name": "ISOLATION GASKET KIT 1800 FS",
       "slug": "insulation-gasket-kit-1800-fs",
       "material": "FLANGE ISOLATION",
       "apiCertified": true,
@@ -3365,7 +3365,7 @@
     },
     {
       "id": 85,
-      "subcategoryId": 17,
+      "subcategoryId": 18,
       "name": "SST 323",
       "slug": "sst-323",
       "material": "Graphite",
